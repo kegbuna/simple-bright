@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/httpclient-4.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/commons-codec-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/kinetic-adapter.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/kdi_arshelpers.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/jruby-complete-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/json_simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/kinetic-cloner-lib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/kinetic-bridges.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/org.json-20120521.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/xml-apis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/kinetic-request-attachment-download.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/commons-io-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/castor-1.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/serializer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/KineticSurveyRequest_V5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/xalan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/jruby-complete-1.6.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/xercesImpl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/j2ee.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/kinetic-profiling.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/arapi80_build001.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/httpcore-4.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/kinetic-ars-xml-helpers.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/commons-fileupload-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/kinetic-bridges-adapter-ars.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/commons-logging-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/lib/commons-discovery-0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,51 @@
+<%!
+    public static class WorkOrderWorkLog extends BridgeBase {
+        private static final Class CLASS = WorkOrderWorkLog.class;
+        private static final String MODEL_NAME = "WorkOrder Work Info";
+        public WorkOrderWorkLog() {}
+
+        public static BridgeList<WorkOrderWorkLog> findByWorkOrderId(HelperContext context, String templateId, String workOrderId) {
+            String qualification = "By WorkOrder Id";
+            Map<String, String> parameters = new java.util.HashMap<String, String>();
+            parameters.put("Work Order Id", workOrderId);
+            Map<String, String> metadata = new java.util.HashMap<String, String>();
+            /**
+             * This metadata sets a sort on id
+             * Sorting is required on at least one attribute other than description with over 255 characters or things will break
+             * The bridge syntax has to be delimited as a string otherwise it will be interpreted as java code
+             */
+            metadata.put("order", "<"+"%=attribute[\"SubmitDate\"]%"+">:DESC");
+            return BridgeBase.search(context, templateId, MODEL_NAME, qualification, parameters, metadata, CLASS);
+        }
+
+        public String getAttachment1Url(Bundle bundle) {
+            //return "DownloadAttachment/" + get("MetaFormName") + "/" + get("MetaAttachment1FieldId") + "/" + getId();
+            return "DownloadAttachment/" + "WOI:WorkInfo/1000000351/" + getId();
+        }
+
+        public String getAttachment2Url(Bundle bundle) {
+            //return "DownloadAttachment/" + get("MetaFormName") + "/" + get("MetaAttachment2FieldId") + "/" + getId();
+            return "DownloadAttachment/" + "WOI:WorkInfo/1000000352/" + getId();
+        }
+
+        public String getAttachment3Url(Bundle bundle) {
+            //return "DownloadAttachment/" + get("MetaFormName") + "/" + get("MetaAttachment3FieldId") + "/" + getId();
+            return "DownloadAttachment/" + "WOI:WorkInfo/1000000353/" + getId();
+        }
+
+        /**
+         * ChangeWorkLog extends Bridge base so get is avaliable
+         */
+        public String getId() { return get("Id"); }
+        public String getSubmitter() { return get("Submitter"); }
+        public String getSubmitDate() { return get("SubmitDate"); }
+        public String getSummary()
+        {
+            return get("Summary");
+        }
+        public String getNotes() { return get("Notes"); }
+        public String getAttachment1() { return get("Attachment1"); }
+        public String getAttachment2() { return get("Attachment2"); }
+        public String getAttachment3() { return get("Attachment3"); }
+    }
+%>  

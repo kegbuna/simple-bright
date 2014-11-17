@@ -1,0 +1,125 @@
+body,html{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 7%, #e0e3e5 13%, #ffffff 18%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(7%,#2989d8), color-stop(13%,#e0e3e5), color-stop(18%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 7%,#e0e3e5 13%,#ffffff 18%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 7%,#e0e3e5 13%,#ffffff 18%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 7%,#e0e3e5 13%,#ffffff 18%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 7%,#e0e3e5 13%,#ffffff 18%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+#contentFrame{
+	width:60em;
+	margin:0 auto;
+	background:#FFFFFF;
+}
+
+#header{
+	height:60px;
+	border-top:2px solid #1E5799;
+	border-bottom:5px solid #E0E3E5;
+	background-image:url('../images/column-logo.png');
+	background-repeat:no-repeat;
+	background-position:5px 0;
+}
+
+form#pageQuestionsForm{
+	padding:0.5em;
+	font-family:Arial, sans-serif, Verdana;
+	font-size:0.85em;
+}
+
+div.questionLayer{
+	width:36em;
+	margin-bottom:1em;
+	height:1.5em;
+}
+
+div.questionLayer.textarea{
+	height:6em;
+}
+
+div.questionLayer.textarea div.questionAnswer{
+	height:6em;
+}
+
+div.questionLayer.textarea.validate60{
+	height:7em;
+}
+
+div.questionLayer.attach{
+	height:4em;
+}
+
+div.questionLabel{
+	width:10em;
+	float:left;
+	height:1.4em;
+	padding-top:0.2em;
+}
+
+div.questionAnswer{
+	width:26em;
+	float:right;
+	height:1.6em;
+}
+
+div.questionAnswer input{
+	width:26em;
+	border:1px solid #E0E3E5;
+	height:1.3em;
+}
+
+div.questionAnswer a{
+	display:block;
+	width:26em;
+}
+
+div.questionAnswer textarea{
+	width:25.7em;
+	resize:none;
+	border:1px solid #E0E3E5;
+	height:5.5em;
+}
+
+div.questionLayer.attach input.templateButton{
+	width:10em;
+	margin-top:0.5em;
+	margin-right:0.4em;
+	height:1.6em;
+	cursor:pointer;
+	float:right;
+	background:#E0E3E5;
+	font-weight:bold;
+}
+
+div.questionLayer.attach input.templateButton:hover{
+	background:#1e5799;
+}
+
+div.min-text{
+	float:right;
+	margin-right:0.5em;
+	font-size:0.8em;
+	font-style:italic;
+}	
+
+input.templateButton.btn-success{
+	width:10em;
+	height:1.6em;
+	margin-top:2em;
+	cursor:pointer;
+	background:#E0E3E5;
+	font-weight:bold;
+	border:none;
+}
+
+input.templateButton.btn-success:hover{
+	background:#1E5799;
+}

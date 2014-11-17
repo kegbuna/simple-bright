@@ -1,0 +1,9 @@
+<%-- Set the values of the themes configurable settings. --%>
+<%
+    bundle.setProperty("rkmAdminUsername", systemContext.getUserName());
+    bundle.setProperty("rkmAdminPassword", systemContext.getPassword());
+    bundle.setProperty("rkmServer", "njundvbmcrkap01");
+    bundle.setProperty("rkmLocale", "");
+    bundle.setProperty("rkmPort", "2020");
+    bundle.setProperty("commentUrl", pathHelper.templateNameUrl("RKMComment"));
+%>

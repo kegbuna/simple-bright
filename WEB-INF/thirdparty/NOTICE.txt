@@ -1,0 +1,121 @@
+Kinetic Request v5.1
+List of Third Party Software
+
+
+
+Apache Commons Codec
+Java encoding utilities.
+Version 1.5
+Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+http://commons.apache.org/codec/
+
+
+Apache Commons Discovery
+Java library tools for locating resources by mapping service/reference names to
+resource names.
+Version 0.2
+Apache License, Version 2.0
+http://commons.apache.org/discovery/license.html
+http://commons.apache.org/discovery/
+
+
+Apache Commons IO
+Collection of I/O utilities for Java
+Version 1.2
+Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+http://commons.apache.org/io/
+
+
+Apache Commons Lang
+Package of Java utility classes for the classes that are in java.lang's hierarchy,
+or are considered to be so standard as to justify existence in java.lang.
+Version 3.1
+Apache License, Version 2.0
+http://commons.apache.org/lang/license.html
+http://commons.apache.org/lang/
+
+
+Apache Commons Logging
+Java library that provides a thin adapter allowing configurable bridging to
+other, well known logging systems.
+Version 1.1
+Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+http://commons.apache.org/logging/
+
+
+Apache Commons FileUpload
+File upload capability for Java servlets and web applications.
+Version 1.2.1
+Apache License, Version 2.0
+http://commons.apache.org/fileupload/license.html
+http://commons.apache.org/fileupload/
+
+
+Apache Commons HttpClient
+Java library for client-side HTTP communication.
+Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+http://projects.apache.org/projects/commons_httpclient.html
+
+
+Apache Log4j
+Logging library for Java.
+Version 1.2.15
+Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+http://logging.apache.org/log4j/1.2/
+
+
+Castor
+Data binding framework for moving data from XML to Java objects
+Version 1.0.5
+Apache License, Version 2.0
+http://castor.codehaus.org/license.html
+http://castor.codehaus.org/index.html
+
+
+JRuby
+Ruby programming language on the JVM
+Version 1.6.5
+CPL/GPL/LGPL
+https://github.com/jruby/jruby/blob/master/COPYING
+http://jruby.org/
+
+
+JSON Simple
+Java toolkit for JSON.
+Version 1.1
+Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+http://code.google.com/p/json-simple/
+
+
+Xalan
+Java XSLT processor for transforming XML documents.
+Version 2.7.1
+Apache License, Version 2.0
+http://xml.apache.org/xalan-j/#license
+http://xml.apache.org/xalan-j/
+
+
+Xerces
+Java XML parser.
+Version 2.10.0
+Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+http://xerces.apache.org/xerces-j/
+
+
+YUI
+Javascript framework library.
+Software License Agreement (BSD License)
+Version 2.8.1
+Copyright © 2012 Yahoo! Inc. All rights reserved.
+BSD License
+http://yuilibrary.com/license/
+http://developer.yahoo.com/yui/2/
+
+

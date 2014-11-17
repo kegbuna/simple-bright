@@ -1,0 +1,27 @@
+<%
+	Person thisUser = Person.findByUsername(context, context.getUserName());
+
+%>
+<style>
+</style>
+<div class="site-header">
+    <div class="site-header-content">
+        <a href="http://laheyhealth.org" class="logo">
+            Lahey Health
+        </a>
+        <div class="search">
+            <input id="SearchInput" type="text" title="Search" value="Search" class="search-input">
+            <a href="#" class="search-icon">
+                Go
+            </a>
+        </div>
+        <nav class="nav-bar">
+            <ul class="nav-items">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">My Stuff</li>
+                <li class="nav-item">Third Option</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+

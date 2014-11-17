@@ -1,0 +1,144 @@
+/* CSS Document */
+
+.standard_box{
+border:1px solid #cccccc;
+padding:3px;
+margin:3px;
+}
+
+/* External Set Fields Selection Boxes */
+.multItemsHeader{
+font-weight:bold;
+font-size:.8em;
+margin-left:2px;
+}
+.resultsTable{
+font-size:10px;
+color:black;
+}
+resultsTable td{
+cursor:pointer;
+}
+.resultsTable th{
+font-size:1.2em;
+font-weight:bold;
+background-color:#666666;
+text-align:left;
+color:white;
+padding:2px;
+}
+.resultsTableHover{
+background-color:#FFFFCC;
+}
+.resultsTable tr.row_odd{
+background-color:#CCCCCC;
+}
+/* End External Set Fields Items*/
+
+
+/* Advanced External Set Fields Selection Boxes */
+.multItemsHeader{
+font-weight:bold;
+font-size:.8em;
+margin-left:2px;
+}
+.resultsTableAdv{
+font-size:10px;
+color:black;
+}
+resultsTableAdv td{
+cursor:pointer;
+}
+.resultsTableAdv th{
+font-size:1.2em;
+font-weight:bold;
+background-color:#666666;
+text-align:left;
+color:white;
+padding:2px;
+}
+.resultsTableHover{
+background-color:#FFFFCC;
+}
+.resultsTableAdv tr.row_odd{
+background-color:#CCCCCC;
+}
+/* End Advanced External Set Fields Items*/
+
+
+/* Simple Login Dialog */
+.simpleLoginLayer {
+	font: 13px/1.2em Helvetica, Arial, sans-serif;
+}
+.simpleLoginLayer .hd {
+	font-size: 15px;
+}
+.simpleLoginLayer .bd {
+	padding: 1em;
+}
+.simpleLoginLayer .ft {
+	padding: 0 1em 1em;
+}
+#simpleLogin .ft .yui-button button {
+    color: #000000;
+}
+.simpleLoginLayer input {
+	margin-bottom: 0.3em;
+}
+.simpleLoginLayer .simpleLoginLabel {
+	display: block;
+	float: left;
+	width: 9em;
+}
+.simpleLoginLayer #simpleLoginMsg {
+	color: #8A0000;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	border: 2px solid #DD0000;
+	background-color: #FEF8F8;
+}
+
+
+/* Form Validation Alert Panel */
+#validationAlert {
+    width: 450px;
+    font-size: 0.8em;
+    color: #333333;
+}
+#validationAlert div.hd {
+    background: #cfcecf url("../catalogIcons/grayBarBg.gif") repeat-x left top;
+    font-weight: bold;
+    color: #000000;
+}
+#validationAlert div.bd {
+    padding: 10px 20px;
+    background-color: #ece9d8;
+}
+#validationAlert div.bd div.warningTitle {
+    margin-bottom: 1em;
+}
+#validationAlert div.bd div.warningTitle h3 {
+    background: url("../js/yui/build/container/assets/warn16_1.gif") no-repeat left top;
+    font-weight: bold;
+    font-size: 13px;
+    padding:0;
+    padding-left: 2em;
+    margin:0;
+
+}
+#validationAlert div.ft {
+    text-align: right;
+    padding: 0px 10px 5px;
+    background-color: #ece9d8;
+}
+#validationAlert ul {
+    margin-top:0;
+    margin-bottom:0;
+    line-height: 1.2;
+}
+#validationAlert ul.requiredList {
+}
+#validationAlertOk {
+    padding: 2px 25px;
+    font-size: 0.9em;
+}

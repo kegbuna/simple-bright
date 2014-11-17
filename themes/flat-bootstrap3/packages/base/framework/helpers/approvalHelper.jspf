@@ -1,0 +1,26 @@
+<%@ page import="org.apache.http.client.HttpClient" %>
+<%@ page import="org.apache.http.params.HttpParams" %>
+<%@ page import="org.apache.http.conn.ClientConnectionManager" %>
+<%@ page import="org.apache.http.HttpResponse" %>
+<%@ page import="org.apache.http.client.methods.HttpUriRequest" %>
+<%@ page import="org.apache.http.client.ClientProtocolException" %>
+<%@ page import="org.apache.http.protocol.HttpContext" %>
+<%@ page import="org.apache.http.HttpHost" %>
+<%@ page import="org.apache.http.HttpRequest" %>
+<%@ page import="org.apache.http.client.ResponseHandler" %>
+<%@ page import="org.apache.http.impl.client.DefaultHttpClient" %>
+<%@ page import="org.apache.http.client.methods.HttpGet" %>
+
+<%
+    SubmissionConsole submission = SubmissionConsole.findByInstanceId(context, catalog, request.getParameter("csrv"));
+    SubmissionConsole originalReq = SubmissionConsole.findByInstanceId(context, catalog, submission.getOriginatingId());
+
+    HttpClient review = new DefaultHttpClient();
+    HttpHost host = new HttpHost("localhost");
+
+    String reviewUri = "ReviewRequest?excludeByName=Review%20Page&csrv=" + submission.getOriginatingId() + "&embedded=true";
+
+
+    HttpGet getReview = new HttpGet(reviewUri);
+
+%>

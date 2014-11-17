@@ -1,0 +1,369 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html, div
+{
+	vertical-align: middle;
+}
+/* HEADER */
+#logoHolder
+{
+	text-align: center;
+}
+#logoHolder img
+{
+	display:inline-block;
+	max-height: 35px;
+}
+.myIT
+{
+	font-size: 20px;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: left;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+.navbar-default
+{
+    background-color: #384A9C;
+    border: 0;
+}
+.navbar-default .navbar-text
+{
+    color: #fff;
+	margin-left: 0;
+	float:right;
+}
+.navbar-default .navbar-collapse
+{
+    border-color: #384A9C;
+}
+.collapse.navbar-collapse.navbar-ex1-collapse.navbar-fixed-top
+{
+    padding-right: 15px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover
+{
+    background-color: #fff;
+    color: #384A9C;
+}
+a.dropdown.header-dropdown.active
+{
+    background: #fff;
+    color: #384A9C;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus
+{
+    background: #fff;
+    color: #384A9C;
+}
+.nav.navbar-nav
+{
+    height: 45px;
+}
+.navIcon
+{
+	margin-left: 5px;
+}
+
+.pageLabel
+{
+	text-align: left;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.topSpan
+{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.pageColumn
+{
+
+}
+/* FOOTER */
+#footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+/*BROADCASTS*/
+.broadcast
+{
+	background: #e0f8f7;
+	padding: 15px;
+    float: left;
+}
+	.broadcast h4
+	{
+		font-weight: bold;
+	}
+    .broadcast p
+    {
+        margin-bottom: 20px;
+    }
+    .broadcast .broadcast-indicators
+    {
+        text-align: center;
+        display: block;
+    }
+
+.broadcast-left, .broadcast-right
+{
+    cursor: pointer;
+}
+.broadcast-left
+{
+    float: left;
+}
+.broadcast-right
+{
+    float: right;
+}
+/*BROADCASTS*/
+/* MOAR CAROUSEL */
+/* Thanks R Mckee http://stackoverflow.com/questions/9526970/can-the-twitter-bootstrap-carousel-plugin-fade-in-and-out-on-slide-transition */
+/*.carousel.fade {
+    opacity: 1;
+}
+.carousel.fade .item
+{
+    -moz-transition: opacity ease-in-out .7s;
+    -o-transition: opacity ease-in-out .7s;
+    -webkit-transition: opacity ease-in-out .7s;
+    transition: opacity ease-in-out .7s;
+    left: 0 !important;
+    opacity: 0;
+    top:0;
+    position:absolute;
+    width: 100%;
+    display:block !important;
+    z-index:1;
+}
+.carousel.fade .item:first-child
+{
+    top:auto;
+    position:relative;
+}
+.carousel.fade .item.active
+{
+    opacity: 1;
+    -moz-transition: opacity ease-in-out .7s;
+    -o-transition: opacity ease-in-out .7s;
+    -webkit-transition: opacity ease-in-out .7s;
+    transition: opacity ease-in-out .7s;
+    z-index:2;
+}
+ */
+/* TILES */
+.thumbnail.tile.tile-bbb
+{
+    background-color: #f5f5f5;
+    width: 270px;
+    height: auto;
+	display:table;
+	vertical-align: middle;
+    min-height: 125px;
+}
+
+.thumbnail.tile.tile-bbb div
+{
+	display: table-cell;
+}
+
+.thumbnail.tile.tile-bbb div:first-child
+{
+	float:left;
+}
+.thumbnail.tile.tile-bbb h2
+{
+    margin-top: 15px;
+    font-size: 1.25em;
+	font-weight: bold;
+    color: #000;
+}
+.thumbnail.tile.tile-bbb i
+{
+    color: #fff;
+	margin-top: 50%;
+}
+
+.thumbnail.tile.tile-bbb .tile-blurb
+{
+	color: #000;
+	text-align: left;
+}
+
+/* KNowledge */
+.sideLink
+{
+	font-size: 14px;
+}
+#topKnowHolder, #recentRequests, #topReqHolder
+{
+	background: #fff;
+	color: #384A9C;
+	width: auto;
+	padding: 10px;
+}
+#topKnowHolder a, #recentRequest a, #topReqHolder a
+{
+	color: #384A9C;
+	//text-decoration: underline;
+}
+/* RECENT REQUESTS */
+#recentRequests p, #topKnowHolder h5, #topReqHolder h5
+{
+	padding: 10px 5px;
+	margin: 0;
+}
+#recentRequests p:nth-child(odd), #topKnowHolder h5:nth-child(odd), #topReqHolder h5:nth-child(odd)
+{
+	background: #e0f8f7;
+}
+/* Side Bar */
+.rBar
+{
+    border: 1px #384A9C solid;
+    border-right-width: 0;
+}
+.rBar.affix
+{
+    position: fixed;
+    top: 100px;
+    right: 0;
+	/*background: #384A9C;
+	color: white;*/
+}
+	.rBar .sideIcon
+	{
+		margin-left: 10px;
+	}
+    .rBar div
+    {
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+    }
+    .rBar h5.sideBroadcast
+    {
+	    /*background: white;
+	    color: #384A9C;
+	    width: auto;*/
+    }
+    .rBar h4
+    {
+	    color: #384A9C;
+    }
+    .rBar #recentItems p
+    {
+	    margin-bottom: 0;
+    }
+    .rBar a
+    {
+	    /*color: #369127;*/
+    }
+/* Datatables */
+
+.tickets-btn-group-holder
+{
+    text-align: center;
+}
+.table.dataTable>thead>tr
+{
+    background: #384A9C;
+    color: #fff;
+}
+
+.table.dataTable>tbody>.even,.table.dataTable>tbody>.odd
+{
+    cursor: pointer;
+}
+
+/* GENERAL STUFF */
+
+.view-port
+{
+    float:left;
+    width: 100%;
+}
+h3.elementLabel
+{
+    text-align: center;
+	border-bottom: #271493 1px solid;
+}
+
+h3.elementLabel.top5
+{
+	margin-bottom: 0;
+}
+
+footer.pagefooter
+{
+    color: #fff;
+    background-color: #384A9C;
+    clear: both;
+    font-size: 10pt;
+    width: 100%;
+    border-top: 1px solid #1a3c51;
+    line-height: 40px;
+}
+footer.pagefooter a, footer.pagefooter a:hover
+{
+    color: #fff;
+}
+div.results
+{
+    margin-top: 30px;
+}
+/* CUSTOM ICON CLASSES */
+.fa-HR:before
+{
+	content: "\f085";
+}
+.fa-OfficeServices:before
+{
+    content: "\f0c0";
+}
+
+.fa-Hardware:before
+{
+    content: "\f11c";
+}
+
+.fa-Mobility:before
+{
+    content: "\f0d1";
+}
+
+.fa-Security:before
+{
+	content: "\f05b";
+}
+
+.fa-Software:before
+{
+	content: "\f114";
+}
+
+.fa-Equipment:before
+{
+	content: "\f0d1";
+}
+
+.fa-Equipment:before
+{
+	content: "\f0d1";
+}
+

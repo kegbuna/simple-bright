@@ -1,0 +1,23 @@
+<%--
+    Catalog config
+    NOTE: This file is required.
+--%>
+<%
+    // Configuration of available description attributes for search and catgory display pages.
+    ArrayList<String> attributeDescriptionNames = new ArrayList();
+    attributeDescriptionNames.add("Charge");
+    attributeDescriptionNames.add("Approvals");
+    attributeDescriptionNames.add("Who Can Request");  
+
+    // Used in catalog.jsp for top Requests. This is used to filter top Requests by their template type
+    String[] templateTypeFilterTopSubmissions = new String[] {"Approval", "Utility", "Request Description", "Resolution Inquiry", "Portal", "System Generated"};
+
+    bundle.setProperty("rkmDisplayUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-Article");
+    bundle.setProperty("rkmAdminUsername", systemContext.getUserName());
+    bundle.setProperty("rkmAdminPassword", systemContext.getPassword());
+    bundle.setProperty("rkmServer", "NORTHEASTKINETIC");
+    bundle.setProperty("rkmLocale", "");
+    bundle.setProperty("rkmPort", "2020");
+    bundle.setProperty("commentUrl", pathHelper.templateNameUrl("RKMComment"));
+
+%>

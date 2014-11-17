@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="vendor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/themes/flat-bootstrap3/packages/rkm/vendor/log4j-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/themes/flat-bootstrap3/packages/rkm/vendor/arapi7604_build002.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

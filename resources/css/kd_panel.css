@@ -1,0 +1,70 @@
+#panel1 .bd {
+
+    height: 300px;
+
+}
+
+
+/* Resize Panel CSS */
+
+.yui-panel-container .yui-resizepanel .bd {
+
+    overflow: auto;
+    background-color: #fff;
+
+}
+
+
+/*
+    PLEASE NOTE: It is necessary to toggle the "overflow" property 
+    of the body element between "hidden" and "auto" in order to 
+    prevent the scrollbars from remaining visible after the the 
+    ResizePanel is hidden.  For more information on this issue, 
+    read the comments in the "container-core.css" file.
+*/
+
+.yui-panel-container.hide-scrollbars .yui-resizepanel .bd {
+
+    overflow: hidden;
+
+}
+
+.yui-panel-container.show-scrollbars .yui-resizepanel .bd {
+
+    overflow: auto;
+
+}		
+
+
+/*
+    PLEASE NOTE: It is necessary to set the "overflow" property of
+    the underlay element to "visible" in order for the 
+    scrollbars on the body of a ResizePanel instance to be 
+    visible.  By default the "overflow" property of the underlay 
+    element is set to "auto" when a Panel is made visible on
+    Gecko for Mac OS X to prevent scrollbars from poking through
+    it on that browser + platform combintation.  For more 
+    information on this issue, read the comments in the 
+    "container-core.css" file.
+*/
+
+.yui-panel-container.show-scrollbars .underlay {
+
+    overflow: visible;
+
+}
+
+.yui-resizepanel .resizehandle { 
+
+     position: absolute; 
+     width: 10px; 
+     height: 10px; 
+     right: 0;
+     bottom: 0; 
+     margin: 0; 
+     padding: 0; 
+     z-index: 1; 
+     background: url(../images/corner_resize.gif) left bottom no-repeat;
+     cursor: se-resize;
+
+ }

@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta http-equiv="Expires" content="-1"/>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+        <title>Upload Attachment</title>
+        <link type="text/css" href="css/ks_basic.css" rel="stylesheet"/>
+        <script type="text/javascript">
+            var fileLoader=window.opener.KD.utils.FileLoader;
+            var clientManager=window.opener.KD.utils.ClientManager;
+            var actions=window.opener.KD.utils.Action;
+            var util=window.opener.KD.utils.Util;
+
+            function getFileName(file) {
+                if (!file) return "";
+                var pathSep="\\";
+                if (file.indexOf("\\") == -1){
+                    pathSep="/";
+                }
+                while (file.indexOf(pathSep) != -1)
+                    file = file.slice(file.indexOf(pathSep) + 1);
+                return file;
+            }
+
+                    function getFileSize(file) {
+                            if (!file) return "";
+                            return '' + file.fileSize;
+                    }
+
+            function isValidFileType(file, fileTypes) {
+                if (!file) return false;
+                while (file.indexOf("\\") != -1)
+                    file = file.slice(file.indexOf("\\") + 1);
+                ext = file.slice(file.lastIndexOf(".")).toLowerCase();
+
+                if (fileTypes.indexOf(ext) != -1 || !fileTypes || fileTypes =="")
+                    return true;
+
+                return false;
+            }
+
+            function doSubmit(){
+                var form=document.getElementById("fileUploadForm");
+                var attachObj = document.getElementById("attachment");
+                if (attachObj == null) {
+                    return null;
+                }
+                if (attachObj.value == null || attachObj.value == "") {
+                    alert("Please select a file before trying to upload.");
+                    return null;
+                }
+                var sessionID = encodeURIComponent(clientManager.sessionId);
+                var qstnID = encodeURIComponent(attachObj.getAttribute("name"));
+                form.setAttribute("action",fileLoader.contextPath+"/UploadFile?sessionID=" + sessionID+"&questionID=" + qstnID+"&sizeLimit=50000");
+                var valid = true;
+                if (fileLoader.enforceFileTypes) {
+                    if (!isValidFileType(attachObj.value, fileLoader.fileTypesAllowed)) {
+                        valid = false;
+                    }
+                }
+                if (valid) {
+                    // user shouldn't modify the attachment file at this point
+                    attachObj.readOnly = "readonly";
+
+                    // disable the form buttons
+                    var buttons = util.getElementsByClassName("button", "input", form);
+                    for (var i = 0; i < buttons.length; i += 1) {
+                        buttons[i].disabled = true;
+                    }
+
+                    // clear out the old value
+                    fileLoader.questionObj.value = "";
+                    fileLoader.questionObj.setAttribute("Attachment", "");
+                    actions._setFileLink(fileLoader.questionObj);
+
+                    // submit the form
+                    submitForm(form);
+                } else {
+                    alert("Please only upload files with the following extentions :\n"+fileLoader.fileTypesAllowed);
+                }
+            }
+
+            function loadForm(){
+                var attachObj = document.getElementById("attachment");
+                attachObj.setAttribute("name", fileLoader.questionId);
+            }
+
+            function showLoader() {
+                // show the loader image
+                document.getElementById('loader').style.display = 'inline';
+            }
+
+            function submitForm(form) {
+                // submit the form
+                form.submit();
+                showLoader();
+            }
+        </script>
+        <style type="text/css">
+            #loader {
+              font-size:13px;
+              font-family: arial, helvetica, sans-serif;
+              display:none;
+            }
+            v.button{
+                width:80px;
+                height:20px;
+            }
+        </style>
+    </head>
+    <body bgcolor="#FFFFFF" text="#000000" onLoad="loadForm()">
+        <div class="standard_box">
+            <p style="font-weight:bold;">File upload:</p>
+            <form name='fileUploadForm' id='fileUploadForm' ENCTYPE="multipart/form-data" METHOD="post" ACCEPT-CHARSET="UTF-8">
+                <p>Attachment
+                    <input type='file' id='attachment' size="35"/>
+                    <input type="reset" name="Reset" value="Clear" class="button"/>
+                </p>
+                <p>
+                    <input type="button" name="Submit" value="Upload" class="button" onClick="doSubmit();"/>
+                    <input type="button" name="Cancel" value="Cancel" class="button" onClick="window.close();"/>
+                    <span id="loader">Uploading File...&nbsp;<img src='../resources/loading.gif' alt=""/></span>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!-- <ul class="nav nav-tabs">
+    <li class="active"><a href="<%= bundle.getProperty("categoryUrl")%>">Category</a></li>
+    <li><a href="#">Alphabetical</a></li>
+</ul> -->
+<ul class="templateList">
+    <% for (Category category : catalog.getRootCategories(context))
+    {
+        if(currentCategory != null && currentCategory.getId().equals(category.getId()))
+        {
+    %><li>
+    <div class="category-header row col-sm-12 col-md-12">
+        <h2><%=category.getName()%></h2>
+        <div class="col-md-2 category-icon text-center">
+            <div class="icon">
+                <i class="fa fa-5x fa-inverse fa-<%=category.getName().replaceAll("\\s+", "")%>"></i>
+            </div>
+        </div>
+        <div class="col-md-9 category-description">
+            <p><%=category.getDescription()%></p>
+        </div>
+
+    </div>
+        <%  if (category.hasTemplates())
+            {%>
+        <ul class="subList list-group col-sm-12 row">
+            <%  for (Template template: category.getTemplates())
+                {%>
+        <li class="list-group-item">
+            <h3 class=""><%=template.getName()%></h3>
+            <p class=""><%=template.getDescription()%></p>
+            <a class="btn btn-primary pull-right"href="<%=template.getAnonymousUrl()%>">Request <i class="fa fa-mail-forward"></i></a>
+        </li>
+                <%}%>
+        </ul>
+        <%}%>
+    <%}%>
+    </li>
+    <% } %>
+</ul>

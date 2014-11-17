@@ -1,0 +1,39 @@
+div.fixed-header-spacer
+{
+    height: 110px;
+}
+
+header.sub
+{
+    position: fixed;
+    top: 50px;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    z-index: 100;
+}
+
+.badge
+{
+    color: #fff;
+    background: #428bca;
+}
+
+.content-slide
+{
+   /* margin-top: 25px;*/
+}
+
+.container, .pointer-events
+{
+    width: 100%;
+}
+.submitted-label, .submitted-value
+{
+    display: inline-block;
+}
+
+table.dataTable tbody tr.selected.odd
+{
+    background-color: #b0bed9;
+}

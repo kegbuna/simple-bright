@@ -1,0 +1,93 @@
+<% String name = ""; String type = ""; if (request.getParameter("name") != null){ name = request.getParameter("name");} if (request.getParameter("type") != null){type = request.getParameter("type");} else {type = "requests";}
+	Person thisUser = Person.findByUsername(context, context.getUserName());
+    if (request.getParameter("srv") != null)
+    {
+        if (request.getParameter("srv").equals("KS1938f41a7a8962fe05429df55809bae722"))
+        {
+            name = "BedBath-Home";
+        }
+    }
+    String requests = "Requests";
+    if (thisUser.getClientType().equals("Store"))
+    {
+        requests = "Tickets";
+    }
+    //Let's count the number of open approvals and use it in the header
+    int aCount = ArsBase.count(context, "KS_SRV_CustomerSurvey_base", "'Submit Type' = \"Approval\" AND 'Request_Status' = \"Open\" AND 'Submitter' = \"" + context.getUserName() + "\"");
+    String approvalCounterStyle = "";
+    if (aCount > 0)
+    {
+        approvalCounterStyle = "style=\"background: red;\"";
+    }
+%>
+<style>
+</style>
+<div class="site-header animated fadeInDown">
+    <div id="userBar" class="">
+        <span class="userbar-controls"><a href="<%=bundle.getProperty("logoutUrl")%>"><i class="fa fa-power-off text-danger"></i></a></span>
+        <span class="userbar-text" style=""><a class="userbar-link" href="<%=bundle.getProperty("profileUrl")%>">Welcome, <span id="fullName"><%=thisUser.getFullName()%></span></a>!</span>
+    </div>
+    <div id="titleBar">
+        <a class="title-brand" href="#"><b class="myIT">IT Services</b></a>
+        <% if (!name.equals("BedBath-Home"))
+        {%>
+        <div id ="searchGroup" style="margin: 0 20px 0 0;" class="input-group col-sm-12 col-md-4 pull-right animated fadeInDown">
+            <input type="text" class="form-control" placeholder="How may we help you?">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                </span>
+        </div>
+        <%}%>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <style type="text/css">
+            #approvalCounter
+            {
+                background: #384A9C;
+                color: #fff;
+                padding: 0 4px;
+            }
+            #approvalCounter.active
+            {
+                color: green;
+            }
+        </style>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="<%if (name.equals("BedBath-Home")) {out.print("active");} %>"><a href="<%=bundle.getProperty("homeUrl")%>">Home<i class="fa fa-home navIcon"></i></a></li>
+                <% if (thisUser.getClientType().equals("Store")) {%><li class="<%if (name.equals("BedBath-KnowledgePage")) {out.print("active");} %>"><a href="DisplayPage?name=BedBath-KnowledgePage">Knowledge<i class="fa fa-lightbulb-o navIcon"></i></a></li><% } %>
+                <li class="dropdown <%if (name.equals("BedBath-Submissions") && type.equals("requests")) {out.print("active");} %>"><a href="<%=bundle.getProperty("submissionsUrl") + "&type=requests"%>">My <%=requests%><i class="fa fa-list navIcon"></i></a></li>
+                <% if (!thisUser.getClientType().equals("Store")) {%><li class="dropdown <%if (name.equals("BedBath-Submissions") && type.equals("approvals")) {out.print("active");} %>"><a href="<%=bundle.getProperty("submissionsUrl") + "&type=approvals"%>">My Approvals<span id="approvalCounter" class=" navIcon" <%=approvalCounterStyle%>><%=aCount%></span></a></li>
+                <li class="<%if (name.equals("BedBath-About")) {out.print("active");} %>"><a href="<%=bundle.getProperty("aboutUrl")%>">About IT</a></li>
+                <li class="<%if (name.equals("BedBath-Offices")) {out.print("active");} %>"><a href="<%=bundle.getProperty("officesUrl")%>">Offices of IT</a></li>
+                <%}%>
+                <!--<li class="<%if (name.equals("BedBath-Category")) {out.print("active");} %>"><a href="<%=bundle.getProperty("categoryUrl")%>">Service Index<i class="fa fa-search navIcon"></i></a></li>-->
+            </ul>
+
+            <!--<ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>-->
+        </div><!-- /.navbar-collapse -->
+    </nav>
+</div>
+

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Created-By: 1.7.0_21-b11 (Oracle Corporation)
+Implementation-Title: Kinetic Request / Kinetic Survey
+Implementation-Vendor: Kinetic Data
+Implementation-Version: 5.1.2
+Release-Date: 2013-07-02
+Build-Date: 2013-07-19T09:50:12-0500
+

@@ -1,0 +1,63 @@
+@charset "utf-8";
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #384A9C;
+}
+ul.keywords { margin: 0; padding: 0; }
+ul.keywords li.keyword ul.keyword-values { margin: 0; padding: 0; }
+ul.keywords li.keyword ul.keyword-values li.keyword-value { margin: 0; padding: 0 5px 0 0; float: left; }
+ul.keywords li.keyword ul.keyword-values li:after { content: ", "; }
+ul.keywords li.keyword ul.keyword-values li:last-child:after { content: ""; }
+ul.keywords li.keyword ul.keyword-values li.keyword-value:first-child { padding: 0 5px 0 0; border-left: none; }
+
+.templates.list-group
+{
+    font-size: 13px;
+}
+.templates li
+{
+    list-style: none;
+}
+
+.templates .list-group-item
+{
+    border: 0;
+}
+.template-icon
+{
+    display:inline-block;
+    position: relative;
+    top: -25px;
+}
+
+.template-icon .icon
+{
+    font-size: 1.5em;
+}
+.template-icon .icon .fa-file-text-o
+{
+    color: #000;
+}
+
+.template-icon .icon .fa-check
+{
+    position: absolute;
+    top: 13px;
+    left: -13px;
+}
+
+.template-content
+{
+    display:inline-block;
+    max-width: 80%;
+}
+.search-count .search-count-text
+{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.search-count .search-count-count
+{
+    margin-right: 10px;
+}

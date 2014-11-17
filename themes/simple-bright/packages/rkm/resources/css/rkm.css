@@ -1,0 +1,128 @@
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #384A9C;
+}
+
+.header .search input {
+    font-size: 16px;
+}
+.header .search input#mustHave {
+    margin-left: 190px;
+    width: 500px;
+}
+.header .search img.spinner {
+    vertical-align: top;
+}
+
+#messages .message {
+    background-color: #d9edf7;
+    border: 1px solid #bce8f1;
+    color: #3a87ad;
+    display: none;
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 8px;
+}
+#messages .message.error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+#results {
+    margin-top: 40px;
+}
+#results .result {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#results .result .icon {
+    float: left;
+    height: 64px;
+    width: 64px;
+}
+#results .result .icon.decisionTree { background: url('../images/filter.png'); }
+#results .result .icon.howTo { background: url('../images/info_blue.png'); }
+#results .result .icon.knownError { background: url('../images/warning_blue.png'); }
+#results .result .icon.problemSolution { background: url('../images/help_blue.png'); }
+#results .result .icon.reference { background: url('../images/design.png'); }
+#results .result .middleCol {
+    float: left;
+    margin-left: 15px;
+}
+#results .result .middleCol .sprite {
+    background: url('../images/glyphicons-halflings.png');
+    float: left;
+    height: 14px;
+    margin: 1px 5px 1px 0;
+    width: 14px;
+}
+#results .result .middleCol .sprite.expand {
+    background-position: -456px -72px;
+}
+#results .result .middleCol .sprite.contract {
+    background-position: -313px -119px;
+    display: none;
+}
+#results .result .middleCol .title {
+    cursor: pointer;
+    float: left;
+}
+#results .result .middleCol .titleText {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+#results .result .middleCol .summary {
+    margin-top: 5px;
+}
+#results .result .rightCol {
+    float: left;
+    margin-left: 15px;
+}
+#results .result .rightCol .modified {
+}
+
+#contentBody .article-title
+{
+    padding-left: 100px;
+}
+article
+{
+    margin: 0 !important;
+}
+.article {
+   /* display: none;*/
+    margin-left: 118px;
+}
+.article .field
+{
+    padding: 15px;
+}
+.article .field .label {
+    color: #428bca;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+.article .buttons {
+    margin-top: 10px;
+}
+.article .buttons .button {
+    cursor: pointer;
+    height: 32px;
+    margin-right: 15px;
+    vertical-align: middle;
+    width: 32px;
+}
+
+.article-sidebar
+{
+    display: inline-block;
+    min-width: 120px;
+    height: 100%;
+    text-align: right;
+}

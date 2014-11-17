@@ -1,0 +1,29 @@
+<%!
+    public static class CTMPeople {
+        public static final String FORM_NAME = "CTM:People";
+        public static final String FIELD_EMAIL = "103";
+        public static final String FIELD_FULL_NAME = "8";
+
+        public static final String[] FIELD_IDS = new String[] {FIELD_EMAIL,FIELD_FULL_NAME};
+
+        public static CTMPeople findByUsername(HelperContext context, String username) {
+
+			String qualification = "'Login Name' = \"" + username + "\"";
+			SimpleEntry samplePeopleEntry = ArsBase.findSingle(context, FORM_NAME, qualification, FIELD_IDS);
+			if (samplePeopleEntry == null) {
+			    return null;
+			} else {
+			    return new CTMPeople(samplePeopleEntry);
+			}
+        }
+
+        private SimpleEntry entry = null;
+
+        public CTMPeople(SimpleEntry entry) {
+            this.entry = entry;
+        }
+
+		public String getEmail() {return entry.getEntryFieldValue(FIELD_EMAIL);}
+        public String getFullName() {return entry.getEntryFieldValue(FIELD_FULL_NAME);}
+    }
+%>

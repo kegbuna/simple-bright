@@ -1,0 +1,102 @@
+<%!
+    public static class Broadcasts
+    {
+        public static final String FORM_NAME = "CFG:Broadcast";
+        public static final String FIELD_REQUEST_TYPE = "1000000211";
+        public static final String FIELD_TYPE = "1000000993";
+        public static final String FIELD_START = "1000000994";
+
+        public static final String FIELD_END = "1000000996";
+        public static final String FIELD_PRIORITY = "1000000164";
+        public static final String FIELD_SUBJECT = "301356500";
+        public static final String FIELD_MESSAGE = "1000000991";
+
+
+        public static final String[] FIELD_IDS = new String[]{FIELD_REQUEST_TYPE, FIELD_TYPE, FIELD_START, FIELD_END, FIELD_PRIORITY, FIELD_SUBJECT, FIELD_MESSAGE};
+
+        public static Broadcasts findAvailable(HelperContext context, String username)
+        {
+
+            String qualification = "'Status' = \"Enabled\" AND 'Broadcast Start Date' < $TIMESTAMP$ AND 'Broadcast End Date' > $TIMESTAMP$";
+            String[] sortIDs = new String[]{FIELD_TYPE, FIELD_PRIORITY};
+            SimpleEntry[] broadcasts = ArsBase.find(context, FORM_NAME, qualification, FIELD_IDS, sortIDs);
+            if (broadcasts == null)
+            {
+                return null;
+            } else
+            {
+                return new Broadcasts(broadcasts);
+            }
+        }
+
+        private SimpleEntry entry = null;
+        private SimpleEntry[] entries = null;
+
+        public Broadcasts(SimpleEntry entry)
+        {
+            this.entry = entry;
+        }
+
+        public Broadcasts(SimpleEntry[] entries)
+        {
+            this.entries = entries;
+        }
+
+        public SimpleEntry[] getBroadcasts()
+        {
+            return this.entries;
+        }
+
+        public String getFieldMessage(int index)
+        {
+            return this.entries[index].getEntryFieldValue(FIELD_MESSAGE);
+        }
+
+        public String getFieldSubject(int index)
+        {
+            return this.entries[index].getEntryFieldValue(FIELD_SUBJECT);
+        }
+
+        public String getFieldPriority(int index)
+        {
+            return this.entries[index].getEntryFieldValue(FIELD_PRIORITY);
+        }
+
+        public String getFieldRequestType(int index)
+        {
+            return this.entries[index].getEntryFieldValue(FIELD_REQUEST_TYPE);
+        }
+
+        public String getFieldType(int index)
+        {
+            return this.entries[index].getEntryFieldValue(FIELD_TYPE);
+        }
+
+        public String getClass(int index)
+        {
+            String type = this.entries[index].getEntryFieldValue(FIELD_TYPE);
+            if (type.equals("General Information"))
+            {
+                return "text-success";
+            }
+            else if(type.equals("Unavailability"))
+            {
+                return "text-danger";
+            }
+            else if(type.equals("Scheduled Unavailability"))
+            {
+                return "text-warning";
+            }
+            else
+            {
+                return "text-success";
+            }
+        }
+
+        public int getLength()
+        {
+            return this.entries.length;
+        }
+
+    }
+%>

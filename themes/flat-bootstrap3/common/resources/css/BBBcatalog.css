@@ -1,0 +1,514 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, div, ul {
+    -ms-overflow-style: scrollbar;/*auto | none | scrollbar | -ms-autohiding-scrollbar*/
+}
+
+body, html, div, h1, h2, h3, h4
+{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* HEADER */
+#logoHolder
+{
+	text-align: center;
+}
+
+#userBar
+{
+    background: #428bca;
+    height: 20px;
+}
+    #userBar .userbar-controls
+    {
+        float: right;
+        margin-right: 5px;
+    }
+    #userBar .userbar-text
+    {
+        color: #fff;
+        margin-left: 0;
+        margin-right: 10px;
+        float:right;
+        text-decoration: underline;
+    }
+    #userBar .userbar-link
+    {
+        color: #fff;
+    }
+#titleBar
+{
+    font-size: 2em;
+    margin-left: 30px;
+    color: #428bca;
+}
+    #titleBar .title-brand
+    {
+        color: #428bca;
+    }
+.navbar .navbar-nav
+{
+	display: table;
+	float: left;
+    width: 100%;
+}
+    .navbar .navbar-nav>li
+    {
+        display: table-cell;
+        float:none;
+    }
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+.navbar-default
+{
+    background-color: #fff;
+    color: #428bca;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse
+{
+    border-color: #428bca;
+}
+.collapse.navbar-collapse.navbar-ex1-collapse.navbar-fixed-top
+{
+    padding-right: 15px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover
+{
+    text-decoration: underline;
+    background-color: #fff;
+    color: #428bca;
+}
+a.dropdown.header-dropdown.active
+{
+    background-color: #428bca;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a
+{
+    color:  #428bca;
+    text-align: left;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus
+{
+    background: #428bca;
+    color: #fff;
+}
+.nav.navbar-nav
+{
+    height: 45px;
+    font-size: 1.5em;
+}
+.navIcon
+{
+	margin-left: 5px;
+}
+
+.pageLabel
+{
+	text-align: left;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.topSpan
+{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.pageColumn
+{
+
+}
+/* FOOTER */
+#footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+/*BROADCASTS*/
+.broadcastBullhorn
+{
+    margin-right: 10px;
+}
+/*BROADCASTS*/
+/* CAROUSEL */
+.carouselPages
+{
+    text-align:center;
+    margin-top: -30px;
+    z-index: 50;
+    position: relative;
+}
+.carouselPages a
+{
+    color: #666;
+}
+.carouselPages .carousel-ticker.active
+{
+    color: #428bca;
+}
+.carouselPages .carousel-icon
+{
+    font-size: 1.4em;
+}
+/* END */
+/* TILES */
+.holder
+{
+    background: #efefef;
+    border-radius: 15px;
+    padding: 20px 20px 0 10px;
+    margin-bottom: 20px;
+}
+.tile-link
+{
+    text-decoration: none;
+
+}
+
+.tile-link:hover
+{
+    text-decoration: none;
+}
+
+.tile-content, .tile-icon
+{
+    display:inline-block;
+}
+.tile-icon
+{
+    min-width: 50px;
+    text-align: center;
+    background: #428bca;
+    min-height: 45px;
+    border-radius: 8px;
+}
+    .tile-icon i
+    {
+        margin-top: 9px;
+    }
+.tile-title
+{
+    font-size: 1.5em;
+    margin: 0;
+    color: #428bca;
+    display: inline-block;
+    text-align: center;
+}
+.category
+{
+    margin-bottom: 20px;
+}
+.holder.rap
+{
+    padding: 10px;
+}
+.holder.rap:hover, .category>.tile-link>.tile-box:hover
+{
+    box-shadow: 0 0 15px 3px #428bca;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -kthtml-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.tile-box
+{
+    display:inline-block;
+    border-radius: 15px;
+    padding-right: 5px;
+}
+
+/*.category>.tile-link .tile-icon:hover
+{
+    text-shadow: #428bca 0px 0px 10px;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -kthtml-transition: all .2s linear;
+    transition: all .2s linear;
+}*/
+.holder.rap .tile-icon
+{
+    background: transparent;
+}
+.holder.rap .tile-title
+{
+    color: red;
+}
+
+.holder.rap .tile-content p
+{
+    color: black;
+}
+
+
+/* Not using this for now, will prob get rid of
+.tile.tile-bbb
+{
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+}
+.tile.tile-bbb i
+{
+    margin: 5px 0 0 0;
+}
+.tile-blurb
+{
+    clear: both;
+}
+.thumbnail.tile.tile-bbb .tile-blurb
+{
+	color: #000;
+	text-align: left;
+}*/
+
+/* KNowledge */
+.sideLink
+{
+	font-size: 14px;
+    text-align: right;
+}
+/* end knowl;edge */
+
+.elementLabel
+{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: 900;
+}
+h3.elementLabel
+{
+    border-bottom: #428bca 1px solid;
+}
+.rightContentBox
+{
+    background: #efefef;
+    color: #000;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+    .rightContentBox .elementLabel
+    {
+        color: #428bca;
+    }
+    .rightContentBox .list-group
+    {
+        list-style: disc;
+        padding-left: 20px;
+    }
+    .rightContentBox .list-group-item
+    {
+        list-style: none;
+        background:inherit;
+        border: 0;
+        padding: 0;
+        display:list-item;
+        text-decoration: underline;
+        color: #000;
+    }
+#recentRequests.rightContentBox .list-group-item
+{
+    list-style: disc;
+}
+        .rightContentBox .list-group-item a
+        {
+            color: #000;
+        }
+.reqLabel
+{
+    padding-left: 5px;
+}
+.rBar
+{
+    border: 1px #428bca solid;
+    border-right-width: 0;
+}
+.rBar.affix
+{
+    position: fixed;
+    top: 100px;
+    right: 0;
+	/*background: #428bca;
+	color: white;*/
+}
+	.rBar .sideIcon
+	{
+		margin-left: 10px;
+	}
+    .rBar div
+    {
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+    }
+    .rBar h5.sideBroadcast
+    {
+	    /*background: white;
+	    color: #428bca;
+	    width: auto;*/
+    }
+    .rBar h4
+    {
+	    color: #428bca;
+    }
+    .rBar #recentItems p
+    {
+	    margin-bottom: 0;
+    }
+    .rBar a
+    {
+	    /*color: #369127;*/
+    }
+/* Datatables */
+
+.tickets-btn-group-holder
+{
+    text-align: center;
+}
+.table.dataTable>thead>tr
+{
+    background: #428bca;
+    color: #fff;
+}
+
+.table.dataTable>tbody>.even,.table.dataTable>tbody>.odd
+{
+    cursor: pointer;
+}
+
+/* GENERAL STUFF */
+img.homePageImage
+{
+    width: 100%;
+}
+
+#homeView #searchGroup input, #homeView #searchGroup .input-group-btn .btn.btn-default
+{
+    height: 43px;
+    font-weight: 700;
+}
+
+#searchGroup
+{
+    margin:20px 0 20px 0;
+}
+#searchGroup input
+{
+    position: absolute;
+    bottom: 0;
+}
+#searchGroup input, #searchGroup .input-group-btn .btn.btn-default
+{
+    border-color: #428bca;
+    height: 35px;
+}
+.view-port
+{
+    float:left;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.page-title
+{
+    font-weight: 900;
+    color: #428bca;
+}
+.page-title.submission-title
+{
+    display:inline-block;
+    margin-top: 5px;
+    vertical-align: top;
+}
+footer.pagefooter
+{
+    color: #fff;
+    background-color: #428bca;
+    clear: both;
+    font-size: 10pt;
+    width: 100%;
+    line-height: 20px;
+    margin-top: 30px;
+    position: fixed;
+    bottom:0;
+}
+footer.pagefooter a, footer.pagefooter a:hover
+{
+    color: #fff;
+}
+div.results
+{
+    margin-top: 30px;
+}
+
+div.section-hide
+{
+    display: none;
+}
+/* CUSTOM ICON CLASSES */
+.fa-UserProfileRequests:before
+{
+    content: "\f0c0";
+}
+.fa-Onboarding:before
+{
+    content: "\f0c0";
+}
+.fa-OfficeServices:before
+{
+    content: "\f085";
+}
+
+.fa-HardwareRequests:before
+{
+    content: "\f11c";
+}
+
+.fa-MobilityRequests:before
+{
+    content: "\f10b";
+}
+
+.fa-SecurityRequests:before
+{
+	content: "\f05b";
+}
+
+.fa-SoftwareRequests:before
+{
+	content: "\f114";
+}
+.fa-InfrastructureRequests:before
+{
+    content: "\f1c0";
+}
+.fa-Equipment:before
+{
+	content: "\f0d1";
+}
+
+.fa-Equipment:before
+{
+	content: "\f0d1";
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button
+{
+    padding: 0;
+}

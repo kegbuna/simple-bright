@@ -1,0 +1,27 @@
+<div class="topSpan col-xs-12">
+
+    <div class="column col-lg-4 col-md-4 hidden-sm hidden-xs">
+        <!--<h3 class="elementLabel">Broadcasts</h3>-->
+        <div id="broadcast-holder" class="announcementSlider">
+            <% for (int x=0; x<broadcasts.getLength(); x++)
+            { %>
+            <div class="broadcast">
+                <h4><%=broadcasts.getFieldSubject(x)%></h4>
+                <p><%=broadcasts.getFieldMessage(x)%></p>
+
+                            <span class="broadcast-indicators">
+                                <i class="fa fa-2x fa-arrow-circle-left broadcast-left"></i>
+                                <% for (int i=0; i<broadcasts.getLength(); i++)
+                                { %>
+                                    <i class="fa fa-circle<% if (x!=i){%>-o<%}%>"></i>
+                                <% } %>
+                                <i class="fa fa-2x fa-arrow-circle-right broadcast-right"></i>
+                            </span>
+            </div>
+            <% } %>
+        </div>
+    </div>
+    <div class="column col-lg-4 col-md-4 hidden-sm hidden-xs">
+    </div>
+
+</div>

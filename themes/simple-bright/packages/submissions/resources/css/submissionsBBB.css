@@ -1,0 +1,83 @@
+
+#statusControl>button.active
+{
+    font-weight: 900;
+   /* border-bottom: 3px solid blue;*/
+}
+
+#statusControl button
+{
+    margin: 0 2px;
+}
+
+#tableHeader
+{
+    clear: left;
+}
+
+
+
+.btn.btn-filter
+{
+    background: #fff;
+    color: #384A9C;
+    border: 2px #384A9C solid;
+}
+
+.btn.btn-filter:hover
+{
+    box-shadow: 0 0 15px 3px #384A9C;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -kthtml-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.btn.btn-filter.active
+{
+    background: #384A9C;
+    color: #fff;
+    /*box-shadow: 0 0 15px 3px #384A9C;*/
+}
+#filterBar
+{
+    margin-bottom: 30px;
+}
+#filterBar .filter-field
+{
+    max-width: 230px;
+}
+#filterBar div.col-sm-1
+{
+    /*min-width: 100px;*/
+}
+#filterBar .filter-field input,#filterBar .filter-field select
+{
+    display:inline-block;
+    max-width: 100px;
+}
+.store-search-input
+{
+    width: 200px;
+    display: inline-block;
+}
+.store-search-input>input
+{
+    margin: 5px 0;
+}
+#storeSearchButtonHolder
+{
+    display:inline-block;
+}
+
+#storeSearchButtonHolder>button
+{
+    height: 45px;
+}
+
+.page-title
+{
+    margin-bottom: 50px;
+}

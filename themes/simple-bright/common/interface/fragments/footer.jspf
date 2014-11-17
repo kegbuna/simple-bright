@@ -1,0 +1,20 @@
+<!-- Footer -->
+<footer class="pagefooter animated fadeInUp">
+    <span style="display:none">&nbsp;</span>
+    <div class="container" style="text-align: center;">
+        <%  // TODO:: Decide on what to do with this, for now, leaving false show that it never shows. It would check for Store Users before.
+            if (false)
+            {%>
+
+            <span class="pull-left">
+            <a href="<%= bundle.getProperty("aboutUrl")%>">
+                About
+            </a>
+        </span>
+        <span class="pull-right">
+            <a href="<%= bundle.getProperty("feedbackUrl")%>">
+                Site Feedback
+            </a>
+        </span><% } %>
+    </div>
+</footer>

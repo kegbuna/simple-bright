@@ -1,0 +1,568 @@
+/*
+Copyright (c) 2010, Kinetic Data Inc. All rights reserved.
+http://www.kineticdata.com
+*/
+#doc3 { 
+    margin:auto;
+}
+a { 
+    color:#d95900;
+}
+.yui-t1 .yui-b { 
+    width:136px;
+}
+.yui-t1 #yui-main .yui-b { 
+    margin-left:125px;
+}
+.yui-tt {
+    width: 470px;
+    text-align:left;
+    padding: 5px;
+    font-family: arial,helvetica,clean,sans-serif;
+    color:#3a88f1;
+    background-color: #f0f0f0;
+    border: 1px solid #3a88f1;
+}
+.yui-tt p{
+    margin:5px;
+}
+.yui-tt .bold{
+    font-weight:bold;
+}
+#hd{
+    line-height:1;
+    height:53px;
+    font-size:121%;
+    font-weight:bold;
+    background-image: url("../images/V45_AdminConsole_HeaderBG.jpg");
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+#hd span.title {
+    position:absolute;
+    top:21px;
+    left:150px;
+}
+#hd span.version {
+    position:absolute;
+    top: 21px;
+    left: 680px;
+}
+
+/* Styles for the links located on the sidebar and general info table*/
+#sidebar{
+    background-color:#e0e0e0;
+    padding:0;
+    position:relative;
+}
+#sidebar .header{
+    font-weight:bold;
+    padding:25px 0px 5px 8px;
+}
+#sidebar .link{
+    padding:0px 0px 5px 8px;
+}
+#misc {
+    background-color: #f0f0f0;
+    padding-left:25px;
+}
+
+/* Styles for the data fields above the tabs */
+.dataLabel, .dataField {
+    font-size: 93%;
+    padding: 3px 5px;
+}
+
+.dataLabel {
+    font-weight:bold;
+    color:#d95900;
+}
+
+/* Styles for the selection tabs above the main block of the page*/
+ul.tabContainer li{
+    width:100px;
+    border-top:1px solid #909090;
+    border-left:1px solid #909090;
+    border-right:1px solid #909090;
+    font-size: 93%;
+    font-weight:bold;
+    float:left;
+    background-color:#e0e0e0;
+    margin:10px -1px 0 0;
+    padding:5px 0;
+    text-align:center;
+    cursor:pointer;
+}
+ul.tabContainer li.activeTab{
+    color:#ffffff;
+    background-color:#d95900;
+}
+ul.tabContainer li.hover{
+    color:#ffffff;
+    background-color:#b0b0b0;
+}
+
+.subTab{
+    float:left;
+    width:90px;
+    background-color:#E6E6E6;
+    border-top:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #CCCCCC;
+    margin:10px -5px 0px 0px;
+    padding:5px 2px 5px 2px;
+    font-weight:bold;
+    text-align:center;
+    font-size:.9em;
+    cursor:pointer;
+}
+
+div#viewByTabsLayer{
+    clear:both;
+    float:none;
+    border-bottom:1px solid #CCCCCC;
+    height:35px;
+    margin:0px;
+    margin-top:-10px;
+    padding:0px;
+}
+
+.clear{
+    clear:both;
+    float:none;
+    height: 0;
+    font-size:0px! important;
+    width:auto;
+}
+
+#tab_bottom {
+    height: 1px;
+    background-color:#909090;
+    margin-left:-25px;
+}
+
+/* Styles determining witch div is the one being displayed in the main block of the page */
+.div {
+    display: none;
+    margin: 0 10px;
+}
+.div.activeDiv{
+    padding-top:10px;
+    padding-left:15px;
+    display:block;
+}
+
+.managerSub{
+    display:none;
+    margin:0px;
+    padding:0px;
+    width:670px;
+}
+.managerSub.activeDiv{
+    display:block;
+}
+
+/* Styles for the messages displayed */
+#importTemplateMessages { 
+    margin:1em 0;
+}
+.message img, .successMessage img, .errorMessage img{
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.message, .successMessage, .errorMessage{
+    background-color:#f0f0f0;
+    padding:5px;
+    margin-bottom:10px
+}
+.message{
+    color:black;
+    border: 1px solid gold;
+}
+.successMessage{
+    color:green;
+    border:1px solid green;
+}
+.errorMessage{
+    color:#dd0000;
+    border:1px solid #dd0000;
+}
+
+/* Styles for the wrapper class that wraps the window */
+.activeDiv .wrapper{
+    border:1px solid #909090;
+    margin-top:10px;
+    overflow:hidden;
+    position: relative;
+}
+.wrapper h3{
+    color:#ffffff;
+    background-color:#d95900;
+    border-bottom:1px solid #909090;
+    padding:5px;
+}
+
+/* Styles for the window where the main content is displayed */
+.wrapper .window { overflow:auto; }
+.window .light { background-color:#f0f0f0; }
+.window .dark { background-color:#e0e0e0; }
+
+/* Styles for several of the jsps that have common layouts */
+#config table, #license table, #kineticTask table, #poller table, #logSettings table{
+    width:100%;
+    table-layout:fixed;
+}
+#config th, #license th, #kineticTask th, #poller th, #logSettings th{
+    width:180px;
+    padding:5px;
+    font-weight:bold;
+}
+#config td, #license td, #kineticTask td, #poller td, #logSettings td{
+    padding:5px;
+}
+#config li, #license li, #kineticTask li, #poller li, #import li, #export li {
+    padding:5px;
+}
+.uniqueIdMsg {
+    color:#DD0000;
+}
+.uniqueIdMsgHeader {
+    font-weight:bold;
+}
+
+/* The styles for the loadedLibraries.jsp  */
+#libraries table, #logDisplay table{
+    width:100%;
+}
+#libraries th, #logDisplay th{
+    border-bottom:1px solid #909090;
+    color:#ffffff;
+    background-color:#d95900;
+    padding:5px;
+}
+#libraries td, #logDisplay td{
+    padding:5px;
+}
+
+/* The hard break class is to break long elements that have no spaces so they will not cause overflow problems */
+.HardBreak {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.helpImg{
+    position:absolute;
+    right:15px;
+    margin: -4px 0;
+}
+
+/* Reporting Items */
+a.refreshButton{
+    padding:8px 20px 10px 20px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:url("../images/orangeButton.gif");
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+    margin-left:5px;
+    text-decoration:none;
+}
+
+div#ajaxLoader{
+    text-align:right;
+    position:absolute;
+    margin-top:20px;
+    left:90%;
+}
+
+div.ajaxLoaderSymbol{
+    color:#D95900;
+    font-weight:bold;
+}
+
+div#ajaxLoader img{
+    margin-right:5px;
+    margin-bottom:-3px;
+}
+
+.ajaxLoaderSpacer{
+    margin-top:20px;
+    margin-left:20px;
+    font-size:1.2em;
+}
+
+div.serviceItemList div.typeHeader{
+    border:1px solid #CCCCCC;
+    margin:0 0 3px 2px;
+    padding:0 3px 0 5px;
+    border-bottom:3px solid #CCCCCC;
+    border-right:3px solid #CCCCCC;
+    font-weight:bold;
+    font-size:.9em;
+    background-color:#E6E6E6;
+}
+
+div.serviceItemList div.serviceItem{
+    font-size:.8em;
+    margin:2px 0 3px 10px;
+    padding:2px 2px 2px 7px;
+    border:1px solid #FFF;
+    border-right:2px solid #FFF;
+    border-bottom:2px solid #FFF;
+}
+
+div.serviceItemList div.active{
+    border:1px solid #d95900;
+    border-right:2px solid #d95900;
+    border-bottom:2px solid #d95900;
+}
+
+div.animationContent{
+    overflow:hidden;
+}
+
+div#serviceItems{
+    height:100%;
+    width:200px;
+    float:left;
+    margin-right:5px;
+}
+
+div#reportsWrapperLayer{
+    float:left;
+    width:670px;
+}
+
+div.serviceItemList div p.serviceItemName{
+    font-weight:bold;
+    font-size:1.2em;
+    margin-left:-4px;
+}
+
+h2#serviceCatalogName{
+    font-weight:bold;
+    font-size:1.2em;
+    margin:5px 0 5px 0;
+}
+
+div.reportParams{
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-bottom:3px solid #CCCCCC;
+    border-right:3px solid #CCCCCC;
+    margin-bottom:5px;
+}
+
+div.serviceItemDetail{
+    border:1px solid #CCCCCC;
+    border-bottom:3px solid #CCCCCC;
+    border-right:3px solid #CCCCCC;
+    padding:3px;
+    zoom:1; /*Fixes IE6 border*/
+}
+
+div.serviceItemDetail h1{
+    font-size:1.1em;
+    font-weight:bold;
+    background-color:#E6E6E6;
+    margin:0px;
+    padding:3px;
+}
+
+div.serviceItemDetail p.formLink{
+    text-align:right;
+    display:block;
+    margin:-20px 5px 8px 62%;
+    width:35%;
+}
+
+div.serviceItemDetail div.subLayer{
+    margin:2px 2px 2px 5px;
+    border: 1px solid #CCCCCC;
+    padding:2px;
+}
+
+div.serviceItemDetail p{
+    margin: 2px 0 2px 0;
+}
+
+div.reportParams p{
+    margin-bottom:5px;
+}
+
+div.reportParams span.dataLabel{
+    margin-left:5px;
+}
+
+div.consoleMessage{
+    font-weight:bold;
+    font-size:1.1em;
+    padding:20px;
+    margin:10px;
+    border:2px solid #d95900;
+    width:50%;
+}
+
+a.plusMinus{
+    font-weight:bold;
+    font-size:1.5em;
+    color:#d95900;
+    text-decoration:none;
+    padding:0px 5px 0 5px;
+    margin:-2px 0 -2px 0;
+}
+
+a.minus{
+    margin-right:5px;
+}
+
+#catalogSelectorLayer{
+    margin-bottom:15px;
+}
+
+div#emptyConsole{
+    height:600px;
+    background-image: url("../images/ManagerChartsBG.jpg");
+}
+
+.licError {
+    font-size: 108%;
+    font-weight: normal;
+    color: #DD0000;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+
+div.serviceItemDetail div.subLayerHeader{
+    font-weight:bold;
+    color:#d95900;
+    background-color:#E8E8E8;
+    border-bottom:1px solid #CCCCCC;
+}
+
+div.serviceItemDetail span.dataLabel{
+    color:black;
+}
+
+div#tasksLayer div.taskBox{
+    border-bottom:1px solid #CCCCCC;
+    margin-bottom:2px;
+}
+
+div.serviceItemDetail p.indentOne{
+    margin-left:8px;
+}
+
+div.serviceItemDetail p.indentTwo{
+    margin-left:16px;
+}
+
+a.report_link{
+    font-weight:bold;
+}
+
+div.serviceItemDetail p.pageHeader{
+    border:1px solid #CCCCCC;
+    margin-top:5px;
+}
+
+p#emptyServiceDetail{
+    font-weight:bold;
+    margin-top:15px;
+    color:#666666;
+}
+
+p#noResults{
+    font-weight:bold;
+    color:#333333;
+    margin: 5px 5px 5px 5px;
+}
+
+.searchCriteria{
+    border-bottom:1px solid #CCCCCC;
+    margin-bottom:5px;
+    padding-bottom:3px;
+}
+
+.searchCriteria p{
+    font-weight:bold;
+}
+
+input.criteriaCheckbox{
+    margin:2px 4px 2px 8px;
+}
+a.download {
+    color: #F0BD99;
+    font-weight: bold;
+    font-size: 90%;
+    margin-left:4em;
+}
+
+table.resultsTable{
+    border: 2px solid #CCCCCC;
+    border-collapse: collapse;
+}
+
+table.resultsTable td{
+    border: 1px solid #CCCCCC;
+    padding:10px;
+}
+
+#importUploadForm {
+    position:relative;
+}
+#importUploadForm input[type="file"] {
+    width: 700px;
+    padding: 2px 0px;
+    vertical-align: middle;
+}
+#importUploadForm input[type="button"] {
+    padding: 2px 10px;
+}
+#UploadFileNameLabel {
+    position:relative;
+    display:block;
+    font-weight:bold;
+    margin-bottom:0.5em;
+}
+#UploadFileName {
+    position:relative;
+    display:block;
+    width:100%;
+}
+
+
+#importTemplateMessages {position:relative;padding:0;}
+#importTemplateMessages * {font: 13px/1.3 arial, helvetica, clean, sans-serif;color:#333;}
+#importTemplateMessages .errorMessage {position:relative;padding:5px;border:1px solid #b00;background-color:#f0f0f0;}
+#importTemplateMessages .errorMessage img {vertical-align:middle;margin-right:5px;margin-bottom:10px;}
+#importTemplateMessages .warn {color:#b00;font-weight:bold;}
+#importTemplateMessages .wrapper h3 {color:#fff;}
+#importErrorMessage .needspace {margin-left:2em;}
+#importErrorMessage .msgHd {clear:both;margin:0 0 1em;padding:1em;background-color:#f5f5f5;border:1px solid brown;border-left-width:7px;}
+#importErrorMessage .msgHd .norm {font-weight:normal;}
+#importErrorMessage .msgInfo {clear:both;margin:1em 0;background-color:#f5f5f5;padding:1em;border:1px solid brown;border-left-width:7px;}
+#importErrorMessage .msgHd h3,
+#importErrorMessage .msgInfo h3 {font-weight:bold;font-size:13px;margin:3px 0;line-height:1.5;}
+#importErrorMessage .msgDetails {margin-top:2em;}
+#importErrorMessage ul, li {margin:0;}
+#importErrorMessage ul {padding-left:16px;}
+#importErrorMessage li {display:list-item;list-style-type:disc;padding:0;}
+#importErrorMessage table {border-collapse:collapse;}
+#importErrorMessage thead th {padding:3px 5px;}
+#importErrorMessage thead th.form {background-color:#7E7E7E;color:#fff;}
+#importErrorMessage thead th.create {background-color:#00bb00;color:#fff;}
+#importErrorMessage thead th.delete {background-color:#bb0000;color:#fff;}
+#importErrorMessage thead th.update {background-color:#2297DA;color:#fff;}
+#importErrorMessage tbody td {padding:1px 2px;border-top:1px solid brown;}
+
+#export li.exportOpt {padding-left:30px;}
+#export input.checkbox {margin:0;padding:0;margin-right:5px;}
+#export input.button {padding-left:1em;padding-right:1em;}
+#export li.noPad {padding:0;}

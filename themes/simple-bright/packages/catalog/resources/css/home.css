@@ -1,0 +1,16 @@
+#systemStatusHolder .broadcast-header
+{
+    text-align: right;
+}
+#systemStatusHolder .broadcast-message
+{
+    padding: 10px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#systemStatusHolder .broadcast-close
+{
+    color: red;
+    cursor:pointer;
+}
