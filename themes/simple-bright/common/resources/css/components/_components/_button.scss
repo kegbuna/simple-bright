@@ -6,7 +6,7 @@
 
 .button {
   display: inline-block;
-  padding: (($lineHeight / 2) - 1) 32px;
+  padding: (($lineHeight / 3) - 1) 32px;
   margin-bottom: $lineHeight / 2;
   margin-top: $lineHeight / 2;
   min-height: $lineHeight;
@@ -33,8 +33,14 @@
 
   background: $color;
   color: $textColor;
+  border: 1px $borderBottomColor solid;
   border-bottom: $lineHeight/5 $borderBottomColor solid;
   @if $isInverted { border-color: transparent;}
+
+  &:hover
+  {
+
+  }
 }
 
 
@@ -43,7 +49,7 @@
   @include style-button($colorPrimary3-2, #ffffff, $colorPrimary3-1);
 }
 
-.button--secondary {
+/*.button--secondary {
   @extend .button;
   @include style-button($colorPrimary3-1,#ffffff, $colorBlue);
 }
@@ -51,4 +57,4 @@
 .button--secondary-variation {
   @extend .button;
   @include style-button($colorPrimary3-3,#ffffff, $colorBlue, true);
-}
+}*/

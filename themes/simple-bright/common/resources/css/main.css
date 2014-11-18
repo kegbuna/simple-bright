@@ -640,6 +640,7 @@ pre {
   src: url(../images/icons/icons.eot?#iefix) format("embedded-opentype"), url(../images/icons/icons.woff2) format("woff2"), url(../images/icons/icons.woff) format("woff"), url(../images/icons/icons.ttf) format("truetype"), url(../images/icons/icons.svg?#icons) format("svg");
   font-weight: normal;
   font-style: normal; }
+
 .icon {
   font-family: 'icons';
   display: inline-block;
@@ -839,15 +840,15 @@ pre {
       /* 52px */
       padding-top: 0.6190em;
       padding-bottom: 0; } }
-  @media only screen and (min-width: 800px) and (min-width: 800px) {
-    .highlight-module__title {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
-      font-size: 68px;
-      font-weight: 300;
-      line-height: 1.1471em;
-      /* 78px */
-      padding-top: 0.3824em;
-      padding-bottom: 0; } }
+    @media only screen and (min-width: 800px) and (min-width: 800px) {
+      .highlight-module__title {
+        font-family: "Roboto Condensed", Helvetica, sans-serif;
+        font-size: 68px;
+        font-weight: 300;
+        line-height: 1.1471em;
+        /* 78px */
+        padding-top: 0.3824em;
+        padding-bottom: 0; } }
 
 .highlight-module__cta {
   display: block; }
@@ -1999,9 +2000,9 @@ li > p {
 * Button
 *
 **/
-.button, .button--primary, .site-header .site-header-content .search a.search-button, .button--secondary, .button--secondary-variation {
+.button, .button--primary, .site-header .site-header-content .search a.search-button {
   display: inline-block;
-  padding: 12px 32px;
+  padding: 7.66667px 32px;
   margin-bottom: 13px;
   margin-top: 13px;
   min-height: 26px;
@@ -2011,7 +2012,7 @@ li > p {
   text-decoration: none;
   outline: 0;
   transition: none; }
-  .button:hover, .button--primary:hover, .site-header .site-header-content .search a.search-button:hover, .button--secondary:hover, .button--secondary-variation:hover {
+  .button:hover, .button--primary:hover, .site-header .site-header-content .search a.search-button:hover {
     background: #4d4d4d;
     color: #ffffff;
     border: 1px solid #4d4d4d;
@@ -2020,19 +2021,18 @@ li > p {
 .button--primary, .site-header .site-header-content .search a.search-button {
   background: #63c015;
   color: white;
+  border: 1px #018e19 solid;
   border-bottom: 5.2px #018e19 solid; }
 
-.button--secondary {
-  background: #018e19;
-  color: white;
-  border-bottom: 5.2px #3372df solid; }
+/*.button--secondary {
+  @extend .button;
+  @include style-button($colorPrimary3-1,#ffffff, $colorBlue);
+}
 
 .button--secondary-variation {
-  background: #a7dc7a;
-  color: white;
-  border-bottom: 5.2px #3372df solid;
-  border-color: transparent; }
-
+  @extend .button;
+  @include style-button($colorPrimary3-3,#ffffff, $colorBlue, true);
+}*/
 /**
 *
 * List
@@ -3106,42 +3106,49 @@ main {
   font-weight: 300;
   src: url(fonts/RobotoCondensed-Light.eot);
   src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url(fonts/RobotoCondensed-Light.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Light.woff) format("woff"); }
+
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/RobotoCondensed-Regular.eot);
   src: local("Roboto Condensed Regular"), local("RobotoCondensed-Regular"), url(fonts/RobotoCondensed-Regular.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Regular.woff) format("woff"); }
+
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   src: url(fonts/RobotoCondensed-Bold.eot);
   src: local("Roboto Condensed Regular"), local("RobotoCondensed-Bold"), url(fonts/RobotoCondensed-Bold.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Bold.woff) format("woff"); }
+
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 300;
   src: url(fonts/RobotoCondensed-LightItalic.eot);
   src: local("Roboto Condensed Light Italic"), local("RobotoCondensed-LightItalic"), url(fonts/RobotoCondensed-LightItalic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-LightItalic.woff) format("woff"); }
+
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 400;
   src: url(fonts/RobotoCondensed-Italic.eot);
   src: local("Roboto Condensed Italic"), local("RobotoCondensed-Italic"), url(fonts/RobotoCondensed-Italic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Italic.woff) format("woff"); }
+
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 700;
   src: url(fonts/RobotoCondensed-BoldItalic.eot);
   src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url(fonts/RobotoCondensed-BoldItalic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-BoldItalic.woff) format("woff"); }
+
 @font-face {
   font-family: 'Fedra Sans Bold';
   font-style: normal;
   font-weight: normal;
   src: url(https://s3.amazonaws.com/fonts.typotheque.com/WF-018999-002033-000025-1386614424.woff) format("woff");
   src: local("Fedra Sans Bold"); }
+
 /* Custom Header Stuff */
 .site-header {
   padding: 30px 20px 25px 20px; }
@@ -3181,4 +3188,7 @@ main {
         width: 100%;
         border: solid 1px #dedede;
         color: #9fa2a5;
-        padding: 0 5px; }
+        padding: 0 5px;
+        display: inline-block; }
+      .site-header .site-header-content .search a.search-button {
+        display: inline-block; }

@@ -253,11 +253,12 @@ main {
         border: solid 1px #dedede;
         color: #9fa2a5;
         padding: 0 5px;
+        display: inline-block;
       }
       a.search-button
       {
         @extend .button--primary;
-
+        display: inline-block;
       }
     }
 
