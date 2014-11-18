@@ -10,7 +10,6 @@
   margin-bottom: $lineHeight / 2;
   margin-top: $lineHeight / 2;
   min-height: $lineHeight;
-
   text-align: center;
 
   font-family: $fontHighlight;
@@ -30,27 +29,26 @@
 }
 
 // Mixin to create buttons
-@mixin style-button($color, $textColor, $isInverted: false) {
+@mixin style-button($color, $textColor, $borderBottomColor, $isInverted: false) {
 
   background: $color;
   color: $textColor;
-  border: 1px solid darken($color, 10%);
-
+  border-bottom: $lineHeight/5 $borderBottomColor solid;
   @if $isInverted { border-color: transparent;}
 }
 
 
 .button--primary {
   @extend .button;
-  @include style-button(#4285f4, #ffffff);
+  @include style-button($colorPrimary3-2, #ffffff, $colorPrimary3-1);
 }
 
 .button--secondary {
   @extend .button;
-  @include style-button(#ffffff, $colorBlue);
+  @include style-button($colorPrimary3-1,#ffffff, $colorBlue);
 }
 
 .button--secondary-variation {
   @extend .button;
-  @include style-button(#ffffff, $colorBlue, true);
+  @include style-button($colorPrimary3-3,#ffffff, $colorBlue, true);
 }

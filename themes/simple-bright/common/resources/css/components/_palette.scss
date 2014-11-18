@@ -5,6 +5,15 @@
 *
 **/
 
+/* Custom */
+$palettePrimary1: #f3f0dd #f8f7eb #fbfaf3;
+$palettePrimary2: #fbfaf3 #b1b1b3 #d0d0d1;
+$palettePrimary3: #018e19 #63c015 #a7dc7a #caeaaf;
+
+$colorPrimary3-1: nth($palettePrimary3, 1);
+$colorPrimary3-2: nth($palettePrimary3, 2);
+$colorPrimary3-3: nth($palettePrimary3, 3);
+$colorPrimary3-4: nth($palettePrimary3, 4);
 /* ==========  Blacks  ========== */
 
 $colorBlack: #000;

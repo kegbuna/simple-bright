@@ -11,7 +11,7 @@
         </a>
         <div class="search">
             <input id="SearchInput" type="text" title="Search" value="Search" class="search-input">
-            <a href="#" class="search-icon">
+            <a href="#" class="search-button">
                 Go
             </a>
         </div>
