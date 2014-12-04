@@ -20,6 +20,7 @@
     specific styles.
 --%>
 
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" href="<%=bundle.bundlePath()%>common/resources/css/main.css" />
 
 <%-- 
@@ -54,3 +55,4 @@
 <script type="text/javascript" src="<%=bundle.bundlePath()%>common/resources/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="<%=bundle.bundlePath()%>common/resources/js/jquery.md5.js"></script>
 <script type="text/javascript" src="<%=bundle.bundlePath()%>common/resources/js/common.js"></script>
+<script type="text/javascript" src="<%=bundle.bundlePath()%>common/resources/js/column_site.js"></script>

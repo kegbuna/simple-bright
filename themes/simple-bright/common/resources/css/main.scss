@@ -25,11 +25,11 @@ body {
 
 body {
   position: relative;
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-family: 'Lato Regular', Helvetica, Arial, sans-serif;
   font-weight: 300;
   box-sizing: border-box;
   min-height: 100%;
-  background: /*#dee7ee center bottom */ no-repeat url(images/headerBg.jpg);
+  //background: /*#dee7ee center bottom */ no-repeat url(images/headerBg.jpg);
 }
 
 body.open {
@@ -43,7 +43,10 @@ ol {
   font-size: 19px;
 }
 
-
+*
+{
+  behavior: url(themes/simple-bright/common/resources/css/PIE.htc);
+}
 main {
   margin: 0 auto;
   /* Height of the header */
@@ -191,15 +194,57 @@ main {
   font-family: 'Fedra Sans Bold';
   font-style: normal;
   font-weight: normal;
-  //src: url(https://s3.amazonaws.com/fonts.typotheque.com/WF-018999-002033-000017-1386614423.woff) format('woff');
-  src: url(https://s3.amazonaws.com/fonts.typotheque.com/WF-018999-002033-000025-1386614424.woff) format('woff');
+  src: url(fonts/fedra-bold.ttf) format('ttf');
   src: local('Fedra Sans Bold');
+}
+
+@font-face
+{
+  font-family: 'Fedra Sans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/fedra-light.ttf) format('ttf');
+  src: local('Fedra Sans Light');
+}
+
+@font-face
+{
+  font-family: 'Lato Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/Lato-Regular.ttf) format('ttf');
+  src: local('Lato Regular');
+}
+
+.site-header, .view-port
+{
+  padding: 30px 20px 25px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.view-port
+{
+  padding-top: 0;
+  section.left-column
+  {
+    float: left;
+    width: 70%;
+  }
+  aside.right-column
+  {
+    float: left;
+    width: 30%;
+  }
+  .left-column,.right-column
+  {
+    padding: 0 10px;
+  }
 }
 /* Custom Header Stuff */
 
 .site-header
 {
-  padding: 30px 20px 25px 20px;
   a.logo
   {
     background: url(images/lahey-health-logo.png) no-repeat;
@@ -212,31 +257,44 @@ main {
 
   .site-header-content
   {
-    max-width: 800px;
-    margin: 0 auto;
     .nav-bar
     {
-      margin: 5px 0;
-      padding: 0 0;
+      margin: 15px 0 0 0;
+      padding: 0 20px;
+      text-align: center;
+
       ul.nav-items
       {
-        padding: 0;
+        padding: 0 20px 0 20px;
         font-size: 14px;
+        background: $colorPrimary3-2;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 0 auto 0 auto;
+
         li.nav-item
         {
           display: inline-block;
           color: #fff;
-          border-radius: 5px;
-          background: #000;
+          margin: 0;
+
+          background: $colorPrimary3-2;
           padding: 10px 10px;
           cursor: pointer;
-          font-family: 'Fedra Sans Bold';
-          margin-right: 10px;
-          margin-top: 5px;
+          font-weight: 700;
           behavior: url(themes/simple-bright/common/resources/css/PIE.htc);
           &:hover
           {
-            border: 4px #102e41 solid;
+            background: $colorPrimary3-1;
+            transition: background-color 600ms ease;
+          }
+          &::before
+          {
+            content: none;
+          }
+          &:last-child
+          {
+
           }
         }
 
@@ -247,18 +305,34 @@ main {
     {
       display: inline-block;
       float: right;
+      padding-top: 10px;
       input.search-input
       {
-        width: 100%;
-        border: solid 1px #dedede;
+
+        border: solid 1px $colorPrimary2-2;
+        line-height: $lineHeight;
         color: #9fa2a5;
         padding: 0 5px;
         display: inline-block;
+        height: 40px;
+        float: left;
+        width: 75px;
+        transition: width 200ms ease;
+        &.active
+        {
+          border-color: $colorPrimary3-2;
+          width: 150px;
+          transition: width 500ms ease;
+        }
       }
       a.search-button
       {
-        @extend .button--primary;
+        @extend .button--search;
         display: inline-block;
+        i
+        {
+          font-size: 20px;
+        }
       }
     }
 

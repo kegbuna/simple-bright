@@ -42,13 +42,43 @@
 
   }
 }
+@mixin legacy-ie($ver: 8)
+{
+  .ie#{$ver} & {
+    @content;
+  }
+}
+@mixin style-square-button($color, $altColor, $textColor, $size, $isInverted: false) {
 
+  background: $color;
+  color: $textColor;
+  border: 1px solid $color;
+  height: $size;
+  width: $size;
+  padding: $size/5;
+  @if $isInverted { border-color: transparent;}
+
+
+  &:hover, &.active
+  {
+    background: $altColor;
+    border-color: $altColor;
+  }
+}
 
 .button--primary {
   @extend .button;
   @include style-button($colorPrimary3-2, #ffffff, $colorPrimary3-1);
 }
 
+.button--search
+{
+  @extend .button;
+  @include style-square-button($colorPrimary2-2, $colorPrimary3-2, #fff, 40px);
+  margin: 0;
+
+
+}
 /*.button--secondary {
   @extend .button;
   @include style-button($colorPrimary3-1,#ffffff, $colorBlue);
