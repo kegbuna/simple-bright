@@ -8,6 +8,7 @@
 
 $(document).ready(function()
 {
+    //Search area functionality
     $('#SearchInput').on('focus blur', function (e)
     {
         var $container = $(this).parent();
@@ -19,6 +20,21 @@ $(document).ready(function()
         {
             $container.find('a.search-button, input.search-input').removeClass('active');
         }
+    });
 
+    //fire on anything and let me know
+    $(document).on("*", function(e)
+    {
+        console.log(e);
     });
 });
+
+//My new object will be called keg.. for ken egbuna
+
+var keg = {};
+
+//This function will be fired at the beginning of any service item to provide some additional functionality
+keg.startTemplate = function ()
+{
+
+};

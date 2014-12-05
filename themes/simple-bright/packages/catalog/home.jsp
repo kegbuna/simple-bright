@@ -48,14 +48,17 @@
         <%@include file="../../common/interface/fragments/header.jspf" %>
         <div id="homeView" class="view-port">
             <section class="left-column">
-                <div class="hero-box">
-                    <h2 class="content-header">Welcome, how can we help you?</h2>
+                <div class="entry-box">
+                    <h2 class="entry-box-title">Welcome, how can we help you?</h2>
+                    <a href="<%=bundle.getProperty("incidentUrl")%>" class="incident-button">I have a problem!</a>
+                    <a class="request-button">I need something new.</a>
+                    <a></a>
                 </div>
             </section>
             <aside class="right-column">
                 <div class="info-box" id="AnnouncementsBox">
                     <div class="info-box-title">
-                        <h3><i class="fa fa-bullhorn"></i>Announcements (<%=broadcasts.getLength()%>)</h3>
+                        <i class="fa fa-bullhorn"></i><h3>Announcements</h3>
                     </div>
                     <div class="info-box-content">
                 <%  if (broadcasts.getLength() > 0)
@@ -64,17 +67,41 @@
                         {%>
                         <div class="info-box-item">
                             <div class="item-timestamp">
-                                <%=broadcasts.getFieldRequestType(i)%>
+                                <%=((String)broadcasts.getStartDate(i).get("month")).substring(0, 3)%>
+                                <%=broadcasts.getStartDate(i).get("day")%>
                             </div>
                             <div class="item-summary">
-                                <%=broadcasts.getFieldSubject(i)%>
+                                <a><%=broadcasts.getFieldSubject(i)%></a>
                             </div>
                         </div>
                     <% }
                     } %>
                     </div>
                 </div>
+                <div class="info-box" id="RecentRequestsBox">
+                    <div class="info-box-title">
+                        <i class="fa fa-clipboard"></i><h3>Recently Submitted</h3>
+                    </div>
+                    <div class="info-box-content">
+                        <%  if (broadcasts.getLength() > 0)
+                        {
+                            for (int i=0; i<broadcasts.getLength(); i++)
+                            {%>
+                        <div class="info-box-item">
+                            <div class="item-timestamp">
+                                <%=((String)broadcasts.getStartDate(i).get("month")).substring(0, 3)%>
+                                <%=broadcasts.getStartDate(i).get("day")%>
+                            </div>
+                            <div class="item-summary">
+                                <a><%=broadcasts.getFieldSubject(i)%></a>
+                            </div>
+                        </div>
+                        <% }
+                        } %>
+                    </div>
+                </div>
             </aside>
+
         </div>
         <%@include file="../../common/interface/fragments/footer.jspf"%>
     </body>

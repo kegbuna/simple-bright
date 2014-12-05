@@ -1,15 +1,63 @@
 .info-box
 {
-
+  margin: 0 0 15px 0;
   .info-box-title
   {
+    background: $colorPrimary1-1;
+    padding: 5px 7px;
     i
     {
-      margin-right: 20px;
+      width: 30px;
+      color: $colorPrimary5-1;
+      font-size: x-large;
+    }
+    h3
+    {
+      padding: 0;
+      display: inline-block;
+      font-family: "Fedra Sans Bold", "Helvetica Nueue", Helvetica, sans-serif;
+      font-size: 20px;
+      margin: 0 0 0 1%;
     }
   }
   .info-box-content
   {
+    background: $colorPrimary1-3;
+    padding: .5em 0;
+    .info-box-item
+    {
+      padding: 0 7px;
+      margin-bottom: 12px;
+      .item-timestamp
+      {
+        width: 30px;
+        display: inline-block;
+        font-size: .75em;
+        line-height: 15px;
+        float: left;
+      }
+      .item-summary
+      {
+        display:inline-block;
+        max-width: 250px;
+        font-size: .75em;
+        margin: 0 0 0 1%;
+      }
+    }
+  }
+}
 
+.entry-box
+{
+  text-align: center;
+  .entry-box-title
+  {
+    font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
+    font-size: 36px;
+  }
+  .incident-button, .request-button
+  {
+    @extend .button--primary;
+    width: 70%;
   }
 }

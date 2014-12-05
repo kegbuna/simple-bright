@@ -6,22 +6,26 @@
 </style>
 <div class="site-header">
     <div class="site-header-content">
-        <a href="http://laheyhealth.org" class="logo">
-            Lahey Health
-        </a>
-        <div class="search">
-            <input id="SearchInput" type="text" title="Search" placeholder="Search" class="search-input">
-            <a href="#" class="search-button">
-                <i class="fa fa-search"></i>
+        <div class="site-header-top">
+            <a href="http://laheyhealth.org" class="logo">
+                Lahey Health
             </a>
+            <div class="search">
+                <input id="SearchInput" type="text" title="Search" placeholder="Search" class="search-input">
+                <a href="#" class="search-button">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
         </div>
-        <nav class="nav-bar">
-            <ul class="nav-items">
-                <li class="nav-item">Home</li>
-                <li class="nav-item">My Stuff</li>
-                <li class="nav-item">Third Option</li>
-            </ul>
-        </nav>
+        <div class="site-header-bottom">
+            <nav class="nav-bar">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="<%=bundle.getProperty("homeUrl")%>">Home</a></li>
+                    <li class="nav-item">My Stuff</li>
+                    <li class="nav-item">Third Option</li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </div>
 

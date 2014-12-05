@@ -42,7 +42,6 @@
     <body>
         <%@include file="../../common/interface/fragments/header.jspf"%>
         <div class="view-port">
-            <%@include file="../../common/interface/fragments/navigationSlide.jspf"%>
             <div class="content-slide" data-target="div.navigation-slide">
                 <div class="pointer-events">
                     <header class="container">

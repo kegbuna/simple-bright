@@ -9,6 +9,8 @@
 $palettePrimary1: #f3f0dd #f8f7eb #fbfaf3;
 $palettePrimary2: #b1b1b3 #d0d0d1 #fbfaf3;
 $palettePrimary3: #018e19 #63c015 #a7dc7a #caeaaf;
+$palettePrimary4: #228e9c #70d5f6 #a9e6fa;
+$palettePrimary5: #6f2b6d #ae86ad #ceb6ce;
 
 $colorPrimary1-1: nth($palettePrimary1, 1);
 $colorPrimary1-2: nth($palettePrimary1, 2);
@@ -22,6 +24,16 @@ $colorPrimary3-1: nth($palettePrimary3, 1);
 $colorPrimary3-2: nth($palettePrimary3, 2);
 $colorPrimary3-3: nth($palettePrimary3, 3);
 $colorPrimary3-4: nth($palettePrimary3, 4);
+
+$colorPrimary4-1: nth($palettePrimary4, 1);
+$colorPrimary4-2: nth($palettePrimary4, 2);
+$colorPrimary4-3: nth($palettePrimary4, 3);
+
+
+$colorPrimary5-1: nth($palettePrimary5, 1);
+$colorPrimary5-2: nth($palettePrimary5, 2);
+$colorPrimary5-3: nth($palettePrimary5, 3);
+
 /* ==========  Blacks  ========== */
 
 $colorBlack: #000;

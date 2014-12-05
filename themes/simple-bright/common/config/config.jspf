@@ -3,9 +3,9 @@
 --%>
 <%
     bundle.setProperty("companyName", "Calbro Services");
-    bundle.setProperty("catalogName", "Flat");
+    bundle.setProperty("catalogName", "Simple");
     // Slug used for urls
-    bundle.setProperty("slug", "Flat");
+    bundle.setProperty("slug", "Simple");
     // Urls
     bundle.setProperty("catalogUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-Catalog");
     bundle.setProperty("homeUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-Home");
@@ -19,8 +19,9 @@
     bundle.setProperty("feedbackUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-Feedback");
     bundle.setProperty("searchNameParam", bundle.getProperty("slug") + "-Search");
     bundle.setProperty("knowledgeUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-KnowledgePage");
+    bundle.setProperty("incidentUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-ReportIncident");
     bundle.setProperty("logoutUrl", "KSAuthenticationServlet?Logout=true");
-    bundle.setProperty("siteTitle", "IT Services");
+    bundle.setProperty("siteTitle", "Lahey IT Services");
 
     // This is a path to the review jsp to be used by review request.
     bundle.setProperty("reviewJsp", bundle.relativeBundlePath() + "packages/base/review.jsp");

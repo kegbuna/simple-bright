@@ -77,25 +77,53 @@
             String type = this.entries[index].getEntryFieldValue(FIELD_TYPE);
             if (type.equals("General Information"))
             {
-                return "text-success";
+                return "general-information";
             }
             else if(type.equals("Unavailability"))
             {
-                return "text-danger";
+                return "unavailability";
             }
             else if(type.equals("Scheduled Unavailability"))
             {
-                return "text-warning";
+                return "scheduled-unavailability";
             }
             else
             {
-                return "text-success";
+                return "general-information";
             }
         }
 
         public int getLength()
         {
             return this.entries.length;
+        }
+        public JSONObject getStartDate(int index)
+        {
+            String dateString = this.entries[index].getEntryFieldValue(FIELD_START);
+            Date newDate;
+            DateFormat newDF = new SimpleDateFormat("MM/DD/YYYY HH:mm:ss", Locale.ENGLISH);
+            DateFormatSymbols dfs = new DateFormatSymbols();
+            String[] months = dfs.getMonths();
+            JSONObject jsonDate = new JSONObject();
+
+            try
+            {
+                newDate = newDF.parse(dateString);
+            }
+            catch (ParseException pe)
+            {
+                pe.printStackTrace();
+                return null;
+            }
+
+            jsonDate.put("month", months[newDate.getMonth()]);
+            jsonDate.put("day", newDate.getDate());
+
+            return jsonDate;
+        }
+        public String getEndDate(int index)
+        {
+            return this.entries[index].getEntryFieldValue(FIELD_END);
         }
 
     }
