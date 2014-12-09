@@ -278,10 +278,11 @@ main {
         padding: 0 20px 0 20px;
         font-size: 14px;
         background: $colorPrimary3-2;
-        border: 2px $colorPrimary3-1 solid;
+        border: 4px $colorPrimary3-1 solid;
         border-left: 0;
         border-right: 0;
-        //border-radius: 10px;
+        border-top: 0;
+        display: inline-block;
         width: 100%;
 
         li.nav-item
