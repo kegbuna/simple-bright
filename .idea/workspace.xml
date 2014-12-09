@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="841c439a-2651-4c92-b154-c93b2fce53e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/framework/models/Broadcasts.jspf" afterPath="$PROJECT_DIR$/themes/simple-bright/common/framework/models/Broadcasts.jspf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_global.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_link.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_link.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_utils.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_utils.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/config/config.jspf" afterPath="$PROJECT_DIR$/themes/simple-bright/common/config/config.jspf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/display.css" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/display.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/base/display.jsp" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/base/display.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/displayPackage.css" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/displayPackage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/header.jspf" afterPath="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/header.jspf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -90,21 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.115385" vertical-offset="621" max-vertical-offset="1921">
-              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_button.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.23076923" vertical-offset="725" max-vertical-offset="1649">
-              <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+            <state vertical-scroll-proportion="-29.653847" vertical-offset="844" max-vertical-offset="1734">
+              <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -113,58 +95,20 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.76923" vertical-offset="3947" max-vertical-offset="6120">
-              <caret line="267" column="25" selection-start-line="267" selection-start-column="25" selection-end-line="267" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="-15.423077" vertical-offset="4495" max-vertical-offset="6936">
+              <caret line="288" column="38" selection-start-line="288" selection-start-column="32" selection-end-line="288" selection-end-column="32" />
+              <folding>
+                <marker date="1418077251555" expanded="true" signature="8041:8064" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="column_site.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
+      <file leaf-file-name="_container.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.jspf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/catalog/config/config.jspf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="476">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.jspf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/config/config.jspf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="51" max-vertical-offset="748">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/display.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846" vertical-offset="493" max-vertical-offset="1139">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/display.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2210">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8636884" vertical-offset="1524" max-vertical-offset="2414">
+              <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -173,20 +117,60 @@
       <file leaf-file-name="displayPackage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/displayPackage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6489" max-vertical-offset="9945">
-              <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.6" vertical-offset="2156" max-vertical-offset="8449">
+              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="144" selection-end-column="83" />
               <folding>
-                <marker date="1417817187971" expanded="true" signature="5394:5417" placeholder="{...}" />
+                <marker date="1418058655974" expanded="true" signature="3518:3541" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.jspf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/header.jspf">
+      <file leaf-file-name="column_site.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48682705" vertical-offset="0" max-vertical-offset="873">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="597" max-vertical-offset="1496">
+              <caret line="79" column="12" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationHeadContent.jspf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/core/interface/fragments/applicationHeadContent.jspf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.23077" vertical-offset="102" max-vertical-offset="2023">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Column_display.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/Column_display.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.6" vertical-offset="15183" max-vertical-offset="24446">
+              <caret line="919" column="9" selection-start-line="910" selection-start-column="8" selection-end-line="919" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_palette.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.923077" vertical-offset="383" max-vertical-offset="6596">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/display.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="510" max-vertical-offset="1173">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -213,22 +197,22 @@
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_subsection-title.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_containers.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/components.scss" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/framework/models/Broadcasts.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_link.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_utils.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_global.scss" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/config/config.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/config/config.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/display.css" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/display.jsp" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/header.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/displayPackage.css" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/display.jsp" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
       </list>
     </option>
   </component>
@@ -360,6 +344,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Local Kinetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -665,6 +679,108 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Local Kinetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Local Kinetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Local Kinetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-bright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="interface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -792,6 +908,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Local Kinetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Local Kinetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1265,12 +1413,12 @@
       <workItem from="1416248813924" duration="4142000" />
       <workItem from="1416281895079" duration="1894000" />
       <workItem from="1416330541396" duration="2586000" />
-      <workItem from="1417054273828" duration="38739000" />
+      <workItem from="1417054273828" duration="55928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72681000" />
+    <option name="totallyTimeSpent" value="89870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1331,13 +1479,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/flat-bootstrap3/packages/submissions/submissionsDataTable.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/flat-bootstrap3/packages/catalog/framework/includes/packageInitialization.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="2108">
@@ -1429,13 +1570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/core/interface/fragments/displayHeadContent.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1128">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/catalog/framework/includes/packageInitialization.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3520871" vertical-offset="751" max-vertical-offset="2108">
@@ -1448,14 +1582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1141">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/core/interface/fragments/applicationHeadContent.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.076923" vertical-offset="357" max-vertical-offset="2023">
-          <caret line="93" column="74" selection-start-line="93" selection-start-column="74" selection-end-line="93" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1476,14 +1602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5814">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_guides-list.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58419245" vertical-offset="0" max-vertical-offset="1428">
@@ -1500,14 +1618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.653847" vertical-offset="164" max-vertical-offset="1054">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_subsection-title.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="459">
@@ -1516,42 +1626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.307692" vertical-offset="181" max-vertical-offset="1071">
-          <caret line="57" column="92" selection-start-line="57" selection-start-column="92" selection-end-line="57" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/components.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.461538" vertical-offset="198" max-vertical-offset="1071">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="899">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_articles-list.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.18785796" vertical-offset="164" max-vertical-offset="1037">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_helper.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.23077" vertical-offset="1250" max-vertical-offset="2176">
-          <caret line="106" column="26" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1580,23 +1658,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="6273">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/framework/models/Broadcasts.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.653847" vertical-offset="929" max-vertical-offset="1938">
           <caret line="121" column="28" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
           <folding>
-            <element signature="e#3111#3112#0#JAVA" expanded="true" />
-            <element signature="e#3161#3162#0#JAVA" expanded="true" />
-            <element signature="e#4023#4024#0#JAVA" expanded="true" />
-            <element signature="e#4103#4104#0#JAVA" expanded="true" />
+            <element signature="e#3111#3112#0#JAVA" expanded="false" />
+            <element signature="e#3161#3162#0#JAVA" expanded="false" />
+            <element signature="e#3111#3112#0#JAVA" expanded="false" />
+            <element signature="e#3161#3162#0#JAVA" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1621,22 +1691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5490196" vertical-offset="1043" max-vertical-offset="7191">
           <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846" vertical-offset="153" max-vertical-offset="1190">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1673,48 +1727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/display.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846" vertical-offset="493" max-vertical-offset="1139">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/displayPackage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6489" max-vertical-offset="9945">
-          <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding>
-            <marker date="1417817187971" expanded="true" signature="5394:5417" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.76923" vertical-offset="3947" max-vertical-offset="6120">
-          <caret line="267" column="25" selection-start-line="267" selection-start-column="25" selection-end-line="267" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23076923" vertical-offset="725" max-vertical-offset="1649">
-          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.115385" vertical-offset="621" max-vertical-offset="1921">
@@ -1725,8 +1737,148 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/header.jspf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48682705" vertical-offset="0" max-vertical-offset="873">
+        <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="629">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/core/interface/fragments/displayHeadContent.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44788086" vertical-offset="0" max-vertical-offset="873">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.513173" vertical-offset="198" max-vertical-offset="1071">
+          <caret line="38" column="87" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7789233" vertical-offset="102" max-vertical-offset="1071">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/core/interface/fragments/applicationHeadContent.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.23077" vertical-offset="102" max-vertical-offset="2023">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73997706" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="899">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_helper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34797892" vertical-offset="1026" max-vertical-offset="2176">
+          <caret line="72" column="3" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321617" vertical-offset="389" max-vertical-offset="1054">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/display.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="510" max-vertical-offset="1173">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4253078" vertical-offset="5245" max-vertical-offset="5814">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/displayPackage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6" vertical-offset="2156" max-vertical-offset="8449">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="144" selection-end-column="83" />
+          <folding>
+            <marker date="1418058655974" expanded="true" signature="3518:3541" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/Column_display.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.6" vertical-offset="15183" max-vertical-offset="24446">
+          <caret line="919" column="9" selection-start-line="910" selection-start-column="8" selection-end-line="919" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.923077" vertical-offset="383" max-vertical-offset="6596">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.653847" vertical-offset="844" max-vertical-offset="1734">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="597" max-vertical-offset="1496">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.423077" vertical-offset="4495" max-vertical-offset="6936">
+          <caret line="288" column="38" selection-start-line="288" selection-start-column="32" selection-end-line="288" selection-end-column="32" />
+          <folding>
+            <marker date="1418077251555" expanded="true" signature="8041:8064" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8636884" vertical-offset="1524" max-vertical-offset="2414">
+          <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
           <folding />
         </state>
       </provider>

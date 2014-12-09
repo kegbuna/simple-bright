@@ -13,7 +13,10 @@
  */
 @import 'components/components';
 
-
+h1, h2
+{
+  font-family: "Fedra Sans Light";
+}
 
 html,
 body {
@@ -194,8 +197,8 @@ main {
   font-family: 'Fedra Sans Bold';
   font-style: normal;
   font-weight: normal;
-  src: url(fonts/fedra-bold.ttf) format('ttf');
-  src: local('Fedra Sans Bold');
+  src: url(fonts/fedra-bold.ttf) format('truetype');
+  //src: local('Fedra Sans Bold');
 }
 
 @font-face
@@ -203,8 +206,8 @@ main {
   font-family: 'Fedra Sans Light';
   font-style: normal;
   font-weight: normal;
-  src: url(fonts/fedra-light.ttf) format('ttf');
-  src: local('Fedra Sans Light');
+  src: url(fonts/fedra-light.ttf) format('truetype');
+  //src: local('Fedra Sans Light');
 }
 
 @font-face
@@ -212,20 +215,19 @@ main {
   font-family: 'Lato Regular';
   font-style: normal;
   font-weight: normal;
-  src: url(fonts/Lato-Regular.ttf) format('ttf');
+  src: url(fonts/Lato-Regular.ttf) format('truetype');
   src: local('Lato Regular');
 }
 
 .site-header, .view-port
 {
-  padding: 30px 20px 25px 20px;
-  max-width: 950px;
-  margin: 0 auto;
 }
 
 .view-port
 {
-  padding-top: 0;
+  max-width: 950px;
+  padding: 0 20px 25px 20px;
+  margin: 0 auto;
   section.left-column
   {
     float: left;
@@ -247,9 +249,13 @@ main {
 
 .site-header
 {
+  padding-top: 20px;
   .site-header-top
   {
     margin-bottom: 20px;
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 0 20px;
     a.logo
     {
       background: url(images/lahey-health-logo.png) no-repeat;
@@ -265,16 +271,18 @@ main {
     .nav-bar
     {
       margin: 15px 0 0 0;
+      width: 100%;
       text-align: center;
       ul.nav-items
       {
         padding: 0 20px 0 20px;
         font-size: 14px;
         background: $colorPrimary3-2;
-        border: 1px $colorPrimary3-1 solid;
-        border-radius: 10px;
-        display: inline-block;
-        margin: 0 auto 0 auto;
+        border: 2px $colorPrimary3-1 solid;
+        border-left: 0;
+        border-right: 0;
+        //border-radius: 10px;
+        width: 100%;
 
         li.nav-item
         {
@@ -349,6 +357,47 @@ main {
         }
       }
     }
-
   }
+}
+
+
+/* Display page type stuff */
+/* Pre-required label */
+form#pageQuestionsForm div.preRequiredLabel:after,
+div#reviewContent div.preRequiredLabel:after { color: $colorSecondary2-1 !important; content: "*"; }
+form#pageQuestionsForm div.preRequiredLabel div.preRequiredLabel_checkbox:after,
+div#reviewContent div.preRequiredLabel div.preRequiredLabel_checkbox:after { content: ""; }
+form#pageQuestionsForm *.preRequiredLabel,
+div#reviewContent *.preRequiredLabel { zoom: expression(setIE7PreRequired(this)); }
+
+/* Other stuff */
+
+div.templateSection
+{
+  padding-top: 20px;
+  &:first-child
+  {
+    padding-top: 0;
+  }
+}
+
+div.questionLayer
+{
+  display: inline-block;
+  margin-left: 40px;
+  .questionLabel
+  {
+    background: $colorPrimary1-1;
+    padding: 0 5px;
+  }
+  .questionAnswer
+  {
+    border: 2px $colorPrimary1-1 solid;
+    border-top: 0;
+  }
+}
+
+.templateButton
+{
+  margin-left: 40px;
 }

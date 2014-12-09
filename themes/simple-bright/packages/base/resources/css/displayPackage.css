@@ -1,9 +1,6 @@
 @charset "utf-8";
-body, html, div, h1, h2, h3, h4
-{
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-*{    
+
+*{
     outline:none;
 }
 /* Bootstrap overrides*/
@@ -42,7 +39,7 @@ div#pageQuestionsForm {
     *zoom: 1;
     margin: 0;
     padding: 0px 20px 20px 20px;
-    background-color: #EFEFEF;
+    background: none;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
@@ -70,11 +67,6 @@ form#pageQuestionsForm div.answerCheckbox, div#reviewContent div.answerCheckbox
     margin: 0 10px 0 10px;
 }
 
-form#pageQuestionsForm .CBcolumns div.answerCheckbox, div#reviewContent .CBcolumns div.answerCheckbox
-{
-    display: inline-block;
-    width: 40%;
-}
 /* Template Content */
 form#pageQuestionsForm div.templateContent,
 div#reviewContent div.templateContent { 
@@ -108,82 +100,17 @@ div#reviewContent div.sectionHeader {
     *display: inline;
     zoom: 1;
 }
-.templateSection.jda-section
-{
-    max-width: 800px;
-}
-.jda-header
-{
-    padding-left: 20px;
-}
-.jda-header>div
-{
-    display: inline-block;
-    padding-left: 10px;
-    text-align: center;
-    font-weight: 700;
-}
-    .jda-header>.jda-groups-label
-    {
-        width: 130px;
-    }
-    .jda-header>.jda-level-label
-    {
-        width: 335px;
-    }
-    .jda-header>.jda-outq-label
-    {
-        width: 175px;
-    }
-/* JDA Groups Questions */
-form#pageQuestionsForm div.questionLayer.jda-groups,
-div#reviewContent div.questionLayer.jda-groups
-{
-    float:left;
-    width: 175px;
-}
-    form#pageQuestionsForm div.questionLayer.jda-groups div.answerCheckbox,
-    div#reviewContent div.questionLayer.jda-groups div.answerCheckbox
-    {
-        height: 45px;
-    }
-/* JDA Level Questions */
-form#pageQuestionsForm div.questionLayer.jda-level,
-div#reviewContent div.questionLayer.jda-level
-{
-    width: 350px;
-    padding-left: 10px;
-    float:left;
-    height: 45px;
-}
-    form#pageQuestionsForm div.questionLayer.jda-level select,
-    div#reviewContent div.questionLayer.jda-level select
-    {
-        min-width: 335px;
-    }
-/* JDA OutQ Questions */
-form#pageQuestionsForm div.questionLayer.jda-outq,
-div#reviewContent div.questionLayer.jda-outq
-{
-    padding-left:10px;
-    float:left;
-    height: 45px;
-}
-    form#pageQuestionsForm div.questionLayer.jda-outq select,
-    div#reviewContent div.questionLayer.jda-outq select
-    {
-      /*  min-width: 175px;*/
-    }
+
 /* Question layer */
 form#pageQuestionsForm div.questionLayer,
-div#reviewContent div.questionLayer { 
-    padding: 10px 0px 0px 50px;
+div#reviewContent div.questionLayer
+{
     position:relative;
     z-index: 50;
 }
 
 form#pageQuestionsForm div.questionAnswer,
-div#reviewContent div.questionAnswer { position: relative; margin-left: 250px; line-height: 30px; }
+div#reviewContent div.questionAnswer { position: relative; line-height: 30px; }
 
 form#pageQuestionsForm div.questionLayer:after,
 div#reviewContent div.questionLayer:after {
@@ -195,10 +122,9 @@ div#reviewContent div.questionLayer:after {
 /* Label */
 form#pageQuestionsForm div.questionLabel,
 body.loadAllPages_false div#reviewContent div.questionLabel {
-    float: left;
-    width: 250px;
     font-weight: normal;
-    margin-top: 5px;
+    margin: 5px 0;
+
 }
 /* no label */
 form#pageQuestionsForm div.questionLayer.no-label .questionLabel, div#reviewContent div.questionLayer.no-label .questionLabel
@@ -343,20 +269,6 @@ form#pageQuestionsForm .consent-page div.questionLayer, div#reviewContent .conse
 }
 
 /* GENERAL OVERRIDES */
-
-.contact-info
-{
-    min-height: 80px;
-    margin-left: 45px;
-}
-.contact-info address
-{
-    margin: 0;
-}
-.contact-info address strong
-{
-    margin-left: -10px;
-}
 
 #changeCustomer
 {

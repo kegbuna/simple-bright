@@ -90,3 +90,8 @@
   @extend .button;
   @include style-button($colorPrimary3-3,#ffffff, $colorBlue, true);
 }*/
+
+.templateButton
+{
+  @extend .button--primary;
+}

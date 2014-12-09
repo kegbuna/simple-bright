@@ -24,9 +24,9 @@
         <%@include file="../../core/interface/fragments/displayHeadContent.jspf"%>
 
         <!-- Package Stylesheets -->
-        <link rel="stylesheet" href="<%= bundle.packagePath()%>resources/css/displayPackage.css" type="text/css" />
+        <!-- <link rel="stylesheet" href="<%= bundle.packagePath()%>resources/css/displayPackage.css" type="text/css" /> -->
         <!-- Page Stylesheets -->
-        <link rel="stylesheet" href="<%= bundle.packagePath()%>resources/css/display.css" type="text/css" />
+        <!-- <link rel="stylesheet" href="<%= bundle.packagePath()%>resources/css/display.css" type="text/css" /> -->
         <!-- Utilities -->
 
         <!-- Package Javascript -->
@@ -45,9 +45,9 @@
             <div class="content-slide" data-target="div.navigation-slide">
                 <div class="pointer-events">
                     <header class="container">
-                        <h2 class="request-title">
+                        <h1 class="page-title">
                             <%= customerRequest.getTemplateName()%>
-                        </h2>
+                        </h1>
                         <hr class="soften" style="display:none;">
                     </header>
                     <section class="container">
@@ -57,6 +57,8 @@
                 <%@include file="../../common/interface/fragments/footer.jspf"%>
             </div>
         </div>
+    <script type="text/javascript">
 
+    </script>
     </body>
 </html>

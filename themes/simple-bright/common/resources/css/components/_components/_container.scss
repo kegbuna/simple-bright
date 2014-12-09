@@ -61,3 +61,77 @@
     width: 70%;
   }
 }
+.contact-info.dynamicText
+{
+  display: table;
+  .person-info
+  {
+    display:table-cell;
+    padding: 0 40px;
+  }
+}
+.person-info
+{
+  display: inline-block;
+
+  &:first-child
+  {
+    margin-right: 30px;
+  }
+  .person-info-title, .person-info-box
+  {
+
+  }
+  .person-info-title
+  {
+    background: $colorInfoBoxHeader;
+    color: $colorPrimary1-3;
+    padding: 5px 15px;
+  }
+  .person-info-box
+  {
+    padding: 15px;
+    background: $colorInfoBoxBG;
+    .person-info-box-value
+    {
+      display: block;
+    }
+  }
+}
+
+/*
+Display Page section stuff
+*/
+.section-header
+{
+  background: $colorSectionHeaderBG;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  .section-header-icon
+  {
+    color: $colorPrimary5-1;
+    margin-right: 30px;
+    font-size: 1.75em;
+    position: relative;
+    top: -2px;
+  }
+  .section-header-title
+  {
+    display:inline-block;
+    padding: 0;
+    font-size: 36px;
+    font-family: "Fedra Sans Light", Helvetica, sans-serif;
+  }
+}
+
+/*
+
+*/
+
+h1.page-title
+{
+  color: $colorPrimary3-1;
+  font-size: 64px;
+  margin: 20px 0;
+  padding-top: 0;
+}
