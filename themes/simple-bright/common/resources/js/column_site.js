@@ -20,6 +20,14 @@ $(document).ready(function()
         {
             $container.find('a.search-button, input.search-input').removeClass('active');
         }
+    }).on('keyup', function(e)
+    {
+
+        var $container = $(this).parent();
+        if (e.keyCode == 13)
+        {
+            window.location.href = BUNDLE.config.searchUrl + "&q=" + $(this).val();
+        }
     });
 
     //fire on anything and let me know
@@ -60,7 +68,6 @@ keg.startTemplate = function ()
         {
             customerData[$(this).attr('label')] = $(this).val();
         });
-        console.log(customerData);
 
         $submitterInfo.html('');
 
@@ -73,11 +80,122 @@ keg.startTemplate = function ()
             keg.form.setCustomerInfo(customerData);
         }
 
-        $('#changeCustomer').on('click', function()
+        $('#changeCustomer').on('click', function(e)
         {
             e.preventDefault();
+            var $this = $(this);
+            var $container = $('#customerBox').find('.person-info-box');
+            $this.toggleClass('person-info-change').toggleClass('person-info-close');
 
 
+            // This means the box is closed
+            if ($this.hasClass('person-info-change'))
+            {
+                $container.find('.person-info-search').remove();
+                $container.find('.person-info-box-value').show();
+            }
+            /// this means the box is open
+            else if ($this.hasClass('person-info-close'))
+            {
+                var personSearchHTML = '<div class="person-info-search"><input type="text" placeholder="Search here for users.." class="person-info-search-input"><ul class="person-info-search-list"></ul></div>'
+                $container.append(personSearchHTML);
+                $container.find('.person-info-box-value').hide();
+                var $inputField = $container.find('.person-info-search-input');
+                //focus on the input field this is ridiculous
+                $inputField.focus();
+
+                //LEt's listen for input on the input field
+                $inputField.on('keyup', function()
+                {
+                    var terms = $(this).val().split(' ');
+                    var qualification = '';
+                    var $results = $('#customerBox').find('.person-info-search-list');
+                    for (var i in terms)
+                    {
+                        if (qualification.length > 0)
+                        {
+                            qualification += " OR ";
+                        }
+                        qualification += '(\'First Name\' LIKE \"%' + terms[i] + '%\"';
+                        qualification += ' OR \'Last Name\' LIKE \"%' + terms[i] + '%\")';
+                        //qualification += ' OR \'Remedy Login ID\' LIKE \"%' + terms[i] + '%\"';
+                    }
+                    if ($(this).val().length > 0)
+                    {
+                        searchPeople(qualification, function (data)
+                        {
+                            populateResults(data);
+                        });
+                    }
+                    else
+                    {
+                        $inputField.focus();
+                        $results.html('');
+                    }
+                });
+            }
+
+            var connector = new KD.bridges.BridgeConnector({templateId: clientManager.templateId});
+
+            /* This performs a search against the Bridge model people
+             *  The data will then be used to populate the menu
+             * */
+            function searchPeople(qual, success, error)
+            {
+                var $results = $('#customerBox').find('.person-info-search-list');
+                $results.html('<i class="search-indicator-icon"></i>');
+                connector.search("People", "Raw",
+                {
+                    attributes: null,
+                    parameters:
+                    {
+                        'qualification' : encodeURIComponent(qual)
+                    },
+                    metadata:
+                    {
+                        "order": [encodeURIComponent('<%=attribute["Last Name"]%>:ASC')]
+                    },
+                    success: success,
+                    error: error
+                });
+            }
+
+            function populateResults(people)
+            {
+                var $results = $('#customerBox').find('.person-info-search-list');
+
+                $results.html('');
+
+                if (people.records.length == 0)
+                {
+                    $results.html('No Results..')
+                }
+                else
+                {
+                    for (var i in people.records)
+                    {
+                        var currentRecord = people.records[i].attributes;
+
+                        $results.append('<li data-index="' + i + '" class="person-info-search-result"><p class="name">' + currentRecord['First Name'] + ' ' + currentRecord['Last Name'] + ' (' + currentRecord['Login ID'] + ')</p><p class="email">' + currentRecord['Email Address'] + '</p></li>');
+                    }
+                    $results.find('.person-info-search-result').on('click', function(e)
+                    {
+                        var newCustomer = {};
+                        var selectedRecord = people.records[$(this).attr('data-index')].attributes;
+                        console.log(selectedRecord);
+                        newCustomer['Req Login ID'] = selectedRecord['Login ID'];
+                        newCustomer['Req First Name'] = selectedRecord['First Name'];
+                        newCustomer['Req Last Name'] = selectedRecord['Last Name'];
+                        newCustomer['Req Email Address'] = selectedRecord['Email Address'];
+                        newCustomer['Req Phone Number'] = selectedRecord['Phone Number'];
+
+                        keg.form.setCustomerInfo(newCustomer);
+                        $this.toggleClass('person-info-change').toggleClass('person-info-close');
+                        $container.find('.person-info-search').remove();
+                        $container.find('.person-info-box-value').show();
+                    });
+                }
+            }
         });
     }
 };

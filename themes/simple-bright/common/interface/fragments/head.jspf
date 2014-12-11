@@ -19,8 +19,6 @@
     element before any package specific CSS, so it may be overriden with package
     specific styles.
 --%>
-
-<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" href="<%=bundle.bundlePath()%>common/resources/css/main.css" />
 
 <%-- 

@@ -57,7 +57,7 @@
             matchingTemplates = catalogSearch.getMatchingTemplates(searchableAttributes);
             combinedPattern = catalogSearch.getCombinedPattern();
 
-            try
+           /* try
             {
                 // Retrieve the search terms from the request parameters.
                 String mustHave = request.getParameter("q");
@@ -75,7 +75,7 @@
                 // Write the exception to the kslog and re-throw it
                 //logger.error("Exception in RKMQuery.json.jsp", e);
                 throw e;
-            }
+            }*/
             if (matchingTemplates.length == 0 && articles.length() == 0) {
                 responseMessage = "No results were found.";
             }
@@ -103,10 +103,9 @@
         <link rel="stylesheet" href="<%= bundle.packagePath()%>resources/css/search.css" type="text/css" />
     </head>
     <body>
+    <%@include file="../../common/interface/fragments/header.jspf"%>
         <div class="view-port">
-            <%@include file="../../common/interface/fragments/navigationSlide.jspf"%>
             <div class="content-slide" data-target="div.navigation-slide">
-                <%@include file="../../common/interface/fragments/header.jspf"%>
                 <div class="pointer-events">
                     <% if(responseMessage != null) {%>
                         <header class="container">
@@ -120,7 +119,6 @@
                             <h2>
                                 Results found for '<%= request.getParameter("q")%>'.
                             </h2>
-                            <p class="search-count"><span class="search-count-text">Service Items:</span><span class="search-count-count text-primary"> <%=matchingTemplates.length%></span><span class="search-count-text">Knowledge Articles:</span><span class="search-count-count text-primary"> <%=articles.length()%></span></p>
                             <hr class="soften">
                         </header>
                         <section class="container">
@@ -136,7 +134,7 @@
 
                                         </div>
                                         <div class="template-content">
-                                            <h3 style="margin-top:20px; margin-bottom: 5px;">
+                                            <h3>
                                                 <%= matchingTemplates[i].getName()%>
                                             </h3>
                                             <p>
@@ -200,7 +198,7 @@
                                             </span>
                                         </div>
                                         <div class="template-content">
-                                            <h3 style="margin-top:20px; margin-bottom: 5px;">
+                                            <h3>
                                                 <%= articleData.get("Article Title")%>
                                             </h3>
                                             <p>

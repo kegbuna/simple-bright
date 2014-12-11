@@ -7,10 +7,14 @@
 a {
   color: $colorPrimary3-2;
   text-decoration: underline;
+  transition: color 400ms ease;
+
 }
 
 a:hover {
   text-decoration: none;
+  color: $colorPrimary4-1;
+  transition: color 400ms ease;
 }
 
 .cta--primary {

@@ -140,7 +140,7 @@ main {
   }
 
   body {
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 }
 
@@ -384,17 +384,24 @@ div.templateSection
 
 div.questionLayer
 {
-  display: inline-block;
-  margin-left: 40px;
+  margin: 0 40px 20px 40px;
   .questionLabel
   {
-    background: $colorPrimary1-1;
-    padding: 0 5px;
+    padding: 5px;
+    display: inline-block;
+    float: left;
+    width: 30%;
+
   }
   .questionAnswer
   {
-    border: 2px $colorPrimary1-1 solid;
     border-top: 0;
+    display: inline-block;
+    padding: 5px 0;
+    select
+    {
+
+    }
   }
 }
 

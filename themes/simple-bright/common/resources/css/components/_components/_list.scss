@@ -17,11 +17,6 @@ ol {
 ul li {
   position: relative;
   padding-left: 16px;
-  @include bullet-type("", icon-bullet);
-
-  &::before {
-    font-size: 4px;
-  }
 }
 
 ol {
