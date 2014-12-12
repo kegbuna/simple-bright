@@ -20,9 +20,9 @@
         <div class="site-header-bottom">
             <nav class="nav-bar">
                 <ul class="nav-items">
-                    <li class="nav-item"><a href="<%=bundle.getProperty("homeUrl")%>">Home</a></li>
-                    <li class="nav-item">My Stuff</li>
-                    <li class="nav-item">Third Option</li>
+                    <li class="nav-item homelink"><a href="<%=bundle.getProperty("homeUrl")%>">Home</a></li>
+                    <li class="nav-item mystufflink"><a href="<%=bundle.getProperty("submissionsUrl")%>">My Stuff</a></li>
+                    <li class="nav-item thirdoptionlink">Third Option</li>
                 </ul>
             </nav>
         </div>

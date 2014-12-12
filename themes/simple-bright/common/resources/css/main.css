@@ -640,7 +640,6 @@ pre {
   src: url(../images/icons/icons.eot?#iefix) format("embedded-opentype"), url(../images/icons/icons.woff2) format("woff2"), url(../images/icons/icons.woff) format("woff"), url(../images/icons/icons.ttf) format("truetype"), url(../images/icons/icons.svg?#icons) format("svg");
   font-weight: normal;
   font-style: normal; }
-
 .icon {
   font-family: 'icons';
   display: inline-block;
@@ -739,7 +738,6 @@ pre {
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 .fa, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -814,7 +812,6 @@ pre {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
-
 @keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -823,7 +820,6 @@ pre {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
-
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
@@ -2481,7 +2477,7 @@ pre {
       min-height: 160px; } }
 
 .highlight-module__title {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-size: 68px;
   font-weight: 300;
   line-height: 1.1471em;
@@ -2491,7 +2487,7 @@ pre {
   padding-top: 20px; }
   @media only screen and (min-width: 800px) {
     .highlight-module__title {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 110px;
       font-weight: 300;
       line-height: 1.19em;
@@ -2500,22 +2496,22 @@ pre {
       padding-bottom: 0; } }
   @media only screen and (min-width: 800px) {
     .highlight-module__title {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 42px;
       font-weight: 300;
       line-height: 1.2381em;
       /* 52px */
       padding-top: 0.6190em;
       padding-bottom: 0; } }
-    @media only screen and (min-width: 800px) and (min-width: 800px) {
-      .highlight-module__title {
-        font-family: "Roboto Condensed", Helvetica, sans-serif;
-        font-size: 68px;
-        font-weight: 300;
-        line-height: 1.1471em;
-        /* 78px */
-        padding-top: 0.3824em;
-        padding-bottom: 0; } }
+  @media only screen and (min-width: 800px) and (min-width: 800px) {
+    .highlight-module__title {
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
+      font-size: 68px;
+      font-weight: 300;
+      line-height: 1.1471em;
+      /* 78px */
+      padding-top: 0.3824em;
+      padding-bottom: 0; } }
 
 .highlight-module__cta {
   display: block; }
@@ -2607,7 +2603,7 @@ pre {
     padding-bottom: 0; }
     @media only screen and (min-width: 800px) {
       .highlight-module--inline .highlight-module__title {
-        font-family: "Roboto Condensed", Helvetica, sans-serif;
+        font-family: "Fedra Sans Light", Helvetica, sans-serif;
         font-size: 26px;
         font-weight: 300;
         line-height: 1.0000em;
@@ -2879,13 +2875,13 @@ div.highlight > pre > code .il, code .highlight .il {
   /* 26px */
   padding-top: 1.3000em;
   padding-bottom: 0;
-  font-family: "Roboto Condensed", Helvetica, sans-serif; }
+  font-family: "Fedra Sans Light", Helvetica, sans-serif; }
 
 .editorial-header .tag {
   padding-top: 40px; }
 
 .editorial-header__subtitle {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: 300;
   line-height: 1.2381em;
@@ -2896,7 +2892,7 @@ div.highlight > pre > code .il, code .highlight .il {
   color: #3372df; }
   @media only screen and (min-width: 800px) {
     .editorial-header__subtitle {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 68px;
       font-weight: 300;
       line-height: 1.1471em;
@@ -2917,7 +2913,7 @@ div.highlight > pre > code .il, code .highlight .il {
         padding-top: 0; } }
 
 .editorial-header__toc-title {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 13px;
   padding-bottom: 13px !important;
@@ -2960,7 +2956,7 @@ div.highlight > pre > code .il, code .highlight .il {
   display: block; }
 
 .related-guides__title {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-size: 26px;
   font-weight: 300;
   line-height: 1.0000em;
@@ -2970,7 +2966,7 @@ div.highlight > pre > code .il, code .highlight .il {
   padding-top: 0; }
   @media only screen and (min-width: 800px) {
     .related-guides__title {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 42px;
       font-weight: 300;
       line-height: 1.2381em;
@@ -3003,7 +2999,7 @@ div.highlight > pre > code .il, code .highlight .il {
   /* 26px */
   padding-top: 1.3000em;
   padding-bottom: 0;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   margin-bottom: 20px; }
 
 /**
@@ -3018,7 +3014,7 @@ div.highlight > pre > code .il, code .highlight .il {
 
 .articles-count {
   color: #3372df;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-weight: 400; }
 
 .article-section__icon {
@@ -3115,7 +3111,7 @@ div.highlight > pre > code .il, code .highlight .il {
 **/
 .quote__content {
   position: relative;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.6250em;
   /* 26px */
@@ -3145,7 +3141,7 @@ div.highlight > pre > code .il, code .highlight .il {
     content: open-quote;
     display: block;
     position: absolute;
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-family: "Fedra Sans Light", Helvetica, sans-serif;
     font-weight: 700;
     color: #f0f0f0;
     top: 90px;
@@ -3181,7 +3177,7 @@ div.highlight > pre > code .il, code .highlight .il {
   .article-nav-link::before {
     position: absolute;
     top: 21px;
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-family: "Fedra Sans Light", Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 400; }
     @media only screen and (min-width: 620px) {
@@ -3223,7 +3219,7 @@ div.highlight > pre > code .il, code .highlight .il {
   font-weight: 700; }
   @media only screen and (min-width: 800px) {
     .article-nav-count {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 26px;
       font-weight: 300;
       line-height: 1.0000em;
@@ -3291,7 +3287,7 @@ div.highlight > pre > code .il, code .highlight .il {
   /* 26px */
   padding-top: 1.6250em;
   padding-bottom: 0;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   padding-bottom: 10px;
   margin-bottom: 9px;
   border-bottom: 1px solid #e0e0e0; }
@@ -3343,7 +3339,7 @@ div.highlight > pre > code .il, code .highlight .il {
   @media only screen and (min-width: 620px) {
     .next-lessons::before {
       content: attr(data-current-lesson);
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 16px;
       font-weight: 400;
       line-height: 1;
@@ -3593,7 +3589,7 @@ h3 {
   @media only screen and (min-width: 800px) {
     .large,
     h3 {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 26px;
       font-weight: 300;
       line-height: 1.0000em;
@@ -3603,7 +3599,7 @@ h3 {
 
 .xlarge,
 h2 {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-size: 26px;
   font-weight: 300;
   line-height: 1.0000em;
@@ -3613,7 +3609,7 @@ h2 {
   @media only screen and (min-width: 800px) {
     .xlarge,
     h2 {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 42px;
       font-weight: 300;
       line-height: 1.2381em;
@@ -3623,7 +3619,7 @@ h2 {
 
 .xxlarge,
 h1 {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: 300;
   line-height: 1.2381em;
@@ -3633,7 +3629,7 @@ h1 {
   @media only screen and (min-width: 800px) {
     .xxlarge,
     h1 {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 68px;
       font-weight: 300;
       line-height: 1.1471em;
@@ -3642,7 +3638,7 @@ h1 {
       padding-bottom: 0; } }
 
 .huge {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-size: 68px;
   font-weight: 300;
   line-height: 1.1471em;
@@ -3651,7 +3647,7 @@ h1 {
   padding-bottom: 0; }
   @media only screen and (min-width: 800px) {
     .huge {
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 110px;
       font-weight: 300;
       line-height: 1.19em;
@@ -3675,7 +3671,7 @@ li > p {
   margin-top: 10px;
   min-height: 20px;
   text-align: center;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   font-weight: 600;
   text-decoration: none;
   outline: 0;
@@ -3895,7 +3891,7 @@ ul.list-links a {
     font-size: 4px; }
 ul.list-links.list-links--primary a {
   font-weight: 400;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   line-height: 1;
   text-decoration: none; }
   ul.list-links.list-links--primary a::before {
@@ -4034,7 +4030,7 @@ ol.list-links.list-links--secondary a::before {
 
 /*==========  RELATED GUIDES LIST  ==========*/
 .related-guides-list {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   padding-top: 0;
   padding-left: 0; }
   @media only screen and (min-width: 620px) {
@@ -4120,7 +4116,7 @@ a:hover {
   transition: color 400ms ease; }
 
 .cta--primary {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   color: #3372df;
   font-weight: 400;
   display: inline-block;
@@ -4137,13 +4133,17 @@ a:hover {
     content: "\e005"; }
 
 .cta--secondary {
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   color: #3372df;
   font-weight: 400;
   display: inline-block;
   line-height: 1; }
   .cta--secondary:hover {
     color: rgba(0, 0, 0, 0.87); }
+
+#home li.home {
+  border-bottom: 4px white solid;
+  padding-bottom: 6px; }
 
 /**
 *
@@ -4154,12 +4154,12 @@ table {
   margin-top: 20px;
   width: 100%; }
   table thead {
-    background: #3372df;
+    background: #63c015;
     color: #ffffff; }
   table th {
     text-align: center;
     display: none;
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-family: "Fedra Sans Light", Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6250em;
     /* 26px */
@@ -4177,9 +4177,10 @@ table {
     table tr {
       border-bottom: 1px solid #ffffff; } }
   table tbody {
-    background: #f0f0f0; }
+    background: #fbfaf3; }
   table td {
     display: block;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px; }
     table td::before {
@@ -4194,7 +4195,7 @@ table {
       bottom: 0;
       width: 100px;
       max-height: 100%;
-      font-family: "Roboto Condensed", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
       font-size: 16px;
       font-weight: 400;
       padding-left: 10px;
@@ -4452,7 +4453,7 @@ object {
     font-size: 26px; }
   .icon-circle span,
   .icon-circle--large span {
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-family: "Fedra Sans Light", Helvetica, sans-serif;
     font-size: 26px;
     font-weight: 700; }
     @media only screen and (min-width: 620px) {
@@ -4789,7 +4790,7 @@ object {
   /* 26px */
   padding-top: 2.0000em;
   padding-bottom: 0;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Fedra Sans Light", Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -4913,61 +4914,52 @@ main {
   font-weight: 300;
   src: url(fonts/RobotoCondensed-Light.eot);
   src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url(fonts/RobotoCondensed-Light.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Light.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/RobotoCondensed-Regular.eot);
   src: local("Roboto Condensed Regular"), local("RobotoCondensed-Regular"), url(fonts/RobotoCondensed-Regular.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Regular.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   src: url(fonts/RobotoCondensed-Bold.eot);
   src: local("Roboto Condensed Regular"), local("RobotoCondensed-Bold"), url(fonts/RobotoCondensed-Bold.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Bold.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 300;
   src: url(fonts/RobotoCondensed-LightItalic.eot);
   src: local("Roboto Condensed Light Italic"), local("RobotoCondensed-LightItalic"), url(fonts/RobotoCondensed-LightItalic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-LightItalic.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 400;
   src: url(fonts/RobotoCondensed-Italic.eot);
   src: local("Roboto Condensed Italic"), local("RobotoCondensed-Italic"), url(fonts/RobotoCondensed-Italic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Italic.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 700;
   src: url(fonts/RobotoCondensed-BoldItalic.eot);
   src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url(fonts/RobotoCondensed-BoldItalic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-BoldItalic.woff) format("woff"); }
-
 @font-face {
   font-family: 'Fedra Sans Bold';
   font-style: normal;
   font-weight: normal;
   src: url(fonts/fedra-bold.ttf) format("truetype"); }
-
 @font-face {
   font-family: 'Fedra Sans Light';
   font-style: normal;
   font-weight: normal;
   src: url(fonts/fedra-light.ttf) format("truetype"); }
-
 @font-face {
   font-family: 'Lato Regular';
   font-style: normal;
   font-weight: normal;
   src: url(fonts/Lato-Regular.ttf) format("truetype");
   src: local("Lato Regular"); }
-
 .view-port {
   max-width: 950px;
   padding: 0 20px 25px 20px;

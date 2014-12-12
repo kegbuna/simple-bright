@@ -24,3 +24,12 @@ a:hover {
 .cta--secondary {
   @include style-cta($colorBlue);
 }
+
+#home
+{
+  li.home
+  {
+    border-bottom: 4px white solid;
+    padding-bottom: 6px;
+  }
+}

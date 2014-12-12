@@ -9,7 +9,7 @@ table {
   width: 100%;
 
   thead {
-    background: $colorBlue;
+    background: $colorPrimary3-2;
     color: #ffffff;
   }
 
@@ -27,11 +27,12 @@ table {
   }
 
   tbody {
-    background: $colorGrayBackground;
+    background: $colorPrimary1-3;
   }
 
   td {
     display: block;
+    text-align: center;
     padding-top: $lineHeight/2;
     padding-bottom: $lineHeight/2;
 

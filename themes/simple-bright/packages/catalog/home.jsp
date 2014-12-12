@@ -44,7 +44,7 @@
         });
 	    </script>
     </head>
-    <body>
+    <body id="home">
         <%@include file="../../common/interface/fragments/header.jspf" %>
         <div id="homeView" class="view-port">
             <section class="left-column">

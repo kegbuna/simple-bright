@@ -51,6 +51,12 @@ keg.form.setCustomerInfo = function(data)
     KD.utils.Action.setQuestionValue('ReqFor_Last Name', data['Req Last Name']);
     KD.utils.Action.setQuestionValue('ReqFor_Email', data['Req Email Address']);
 };
+
+// Used to attach a dynamic auto complete menu to a question, using a class prefix, a model, a qualification, a boolean useAnswer (meaning should the parameter be the answer
+keg.form.attachTypeAhead = function(prefix, model, qual, useAnswer)
+{
+
+};
 //This function will be fired at the beginning of any service item to provide some additional functionality
 keg.startTemplate = function ()
 {
@@ -182,7 +188,7 @@ keg.startTemplate = function ()
                     {
                         var newCustomer = {};
                         var selectedRecord = people.records[$(this).attr('data-index')].attributes;
-                        console.log(selectedRecord);
+
                         newCustomer['Req Login ID'] = selectedRecord['Login ID'];
                         newCustomer['Req First Name'] = selectedRecord['First Name'];
                         newCustomer['Req Last Name'] = selectedRecord['Last Name'];
