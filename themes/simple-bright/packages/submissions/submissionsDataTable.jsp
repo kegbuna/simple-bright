@@ -69,7 +69,7 @@
         <div class="view-port">
             <div class="container">
                 <h3 class="page-title"><%=pageSubTitle%></h3>
-                <table id="submissionTable" width="100%" class="table table-condensed table-responsive table-bordered table-striped">
+                <table id="submissionTable" width="100%" class="table table-bordered table-condensed table-responsive table-bordered table-striped">
                 </table>
             </div>
             <%@include file="../../common/interface/fragments/footer.jspf"%>

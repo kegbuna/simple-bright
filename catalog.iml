@@ -15,6 +15,7 @@
     <orderEntry type="library" name="servlet-api-2.5" level="project" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="vendor" level="project" />
+    <orderEntry type="library" name="jquery.dataTables" level="application" />
   </component>
   <component name="org.twodividedbyzero.idea.findbugs">
     <option name="_basePreferences">

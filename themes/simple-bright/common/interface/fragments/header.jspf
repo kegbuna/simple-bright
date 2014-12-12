@@ -7,7 +7,7 @@
 <div class="site-header">
     <div class="site-header-content">
         <div class="site-header-top">
-            <a href="http://laheyhealth.org" class="logo">
+            <a href="<%=bundle.getProperty("homeUrl")%>" class="logo">
                 Lahey Health
             </a>
             <div class="search">
@@ -17,6 +17,7 @@
                 </a>
             </div>
         </div>
+    <!-- Just doing this for now because we are likely getting rid of the toolbar. TODO: Delete this crap
         <div class="site-header-bottom">
             <nav class="nav-bar">
                 <ul class="nav-items">
@@ -26,6 +27,7 @@
                 </ul>
             </nav>
         </div>
+    -->
     </div>
 </div>
 
