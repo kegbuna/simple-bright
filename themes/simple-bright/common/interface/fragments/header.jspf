@@ -10,6 +10,10 @@
             <a href="<%=bundle.getProperty("homeUrl")%>" class="logo">
                 Lahey Health
             </a>
+            <div class="user-acknowledge">
+                <span class="message">Welcome, </span>
+                <span class="name"><%=thisUser.getFullName()%></span>
+            </div>
             <div class="search">
                 <input id="SearchInput" type="text" title="Search" placeholder="Search" class="search-input">
                 <a href="#" class="search-button">

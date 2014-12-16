@@ -49,10 +49,20 @@
         <div id="homeView" class="view-port">
             <section class="left-column">
                 <div class="entry-box">
-                    <h2 class="entry-box-title">Welcome, how can we help you?</h2>
+                    <!--<h2 class="entry-box-title">Welcome, how can we help you?</h2>
                     <a href="<%=bundle.getProperty("incidentUrl")%>" class="incident-button">I have a problem!</a>
                     <a class="request-button">I need something new.</a>
-                    <a></a>
+                    <a></a>-->
+                    <h3>Welcome to Lahey Health's Self Help Center.</h3>
+                    <h3>This is where you will find ways to help yourself with your IT needs.</h3>
+                    <div>
+                        <ul>
+                            <li><p>Do you have a computer or application issue? Report it <a href="<%=bundle.getProperty("incidentUrl")%>">HERE</a></p></li>
+                        </ul>
+                    </div>
+                    <div>
+
+                    </div>
                 </div>
             </section>
             <aside class="right-column">
