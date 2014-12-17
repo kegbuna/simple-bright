@@ -4,9 +4,9 @@ service_item "Site Feedback" do
   type "Portal"
   description nil
   display_page "/themes/simple-bright/packages/base/display.jsp"
-  display_name "Simple-Feedback"
+  display_name "Lahey-Feedback"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

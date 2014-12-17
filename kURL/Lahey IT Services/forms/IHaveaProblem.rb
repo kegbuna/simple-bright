@@ -4,9 +4,9 @@ service_item "I Have a Problem" do
   type "Template"
   description "Submit a help ticket to the Support Center!"
   display_page "/themes/simple-bright/packages/base/display.jsp"
-  display_name "Simple-ReportIncident"
+  display_name "Lahey-ReportIncident"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

@@ -6,7 +6,7 @@ service_item "Increase Relevance" do
   display_page "/themes/simple-bright/packages/rkm/interface/callbacks/incrementRelevance.jsp"
   display_name "incrementRelevance"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

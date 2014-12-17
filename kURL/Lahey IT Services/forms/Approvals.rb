@@ -4,9 +4,9 @@ service_item "Approvals" do
   type "Approval"
   description "Approval Template used for reviewing and approving requests."
   display_page "/themes/simple-bright/packages/base/approval.jsp"
-  display_name "Simple-Approval"
+  display_name "Lahey-Approval"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

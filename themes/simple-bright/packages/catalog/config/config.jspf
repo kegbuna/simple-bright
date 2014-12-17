@@ -15,9 +15,9 @@
     bundle.setProperty("rkmDisplayUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-Article");
     bundle.setProperty("rkmAdminUsername", systemContext.getUserName());
     bundle.setProperty("rkmAdminPassword", systemContext.getPassword());
-    bundle.setProperty("rkmServer", "NORTHEASTKINETIC");
+    bundle.setProperty("rkmServer", "wvremappt01g1.laheyhealth.org");
     bundle.setProperty("rkmLocale", "");
-    bundle.setProperty("rkmPort", "2020");
+    bundle.setProperty("rkmPort", "10000");
     bundle.setProperty("commentUrl", pathHelper.templateNameUrl("RKMComment"));
 
 %>

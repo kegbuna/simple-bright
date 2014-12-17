@@ -18,7 +18,7 @@
     catalog.preload(context);
     //loading in the broadcasts
     Broadcasts broadcasts = Broadcasts.findAvailable(context, context.getUserName());
-
+    Template[] matchingTemplates  = null;
 
 
 %>
@@ -85,7 +85,13 @@
                             </div>
                         </div>
                     <% }
-                    } %>
+                    }
+                    else
+                    {%>
+                        <div class="info-box-item">
+                            <h4>Nothing to show here</h4>
+                        </div>
+                    <% } %>
                     </div>
                 </div>
                 <div class="info-box" id="RecentRequestsBox">
@@ -93,21 +99,23 @@
                         <i class="fa fa-clipboard"></i><h3>Recently Submitted</h3>
                     </div>
                     <div class="info-box-content">
-                        <%  if (broadcasts.getLength() > 0)
+                        <%  if (matchingTemplates != null)
                         {
-                            for (int i=0; i<broadcasts.getLength(); i++)
+                            for (int i=0; i<matchingTemplates.length; i++)
                             {%>
                         <div class="info-box-item">
-                            <div class="item-timestamp">
-                                <%=((String)broadcasts.getStartDate(i).get("month")).substring(0, 3)%>
-                                <%=broadcasts.getStartDate(i).get("day")%>
-                            </div>
                             <div class="item-summary">
-                                <a><%=broadcasts.getFieldSubject(i)%></a>
+                                <a><%=matchingTemplates[i].getDisplayName()%></a>
                             </div>
                         </div>
                         <% }
-                        } %>
+                        }
+                        else
+                        {%>
+                        <div class="info-box-item">
+                            Nothing to show here
+                        </div>
+                        <% } %>
                     </div>
                 </div>
             </aside>

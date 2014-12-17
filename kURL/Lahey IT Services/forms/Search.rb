@@ -4,9 +4,9 @@ service_item "Search" do
   type "Portal"
   description "Catalog Search"
   display_page "/themes/simple-bright/packages/catalog/search.jsp"
-  display_name "Simple-Search"
+  display_name "Lahey-Search"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

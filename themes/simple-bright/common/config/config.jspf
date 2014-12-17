@@ -2,10 +2,10 @@
     NOTE: This file is required.
 --%>
 <%
-    bundle.setProperty("companyName", "Calbro Services");
-    bundle.setProperty("catalogName", "Simple");
+    bundle.setProperty("companyName", "Lahey Health");
+    bundle.setProperty("catalogName", "Lahey IT Services");
     // Slug used for urls
-    bundle.setProperty("slug", "Simple");
+    bundle.setProperty("slug", "Lahey");
     // Urls
     bundle.setProperty("catalogUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-Catalog");
     bundle.setProperty("homeUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-Home");

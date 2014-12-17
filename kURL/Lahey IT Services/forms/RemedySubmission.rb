@@ -6,7 +6,7 @@ service_item "Remedy Submission" do
   display_page "/themes/simple-bright/packages/base/display.jsp"
   display_name nil
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"
   management_group "Public"

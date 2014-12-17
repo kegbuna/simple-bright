@@ -4,9 +4,9 @@ service_item "Knowledge Article" do
   type "Portal"
   description "A portal to the Knowledge Management system."
   display_page "/themes/simple-bright/packages/rkm/rkm-display.jsp"
-  display_name "Simple-Article"
+  display_name "Lahey-Article"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

@@ -4,9 +4,9 @@ service_item "My Personal Details" do
   type "Request"
   description "Update Personal Information"
   display_page "/themes/simple-bright/packages/catalog/profile.jsp"
-  display_name "Simple-Profile"
+  display_name "Lahey-Profile"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

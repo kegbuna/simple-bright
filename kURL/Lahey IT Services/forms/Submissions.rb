@@ -4,9 +4,9 @@ service_item "Submissions" do
   type "Portal"
   description "Submissions"
   display_page "/themes/simple-bright/packages/submissions/submissionsDataTable.jsp"
-  display_name "Simple-Submissions"
+  display_name "Lahey-Submissions"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

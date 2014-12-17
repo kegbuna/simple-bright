@@ -4,9 +4,9 @@ service_item "Offices of IT" do
   type "Portal"
   description "Dynamic about page which allows for editing content"
   display_page "/themes/simple-bright/packages/catalog/offices.jsp"
-  display_name "Simple-Offices"
+  display_name "Lahey-Offices"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

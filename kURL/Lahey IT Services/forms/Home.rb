@@ -4,9 +4,9 @@ service_item "Home" do
   type "Portal"
   description "This is the home page"
   display_page "/themes/simple-bright/packages/catalog/home.jsp"
-  display_name "Simple-Home"
+  display_name "Lahey-Home"
   header_content nil
-  web_server "http://kinetic-server/catalog/"
+  web_server "http://wvremmidt01g1.laheyheath.org:8090/catalog/"
   authentication :default
   data_set "SYSTEM_DEFAULTS"
   visible_to_group "0;"

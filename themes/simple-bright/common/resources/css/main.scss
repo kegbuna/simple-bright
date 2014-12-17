@@ -266,6 +266,34 @@ main {
       display: inline-block;
       text-indent: -9000em;
     }
+    .user-bar
+    {
+      margin-top: 5px;
+      .user-acknowledge
+      {
+        padding-left: 70px;
+        text-decoration: double;
+        font-family: "Fedra Sans Light", Helvetica, sans-serif;
+
+
+      }
+      .mini-nav
+      {
+        float: right;
+        a
+        {
+          color: #747678;
+          text-decoration: none;
+          font-family: "Fedra Sans Light", Helvetica, sans-serif;
+          margin-right: 15px;
+          &:hover
+          {
+            text-decoration: underline;
+            color: #000;
+          }
+        }
+      }
+    }
   }
   .site-header-content
   {
@@ -329,7 +357,6 @@ main {
       display: inline-block;
       float: right;
       padding-top: 10px;
-      margin-bottom: 15px;
       input.search-input
       {
 
