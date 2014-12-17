@@ -128,6 +128,7 @@
 		// kick everything off
 		YAHOO.util.Event.onDOMReady(KD.ksr.Login.initialize);
 	</script>
+	<link rel="stylesheet" type="text/css" href="themes/simple-bright/common/resources/css/main.css">
 	<style type="text/css">
 
 	</style>
@@ -136,7 +137,7 @@
 <noscript>
 	<div class="noscript">Javascript must be enabled in your browser to use this application.</div>
 </noscript>
-<div id="main_box">
+<div id="loginBox">
 	<div id="hd">
 		<div class="hText">
             <h3>IT Services</h3>
@@ -154,17 +155,16 @@
 	<div id="bd">
 		<div id="message"></div>
 		<form name='Login' id='loginForm' method='post' action='KSAuthenticationServlet'>
-			<div class="row input-group">
-
+			<div class="username row">
 				<input placeholder="Username..." class="formField form-control" name="UserName" type="text"
-				       autocomplete="off" id="UserName" size="80" maxlength="50"/>
+				       autocomplete="off" id="UserName"maxlength="50"/>
 			</div>
-			<div class="row input-group">
+			<div class="password row">
 
 				<input class="formField form-control" placeholder="Password..." name="Password" type="password"
-				       autocomplete="off" id="Password" size="80" maxlength="50"/>
+				       autocomplete="off" id="Password"maxlength="50"/>
 			</div>
-			<div class="row" id="authentication_string">
+			<div class="hide" id="authentication_string">
 				<label for="Authentication"><strong>Authentication</strong></label>
 				<input class="formField" name="Authentication" type="text" autocomplete="off" id="Authentication"
 				       size="30" maxlength="50"/>

@@ -45,10 +45,9 @@ ul,
 ol {
   font-size: 19px;
 }
-
-*
+input, select
 {
-  behavior: url(themes/simple-bright/common/resources/css/PIE.htc);
+  height: 30px;
 }
 main {
   margin: 0 auto;
@@ -436,4 +435,15 @@ div.questionLayer
 .templateButton
 {
   margin-left: 40px;
+}
+
+/* login form */
+#loginBox
+{
+  max-width: 600px;
+  margin: 100px auto;
+  .row
+  {
+    padding: 20px 0;
+  }
 }

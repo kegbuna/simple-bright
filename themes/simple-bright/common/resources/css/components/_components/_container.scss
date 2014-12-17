@@ -52,12 +52,55 @@
   .entry-box-title
   {
     font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 24px;
+  }
+  .entry-box-subtitle
+  {
+    font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .offering-list
+  {
+    padding-left: 0;
+    .offering
+    {
+      padding-left: 0;
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
+      font-size: 18px;
+      margin: 10px;
+      float: left;
+      .incident-button
+      {
+        .ticket-icon
+        {
+          font-size: 2em;
+        }
+      }
+      .request-button
+      {
+        .ticket-icon
+        {
+          @extend .fa-folder;
+          font-size: 2em;
+        }
+      }
+      .description
+      {
+        font-size: 12px;
+        max-width: 200px;
+      }
+    }
   }
   .incident-button, .request-button
   {
     @extend .button--primary;
-    width: 70%;
+    .ticket-icon
+    {
+      @extend .fa;
+      @extend .fa-wrench;
+      display: block;
+      text-align: center;
+    }
   }
 }
 .contact-info.dynamicText

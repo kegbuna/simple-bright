@@ -53,11 +53,12 @@
                     <a href="<%=bundle.getProperty("incidentUrl")%>" class="incident-button">I have a problem!</a>
                     <a class="request-button">I need something new.</a>
                     <a></a>-->
-                    <h3>Welcome to Lahey Health's Self Help Center.</h3>
-                    <h3>This is where you will find ways to help yourself with your IT needs.</h3>
+                    <h3 class="entry-box-title">Welcome to Lahey Health's Self Help Center.</h3>
+                    <h4 class="entry-box-subtitle">Lahey Health's Service Desk offers a variety of IT services. Use the buttons below to get started.</h4>
                     <div>
-                        <ul>
-                            <li><p>Do you have a computer or application issue? Report it <a href="<%=bundle.getProperty("incidentUrl")%>">HERE</a></p></li>
+                        <ul class="offering-list">
+                            <li class="offering"><a class="incident-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Trouble Ticket</a><p class="description">Experiencing any sort of IT related issue? Report it here.</p></li>
+                            <li class="offering"><a class="request-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Application Request</a><p class="description">Used for making reporting and access requests for a variety of clinical applications.</p></li>
                         </ul>
                     </div>
                     <div>

@@ -171,6 +171,9 @@ textarea[contenteditable] {
 /*==========  VARIABLES  ==========*/
 /*==========  FUNCTIONS  ==========*/
 /*==========  MIXINS  ==========*/
+.hide {
+  display: none !important; }
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -740,7 +743,7 @@ pre {
   font-weight: normal;
   font-style: normal; }
 
-.fa, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
+.fa, .entry-box .incident-button .ticket-icon, .entry-box .request-button .ticket-icon, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -797,9 +800,9 @@ pre {
 .pull-left {
   float: left; }
 
-.fa.pull-left, .person-info .person-info-title .pull-left.person-info-change, .person-info .person-info-title .pull-left.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-left.search-indicator-icon {
+.fa.pull-left, .entry-box .incident-button .pull-left.ticket-icon, .entry-box .request-button .pull-left.ticket-icon, .person-info .person-info-title .pull-left.person-info-change, .person-info .person-info-title .pull-left.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-left.search-indicator-icon {
   margin-right: .3em; }
-.fa.pull-right, .person-info .person-info-title .pull-right.person-info-change, .person-info .person-info-title .pull-right.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-right.search-indicator-icon {
+.fa.pull-right, .entry-box .incident-button .pull-right.ticket-icon, .entry-box .request-button .pull-right.ticket-icon, .person-info .person-info-title .pull-right.person-info-change, .person-info .person-info-title .pull-right.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-right.search-indicator-icon {
   margin-left: .3em; }
 
 .fa-spin, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
@@ -1244,7 +1247,7 @@ pre {
 .fa-shopping-cart:before {
   content: "\f07a"; }
 
-.fa-folder:before {
+.fa-folder:before, .entry-box .offering-list .offering .request-button .ticket-icon:before {
   content: "\f07b"; }
 
 .fa-folder-open:before {
@@ -1387,7 +1390,7 @@ pre {
 .fa-globe:before {
   content: "\f0ac"; }
 
-.fa-wrench:before {
+.fa-wrench:before, .entry-box .incident-button .ticket-icon:before, .entry-box .request-button .ticket-icon:before {
   content: "\f0ad"; }
 
 .fa-tasks:before {
@@ -3751,9 +3754,28 @@ li > p {
 
 .entry-box .entry-box-title {
   font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
-  font-size: 36px; }
-.entry-box .incident-button, .entry-box .request-button {
-  width: 70%; }
+  font-size: 24px; }
+.entry-box .entry-box-subtitle {
+  font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
+  font-size: 20px; }
+.entry-box .offering-list {
+  padding-left: 0; }
+  .entry-box .offering-list .offering {
+    padding-left: 0;
+    font-family: "Fedra Sans Light", Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    float: left; }
+    .entry-box .offering-list .offering .incident-button .ticket-icon {
+      font-size: 2em; }
+    .entry-box .offering-list .offering .request-button .ticket-icon {
+      font-size: 2em; }
+    .entry-box .offering-list .offering .description {
+      font-size: 12px;
+      max-width: 200px; }
+.entry-box .incident-button .ticket-icon, .entry-box .request-button .ticket-icon {
+  display: block;
+  text-align: center; }
 
 .contact-info.dynamicText {
   display: table; }
@@ -4829,8 +4851,8 @@ ul,
 ol {
   font-size: 19px; }
 
-* {
-  behavior: url(themes/simple-bright/common/resources/css/PIE.htc); }
+input, select {
+  height: 30px; }
 
 main {
   margin: 0 auto;
@@ -5107,3 +5129,10 @@ div.questionLayer {
 
 .templateButton {
   margin-left: 40px; }
+
+/* login form */
+#loginBox {
+  max-width: 600px;
+  margin: 100px auto; }
+  #loginBox .row {
+    padding: 20px 0; }
