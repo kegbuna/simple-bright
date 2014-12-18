@@ -119,6 +119,30 @@
                         <% } %>
                     </div>
                 </div>
+                <div class="info-box" id="YouShouldKnowBox">
+                    <div class="info-box-title">
+                        <i class="fa fa-lightbulb-o"></i><h3>You Should Know</h3>
+                    </div>
+                    <div class="info-box-content">
+                        <%  if (matchingTemplates != null)
+                        {
+                            for (int i=0; i<matchingTemplates.length; i++)
+                            {%>
+                        <div class="info-box-item">
+                            <div class="item-summary">
+                                <a><%=matchingTemplates[i].getDisplayName()%></a>
+                            </div>
+                        </div>
+                        <% }
+                        }
+                        else
+                        {%>
+                        <div class="info-box-item">
+                            Nothing to show here
+                        </div>
+                        <% } %>
+                    </div>
+                </div>
             </aside>
 
         </div>

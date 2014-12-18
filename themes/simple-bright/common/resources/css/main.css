@@ -3759,7 +3759,8 @@ li > p {
   font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
   font-size: 20px; }
 .entry-box .offering-list {
-  padding-left: 0; }
+  padding-left: 0;
+  padding-top: 0; }
   .entry-box .offering-list .offering {
     padding-left: 0;
     font-family: "Fedra Sans Light", Helvetica, sans-serif;
