@@ -30,7 +30,7 @@ $(document).ready(function()
         }
     });
 
-    $('.item-summary a').on('click', function(e)
+    $('#AnnouncementsBox .item-summary a').on('click', function(e)
     {
         e.preventDefault();
         $(this).siblings().toggleClass('hide');
@@ -86,7 +86,7 @@ keg.startTemplate = function ()
         $submitterInfo.append('<span class="person-info-box-value"><abbr title="Phone Number">P:</abbr> ' + customerData['Req Phone Number'] + '</span>');
         $submitterInfo.append('<span class="person-info-box-value"><a href="mailto:' + customerData['Req Email Address'] + '">' + customerData['Req Email Address'] + '</a></span>');
 
-        if (KD.utils.Action.getQuestionValue('ReqFor_Login ID') == "" || KD.utils.Action.getQuestionValue('ReqFor_Login ID') == $submitterBox.data('user')['Req Login ID'])
+        if (KD.utils.Action.getQuestionValue('ReqFor_Login ID') == "" || KD.utils.Action.getQuestionValue('ReqFor_Login ID') == KD.utils.Action.getQuestionValue('Req Login ID'))
         {
             keg.form.setCustomerInfo(customerData);
         }

@@ -110,7 +110,7 @@
                                 <%=matchingTemplates[i].getCreateDate()%>
                             </div>
                             <div class="item-summary">
-                                <a><%=matchingTemplates[i].getRequestDisplayName()%></a>
+                                <a href="<%=matchingTemplates[i].getReviewLink(bundle.applicationPath(), bundle.getProperty("reviewJsp"))%>"><%=matchingTemplates[i].getRequestDisplayName()%></a>
                             </div>
                         </div>
                         <% }

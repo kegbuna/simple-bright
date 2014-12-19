@@ -55,7 +55,6 @@
     </head>
     <body class="loadAllPages_<%=customerSurveyReview.getLoadAllPages()%> review">
         <div class="view-port">
-            <%@include file="../../common/interface/fragments/navigationSlide.jspf"%>
             <div class="content-slide" data-target="div.navigation-slide">
                 <%if (request.getParameter("embedded") == null)
                 {%>
