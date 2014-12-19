@@ -3727,7 +3727,8 @@ li > p {
     .info-box .info-box-title i {
       width: 30px;
       color: #6f2b6d;
-      font-size: x-large; }
+      font-size: x-large;
+      text-align: center; }
     .info-box .info-box-title h3 {
       padding: 0;
       display: inline-block;
@@ -3751,6 +3752,10 @@ li > p {
         max-width: 250px;
         font-size: .75em;
         margin: 0 0 0 1%; }
+      .info-box .info-box-content .info-box-item p.item-message {
+        font-size: 14px;
+        padding: 0;
+        line-height: 20px; }
 
 .entry-box .entry-box-title {
   font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
@@ -3766,14 +3771,14 @@ li > p {
     font-family: "Fedra Sans Light", Helvetica, sans-serif;
     font-size: 18px;
     margin: 10px;
-    float: left; }
+    float: left;
+    max-width: 235px; }
     .entry-box .offering-list .offering .incident-button .ticket-icon {
       font-size: 2em; }
     .entry-box .offering-list .offering .request-button .ticket-icon {
       font-size: 2em; }
     .entry-box .offering-list .offering .description {
-      font-size: 12px;
-      max-width: 200px; }
+      font-size: 12px; }
 .entry-box .incident-button .ticket-icon, .entry-box .request-button .ticket-icon {
   display: block;
   text-align: center; }
@@ -4853,7 +4858,7 @@ ol {
   font-size: 19px; }
 
 input, select {
-  height: 30px; }
+  min-height: 30px; }
 
 main {
   margin: 0 auto;

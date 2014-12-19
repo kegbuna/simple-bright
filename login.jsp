@@ -140,7 +140,8 @@
 <div id="loginBox">
 	<div id="hd">
 		<div class="hText">
-            <h3>IT Services</h3>
+            <img src="themes/simple-bright/common/resources/css/images/lahey-health-logo.png">
+			<h3>IT Services</h3>
 			<!-- <h3 id="arserver_heading">Server:
 				<jsp:getProperty name="UserContext" property="arServer"/>
 			</h3> -->
@@ -170,7 +171,8 @@
 				       size="30" maxlength="50"/>
 			</div>
 			<div class="row submit">
-				<input class="formField button btn btn-primary" name="Submit" type="button" id="Submit" value="Submit"/>
+				<input class="formField button--primary" name="Submit" type="button" id="Submit" value="Submit"/>
+				<i id="loader" style="display: none;" class="fa fa-2x fa-spin fa-gear"></i>
 				<!--<span id="loader">Authenticating...&nbsp;<img height="75" width="75" src='themes/flat-bootstrap3/packages/base/resources/images/loading.GIF'/></span>-->
 			</div>
 

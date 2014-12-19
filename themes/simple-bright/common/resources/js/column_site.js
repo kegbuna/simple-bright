@@ -30,6 +30,11 @@ $(document).ready(function()
         }
     });
 
+    $('.item-summary a').on('click', function(e)
+    {
+        e.preventDefault();
+        $(this).siblings().toggleClass('hide');
+    });
     //fire on anything and let me know
 
 });

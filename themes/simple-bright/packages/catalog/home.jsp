@@ -18,7 +18,7 @@
     catalog.preload(context);
     //loading in the broadcasts
     Broadcasts broadcasts = Broadcasts.findAvailable(context, context.getUserName());
-    Template[] matchingTemplates  = null;
+    SubmissionConsole[] matchingTemplates  = SubmissionConsole.find(context, catalog, "'Submitter' = \"" + context.getUserName() +"\"", new String[]{"2"}, 0, 0, 1);
 
 
 %>
@@ -82,7 +82,8 @@
                                 <%=broadcasts.getStartDate(i).get("day")%>
                             </div>
                             <div class="item-summary">
-                                <a><%=broadcasts.getFieldSubject(i)%></a>
+                                <a href="#" class=""><%=broadcasts.getFieldSubject(i)%></a>
+                                <p class="hide item-message"><%=broadcasts.getFieldMessage(i)%></p>
                             </div>
                         </div>
                     <% }
@@ -105,8 +106,11 @@
                             for (int i=0; i<matchingTemplates.length; i++)
                             {%>
                         <div class="info-box-item">
+                            <div class="item-timestamp" style="margin-right: 35px;">
+                                <%=matchingTemplates[i].getCreateDate()%>
+                            </div>
                             <div class="item-summary">
-                                <a><%=matchingTemplates[i].getDisplayName()%></a>
+                                <a><%=matchingTemplates[i].getRequestDisplayName()%></a>
                             </div>
                         </div>
                         <% }
@@ -124,13 +128,16 @@
                         <i class="fa fa-lightbulb-o"></i><h3>You Should Know</h3>
                     </div>
                     <div class="info-box-content">
-                        <%  if (matchingTemplates != null)
+                        <%  if (false)
                         {
                             for (int i=0; i<matchingTemplates.length; i++)
                             {%>
                         <div class="info-box-item">
+                            <div class="item-timestamp">
+                                <%=matchingTemplates[i].getCreateDate()%>
+                            </div>
                             <div class="item-summary">
-                                <a><%=matchingTemplates[i].getDisplayName()%></a>
+                                <a><%=matchingTemplates[i].getRequestDisplayName()%></a>
                             </div>
                         </div>
                         <% }

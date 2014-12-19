@@ -10,6 +10,7 @@
       width: 30px;
       color: $colorPrimary5-1;
       font-size: x-large;
+      text-align: center;
     }
     h3
     {
@@ -43,6 +44,12 @@
         font-size: .75em;
         margin: 0 0 0 1%;
       }
+      p.item-message
+      {
+        font-size: 14px;
+        padding: 0;
+        line-height: 20px;
+      }
     }
   }
 }
@@ -70,6 +77,7 @@
       font-size: 18px;
       margin: 10px;
       float: left;
+      max-width: 235px;
       .incident-button
       {
         .ticket-icon
@@ -88,7 +96,6 @@
       .description
       {
         font-size: 12px;
-        max-width: 200px;
       }
     }
   }
