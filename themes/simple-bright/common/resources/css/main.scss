@@ -215,7 +215,7 @@ main {
   font-style: normal;
   font-weight: normal;
   src: url(fonts/Lato-Regular.ttf) format('truetype');
-  src: local('Lato Regular');
+  //src: local('Lato Regular');
 }
 
 .site-header, .view-port
@@ -258,9 +258,10 @@ main {
     padding: 0 20px;
     a.logo
     {
-      background: url(images/lahey-health-logo.png) no-repeat;
-      width: 316px;
-      height: 49px;
+      background: url(images/lahey-health-logo.png);
+      background-size: contain;
+      width: 253px;
+      height: 40px;
       padding: 10px 0 18px 0;
       display: inline-block;
       text-indent: -9000em;
@@ -273,8 +274,7 @@ main {
         padding-left: 70px;
         text-decoration: double;
         font-family: "Fedra Sans Light", Helvetica, sans-serif;
-
-
+        margin-top: 15px;
       }
       .mini-nav
       {
@@ -442,6 +442,18 @@ div.questionLayer
 {
   max-width: 600px;
   margin: 100px auto;
+  .hText
+  {
+    .site-title
+    {
+      font-family: "Fedra Sans Bold", Helvetica, sans-serif;
+      color: $colorSecondary1-1;
+    }
+    .login-title
+    {
+      font-size: 16px;
+    }
+  }
   .row
   {
     padding: 20px 0;

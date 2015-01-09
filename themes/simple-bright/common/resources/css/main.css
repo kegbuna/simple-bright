@@ -3721,6 +3721,8 @@ li > p {
 }*/
 .info-box {
   margin: 0 0 15px 0; }
+  .info-box:first-child {
+    margin-top: 100px; }
   .info-box .info-box-title {
     background: #f3f0dd;
     padding: 5px 7px; }
@@ -3732,7 +3734,7 @@ li > p {
     .info-box .info-box-title h3 {
       padding: 0;
       display: inline-block;
-      font-family: "Fedra Sans Bold", "Helvetica Nueue", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", "Helvetica Nueue", Helvetica, sans-serif;
       font-size: 20px;
       margin: 0 0 0 1%; }
   .info-box .info-box-content {
@@ -3761,8 +3763,8 @@ li > p {
   font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
   font-size: 24px; }
 .entry-box .entry-box-subtitle {
-  font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
-  font-size: 20px; }
+  font-family: "Lato Regular", "Helvetica NueueLight", Helvetica, sans-serif;
+  font-size: 16px; }
 .entry-box .offering-list {
   padding-left: 0;
   padding-top: 0; }
@@ -4996,8 +4998,7 @@ main {
   font-family: 'Lato Regular';
   font-style: normal;
   font-weight: normal;
-  src: url(fonts/Lato-Regular.ttf) format("truetype");
-  src: local("Lato Regular"); }
+  src: url(fonts/Lato-Regular.ttf) format("truetype"); }
 
 .view-port {
   max-width: 950px;
@@ -5024,9 +5025,10 @@ main {
     max-width: 950px;
     padding: 0 20px; }
     .site-header .site-header-top a.logo {
-      background: url(images/lahey-health-logo.png) no-repeat;
-      width: 316px;
-      height: 49px;
+      background: url(images/lahey-health-logo.png);
+      background-size: contain;
+      width: 253px;
+      height: 40px;
       padding: 10px 0 18px 0;
       display: inline-block;
       text-indent: -9000em; }
@@ -5035,7 +5037,8 @@ main {
       .site-header .site-header-top .user-bar .user-acknowledge {
         padding-left: 70px;
         text-decoration: double;
-        font-family: "Fedra Sans Light", Helvetica, sans-serif; }
+        font-family: "Fedra Sans Light", Helvetica, sans-serif;
+        margin-top: 15px; }
       .site-header .site-header-top .user-bar .mini-nav {
         float: right; }
         .site-header .site-header-top .user-bar .mini-nav a {
@@ -5140,5 +5143,10 @@ div.questionLayer {
 #loginBox {
   max-width: 600px;
   margin: 100px auto; }
+  #loginBox .hText .site-title {
+    font-family: "Fedra Sans Bold", Helvetica, sans-serif;
+    color: #154734; }
+  #loginBox .hText .login-title {
+    font-size: 16px; }
   #loginBox .row {
     padding: 20px 0; }

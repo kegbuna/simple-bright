@@ -141,7 +141,7 @@
 	<div id="hd">
 		<div class="hText">
             <img src="themes/simple-bright/common/resources/css/images/lahey-health-logo.png">
-			<h3>IT Services</h3>
+			<h3 class="site-title">Online Help Desk</h3>
 			<!-- <h3 id="arserver_heading">Server:
 				<jsp:getProperty name="UserContext" property="arServer"/>
 			</h3> -->
@@ -149,7 +149,7 @@
 
         <div class="clear"></div>
         <div class="hText">
-            <h4 class="text-primary">Please Login</h4>
+            <h4 class="login-title">Please Login</h4>
 		</div>
         <div class="clear"></div>
 	</div>

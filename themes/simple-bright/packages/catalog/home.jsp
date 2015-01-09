@@ -48,16 +48,16 @@
         <%@include file="../../common/interface/fragments/header.jspf" %>
         <div id="homeView" class="view-port">
             <section class="left-column">
+                <h1 class="page-title">Online Help Desk</h1>
                 <div class="entry-box">
                     <!--<h2 class="entry-box-title">Welcome, how can we help you?</h2>
                     <a href="<%=bundle.getProperty("incidentUrl")%>" class="incident-button">I have a problem!</a>
                     <a class="request-button">I need something new.</a>
                     <a></a>-->
-                    <h3 class="entry-box-title">Welcome to Lahey Health's Self Help Center.</h3>
                     <h4 class="entry-box-subtitle">Lahey Health's Service Desk offers a variety of IT services. Use the buttons below to get started.</h4>
                     <div>
                         <ul class="offering-list">
-                            <li class="offering"><a class="incident-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Trouble Ticket</a><p class="description">Experiencing any sort of IT related issue? Report it here.</p></li>
+                            <li class="offering"><a class="incident-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Report My Issue</a><p class="description">Experiencing any sort of IT related issue? Report it here.</p></li>
                             <li class="offering"><a class="request-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Application Request</a><p class="description">Used for making reporting and access requests for a variety of clinical applications.</p></li>
                         </ul>
                     </div>
@@ -128,7 +128,8 @@
                         <i class="fa fa-lightbulb-o"></i><h3>You Should Know</h3>
                     </div>
                     <div class="info-box-content">
-                        <%  if (false)
+                        <%  //TODO:: Get these articles loading properly
+                            if (false)
                         {
                             for (int i=0; i<matchingTemplates.length; i++)
                             {%>

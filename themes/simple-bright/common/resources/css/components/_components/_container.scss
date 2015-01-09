@@ -1,6 +1,10 @@
 .info-box
 {
   margin: 0 0 15px 0;
+  &:first-child
+  {
+    margin-top: 100px;
+  }
   .info-box-title
   {
     background: $colorPrimary1-1;
@@ -16,7 +20,7 @@
     {
       padding: 0;
       display: inline-block;
-      font-family: "Fedra Sans Bold", "Helvetica Nueue", Helvetica, sans-serif;
+      font-family: "Fedra Sans Light", "Helvetica Nueue", Helvetica, sans-serif;
       font-size: 20px;
       margin: 0 0 0 1%;
     }
@@ -63,8 +67,8 @@
   }
   .entry-box-subtitle
   {
-    font-family: "Fedra Sans Light", "Helvetica NueueLight", Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: "Lato Regular", "Helvetica NueueLight", Helvetica, sans-serif;
+    font-size: 16px;
   }
   .offering-list
   {
