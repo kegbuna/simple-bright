@@ -643,7 +643,6 @@ pre {
   src: url(../images/icons/icons.eot?#iefix) format("embedded-opentype"), url(../images/icons/icons.woff2) format("woff2"), url(../images/icons/icons.woff) format("woff"), url(../images/icons/icons.ttf) format("truetype"), url(../images/icons/icons.svg?#icons) format("svg");
   font-weight: normal;
   font-style: normal; }
-
 .icon {
   font-family: 'icons';
   display: inline-block;
@@ -742,8 +741,7 @@ pre {
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
-.fa, .entry-box .incident-button .ticket-icon, .entry-box .request-button .ticket-icon, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
+.fa, .entry-box .offering-button .ticket-icon, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -800,9 +798,9 @@ pre {
 .pull-left {
   float: left; }
 
-.fa.pull-left, .entry-box .incident-button .pull-left.ticket-icon, .entry-box .request-button .pull-left.ticket-icon, .person-info .person-info-title .pull-left.person-info-change, .person-info .person-info-title .pull-left.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-left.search-indicator-icon {
+.fa.pull-left, .entry-box .offering-button .pull-left.ticket-icon, .person-info .person-info-title .pull-left.person-info-change, .person-info .person-info-title .pull-left.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-left.search-indicator-icon {
   margin-right: .3em; }
-.fa.pull-right, .entry-box .incident-button .pull-right.ticket-icon, .entry-box .request-button .pull-right.ticket-icon, .person-info .person-info-title .pull-right.person-info-change, .person-info .person-info-title .pull-right.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-right.search-indicator-icon {
+.fa.pull-right, .entry-box .offering-button .pull-right.ticket-icon, .person-info .person-info-title .pull-right.person-info-change, .person-info .person-info-title .pull-right.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-right.search-indicator-icon {
   margin-left: .3em; }
 
 .fa-spin, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
@@ -817,7 +815,6 @@ pre {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
-
 @keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -826,7 +823,6 @@ pre {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
-
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
@@ -1390,7 +1386,7 @@ pre {
 .fa-globe:before {
   content: "\f0ac"; }
 
-.fa-wrench:before, .entry-box .incident-button .ticket-icon:before, .entry-box .request-button .ticket-icon:before {
+.fa-wrench:before, .entry-box .offering-button .ticket-icon:before {
   content: "\f0ad"; }
 
 .fa-tasks:before {
@@ -1555,7 +1551,7 @@ pre {
 .fa-cloud-upload:before {
   content: "\f0ee"; }
 
-.fa-user-md:before {
+.fa-user-md:before, .entry-box .offering-list .offering .epic-button .ticket-icon:before {
   content: "\f0f0"; }
 
 .fa-stethoscope:before {
@@ -2510,15 +2506,15 @@ pre {
       /* 52px */
       padding-top: 0.6190em;
       padding-bottom: 0; } }
-    @media only screen and (min-width: 800px) and (min-width: 800px) {
-      .highlight-module__title {
-        font-family: "Fedra Sans Light", Helvetica, sans-serif;
-        font-size: 68px;
-        font-weight: 300;
-        line-height: 1.1471em;
-        /* 78px */
-        padding-top: 0.3824em;
-        padding-bottom: 0; } }
+  @media only screen and (min-width: 800px) and (min-width: 800px) {
+    .highlight-module__title {
+      font-family: "Fedra Sans Light", Helvetica, sans-serif;
+      font-size: 68px;
+      font-weight: 300;
+      line-height: 1.1471em;
+      /* 78px */
+      padding-top: 0.3824em;
+      padding-bottom: 0; } }
 
 .highlight-module__cta {
   display: block; }
@@ -3671,7 +3667,7 @@ li > p {
 * Button
 *
 **/
-.button, .button--primary, .templateButton, .entry-box .incident-button, .entry-box .request-button, .button--search, .site-header .site-header-content .search a.search-button {
+.button, .button--primary, .templateButton, .entry-box .offering-button, .button--search, .site-header .site-header-content .search a.search-button {
   display: inline-block;
   padding: 5.66667px 32px;
   margin-bottom: 10px;
@@ -3683,17 +3679,17 @@ li > p {
   text-decoration: none;
   outline: 0;
   transition: none; }
-  .button:hover, .button--primary:hover, .templateButton:hover, .entry-box .incident-button:hover, .entry-box .request-button:hover, .button--search:hover, .site-header .site-header-content .search a.search-button:hover {
+  .button:hover, .button--primary:hover, .templateButton:hover, .entry-box .offering-button:hover, .button--search:hover, .site-header .site-header-content .search a.search-button:hover {
     background: #4d4d4d;
     color: #ffffff;
     text-decoration: none; }
 
-.button--primary, .templateButton, .entry-box .incident-button, .entry-box .request-button {
+.button--primary, .templateButton, .entry-box .offering-button {
   background: #63c015;
   color: white;
   border: 1px #018e19 solid;
   border-bottom: 4px #018e19 solid; }
-  .button--primary:hover, .templateButton:hover, .entry-box .incident-button:hover, .entry-box .request-button:hover {
+  .button--primary:hover, .templateButton:hover, .entry-box .offering-button:hover {
     background: white;
     color: #63c015;
     transition: background 500ms ease, color 500ms ease 200ms; }
@@ -3775,15 +3771,14 @@ li > p {
     margin: 10px;
     float: left;
     max-width: 235px; }
-    .entry-box .offering-list .offering .incident-button .ticket-icon {
-      font-size: 2em; }
-    .entry-box .offering-list .offering .request-button .ticket-icon {
-      font-size: 2em; }
     .entry-box .offering-list .offering .description {
       font-size: 12px; }
-.entry-box .incident-button .ticket-icon, .entry-box .request-button .ticket-icon {
-  display: block;
-  text-align: center; }
+.entry-box .offering-button {
+  width: 100%; }
+  .entry-box .offering-button .ticket-icon {
+    display: block;
+    text-align: center;
+    font-size: 2em; }
 
 .contact-info.dynamicText {
   display: table; }
@@ -4946,60 +4941,51 @@ main {
   font-weight: 300;
   src: url(fonts/RobotoCondensed-Light.eot);
   src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url(fonts/RobotoCondensed-Light.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Light.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/RobotoCondensed-Regular.eot);
   src: local("Roboto Condensed Regular"), local("RobotoCondensed-Regular"), url(fonts/RobotoCondensed-Regular.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Regular.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   src: url(fonts/RobotoCondensed-Bold.eot);
   src: local("Roboto Condensed Regular"), local("RobotoCondensed-Bold"), url(fonts/RobotoCondensed-Bold.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Bold.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 300;
   src: url(fonts/RobotoCondensed-LightItalic.eot);
   src: local("Roboto Condensed Light Italic"), local("RobotoCondensed-LightItalic"), url(fonts/RobotoCondensed-LightItalic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-LightItalic.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 400;
   src: url(fonts/RobotoCondensed-Italic.eot);
   src: local("Roboto Condensed Italic"), local("RobotoCondensed-Italic"), url(fonts/RobotoCondensed-Italic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-Italic.woff) format("woff"); }
-
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 700;
   src: url(fonts/RobotoCondensed-BoldItalic.eot);
   src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url(fonts/RobotoCondensed-BoldItalic.eot) format("embedded-opentype"), url(fonts/RobotoCondensed-BoldItalic.woff) format("woff"); }
-
 @font-face {
   font-family: 'Fedra Sans Bold';
   font-style: normal;
   font-weight: normal;
   src: url(fonts/fedra-bold.ttf) format("truetype"); }
-
 @font-face {
   font-family: 'Fedra Sans Light';
   font-style: normal;
   font-weight: normal;
   src: url(fonts/fedra-light.ttf) format("truetype"); }
-
 @font-face {
   font-family: 'Lato Regular';
   font-style: normal;
   font-weight: normal;
   src: url(fonts/Lato-Regular.ttf) format("truetype"); }
-
 .view-port {
   max-width: 950px;
   padding: 0 20px 25px 20px;

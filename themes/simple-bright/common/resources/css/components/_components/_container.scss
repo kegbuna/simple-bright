@@ -86,7 +86,7 @@
       {
         .ticket-icon
         {
-          font-size: 2em;
+
         }
       }
       .request-button
@@ -94,7 +94,16 @@
         .ticket-icon
         {
           @extend .fa-folder;
-          font-size: 2em;
+
+        }
+      }
+      .epic-button
+      {
+        .ticket-icon
+        {
+          @extend .fa-user-md;
+          //LOL
+          //@extend .fa-spin;
         }
       }
       .description
@@ -103,8 +112,9 @@
       }
     }
   }
-  .incident-button, .request-button
+  .offering-button
   {
+    width: 100%;
     @extend .button--primary;
     .ticket-icon
     {
@@ -112,6 +122,7 @@
       @extend .fa-wrench;
       display: block;
       text-align: center;
+      font-size: 2em;
     }
   }
 }

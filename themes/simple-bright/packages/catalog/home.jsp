@@ -57,8 +57,9 @@
                     <h4 class="entry-box-subtitle">Lahey Health's Service Desk offers a variety of IT services. Use the buttons below to get started.</h4>
                     <div>
                         <ul class="offering-list">
-                            <li class="offering"><a class="incident-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Report My Issue</a><p class="description">Experiencing any sort of IT related issue? Report it here.</p></li>
-                            <li class="offering"><a class="request-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Application Request</a><p class="description">Used for making reporting and access requests for a variety of clinical applications.</p></li>
+                            <li class="offering"><a class="incident-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Report My Issue</a><p class="description">Experiencing any sort of IT related issue? Report it here.</p></li>
+                            <li class="offering"><a class="request-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Application Request</a><p class="description">Used for making reporting and access requests for a variety of clinical applications.</p></li>
+                            <li class="offering"><a class="epic-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Epic App Request</a><p class="description">Used for making reporting and access requests for a variety of clinical applications.</p></li>
                         </ul>
                     </div>
                     <div>
