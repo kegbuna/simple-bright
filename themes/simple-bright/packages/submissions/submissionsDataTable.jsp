@@ -68,7 +68,7 @@
         <%@include file="../../common/interface/fragments/header.jspf"%>
         <div class="view-port">
             <div class="container">
-                <h3 class="page-title"><%=pageSubTitle%></h3>
+                <h1 class="page-title"><%=pageSubTitle%></h1>
                 <table id="submissionTable" width="100%" class="table table-bordered table-condensed table-responsive table-bordered table-striped">
                 </table>
             </div>

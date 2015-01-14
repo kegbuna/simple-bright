@@ -198,7 +198,7 @@
             put("Sent", FIELD_SURVEY_SENT_DATE);
             put("Service Item Type", FIELD_TYPE);
             put("Submit Type", FIELD_SUBMIT_TYPE);
-            put("Submitted", FIELD_SURVEY_COMPLETED_DATE);
+            put("Submit Date", FIELD_SURVEY_COMPLETED_DATE);
             put("Template Name", FIELD_TEMPLATE_NAME);
             put("Request Display Name", FIELD_ATTRIBUTE_1);
             put("Ticketing Application", FIELD_ATTRIBUTE_53);
@@ -224,6 +224,7 @@
             }
             // Service Item Image
             result.put("Service Item Image", ((this.getServiceItemImage() != null) ? this.getServiceItemImage() : null));
+
             return JSONValue.toJSONString(result);
         }
 

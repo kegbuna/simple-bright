@@ -37,27 +37,27 @@
             {
                 qualification+=  " AND 'Submitter'=\"" +context.getUserName() + "\"";
             }
-            if (request.getParameter("ticketid") != null)
+            if (request.getParameter("ticketId") != null)
             {
-                qualification+=  " AND 'CustomerSurveyID' LIKE\"%" +request.getParameter("ticketid") + "\"";
+                qualification+=  " AND 'CustomerSurveyID' LIKE\"%" +request.getParameter("ticketId") + "\"";
             }
             if (request.getParameter("type") != null)
             {
                 if (request.getParameter("type").equals("approvals"))
                 {
                     qualification += "AND 'Submit Type'=\"Approval\"";
-                    if (request.getParameter("ticketstatus") != null)
+                    if (request.getParameter("status") != null)
                     {
-                        if (request.getParameter("ticketstatus").equals("All"))
+                        if (request.getParameter("status").equals("All"))
                         {
 
                         }
-                        else if(request.getParameter("ticketstatus").equals("Open"))
+                        else if(request.getParameter("status").equals("Open"))
                         {
                             qualification += " AND 'CustomerSurveyStatus' != \"Completed\"";
                             qualification += " AND 'Request_Status'=\"Open\"";
                         }
-                        else if(request.getParameter("ticketstatus").equals("Closed"))
+                        else if(request.getParameter("status").equals("Closed"))
                         {
                             qualification += " AND 'CustomerSurveyStatus'=\"Completed\"";
                             qualification += " AND 'Request_Status'=\"Closed\"";
@@ -67,23 +67,23 @@
                 else if (request.getParameter("type").equals("requests"))
                 {
                     qualification += " AND 'Submit Type'=$NULL$";
-                    if (request.getParameter("ticketstatus") != null)
+                    if (request.getParameter("status") != null)
                     {
-                        if (request.getParameter("ticketstatus").equals("All"))
+                        if (request.getParameter("status").equals("All"))
                         {
 
                         }
-                        else if(request.getParameter("ticketstatus").equals("Open"))
+                        else if(request.getParameter("status").equals("Open"))
                         {
                             qualification += " AND 'CustomerSurveyStatus'=\"Completed\"";
                             qualification += " AND 'Request_Status'=\"Open\"";
                         }
-                        else if(request.getParameter("ticketstatus").equals("Closed"))
+                        else if(request.getParameter("status").equals("Closed"))
                         {
                             qualification += " AND 'CustomerSurveyStatus'=\"Completed\"";
                             qualification += " AND 'Request_Status'=\"Closed\"";
                         }
-                        else if (request.getParameter("ticketstatus").equals("Draft"))
+                        else if (request.getParameter("status").equals("Draft"))
                         {
                             qualification += "AND 'CustomerSurveyStatus'=\"In Progress\"";
                             qualification += " AND 'Request_Status'=\"Open\"";
@@ -107,7 +107,6 @@
          */
         String sortOrderField = SubmissionConsole.getSortFieldId(request.getParameter("orderField"));
         String[] sortFieldIds = new String[]{sortOrderField};
-       
         /*
          * Retrieve the sortOrder parameter.  This is passed as either "ascending" or
          * "descending".  Ars helpers expects a value of 1 for ascending sort order
@@ -129,6 +128,7 @@
          * Retrieve the entries with the parameters gathered above.  Also retrieve a
          * count of the total number of entries that match the qualification.
          */
+
         SubmissionConsole[] submissions = SubmissionConsole.find(context, catalog, qualification, sortFieldIds, pageSize, pageOffset, sortOrder);
         int count = ArsBase.count(context, SubmissionConsole.FORM_NAME, qualification);
 
@@ -136,6 +136,7 @@
         out.println("\"count\" : " + count + ",");
         out.println("\"limit\" : " + pageSize + ",");
         out.println("\"offset\" : " + pageOffset + ",");
+        //out.println("\"qualification\" : " + qualification + ",");
         out.println("\"data\" : [");
         for (int i = 0; i < submissions.length; i++) {
             if (i != 0) {

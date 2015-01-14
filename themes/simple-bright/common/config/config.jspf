@@ -20,6 +20,8 @@
     bundle.setProperty("searchNameParam", bundle.getProperty("slug") + "-Search");
     bundle.setProperty("knowledgeUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-KnowledgePage");
     bundle.setProperty("incidentUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-ReportIncident");
+    bundle.setProperty("appRequestUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-AppRequest");
+    bundle.setProperty("epicRequestUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-EpicRequest");
     bundle.setProperty("logoutUrl", "KSAuthenticationServlet?Logout=true");
     bundle.setProperty("siteTitle", "Online Help Desk");
 
@@ -29,6 +31,7 @@
     // Service Item Image Library Path
     bundle.setProperty("serviceItemImagePath", bundle.bundlePath() + "../../surveys/kineticImageLibrary/");
 
+    bundle.setProperty("reviewUrl", bundle.applicationPath() + "ReviewRequest?excludeByName=Review Page&reviewPage=" + bundle.getProperty("reviewJsp") + "&csrv=");
     // Boolean for displaying the logout link
     Boolean logoutEnabled = true;
 

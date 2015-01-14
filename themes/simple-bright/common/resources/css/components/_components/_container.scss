@@ -234,6 +234,97 @@
   }
 }
 
+.request-item
+{
+  .request-item-header
+  {
+    @extend .section-header;
+    margin-bottom: 10px;
+    display: table;
+    width: 100%;
+
+    .header-item
+    {
+      font-size: 20px;
+      font-family: Lato Regular, Helvetica, sans-serif;
+      display: table-cell;
+      .item-label
+      {
+        display:none;
+      }
+      .submit-date
+      {
+        line-height: 36px;
+        color: $colorPrimary5-1;
+      }
+      .template-name
+      {
+        padding: 0;
+        font-size: 36px;
+        font-family: "Fedra Sans Light", Helvetica, sans-serif;
+        float: right;
+      }
+    }
+  }
+  div.request-item-header
+  {
+    margin: 0 0 10px 0;
+    &:first-child
+    {
+      margin-top: 10px;
+    }
+  }
+  .request-item-body
+  {
+    .item-content
+    {
+      padding: 0 0 0 15px;
+      float: left;
+      max-width: 500px;
+
+      .request-id
+      {
+        font-size: 20px;
+        font-family: "Lato Regular", "Helvetica Nueue", Helvetica, sans-serif;
+        margin-bottom: 10px;
+        .item-label
+        {
+          display: none;
+        }
+      }
+      .item-label
+      {
+        min-width: 100px;
+        display: inline-block;
+      }
+    }
+    .controls
+    {
+      padding: 0 15px 0 0;
+      float: right;
+      .action
+      {
+        @extend .button--list;
+        .action-icon
+        {
+          @extend .fa;
+          @extend .fa-chevron-right;
+          color: $colorPrimary3-2;
+          margin-right: 15px;
+        }
+      }
+      //hack to override extended attributes for now TODO:: use mixin
+      >.action
+      {
+        display:block;
+        &:first-child
+        {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
 /*
 Display Page section stuff
 */

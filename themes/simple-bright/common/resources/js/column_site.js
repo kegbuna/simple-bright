@@ -210,3 +210,54 @@ keg.startTemplate = function ()
         });
     }
 };
+
+keg.Request = {};
+
+keg.Request.retrieveINC = function()
+{
+    //http://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
+    //generating guid
+    var guid = (function() {
+        function s4() {
+            return Math.floor((1 + Math.random()) * 0x10000)
+                .toString(16)
+                .substring(1);
+        }
+        return function() {
+            return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+                s4() + '-' + s4() + s4() + s4();
+        };
+    })();
+
+    if (KD.utils.Action.getQuestionValue("Incident Number") == "" && typeof KD.utils.Review == "undefined")
+    {
+        var data = {};
+        data['Form'] = "HPD:CFG Ticket Num Generator";
+        data['179'] = guid();
+        data['id'] = "GO";
+
+        $.ajax(
+            {
+                url: 'WorklogCreate',
+                method: 'POST',
+                data: data,
+                success: function (result)
+                {
+                    var resultData = JSON.parse(result);
+                    KD.utils.Action.setQuestionValue("Incident Number", resultData.message);
+                },
+                error: function (error)
+                {
+                    console.log(error);
+                }
+            });
+    }
+};
+/* Take care of ie8 indexOf */
+if (!Array.prototype.indexOf)
+{
+    Array.prototype.indexOf = function(item)
+    {
+        return $.inArray(item, this);
+    }
+}

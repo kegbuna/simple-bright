@@ -57,9 +57,9 @@
                     <h4 class="entry-box-subtitle">Lahey Health's Service Desk offers a variety of IT services. Use the buttons below to get started.</h4>
                     <div>
                         <ul class="offering-list">
-                            <li class="offering"><a class="incident-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Report My Issue</a><p class="description">Experiencing any sort of IT related issue? Report it here.</p></li>
-                            <li class="offering"><a class="request-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Application Request</a><p class="description">Used for making reporting and access requests for a variety of clinical applications.</p></li>
-                            <li class="offering"><a class="epic-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Epic App Request</a><p class="description">Used for making reporting and access requests for a variety of clinical applications.</p></li>
+                            <li class="offering"><a class="incident-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Report My Issue</a><p class="description">Experiencing IT downtime or another problem? Report it here.</p></li>
+                            <li class="offering"><a class="request-button offering-button" href="<%=bundle.getProperty("appRequestUrl")%>"><i class="ticket-icon"></i>Clinical App Request</a><p class="description">Need access to clinical applications or reports? Ask us!</p></li>
+                            <li class="offering"><a class="epic-button offering-button" href="<%=bundle.getProperty("epicRequestUrl")%>"><i class="ticket-icon"></i>Epic App Request</a><p class="description">Make all of your Epic related requests here.</p></li>
                         </ul>
                     </div>
                     <div>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="info-box" id="RecentRequestsBox">
                     <div class="info-box-title">
-                        <i class="fa fa-clipboard"></i><h3>Recently Submitted</h3>
+                        <i class="fa fa-clipboard"></i><a href="<%=bundle.getProperty("submissionsUrl")%>"><h3>Recently Submitted</h3></a>
                     </div>
                     <div class="info-box-content">
                         <%  if (matchingTemplates != null)
