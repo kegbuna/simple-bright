@@ -23,7 +23,7 @@
     bundle.setProperty("appRequestUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-AppRequest");
     bundle.setProperty("epicRequestUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-EpicRequest");
     bundle.setProperty("logoutUrl", "KSAuthenticationServlet?Logout=true");
-    bundle.setProperty("siteTitle", "Online Help Desk");
+    bundle.setProperty("siteTitle", "Online Service Desk");
 
     // This is a path to the review jsp to be used by review request.
     bundle.setProperty("reviewJsp", bundle.relativeBundlePath() + "packages/base/review.jsp");

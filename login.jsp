@@ -141,7 +141,7 @@
 	<div id="hd">
 		<div class="hText">
             <img src="themes/simple-bright/common/resources/css/images/lahey-health-logo.png">
-			<h3 class="site-title">Online Help Desk</h3>
+			<h3 class="site-title">Online Service Desk</h3>
 			<!-- <h3 id="arserver_heading">Server:
 				<jsp:getProperty name="UserContext" property="arServer"/>
 			</h3> -->
@@ -157,12 +157,12 @@
 		<div id="message"></div>
 		<form name='Login' id='loginForm' method='post' action='KSAuthenticationServlet'>
 			<div class="username row">
-				<input placeholder="Username..." class="formField form-control" name="UserName" type="text"
+				<input placeholder="Network Username..." class="formField form-control" name="UserName" type="text"
 				       autocomplete="off" id="UserName"maxlength="50"/>
 			</div>
 			<div class="password row">
 
-				<input class="formField form-control" placeholder="Password..." name="Password" type="password"
+				<input class="formField form-control" placeholder="Network Password..." name="Password" type="password"
 				       autocomplete="off" id="Password"maxlength="50"/>
 			</div>
 			<div class="hide" id="authentication_string">

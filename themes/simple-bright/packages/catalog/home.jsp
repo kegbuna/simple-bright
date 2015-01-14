@@ -48,13 +48,13 @@
         <%@include file="../../common/interface/fragments/header.jspf" %>
         <div id="homeView" class="view-port">
             <section class="left-column">
-                <h1 class="page-title">Online Help Desk</h1>
+                <h1 class="page-title">Online Service Desk</h1>
                 <div class="entry-box">
                     <!--<h2 class="entry-box-title">Welcome, how can we help you?</h2>
                     <a href="<%=bundle.getProperty("incidentUrl")%>" class="incident-button">I have a problem!</a>
                     <a class="request-button">I need something new.</a>
                     <a></a>-->
-                    <h4 class="entry-box-subtitle">Lahey Health's Service Desk offers a variety of IT services. Use the buttons below to get started.</h4>
+                    <h4 class="entry-box-subtitle">Use the below buttons to get started!</h4>
                     <div>
                         <ul class="offering-list">
                             <li class="offering"><a class="incident-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Report My Issue</a><p class="description">Experiencing IT downtime or another problem? Report it here.</p></li>
