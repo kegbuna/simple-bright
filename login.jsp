@@ -65,6 +65,7 @@
 					try
 					{
 						var messageLayer = YAHOO.util.Dom.get('message');
+						var titleLayer = YAHOO.util.Dom.get('loginTitle');
 						if (successMessage && successMessage.length > 0)
 						{
 							messageLayer.innerHTML = successMessage;
@@ -72,7 +73,16 @@
 						}
 						if (errorMessage && errorMessage.length > 0)
 						{
-							messageLayer.innerHTML = errorMessage;
+							titleLayer.style.color = "red";
+							titleLayer.innerHTML = "There was a problem logging you in:";
+							if (errorMessage == "Authentication failed")
+							{
+								messageLayer.innerHTML = "<p>Your username or password is incorrect.</p><p>Need help logging in? Call the Service Desk <b>781.744.8888</b></p>";
+							}
+							else
+							{
+								messageLayer.innerHTML = errorMessage;
+							}
 							messageLayer.style.display = "block";
 						}
 					} catch (e)
@@ -149,7 +159,7 @@
 
         <div class="clear"></div>
         <div class="hText">
-            <h4 class="login-title">Please Login</h4>
+            <h4 id="loginTitle" class="login-title">Please Login</h4>
 		</div>
         <div class="clear"></div>
 	</div>

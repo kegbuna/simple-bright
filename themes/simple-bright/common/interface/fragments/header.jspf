@@ -20,7 +20,9 @@
                 <div class="mini-nav">
                     <a href="<%=bundle.getProperty("homeUrl")%>">Home</a>
                     <a href="<%=bundle.getProperty("submissionsUrl")%>">My History</a>
-                    <a href="<%=bundle.getProperty("logoutUrl")%>">Log Out</a>
+                    <span class="divider"></span>
+                    <span class="name"><%=thisUser.getFullName()%></span>
+                    <a title="Log Out" class ="logout" href="<%=bundle.getProperty("logoutUrl")%>"><i class="logout-button"></i></a>
                 </div>
                 <div class="user-acknowledge">
                     <span class="message">Welcome, </span>

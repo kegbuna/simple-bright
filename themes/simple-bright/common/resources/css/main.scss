@@ -285,12 +285,29 @@ main {
           color: #747678;
           text-decoration: none;
           font-family: "Fedra Sans Light", Helvetica, sans-serif;
-          margin-right: 15px;
+          margin-right: 10px;
           &:hover
           {
             text-decoration: underline;
             color: #000;
           }
+          &.logout
+          {
+            .logout-button
+            {
+              @extend .fa;
+              @extend .fa-power-off;
+            }
+          }
+        }
+        .divider
+        {
+          border-right: 1px #747678 solid;
+          margin-right: 10px;
+        }
+        .name
+        {
+
         }
       }
     }
@@ -458,5 +475,13 @@ div.questionLayer
   .row
   {
     padding: 20px 0;
+  }
+  #message
+  {
+    p
+    {
+      padding: 0;
+      font-size: 14px;
+    }
   }
 }
