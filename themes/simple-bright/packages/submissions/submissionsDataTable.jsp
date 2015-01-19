@@ -69,6 +69,10 @@
         <div class="view-port">
             <div class="container">
                 <h1 class="page-title"><%=pageSubTitle%></h1>
+                <div class="page-loading-indicator">
+                    <i class="loading-icon"></i>
+                    <h2>Loading...</h2>
+                </div>
                 <table id="submissionTable" width="100%" class="table table-bordered table-condensed table-responsive table-bordered table-striped">
                 </table>
             </div>

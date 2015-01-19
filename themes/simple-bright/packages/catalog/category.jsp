@@ -12,6 +12,7 @@
     // is more efficient than loading them individually.
     catalog.preload(context);
     Category currentCategory = catalog.getCategoryByName(request.getParameter("category"));
+    Category[] allCats = catalog.getAllCategories(context);
     // Get map of description templates
     Map<String, String> templateDescriptions = new java.util.HashMap<String, String>();
     if (currentCategory != null) {
@@ -38,15 +39,25 @@
         <script type="text/javascript" src="<%=bundle.packagePath()%>resources/js/category.js"></script>
     </head>
     <body>
+        <%@include file="../../common/interface/fragments/header.jspf"%>
         <div class="view-port">
-            <%@include file="../../common/interface/fragments/navigationSlide.jspf"%>
-            <div class="content-slide" data-target="div.navigation-slide">
-                <%@include file="../../common/interface/fragments/header.jspf"%>
-                <div class="pointer-events container">
-                    <%@include file="interface/fragments/categoryNav.jspf"%>
-                </div>
-                <%@include file="../../common/interface/fragments/footer.jspf"%>
-            </div>
+        <%
+            for (Category currentCat : allCats)
+            {
+        %>
+            <br><%=currentCat.getFullName()%>
+            <% Template[] currentTemplates = currentCat.getTemplates();
+                for (Template currentTemplate : currentTemplates)
+                {
+            %>
+                <br><%=currentTemplate.getName()%>
+            <%
+                }
+            %>
+        <%
+            }
+        %>
         </div>
+        <%@include file="../../common/interface/fragments/footer.jspf"%>
     </body>
 </html>

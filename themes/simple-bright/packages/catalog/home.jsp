@@ -18,7 +18,8 @@
     catalog.preload(context);
     //loading in the broadcasts
     Broadcasts broadcasts = Broadcasts.findAvailable(context, context.getUserName());
-    SubmissionConsole[] matchingTemplates  = SubmissionConsole.find(context, catalog, "'Submitter' = \"" + context.getUserName() +"\"", new String[]{"2"}, 0, 0, 1);
+    //Sorted by Create date
+    SubmissionConsole[] matchingTemplates  = SubmissionConsole.find(context, catalog, "'Submitter' = \"" + context.getUserName() +"\"", new String[]{"3"}, 5, 0, 2);
 
 
 %>
@@ -58,8 +59,9 @@
                     <div>
                         <ul class="offering-list">
                             <li class="offering"><a class="incident-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Report My Issue</a><p class="description">Experiencing IT downtime or another problem? Report it here.</p></li>
-                            <li class="offering"><a class="request-button offering-button" href="<%=bundle.getProperty("appRequestUrl")%>"><i class="ticket-icon"></i>Clinical App Request</a><p class="description">Need access to clinical applications or reports? Ask us!</p></li>
+                           <!--<li class="offering"><a class="request-button offering-button" href="<%=bundle.getProperty("appRequestUrl")%>"><i class="ticket-icon"></i>Clinical App Request</a><p class="description">Need access to clinical applications or reports? Ask us!</p></li>-->
                             <li class="offering"><a class="epic-button offering-button" href="<%=bundle.getProperty("epicRequestUrl")%>"><i class="ticket-icon"></i>Epic App Request</a><p class="description">Make all of your Epic related requests here.</p></li>
+                            <!--<li class="offering"><a class="request-button offering-button" href="<%=bundle.getProperty("categoryUrl")%>"><i class="ticket-icon"></i>Requests</a><p class="description">Make all of your Epic related requests here.</p></li>-->
                         </ul>
                     </div>
                     <div>
@@ -78,9 +80,8 @@
                         for (int i=0; i<broadcasts.getLength(); i++)
                         {%>
                         <div class="info-box-item">
-                            <div class="item-timestamp">
-                                <%=((String)broadcasts.getStartDate(i).get("month")).substring(0, 3)%>
-                                <%=broadcasts.getStartDate(i).get("day")%>
+                            <div class="item-timestamp" style="margin-right: 35px;">
+                                <%=broadcasts.getStartDate(i).get("fromARS")%>
                             </div>
                             <div class="item-summary">
                                 <a href="#" class=""><%=broadcasts.getFieldSubject(i)%></a>

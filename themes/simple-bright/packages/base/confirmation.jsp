@@ -58,7 +58,7 @@
             <section class="container">
                 <div id="pageQuestionsForm" class="border rounded">
                     <p style="margin-top: 20px;">
-                        <b>Thank you for submitting the <%= customerRequest.getTemplateName()%> form. Your Ticket Number is <%= customerRequest.getKsr()%>.
+                        <b>Thank you for submitting the <%= customerRequest.getTemplateName()%> form. Your Ticket Number is <%= customerSurvey.getOriginatingID_Display()%>.
                         </b>
                     </p>
                     <p>

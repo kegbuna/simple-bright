@@ -39,7 +39,7 @@
             }
             if (request.getParameter("ticketId") != null)
             {
-                qualification+=  " AND 'CustomerSurveyID' LIKE\"%" +request.getParameter("ticketId") + "\"";
+                qualification+=  " AND 'OriginatingID_Display' LIKE\"%" +request.getParameter("ticketId") + "\"";
             }
             if (request.getParameter("type") != null)
             {
@@ -136,7 +136,7 @@
         out.println("\"count\" : " + count + ",");
         out.println("\"limit\" : " + pageSize + ",");
         out.println("\"offset\" : " + pageOffset + ",");
-        //out.println("\"qualification\" : " + qualification + ",");
+        //out.println("\"qualification\" : \"" + qualification + "\",");
         out.println("\"data\" : [");
         for (int i = 0; i < submissions.length; i++) {
             if (i != 0) {

@@ -17,9 +17,9 @@
         public static Broadcasts findAvailable(HelperContext context, String username)
         {
 
-            String qualification = "'Status' = \"Enabled\" AND 'Broadcast Start Date' < $TIMESTAMP$ AND 'Broadcast End Date' > $TIMESTAMP$";
-            String[] sortIDs = new String[]{FIELD_TYPE, FIELD_PRIORITY};
-            SimpleEntry[] broadcasts = ArsBase.find(context, FORM_NAME, qualification, FIELD_IDS, sortIDs);
+            String qualification = "'Status' = \"Enabled\" AND 'Broadcast Start Date' < $TIMESTAMP$ AND 'Broadcast End Date' > $TIMESTAMP$ OR 'Broadcast End Date' = $NULL$";
+            String[] sortIDs = new String[]{FIELD_START};
+            SimpleEntry[] broadcasts = ArsBase.find(context, FORM_NAME, qualification, FIELD_IDS, sortIDs, 0, 0, 2);
             if (broadcasts == null)
             {
                 return null;
@@ -101,10 +101,11 @@
         {
             String dateString = this.entries[index].getEntryFieldValue(FIELD_START);
             Date newDate;
-            DateFormat newDF = new SimpleDateFormat("MM/DD/YYYY HH:mm:ss", Locale.ENGLISH);
-            DateFormatSymbols dfs = new DateFormatSymbols();
-            String[] months = dfs.getMonths();
+            DateFormat newDF = new SimpleDateFormat("MM/dd/yyyy");
+
             JSONObject jsonDate = new JSONObject();
+            Calendar cal = Calendar.getInstance();
+
 
             try
             {
@@ -116,9 +117,11 @@
                 return null;
             }
 
-            jsonDate.put("month", months[newDate.getMonth()]);
-            jsonDate.put("day", newDate.getDate());
+            jsonDate.put("test", newDate.getTime());
+            dateString = newDF.format(newDate);
 
+            jsonDate.put("string", dateString);
+            jsonDate.put("fromARS", this.entries[index].getEntryFieldValue(FIELD_START));
             return jsonDate;
         }
         public String getEndDate(int index)

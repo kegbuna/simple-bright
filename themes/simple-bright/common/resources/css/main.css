@@ -743,7 +743,7 @@ pre {
   font-weight: normal;
   font-style: normal; }
 
-.fa, .entry-box .offering-button .ticket-icon, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon, .request-item .request-item-body .controls .action .action-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .logout-button {
+.fa, .entry-box .offering-button .ticket-icon, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon, .request-item .request-item-body .controls .action .action-icon, .page-loading-indicator .loading-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .logout-button {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -800,12 +800,12 @@ pre {
 .pull-left {
   float: left; }
 
-.fa.pull-left, .entry-box .offering-button .pull-left.ticket-icon, .person-info .person-info-title .pull-left.person-info-change, .person-info .person-info-title .pull-left.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-left.search-indicator-icon, .request-item .request-item-body .controls .action .pull-left.action-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .pull-left.logout-button {
+.fa.pull-left, .entry-box .offering-button .pull-left.ticket-icon, .person-info .person-info-title .pull-left.person-info-change, .person-info .person-info-title .pull-left.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-left.search-indicator-icon, .request-item .request-item-body .controls .action .pull-left.action-icon, .page-loading-indicator .pull-left.loading-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .pull-left.logout-button {
   margin-right: .3em; }
-.fa.pull-right, .entry-box .offering-button .pull-right.ticket-icon, .person-info .person-info-title .pull-right.person-info-change, .person-info .person-info-title .pull-right.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-right.search-indicator-icon, .request-item .request-item-body .controls .action .pull-right.action-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .pull-right.logout-button {
+.fa.pull-right, .entry-box .offering-button .pull-right.ticket-icon, .person-info .person-info-title .pull-right.person-info-change, .person-info .person-info-title .pull-right.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-right.search-indicator-icon, .request-item .request-item-body .controls .action .pull-right.action-icon, .page-loading-indicator .pull-right.loading-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .pull-right.logout-button {
   margin-left: .3em; }
 
-.fa-spin, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
+.fa-spin, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon, .page-loading-indicator .loading-icon {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear; }
 
@@ -945,7 +945,7 @@ pre {
 .fa-signal:before {
   content: "\f012"; }
 
-.fa-gear:before, .person-info .person-info-title .person-info-change:before,
+.fa-gear:before, .person-info .person-info-title .person-info-change:before, .page-loading-indicator .loading-icon:before,
 .fa-cog:before {
   content: "\f013"; }
 
@@ -3770,7 +3770,7 @@ li > p {
         float: left; }
       .info-box .info-box-content .info-box-item .item-summary {
         display: inline-block;
-        max-width: 250px;
+        max-width: 200px;
         font-size: .75em;
         margin: 0 0 0 1%; }
       .info-box .info-box-content .info-box-item p.item-message {
@@ -3930,6 +3930,13 @@ h1.page-title {
   font-size: 64px;
   margin: 20px 0;
   padding-top: 0; }
+
+/* Page Loading */
+.page-loading-indicator {
+  width: 100%;
+  text-align: center; }
+  .page-loading-indicator .loading-icon {
+    font-size: 10em; }
 
 /**
 *

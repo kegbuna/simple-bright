@@ -24,6 +24,13 @@
       font-size: 20px;
       margin: 0 0 0 1%;
     }
+    a
+    {
+      &:visited
+      {
+
+      }
+    }
   }
   .info-box-content
   {
@@ -44,7 +51,7 @@
       .item-summary
       {
         display:inline-block;
-        max-width: 250px;
+        max-width: 200px;
         font-size: .75em;
         margin: 0 0 0 1%;
       }
@@ -360,4 +367,18 @@ h1.page-title
   font-size: 64px;
   margin: 20px 0;
   padding-top: 0;
+}
+
+/* Page Loading */
+.page-loading-indicator
+{
+  width: 100%;
+  text-align: center;
+  .loading-icon
+  {
+    @extend .fa;
+    @extend .fa-spin;
+    @extend .fa-gear;
+    font-size: 10em;
+  }
 }

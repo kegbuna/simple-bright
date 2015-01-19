@@ -16,7 +16,7 @@ SubmissionTable.ticketId = null;
 SubmissionTable.submitter = null;
 SubmissionTable.urlParams = getUrlParameters();
 SubmissionTable.filter = {
-    status: "Open",
+    status: null,
     orderField: "Submit Date",
     order: "DESC",
     ticketId: null,
@@ -47,7 +47,7 @@ SubmissionTable.start = function ()
 {
     var $subTable = $('#submissionTable');
     var tableData = {};
-
+    var desk_email = 'Remedy_Notification@LaheyHealth.org';
     $.ajax(
     {
         url: "themes/simple-bright/packages/submissions/interface/callbacks/submissions.json.jsp",
@@ -87,7 +87,7 @@ SubmissionTable.start = function ()
             {
                 fieldReference.push(tempIndex);
             }
-            console.log(fieldReference);
+            $('.page-loading-indicator').hide();
             $subTable.dataTable(
             {
                 columns: columnNames,
@@ -118,7 +118,7 @@ SubmissionTable.start = function ()
                     $info.append('<div class="requested-for"><span class="item-label">Customer</span><span class="item-value">'+ data[fieldReference.indexOf('Requested For')] +'</span></div>');
 
                     $controls.append('<a href="' + BUNDLE.config.reviewUrl + data[fieldReference.indexOf('Id')] + '" class="action"><i class="action-icon"></i>Review Submission</a>');
-                    $controls.append('<a class="action"><i class="action-icon"></i>Send an Update</a>');
+                    $controls.append('<a class="action" href="mailto:' + desk_email + '?subject='+ data[fieldReference.indexOf('Originating Request Id')] +': User Update"><i class="action-icon"></i>Send an Update</a>');
 
                 }
             });
