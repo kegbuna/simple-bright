@@ -33,8 +33,13 @@
 			}
 		}
 	</script>
-	<script type="text/javascript"
-	        src="<%=request.getContextPath() + "/resources/js/yui/build/yahoo-dom-event/yahoo-dom-event.js"%>"></script>
+	<script type="text/javascript" src="<%=request.getContextPath() + "/resources/js/yui/build/yahoo-dom-event/yahoo-dom-event.js"%>"></script>
+	<script type="text/javascript" src="<%=request.getContextPath() + "/themes/simple-bright/common/resources/js/jquery-1.11.1.min.js"%>"></script>
+	<!--[if IE 8]>
+	<script type="text/javascript" src="<%=request.getContextPath() + "/themes/simple-bright/common/resources/js/ie8.js"%>"></script>
+	<![endif]-->
+
+
 	<script type="text/javascript">
 		javascript:window.history.forward(-1);
 		var successMessage = "<jsp:getProperty name="UserContext" property="successMessage" />";
@@ -58,7 +63,8 @@
 					YAHOO.util.Event.addListener(['UserName', 'Password', 'Authentication'], 'keyup', isEnter, this);
 					YAHOO.util.Event.addListener('Submit', 'click', authenticate);
 					YAHOO.util.Event.addListener('Login', 'submit', showLoader);
-					setFocus();
+					//TODO:: figure out of i want to keep this. It auto focuses the user field which hurts ie8 placeholder support but makes for a faster form
+					//setFocus();
 				};
 				var checkMessages = function ()
 				{
@@ -167,13 +173,12 @@
 		<div id="message"></div>
 		<form name='Login' id='loginForm' method='post' action='KSAuthenticationServlet'>
 			<div class="username row">
-				<input placeholder="Network Username..." class="formField form-control" name="UserName" type="text"
+				<input placeholder="Network Username..." class="formField form-control placeholder" name="UserName" type="text"
 				       autocomplete="off" id="UserName"maxlength="50"/>
 			</div>
 			<div class="password row">
-
-				<input class="formField form-control" placeholder="Network Password..." name="Password" type="password"
-				       autocomplete="off" id="Password"maxlength="50"/>
+				<input class="formField form-control placeholder" name="Password" placeholder="Network Password..." type="password" autocomplete="off" id="Password" maxlength="50"/>
+				<input class="formField form-control" style="display: none;" value="Network Password..." name="FakePassword" type="text" autocomplete="off" id="FakePassword" maxlength="50"/>
 			</div>
 			<div class="hide" id="authentication_string">
 				<label for="Authentication"><strong>Authentication</strong></label>

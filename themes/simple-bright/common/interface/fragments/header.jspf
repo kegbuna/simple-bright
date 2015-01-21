@@ -8,7 +8,7 @@
     <div class="site-header-content">
         <div class="site-header-top">
             <div class="search">
-                <input id="SearchInput" type="text" title="Search" placeholder="Search" class="search-input">
+                <input id="SearchInput" type="text" title="Search" placeholder="Search..." class="placeholder search-input">
                 <a href="#" class="search-button">
                     <i class="fa fa-search"></i>
                 </a>
@@ -24,23 +24,12 @@
                     <span class="name"><%=thisUser.getFullName()%></span>
                     <a title="Log Out" class ="logout" href="<%=bundle.getProperty("logoutUrl")%>"><i class="logout-button"></i></a>
                 </div>
-                <div class="user-acknowledge">
+                <!--<div class="user-acknowledge">
                     <span class="message">Welcome, </span>
                     <span class="name"><%=thisUser.getFullName()%></span>
-                </div>
+                </div>-->
             </div>
         </div>
-    <!-- Just doing this for now because we are likely getting rid of the toolbar. TODO: Delete this crap
-        <div class="site-header-bottom">
-            <nav class="nav-bar">
-                <ul class="nav-items">
-                    <li class="nav-item homelink"><a href="<%=bundle.getProperty("homeUrl")%>">Home</a></li>
-                    <li class="nav-item mystufflink"><a href="<%=bundle.getProperty("submissionsUrl")%>">My Stuff</a></li>
-                    <li class="nav-item thirdoptionlink">Third Option</li>
-                </ul>
-            </nav>
-        </div>
-    -->
     </div>
 </div>
 

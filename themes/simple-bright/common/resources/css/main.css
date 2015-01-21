@@ -5098,13 +5098,14 @@ main {
     .site-header .site-header-top a.logo {
       background: url(images/lahey-health-logo.png);
       background-size: contain;
+      behavior: url(themes/simple-bright/common/resources/css/PIE.htc);
       width: 253px;
       height: 40px;
       padding: 10px 0 18px 0;
       display: inline-block;
       text-indent: -9000em; }
     .site-header .site-header-top .user-bar {
-      margin-top: 5px; }
+      margin-top: 15px; }
       .site-header .site-header-top .user-bar .user-acknowledge {
         padding-left: 70px;
         text-decoration: double;
@@ -5173,7 +5174,8 @@ main {
         width: 150px;
         transition: width 500ms ease; }
     .site-header .site-header-content .search a.search-button {
-      display: inline-block; }
+      display: inline-block;
+      box-sizing: border-box; }
       .site-header .site-header-content .search a.search-button i {
         font-size: 20px; }
 
@@ -5227,3 +5229,5 @@ div.questionLayer {
   #loginBox #message p {
     padding: 0;
     font-size: 14px; }
+  #loginBox .form-control {
+    line-height: 30px; }

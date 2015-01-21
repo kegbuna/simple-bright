@@ -21,12 +21,11 @@ input[type="tel"],
 input[type="color"], 
 input[type="search"], 
 .uneditable-input {
-    min-height: 35px;
-    height: auto;
+
 }
 select
 {
-    height: 28px; min-width: 175px;
+    min-width: 175px;
 }
     select.dateMonth, select.dateDay
     {

@@ -21,6 +21,10 @@
 --%>
 <link rel="stylesheet" type="text/css" href="<%=bundle.bundlePath()%>common/resources/css/main.css" />
 
+<!--[if IE 8]>
+<link type="text/css" rel=stylesheet href="<%=bundle.bundlePath()%>common/resources/css/ie8.css"/>
+<![endif]-->
+
 <%-- 
     Initialize the BUNDLE javascript object.  This object is used to store the
     configuration properties for requests in a manner that the client browser
@@ -54,3 +58,14 @@
 <script type="text/javascript" src="<%=bundle.bundlePath()%>common/resources/js/jquery.md5.js"></script>
 <script type="text/javascript" src="<%=bundle.bundlePath()%>common/resources/js/common.js"></script>
 <script type="text/javascript" src="<%=bundle.bundlePath()%>common/resources/js/column_site.js"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="<%=request.getContextPath() + "/themes/simple-bright/common/resources/js/ie8.js"%>"></script>
+<script type="text/javascript" src="<%=request.getContextPath() + "/themes/simple-bright/common/resources/js/cufon-yui.js" %>"></script>
+<script type="text/javascript" src="<%=request.getContextPath() + "/themes/simple-bright/common/resources/js/Fedra_300-Fedra_700.font.js" %>"></script>
+<script type="text/javascript">
+    Cufon.replace('h1');
+    Cufon.replace('.info-box-title');
+    //Cufon.replace('.description');
+    Cufon.replace('.mini-nav');
+</script>
+<![endif]-->

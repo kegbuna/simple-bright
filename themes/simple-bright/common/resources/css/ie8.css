@@ -1,0 +1,60 @@
+/* Home PAge
+ *
+ */
+*
+{
+    box-sizing: border-box;
+}
+.site-header .site-header-content .search input.search-input
+{
+    line-height: 40px;
+}
+
+.site-header .site-header-top a.logo
+{
+    background: url(images/lahey-health-logo-80.png);
+}
+
+.view-port aside.right-column
+{
+    width: 32%;
+}
+
+.info-box .info-box-content .info-box-item .item-summary
+{
+    margin: 0;
+}
+
+
+
+/*
+    Submission history
+*/
+
+#submissionTable_length select
+{
+    line-height: 30px;
+}
+
+/* Service ITems */
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="color"],
+input[type="search"],
+.uneditable-input
+{
+    line-height: 30px;
+}

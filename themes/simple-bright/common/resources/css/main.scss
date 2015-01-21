@@ -261,6 +261,7 @@ main {
     {
       background: url(images/lahey-health-logo.png);
       background-size: contain;
+      behavior: url(themes/simple-bright/common/resources/css/PIE.htc);
       width: 253px;
       height: 40px;
       padding: 10px 0 18px 0;
@@ -269,7 +270,8 @@ main {
     }
     .user-bar
     {
-      margin-top: 5px;
+      margin-top: 15px;
+
       .user-acknowledge
       {
         padding-left: 70px;
@@ -397,6 +399,8 @@ main {
       {
         @extend .button--search;
         display: inline-block;
+        //ie8 fix
+        box-sizing: border-box;
         i
         {
           font-size: 20px;
@@ -483,5 +487,10 @@ div.questionLayer
       padding: 0;
       font-size: 14px;
     }
+  }
+
+  .form-control
+  {
+    line-height: 30px;
   }
 }

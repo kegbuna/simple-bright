@@ -183,12 +183,14 @@ keg.startTemplate = function ()
                 }
                 else
                 {
-                    for (var i in people.records)
+                    //using each for ie8 sake
+                    $(people.records).each( function(i, el)
+                    //for (var i in people.records)
                     {
                         var currentRecord = people.records[i].attributes;
 
                         $results.append('<li data-index="' + i + '" class="person-info-search-result"><p class="name">' + currentRecord['First Name'] + ' ' + currentRecord['Last Name'] + ' (' + currentRecord['Login ID'] + ')</p><p class="email">' + currentRecord['Email Address'] + '</p></li>');
-                    }
+                    });
                     $results.find('.person-info-search-result').on('click', function(e)
                     {
                         var newCustomer = {};

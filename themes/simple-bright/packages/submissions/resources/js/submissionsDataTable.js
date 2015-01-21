@@ -29,24 +29,18 @@ SubmissionTable.filter = {
         {
             this[param] = params[param];
         }
-        console.log(this);
     }
 };
 SubmissionTable.syncFilter = function()
 {
 
 };
-SubmissionTable.columns = [
-    {"title": "Ticket ID"},
-    {"title": "Status"},
-    {"title": "Summary"},
-    {"title": "Date Submitted"},
-    {"title": "Date Closed"}
-];
+
 SubmissionTable.start = function ()
 {
     var $subTable = $('#submissionTable');
     var tableData = {};
+    //TODO:: This shouldn't just be in a js file
     var desk_email = 'Remedy_Notification@LaheyHealth.org';
     $.ajax(
     {
@@ -63,8 +57,12 @@ SubmissionTable.start = function ()
             {
                 columnNames.push({"title": name});
             }
-            for (var recordIndex in submissions.data)
+
+            //switching to $.each for ie8 sake
+            $(submissions.data).each(function (i, e)
+            //for (var recordIndex in submissions.data)
             {
+                var recordIndex = i;
                 var currentRecord = [];
 
                 for (var fieldIndex in columnNames)
@@ -80,7 +78,7 @@ SubmissionTable.start = function ()
                     currentRecord.push(finalValue);
                 }
                 records.push(currentRecord);
-            }
+            });
 
             var fieldReference = [];
             for (var tempIndex in submissions.data[0])
