@@ -116,7 +116,7 @@ SubmissionTable.start = function ()
                     $info.append('<div class="requested-for"><span class="item-label">Customer</span><span class="item-value">'+ data[fieldReference.indexOf('Requested For')] +'</span></div>');
 
                     $controls.append('<a href="' + BUNDLE.config.reviewUrl + data[fieldReference.indexOf('Id')] + '" class="action"><i class="action-icon"></i>Review Submission</a>');
-                    $controls.append('<a class="action" href="mailto:' + desk_email + '?subject='+ data[fieldReference.indexOf('Originating Request Id')] +': User Update"><i class="action-icon"></i>Send an Update</a>');
+                    $controls.append('<a class="action" href="mailto:' + desk_email + '?subject=RE: '+ data[fieldReference.indexOf('Originating Request Id')] +': User Update"><i class="action-icon"></i>Send an Update</a>');
 
                 }
             });
