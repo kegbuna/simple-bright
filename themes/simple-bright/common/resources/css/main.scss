@@ -451,13 +451,27 @@ div.questionLayer
     {
 
     }
+    input.answerAttachment
+    {
+      height: 30px;
+      float: left;
+    }
+    .templateButton
+    {
+      margin-top: 0;
+
+    }
+  }
+}
+.submitButton
+{
+  .templateButton
+  {
+    @extend .button--primary;
+    margin-left: 40px;
   }
 }
 
-.templateButton
-{
-  margin-left: 40px;
-}
 
 /* login form */
 #loginBox

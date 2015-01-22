@@ -3671,7 +3671,7 @@ li > p {
 * Button
 *
 **/
-.button, .button--primary, .templateButton, .entry-box .offering-button, .button--list, .request-item .request-item-body .controls .action, .button--search, .site-header .site-header-content .search a.search-button {
+.button, .button--primary, .templateButton, .entry-box .offering-button, .submitButton .templateButton, .button--list, .request-item .request-item-body .controls .action, .button--search, .site-header .site-header-content .search a.search-button {
   display: inline-block;
   padding: 5.66667px 32px;
   margin-bottom: 10px;
@@ -3687,7 +3687,7 @@ li > p {
     color: #ffffff;
     text-decoration: none; }
 
-.button--primary, .templateButton, .entry-box .offering-button {
+.button--primary, .templateButton, .entry-box .offering-button, .submitButton .templateButton {
   background: #63c015;
   color: white;
   border: 1px #018e19 solid;
@@ -5211,8 +5211,13 @@ div.questionLayer {
     border-top: 0;
     display: inline-block;
     padding: 5px 0; }
+    div.questionLayer .questionAnswer input.answerAttachment {
+      height: 30px;
+      float: left; }
+    div.questionLayer .questionAnswer .templateButton {
+      margin-top: 0; }
 
-.templateButton {
+.submitButton .templateButton {
   margin-left: 40px; }
 
 /* login form */

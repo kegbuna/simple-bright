@@ -255,6 +255,17 @@ keg.Request.retrieveINC = function()
             });
     }
 };
+
+keg.Request.setQuestionsFromParams = function ()
+{
+    var params = getUrlParameters();
+
+    if (params.hasOwnProperty('id'))
+    {
+        KD.utils.Action.setQuestionValue('Ticket Number', params['id']);
+    }
+};
+
 /* Take care of ie8 indexOf */
 if (!Array.prototype.indexOf)
 {

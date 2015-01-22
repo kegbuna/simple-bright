@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="841c439a-2651-4c92-b154-c93b2fce53e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/base/update-confirmation.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,20 +82,30 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="4452" max-vertical-offset="8517">
-              <caret line="281" column="11" selection-start-line="281" selection-start-column="7" selection-end-line="281" selection-end-column="11" />
+            <state vertical-scroll-proportion="-11.134615" vertical-offset="7309" max-vertical-offset="8755">
+              <caret line="464" column="1" selection-start-line="464" selection-start-column="1" selection-end-line="464" selection-end-column="1" />
               <folding>
-                <marker date="1421810489372" expanded="true" signature="9054:9077" placeholder="{...}" />
+                <marker date="1421887752892" expanded="true" signature="9054:9077" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submissionsDataTable.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="submissionsDataTable.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.502994" vertical-offset="1502" max-vertical-offset="2533">
-              <caret line="118" column="100" selection-start-line="118" selection-start-column="100" selection-end-line="118" selection-end-column="100" />
+            <state vertical-scroll-proportion="-20.038462" vertical-offset="1502" max-vertical-offset="2550">
+              <caret line="119" column="155" selection-start-line="119" selection-start-column="155" selection-end-line="119" selection-end-column="155" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_button.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.038462" vertical-offset="600" max-vertical-offset="1921">
+              <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -100,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-29.23077" vertical-offset="260" max-vertical-offset="1292">
-              <caret line="60" column="93" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -119,8 +134,18 @@
       <file leaf-file-name="column_site.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2429" max-vertical-offset="4590">
-              <caret line="201" column="70" selection-start-line="201" selection-start-column="70" selection-end-line="201" selection-end-column="70" />
+            <state vertical-scroll-proportion="-29.384615" vertical-offset="3775" max-vertical-offset="4777">
+              <caret line="267" column="0" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update-confirmation.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/update-confirmation.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6817734" vertical-offset="396" max-vertical-offset="1547">
+              <caret line="64" column="140" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -130,7 +155,7 @@
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/ie8.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="1105">
-              <caret line="56" column="18" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -152,27 +177,7 @@
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/headContent.jspf">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-12.576923" vertical-offset="98" max-vertical-offset="1139">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ie8.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/ie8.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
-              <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jspf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/header.jspf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="697">
-              <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -225,14 +230,15 @@
         <option value="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/headContent.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/js/ie8.js" />
         <option value="$PROJECT_DIR$/login.jsp" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/header.jspf" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/footer.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/resources/css/displayPackage.css" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/ie8.css" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/update-confirmation.jsp" />
       </list>
     </option>
   </component>
@@ -1297,6 +1303,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\themes\simple-bright\packages\base" />
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 7.0_ServiceRequest\webapps\catalog\themes\flat-bootstrap3\common\resources\css" />
     </key>
   </component>
@@ -1641,12 +1648,12 @@
       <workItem from="1420160867541" duration="1251000" />
       <workItem from="1420595175732" duration="6238000" />
       <workItem from="1420829694975" duration="3966000" />
-      <workItem from="1421280250535" duration="34051000" />
+      <workItem from="1421280250535" duration="38033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198284000" />
+    <option name="totallyTimeSpent" value="202266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-128" width="1936" height="1176" extended-state="6" />
@@ -1709,20 +1716,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/components.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.272" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_helper.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6153846" vertical-offset="1026" max-vertical-offset="2176">
-          <caret line="72" column="3" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="6596">
@@ -2036,7 +2029,7 @@
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/headContent.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.576923" vertical-offset="98" max-vertical-offset="1139">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2070,41 +2063,57 @@
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/ie8.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="1105">
-          <caret line="56" column="18" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="4452" max-vertical-offset="8517">
-          <caret line="281" column="11" selection-start-line="281" selection-start-column="7" selection-end-line="281" selection-end-column="11" />
-          <folding>
-            <marker date="1421810489372" expanded="true" signature="9054:9077" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.23077" vertical-offset="260" max-vertical-offset="1292">
-          <caret line="60" column="93" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.038462" vertical-offset="600" max-vertical-offset="1921">
+          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.134615" vertical-offset="7309" max-vertical-offset="8755">
+          <caret line="464" column="1" selection-start-line="464" selection-start-column="1" selection-end-line="464" selection-end-column="1" />
+          <folding>
+            <marker date="1421887752892" expanded="true" signature="9054:9077" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.038462" vertical-offset="1502" max-vertical-offset="2550">
+          <caret line="119" column="155" selection-start-line="119" selection-start-column="155" selection-end-line="119" selection-end-column="155" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2429" max-vertical-offset="4590">
-          <caret line="201" column="70" selection-start-line="201" selection-start-column="70" selection-end-line="201" selection-end-column="70" />
+        <state vertical-scroll-proportion="-29.384615" vertical-offset="3775" max-vertical-offset="4777">
+          <caret line="267" column="0" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js">
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/base/update-confirmation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.502994" vertical-offset="1502" max-vertical-offset="2533">
-          <caret line="118" column="100" selection-start-line="118" selection-start-column="100" selection-end-line="118" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.6817734" vertical-offset="396" max-vertical-offset="1547">
+          <caret line="64" column="140" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
           <folding />
         </state>
       </provider>
