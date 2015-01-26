@@ -143,8 +143,8 @@
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\work\7a64dd39491cda14pip-2c74770pip14ae9cda7c5pip-7e3e\KS20c1f90312948bfeea5da8a7e6a338989\1421891661470.svg" afterPath="" />
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\work\index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_table.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_table.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
     </list>
     <ignored path="catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -228,11 +228,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_container.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_container.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64206266" vertical-offset="4601" max-vertical-offset="6681">
-              <caret line="308" column="25" selection-start-line="308" selection-start-column="25" selection-end-line="308" selection-end-column="25" />
+            <state vertical-scroll-proportion="-5.826923" vertical-offset="4712" max-vertical-offset="6766">
+              <caret line="295" column="44" selection-start-line="295" selection-start-column="7" selection-end-line="295" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_table.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_table.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5694581" vertical-offset="0" max-vertical-offset="2805">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -263,16 +273,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1292">
               <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.jspf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/footer.jspf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="476">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -351,7 +351,6 @@
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_link.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/catalog/search.jsp" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_table.scss" />
         <option value="$PROJECT_DIR$/WEB-INF/ksrconfig.properties" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/catalog/config/config.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_utils.scss" />
@@ -376,6 +375,7 @@
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/update-confirmation.jsp" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_table.scss" />
       </list>
     </option>
   </component>
@@ -1063,12 +1063,12 @@
       <workItem from="1420829694975" duration="3966000" />
       <workItem from="1421280250535" duration="38033000" />
       <workItem from="1421998137212" duration="597000" />
-      <workItem from="1422245839065" duration="2001000" />
+      <workItem from="1422245839065" duration="2944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204864000" />
+    <option name="totallyTimeSpent" value="205807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-128" width="1936" height="1176" extended-state="0" />
@@ -1163,13 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="3740">
           <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_table.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2805">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1490,8 +1483,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64206266" vertical-offset="4601" max-vertical-offset="6681">
-          <caret line="308" column="25" selection-start-line="308" selection-start-column="25" selection-end-line="308" selection-end-column="25" />
+        <state vertical-scroll-proportion="-5.826923" vertical-offset="4712" max-vertical-offset="6766">
+          <caret line="295" column="44" selection-start-line="295" selection-start-column="7" selection-end-line="295" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_table.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5694581" vertical-offset="0" max-vertical-offset="2805">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding />
         </state>
       </provider>

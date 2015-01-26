@@ -8757,3 +8757,55 @@
 2015-01-25 23:53:51,263 DEBUG [http-bio-8090-exec-3     ] - Populating dynamic text elements for template "Lahey IT Services > Submissions".
 2015-01-25 23:53:51,339 DEBUG [http-bio-8090-exec-3     ] - Customer submission status for template "Lahey IT Services > Submissions" is "INITIAL".
 2015-01-25 23:53:51,339 DEBUG [http-bio-8090-exec-3     ] - Rendering "/themes/simple-bright/packages/submissions/submissionsDataTable.jsp" for "Lahey IT Services > Submissions".
+2015-01-26 00:04:26,609 DEBUG [http-bio-8090-exec-6     ] - Request received to display page from 127.0.0.1 using Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.91 Safari/537.36
+2015-01-26 00:04:26,640 DEBUG [http-bio-8090-exec-6     ] - Customer Session created from IP 127.0.0.1
+2015-01-26 00:04:26,640 DEBUG [http-bio-8090-exec-6     ] - Existing User Session retrieved, logged in user is [kegbuna].
+2015-01-26 00:04:26,640 DEBUG [http-bio-8090-exec-6     ] - Initializing unsubmitted request for the "Lahey IT Services > Submissions" template.
+2015-01-26 00:04:26,698 DEBUG [http-bio-8090-exec-6     ] - RemedyHandler: qual ['600000310'="KS82484748f728acbaffd69706713f7ceb52" AND '600000300'="KS_SRV_SurveyTemplate"] on form [KS_ACC_Attachment] resulted in zero results.
+2015-01-26 00:04:26,741 DEBUG [http-bio-8090-exec-6     ] - Retrieved catalog "Lahey IT Services" logout destination template "/catalog/DisplayPage?srv=KS2d6fea125e5bd7d71a6db1c87a44c1db9a"
+2015-01-26 00:04:26,741 DEBUG [http-bio-8090-exec-6     ] - Request "Lahey IT Services > Submissions" initialized.
+2015-01-26 00:04:26,741 DEBUG [http-bio-8090-exec-6     ] - Template "Submissions" requires authentication.
+2015-01-26 00:04:26,741 DEBUG [http-bio-8090-exec-6     ] - Template "Lahey IT Services > Submissions" is valid
+2015-01-26 00:04:26,741  INFO [http-bio-8090-exec-6     ] - Loading initial page for template "Lahey IT Services > Submissions".
+2015-01-26 00:04:26,741 DEBUG [http-bio-8090-exec-6     ] - Populating dynamic text elements for template "Lahey IT Services > Submissions".
+2015-01-26 00:04:26,818 DEBUG [http-bio-8090-exec-6     ] - Customer submission status for template "Lahey IT Services > Submissions" is "INITIAL".
+2015-01-26 00:04:26,818 DEBUG [http-bio-8090-exec-6     ] - Rendering "/themes/simple-bright/packages/submissions/submissionsDataTable.jsp" for "Lahey IT Services > Submissions".
+2015-01-26 00:08:30,205 DEBUG [http-bio-8090-exec-3     ] - Request received to display page from 127.0.0.1 using Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.91 Safari/537.36
+2015-01-26 00:08:30,239 DEBUG [http-bio-8090-exec-3     ] - Customer Session created from IP 127.0.0.1
+2015-01-26 00:08:30,239 DEBUG [http-bio-8090-exec-3     ] - Existing User Session retrieved, logged in user is [kegbuna].
+2015-01-26 00:08:30,239 DEBUG [http-bio-8090-exec-3     ] - Initializing unsubmitted request for the "Lahey IT Services > Submissions" template.
+2015-01-26 00:08:30,329 DEBUG [http-bio-8090-exec-3     ] - RemedyHandler: qual ['600000310'="KS82484748f728acbaffd69706713f7ceb52" AND '600000300'="KS_SRV_SurveyTemplate"] on form [KS_ACC_Attachment] resulted in zero results.
+2015-01-26 00:08:30,388 DEBUG [http-bio-8090-exec-3     ] - Retrieved catalog "Lahey IT Services" logout destination template "/catalog/DisplayPage?srv=KS2d6fea125e5bd7d71a6db1c87a44c1db9a"
+2015-01-26 00:08:30,388 DEBUG [http-bio-8090-exec-3     ] - Request "Lahey IT Services > Submissions" initialized.
+2015-01-26 00:08:30,388 DEBUG [http-bio-8090-exec-3     ] - Template "Submissions" requires authentication.
+2015-01-26 00:08:30,388 DEBUG [http-bio-8090-exec-3     ] - Template "Lahey IT Services > Submissions" is valid
+2015-01-26 00:08:30,388  INFO [http-bio-8090-exec-3     ] - Loading initial page for template "Lahey IT Services > Submissions".
+2015-01-26 00:08:30,388 DEBUG [http-bio-8090-exec-3     ] - Populating dynamic text elements for template "Lahey IT Services > Submissions".
+2015-01-26 00:08:30,503 DEBUG [http-bio-8090-exec-3     ] - Customer submission status for template "Lahey IT Services > Submissions" is "INITIAL".
+2015-01-26 00:08:30,503 DEBUG [http-bio-8090-exec-3     ] - Rendering "/themes/simple-bright/packages/submissions/submissionsDataTable.jsp" for "Lahey IT Services > Submissions".
+2015-01-26 00:08:34,661 DEBUG [http-bio-8090-exec-3     ] - Request received to display page from 127.0.0.1 using Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.91 Safari/537.36
+2015-01-26 00:08:34,690 DEBUG [http-bio-8090-exec-3     ] - Customer Session created from IP 127.0.0.1
+2015-01-26 00:08:34,690 DEBUG [http-bio-8090-exec-3     ] - Existing User Session retrieved, logged in user is [kegbuna].
+2015-01-26 00:08:34,691 DEBUG [http-bio-8090-exec-3     ] - Initializing unsubmitted request for the "Lahey IT Services > Submissions" template.
+2015-01-26 00:08:34,781 DEBUG [http-bio-8090-exec-3     ] - RemedyHandler: qual ['600000310'="KS82484748f728acbaffd69706713f7ceb52" AND '600000300'="KS_SRV_SurveyTemplate"] on form [KS_ACC_Attachment] resulted in zero results.
+2015-01-26 00:08:34,838 DEBUG [http-bio-8090-exec-3     ] - Retrieved catalog "Lahey IT Services" logout destination template "/catalog/DisplayPage?srv=KS2d6fea125e5bd7d71a6db1c87a44c1db9a"
+2015-01-26 00:08:34,838 DEBUG [http-bio-8090-exec-3     ] - Request "Lahey IT Services > Submissions" initialized.
+2015-01-26 00:08:34,838 DEBUG [http-bio-8090-exec-3     ] - Template "Submissions" requires authentication.
+2015-01-26 00:08:34,838 DEBUG [http-bio-8090-exec-3     ] - Template "Lahey IT Services > Submissions" is valid
+2015-01-26 00:08:34,838  INFO [http-bio-8090-exec-3     ] - Loading initial page for template "Lahey IT Services > Submissions".
+2015-01-26 00:08:34,838 DEBUG [http-bio-8090-exec-3     ] - Populating dynamic text elements for template "Lahey IT Services > Submissions".
+2015-01-26 00:08:34,838 DEBUG [http-bio-8090-exec-3     ] - Customer submission status for template "Lahey IT Services > Submissions" is "INITIAL".
+2015-01-26 00:08:34,839 DEBUG [http-bio-8090-exec-3     ] - Rendering "/themes/simple-bright/packages/submissions/submissionsDataTable.jsp" for "Lahey IT Services > Submissions".
+2015-01-26 00:10:00,477 DEBUG [http-bio-8090-exec-8     ] - Request received to display page from 127.0.0.1 using Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.91 Safari/537.36
+2015-01-26 00:10:00,497 DEBUG [http-bio-8090-exec-8     ] - Customer Session created from IP 127.0.0.1
+2015-01-26 00:10:00,497 DEBUG [http-bio-8090-exec-8     ] - Existing User Session retrieved, logged in user is [kegbuna].
+2015-01-26 00:10:00,498 DEBUG [http-bio-8090-exec-8     ] - Initializing unsubmitted request for the "Lahey IT Services > Submissions" template.
+2015-01-26 00:10:00,551 DEBUG [http-bio-8090-exec-8     ] - RemedyHandler: qual ['600000310'="KS82484748f728acbaffd69706713f7ceb52" AND '600000300'="KS_SRV_SurveyTemplate"] on form [KS_ACC_Attachment] resulted in zero results.
+2015-01-26 00:10:00,589 DEBUG [http-bio-8090-exec-8     ] - Retrieved catalog "Lahey IT Services" logout destination template "/catalog/DisplayPage?srv=KS2d6fea125e5bd7d71a6db1c87a44c1db9a"
+2015-01-26 00:10:00,589 DEBUG [http-bio-8090-exec-8     ] - Request "Lahey IT Services > Submissions" initialized.
+2015-01-26 00:10:00,589 DEBUG [http-bio-8090-exec-8     ] - Template "Submissions" requires authentication.
+2015-01-26 00:10:00,589 DEBUG [http-bio-8090-exec-8     ] - Template "Lahey IT Services > Submissions" is valid
+2015-01-26 00:10:00,589  INFO [http-bio-8090-exec-8     ] - Loading initial page for template "Lahey IT Services > Submissions".
+2015-01-26 00:10:00,589 DEBUG [http-bio-8090-exec-8     ] - Populating dynamic text elements for template "Lahey IT Services > Submissions".
+2015-01-26 00:10:00,665 DEBUG [http-bio-8090-exec-8     ] - Customer submission status for template "Lahey IT Services > Submissions" is "INITIAL".
+2015-01-26 00:10:00,665 DEBUG [http-bio-8090-exec-8     ] - Rendering "/themes/simple-bright/packages/submissions/submissionsDataTable.jsp" for "Lahey IT Services > Submissions".

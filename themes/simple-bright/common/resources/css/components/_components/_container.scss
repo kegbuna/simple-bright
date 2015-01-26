@@ -297,6 +297,7 @@
         font-size: 20px;
         font-family: "Lato Regular", "Helvetica Nueue", Helvetica, sans-serif;
         margin-bottom: 10px;
+        text-align: left;
         .item-label
         {
           display: none;
@@ -306,6 +307,10 @@
       {
         min-width: 100px;
         display: inline-block;
+        text-align: left;
+      }
+      .item-value
+      {
         text-align: left;
       }
     }
