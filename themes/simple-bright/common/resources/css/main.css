@@ -3865,6 +3865,7 @@ li > p {
     font-size: 20px;
     font-family: Lato Regular, Helvetica, sans-serif;
     display: inline-block;
+    text-align: left;
     width: 50%; }
     .request-item .request-item-header .header-item .item-label {
       display: none; }
@@ -3875,6 +3876,7 @@ li > p {
       padding: 0;
       font-size: 36px;
       font-family: "Fedra Sans Light", Helvetica, sans-serif;
+      text-align: right;
       float: right; }
 .request-item div.request-item-header {
   margin: 0 0 10px 0; }
@@ -3892,7 +3894,8 @@ li > p {
       display: none; }
   .request-item .request-item-body .item-content .item-label {
     min-width: 100px;
-    display: inline-block; }
+    display: inline-block;
+    text-align: left; }
 .request-item .request-item-body .controls {
   padding: 0 15px 0 0;
   float: right; }

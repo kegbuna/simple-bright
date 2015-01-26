@@ -100,13 +100,14 @@ SubmissionTable.start = function ()
                 {
                     $(row).addClass('request-item');
                     var submitDate = new Date(data[fieldReference.indexOf('Submit Date')]);
-                    $(row).html('<div class="request-item-header"></div>');
+                    $(row).html('<td><div class="request-item-header"></div></td>');
+
                     var $header = $(row).find('.request-item-header');
 
                     $header.append('<div class="header-item"><div class="submit-date"><span class="item-label">Submit Date</span><span class="item-value">'+ submitDate.toDateString() +'</span></div></div>');
                     $header.append('<div class="header-item"><div class="template-name"><span class="item-label">Template Name</span><span class="item-value">'+ data[fieldReference.indexOf('Template Name')] +'</span></div></div>');
 
-                    var $body = $('<div class="request-item-body"></div>').appendTo(row);
+                    var $body = $('<div class="request-item-body"></div>').appendTo($(row).find('td'));
 
                     var $info = $('<div class="item-content"></div>').appendTo($body);
                     var $controls = $('<div class="controls"></div>').appendTo($body);

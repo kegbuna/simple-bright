@@ -255,6 +255,7 @@
       font-size: 20px;
       font-family: Lato Regular, Helvetica, sans-serif;
       display: inline-block;
+      text-align:left;
       width: 50%;
       .item-label
       {
@@ -270,6 +271,7 @@
         padding: 0;
         font-size: 36px;
         font-family: "Fedra Sans Light", Helvetica, sans-serif;
+        text-align: right;
         float: right;
       }
     }
@@ -304,6 +306,7 @@
       {
         min-width: 100px;
         display: inline-block;
+        text-align: left;
       }
     }
     .controls

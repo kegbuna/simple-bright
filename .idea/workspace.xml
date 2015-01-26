@@ -143,13 +143,8 @@
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\work\7a64dd39491cda14pip-2c74770pip14ae9cda7c5pip-7e3e\KS20c1f90312948bfeea5da8a7e6a338989\1421891661470.svg" afterPath="" />
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\work\index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WEB-INF/logs/application.log" afterPath="$PROJECT_DIR$/WEB-INF/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WEB-INF/logs/cache-event-monitor.log" afterPath="$PROJECT_DIR$/WEB-INF/logs/cache-event-monitor.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog.iml" afterPath="$PROJECT_DIR$/catalog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kURL/config.yml" afterPath="$PROJECT_DIR$/kURL/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WEB-INF/logs/task-integration-worker.log" afterPath="$PROJECT_DIR$/WEB-INF/logs/task-integration-worker.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
     </list>
     <ignored path="catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -236,8 +231,8 @@
       <file leaf-file-name="_container.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43579373" vertical-offset="3938" max-vertical-offset="6630">
-              <caret line="257" column="17" selection-start-line="257" selection-start-column="17" selection-end-line="257" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.64206266" vertical-offset="4601" max-vertical-offset="6681">
+              <caret line="308" column="25" selection-start-line="308" selection-start-column="25" selection-end-line="308" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -246,8 +241,8 @@
       <file leaf-file-name="submissionsDataTable.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1502" max-vertical-offset="2550">
-              <caret line="119" column="155" selection-start-line="119" selection-start-column="155" selection-end-line="119" selection-end-column="155" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1332" max-vertical-offset="2567">
+              <caret line="109" column="103" selection-start-line="109" selection-start-column="103" selection-end-line="109" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -377,9 +372,9 @@
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/ie8.css" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/update-confirmation.jsp" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
       </list>
     </option>
@@ -1068,12 +1063,12 @@
       <workItem from="1420829694975" duration="3966000" />
       <workItem from="1421280250535" duration="38033000" />
       <workItem from="1421998137212" duration="597000" />
-      <workItem from="1422245839065" duration="820000" />
+      <workItem from="1422245839065" duration="2001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203683000" />
+    <option name="totallyTimeSpent" value="204864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-128" width="1936" height="1176" extended-state="0" />
@@ -1459,14 +1454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1502" max-vertical-offset="2550">
-          <caret line="119" column="155" selection-start-line="119" selection-start-column="155" selection-end-line="119" selection-end-column="155" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3775" max-vertical-offset="4777">
@@ -1493,10 +1480,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1332" max-vertical-offset="2567">
+          <caret line="109" column="103" selection-start-line="109" selection-start-column="103" selection-end-line="109" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43579373" vertical-offset="3938" max-vertical-offset="6630">
-          <caret line="257" column="17" selection-start-line="257" selection-start-column="17" selection-end-line="257" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.64206266" vertical-offset="4601" max-vertical-offset="6681">
+          <caret line="308" column="25" selection-start-line="308" selection-start-column="25" selection-end-line="308" selection-end-column="25" />
           <folding />
         </state>
       </provider>
