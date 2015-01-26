@@ -1,0 +1,9 @@
+{
+  "form" : "KS_SRV_Version",
+  "duplicateRecordQualifierFieldNames" : [ "Release Date", "Version" ],
+  "data" : [ {
+    "Release Date" : "1970-01-01",
+    "Short Description" : "Invalid, will be updated by setup wizard.",
+    "Version" : "Invalid, will be updated by setup wizard."
+  } ]
+}

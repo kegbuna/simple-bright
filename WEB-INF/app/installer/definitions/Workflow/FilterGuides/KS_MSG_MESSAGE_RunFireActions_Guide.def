@@ -1,0 +1,134 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_MSG_MESSAGE_RunFireActions_Guide
+   type           : 4
+   num-references : 23
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\14\KS_MSG_Message\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : APP_SPECIFIC
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceCustomerSurvey_Tag
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceAnonymousSurvey_Tag_01
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_EncodeURL_Anonymous
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceAnonymousSurvey_Tag_02
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceAnonymousSurvey_Tag_03
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceOptOutSurvey_Tag_01
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceOptOutSurvey_Tag_02
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceOptOutSurvey_Tag_03
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_EncodeURL_OptOut
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceOptOutSurvey_Tag_04
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceSubmittedSurvey_GetMid-TierVersion
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceSubmittedSurvey_Pre6.3_Tag
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceSubmittedSurvey_6.3Up_Tag
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : CORE_START
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_MSG_MESSAGE_GetKSNotes-HTML
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_MSG_MESSAGE_GetKSNotes-PlainTxt
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : APP_OTHER
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceEmbedSurvey_Tag
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceEmbedSurvey_HeaderFooter
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_MSG_MESSAGE_ReplaceEmbedSurvey_DynText
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : CORE_END
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_MSG_MESSAGE_SendEmail_NoKSTemplate
+}
+end

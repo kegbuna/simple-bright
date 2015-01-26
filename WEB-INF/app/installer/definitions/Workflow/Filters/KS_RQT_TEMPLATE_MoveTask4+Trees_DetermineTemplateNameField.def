@@ -1,0 +1,25 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_RQT_TEMPLATE_MoveTask4+Trees_DetermineTemplateNameField
+   timestamp      : 1421095862
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyTemplate
+   export-version : 9
+   filter-query   : 4\1\99\700003102\99\600000500\
+   action {
+      set-field   : 0\600000092\102\1\@\1\@\1\700003101\0\1\4\
+   }
+   else {
+      set-field   : 0\600000092\102\1\@\1\@\1\700001000\0\1\4\
+   }
+   help-text      : If the catalog name was changed, need to use the template name stored in the 'Survey_Template_Name' field.  If the template name was changed, need to us
+   help-text      : e the template name stored in the '_OrigTemplateName' field.
+end

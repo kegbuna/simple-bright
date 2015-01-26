@@ -1,0 +1,48 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Page_Branching_ShowSelected_Item
+   timestamp      : 1421095796
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 128
+   actlink-focus  : 700002053
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\4\1\2\1\9\2\4\6\DIALOG\4\1\2\1\16\2\4\10\PageDialog\4\6\1\700009323\2\0\
+   action {
+      set-field   : 0\600000260\102\1\@\27\KS_SRV_PageBranchingOptions\1\700001690\4\1\1\179\99\700009323\1\3\
+      set-field   : 1\600000261\102\1\@\27\KS_SRV_PageBranchingOptions\1\600000261\4\1\1\179\99\700009323\1\3\
+      set-field   : 2\700002065\102\1\@\27\KS_SRV_PageBranchingOptions\1\536870913\4\1\1\179\99\700009323\1\3\
+      set-field   : 3\700002066\102\1\@\27\KS_SRV_PageBranchingOptions\1\700001340\4\1\1\179\99\700009323\1\3\
+      set-field   : 4\700002067\102\1\@\27\KS_SRV_PageBranchingOptions\1\700001211\4\1\1\179\99\700009323\1\3\
+      set-field   : 5\700002068\102\1\@\27\KS_SRV_PageBranchingOptions\1\700002304\4\1\1\179\99\700009323\1\3\
+      set-field   : 6\700007500\102\1\@\27\KS_SRV_PageBranchingOptions\1\700001010\4\1\1\179\99\700009323\1\3\
+      set-field   : 7\700072018\102\1\@\27\KS_SRV_PageBranchingOptions\1\700072018\4\1\1\179\99\700009323\1\3\
+   }
+   action {
+      set-field   : 0\600000090\101\0\
+      set-field   : 1\600000097\101\2\1\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_ElementDlg_Page_Branching_SelectPage
+      call-mode   : 0
+      call-tableid: 700008500
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\700008500\102\1\*\1\*\1\600000097\0\1\4\
+   }
+   action {
+      command     : SET-CHANGE-FLAG 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,125 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_AdvanceDefault_UnSelect_UseBridging
+   timestamp      : 1421095800
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 2
+   actlink-focus  : 700005001
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\1\700005001\2\0\4\6\1\536870984\2\0\
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 536870984
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 600000300
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000420
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 536870935
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 536870975
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001630
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760001500
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760001501
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760001502
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760001099
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760001561
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760001560
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700004045
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700003622
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 536870936
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

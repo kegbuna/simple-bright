@@ -1,0 +1,55 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_ModifyCatalog
+   timestamp      : 1421095773
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 700065001
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700001089\2\0\
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700001090
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      open-server : @
+      open-schema : KS_RQT_Manager
+      open-vui    : New Service Catalog
+      open-close  : 1
+      open-input  : 8\490000100\101\4\26\KS_RQT_ServiceCatalog_base\600000500\102\1\@\1\@\1\700001089\0\1\4\700002030\102\1\@\1\@\1\700001089\0\1\4\700002260\101\4\107\( 'Category' =  "LAUNCHER_TEMPLATES" ) AND ( 'SpecialTemplate' =  "Launcher" ) AND ( 'S
+      open-input  : tatus' < "Inactive")\700003102\102\1\@\1\@\1\700003102\0\1\4\700009350\101\4\14\Modify Catalog\700036000\101\4\15\Kinetic Request\710000011\101\4\26\KS_RQT_ServiceCatalog_base\
+
+      open-output : 2\700001089\102\1\@\14\KS_RQT_Manager\1\600000500\0\1\4\700003102\102\1\@\14\KS_RQT_Manager\1\700003102\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+      command     : PERFORM-ACTION-ACTIVE-LINK 128 700001089
+   }
+   action {
+   display-prop   : 2\225\6\1\22\4\7\Default\
+      id          : 700001090
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

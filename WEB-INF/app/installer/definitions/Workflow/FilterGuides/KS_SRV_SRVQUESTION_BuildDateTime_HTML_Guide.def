@@ -1,0 +1,214 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SRVQUESTION_BuildDateTime_HTML_Guide
+   type           : 4
+   num-references : 38
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\21\KS_SRV_SurveyQuestion\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_SetReadOnlyDisplay_ReadOnly
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Date-Year
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_SetDateDisplay
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_Year
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_DisplayWithClose
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_SetReadOnlyDisplay_Disabled
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Date-Month
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_02_1
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_02_2
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_Month
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Date-Day
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_Day
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_DisplayNoClose
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_DayOptions
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Time-Hour
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_SetTimeDisplay
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_Hour
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_DisplayNoClose
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_HourOptions
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Time-Min
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_TimeSeparator
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_Minutes
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_DisplayNoClose
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_MinutesOptions
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Time-AMPM
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_AmPm
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_DisplayNoClose
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_AmPmOptions
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Hidden Question
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_QuestionValue
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_QuestionValue_Required
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Hidden Local Value
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_SetValueDisplay
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_LocalQuestionValue
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_LocalQuestionValue_NoSize
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_DisplayQuestionValue
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Date Picker
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_ShowCalPicker
+}
+end

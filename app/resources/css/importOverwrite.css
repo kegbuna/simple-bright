@@ -1,0 +1,17 @@
+#importErrorMessage .needspace {margin-left:2em;}
+#importErrorMessage .msgHd {clear:both;margin:0 0 1em;padding:1em;background-color:#f5f5f5;border:1px solid brown;border-left-width:7px;}
+#importErrorMessage .msgHd .norm {font-weight:normal;}
+#importErrorMessage .msgInfo {clear:both;margin:1em 0;background-color:#f5f5f5;padding:1em;border:1px solid brown;border-left-width:7px;}
+#importErrorMessage .msgHd h3,
+#importErrorMessage .msgInfo h3 {font-weight:bold;font-size:13px;margin:3px 0;line-height:1.5;}
+#importErrorMessage .msgDetails {margin-top:2em;}
+#importErrorMessage ul, li {margin:0;}
+#importErrorMessage ul {padding-left:16px;}
+#importErrorMessage li {display:list-item;padding:0;}
+#importErrorMessage table {border-collapse:collapse;}
+#importErrorMessage thead th {padding:3px 5px;}
+#importErrorMessage thead th.form {background-color:#7E7E7E;color:#fff;}
+#importErrorMessage thead th.create {background-color:#00bb00;color:#fff;}
+#importErrorMessage thead th.delete {background-color:#bb0000;color:#fff;}
+#importErrorMessage thead th.update {background-color:#2297DA;color:#fff;}
+#importErrorMessage tbody td {padding:1px 2px;border-top:1px solid brown;}

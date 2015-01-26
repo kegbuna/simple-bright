@@ -1,0 +1,12 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_RQT_AllTaskServers
+   timestamp      : 1421095884
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 2
+   char-menu      : 0\2\17\KS_RQT_TaskServer\1\@\700000000\700000000\1\0\
+end

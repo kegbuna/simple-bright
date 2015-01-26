@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SHARE_EncodeURL_guide
+   type           : 4
+   num-references : 1
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 5\2\21\KS_SRV_SurveyTemplate\2\14\KS_MSG_Message\2\15\KS_RQT_TaskSeed\2\26\KS_SRV_ContentsElementHTML\2\26\KS_SRV_CustomerSurvey_base\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   description    : This guide is designed to replace bad characters in the URL of a survey or message template.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SHARE_EncodeSurveyURL
+}
+end

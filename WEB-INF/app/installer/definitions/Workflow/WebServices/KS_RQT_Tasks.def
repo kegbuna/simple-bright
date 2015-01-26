@@ -1,0 +1,190 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_RQT_Tasks
+   type           : 5
+   num-references : 7
+   timestamp      : 1421095887
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\31\KS_RQT_CustomerSurvey_Task_join\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   permission     : 10105\1
+   label          : Kinetic Request Tasks
+   description    : Web service to modify tasks
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\112\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>	</wsProperties>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\487\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="ModifyTask" type="set" qualification="&apos;Task Inst
+   value          : anceId&apos; = XPATH(/ROOT/Task_InstanceId)">		<arOptions>			<setOptions>				<type>setFirst</type>				<documentType>partial</documentType>			<
+   value          : /setOptions>		</arOptions>		<inputMapping name="SetInputMap" topLevelElement="ModifyTask"/>		<outputMapping name="SetOutputMap" topLevelElement="M
+   value          : odifyTaskResponse"/>	</operation>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\130\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="SetOutputMap" arDocVersion="8"/>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\10056\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="SetInputMap" arDocVersion="8" schemaSource="gene
+   value          : rated">		<formMapping>			<form formName="KS_RQT_CustomerSurvey_Task_join" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element n
+   value          : ame="ROOT" nillable="true" targetNamespace="urn:KS_RQT_KineticSR_Task">				<element name="Last_Message" dataType="string" nillable="true" minOccurs="0
+   value          : ">					<fieldMapping arFieldId="700066400"/>				</element>				<element name="Task_Status" dataType="string" nillable="true" minOccurs="0" enumValu
+   value          : es="New,Pending,In Progress,Completed,Cancel,Denied,Delete">					<fieldMapping arFieldId="536870932"/>				</element>				<element name="Attribute1"
+   value          :  dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="300299400"/>				</element>				<element name="Attribute10" dataType=
+   value          : "string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001810"/>				</element>				<element name="Attribute11" dataType="string" n
+   value          : illable="true" minOccurs="0">					<fieldMapping arFieldId="700001811"/>				</element>				<element name="Attribute12" dataType="string" nillable="t
+   value          : rue" minOccurs="0">					<fieldMapping arFieldId="700001812"/>				</element>				<element name="Attribute13" dataType="string" nillable="true" minOc
+   value          : curs="0">					<fieldMapping arFieldId="700001813"/>				</element>				<element name="Attribute14" dataType="string" nillable="true" minOccurs="0">
+   value          : 					<fieldMapping arFieldId="700001814"/>				</element>				<element name="Attribute15" dataType="string" nillable="true" minOccurs="0">					<fi
+   value          : eldMapping arFieldId="700001815"/>				</element>				<element name="Attribute16" dataType="string" nillable="true" minOccurs="0">					<fieldMapping
+   value          :  arFieldId="700001816"/>				</element>				<element name="Attribute17" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId
+   value          : ="700001817"/>				</element>				<element name="Attribute18" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="70000181
+   value          : 8"/>				</element>				<element name="Attribute19" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001819"/>				
+   value          : </element>				<element name="Attribute2" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="300299500"/>				</element>
+   value          : 				<element name="Attribute20" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001820"/>				</element>				<ele
+   value          : ment name="Attribute21" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001821"/>				</element>				<element name=
+   value          : "Attribute22" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001822"/>				</element>				<element name="Attribute
+   value          : 23" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001823"/>				</element>				<element name="Attribute24" dataTy
+   value          : pe="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001824"/>				</element>				<element name="Attribute25" dataType="string
+   value          : " nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001825"/>				</element>				<element name="Attribute26" dataType="string" nillable
+   value          : ="true" minOccurs="0">					<fieldMapping arFieldId="700001826"/>				</element>				<element name="Attribute27" dataType="string" nillable="true" mi
+   value          : nOccurs="0">					<fieldMapping arFieldId="700001827"/>				</element>				<element name="Attribute28" dataType="string" nillable="true" minOccurs="0
+   value          : ">					<fieldMapping arFieldId="700001828"/>				</element>				<element name="Attribute29" dataType="string" nillable="true" minOccurs="0">					<
+   value          : fieldMapping arFieldId="700001829"/>				</element>				<element name="Attribute3" dataType="string" nillable="true" minOccurs="0">					<fieldMappin
+   value          : g arFieldId="300299600"/>				</element>				<element name="Attribute30" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldI
+   value          : d="700001830"/>				</element>				<element name="Attribute31" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="7000018
+   value          : 31"/>				</element>				<element name="Attribute32" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001832"/>			
+   value          : 	</element>				<element name="Attribute33" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001833"/>				</element
+   value          : >				<element name="Attribute34" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001834"/>				</element>				<el
+   value          : ement name="Attribute35" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001835"/>				</element>				<element name
+   value          : ="Attribute36" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001836"/>				</element>				<element name="Attribut
+   value          : e37" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001837"/>				</element>				<element name="Attribute38" dataT
+   value          : ype="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001838"/>				</element>				<element name="Attribute39" dataType="strin
+   value          : g" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001839"/>				</element>				<element name="Attribute4" dataType="string" nillable
+   value          : ="true" minOccurs="0">					<fieldMapping arFieldId="300299700"/>				</element>				<element name="Attribute40" dataType="string" nillable="true" mi
+   value          : nOccurs="0">					<fieldMapping arFieldId="700001840"/>				</element>				<element name="Attribute41" dataType="string" nillable="true" minOccurs="0
+   value          : ">					<fieldMapping arFieldId="700001841"/>				</element>				<element name="Attribute42" dataType="string" nillable="true" minOccurs="0">					<
+   value          : fieldMapping arFieldId="700001842"/>				</element>				<element name="Attribute43" dataType="string" nillable="true" minOccurs="0">					<fieldMappi
+   value          : ng arFieldId="700001843"/>				</element>				<element name="Attribute44" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arField
+   value          : Id="700001844"/>				</element>				<element name="Attribute45" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001
+   value          : 845"/>				</element>				<element name="Attribute46" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001846"/>		
+   value          : 		</element>				<element name="Attribute47" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001847"/>				</elemen
+   value          : t>				<element name="Attribute48" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001848"/>				</element>				<e
+   value          : lement name="Attribute49" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001849"/>				</element>				<element nam
+   value          : e="Attribute5" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="300299800"/>				</element>				<element name="Attribut
+   value          : e50" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001850"/>				</element>				<element name="Attribute51" dataT
+   value          : ype="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001851"/>				</element>				<element name="Attribute52" dataType="strin
+   value          : g" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001852"/>				</element>				<element name="Attribute53" dataType="string" nillabl
+   value          : e="true" minOccurs="0">					<fieldMapping arFieldId="700001853"/>				</element>				<element name="Attribute54" dataType="string" nillable="true" m
+   value          : inOccurs="0">					<fieldMapping arFieldId="700001854"/>				</element>				<element name="Attribute55" dataType="string" nillable="true" minOccurs="
+   value          : 0">					<fieldMapping arFieldId="700001855"/>				</element>				<element name="Attribute56" dataType="string" nillable="true" minOccurs="0">					
+   value          : <fieldMapping arFieldId="700001856"/>				</element>				<element name="Attribute57" dataType="string" nillable="true" minOccurs="0">					<fieldMapp
+   value          : ing arFieldId="700001857"/>				</element>				<element name="Attribute58" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFiel
+   value          : dId="700001858"/>				</element>				<element name="Attribute59" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="53687
+   value          : 0916"/>				</element>				<element name="Attribute6" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001806"/>		
+   value          : 		</element>				<element name="Attribute60" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001860"/>				</elemen
+   value          : t>				<element name="Attribute61" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001861"/>				</element>				<e
+   value          : lement name="Attribute62" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001862"/>				</element>				<element nam
+   value          : e="Attribute63" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001863"/>				</element>				<element name="Attribu
+   value          : te64" dataType="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001864"/>				</element>				<element name="Attribute7" dataT
+   value          : ype="string" nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001807"/>				</element>				<element name="Attribute8" dataType="string
+   value          : " nillable="true" minOccurs="0">					<fieldMapping arFieldId="700001808"/>				</element>				<element name="Attribute9" dataType="string" nillable=
+   value          : "true" minOccurs="0">					<fieldMapping arFieldId="700001809"/>				</element>				<element name="ValidationStatus" dataType="string" nillable="true
+   value          : " minOccurs="0">					<fieldMapping arFieldId="700002400"/>				</element>				<element name="Task_InstanceId" dataType="string"/>			</element>		
+   value          : </formMapping>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\9194\<?xml version="1.0" encoding="UTF-8"?><definitions targetNamespace="urn:KS_RQT_Tasks" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:s="urn:KS_
+   value          : RQT_Tasks" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlso
+   value          : ap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDefault="qualified" targetNamespace="urn:KS_RQT_Tas
+   value          : ks">   <xsd:element name="ModifyTask" type="s:SetInputMap"/>   <xsd:complexType name="SetInputMap">    <xsd:sequence>     <xsd:element minOccurs
+   value          : ="0" name="Last_Message" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Task_Status" nillable="true" type="s:Task_StatusType
+   value          : "/>     <xsd:element minOccurs="0" name="Attribute1" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute10" nillable=
+   value          : "true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute11" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name
+   value          : ="Attribute12" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute13" nillable="true" type="xsd:string"/>     <xsd:el
+   value          : ement minOccurs="0" name="Attribute14" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute15" nillable="true" type="xsd
+   value          : :string"/>     <xsd:element minOccurs="0" name="Attribute16" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute17" n
+   value          : illable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute18" nillable="true" type="xsd:string"/>     <xsd:element minOccurs=
+   value          : "0" name="Attribute19" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute2" nillable="true" type="xsd:string"/>     
+   value          : <xsd:element minOccurs="0" name="Attribute20" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute21" nillable="true" ty
+   value          : pe="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute22" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribu
+   value          : te23" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute24" nillable="true" type="xsd:string"/>     <xsd:element min
+   value          : Occurs="0" name="Attribute25" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute26" nillable="true" type="xsd:string"/
+   value          : >     <xsd:element minOccurs="0" name="Attribute27" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute28" nillable="
+   value          : true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute29" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name=
+   value          : "Attribute3" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute30" nillable="true" type="xsd:string"/>     <xsd:elem
+   value          : ent minOccurs="0" name="Attribute31" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute32" nillable="true" type="xsd:s
+   value          : tring"/>     <xsd:element minOccurs="0" name="Attribute33" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute34" nil
+   value          : lable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute35" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0
+   value          : " name="Attribute36" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute37" nillable="true" type="xsd:string"/>     <
+   value          : xsd:element minOccurs="0" name="Attribute38" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute39" nillable="true" typ
+   value          : e="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute4" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute
+   value          : 40" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute41" nillable="true" type="xsd:string"/>     <xsd:element minOc
+   value          : curs="0" name="Attribute42" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute43" nillable="true" type="xsd:string"/>
+   value          :      <xsd:element minOccurs="0" name="Attribute44" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute45" nillable="t
+   value          : rue" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute46" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="
+   value          : Attribute47" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute48" nillable="true" type="xsd:string"/>     <xsd:elem
+   value          : ent minOccurs="0" name="Attribute49" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute5" nillable="true" type="xsd:st
+   value          : ring"/>     <xsd:element minOccurs="0" name="Attribute50" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute51" nill
+   value          : able="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute52" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0"
+   value          :  name="Attribute53" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute54" nillable="true" type="xsd:string"/>     <x
+   value          : sd:element minOccurs="0" name="Attribute55" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute56" nillable="true" type
+   value          : ="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute57" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute
+   value          : 58" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute59" nillable="true" type="xsd:string"/>     <xsd:element minOc
+   value          : curs="0" name="Attribute6" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute60" nillable="true" type="xsd:string"/>
+   value          :      <xsd:element minOccurs="0" name="Attribute61" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute62" nillable="tru
+   value          : e" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute63" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="At
+   value          : tribute64" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute7" nillable="true" type="xsd:string"/>     <xsd:element
+   value          :  minOccurs="0" name="Attribute8" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="Attribute9" nillable="true" type="xsd:string
+   value          : "/>     <xsd:element minOccurs="0" name="ValidationStatus" nillable="true" type="xsd:string"/>     <xsd:element name="Task_InstanceId" type="xsd:str
+   value          : ing"/>    </xsd:sequence>   </xsd:complexType>   <xsd:simpleType name="Task_StatusType">    <xsd:restriction base="xsd:string">     <xsd:enume
+   value          : ration value="New"/>     <xsd:enumeration value="Pending"/>     <xsd:enumeration value="In Progress"/>     <xsd:enumeration value="Completed"/> 
+   value          :     <xsd:enumeration value="Cancel"/>     <xsd:enumeration value="Denied"/>     <xsd:enumeration value="Delete"/>    </xsd:restriction>   </xsd:
+   value          : simpleType>   <xsd:element name="ModifyTaskResponse" type="s:SetOutputMap"/>   <xsd:complexType name="SetOutputMap">    <xsd:sequence/>   </xsd:
+   value          : complexType>   <xsd:element name="AuthenticationInfo" type="s:AuthenticationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence
+   value          : >     <xsd:element name="userName" type="xsd:string"/>     <xsd:element name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="a
+   value          : uthentication" type="xsd:string"/>     <xsd:element minOccurs="0" name="locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" t
+   value          : ype="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:schema> </wsdl:types>   <message name="ModifyTaskSoapOut">      <part 
+   value          : element="s:ModifyTaskResponse" name="parameters"/>   </message>   <message name="ARAuthenticate">      <part element="s:AuthenticationInfo" 
+   value          : name="parameters"/>   </message>   <message name="ModifyTaskSoapIn">      <part element="s:ModifyTask" name="parameters"/>   </message>
+   value          :    <portType name="KS_RQT_TasksPortType">      <operation name="ModifyTask">         <input message="s:ModifyTaskSoapIn"/>         <outp
+   value          : ut message="s:ModifyTaskSoapOut"/>      </operation>   </portType>   <binding name="KS_RQT_TasksSoapBinding" type="s:KS_RQT_TasksPortType">
+   value          :       <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>      <operation name="ModifyTask">         <soap:ope
+   value          : ration soapAction="urn:KS_RQT_Tasks/ModifyTask" style="document"/>         <input>            <soap:header message="s:ARAuthenticate" part="para
+   value          : meters" use="literal">            </soap:header>            <soap:body use="literal"/>         </input>         <output>            
+   value          : <soap:body use="literal"/>         </output>      </operation>   </binding>   <service name="KS_RQT_TasksService">  <wsdl:documentat
+   value          : ion>Web service to modify tasks  </wsdl:documentation>      <port binding="s:KS_RQT_TasksSoapBinding" name="KS_RQT_TasksSoap">         <soap:a
+   value          : ddress location="@LOCATION@"/>      </port>   </service></definitions>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\70\http://<midtier_server>/arsys/WSDL/protected/<servername>/KS_RQT_Tasks\
+   ref-groups     : 0 10105
+}
+end

@@ -1,0 +1,43 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_IntMgr_ViewSurveyRule
+   timestamp      : 1421095818
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationManager
+   actlink-mask   : 2
+   actlink-focus  : 700000035
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700006937\2\0\
+   action {
+      open-server : @
+      open-schema : KS_SRV_IntegrationManager
+      open-vui    : CreateRuleInstance
+      open-close  : 1
+      open-input  : 2\179\102\1\@\1\@\1\700009235\0\1\4\700036000\102\1\@\1\@\1\700036000\0\1\4\
+      open-output : 0\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700000035
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

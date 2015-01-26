@@ -1,0 +1,25 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_SetTextVersion
+   timestamp      : 1421095834
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 700
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   schema-name    : KS_RQT_SubmissionManager
+   schema-name    : KS_SRV_SubmissionManager
+   actlink-mask   : 278544
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\710071000\2\0\
+   action {
+      set-field   : 0\710071000\102\1\@\25\KS_SRV_ConfigurationValue\1\700001600\4\1\1\7\2\6\0\2\3\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

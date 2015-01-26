@@ -1,0 +1,39 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_MSG_MGR_AddFieldData_Subject_CustSurveyResults
+   timestamp      : 1421095764
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 30
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Manager
+   actlink-mask   : 1
+   actlink-control: 700074260
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\600000300\2\0\4\1\1\600000300\2\4\33\KS_SRV_CustomerSurveyResults_join\
+   action {
+      open-server : @
+      open-schema : KS_ACC_NoteAssembler
+      open-vui    : SurveyDialogView
+      open-close  : 1
+      open-input  : 5\600000021\102\1\@\1\@\1\18090\0\1\4\600000300\102\1\@\1\@\1\600000300\0\1\4\600000500\102\1\@\1\@\1\600000500\0\1\4\700000350\101\4\14\KS_MSG_Manager\700036000\102\1\@\1\@\1\400069400\0\1\4\
+      open-output : 1\18090\102\1\@\20\KS_ACC_NoteAssembler\1\600000021\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+      goto action : 2\1000
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

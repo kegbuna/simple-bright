@@ -1,0 +1,111 @@
+{
+  "form" : "KS_SRV_Element_Event_Mapping",
+  "duplicateRecordQualifierFieldNames" : [ "Element_Type", "Event", "If Expression Menu", "If Expression Field Label" ],
+  "data" : [ {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "change",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "click",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "mouseout",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "mouseover",
+    "Element_Type" : "Section"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "blur",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "focus",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "load",
+    "Element_Type" : "Page"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "click",
+    "Element_Type" : "Image"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "click",
+    "Element_Type" : "Button"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "click",
+    "Element_Type" : "Dynamic Text"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "keyup",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "*custom*",
+    "Element_Type" : "Dynamic Text"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "mouseout",
+    "Element_Type" : "Section"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "submit",
+    "Element_Type" : "Page"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "beforeSubmit",
+    "Element_Type" : "Page",
+    "ShowQuestions" : "Yes"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "*custom*",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "setFieldsReturn",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "attachMenu",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "setFieldsReturn",
+    "Element_Type" : "Page"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements-Question",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "mouseover",
+    "Element_Type" : "Question"
+  }, {
+    "If Expression Menu" : "KS_ACC_Menu_ClientEventIfStatements",
+    "If Expression Field Label" : "Fire Event If:",
+    "Event" : "setFieldsReturn",
+    "Element_Type" : "Dynamic Text"
+  } ]
+}

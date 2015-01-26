@@ -1,0 +1,38 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_ATT_SHARE_Invoke Generic Save Call Guide
+   timestamp      : 1421095856
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 990
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_DataDictionary2Tables
+   export-version : 9
+   filter-query   : 1\4\6\99\490000700\2\0\4\1\99\300363400\2\6\0\
+   action {
+      call-server : @
+      call-guide  : SHARE:Generic_Commit Associations Call Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      call-server : @
+      call-guide  : SHARE:FormSpecific_Commit Associations Call Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\300363400\101\0\
+   }
+   change-diary   : 1051653909DemoCopyright (c) 1991-2003 Remedy, a BMC Software company. All rights reserved.RemedyVer=5.00.00
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

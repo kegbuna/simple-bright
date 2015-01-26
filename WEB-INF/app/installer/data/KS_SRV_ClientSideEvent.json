@@ -1,0 +1,81 @@
+{
+  "form" : "KS_SRV_ClientSideEvent",
+  "duplicateRecordQualifierFieldNames" : [ "Action Name" ],
+  "data" : [ {
+    "Action Name" : "Read Only and Read/Write",
+    "Left Action Code" : "KD.utils.Action._makeReadOnly",
+    "Right Action Code" : "KD.utils.Action._makeReadWrite",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "List Fields",
+    "Tx_Left_Side_Button" : "Read Only",
+    "Tx_Right_Side_Button" : "Read/Write",
+    "Tx_Left_Side_Element" : "Read Only Elements",
+    "Tx_Right_Side_Element" : "Read/Write Elements",
+    "Tx_Header_Element" : "Then make Read Only or Read/Write::"
+  }, {
+    "Action Name" : "Hide and Show In Place",
+    "Left Action Code" : "KD.utils.Action._showInPlace",
+    "Right Action Code" : "KD.utils.Action._hideInPlace",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "List Fields",
+    "Tx_Left_Side_Button" : "Show",
+    "Tx_Right_Side_Button" : "Hide",
+    "Tx_Left_Side_Element" : "Elements to Show",
+    "Tx_Right_Side_Element" : "Elements to Hide",
+    "Tx_Header_Element" : "Then Hide/Show:"
+  }, {
+    "Action Name" : "Required and Optional",
+    "Left Action Code" : "KD.utils.Action._makeRequired",
+    "Right Action Code" : "KD.utils.Action._makeOptional",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "List Fields",
+    "Tx_Left_Side_Button" : "Required",
+    "Tx_Right_Side_Button" : "Optional",
+    "Tx_Left_Side_Element" : "Required Elements",
+    "Tx_Right_Side_Element" : "Optional Elements",
+    "Tx_Header_Element" : "Then make Elements Required or Optional:"
+  }, {
+    "Map Type" : "Inbound - External",
+    "Action Name" : "Set Fields - External",
+    "Left Action Code" : "KD.utils.Action._setFieldValues",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "Set Fields - External"
+  }, {
+    "Action Name" : "Populate Menu",
+    "Left Action Code" : "KD.utils.Action._attachMenu",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "Menu"
+  }, {
+    "Action Name" : "Insert and Remove",
+    "Left Action Code" : "KD.utils.Action._insert",
+    "Right Action Code" : "KD.utils.Action._remove",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "List Fields",
+    "Tx_Left_Side_Button" : "Insert",
+    "Tx_Right_Side_Button" : "Remove",
+    "Tx_Left_Side_Element" : "Elements to Insert",
+    "Tx_Right_Side_Element" : "Elements to Remove",
+    "Tx_Header_Element" : "Then Insert/Remove:"
+  }, {
+    "Action Name" : "Custom",
+    "Left Action Code" : "KD.utils.Action._customAction",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "Custom"
+  }, {
+    "Map Type" : "Inbound - Internal",
+    "Action Name" : "Set Fields - Internal",
+    "Left Action Code" : "KD.utils.Action._setInternalFieldValues",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "Set Fields - Internal"
+  }, {
+    "Action Name" : "Submission Lock",
+    "Left Action Code" : "KD.utils.Action._submissionLock",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "Submission Lock"
+  }, {
+    "Action Name" : "Submission Unlock",
+    "Left Action Code" : "KD.utils.Action._submissionUnlock",
+    "Dialog Form Name" : "KS_SRV_ClientEvent_Dialog",
+    "Dialog View Name" : "Submission Lock"
+  } ]
+}

@@ -1,0 +1,60 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SimpleDataRequest_Test_SetParameters_Guide
+   type           : 1
+   num-references : 8
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\24\KS_SRV_SimpleDataRequest\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   description    : Used to loop through the QualificationString to find all parameters and put them in the parameter fields.  Also unlocks the related value field for each
+   description    :  parameter.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : NEXT PARAMETER
+   value          : 0\
+   ref-groups     : 0
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SimpleDataRequest_Test_SetParameters_FindParameter
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SimpleDataRequest_Test_SetParameters_CheckParameterAlreadyExists
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SimpleDataRequest_Test_SetParameters_SetParameter1
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SimpleDataRequest_Test_SetParameters_SetParameter2
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SimpleDataRequest_Test_SetParameters_SetParameter3
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SimpleDataRequest_Test_SetParameters_SetParameter4
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SimpleDataRequest_Test_SetParameters_SetParameter5
+}
+end

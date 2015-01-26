@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_ATT_TYPE_CheckDup0
+   timestamp      : 1421095857
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 50
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_AttributeType
+   export-version : 9
+   filter-query   : 2\2\2\4\6\50\710000011\2\0\4\6\50\710000074\2\0\4\6\50\710000001\2\0\4\6\50\710000039\2\0\
+   action {
+      set-field   : 0\600000090\102\1\@\20\KS_ATT_AttributeType\1\1\1\1\1\1\1\1\4\1\99\710000001\1\710000001\4\1\99\710000074\1\710000074\4\1\99\710000039\1\710000039\4\1\99\710000011\1\710000011\4\1\1\400069400\99\400069400\2\1\4\1\99\700000003\2\0\4\6\1
+      set-field   : 0\\700000003\2\0\4\1\99\700000003\1\700000003\4\6\99\179\1\179\2\3\
+
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

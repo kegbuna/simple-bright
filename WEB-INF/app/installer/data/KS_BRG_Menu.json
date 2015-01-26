@@ -1,0 +1,20 @@
+{
+  "form" : "KS_BRG_Menu",
+  "duplicateRecordQualifierFieldNames" : [ "Category", "MenuType", "MenuValue", "MenuLabel" ],
+  "data" : [ {
+    "Category" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Parameter Mapping Types",
+    "MenuValue" : "Parameter Mapping Types"
+  }, {
+    "Category" : "All",
+    "MenuType" : "Parameter Mapping Types",
+    "MenuLabel" : "Configurable",
+    "MenuValue" : "Configurable"
+  }, {
+    "Category" : "All",
+    "MenuType" : "Parameter Mapping Types",
+    "MenuLabel" : "Constant",
+    "MenuValue" : "Constant"
+  } ]
+}

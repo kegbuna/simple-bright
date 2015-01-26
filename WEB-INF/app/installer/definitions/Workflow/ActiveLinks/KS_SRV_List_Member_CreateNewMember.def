@@ -1,0 +1,63 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_List_Member_CreateNewMember
+   timestamp      : 1421095822
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Member
+   actlink-mask   : 1
+   actlink-control: 700000020
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700000001\2\4\3\New\
+   action {
+      push-field  : 0\1\@\18\KS_SRV_List_Member\1\7\4\1\99\179\1\179\4\3\102\1\*\1\*\1\7\0\1\4\
+      push-field  : 1\1\@\18\KS_SRV_List_Member\1\8\4\1\99\179\1\179\4\3\101\1\0\
+      push-field  : 2\1\@\18\KS_SRV_List_Member\1\112\4\1\99\179\1\179\4\3\101\1\0\
+      push-field  : 3\1\@\18\KS_SRV_List_Member\1\179\4\1\99\179\1\179\4\3\102\1\*\1\*\1\179\0\1\4\
+      push-field  : 4\1\@\18\KS_SRV_List_Member\1\400005200\4\1\99\179\1\179\4\3\102\1\*\1\*\1\400005200\0\1\4\
+      push-field  : 5\1\@\18\KS_SRV_List_Member\1\400007300\4\1\99\179\1\179\4\3\102\1\*\1\*\1\400007300\0\1\4\
+      push-field  : 6\1\@\18\KS_SRV_List_Member\1\400007500\4\1\99\179\1\179\4\3\102\1\*\1\*\1\400007500\0\1\4\
+      push-field  : 7\1\@\18\KS_SRV_List_Member\1\400068300\4\1\99\179\1\179\4\3\102\1\*\1\*\1\400068300\0\1\4\
+      push-field  : 8\1\@\18\KS_SRV_List_Member\1\400098500\4\1\99\179\1\179\4\3\102\1\*\1\*\1\400098500\0\1\4\
+      push-field  : 9\1\@\18\KS_SRV_List_Member\1\700004000\4\1\99\179\1\179\4\3\102\1\*\1\*\1\700004000\0\1\4\
+   }
+   action {
+      set-field   : 0\7\101\1\0\
+      set-field   : 1\112\101\0\
+      set-field   : 2\179\103\29\@@: Application-Generate-GUID\
+      set-field   : 3\400005200\101\0\
+      set-field   : 4\400007300\101\0\
+      set-field   : 5\400007500\101\0\
+      set-field   : 6\400068300\101\0\
+      set-field   : 7\400098500\101\0\
+      set-field   : 8\490000700\103\29\@@: Application-Generate-GUID\
+      set-field   : 9\600000090\101\4\1\;\
+      set-field   : 10\700000516\101\4\65\( 'Status' = "Active") AND ( $instanceId$ = 'Member Instance ID')\
+      set-field   : 11\700004000\101\0\
+   }
+   action {
+      command     : SET-CHANGE-FLAG 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700044080
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700044070
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

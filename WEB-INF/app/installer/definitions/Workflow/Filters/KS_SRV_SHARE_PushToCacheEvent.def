@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 10:14:34 2015
+#
+begin filter
+   name           : KS_SRV_SHARE_PushToCacheEvent
+   timestamp      : 1421165512
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 30
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyTemplate
+   schema-name    : KS_ATT_AttributeInstance
+   schema-name    : KS_ATT_AttributeType
+   schema-name    : KS_BRG_Attribute
+   schema-name    : KS_BRG_AttributeMapping
+   schema-name    : KS_BRG_Bridge
+   schema-name    : KS_BRG_Model
+   schema-name    : KS_BRG_ModelMapping
+   schema-name    : KS_BRG_Parameter
+   schema-name    : KS_BRG_Qualification
+   schema-name    : KS_BRG_QualificationMapping
+   schema-name    : KS_RQT_BridgedResource
+   schema-name    : KS_RQT_BridgedResourceParameter
+   schema-name    : KS_RQT_ServiceCatalog_base
+   schema-name    : KS_RQT_ServiceItemCategory
+   schema-name    : KS_RQT_TaskServer
+   schema-name    : KS_SRV_Category
+   schema-name    : KS_SRV_ConfigurationValue
+   schema-name    : KS_SRV_DataSet
+   schema-name    : KS_SRV_SimpleDataRequest
+   export-version : 9
+   action {
+      push-field  : 0\1\@\17\KS_SRV_CacheEvent\1\700006002\0\4\6\102\1\@\1\@\1\1\0\1\4\
+      push-field  : 1\1\@\17\KS_SRV_CacheEvent\1\700006001\0\4\6\101\1\9\
+      push-field  : 2\1\@\17\KS_SRV_CacheEvent\1\700006000\0\4\6\101\1\5\
+   }
+end

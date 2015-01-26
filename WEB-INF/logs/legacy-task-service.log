@@ -1,0 +1,9 @@
+2015-01-25 20:45:50,659 DEBUG [localhost-startStop-1    ] - startService called, returned [NOT RUNNABLE].
+2015-01-25 20:52:18,378 DEBUG [localhost-startStop-1    ] - startService called, returned [NOT RUNNABLE].
+2015-01-25 20:55:52,858 DEBUG [localhost-startStop-1    ] - startService called, returned [NOT RUNNABLE].
+2015-01-25 20:57:09,325 DEBUG [localhost-startStop-2    ] -  stopService called, returned [ALREADY STOPPED].
+2015-01-25 20:59:28,606 DEBUG [localhost-startStop-1    ] - startService called, returned [NOT RUNNABLE].
+2015-01-25 21:03:41,812 DEBUG [StandardEngine[Catalina]]] -  stopService called, returned [ALREADY STOPPED].
+2015-01-25 21:07:34,354 DEBUG [StandardEngine[Catalina]]] - startService called, returned [NOT RUNNABLE].
+2015-01-25 21:07:45,247 DEBUG [localhost-startStop-2    ] -  stopService called, returned [ALREADY STOPPED].
+2015-01-25 21:07:50,863 DEBUG [localhost-startStop-1    ] - startService called, returned [NOT RUNNABLE].

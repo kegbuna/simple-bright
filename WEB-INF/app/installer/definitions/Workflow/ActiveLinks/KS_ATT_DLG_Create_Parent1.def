@@ -1,0 +1,35 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_DLG_Create_Parent1
+   timestamp      : 1421095755
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 1
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_Dialog
+   actlink-mask   : 1
+   actlink-control: 710000082
+   enable         : 1
+   permission     : 0
+   action {
+      open-server : @
+      open-schema : KS_CFG_FormObject
+      open-vui    : Dialog
+      open-close  : 0
+      open-input  : 5\2\101\1\1\7\101\6\0\8\101\4\1\x\112\101\4\6\Public\179\102\1\@\13\KS_ATT_Dialog\1\710000011\0\1\4\
+      open-output : 0\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

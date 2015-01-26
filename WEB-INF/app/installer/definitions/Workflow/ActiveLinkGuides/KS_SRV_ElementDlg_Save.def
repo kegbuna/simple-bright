@@ -1,0 +1,61 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ElementDlg_Save
+   type           : 1
+   num-references : 9
+   timestamp      : 1421095851
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\20\KS_SRV_ElementDialog\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_CheckDisplayStyles_01
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_CheckDisplayStyles_02
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_CheckDisplayStyles_03
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Save Call Guide
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Page_Save
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Section_Save
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_ImageElement_Save
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_DynamicText_Save
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_StyleApplied_Save
+}
+end

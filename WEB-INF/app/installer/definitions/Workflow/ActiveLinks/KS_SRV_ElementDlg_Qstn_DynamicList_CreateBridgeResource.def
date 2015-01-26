@@ -1,0 +1,46 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_DynamicList_CreateBridgeResource
+   timestamp      : 1421095802
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 20
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 128
+   actlink-focus  : 760000400
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\760000400\2\0\4\6\1\760000200\2\0\
+   action {
+      push-field  : 0\1\@\22\KS_RQT_BridgedResource\1\179\4\1\1\179\99\710060809\4\3\102\1\*\1\*\1\710060809\0\1\4\
+      push-field  : 1\1\@\22\KS_RQT_BridgedResource\1\760000200\4\1\1\179\99\710060809\4\3\102\1\*\1\*\1\760000200\0\1\4\
+      push-field  : 2\1\@\22\KS_RQT_BridgedResource\1\760000400\4\1\1\179\99\710060809\4\3\102\1\*\1\*\1\760000400\0\1\4\
+      push-field  : 3\1\@\22\KS_RQT_BridgedResource\1\760000800\4\1\1\179\99\710060809\4\3\101\4\12\Dynamic List\
+      push-field  : 4\1\@\22\KS_RQT_BridgedResource\1\760000801\4\1\1\179\99\710060809\4\3\102\1\*\1\*\1\700000230\0\1\4\
+      push-field  : 5\1\@\22\KS_RQT_BridgedResource\1\760000802\4\1\1\179\99\710060809\4\3\102\1\*\1\*\1\760000802\0\1\4\
+      push-field  : 6\1\@\22\KS_RQT_BridgedResource\1\760000803\4\1\1\179\99\710060809\4\3\102\1\*\1\*\1\760000803\0\1\4\
+      push-field  : 7\1\@\22\KS_RQT_BridgedResource\1\760000804\4\1\1\179\99\710060809\4\3\102\1\*\1\*\1\700000800\0\1\4\
+      push-field  : 8\1\@\22\KS_RQT_BridgedResource\1\760000809\4\1\1\179\99\710060809\4\3\102\1\*\1\*\1\490000700\0\1\4\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 760000999
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_ElementDlg_Qstn_DynamicList_MissingBridgeRecords_guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

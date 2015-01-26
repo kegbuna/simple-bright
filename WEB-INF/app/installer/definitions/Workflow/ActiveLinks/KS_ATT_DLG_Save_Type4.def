@@ -1,0 +1,46 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_DLG_Save_Type4
+   timestamp      : 1421095756
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 4
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_Dialog
+   actlink-mask   : 1
+   actlink-control: 710000088
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\7\2\1\16\2\4\26\Add_Modify Attribute Type%\4\1\1\710000012\2\0\
+   action {
+      set-field   : 0\179\103\32\@@ :Application-Generate-GUID KS\
+   }
+   action {
+      push-field  : 0\1\@\20\KS_ATT_AttributeType\1\7\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000107\0\1\4\
+      push-field  : 1\1\@\20\KS_ATT_AttributeType\1\179\4\1\99\179\1\179\4\6\102\1\*\1\*\1\179\0\1\4\
+      push-field  : 2\1\@\20\KS_ATT_AttributeType\1\400069400\4\1\99\179\1\179\4\6\102\1\*\1\*\1\400069400\0\1\4\
+      push-field  : 3\1\@\20\KS_ATT_AttributeType\1\710000001\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000001\0\1\4\
+      push-field  : 4\1\@\20\KS_ATT_AttributeType\1\710000003\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000003\0\1\4\
+      push-field  : 5\1\@\20\KS_ATT_AttributeType\1\710000004\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000004\0\1\4\
+      push-field  : 6\1\@\20\KS_ATT_AttributeType\1\710000011\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000011\0\1\4\
+      push-field  : 7\1\@\20\KS_ATT_AttributeType\1\710000039\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000039\0\1\4\
+      push-field  : 8\1\@\20\KS_ATT_AttributeType\1\710000057\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000057\0\1\4\
+      push-field  : 9\1\@\20\KS_ATT_AttributeType\1\710000058\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000058\0\1\4\
+      push-field  : 10\1\@\20\KS_ATT_AttributeType\1\710000059\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000059\0\1\4\
+      push-field  : 11\1\@\20\KS_ATT_AttributeType\1\710000060\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000060\0\1\4\
+      push-field  : 12\1\@\20\KS_ATT_AttributeType\1\710000061\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000061\0\1\4\
+      push-field  : 13\1\@\20\KS_ATT_AttributeType\1\710000062\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000062\0\1\4\
+      push-field  : 14\1\@\20\KS_ATT_AttributeType\1\710000063\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000063\0\1\4\
+      push-field  : 15\1\@\20\KS_ATT_AttributeType\1\710000064\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000064\0\1\4\
+      push-field  : 16\1\@\20\KS_ATT_AttributeType\1\710000065\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000065\0\1\4\
+      push-field  : 17\1\@\20\KS_ATT_AttributeType\1\710000067\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000067\0\1\4\
+      push-field  : 18\1\@\20\KS_ATT_AttributeType\1\710000074\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000074\0\1\4\
+      push-field  : 19\1\@\20\KS_ATT_AttributeType\1\710000075\4\1\99\179\1\179\4\6\102\1\*\1\*\1\710000075\0\1\4\
+      push-field  : 20\1\@\20\KS_ATT_AttributeType\1\710000077\4\1\99\179\1\179\4\6\102\1\*\1\*\1\600000200\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

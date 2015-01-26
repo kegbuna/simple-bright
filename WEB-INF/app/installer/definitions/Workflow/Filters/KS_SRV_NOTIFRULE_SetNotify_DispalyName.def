@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_NOTIFRULE_SetNotify_DispalyName
+   timestamp      : 1421095876
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_NotificationRule
+   export-version : 9
+   filter-query   : 1\2\4\1\99\700002273\2\4\12\Notification\4\1\99\700002273\2\4\21\Question Notification\4\1\99\700001022\2\0\
+   action {
+      set-field   : 0\700001022\102\1\@\1\@\1\700001020\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

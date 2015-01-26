@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    This is a sample configuration file for AR System Java API.
+    The values of the API configuration parameters in this sample are
+    the default values. To override the default values, copy or rename
+    this file to arsys_api.xml and change the configuration parameter
+    values you want to override. You can remove or comment out the
+    configuration parameters that you do not want to override and keep
+    the default values.
+     
+    Configuration parameters: 
+    
+    catalogFile: Base filename of XML message catalog.
+        Do not include the file extension or the language code.
+        Default value: arcatalog
+
+    useConnectionPooling: Controls whether to enable proxy pooling. If false, the following tag values
+        are ignored: <code>maxProxiesPerServer</code>, <code>idleConnectionsPerServer</code>, 
+        <code>connectionTimeout</code>, <code>timeUnit</code>
+        Valid values:   true, false
+        Default value:  true
+        
+    maxProxiesPerServer: Maximum number of proxy connections that a connection pool can contain per server.
+        Valid values:   Any positive integer
+        Default value:  80
+        
+    idleConnectionsPerServer: Maximum number of idle connections per server that are not subject
+        to the <code>connectionTimeout</code> limit. These pooled connections can be idle
+        indefinitely in an active pool.
+        If this variable is set to <tt>0</tt>, then the connection pool will be closed when all connections are closed.
+        Valid values:   Any non-negative integer that is less than or equal to the <code>maxProxiesPerServer</code> value
+        Default value:  5
+
+    connectionTimeout: Number of <code>timeUnit</code> that pooled connections exceeding
+        <code>idleConnectionsPerServer</code> can be idle before being terminated.
+        This time limit ensures that active pools routinely clean up their excess idle connections.
+        Whether the connectionLifespan or connectionTimeout setting is met first determines the number of 
+        current idle connections.
+
+        To prevent any idle pooled connection from terminating before the Java API
+        client is shut down, set this variable to <tt>0</tt>.
+        
+        Valid values:   Any non-negative integer
+        Default value:  0
+        
+        
+    connectionLifespan: Number of <code>timeUnit</code> that the connection will be load balanced after it is created. 
+	To prevent any load balance on the connection, set this variable to <tt>0</tt>.
+        Whether the connectionLifespan or connectionTimeout setting is met first determines the number of 
+        current idle connections.     
+
+        Valid values:   Any non-negative integer
+        Default value:  0 
+    
+    timeUnit: Time unit for <code>connectionTimeout</code> and <code>connectionLifespan</code>.
+        Valid values:   DAYS, HOURS, MINUTES, SECONDS
+        Default value:  MINUTES
+    
+    connectionMaxRetries
+        Valid values:   0, 1, 2
+        Default value:  1
+
+    timeLagBetweenRetriesMillSec
+        Valid values:   Any non-negative integer (in milliseconds)
+        Default value:  100
+
+    toStringStyle - any static ToStringStyle member of a custom class
+    accessible to the current process.
+        Valid values:   org.apache.commons.lang.builder.ToStringStyle.DEFAULT_STYLE 
+                        org.apache.commons.lang.builder.ToStringStyle.MULTI_LINE_STYLE 
+                        org.apache.commons.lang.builder.ToStringStyle.NO_FIELD_NAMES_STYLE 
+                        org.apache.commons.lang.builder.ToStringStyle.SHORT_PREFIX_STYLE 
+                        org.apache.commons.lang.builder.ToStringStyle.SIMPLE_STYLE 
+                        com.bmc.arsys.api.NoPrefixToStringStyle.NO_PREFIX_STYLE
+        Default value:  com.bmc.arsys.api.NoPrefixToStringStyle.NO_PREFIX_STYLE
+
+    stringizeFieldAssignments - Controls whether the FieldAssignInfo class
+    assignment members are stringized for easier access.
+        Valid values:   true, false
+        Default value:  false
+
+    stringizeSetIfQualification - Controls whether the SetFieldsFromForm
+    action set-if-qualification member is stringized for easier access.
+        Valid values:   true, false
+        Default value:  false
+        
+	apiRecording - Turns on the client side api logging and produces a command file(<username><servername><port>_arapicmd.log)
+				   and a result output file(<username><servername><port>_arapires.log). The value is
+				   a bit mask to allow for features to be combined. e.g. In order to have 
+				   append mode for the log files and record only the elapsed time and no result data, set the value
+				   to 2+8+32 = 42.   
+        Valid values:     0 No logging
+                          1 Logging on
+                          2 Record in append mode in the files
+                          4 Record start and finish time
+                          8 Record elapsed time in ms
+                          16 Combine the command and result files into the result file
+                          32 Do not record result data output
+                          64 Buffer the file output
+        Default value:	  0
+        
+    jniLoadMode - Parameter to control JNI library loading.
+        Valid values:     0 JNI library will never be loaded
+                          1 JNI library will be loaded only when required
+                          2 JNI library will always be loaded
+        Default value:    1
+-->
+<javaapi_config>
+	<catalogFile>arcatalog</catalogFile>
+	<useConnectionPooling>true</useConnectionPooling>
+	<maxProxiesPerServer>80</maxProxiesPerServer>
+	<idleConnectionsPerServer>5</idleConnectionsPerServer>
+	<connectionTimeout>0</connectionTimeout>
+	<connectionLifespan>0</connectionLifespan>
+	<timeUnit>MINUTES</timeUnit>
+	<connectionMaxRetries>1</connectionMaxRetries>
+	<timeLagBetweenRetriesMillSec>100</timeLagBetweenRetriesMillSec>
+	<toStringStyle>com.bmc.arsys.api.NoPrefixToStringStyle.NO_PREFIX_STYLE</toStringStyle>
+	<stringizeFieldAssignments>false</stringizeFieldAssignments>
+	<stringizeSetIfQualification>false</stringizeSetIfQualification>
+	<apiRecording>0</apiRecording>
+	<jniLoadMode>0</jniLoadMode>
+</javaapi_config>

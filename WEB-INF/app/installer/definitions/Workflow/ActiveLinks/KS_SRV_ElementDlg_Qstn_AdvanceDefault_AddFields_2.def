@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_AdvanceDefault_AddFields_2
+   timestamp      : 1421095800
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 1
+   actlink-control: 700080910
+   enable         : 1
+   permission     : 0
+   action {
+      open-server : @
+      open-schema : KS_ACC_NoteAssembler
+      open-vui    : AddText_NoDate
+      open-close  : 1
+      open-input  : 7\600000021\102\1\@\1\@\1\700001832\0\1\4\700000350\101\4\14\KS_SRV_Manager\700000800\102\1\@\1\@\1\700000800\0\1\4\700000829\102\1\@\1\@\1\700000829\0\1\4\700001211\102\1\@\1\@\1\600000097\0\1\4\700002303\102\1\@\1\@\1\700002303\0\1\4
+      open-input  : \700036000\102\1\@\1\@\1\700036000\0\1\4\
+
+      open-output : 1\700001832\102\1\@\20\KS_ACC_NoteAssembler\1\600000021\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+      set-field   : 0\600000097\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_BuildDynamicList_HTML
+   timestamp      : 1421095879
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 0
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   action {
+      set-field   : 0\70000060\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\101\4\20\<select id='SRVQSTN_\102\1\@\1\@\1\179\0\1\4\101\4\16\' name='SRVQSTN_\102\1\@\1\@\1\179\0\1\4\101\4\45\' class='answerValue answerSelect' requ
+      set-field   : 0\ired='\102\1\@\1\@\1\700001177\0\1\4\101\4\1\'\102\1\@\1\@\1\710060710\0\1\4\101\4\13\ errorValue='\102\1\@\1\@\1\700001179\0\1\4\101\4\13\' transient='\102\1\@\1\@\1\710060705\0\1\4\101\4\13\'></select>\
+
+   }
+end

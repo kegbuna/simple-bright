@@ -1,0 +1,29 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_CheckNameOnSave
+   timestamp      : 1421095780
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700004582\2\0\
+   action {
+      set-field   : 0\600000098\101\2\996\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_Message_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

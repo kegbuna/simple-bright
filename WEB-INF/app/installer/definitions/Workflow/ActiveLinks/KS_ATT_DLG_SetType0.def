@@ -1,0 +1,41 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_DLG_SetType0
+   timestamp      : 1421095757
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_Dialog
+   actlink-mask   : 16384
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\2\1\9\2\4\6\DIALOG\4\6\1\710000012\2\0\
+   action {
+      set-field   : 0\179\102\1\@\20\KS_ATT_AttributeType\1\179\4\1\99\710000012\1\179\1\4\
+      set-field   : 1\600000200\102\1\@\20\KS_ATT_AttributeType\1\710000077\4\1\99\710000012\1\179\1\4\
+      set-field   : 2\710000001\102\1\@\20\KS_ATT_AttributeType\1\710000001\4\1\99\710000012\1\179\1\4\
+      set-field   : 3\710000003\102\1\@\20\KS_ATT_AttributeType\1\710000003\4\1\99\710000012\1\179\1\4\
+      set-field   : 4\710000004\102\1\@\20\KS_ATT_AttributeType\1\710000004\4\1\99\710000012\1\179\1\4\
+      set-field   : 5\710000011\102\1\@\20\KS_ATT_AttributeType\1\710000011\4\1\99\710000012\1\179\1\4\
+      set-field   : 6\710000039\102\1\@\20\KS_ATT_AttributeType\1\710000039\4\1\99\710000012\1\179\1\4\
+      set-field   : 7\710000057\102\1\@\20\KS_ATT_AttributeType\1\710000057\4\1\99\710000012\1\179\1\4\
+      set-field   : 8\710000058\102\1\@\20\KS_ATT_AttributeType\1\710000058\4\1\99\710000012\1\179\1\4\
+      set-field   : 9\710000059\102\1\@\20\KS_ATT_AttributeType\1\710000059\4\1\99\710000012\1\179\1\4\
+      set-field   : 10\710000060\102\1\@\20\KS_ATT_AttributeType\1\710000060\4\1\99\710000012\1\179\1\4\
+      set-field   : 11\710000061\102\1\@\20\KS_ATT_AttributeType\1\710000061\4\1\99\710000012\1\179\1\4\
+      set-field   : 12\710000062\102\1\@\20\KS_ATT_AttributeType\1\710000062\4\1\99\710000012\1\179\1\4\
+      set-field   : 13\710000063\102\1\@\20\KS_ATT_AttributeType\1\710000063\4\1\99\710000012\1\179\1\4\
+      set-field   : 14\710000064\102\1\@\20\KS_ATT_AttributeType\1\710000064\4\1\99\710000012\1\179\1\4\
+      set-field   : 15\710000065\102\1\@\20\KS_ATT_AttributeType\1\710000065\4\1\99\710000012\1\179\1\4\
+      set-field   : 16\710000067\102\1\@\20\KS_ATT_AttributeType\1\710000067\4\1\99\710000012\1\179\1\4\
+      set-field   : 17\710000074\102\1\@\20\KS_ATT_AttributeType\1\710000074\4\1\99\710000012\1\179\1\4\
+      set-field   : 18\710000075\102\1\@\20\KS_ATT_AttributeType\1\710000075\4\1\99\710000012\1\179\1\4\
+      set-field   : 19\710000107\102\1\@\20\KS_ATT_AttributeType\1\7\4\1\99\710000012\1\179\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

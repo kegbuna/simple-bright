@@ -1,0 +1,139 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_VIEWER_LoadOnWeb_CmpltdSrvy
+   timestamp      : 1421095845
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Viewer
+   actlink-mask   : 278528
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\1\4\1\2\1\22\2\2\9\4\6\1\179\2\0\4\1\2\1\16\2\4\23\CompletedCustomerSurvey\4\6\2\1\9\2\4\6\Dialog\
+   action {
+      set-field   : 0\179\102\1\@\21\KS_SRV_CustomerSurvey\1\179\4\1\99\179\1\179\1\4\
+      set-field   : 1\300299400\102\1\@\21\KS_SRV_CustomerSurvey\1\300299400\4\1\99\179\1\179\1\4\
+      set-field   : 2\300299500\102\1\@\21\KS_SRV_CustomerSurvey\1\300299500\4\1\99\179\1\179\1\4\
+      set-field   : 3\300299600\102\1\@\21\KS_SRV_CustomerSurvey\1\300299600\4\1\99\179\1\179\1\4\
+      set-field   : 4\300299700\102\1\@\21\KS_SRV_CustomerSurvey\1\300299700\4\1\99\179\1\179\1\4\
+      set-field   : 5\300299800\102\1\@\21\KS_SRV_CustomerSurvey\1\300299800\4\1\99\179\1\179\1\4\
+      set-field   : 6\400005200\102\1\@\21\KS_SRV_CustomerSurvey\1\400005200\4\1\99\179\1\179\1\4\
+      set-field   : 7\400007300\102\1\@\21\KS_SRV_CustomerSurvey\1\400007300\4\1\99\179\1\179\1\4\
+      set-field   : 8\400007500\102\1\@\21\KS_SRV_CustomerSurvey\1\400007500\4\1\99\179\1\179\1\4\
+      set-field   : 9\600000021\102\1\@\21\KS_SRV_CustomerSurvey\1\600000021\4\1\99\179\1\179\1\4\
+      set-field   : 10\600000042\102\1\@\21\KS_SRV_CustomerSurvey\1\600000042\4\1\99\179\1\179\1\4\
+      set-field   : 11\600000090\102\1\@\21\KS_SRV_CustomerSurvey\1\600000090\4\1\99\179\1\179\1\4\
+      set-field   : 12\600000300\102\1\@\21\KS_SRV_CustomerSurvey\1\600000300\4\1\99\179\1\179\1\4\
+      set-field   : 13\600000310\102\1\@\21\KS_SRV_CustomerSurvey\1\600000310\4\1\99\179\1\179\1\4\
+      set-field   : 14\600000500\102\1\@\21\KS_SRV_CustomerSurvey\1\600000500\4\1\99\179\1\179\1\4\
+      set-field   : 15\700000829\102\1\@\21\KS_SRV_CustomerSurvey\1\700000829\4\1\99\179\1\179\1\4\
+      set-field   : 16\700001000\102\1\@\21\KS_SRV_CustomerSurvey\1\700001000\4\1\99\179\1\179\1\4\
+      set-field   : 17\700001150\102\1\@\21\KS_SRV_CustomerSurvey\1\700001150\4\1\99\179\1\179\1\4\
+      set-field   : 18\700001240\102\1\@\21\KS_SRV_CustomerSurvey\1\700001240\4\1\99\179\1\179\1\4\
+      set-field   : 19\700001244\102\1\@\21\KS_SRV_CustomerSurvey\1\700001244\4\1\99\179\1\179\1\4\
+      set-field   : 20\700001248\102\1\@\21\KS_SRV_CustomerSurvey\1\700001248\4\1\99\179\1\179\1\4\
+      set-field   : 21\700001282\102\1\@\21\KS_SRV_CustomerSurvey\1\700001282\4\1\99\179\1\179\1\4\
+      set-field   : 22\700001285\102\1\@\21\KS_SRV_CustomerSurvey\1\700001285\4\1\99\179\1\179\1\4\
+      set-field   : 23\700001398\102\1\@\21\KS_SRV_CustomerSurvey\1\700001398\4\1\99\179\1\179\1\4\
+      set-field   : 24\700001486\102\1\@\21\KS_SRV_CustomerSurvey\1\700001486\4\1\99\179\1\179\1\4\
+      set-field   : 25\700001591\102\1\@\21\KS_SRV_CustomerSurvey\1\700001591\4\1\99\179\1\179\1\4\
+      set-field   : 26\700001806\102\1\@\21\KS_SRV_CustomerSurvey\1\700001806\4\1\99\179\1\179\1\4\
+      set-field   : 27\700001807\102\1\@\21\KS_SRV_CustomerSurvey\1\700001807\4\1\99\179\1\179\1\4\
+      set-field   : 28\700001808\102\1\@\21\KS_SRV_CustomerSurvey\1\700001808\4\1\99\179\1\179\1\4\
+      set-field   : 29\700001809\102\1\@\21\KS_SRV_CustomerSurvey\1\700001809\4\1\99\179\1\179\1\4\
+      set-field   : 30\700001810\102\1\@\21\KS_SRV_CustomerSurvey\1\700001810\4\1\99\179\1\179\1\4\
+      set-field   : 31\700001811\102\1\@\21\KS_SRV_CustomerSurvey\1\700001811\4\1\99\179\1\179\1\4\
+      set-field   : 32\700001812\102\1\@\21\KS_SRV_CustomerSurvey\1\700001812\4\1\99\179\1\179\1\4\
+      set-field   : 33\700001813\102\1\@\21\KS_SRV_CustomerSurvey\1\700001813\4\1\99\179\1\179\1\4\
+      set-field   : 34\700001814\102\1\@\21\KS_SRV_CustomerSurvey\1\700001814\4\1\99\179\1\179\1\4\
+      set-field   : 35\700001815\102\1\@\21\KS_SRV_CustomerSurvey\1\700001815\4\1\99\179\1\179\1\4\
+      set-field   : 36\700001816\102\1\@\21\KS_SRV_CustomerSurvey\1\700001816\4\1\99\179\1\179\1\4\
+      set-field   : 37\700001817\102\1\@\21\KS_SRV_CustomerSurvey\1\700001817\4\1\99\179\1\179\1\4\
+      set-field   : 38\700001818\102\1\@\21\KS_SRV_CustomerSurvey\1\700001818\4\1\99\179\1\179\1\4\
+      set-field   : 39\700001819\102\1\@\21\KS_SRV_CustomerSurvey\1\700001819\4\1\99\179\1\179\1\4\
+      set-field   : 40\700001820\102\1\@\21\KS_SRV_CustomerSurvey\1\700001820\4\1\99\179\1\179\1\4\
+      set-field   : 41\700001821\102\1\@\21\KS_SRV_CustomerSurvey\1\700001821\4\1\99\179\1\179\1\4\
+      set-field   : 42\700001822\102\1\@\21\KS_SRV_CustomerSurvey\1\700001822\4\1\99\179\1\179\1\4\
+      set-field   : 43\700001823\102\1\@\21\KS_SRV_CustomerSurvey\1\700001823\4\1\99\179\1\179\1\4\
+      set-field   : 44\700001824\102\1\@\21\KS_SRV_CustomerSurvey\1\700001824\4\1\99\179\1\179\1\4\
+      set-field   : 45\700001825\102\1\@\21\KS_SRV_CustomerSurvey\1\700001825\4\1\99\179\1\179\1\4\
+      set-field   : 46\700001826\102\1\@\21\KS_SRV_CustomerSurvey\1\700001826\4\1\99\179\1\179\1\4\
+      set-field   : 47\700001827\102\1\@\21\KS_SRV_CustomerSurvey\1\700001827\4\1\99\179\1\179\1\4\
+      set-field   : 48\700001828\102\1\@\21\KS_SRV_CustomerSurvey\1\700001828\4\1\99\179\1\179\1\4\
+      set-field   : 49\700001829\102\1\@\21\KS_SRV_CustomerSurvey\1\700001829\4\1\99\179\1\179\1\4\
+      set-field   : 50\700001830\102\1\@\21\KS_SRV_CustomerSurvey\1\700001830\4\1\99\179\1\179\1\4\
+      set-field   : 51\700001831\102\1\@\21\KS_SRV_CustomerSurvey\1\700001831\4\1\99\179\1\179\1\4\
+      set-field   : 52\700001832\102\1\@\21\KS_SRV_CustomerSurvey\1\700001832\4\1\99\179\1\179\1\4\
+      set-field   : 53\700001833\102\1\@\21\KS_SRV_CustomerSurvey\1\700001833\4\1\99\179\1\179\1\4\
+      set-field   : 54\700001834\102\1\@\21\KS_SRV_CustomerSurvey\1\700001834\4\1\99\179\1\179\1\4\
+      set-field   : 55\700001835\102\1\@\21\KS_SRV_CustomerSurvey\1\700001835\4\1\99\179\1\179\1\4\
+      set-field   : 56\700001836\102\1\@\21\KS_SRV_CustomerSurvey\1\700001836\4\1\99\179\1\179\1\4\
+      set-field   : 57\700001837\102\1\@\21\KS_SRV_CustomerSurvey\1\700001837\4\1\99\179\1\179\1\4\
+      set-field   : 58\700001838\102\1\@\21\KS_SRV_CustomerSurvey\1\700001838\4\1\99\179\1\179\1\4\
+      set-field   : 59\700001839\102\1\@\21\KS_SRV_CustomerSurvey\1\700001839\4\1\99\179\1\179\1\4\
+      set-field   : 60\700001840\102\1\@\21\KS_SRV_CustomerSurvey\1\700001840\4\1\99\179\1\179\1\4\
+      set-field   : 61\700001841\102\1\@\21\KS_SRV_CustomerSurvey\1\700001841\4\1\99\179\1\179\1\4\
+      set-field   : 62\700001842\102\1\@\21\KS_SRV_CustomerSurvey\1\700001842\4\1\99\179\1\179\1\4\
+      set-field   : 63\700001843\102\1\@\21\KS_SRV_CustomerSurvey\1\700001843\4\1\99\179\1\179\1\4\
+      set-field   : 64\700001844\102\1\@\21\KS_SRV_CustomerSurvey\1\700001844\4\1\99\179\1\179\1\4\
+      set-field   : 65\700001845\102\1\@\21\KS_SRV_CustomerSurvey\1\700001845\4\1\99\179\1\179\1\4\
+      set-field   : 66\700001846\102\1\@\21\KS_SRV_CustomerSurvey\1\700001846\4\1\99\179\1\179\1\4\
+      set-field   : 67\700001847\102\1\@\21\KS_SRV_CustomerSurvey\1\700001847\4\1\99\179\1\179\1\4\
+      set-field   : 68\700001848\102\1\@\21\KS_SRV_CustomerSurvey\1\700001848\4\1\99\179\1\179\1\4\
+      set-field   : 69\700001849\102\1\@\21\KS_SRV_CustomerSurvey\1\700001849\4\1\99\179\1\179\1\4\
+      set-field   : 70\700001850\102\1\@\21\KS_SRV_CustomerSurvey\1\700001850\4\1\99\179\1\179\1\4\
+      set-field   : 71\700001851\102\1\@\21\KS_SRV_CustomerSurvey\1\700001851\4\1\99\179\1\179\1\4\
+      set-field   : 72\700001852\102\1\@\21\KS_SRV_CustomerSurvey\1\700001852\4\1\99\179\1\179\1\4\
+      set-field   : 73\700001853\102\1\@\21\KS_SRV_CustomerSurvey\1\700001853\4\1\99\179\1\179\1\4\
+      set-field   : 74\700001854\102\1\@\21\KS_SRV_CustomerSurvey\1\700001854\4\1\99\179\1\179\1\4\
+      set-field   : 75\700001855\102\1\@\21\KS_SRV_CustomerSurvey\1\700001855\4\1\99\179\1\179\1\4\
+      set-field   : 76\700001856\102\1\@\21\KS_SRV_CustomerSurvey\1\700001856\4\1\99\179\1\179\1\4\
+      set-field   : 77\700001857\102\1\@\21\KS_SRV_CustomerSurvey\1\700001857\4\1\99\179\1\179\1\4\
+      set-field   : 78\700001858\102\1\@\21\KS_SRV_CustomerSurvey\1\700001858\4\1\99\179\1\179\1\4\
+      set-field   : 79\700001859\102\1\@\21\KS_SRV_CustomerSurvey\1\536870916\4\1\99\179\1\179\1\4\
+      set-field   : 80\700001860\102\1\@\21\KS_SRV_CustomerSurvey\1\700001860\4\1\99\179\1\179\1\4\
+      set-field   : 81\700001861\102\1\@\21\KS_SRV_CustomerSurvey\1\700001861\4\1\99\179\1\179\1\4\
+      set-field   : 82\700001862\102\1\@\21\KS_SRV_CustomerSurvey\1\700001862\4\1\99\179\1\179\1\4\
+      set-field   : 83\700001863\102\1\@\21\KS_SRV_CustomerSurvey\1\700001863\4\1\99\179\1\179\1\4\
+      set-field   : 84\700001864\102\1\@\21\KS_SRV_CustomerSurvey\1\700001864\4\1\99\179\1\179\1\4\
+      set-field   : 85\700002200\102\1\@\21\KS_SRV_CustomerSurvey\1\700000800\4\1\99\179\1\179\1\4\
+      set-field   : 86\700002296\102\1\@\21\KS_SRV_CustomerSurvey\1\700002296\4\1\99\179\1\179\1\4\
+      set-field   : 87\700002400\102\1\@\21\KS_SRV_CustomerSurvey\1\700002400\4\1\99\179\1\179\1\4\
+      set-field   : 88\700004000\102\1\@\21\KS_SRV_CustomerSurvey\1\700004000\4\1\99\179\1\179\1\4\
+      set-field   : 89\700036000\102\1\@\21\KS_SRV_CustomerSurvey\1\700036000\4\1\99\179\1\179\1\4\
+   }
+   action {
+      set-field   : 0\700001369\102\1\@\21\KS_SRV_CustomerSurvey\1\7\4\1\99\179\1\179\1\4\
+      set-field   : 1\700002490\102\1\@\21\KS_SRV_CustomerSurvey\1\700002400\4\1\99\179\1\179\1\4\
+   }
+   action {
+      set-field   : 0\700004060\102\1\@\26\KS_SRV_CustomerSurvey_base\1\1\4\1\1\179\99\179\1\4\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700000200
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      id          : 700020100
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_VIEWER_PopulateAttributes_Guide
+      call-mode   : 0
+      call-tableid: 700020100
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

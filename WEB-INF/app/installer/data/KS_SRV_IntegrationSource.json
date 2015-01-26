@@ -1,0 +1,47 @@
+{
+  "form" : "KS_SRV_IntegrationSource",
+  "duplicateRecordQualifierFieldNames" : [ "Source_Type", "Source_Label", "IntegrationSource" ],
+  "data" : [ {
+    "IntegrationSource" : "KS_SRV_IntegrationSample",
+    "Category Menu" : "KS_SRV_SAMPLE_Category",
+    "Source_Type" : "ARSystem-Form",
+    "Source_Label" : "Integration Sample",
+    "WorkflowItem" : "KS_SRV_INTEGRATION_SAMPLE_PushAttributes_Default",
+    "Integration Type" : "Both"
+  }, {
+    "IntegrationSource" : "KS_SRV_CustomerSurvey",
+    "Source_Type" : "ARSystem-Form",
+    "Source_Label" : "Customer Survey",
+    "Integration Type" : "Both"
+  }, {
+    "IntegrationSource" : "KS_SRV_List_Name",
+    "Source_Type" : "ARSystem-Form",
+    "Source_Label" : "List Name",
+    "Integration Type" : "Outbound"
+  }, {
+    "IntegrationSource" : "KS_SRV_List_Manager_Import",
+    "Source_Type" : "ARSystem-Form",
+    "Source_Label" : "List Manager",
+    "Integration Type" : "Outbound"
+  }, {
+    "IntegrationSource" : "KS_SRV_CustomerSurvey_base",
+    "Source_Type" : "ARSystem-Form",
+    "Source_Label" : "Customer Survey Base",
+    "Integration Type" : "Outbound"
+  }, {
+    "IntegrationSource" : "KS_RQT_CustomerSurvey_Task_join",
+    "Source_Type" : "ARSystem-Form",
+    "Source_Label" : "Customer Survey/Task Join",
+    "Integration Type" : "Outbound"
+  }, {
+    "IntegrationSource" : "KS_SRV_CustomerSurvey_ImportExport",
+    "Source_Type" : "ARSystem-Form",
+    "Source_Label" : "Customer Survey Import/Export",
+    "Integration Type" : "Inbound"
+  }, {
+    "IntegrationSource" : "KS_SRV_SithcoIncident",
+    "Source_Type" : "ARSystem-Form",
+    "Source_Label" : "KS_SRV_SithcoIncident",
+    "Integration Type" : "Both"
+  } ]
+}

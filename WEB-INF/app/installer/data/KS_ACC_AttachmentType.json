@@ -1,0 +1,17 @@
+{
+  "form" : "KS_ACC_AttachmentType",
+  "duplicateRecordQualifierFieldNames" : [ "Form", "AttachmentType" ],
+  "data" : [ {
+    "Form" : "KS_SRV_SurveyTemplate",
+    "AttachmentType" : "Stylesheet"
+  }, {
+    "Form" : "KS_SRV_SurveyTemplate",
+    "AttachmentType" : "Image"
+  }, {
+    "Form" : "KS_SRV_SurveyTemplate",
+    "AttachmentType" : "Javascript File"
+  }, {
+    "Form" : "KS_SRV_SurveyTemplate",
+    "AttachmentType" : "File"
+  } ]
+}

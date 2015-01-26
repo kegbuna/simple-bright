@@ -1,0 +1,80 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_RebuildLayout_Layer_Style
+   timestamp      : 1421095880
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 610
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   filter-query   : 4\1\99\600000042\2\4\14\REBUILD_LAYOUT\
+   action {
+      set-field   : 0\70000105\105\23\3\102\1\@\1\@\1\70000105\0\1\4\101\4\19\POSITION: absolute;\101\4\19\POSITION: relative;\
+   }
+   action {
+      set-field   : 0\70006004\102\1\@\1\@\1\70000105\0\1\4\
+   }
+   action {
+      set-field   : 0\70006003\101\4\4\TOP:\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SRVQUESTION_RebuildLayout_Rebuild_StyleTag
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\70000105\105\23\3\102\1\@\1\@\1\70000105\0\1\4\102\1\@\1\@\1\70006002\0\1\4\101\4\0\\
+   }
+   action {
+      set-field   : 0\70006003\101\4\5\LEFT:\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SRVQUESTION_RebuildLayout_Rebuild_StyleTag
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\70000105\105\23\3\102\1\@\1\@\1\70000105\0\1\4\102\1\@\1\@\1\70006002\0\1\4\101\4\0\\
+   }
+   action {
+      set-field   : 0\70006003\101\4\6\WIDTH:\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SRVQUESTION_RebuildLayout_Rebuild_StyleTag
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\70000105\105\23\3\102\1\@\1\@\1\70000105\0\1\4\102\1\@\1\@\1\70006002\0\1\4\101\4\0\\
+   }
+   action {
+      set-field   : 0\70006003\101\4\7\HEIGHT:\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SRVQUESTION_RebuildLayout_Rebuild_StyleTag
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\70000105\105\23\3\102\1\@\1\@\1\70000105\0\1\4\102\1\@\1\@\1\70006002\0\1\4\101\4\0\\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

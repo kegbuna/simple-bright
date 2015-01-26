@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_BuildDate_HTML_InGuide_01_1
+   timestamp      : 1421095878
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   filter-query   : 4\1\99\710060702\2\6\0\
+   action {
+      set-field   : 0\70000060\104\1\104\1\104\1\104\1\101\4\114\<input type='text' class='dateYear answerValue answerText' maxlength='4' size='4' style='display:none' name='year_\102\1\@\1\@\1\179\0\1\4\101\4\11\' id='year_\102\1\@\1\@\1\179\0\1\4\101\4\
+      set-field   : 0\47\' onchange='KD.utils.Action.updateDate(this)'/>\
+
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_ModifyTaskTree_ChangeName_callguide
+   timestamp      : 1421095773
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 60
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 3
+   actlink-control: 710007401
+   actlink-focus  : 700020000
+   enable         : 1
+   permission     : 10105
+   actlink-query  : 1\4\6\1\770008603\2\0\4\6\1\770008603\1\710060154\
+   action {
+      set-field   : 0\770008605\101\0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_RQT_MANAGER_ModifyTaskTree_ChangeName_guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

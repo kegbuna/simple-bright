@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_ANSWER_SetAnswerViewer
+   timestamp      : 1421095864
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 10
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyAnswer
+   export-version : 9
+   filter-query   : 4\6\51\700002832\99\700002832\
+   action {
+      set-field   : 0\700001832\105\17\2\102\1\@\1\@\1\700002832\0\1\4\101\2\254\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

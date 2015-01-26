@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ClientEventDlg_UpdtDisplaySettignsOnEventChg_guide
+   type           : 1
+   num-references : 5
+   timestamp      : 1421095851
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\25\KS_SRV_ClientEvent_Dialog\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Set_IfExpression_Menu/Label
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Set_IfExpression_Label
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Set_IfExpression_Menu Statements
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Set_IfExpression_Menu Values
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_HideShow_Questions
+}
+end

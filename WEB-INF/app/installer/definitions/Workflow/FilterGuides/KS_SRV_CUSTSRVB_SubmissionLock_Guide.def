@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_CUSTSRVB_SubmissionLock_Guide
+   type           : 4
+   num-references : 2
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\26\KS_SRV_CustomerSurvey_base\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   label          : KS_SRV_CUSTSRVB_SubmissionLock_Guide
+   description    : Creates a submission lock record for approvals if the template supports automatic submission locking.
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRVB_SubmissionLock_TemplateSubmissionsLockable
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRVB_SubmissionLock_CreateLock
+}
+end

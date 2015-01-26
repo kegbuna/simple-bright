@@ -1,0 +1,28 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin escalation
+   name           : KS_ACC_SCHD_Generate
+   timestamp      : 1421095855
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enable         : 1
+   escl-tmType    : 1
+   export-version : 9
+   escl-interval  : 60
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_Schedule
+   escl-query     : 1\4\1\1\7\2\6\0\4\5\1\700004078\2\1\2\
+   action {
+      push-field  : 0\1\@\21\KS_ACC_ScheduledEvent\1\700004104\0\4\6\102\1\@\1\@\1\700004104\0\1\4\
+      push-field  : 1\1\@\21\KS_ACC_ScheduledEvent\1\700004102\0\4\6\102\1\@\1\@\1\700004102\0\1\4\
+      push-field  : 2\1\@\21\KS_ACC_ScheduledEvent\1\700004078\0\4\6\102\1\@\1\@\1\700004078\0\1\4\
+      push-field  : 3\1\@\21\KS_ACC_ScheduledEvent\1\600000510\0\4\6\102\1\@\1\@\1\600000510\0\1\4\
+      push-field  : 4\1\@\21\KS_ACC_ScheduledEvent\1\7\0\4\6\101\6\0\
+   }
+   action {
+      set-field   : 0\700004076\101\6\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

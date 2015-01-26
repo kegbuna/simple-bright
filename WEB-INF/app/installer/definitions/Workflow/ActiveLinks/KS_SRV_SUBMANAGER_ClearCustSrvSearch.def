@@ -1,0 +1,63 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_SUBMANAGER_ClearCustSrvSearch
+   timestamp      : 1421095842
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SubmissionManager
+   schema-name    : KS_RQT_SubmissionManager
+   actlink-mask   : 1
+   actlink-control: 700068000
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\536870927\101\0\
+      set-field   : 1\600000260\101\4\3\1=0\
+      set-field   : 2\600000500\101\0\
+      set-field   : 3\600000600\101\0\
+      set-field   : 4\700000800\101\0\
+      set-field   : 5\700001000\101\0\
+      set-field   : 6\700001010\101\0\
+      set-field   : 7\700001259\101\0\
+      set-field   : 8\700001691\101\0\
+      set-field   : 9\700001698\101\0\
+      set-field   : 10\700001706\101\0\
+      set-field   : 11\700001926\101\0\
+      set-field   : 12\700001999\101\0\
+      set-field   : 13\700002200\101\0\
+      set-field   : 14\700002987\101\0\
+      set-field   : 15\700006002\101\0\
+      set-field   : 16\700006007\101\0\
+      set-field   : 17\700006008\101\0\
+      set-field   : 18\700009270\101\0\
+      set-field   : 19\700009350\101\0\
+      set-field   : 20\700009355\101\0\
+      set-field   : 21\700009360\101\0\
+      set-field   : 22\710074100\101\0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_CHUNKING_ClearTbl/HideFlds
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700001745
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      set-field   : 0\700001926\101\6\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

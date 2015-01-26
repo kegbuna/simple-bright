@@ -1,0 +1,53 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SHARE_SetGUID
+   timestamp      : 1421095877
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 5
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyTemplate
+   schema-name    : KS_ACC_Audit
+   schema-name    : KS_RQT_BridgedResource
+   schema-name    : KS_RQT_BridgedResourceParameter
+   schema-name    : KS_RQT_Lock
+   schema-name    : KS_RQT_Message
+   schema-name    : KS_RQT_ServiceCatalog_base
+   schema-name    : KS_RQT_ServiceItemCategory
+   schema-name    : KS_RQT_TaskServer
+   schema-name    : KS_SRV_Category
+   schema-name    : KS_SRV_ContentEvents
+   schema-name    : KS_SRV_ContentsElementHTML
+   schema-name    : KS_SRV_CustomerSurvey_base
+   schema-name    : KS_SRV_CustomerSurvey_ImportExport
+   schema-name    : KS_SRV_DataSet
+   schema-name    : KS_SRV_DynAnswerHideShow_Items
+   schema-name    : KS_SRV_DynAnswerValue
+   schema-name    : KS_SRV_Element_Event_Mapping
+   schema-name    : KS_SRV_FieldMap
+   schema-name    : KS_SRV_FormEventInstance
+   schema-name    : KS_SRV_Helper
+   schema-name    : KS_SRV_IntegrationRuleInstance
+   schema-name    : KS_SRV_IntegrationRuleTemplate
+   schema-name    : KS_SRV_IntegrationSource
+   schema-name    : KS_SRV_NotificationRule
+   schema-name    : KS_SRV_PageBranchingOptions
+   schema-name    : KS_SRV_SavedSearches
+   schema-name    : KS_SRV_SimpleDataRequest
+   schema-name    : KS_SRV_StyleApplied
+   schema-name    : KS_SRV_SurveyAnswer
+   schema-name    : KS_SRV_SurveyQuestion
+   schema-name    : KS_SRV_SurveyQuestionChoice
+   schema-name    : KS_SRV_WebUserMessage
+   export-version : 9
+   filter-query   : 4\1\99\179\2\0\
+   action {
+      set-field   : 0\179\103\28\Application-Generate-GUID KS\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

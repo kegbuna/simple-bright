@@ -1,0 +1,17 @@
+{
+  "form" : "KS_SRV_IntegrationRuleTemplate",
+  "duplicateRecordQualifierFieldNames" : [ "Rule_Name" ],
+  "data" : [ {
+    "Rule_Description" : "Only surveys every x number of events being directed at this survey.  Example:  To survey every 5th event, add \"5\" to Rule value.",
+    "Rule_Type" : "0",
+    "Rule_Name" : "Survey Count"
+  }, {
+    "Rule_Description" : "Wait x number of days between surveying an email address.  Example:  If you'd like to wait 10 days between surveys to a customer, add a Rule Value of \"10\".",
+    "Rule_Type" : "1",
+    "Rule_Name" : "Minimum Survey Frequency"
+  }, {
+    "Rule_Description" : "Specifies a maximum value of surveys that will be generated. Once the maximum number is reached, all remaining surveys will not be processed.",
+    "Rule_Type" : "2",
+    "Rule_Name" : "Survey Limit"
+  } ]
+}

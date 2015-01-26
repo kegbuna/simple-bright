@@ -1,0 +1,77 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SRVQUESTION_BuildDateList_HTML_Month_Guide
+   type           : 4
+   num-references : 12
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\21\KS_SRV_SurveyQuestion\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTimeList_HTML_Month_Begin
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTime_HTML_InGuide_DisplayNoClose
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateTimeList_HTML_Month_End
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateList_HTML_setHTML_NULL_Option
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : ADD_LIST_ITEM
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateList_HTML_readNextItemID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateList_HTML_addToApplied01
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateList_HTML_addToApplied02
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateList_HTML_setHTML_Listbox
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateList_HTML_checkForItem
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : END
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDateList_HTML_ListBox_End
+}
+end

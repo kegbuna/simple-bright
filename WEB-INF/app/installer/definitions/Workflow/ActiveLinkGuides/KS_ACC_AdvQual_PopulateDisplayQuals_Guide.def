@@ -1,0 +1,74 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_ACC_AdvQual_PopulateDisplayQuals_Guide
+   type           : 1
+   num-references : 11
+   timestamp      : 1421095849
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\28\KS_ACC_AdvancedQualification\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 10105\2
+   description    : Converts _ExternalQualification to _DisplayQualifications
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_01_InitiateFields
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : NEXTFIELD
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_02_FindStartingPosition
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_03_AddToStartingPosition
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_04_ParseQualification
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_05_ReplaceBASE
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_06_SetupReplaceANSWER
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_07-ReplaceANSWER
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_08_Match-Loop
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_09_NotMatch-Loop
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_10_ClearFields
+}
+end

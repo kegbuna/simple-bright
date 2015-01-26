@@ -1,0 +1,33 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CUSTSRVB_DeleteChildren
+   timestamp      : 1421095871
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 8
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey_base
+   export-version : 9
+   filter-query   : 4\6\2\1\1\2\4\11\AR_ARCHIVER\
+   action {
+      push-field  : 0\1\@\19\KS_SRV_SurveyAnswer\1\7\4\1\99\179\1\700001850\3\5\101\6\2\
+   }
+   action {
+      push-field  : 0\1\@\19\KS_SRV_SurveyResult\1\7\4\1\1\700001850\99\179\3\3\101\6\2\
+   }
+   action {
+      push-field  : 0\1\@\12\KS_ACC_Audit\1\7\2\1\4\1\1\700005414\2\4\26\KS_SRV_CustomerSurvey_base\4\1\1\700005407\99\179\1\1\4\1\1\700005410\2\4\26\KS_SRV_CustomerSurvey_base\4\1\1\700005411\99\179\4\1\1\700005485\2\4\6\Answer\3\5\101\6\2\
+   }
+   action {
+      push-field  : 0\1\@\11\KS_RQT_Task\1\7\4\1\1\700000830\99\179\3\5\101\6\6\
+   }
+   action {
+      push-field  : 0\1\@\24\KS_SRV_PageBranchingPath\1\7\4\1\1\700001398\99\179\3\5\101\6\1\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

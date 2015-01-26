@@ -1,0 +1,37 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_Save_SetFields-2
+   timestamp      : 1421095783
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\1\700004642\2\4\21\Set Fields - External\4\1\1\760001307\2\0\
+   action {
+      push-field  : 0\1\@\24\KS_SRV_SimpleDataRequest\1\179\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\700004630\0\1\4\
+      push-field  : 1\1\@\24\KS_SRV_SimpleDataRequest\1\490000700\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\490000700\0\1\4\
+      push-field  : 2\1\@\24\KS_SRV_SimpleDataRequest\1\600000261\4\1\99\700004630\1\179\4\5\101\4\11\$700000034$\
+      push-field  : 3\1\@\24\KS_SRV_SimpleDataRequest\1\600000300\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\600000300\0\1\4\
+      push-field  : 4\1\@\24\KS_SRV_SimpleDataRequest\1\600000500\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\600000500\0\1\4\
+      push-field  : 5\1\@\24\KS_SRV_SimpleDataRequest\1\700000030\4\1\99\700004630\1\179\4\5\104\1\101\4\31\Client Side Event Set Fields - \102\1\*\1\*\1\700000030\0\1\4\
+      push-field  : 6\1\@\24\KS_SRV_SimpleDataRequest\1\700000034\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\600000261\0\1\4\
+      push-field  : 7\1\@\24\KS_SRV_SimpleDataRequest\1\700000829\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\700000829\0\1\4\
+      push-field  : 8\1\@\24\KS_SRV_SimpleDataRequest\1\700001000\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\700001000\0\1\4\
+      push-field  : 9\1\@\24\KS_SRV_SimpleDataRequest\1\700001001\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\700000800\0\1\4\
+      push-field  : 10\1\@\24\KS_SRV_SimpleDataRequest\1\700007034\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\700007034\0\1\4\
+      push-field  : 11\1\@\24\KS_SRV_SimpleDataRequest\1\700007040\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\700007040\0\1\4\
+      push-field  : 12\1\@\24\KS_SRV_SimpleDataRequest\1\700007050\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\700004660\0\1\4\
+      push-field  : 13\1\@\24\KS_SRV_SimpleDataRequest\1\700007051\4\1\99\700004630\1\179\4\5\102\1\*\1\*\1\700007051\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\15\KS_SRV_FieldMap\1\490000700\4\1\99\490000700\1\490000700\3\5\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

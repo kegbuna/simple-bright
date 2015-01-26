@@ -1,0 +1,12 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_SRV_Bridge_ModelQualifications_Single
+   timestamp      : 1421095885
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 2
+   char-menu      : 0\2\20\KS_BRG_Qualification\1\@\760000400\760000400\1\1\4\1\1\760000200\99\760000200\4\1\1\760000402\2\6\0\
+end

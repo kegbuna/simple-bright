@@ -1,0 +1,15 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_RPT_ReportOutputs
+   timestamp      : 1421095884
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 1
+   char-menu      : 0\1\4\File\4\File
+   char-menu      : 0\1\7\Printer\7\Printer
+   char-menu      : 0\1\6\Screen\6\Screen
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

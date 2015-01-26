@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_INTEGRATION_SAMPLE_CheckSurveyFire99`!
+   timestamp      : 1421095875
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 510
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationSample
+   export-version : 9
+   filter-query   : 1\4\6\99\700002007\2\0\2\4\1\99\700002006\2\4\12\Batch Update\5\700002006\
+   action {
+      push-field  : 0\1\@\27\KS_SRV_IntegrationConnector\1\700004090\0\4\6\102\1\@\1\@\1\700002007\0\1\4\
+      push-field  : 1\1\@\27\KS_SRV_IntegrationConnector\1\700004000\0\4\6\102\1\@\1\@\1\700004000\0\1\4\
+      push-field  : 2\1\@\27\KS_SRV_IntegrationConnector\1\700002012\0\4\6\102\1\@\1\@\1\700002012\0\1\4\
+      push-field  : 3\1\@\27\KS_SRV_IntegrationConnector\1\700001560\0\4\6\102\1\@\1\@\1\700001560\0\1\4\
+      push-field  : 4\1\@\27\KS_SRV_IntegrationConnector\1\700001001\0\4\6\102\1\@\1\@\1\700002004\0\1\4\
+      push-field  : 5\1\@\27\KS_SRV_IntegrationConnector\1\700001000\0\4\6\102\1\@\1\@\1\700002005\0\1\4\
+      push-field  : 6\1\@\27\KS_SRV_IntegrationConnector\1\700000829\0\4\6\102\1\@\1\@\1\700000829\0\1\4\
+      push-field  : 7\1\@\27\KS_SRV_IntegrationConnector\1\700000036\0\4\6\102\1\@\1\@\1\1\0\1\4\
+      push-field  : 8\1\@\27\KS_SRV_IntegrationConnector\1\700000031\0\4\6\101\1\5\
+      push-field  : 9\1\@\27\KS_SRV_IntegrationConnector\1\700000004\0\4\6\102\1\@\1\@\1\400007500\0\1\4\
+      push-field  : 10\1\@\27\KS_SRV_IntegrationConnector\1\700000003\0\4\6\102\1\@\1\@\1\400007300\0\1\4\
+      push-field  : 11\1\@\27\KS_SRV_IntegrationConnector\1\600000310\0\4\6\102\1\@\1\@\1\179\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

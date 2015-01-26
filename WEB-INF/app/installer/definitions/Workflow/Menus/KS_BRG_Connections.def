@@ -1,0 +1,12 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_BRG_Connections
+   timestamp      : 1421095884
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 2
+   char-menu      : 0\2\13\KS_BRG_Bridge\1\@\760000100\760000100\1\0\
+end

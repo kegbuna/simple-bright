@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_SUBMANAGER_SetFlashboardDefaults
+   timestamp      : 1421095777
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_SubmissionManager
+   schema-name    : KS_SRV_SubmissionManager
+   actlink-mask   : 262144
+   enable         : 1
+   permission     : 0 10105
+   action {
+      set-field   : 0\700006004\104\1\101\1\4\104\3\104\3\101\2\60\101\2\60\101\2\24\
+      set-field   : 1\700006005\104\2\101\1\4\104\3\104\3\104\3\101\2\60\101\2\60\101\2\24\101\2\6\
+      set-field   : 2\700006010\101\1\0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_RQT_SUBMANAGER_SetFlashboards_guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

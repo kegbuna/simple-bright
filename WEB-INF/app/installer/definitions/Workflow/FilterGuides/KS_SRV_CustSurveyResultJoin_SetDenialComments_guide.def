@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_CustSurveyResultJoin_SetDenialComments_guide
+   type           : 4
+   num-references : 3
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\33\KS_SRV_CustomerSurveyResults_join\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CustSurveyResultJoin_GetFormEventInstanceId
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CustSurveyResultJoin_SetDenialQuestionInfo
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CustSurveyResultJoin_ParseDenialComments
+}
+end

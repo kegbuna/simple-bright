@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_BuildFullHTML_Default
+   timestamp      : 1421095879
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   filter-query   : 2\4\1\99\600000042\2\0\4\1\99\600000042\2\4\14\REBUILD_LAYOUT\
+   action {
+      set-field   : 0\700060000\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\102\1\@\1\@\1\70000100\0\1\4\101\4\2\ \102\1\@\1\@\1\70000102\0\1\4\102\1\@\1\@\1\700060003\0\1\4\101\4\9\ </div>\102\1\@\1\@\1\70000103\0\1\4\102\1\@\1\@\1\70000060\0\1\4\
+      set-field   : 0\101\4\8\ </div>\101\4\8\ </div>\
+
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CUSTSRVB_SubmissionLock_CreateLock
+   timestamp      : 1421095871
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey_base
+   export-version : 9
+   filter-query   : 4\1\99\700002000\2\4\9\Automatic\
+   action {
+      push-field  : 0\1\@\11\KS_RQT_Lock\1\700000181\0\4\6\101\1\2\
+      push-field  : 1\1\@\11\KS_RQT_Lock\1\700000180\0\4\6\101\4\82\Template supports Automatic submission locking.  Created from Remedy filter logic.\
+      push-field  : 2\1\@\11\KS_RQT_Lock\1\700000179\0\4\6\102\1\@\1\@\1\179\0\1\4\
+      push-field  : 3\1\@\11\KS_RQT_Lock\1\700000178\0\4\6\101\4\26\KS_SRV_CustomerSurvey_base\
+      push-field  : 4\1\@\11\KS_RQT_Lock\1\700000177\0\4\6\101\4\15\Submission Lock\
+      push-field  : 5\1\@\11\KS_RQT_Lock\1\8\0\4\6\101\4\20\Kinetic Request Lock\
+      push-field  : 6\1\@\11\KS_RQT_Lock\1\7\0\4\6\101\6\0\
+      push-field  : 7\1\@\11\KS_RQT_Lock\1\2\0\4\6\102\1\@\1\@\1\2\0\1\4\
+   }
+end

@@ -1,0 +1,158 @@
+{
+  "form" : "KS_SRV_ConfigurationValue",
+  "duplicateRecordQualifierFieldNames" : [ "ConfigurationType" ],
+  "data" : [ {
+    "ConfigurationType" : "Default Background Color",
+    "ConfigurationValue" : "#FFFFFF",
+    "ConfigurationValue_Viewer" : "#FFFFFF"
+  }, {
+    "ConfigurationType" : "Default Servlet",
+    "ConfigurationValue" : "DisplayPage",
+    "ConfigurationValue_Viewer" : "DisplayPage",
+    "Property" : "1"
+  }, {
+    "ConfigurationType" : "Default Servlet Context",
+    "ConfigurationValue" : "",
+    "ConfigurationValue_Viewer" : "",
+    "Property" : "1"
+  }, {
+    "ConfigurationType" : "Default Web Server",
+    "ConfigurationValue" : "http://kinetic.webserver.com:8080/kinetic/",
+    "ConfigurationValue_Viewer" : "http://kinetic.webserver.com:8080/kinetic/",
+    "Property" : "1"
+  }, {
+    "ConfigurationType" : "Default Kinetic Task Server",
+    "ConfigurationValue" : "http://kinetic.webserver.com:8080/kineticTask/",
+    "ConfigurationValue_Viewer" : "http://kinetic.webserver.com:8080/kineticTask/"
+  }, {
+    "ConfigurationType" : "Escalation AR Server",
+    "ConfigurationValue" : "myArServer",
+    "ConfigurationValue_Viewer" : "myArServer"
+  }, {
+    "ConfigurationType" : "Max Batch Surveys",
+    "ConfigurationValue" : "50",
+    "ConfigurationValue_Viewer" : "50"
+  }, {
+    "ConfigurationType" : "Mid-Tier Server Name",
+    "ConfigurationValue" : "http://my.midtierserver.com/arsys/",
+    "ConfigurationValue_Viewer" : "http://my.midtierserver.com/arsys/"
+  }, {
+    "ConfigurationType" : "Mid-Tier Version",
+    "ConfigurationValue" : "7.01.00",
+    "ConfigurationValue_Viewer" : "7.01.00"
+  }, {
+    "ConfigurationType" : "Submit Button Text",
+    "ConfigurationValue" : "Submit",
+    "ConfigurationValue_Viewer" : "Submit"
+  }, {
+    "ConfigurationType" : "Survey License Key",
+    "ConfigurationValue" : "mySurveyLicense",
+    "ConfigurationValue_Viewer" : "mySurveyLicense"
+  }, {
+    "ConfigurationType" : "Request License Key",
+    "ConfigurationValue" : "myRequestLicense",
+    "ConfigurationValue_Viewer" : "myRequestLicense"
+  }, {
+    "ConfigurationType" : "Manager License Key",
+    "ConfigurationValue" : "myManagerLicense",
+    "ConfigurationValue_Viewer" : "myManagerLicense"
+  }, {
+    "ConfigurationType" : "Logout Return Page"
+  }, {
+    "ConfigurationType" : "Display Archiving Tab",
+    "ConfigurationValue" : "No",
+    "ConfigurationValue_Viewer" : "No"
+  }, {
+    "ConfigurationType" : "Display Element Details",
+    "ConfigurationValue" : "No",
+    "ConfigurationValue_Viewer" : "No"
+  }, {
+    "ConfigurationType" : "Display Flashboards",
+    "ConfigurationValue" : "No",
+    "ConfigurationValue_Viewer" : "No"
+  }, {
+    "ConfigurationType" : "Email Message Timeout (in hours)",
+    "ConfigurationValue" : "24",
+    "ConfigurationValue_Viewer" : "24"
+  }, {
+    "ConfigurationType" : "Max Answer Fields",
+    "ConfigurationValue" : "128",
+    "ConfigurationValue_Viewer" : "128"
+  }, {
+    "ConfigurationType" : "Default Task Version",
+    "ConfigurationValue" : "Kinetic Task 4+",
+    "ConfigurationValue_Viewer" : "Kinetic Task 4+"
+  }, {
+    "ConfigurationType" : "Task Tree Type",
+    "ConfigurationValue" : "Complete",
+    "ConfigurationValue_Viewer" : "Complete"
+  }, {
+    "ConfigurationType" : "Task Tree Type",
+    "ConfigurationValue" : "Create",
+    "ConfigurationValue_Viewer" : "Create"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_MSG_Manager:TemplateManager",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_RPT_AdvancedReportConsole",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_RPT_ReportManager",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_SRV_AdvancedHTMLEditor",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_SRV_ConfigurationManager",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_SRV_IntegrationManager",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_SRV_IntegrationMgr:AddIntegration",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_SRV_ListManager",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_SRV_SurveyManager",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_SRV_SurveyManager:Questions",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "ONLINE HELP-KS_SRV_Viewer:GlobalSearch",
+    "ConfigurationValue" : "http://www.kineticdata.com/Support/index.html",
+    "ConfigurationValue_Viewer" : "http://www.kineticdata.com/Support/index.html"
+  }, {
+    "ConfigurationType" : "Web Servers List",
+    "ConfigurationValue" : "http://alternate.kineticWebServer.com:8080/kinetic/",
+    "ConfigurationValue_Viewer" : "http://alternate.kineticWebServer.com:8080/kinetic/"
+  }, {
+    "ConfigurationType" : "Web CSRF Protection",
+    "ConfigurationValue" : "ENABLED",
+    "ConfigurationValue_Viewer" : "ENABLED"
+  }, {
+    "ConfigurationType" : "Web Frame Policy",
+    "ConfigurationValue" : "ALLOW",
+    "ConfigurationValue_Viewer" : "ALLOW"
+  }, {
+    "ConfigurationType" : "Web Redirection Whitelist",
+    "ConfigurationValue" : "",
+    "ConfigurationValue_Viewer" : ""
+  }, {
+    "ConfigurationType" : "Display Reports",
+    "ConfigurationValue" : "No",
+    "ConfigurationValue_Viewer" : "No"
+  } ]
+}

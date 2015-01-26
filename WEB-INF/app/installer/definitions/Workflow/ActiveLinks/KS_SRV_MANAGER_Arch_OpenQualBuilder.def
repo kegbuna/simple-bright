@@ -1,0 +1,36 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_Arch_OpenQualBuilder
+   timestamp      : 1421095824
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 700036558
+   enable         : 1
+   permission     : 10105
+   action {
+      open-server : @
+      open-schema : KS_ACC_AdvancedQualification
+      open-vui    : QualBuilderView
+      open-close  : 1
+      open-input  : 4\600000300\101\4\26\KS_SRV_CustomerSurvey_base\700009119\102\1\@\1\@\1\700036559\0\1\4\700009186\101\1\0\700009197\101\1\0\
+      open-output : 1\700036559\102\1\@\28\KS_ACC_AdvancedQualification\1\700009119\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

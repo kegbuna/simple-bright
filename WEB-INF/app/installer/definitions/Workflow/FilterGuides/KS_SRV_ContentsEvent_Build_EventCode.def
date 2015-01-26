@@ -1,0 +1,186 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ContentsEvent_Build_EventCode
+   type           : 4
+   num-references : 34
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\20\KS_SRV_ContentEvents\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_CheckForLeft
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Standard
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_load_left
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_AddSource
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_ActionCode_Left
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_IfExpression
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_ActionID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_ActionID_UseDataSource
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_ActionID_IsNull
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Synchronous
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Synchronous_IsNull
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_UseGetEntry
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Timeout
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_ListFields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_Menu
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_Menu_UseDataSource
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_Custom_SetTempField
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_Custom
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_Set Fields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_SubmissionLock
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_AlertOnNoMatch
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_NullOnNoMatch
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_Set Fields_1
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Left_NULL
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Right
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_CheckForRight
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Standard
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_load_right
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_ActionCode_Right
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_IfExpression
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_ActionID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Synchronous
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Timeout
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_EventCode_Params_Right
+}
+end

@@ -1,0 +1,42 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_IntMgr_SaveRuleInstance
+   timestamp      : 1421095815
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationManager
+   actlink-mask   : 1
+   actlink-control: 700001909
+   enable         : 1
+   permission     : 0
+   action {
+      push-field  : 0\1\@\30\KS_SRV_IntegrationRuleInstance\1\7\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700009007\0\1\4\
+      push-field  : 1\1\@\30\KS_SRV_IntegrationRuleInstance\1\490000700\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\490000700\0\1\4\
+      push-field  : 2\1\@\30\KS_SRV_IntegrationRuleInstance\1\600000042\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\101\4\15\RuleMaintenance\
+      push-field  : 3\1\@\30\KS_SRV_IntegrationRuleInstance\1\700000037\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700000037\0\1\4\
+      push-field  : 4\1\@\30\KS_SRV_IntegrationRuleInstance\1\700000038\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700000038\0\1\4\
+      push-field  : 5\1\@\30\KS_SRV_IntegrationRuleInstance\1\700000039\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700000039\0\1\4\
+      push-field  : 6\1\@\30\KS_SRV_IntegrationRuleInstance\1\700001000\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700001000\0\1\4\
+      push-field  : 7\1\@\30\KS_SRV_IntegrationRuleInstance\1\700001001\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700001001\0\1\4\
+      push-field  : 8\1\@\30\KS_SRV_IntegrationRuleInstance\1\700001038\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700001038\0\1\4\
+      push-field  : 9\1\@\30\KS_SRV_IntegrationRuleInstance\1\700001040\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700001040\0\1\4\
+      push-field  : 10\1\@\30\KS_SRV_IntegrationRuleInstance\1\700001560\1\4\1\99\700001560\1\700001560\4\1\99\700000037\1\700000037\4\3\102\1\*\1\*\1\700001560\0\1\4\
+   }
+   action {
+      set-field   : 0\700003183\101\6\1\
+   }
+   action {
+    commit_changes: 
+   }
+   action {
+      close-wnd   : 
+      close-all   : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

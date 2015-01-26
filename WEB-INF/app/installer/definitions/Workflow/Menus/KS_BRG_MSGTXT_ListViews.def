@@ -1,0 +1,13 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_BRG_MSGTXT_ListViews
+   timestamp      : 1421095884
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 2
+   char-menu      : 0\2\18\KS_BRG_MessageText\1\@\600000328\600000328\1\1\4\1\1\7\2\6\0\4\1\99\600000327\1\600000327\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

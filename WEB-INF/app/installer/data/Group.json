@@ -1,0 +1,38 @@
+{
+  "form" : "Group",
+  "duplicateRecordQualifierFieldNames" : [ "Group ID" ],
+  "data" : [ {
+    "Group ID": "10010",
+    "Group Name": "KS_CORE"
+  }, {
+    "Group ID": "10105",
+    "Group Name": "KS_SRV"
+  }, {
+    "Group ID": "10110",
+    "Group Name": "KS_MSG"
+  }, {
+    "Group ID": "10305",
+    "Group Name": "KS_SRV_Manager"
+  }, {
+    "Group ID": "10306",
+    "Group Name": "KS_SRV_Inspector"
+  }, {
+    "Group ID": "10307",
+    "Group Name": "KS_SRV_Reporter"
+  }, {
+    "Group ID": "10309",
+    "Group Name": "KS_SRV_Migrator"
+  }, {
+    "Group ID": "10310",
+    "Group Name": "KS_SRV_Integrator"
+  }, {
+    "Group ID": "10350",
+    "Group Name": "KS_RQT_Manager"
+  }, {
+    "Group ID": "10355",
+    "Group Name": "KS_RQT_Inspector"
+  }, {
+    "Group ID": "10391",
+    "Group Name": "KS_BRG_Manager"
+  } ]
+}

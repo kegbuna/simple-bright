@@ -1,0 +1,567 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:17:44 2015
+#
+begin container
+   name           : KineticSurveyRequest - Forms Only
+   type           : 3
+   num-references : 109
+   timestamp      : 1421095887
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 10105\1
+   label          : Forms only for the Kinetic Survey & Kinetic Request Application.
+   description    : VERSION: 5.2.0
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_Attachment
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_AttachmentType
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_Audit
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_Exception_Handler
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_Menu
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_MessageText
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_NoteAssembler
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_Schedule
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ACC_ScheduledEvent
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ARCH_ACC_Attachment
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ARCH_ACC_Audit
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ARCH_MSG_Message
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ARCH_RQT_Task
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ARCH_SRV_CustomerSurvey_base
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ARCH_SRV_SurveyAnswer
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ARCH_SRV_SurveyAnswerUnlimted
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ARCH_SRV_SurveyResult
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ATT_AttributeInstance
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ATT_AttributeType
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ATT_DataDictionary
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ATT_DataDictionary2Tables
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_Attribute
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_AttributeMapping
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_Bridge
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_Menu
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_MessageText
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_Model
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_ModelMapping
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_Parameter
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_Qualification
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_QualificationMapping
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_MSG_Message
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_MSG_MessageTemplate
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RPT_ReportCategory
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RPT_SavedSearches
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_Approval
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_BridgedResource
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_BridgedResourceParameter
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_Conversation
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_Lock
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_Message
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_ServiceCatalog_base
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_ServiceCatalog_UserServiceItems
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_ServiceItemCategory
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_Task
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_TaskApiCall
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_TaskApiCallLock
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_TaskSeed
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_TaskServer
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SAMPLE_Association
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SAMPLE_Change
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SAMPLE_ChangeTask
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SAMPLE_Incident
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SAMPLE_People
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SAMPLE_ProductLibrary
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SHARE_Basic_Template
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_AnswerPatternMatch
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_ArchiveFormSettings
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CacheEvent
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Category
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_ClientSideEvent
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_ConfigurationValue
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_ContentEvents
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_ContentsElementHTML
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CSS_UNION
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerSurvey_base
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerSurvey_ImportExport
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DataSet
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DataSet_Question_Union
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DisplayPage_UNION
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DynAnswerHideShow_Items
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DynAnswerValue
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Element_Event_Mapping
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_FieldMap
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_FormEventInstance
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Helper
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_IntegrationConnector
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_IntegrationRuleInstance
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_IntegrationRuleTemplate
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_IntegrationSample
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_IntegrationSource
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_List_Member
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_List_Name
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_List_Relationships
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_NextPage
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_NotificationRule
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_PageBranchingEvaluation
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_PageBranchingOptions
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_PageBranchingPath
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SavedSearches
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SimpleDataRequest
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Sithco:Association
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SithcoIncident
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SithcoPerson
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_StyleApplied
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyAnswer
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyAnswerUnlimited
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyQuestion
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyQuestionChoice
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyResult
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyTemplate
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Version
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_WebUserMessage
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_TSK_Tree
+}
+reference {
+   type           : 32783
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 32793
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 32784
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 32785
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 32801
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+end

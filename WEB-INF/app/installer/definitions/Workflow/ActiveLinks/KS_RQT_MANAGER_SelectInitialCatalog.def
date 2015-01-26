@@ -1,0 +1,29 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_SelectInitialCatalog
+   timestamp      : 1421095775
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 51
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 262145
+   actlink-control: 536870905
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\700036000\101\1\0\
+   }
+   action {
+      set-field   : 0\700001089\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\600000500\4\4\1\536870923\2\6\2\2\3\
+      set-field   : 1\700001923\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\536870918\4\4\1\536870923\2\6\2\2\3\
+   }
+   action {
+      command     : PERFORM-ACTION-ACTIVE-LINK 128 700001089
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

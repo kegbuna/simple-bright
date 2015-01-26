@@ -1,0 +1,42 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_MSG_SearchTemplateByCategory
+   type           : 1
+   num-references : 5
+   timestamp      : 1421095850
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\14\KS_MSG_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   description    : Process for searching for a message template.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_MSG_MGR_SearchTmplClrQual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_MSG_MGR_SearchTmpltCatQual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_MSG_MGR_SearchTmpltANDQual_Type
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_MSG_MGR_SearchTmpltTypeQual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_MSG_MGR_SearchTmpltCatRefr
+}
+end

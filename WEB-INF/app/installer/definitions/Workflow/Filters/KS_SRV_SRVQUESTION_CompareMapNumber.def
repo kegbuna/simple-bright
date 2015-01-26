@@ -1,0 +1,31 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_CompareMapNumber
+   timestamp      : 1421095879
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   filter-query   : 4\3\99\700008020\99\700008021\
+   action {
+      set-field   : 0\700008020\104\1\102\1\@\1\@\1\700008020\0\1\4\101\2\1\
+      set-field   : 1\600000094\102\1\@\1\@\1\700011205\0\1\4\
+   }
+   else {
+      set-field   : 0\700001123\102\1\@\1\@\1\700008020\0\1\4\
+   }
+   else {
+      set-field   : 0\700008020\101\0\
+   }
+   else {
+      exit guide  : 0
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

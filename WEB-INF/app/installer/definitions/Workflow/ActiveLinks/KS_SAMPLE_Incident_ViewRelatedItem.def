@@ -1,0 +1,43 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SAMPLE_Incident_ViewRelatedItem
+   timestamp      : 1421095779
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SAMPLE_Incident
+   actlink-mask   : 3
+   actlink-control: 240000215
+   actlink-focus  : 536870919
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\770000004\2\0\
+   action {
+      set-field   : 0\700002004\102\1\*\1\*\1\770000006\0\1\4\
+   }
+   action {
+      set-field   : 0\700002004\102\1\@\26\KS_SRV_CustomerSurvey_base\1\179\4\1\1\1\99\700002004\2\3\
+   }
+   action {
+      open-server : @
+      open-schema : KS_SRV_Viewer
+      open-vui    : CompletedCustomerSurvey
+      open-close  : 1
+      open-input  : 1\179\102\1\@\1\@\1\700002004\0\1\4\
+      open-output : 0\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

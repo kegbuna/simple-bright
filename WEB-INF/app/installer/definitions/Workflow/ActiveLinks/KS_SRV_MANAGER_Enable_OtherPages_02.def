@@ -1,0 +1,168 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_Enable_OtherPages_02
+   timestamp      : 1421095827
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   enable         : 1
+   permission     : 0
+   action {
+      id          : 700001298
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700002904
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 536870907
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700073300
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000013
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700070500
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700070502
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700070501
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700004600
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700004602
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700004601
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 702031801
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 70000100
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700072155
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000009
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000040
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000041
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000043
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000042
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000044
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000046
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000047
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000051
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000017
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000016
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_SVDSEARCH_DLG_SetSavedSearchID
+   timestamp      : 1421095844
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SavedSearch_dlg
+   actlink-mask   : 128
+   actlink-focus  : 710000000
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\710000000\2\0\
+   action {
+      set-field   : 0\700071321\102\1\*\1\*\1\710000000\0\1\4\
+   }
+   action {
+      set-field   : 0\710000000\102\1\@\20\KS_SRV_SavedSearches\1\710000000\4\1\1\179\99\710000000\2\3\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

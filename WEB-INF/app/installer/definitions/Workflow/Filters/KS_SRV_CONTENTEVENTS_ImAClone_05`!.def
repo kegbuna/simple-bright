@@ -1,0 +1,29 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CONTENTEVENTS_ImAClone_05`!
+   timestamp      : 1421095866
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentEvents
+   export-version : 9
+   filter-query   : 1\1\4\1\99\600000042\2\4\5\Clone\4\6\99\600000043\2\0\4\6\99\700004630\2\0\
+   action {
+      set-field   : 0\600000090\103\28\Application-Generate-GUID KS\
+   }
+   action {
+      push-field  : 0\1\@\24\KS_SRV_SimpleDataRequest\1\700001043\1\4\1\1\700001001\99\700001044\4\1\1\179\99\700004630\3\5\102\1\@\1\@\1\600000090\0\1\4\
+      push-field  : 1\1\@\24\KS_SRV_SimpleDataRequest\1\600000043\1\4\1\1\700001001\99\700001044\4\1\1\179\99\700004630\3\5\102\1\@\1\@\1\700000800\0\1\4\
+      push-field  : 2\1\@\24\KS_SRV_SimpleDataRequest\1\600000042\1\4\1\1\700001001\99\700001044\4\1\1\179\99\700004630\3\5\101\4\5\Clone\
+   }
+   action {
+      set-field   : 0\700004630\102\1\@\1\@\1\600000090\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

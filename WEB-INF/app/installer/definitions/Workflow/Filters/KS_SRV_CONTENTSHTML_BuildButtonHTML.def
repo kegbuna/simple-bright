@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CONTENTSHTML_BuildButtonHTML
+   timestamp      : 1421095868
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 950
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentsElementHTML
+   export-version : 9
+   filter-query   : 1\1\4\1\99\700001202\2\6\5\2\4\1\99\700002409\2\0\4\1\99\700002409\2\6\0\2\4\1\99\700001690\2\0\4\1\99\600000042\2\4\14\REBUILD_LAYOUT\
+   action {
+      set-field   : 0\700001690\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\101\4\16\<div id='BUTTON_\102\1\@\1\@\1\179\0\1\4\101\4\9\' label='\102\1\@\1\@\1\700002308\0\1\4\101\4\50\' class='templateButtonLayer submitButton' style='\102\1
+      set-field   : 0\\@\1\@\1\70000105\0\1\4\101\4\21\'> <input id='SUBMIT_\102\1\@\1\@\1\179\0\1\4\101\4\38\' type='button' name='Submit' value= '\102\1\@\1\@\1\700002308\0\1\4\101\4\33\' class='templateButton'/> </div>\
+
+      set-field   : 1\700001080\104\1\101\4\7\BUTTON_\102\1\@\1\@\1\179\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

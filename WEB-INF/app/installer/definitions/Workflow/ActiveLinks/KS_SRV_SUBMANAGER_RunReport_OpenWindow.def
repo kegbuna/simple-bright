@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_SUBMANAGER_RunReport_OpenWindow
+   timestamp      : 1421095843
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 200
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SubmissionManager
+   schema-name    : KS_RQT_SubmissionManager
+   actlink-mask   : 3
+   actlink-control: 700002874
+   actlink-focus  : 700002745
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\4\6\1\700009265\2\0\4\6\1\700009260\2\0\4\6\1\700004205\2\0\
+   action {
+      open-server : $700009265$
+      open-schema : $700009260$
+      open-vui    : Default Admin View
+      open-close  : 0
+      open-input  : 0\
+      open-output : 0\
+      open-winmod : 9
+      open-target : Current
+      open-pollint: 0
+      open-query  : 5\700004205\
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+      open-rptstr : Report: 21=$700004019$22=$700004018$29=227=28=Yes24=25=26=30=2to-screen: 
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\27\1\0\@\KS_SRV_CustomerSurvey\60017\4\1\0\
+end

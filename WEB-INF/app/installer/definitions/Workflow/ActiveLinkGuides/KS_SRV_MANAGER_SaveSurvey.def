@@ -1,0 +1,105 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_MANAGER_SaveSurvey
+   type           : 1
+   num-references : 17
+   timestamp      : 1421095852
+   owner          : KineticData, Inc.
+   owning-obj     : 2\2\14\KS_SRV_Manager\2\14\KS_RQT_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : ErrorChecking
+   value          : 0\
+   ref-groups     : 0
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_Save_CheckForLock_01
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_Save_CheckForLock_02
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetExistingValuesforCheck
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_CategoryAndName_Required
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_DisplayNameCheck
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_WarnStatusChangetoActive
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_StatusActiveCheckResponse
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ChkDataSetChange
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ChkDataSetChange_No
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ClearArchiveFieldsOnSave_Off
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ClearArchiveFieldsOnSave_External
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_EnforceArchQualOnSave
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : OK-Save
+   value          : 0\
+   ref-groups     : 0
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ContextChanged
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SaveTemplate
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_MANAGER_SaveTemplate
+}
+end

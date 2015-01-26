@@ -1,0 +1,53 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RPT_CONSOLE_SaveQualification_0
+   timestamp      : 1421095767
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 1
+   wk-conn-type   : 1
+   schema-name    : KS_RPT_AdvancedReportConsole
+   actlink-mask   : 1
+   actlink-control: 700000105
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700000104\2\0\
+   action {
+      open-server : @
+      open-schema : KS_RPT_SavedSearch_dlg
+      open-vui    : Save Qualification
+      open-close  : 1
+      open-input  : 3\700000107\102\1\@\1\@\1\700000102\0\1\4\700000330\102\1\@\1\@\1\700000375\0\1\4\700000406\102\1\@\1\@\1\700000406\0\1\4\
+      open-output : 3\700000136\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000300\0\1\4\700000137\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000304\0\1\4\700000138\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000310\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   else {
+      id          : 700000109
+      focus       : 1
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+      set-field   : 0\600000098\101\2\640\
+   }
+   else {
+      call-server : @
+      call-guide  : KS_SHARE_Message_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

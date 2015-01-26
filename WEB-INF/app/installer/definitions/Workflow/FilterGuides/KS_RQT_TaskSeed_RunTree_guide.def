@@ -1,0 +1,47 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_RQT_TaskSeed_RunTree_guide
+   type           : 4
+   num-references : 6
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\15\KS_RQT_TaskSeed\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   description    : Creates a Task API Call record to run a tree.
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_EncodeSourceName
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_EncodeSourceGroup
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_EncodeTreeName
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_RunTree_PushToTaskApiCall
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_SetCompleted
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : END
+   value          : 0\
+}
+end

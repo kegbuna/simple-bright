@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_Add_Att_Inst2-2
+   timestamp      : 1421095824
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 2
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\710000001\2\4\10\Attachment\
+   action {
+      push-field  : 0\1\@\17\KS_ACC_Attachment\1\600000300\4\1\99\179\1\600000310\4\3\101\4\24\KS_ATT_AttributeInstance\
+      push-field  : 1\1\@\17\KS_ACC_Attachment\1\600000310\4\1\99\179\1\600000310\4\3\102\1\*\1\*\1\710000010\0\1\4\
+      push-field  : 2\1\@\17\KS_ACC_Attachment\1\700000001\4\1\99\179\1\600000310\4\3\102\1\*\1\*\1\710000007\0\1\4\
+      push-field  : 3\1\@\17\KS_ACC_Attachment\1\700000085\4\1\99\179\1\600000310\4\3\102\1\*\1\*\1\710000074\0\1\4\
+      push-field  : 4\1\@\17\KS_ACC_Attachment\1\700000090\4\1\99\179\1\600000310\4\3\101\4\40\Attachment from KS_ATT_AttributeInstance\
+      push-field  : 5\1\@\17\KS_ACC_Attachment\1\700036000\4\1\99\179\1\600000310\4\3\102\1\*\1\*\1\700036000\0\1\4\
+   }
+   action {
+      set-field   : 0\710000007\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

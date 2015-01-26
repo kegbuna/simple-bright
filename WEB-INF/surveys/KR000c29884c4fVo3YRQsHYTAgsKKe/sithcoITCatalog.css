@@ -1,0 +1,67 @@
+/* CSS Document */
+body{
+background-color:#CCCCCC; 
+font-family:Arial, Helvetica, sans-serif;
+margin:0px;
+padding:2px; 
+font-size:12px;   
+}
+div{
+position:relative; 
+}
+.secondColorHeader{
+BACKGROUND-IMAGE: url(../../resources/catalogIcons/grayBarBg.gif);
+BACKGROUND-COLOR: #cccccc; 
+BACKGROUND-REPEAT:repeat-x;
+FONT-WEIGHT:bold; 
+COLOR:#000000;
+}
+.primaryColorHeader{
+BACKGROUND-COLOR:#003399;   
+BACKGROUND-IMAGE:url(../../resources/catalogIcons/dkBlueBarBg.gif);
+BACKGROUND-REPEAT:repeat-x;
+FONT-WEIGHT:bold; 
+COLOR:#FFFFFF;
+}
+.sithcoPageHeader{
+BORDER-RIGHT: #cccccc 1px solid;
+BORDER-TOP: #cccccc 1px solid;
+BACKGROUND-IMAGE: url(../../surveys/kineticImageLibrary/SithcoHeader.gif);
+BACKGROUND-REPEAT:no-repeat;
+OVERFLOW: hidden;
+BORDER-LEFT: #cccccc 1px solid;
+MARGIN-RIGHT: 2px;
+BORDER-BOTTOM: #cccccc 1px solid;
+POSITION: relative;
+HEIGHT: 48px; 
+}
+.loginInfo{
+POSITION: absolute;
+TOP: 25px;
+FONT-WEIGHT: bold;
+FONT-SIZE: 1em;
+LEFT: 525px;
+WIDTH: 40%;
+COLOR: #ffffff;
+FONT-STYLE: italic;
+TEXT-ALIGN: right;  
+}
+.standard_box{
+padding: 2px;
+border: 1px solid #003399;
+margin:1px;    
+}
+.templateContent{
+width:925px;
+padding:2px;   
+background-color:#FFFFFF;
+border: 1px solid #003399;     
+}
+a.logout:link, a.logout:visited{
+color:#FFFFFF;
+padding-left:10px;      
+}
+div.threeUp div.questionLayer{
+float:left;
+width:22%;   
+}

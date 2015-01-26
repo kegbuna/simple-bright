@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_SUBMANAGER_SearchCustSurveyFor_NoSurveyError
+   timestamp      : 1421095777
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 20
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_SubmissionManager
+   actlink-mask   : 3
+   actlink-control: 700001708
+   actlink-focus  : 700001706
+   enable         : 1
+   permission     : 10105
+   actlink-query  : 1\1\1\4\6\1\700001698\2\4\14\Originating ID\4\6\1\700001698\2\4\13\Submission ID\4\6\1\700001698\2\0\4\1\1\700000800\2\0\
+   action {
+      set-field   : 0\600000098\101\2\581\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_Message_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

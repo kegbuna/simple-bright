@@ -1,0 +1,69 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_IntMgr_RecBuilder_SelectOutboundType_Approval
+   timestamp      : 1421095813
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationManager
+   actlink-mask   : 16513
+   actlink-control: 770000200
+   actlink-focus  : 700066510
+   enable         : 1
+   permission     : 0 10105
+   actlink-query  : 4\1\1\700066510\2\4\8\Approval\
+   action {
+   display-prop   : 2\4\6\1\22\4\7\Default\
+      id          : 770000231
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 2\4\6\1\22\4\7\Default\
+      id          : 770000223
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      id          : 700000031
+      char-menu   : KS_SRV_IntegrationSources_OutboundType
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 2\4\6\0\22\4\7\Default\
+      id          : 700066620
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      id          : 700066511
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+   display-prop   : 2\4\6\1\22\4\7\Default\
+      id          : 700088100
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 2\225\6\1\22\4\7\Default\
+      id          : 700088200
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

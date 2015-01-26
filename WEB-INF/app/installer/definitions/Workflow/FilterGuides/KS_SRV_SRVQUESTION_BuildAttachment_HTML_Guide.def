@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SRVQUESTION_BuildAttachment_HTML_Guide
+   type           : 4
+   num-references : 5
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\21\KS_SRV_SurveyQuestion\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_SetReadOnlyDisplay_Disabled
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildAttachment_HTML
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildAttachment_HTML_Required
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildAttachment_HTML_LoadButton
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildAttachment_HTML_ClearButton
+}
+end

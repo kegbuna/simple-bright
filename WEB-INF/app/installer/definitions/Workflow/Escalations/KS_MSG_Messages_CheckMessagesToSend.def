@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin escalation
+   name           : KS_MSG_Messages_CheckMessagesToSend
+   timestamp      : 1421095855
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enable         : 1
+   escl-tmType    : 1
+   export-version : 9
+   escl-interval  : 180
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Message
+   escl-query     : 1\4\4\1\700004001\2\1\2\4\1\1\7\2\6\1\
+   action {
+      set-field   : 0\600000530\101\6\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

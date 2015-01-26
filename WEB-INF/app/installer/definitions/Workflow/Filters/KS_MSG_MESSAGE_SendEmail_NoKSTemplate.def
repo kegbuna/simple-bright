@@ -1,0 +1,51 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_MSG_MESSAGE_SendEmail_NoKSTemplate
+   timestamp      : 1421095858
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 950
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Message
+   export-version : 9
+   filter-query   : 1\1\4\6\99\600000530\2\0\2\4\1\99\536870913\2\4\5\Email\4\1\99\536870913\2\0\4\6\99\700003530\2\6\0\
+   action {
+      push-field  : 0\1\@\24\AR System Email Messages\1\18290\0\4\6\102\1\@\1\@\1\18290\0\1\4\
+      push-field  : 1\1\@\24\AR System Email Messages\1\18139\0\4\6\102\1\@\1\@\1\18139\0\1\4\
+      push-field  : 2\1\@\24\AR System Email Messages\1\18137\0\4\6\102\1\@\1\@\1\18137\0\1\4\
+      push-field  : 3\1\@\24\AR System Email Messages\1\18135\0\4\6\102\1\@\1\@\1\18135\0\1\4\
+      push-field  : 4\1\@\24\AR System Email Messages\1\18110\0\4\6\102\1\@\1\@\1\600000260\0\1\4\
+      push-field  : 5\1\@\24\AR System Email Messages\1\18109\0\4\6\102\1\@\1\@\1\18109\0\1\4\
+      push-field  : 6\1\@\24\AR System Email Messages\1\18108\0\4\6\102\1\@\1\@\1\18108\0\1\4\
+      push-field  : 7\1\@\24\AR System Email Messages\1\18102\0\4\6\102\1\@\1\@\1\18102\0\1\4\
+      push-field  : 8\1\@\24\AR System Email Messages\1\18099\0\4\6\101\6\1\
+      push-field  : 9\1\@\24\AR System Email Messages\1\18096\0\4\6\102\1\@\1\@\1\18096\0\1\4\
+      push-field  : 10\1\@\24\AR System Email Messages\1\18093\0\4\6\102\1\@\1\@\1\18093\0\1\4\
+      push-field  : 11\1\@\24\AR System Email Messages\1\18092\0\4\6\101\6\1\
+      push-field  : 12\1\@\24\AR System Email Messages\1\18091\0\4\6\102\1\@\1\@\1\18091\0\1\4\
+      push-field  : 13\1\@\24\AR System Email Messages\1\18090\0\4\6\102\1\@\1\@\1\18090\0\1\4\
+      push-field  : 14\1\@\24\AR System Email Messages\1\18089\0\4\6\102\1\@\1\@\1\18089\0\1\4\
+      push-field  : 15\1\@\24\AR System Email Messages\1\18088\0\4\6\102\1\@\1\@\1\18088\0\1\4\
+      push-field  : 16\1\@\24\AR System Email Messages\1\18087\0\4\6\102\1\@\1\@\1\18087\0\1\4\
+      push-field  : 17\1\@\24\AR System Email Messages\1\18086\0\4\6\102\1\@\1\@\1\18086\0\1\4\
+      push-field  : 18\1\@\24\AR System Email Messages\1\18085\0\4\6\102\1\@\1\@\1\18085\0\1\4\
+      push-field  : 19\1\@\24\AR System Email Messages\1\18082\0\4\6\102\1\@\1\@\1\18093\0\1\4\
+      push-field  : 20\1\@\24\AR System Email Messages\1\179\0\4\6\102\1\@\1\@\1\179\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\20\KS_ACC_NoteAssembler\1\700000295\1\4\1\1\700001310\99\1\4\1\1\7\2\6\2\3\3\101\6\0\
+   }
+   action {
+      push-field  : 0\1\@\20\KS_ACC_NoteAssembler\1\700000295\1\4\1\1\600000310\99\600000310\4\1\1\7\2\6\2\3\5\101\6\0\
+   }
+   action {
+      set-field   : 0\700004001\101\1\2\
+      set-field   : 1\7\101\6\2\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

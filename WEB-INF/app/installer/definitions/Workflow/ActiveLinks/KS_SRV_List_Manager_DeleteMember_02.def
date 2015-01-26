@@ -1,0 +1,42 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_List_Manager_DeleteMember_02
+   timestamp      : 1421095820
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Manager
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\3\2\1\24\2\4\1\1\
+   action {
+      push-field  : 0\1\@\18\KS_SRV_List_Member\1\7\4\1\99\700000065\1\179\3\3\101\6\2\
+   }
+   action {
+      push-field  : 0\1\@\25\KS_SRV_List_Relationships\1\7\4\1\99\700000065\1\700000002\3\5\101\6\2\
+   }
+   action {
+      set-field   : 0\700000251\101\0\
+      set-field   : 1\770000200\101\0\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700000060
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700000005
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

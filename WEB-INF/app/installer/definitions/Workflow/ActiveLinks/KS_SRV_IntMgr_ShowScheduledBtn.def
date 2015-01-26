@@ -1,0 +1,38 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_IntMgr_ShowScheduledBtn
+   timestamp      : 1421095817
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 910
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationManager
+   actlink-mask   : 16512
+   actlink-focus  : 700002034
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700002234\2\4\15\Batch-Recurring\
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700004078
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      set-field   : 0\700004078\101\0\
+      set-field   : 1\700009197\101\6\1\
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700004198
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

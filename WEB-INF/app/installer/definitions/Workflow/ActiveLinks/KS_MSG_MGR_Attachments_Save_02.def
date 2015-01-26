@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_MSG_MGR_Attachments_Save_02
+   timestamp      : 1421095764
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 310
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Manager
+   actlink-mask   : 1
+   actlink-control: 700005001
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\70005000\2\0\
+   action {
+      set-field   : 0\70005000\101\1\13\
+   }
+   action {
+      set-field   : 0\18000\102\1\@\27\AR System Email Attachments\1\179\4\1\1\1\99\70005000\2\3\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

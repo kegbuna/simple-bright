@@ -1,0 +1,46 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_SimpleDataRequest_Test_ExecuteTest_GenerateURL-08
+   timestamp      : 1421095842
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SimpleDataRequest
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\600000094\2\0\
+   action {
+      set-field   : 0\700009874\102\1\*\1\*\1\600000094\0\1\4\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_EncodeSurveyURL
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\536870926\104\1\104\1\104\1\102\1\*\1\*\1\536870926\0\1\4\101\4\1\&\102\1\*\1\*\1\700009874\0\1\4\101\4\1\=\
+   }
+   action {
+      set-field   : 0\700009874\102\1\*\1\*\1\600000109\0\1\4\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_EncodeSurveyURL
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\536870926\104\1\102\1\*\1\*\1\536870926\0\1\4\102\1\*\1\*\1\700009874\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

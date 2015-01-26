@@ -1,0 +1,133 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_List_Member
+   type           : 5
+   num-references : 10
+   timestamp      : 1421095887
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\18\KS_SRV_List_Member\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   permission     : 10105\1
+   label          : Kinetic Survey List Member
+   description    : Web service for used to submit and modify members of the Kinetic Survey List Manager.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\112\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>	</wsProperties>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\283\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="NewMember" type="create">		<inputMapping name="Crea
+   value          : teInputMap" topLevelElement="NewMember"/>		<outputMapping name="CreateOutputMap" topLevelElement="NewMemberResponse"/>	</operation>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\478\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="ModifyMember" type="set" qualification="&apos;Request
+   value          :  ID&apos; = XPATH(/ROOT/Request_ID)">		<arOptions>			<setOptions>				<type>setAll</type>				<documentType>full</documentType>			</setOptions>
+   value          : 		</arOptions>		<inputMapping name="SetInputMap" topLevelElement="ModifyMember"/>		<outputMapping name="SetOutputMap" topLevelElement="ModifyMembe
+   value          : rResponse"/>	</operation>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\130\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="SetOutputMap" arDocVersion="8"/>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1130\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="CreateInputMap" arDocVersion="8" schemaSource="ge
+   value          : nerated">		<formMapping>			<form formName="KS_SRV_List_Member" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" 
+   value          : nillable="true" targetNamespace="urn:KS_SRV_List_Member">				<element name="Company_ID" dataType="string" nillable="true">					<fieldMapping arField
+   value          : Id="400098500"/>				</element>				<element name="Company_Name" dataType="string" nillable="true">					<fieldMapping arFieldId="400005200"/>				<
+   value          : /element>				<element name="Contact_ID" dataType="string" nillable="true">					<fieldMapping arFieldId="400068300"/>				</element>				<element n
+   value          : ame="Contact_Info_Value" dataType="string">					<fieldMapping arFieldId="700004000"/>				</element>				<element name="First_Name" dataType="string
+   value          : ">					<fieldMapping arFieldId="400007300"/>				</element>				<element name="Last_Name" dataType="string">					<fieldMapping arFieldId="40000750
+   value          : 0"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1179\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="SetInputMap" arDocVersion="8" schemaSource="gener
+   value          : ated">		<formMapping>			<form formName="KS_SRV_List_Member" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" nil
+   value          : lable="true" targetNamespace="urn:KS_SRV_List_Member">				<element name="Company_ID" dataType="string" nillable="true">					<fieldMapping arFieldId=
+   value          : "400098500"/>				</element>				<element name="Company_Name" dataType="string" nillable="true">					<fieldMapping arFieldId="400005200"/>				</el
+   value          : ement>				<element name="Contact_ID" dataType="string" nillable="true">					<fieldMapping arFieldId="400068300"/>				</element>				<element name
+   value          : ="Contact_Info_Value" dataType="string">					<fieldMapping arFieldId="700004000"/>				</element>				<element name="First_Name" dataType="string">
+   value          : 					<fieldMapping arFieldId="400007300"/>				</element>				<element name="Last_Name" dataType="string">					<fieldMapping arFieldId="400007500"
+   value          : />				</element>				<element name="Request_ID" dataType="string"/>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\511\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="CreateOutputMap" arDocVersion="8" schemaSource="ge
+   value          : nerated">		<formMapping>			<form formName="KS_SRV_List_Member" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" 
+   value          : nillable="true" targetNamespace="urn:KS_SRV_List_Member">				<element name="Request_ID" dataType="string">					<fieldMapping arFieldId="1"/>				</
+   value          : element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\5047\<?xml version="1.0" encoding="UTF-8"?><definitions targetNamespace="urn:KS_SRV_List_Member" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:s="u
+   value          : rn:KS_SRV_List_Member" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://s
+   value          : chemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDefault="qualified" targetNamespace="ur
+   value          : n:KS_SRV_List_Member">   <xsd:element name="NewMember" type="s:CreateInputMap"/>   <xsd:complexType name="CreateInputMap">    <xsd:sequence>    
+   value          :  <xsd:element name="Company_ID" nillable="true" type="xsd:string"/>     <xsd:element name="Company_Name" nillable="true" type="xsd:string"/>     <xs
+   value          : d:element name="Contact_ID" nillable="true" type="xsd:string"/>     <xsd:element name="Contact_Info_Value" type="xsd:string"/>     <xsd:element name
+   value          : ="First_Name" type="xsd:string"/>     <xsd:element name="Last_Name" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element n
+   value          : ame="NewMemberResponse" type="s:CreateOutputMap"/>   <xsd:complexType name="CreateOutputMap">    <xsd:sequence>     <xsd:element name="Request_ID"
+   value          :  type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element name="ModifyMember" type="s:SetInputMap"/>   <xsd:complexType name="
+   value          : SetInputMap">    <xsd:sequence>     <xsd:element name="Company_ID" nillable="true" type="xsd:string"/>     <xsd:element name="Company_Name" nillab
+   value          : le="true" type="xsd:string"/>     <xsd:element name="Contact_ID" nillable="true" type="xsd:string"/>     <xsd:element name="Contact_Info_Value" type
+   value          : ="xsd:string"/>     <xsd:element name="First_Name" type="xsd:string"/>     <xsd:element name="Last_Name" type="xsd:string"/>     <xsd:element name
+   value          : ="Request_ID" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element name="ModifyMemberResponse" type="s:SetOutputMap"/>   <
+   value          : xsd:complexType name="SetOutputMap">    <xsd:sequence/>   </xsd:complexType>   <xsd:element name="AuthenticationInfo" type="s:AuthenticationInfo"/
+   value          : >   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:element name="pa
+   value          : ssword" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name="locale" ty
+   value          : pe="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:schema> </
+   value          : wsdl:types>   <message name="ARAuthenticate">      <part element="s:AuthenticationInfo" name="parameters"/>   </message>   <message name
+   value          : ="NewMemberSoapIn">      <part element="s:NewMember" name="parameters"/>   </message>   <message name="NewMemberSoapOut">      <part ele
+   value          : ment="s:NewMemberResponse" name="parameters"/>   </message>   <message name="ModifyMemberSoapIn">      <part element="s:ModifyMember" name="
+   value          : parameters"/>   </message>   <message name="ModifyMemberSoapOut">      <part element="s:ModifyMemberResponse" name="parameters"/>   </me
+   value          : ssage>   <portType name="KS_SRV_List_MemberPortType">      <operation name="NewMember">         <input message="s:NewMemberSoapIn"/>    
+   value          :      <output message="s:NewMemberSoapOut"/>      </operation>      <operation name="ModifyMember">         <input message="s:ModifyMemberSoa
+   value          : pIn"/>         <output message="s:ModifyMemberSoapOut"/>      </operation>   </portType>   <binding name="KS_SRV_List_MemberSoapBinding"
+   value          :  type="s:KS_SRV_List_MemberPortType">      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>      <operation nam
+   value          : e="NewMember">         <soap:operation soapAction="urn:KS_SRV_List_Member/NewMember" style="document"/>         <input>            <soap:hea
+   value          : der message="s:ARAuthenticate" part="parameters" use="literal">            </soap:header>            <soap:body use="literal"/>         </in
+   value          : put>         <output>            <soap:body use="literal"/>         </output>      </operation>      <operation name="ModifyMember">
+   value          :          <soap:operation soapAction="urn:KS_SRV_List_Member/ModifyMember" style="document"/>         <input>            <soap:header message
+   value          : ="s:ARAuthenticate" part="parameters" use="literal">            </soap:header>            <soap:body use="literal"/>         </input>   
+   value          :       <output>            <soap:body use="literal"/>         </output>      </operation>   </binding>   <service name="KS_SRV_List_M
+   value          : emberService">  <wsdl:documentation>Web service for used to submit and modify members of the Kinetic Survey List Manager.  </wsdl:documentation>
+   value          :       <port binding="s:KS_SRV_List_MemberSoapBinding" name="KS_SRV_List_MemberSoap">         <soap:address location="@LOCATION@"/>      </port
+   value          : >   </service></definitions>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\76\http://<midtier_server>/arsys/WSDL/protected/<servername>/KS_SRV_List_Member\
+   ref-groups     : 0 10105
+}
+end

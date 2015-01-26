@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_BRG_MANAGER_SelectModelSelection
+   timestamp      : 1421095763
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Manager
+   actlink-mask   : 128
+   actlink-focus  : 760000200
+   enable         : 1
+   permission     : 0
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 760000720
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 760000722
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 760000721
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

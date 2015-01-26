@@ -1,0 +1,163 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_SetFieldsToReadOnly
+   timestamp      : 1421095784
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   actlink-mask   : 16384
+   enable         : 1
+   permission     : 0 10105
+   actlink-query  : 1\4\1\1\700001102\2\0\4\2\1\700003602\2\6\0\
+   action {
+      id          : 600000059
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 536870908
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700066201
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700066280
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700004627
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 536870907
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700001630
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700073255
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700073256
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700005027
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700005028
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700005030
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700005029
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700070905
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 770006401
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700004632
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700004582
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 770006500
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700004502
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 536870952
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 536870921
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 536870922
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 770000300
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 536870928
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

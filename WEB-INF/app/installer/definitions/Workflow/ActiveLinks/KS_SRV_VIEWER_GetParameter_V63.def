@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_VIEWER_GetParameter_V63
+   timestamp      : 1421095845
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Viewer
+   actlink-mask   : 262144
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\1\4\1\2\1\22\2\2\9\4\1\1\179\2\0\4\1\2\1\16\2\4\23\CompletedCustomerSurvey\4\3\2\1\15\2\4\4\6.03\
+   action {
+      command     : javascript: if(document.location.search !=""){var pairs = document.location.search.substring(1).split("&");for (var i=0; i < pairs.length; i++){var v
+      command     : alues = pairs[i].split("=");window.F(values[0]).S(new parent.window.CharType(unescape(values[1])));}}
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

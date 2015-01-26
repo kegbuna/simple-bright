@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVTEMPLATE_UpdateIntegrationDataSet
+   timestamp      : 1421095881
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 700
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyTemplate
+   export-version : 9
+   filter-query   : 4\6\99\700000829\51\700000829\
+   action {
+      push-field  : 0\1\@\24\KS_SRV_FormEventInstance\1\700000829\4\1\99\179\1\700001001\3\5\102\1\@\1\@\1\700000829\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

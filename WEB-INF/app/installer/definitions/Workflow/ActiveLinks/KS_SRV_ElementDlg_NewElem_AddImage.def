@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_NewElem_AddImage
+   timestamp      : 1421095795
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 900
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 1
+   actlink-control: 700001456
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\7\2\1\16\2\4\18\NewElementOptions%\
+   action {
+      set-field   : 0\600000042\101\4\9\Add Image\
+   }
+   action {
+    commit_changes: 
+   }
+   action {
+      close-wnd   : 
+      close-all   : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

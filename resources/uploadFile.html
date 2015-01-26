@@ -25,10 +25,10 @@
                 return file;
             }
 
-                    function getFileSize(file) {
-                            if (!file) return "";
-                            return '' + file.fileSize;
-                    }
+            function getFileSize(file) {
+                    if (!file) return "";
+                    return '' + file.fileSize;
+            }
 
             function isValidFileType(file, fileTypes) {
                 if (!file) return false;
@@ -41,49 +41,77 @@
 
                 return false;
             }
+            
+            function checkSession() {
+                var returnValue = false;
+                // if authentication is required, check if session is still valid
+                if (clientManager.isAuthenticationRequired) {
+                    // check if session is still valid
+                    clientManager.checkSession();
+                    var response = clientManager.sessionCheck;
+                    if (response.status !== 200) {
+                        var message = response.statusText;
+                        if (response.getResponseHeader != null && response.getResponseHeader['X-Error-Message'] != null){
+                            message = response.getResponseHeader['X-Error-Message'];
+                        }
+                        actions.handleHttpErrorCode(response.status, message);
+                    }
+                    else {
+                        returnValue = true;
+                    }
+                }
+                return returnValue;
+            }
 
             function doSubmit(){
-                var form=document.getElementById("fileUploadForm");
-                var attachObj = document.getElementById("attachment");
-                if (attachObj == null) {
-                    return null;
-                }
-                if (attachObj.value == null || attachObj.value == "") {
-                    alert("Please select a file before trying to upload.");
-                    return null;
-                }
-                var sessionID = encodeURIComponent(clientManager.sessionId);
-                var qstnID = encodeURIComponent(attachObj.getAttribute("name"));
-                form.setAttribute("action",fileLoader.contextPath+"/UploadFile?sessionID=" + sessionID+"&questionID=" + qstnID+"&sizeLimit=50000");
-                var valid = true;
-                if (fileLoader.enforceFileTypes) {
-                    if (!isValidFileType(attachObj.value, fileLoader.fileTypesAllowed)) {
-                        valid = false;
+                if (checkSession()) {
+                    var form=document.getElementById("fileUploadForm");
+                    var attachObj = document.getElementById("attachment");
+                    if (attachObj == null) {
+                        return null;
+                    }
+                    if (attachObj.value == null || attachObj.value == "") {
+                        alert("Please select a file before trying to upload.");
+                        return null;
+                    }
+                    var sessionID = encodeURIComponent(clientManager.sessionId);
+                    var qstnID = encodeURIComponent(attachObj.getAttribute("name"));
+                    form.setAttribute("action",fileLoader.contextPath+"/UploadFile?sessionID="+sessionID+"&questionID="+qstnID);
+                    var valid = true;
+                    if (fileLoader.enforceFileTypes) {
+                        if (!isValidFileType(attachObj.value, fileLoader.fileTypesAllowed)) {
+                            valid = false;
+                        }
+                    }
+                    if (valid) {
+                        // user shouldn't modify the attachment file at this point
+                        attachObj.readOnly = "readonly";
+
+                        // disable the form buttons
+                        var buttons = util.getElementsByClassName("button", "input", form);
+                        for (var i = 0; i < buttons.length; i += 1) {
+                            buttons[i].disabled = true;
+                        }
+
+                        // clear out the old value
+                        fileLoader.questionObj.value = "";
+                        fileLoader.questionObj.setAttribute("Attachment", "");
+                        actions._setFileLink(fileLoader.questionObj);
+
+                        // submit the form
+                        submitForm(form);
+                    } else {
+                        alert("Please only upload files with the following extensions :\n"+fileLoader.fileTypesAllowed);
                     }
                 }
-                if (valid) {
-                    // user shouldn't modify the attachment file at this point
-                    attachObj.readOnly = "readonly";
-
-                    // disable the form buttons
-                    var buttons = util.getElementsByClassName("button", "input", form);
-                    for (var i = 0; i < buttons.length; i += 1) {
-                        buttons[i].disabled = true;
-                    }
-
-                    // clear out the old value
-                    fileLoader.questionObj.value = "";
-                    fileLoader.questionObj.setAttribute("Attachment", "");
-                    actions._setFileLink(fileLoader.questionObj);
-
-                    // submit the form
-                    submitForm(form);
-                } else {
-                    alert("Please only upload files with the following extentions :\n"+fileLoader.fileTypesAllowed);
+                else {
+                    window.close();
                 }
             }
 
             function loadForm(){
+                var tokenEl = document.getElementById("CsrfToken");
+                tokenEl.setAttribute("value", util.getCookie("CsrfToken"));
                 var attachObj = document.getElementById("attachment");
                 attachObj.setAttribute("name", fileLoader.questionId);
             }
@@ -115,6 +143,7 @@
         <div class="standard_box">
             <p style="font-weight:bold;">File upload:</p>
             <form name='fileUploadForm' id='fileUploadForm' ENCTYPE="multipart/form-data" METHOD="post" ACCEPT-CHARSET="UTF-8">
+                <input type="hidden" id="CsrfToken" name="CsrfToken" />
                 <p>Attachment
                     <input type='file' id='attachment' size="35"/>
                     <input type="reset" name="Reset" value="Clear" class="button"/>

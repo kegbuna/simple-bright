@@ -1,0 +1,44 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_RQT_CUSTSRVB_RunKineticTask4+CreateTrees_Guide
+   type           : 4
+   num-references : 5
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\26\KS_SRV_CustomerSurvey_base\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   label          : KS_RQT_CUSTSRVB_RunKineticTask4+CreateTrees_Guide
+   description    : Creates a record in the KS_RQT_TaskApiCalls form if this template has a submit type value and it uses Kinetic Task 4+ as the task engine, and also is co
+   description    : nfigured to run create trees.
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_CUSTSRVB_RunKineticTask4+CreateTrees_GetTemplateTaskSettings
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_CUSTSRVB_RunKineticTask4+CreateTrees_LookupTaskServer_CallGuide
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_CUSTSRVB_RunKineticTask4+CreateTrees_SetTaskRefernces
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_CUSTSRVB_RunKineticTask4+CreateTrees_PushToTaskApiCall
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : END
+   value          : 0\
+}
+end

@@ -1,0 +1,67 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_AddPage
+   timestamp      : 1421095824
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 900
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\600000042\2\4\8\Add Page\
+   action {
+      set-field   : 0\700000402\101\2\0\
+      set-field   : 1\700000405\104\1\102\1\*\1\*\1\700009234\0\1\4\101\2\1\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870946
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_Shift_Current_Page_ElementsCount_Guide
+      call-mode   : 0
+      call-tableid: 536870946
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      open-server : @
+      open-schema : KS_SRV_ElementDialog
+      open-vui    : PageDialog
+      open-close  : 1
+      open-input  : 11\600000500\102\1\@\1\@\1\600000500\0\1\4\700000800\102\1\@\1\@\1\700000800\0\1\4\700001000\102\1\@\1\@\1\700001000\0\1\4\700001102\102\1\@\1\@\1\700001102\0\1\4\700001211\104\1\104\1\102\1\*\1\*\1\700009234\0\1\4\102\1\*\1\*\1\700000
+      open-input  : 402\0\1\4\101\2\1\700001923\102\1\@\1\@\1\700001923\0\1\4\700002307\101\6\0\700007000\101\6\0\700036000\102\1\@\1\@\1\700036000\0\1\4\702031803\102\1\@\1\@\1\702031803\0\1\4\710060600\101\4\6\CREATE\
+
+      open-output : 3\700003183\102\1\@\20\KS_SRV_ElementDialog\1\700003183\0\1\4\700058201\102\1\@\20\KS_SRV_ElementDialog\1\700058201\0\1\4\710060155\101\6\0\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_CommitShiftedValues
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      exit guide  : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,53 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_Viewer_Answer_CheckAnswer
+   type           : 1
+   num-references : 6
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\13\KS_SRV_Viewer\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   permission     : 10010\2
+   label          : KS_SRV_Viewer_Answer_CheckAnswer
+   description    : KS_SRV_Viewer_Answer_CheckAnswer
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_Answer_CheckNewAnswer_List
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_Answer_CheckNewAnswer_List_NotOnMenu
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : NumericRange
+   value          : 0\
+   ref-groups     : 10010
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_Answer_CheckNewAnswer_NumericRange
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_Answer_CheckNewAnswer_NumericRangeCheck
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : END
+   value          : 0\
+   ref-groups     : 10010
+}
+end

@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CUSTSRVB_VerifyCheckbox
+   timestamp      : 1421095872
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey_base
+   export-version : 9
+   filter-query   : 2\4\6\99\700089548\2\4\8\Checkbox\4\1\99\700089543\99\700089545\
+   action {
+      goto guide  : END
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

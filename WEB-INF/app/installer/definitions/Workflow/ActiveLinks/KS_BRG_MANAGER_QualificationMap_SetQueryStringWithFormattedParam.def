@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_BRG_MANAGER_QualificationMap_SetQueryStringWithFormattedParam
+   timestamp      : 1421095763
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Manager
+   actlink-mask   : 128
+   actlink-focus  : 760000791
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\760000791\2\0\
+   action {
+      set-field   : 0\760000401\104\1\104\1\104\1\102\1\*\1\*\1\760000401\0\1\4\101\4\14\<%=parameter["\102\1\*\1\*\1\760000791\0\1\4\101\4\4\"]%>\
+   }
+   action {
+      set-field   : 0\760000791\101\0\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

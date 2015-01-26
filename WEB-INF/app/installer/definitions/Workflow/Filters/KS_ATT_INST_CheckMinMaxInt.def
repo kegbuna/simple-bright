@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_ATT_INST_CheckMinMaxInt
+   timestamp      : 1421095856
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 111
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_AttributeInstance
+   export-version : 9
+   filter-query   : 1\1\4\1\99\710000065\2\6\0\4\1\99\710000001\2\4\7\Integer\3\1\4\5\99\710000062\99\710000046\4\3\99\710000061\99\710000046\
+   action {
+      set-field   : 0\600000325\104\1\104\1\104\1\104\1\104\1\104\1\104\1\102\1\@\1\@\1\600000325\0\1\4\101\4\13\ The value, \102\1\@\1\@\1\710000046\0\1\4\101\4\47\, does not fall with in the specified range of \102\1\@\1\@\1\710000062\0\1\4\101\4\1\-\1
+      set-field   : 0\02\1\@\1\@\1\710000061\0\1\4\101\4\1\.\
+
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

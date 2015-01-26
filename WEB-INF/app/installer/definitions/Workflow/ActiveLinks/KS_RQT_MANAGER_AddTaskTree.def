@@ -1,0 +1,48 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_AddTaskTree
+   timestamp      : 1421095771
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 700020009
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\600000042\101\0\
+      set-field   : 1\700009874\101\0\
+      set-field   : 2\770008602\101\0\
+      set-field   : 3\770008603\101\0\
+      set-field   : 4\770008604\101\0\
+      set-field   : 5\770008605\101\0\
+      set-field   : 6\770008609\101\0\
+      set-field   : 7\770008610\101\0\
+      set-field   : 8\770008611\101\0\
+      set-field   : 9\770008612\101\0\
+      set-field   : 10\770008624\101\0\
+   }
+   action {
+      open-server : @
+      open-schema : KS_SRV_Dialog
+      open-vui    : NewTreeOptionsView
+      open-close  : 1
+      open-input  : 0\
+      open-output : 1\600000042\102\1\@\13\KS_SRV_Dialog\1\600000090\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

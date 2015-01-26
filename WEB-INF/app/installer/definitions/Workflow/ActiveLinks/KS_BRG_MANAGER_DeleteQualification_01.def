@@ -1,0 +1,45 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_BRG_MANAGER_DeleteQualification_01
+   timestamp      : 1421095762
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Manager
+   actlink-mask   : 1
+   actlink-control: 760000661
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\760000775\2\0\
+   action {
+      set-field   : 0\600000098\101\2\1136\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_BRG_MESSAGE_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   else {
+      set-field   : 0\600000098\101\2\1132\
+   }
+   else {
+      call-server : @
+      call-guide  : KS_BRG_MESSAGE_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   else {
+      goto action : 2\1000
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

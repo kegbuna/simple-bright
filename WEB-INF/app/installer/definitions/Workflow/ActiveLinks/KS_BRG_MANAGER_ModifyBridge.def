@@ -1,0 +1,53 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_BRG_MANAGER_ModifyBridge
+   timestamp      : 1421095762
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Manager
+   actlink-mask   : 3
+   actlink-control: 760000651
+   actlink-focus  : 760000670
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\760000770\2\0\
+   action {
+      open-server : @
+      open-schema : KS_BRG_Manager
+      open-vui    : BridgeDialog
+      open-close  : 1
+      open-input  : 6\600000425\102\1\@\1\@\1\760000770\0\1\4\700009350\101\4\13\Modify Bridge\760000100\102\1\@\1\@\1\760000716\0\1\4\760000102\102\1\@\1\@\1\760000772\0\1\4\760000110\102\1\@\1\@\1\760000773\0\1\4\760000202\102\1\@\1\@\1\760000716\0\1\4\
+      open-input  : 
+
+      open-output : 1\700009350\101\4\15\Bridge Modified\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   else {
+      set-field   : 0\600000098\101\2\1124\
+   }
+   else {
+      call-server : @
+      call-guide  : KS_BRG_MESSAGE_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   else {
+      goto action : 2\1000
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

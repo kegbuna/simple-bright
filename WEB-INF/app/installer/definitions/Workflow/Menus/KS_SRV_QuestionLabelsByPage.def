@@ -1,0 +1,12 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_SRV_QuestionLabelsByPage
+   timestamp      : 1421095886
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 1
+   char-menu      : 0\2\20\KS_SRV_PageQuestions\1\@\700001833\700001833\1\1\4\1\1\700002303\99\700002303\4\1\1\7\2\6\0\
+end

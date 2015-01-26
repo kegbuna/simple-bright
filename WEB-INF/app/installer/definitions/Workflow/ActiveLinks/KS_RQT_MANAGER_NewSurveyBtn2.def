@@ -1,0 +1,56 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_NewSurveyBtn2
+   timestamp      : 1421095774
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 900
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 700001015
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\1\600000042\2\4\19\New Survey Complete\4\6\1\700000800\2\0\
+   action {
+      set-field   : 0\536870948\101\0\
+      set-field   : 1\700002260\104\1\104\1\101\4\7\'179'="\102\1\*\1\*\1\700000800\0\1\4\101\4\1\"\
+      set-field   : 2\700003602\101\0\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700001090
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      set-field   : 0\700001090\101\2\1\
+   }
+   action {
+      id          : 700001159
+      focus       : 1
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_EnableForEdit_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001101
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

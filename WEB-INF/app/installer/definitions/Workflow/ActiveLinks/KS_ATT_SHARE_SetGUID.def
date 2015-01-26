@@ -1,0 +1,25 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_SHARE_SetGUID
+   timestamp      : 1421095760
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_AttributeInstance
+   schema-name    : KS_ATT_AttributeType
+   actlink-mask   : 409600
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\2\1\9\2\4\6\CREATE\
+   action {
+      set-field   : 0\179\103\32\@@ :Application-Generate-GUID KS\
+   }
+   help-text      : This active link should be used with every Object on the server. It sets the instance Id of the Object. This is the uniquie identifier of the object in 
+   help-text      : workflow.
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_RQTTSK30_Tree_SetSourceGroup
+   timestamp      : 1421095858
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 20
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_TSK_Tree
+   export-version : 9
+   filter-query   : 4\6\99\700000800\2\0\
+   action {
+      set-field   : 0\700000911\104\1\104\1\102\1\@\21\KS_SRV_SurveyTemplate\1\600000500\4\1\1\179\99\700000800\2\3\101\4\3\ > \102\1\@\21\KS_SRV_SurveyTemplate\1\700001000\4\1\1\179\99\700000800\2\3\
+      set-field   : 1\700000900\101\4\15\Kinetic Request\
+   }
+end

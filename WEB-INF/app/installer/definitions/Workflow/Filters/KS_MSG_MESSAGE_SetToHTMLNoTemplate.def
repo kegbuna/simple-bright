@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_MSG_MESSAGE_SetToHTMLNoTemplate
+   timestamp      : 1421095858
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 100
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Message
+   export-version : 9
+   filter-query   : 1\1\1\4\1\99\700003530\2\0\4\1\99\700003453\2\4\4\HTML\4\6\99\18091\2\0\4\1\99\18290\2\0\
+   action {
+      set-field   : 0\18290\102\1\@\1\@\1\18091\0\1\4\
+   }
+   action {
+      set-field   : 0\18091\101\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Page_SetDisplayPageJSPMenu
+   timestamp      : 1421095799
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 278528
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\4\1\2\1\9\2\4\6\DIALOG\4\1\2\1\16\2\4\10\PageDialog\4\1\1\700036000\2\4\15\Kinetic Request\
+   action {
+      id          : 700002301
+      char-menu   : KS_RQT_JspPages
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

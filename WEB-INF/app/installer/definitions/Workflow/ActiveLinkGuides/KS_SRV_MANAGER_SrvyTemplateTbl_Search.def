@@ -1,0 +1,71 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_MANAGER_SrvyTemplateTbl_Search
+   type           : 1
+   num-references : 11
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 4\2\14\KS_SRV_Manager\2\14\KS_RQT_Manager\2\24\KS_RQT_SubmissionManager\2\24\KS_SRV_SubmissionManager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmplClrQual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltCatQual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltANDQual_Type
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltTypeQual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltANDQual_Status
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltStatusQual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltStatusQualDelete
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltStatusQualNULL
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltAllNULL
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltAppication
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchTmpltRefrsh
+}
+end

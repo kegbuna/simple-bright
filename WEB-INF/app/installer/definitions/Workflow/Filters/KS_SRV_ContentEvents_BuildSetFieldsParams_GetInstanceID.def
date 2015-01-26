@@ -1,0 +1,22 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_ContentEvents_BuildSetFieldsParams_GetInstanceID
+   timestamp      : 1421095865
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentEvents
+   export-version : 9
+   action {
+      set-field   : 0\700001055\107\1\@\220\SELECT C$70000087$ FROM T$70000083$ WHERE C$70000082$ = '$179$' AND ((C$70000088$ IS NOT NULL AND (C$70000088$ > $700001056$)) OR (C$70000088$ IS NULL AND (C$70000087$ > '$700001055$'))) ORDER BY C$70000088$, C$
+      set-field   : 0\70000087$\1\2\3\
+
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

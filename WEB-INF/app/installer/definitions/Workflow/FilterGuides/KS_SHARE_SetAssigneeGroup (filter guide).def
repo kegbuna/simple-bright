@@ -1,0 +1,22 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SHARE:SetAssigneeGroup (filter guide)
+   type           : 4
+   num-references : 1
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 3\2\20\KS_ATT_AttributeType\2\22\KS_MSG_MessageTemplate\2\13\KS_RPT_Report\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   label          : SHARE:SetAssigneeGroup
+   description    : SHARE:SetAssigneeGroup
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SHARE:SetAssigneeGroup2
+}
+end

@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_Set_IfExpression_Menu/Label
+   timestamp      : 1421095785
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   actlink-mask   : 16384
+   enable         : 1
+   permission     : 0 10105
+   actlink-query  : 1\4\6\1\700007000\2\0\4\6\1\700004632\2\0\
+   action {
+      set-field   : 0\700004550\102\1\@\28\KS_SRV_Element_Event_Mapping\1\700004550\1\4\1\99\700007000\1\700007000\4\1\99\700004632\1\700004632\2\3\
+      set-field   : 1\700004551\102\1\@\28\KS_SRV_Element_Event_Mapping\1\700004551\1\4\1\99\700007000\1\700007000\4\1\99\700004632\1\700004632\2\3\
+      set-field   : 2\770000301\102\1\@\28\KS_SRV_Element_Event_Mapping\1\770000301\1\4\1\99\700007000\1\700007000\4\1\99\700004632\1\700004632\2\3\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,13 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_SRV_HTMLElements_List_BySurveyID
+   timestamp      : 1421095885
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 1
+   char-menu      : 0\2\26\KS_SRV_SurveyElements_join\1\@\1002\179\1\1\1\1\4\1\1\700000800\99\700000800\4\1\1\700002303\99\700002303\4\1\1\536870917\2\6\2\2\1\4\1\1\700000002\2\4\4\List\4\1\1\700005010\2\6\2\4\1\1\700000002\2\4\12\Dynamic List\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

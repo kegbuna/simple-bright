@@ -1,0 +1,39 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_SERVICEITEMCATEGORY_SaveCategory
+   timestamp      : 1421095776
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 900
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_ServiceItemCategory
+   actlink-mask   : 1
+   actlink-control: 700401950
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\700401900\2\0\4\6\1\7\2\0\
+   action {
+      push-field  : 0\1\@\26\KS_RQT_ServiceItemCategory\1\7\4\1\1\179\99\179\4\5\102\1\*\1\*\1\7\0\1\4\
+      push-field  : 1\1\@\26\KS_RQT_ServiceItemCategory\1\600000500\4\1\1\179\99\179\4\5\102\1\*\1\*\1\600000500\0\1\4\
+      push-field  : 2\1\@\26\KS_RQT_ServiceItemCategory\1\700000800\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700000800\0\1\4\
+      push-field  : 3\1\@\26\KS_RQT_ServiceItemCategory\1\700001000\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700001000\0\1\4\
+      push-field  : 4\1\@\26\KS_RQT_ServiceItemCategory\1\700001923\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700001923\0\1\4\
+      push-field  : 5\1\@\26\KS_RQT_ServiceItemCategory\1\700061010\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700061010\0\1\4\
+      push-field  : 6\1\@\26\KS_RQT_ServiceItemCategory\1\700401900\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700401900\0\1\4\
+      push-field  : 7\1\@\26\KS_RQT_ServiceItemCategory\1\700401901\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700401901\0\1\4\
+      push-field  : 8\1\@\26\KS_RQT_ServiceItemCategory\1\700401910\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700401910\0\1\4\
+      push-field  : 9\1\@\26\KS_RQT_ServiceItemCategory\1\700401920\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700401920\0\1\4\
+      push-field  : 10\1\@\26\KS_RQT_ServiceItemCategory\1\700401930\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700401930\0\1\4\
+      push-field  : 11\1\@\26\KS_RQT_ServiceItemCategory\1\700401940\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700401940\0\1\4\
+      push-field  : 12\1\@\26\KS_RQT_ServiceItemCategory\1\700401970\4\1\1\179\99\179\4\5\102\1\*\1\*\1\700401970\0\1\4\
+   }
+   action {
+      close-wnd   : 
+      close-all   : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

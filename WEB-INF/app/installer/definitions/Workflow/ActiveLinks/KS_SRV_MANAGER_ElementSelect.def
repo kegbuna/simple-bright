@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_ElementSelect
+   timestamp      : 1421095827
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 128
+   actlink-focus  : 700000200
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700009229\2\0\
+   action {
+      set-field   : 0\700000401\102\1\*\1\*\1\700009234\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

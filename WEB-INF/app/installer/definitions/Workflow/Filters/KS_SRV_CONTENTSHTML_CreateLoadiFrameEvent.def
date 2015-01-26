@@ -1,0 +1,56 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CONTENTSHTML_CreateLoadiFrameEvent
+   timestamp      : 1421095869
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentsElementHTML
+   export-version : 9
+   filter-query   : 1\4\6\99\600000042\2\4\5\Clone\4\1\99\700002307\2\6\2\
+   action {
+      set-field   : 0\700009874\102\1\@\1\@\1\1002\0\1\4\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_EncodeURL_guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      push-field  : 0\1\@\20\KS_SRV_ContentEvents\1\770006505\0\4\6\101\4\219\var obj = document.getElementById('reviewRequest'); var now = new Date(); var csrv = encodeURIComponent(clientManager.customerSurveyId); obj.src = './ReviewRequest?csrv='+csrv+'
+      push-field  : 0\&reviewFrame=true&noCache='+now.getTime();\
+
+      push-field  : 1\1\@\20\KS_SRV_ContentEvents\1\700081202\0\4\6\101\6\0\
+      push-field  : 2\1\@\20\KS_SRV_ContentEvents\1\700073250\0\4\6\101\2\1\
+      push-field  : 3\1\@\20\KS_SRV_ContentEvents\1\700007000\0\4\6\101\6\0\
+      push-field  : 4\1\@\20\KS_SRV_ContentEvents\1\700004642\0\4\6\101\4\6\Custom\
+      push-field  : 5\1\@\20\KS_SRV_ContentEvents\1\700004587\0\4\6\101\4\6\Custom\
+      push-field  : 6\1\@\20\KS_SRV_ContentEvents\1\700004584\0\4\6\101\4\29\KD.utils.Action._customAction\
+      push-field  : 7\1\@\20\KS_SRV_ContentEvents\1\700004583\0\4\6\101\4\30\AG000C29497A1AuWClRQz13rKgcxoA\
+      push-field  : 8\1\@\20\KS_SRV_ContentEvents\1\700004582\0\4\6\101\4\11\load iFrame\
+      push-field  : 9\1\@\20\KS_SRV_ContentEvents\1\700002303\0\4\6\102\1\@\1\@\1\179\0\1\4\
+      push-field  : 10\1\@\20\KS_SRV_ContentEvents\1\700001690\0\4\6\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\101\4\76\KD.utils.Action._customAction(window, new KD.utils.ClientAction({elementId:'\102\1\@\1\@\1\700009874\0\1\
+      push-field  : 10\4\101\4\91\', jsEvent:'load',action:KD.utils.Action._customAction, ifExpr:'clientManager.submitType !=\101\4\1\"\101\4\13\ReviewRequest\101\4\1\"\101\4\54\', actionId:'', synchronous:false, timeout:0, params:[\101\4\1\"\101\4\197\va
+      push-field  : 10\r obj = document.getElementById('reviewRequest'); var csrv = encodeURIComponent(clientManager.customerSurveyId); obj.src = './ReviewRequest?csrv='+csrv+'&noCache='+now.getTime()+'&excludeByName='\102\1\@\1\@\1\700009874\0\1\4\101\4\
+      push-field  : 10\2\';\101\4\1\"\101\4\5\]}));\
+
+      push-field  : 11\1\@\20\KS_SRV_ContentEvents\1\700001686\0\4\6\101\2\0\
+      push-field  : 12\1\@\20\KS_SRV_ContentEvents\1\700001685\0\4\6\104\1\104\1\104\1\101\4\27\clientManager.submitType !=\101\4\1\"\101\4\13\ReviewRequest\101\4\1\"\
+      push-field  : 13\1\@\20\KS_SRV_ContentEvents\1\700001680\0\4\6\101\4\219\var obj = document.getElementById('reviewRequest');var now = new Date();var csrv = encodeURIComponent(clientManager.customerSurveyId);obj.src = './ReviewRequest?csrv='+csrv+
+      push-field  : 13\'&reviewFrame=true&noCache='+now.getTime();\
+
+      push-field  : 14\1\@\20\KS_SRV_ContentEvents\1\700001202\0\4\6\101\4\4\load\
+      push-field  : 15\1\@\20\KS_SRV_ContentEvents\1\700000800\0\4\6\102\1\@\1\@\1\700000800\0\1\4\
+      push-field  : 16\1\@\20\KS_SRV_ContentEvents\1\700000230\0\4\6\102\1\@\1\@\1\179\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

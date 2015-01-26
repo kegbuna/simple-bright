@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RPT_CONSOLE_OpenSavedSearchDialog
+   timestamp      : 1421095767
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RPT_AdvancedReportConsole
+   actlink-mask   : 1
+   actlink-control: 700000103
+   enable         : 1
+   permission     : 0
+   action {
+      open-server : @
+      open-schema : KS_RPT_SavedSearch_dlg
+      open-vui    : Existing Qualifications
+      open-close  : 0
+      open-input  : 1\700000406\102\1\@\1\@\1\700000406\0\1\4\
+      open-output : 18\700000104\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000102\0\1\4\700000109\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000204\0\1\4\700000110\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000205\0\1\4\700000111\102\1\@\22\KS_RPT_SavedSearch_dlg\1\
+      open-output : 700000206\0\1\4\700000112\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000207\0\1\4\700000113\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000208\0\1\4\700000114\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000209\0\1\4\700000115\102\1\@\22\KS_RPT_Saved
+      open-output : Search_dlg\1\700000210\0\1\4\700000116\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000211\0\1\4\700000117\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000212\0\1\4\700000118\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000213\0\1\4\700000119\102\1\@\22
+      open-output : \KS_RPT_SavedSearch_dlg\1\700000215\0\1\4\700000120\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000216\0\1\4\700000121\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000217\0\1\4\700000122\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000218\0\1\4\7000001
+      open-output : 23\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000219\0\1\4\700000126\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000221\0\1\4\700000127\102\1\@\22\KS_RPT_SavedSearch_dlg\1\700000220\0\1\4\
+
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

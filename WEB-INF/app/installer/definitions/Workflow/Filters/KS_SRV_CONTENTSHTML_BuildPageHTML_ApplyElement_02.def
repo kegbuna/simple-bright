@@ -1,0 +1,38 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CONTENTSHTML_BuildPageHTML_ApplyElement_02
+   timestamp      : 1421095869
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentsElementHTML
+   export-version : 9
+   filter-query   : 4\6\99\70000081\2\0\
+   action {
+      set-field   : 0\70000085\105\23\3\102\1\@\1\@\1\70000085\0\1\4\101\4\14\SURVEY_CONTEXT\104\1\102\1\@\1\@\1\700001259\0\1\4\102\1\@\1\@\1\700002302\0\1\4\
+   }
+   action {
+      set-field   : 0\700001690\104\1\104\1\102\1\@\1\@\1\700001690\0\1\4\102\1\@\1\@\1\70000085\0\1\4\101\4\2\ \
+   }
+   action {
+      goto guide  : ADD_ELEMENT
+   }
+   else {
+      call-server : @
+      call-guide  : KS_SRV_CONTENTSHTML_BuildPageHTML_CloseAllDiv_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   else {
+      exit guide  : 0
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

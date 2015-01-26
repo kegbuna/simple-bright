@@ -1,0 +1,13 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : kS_SRV_ResultFields
+   timestamp      : 1421095886
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 1
+   char-menu      : 0\2\34\KS_SRV_SurveyTemplateQuestion_JOIN\1\@\600000600 700001000 700001210 700000003\700000230\1\4\1\1\600000500\99\600000500\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

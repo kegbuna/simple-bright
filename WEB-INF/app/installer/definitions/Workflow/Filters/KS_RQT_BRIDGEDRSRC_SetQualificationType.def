@@ -1,0 +1,19 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_RQT_BRIDGEDRSRC_SetQualificationType
+   timestamp      : 1421095861
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_BridgedResource
+   export-version : 9
+   action {
+      set-field   : 0\760000402\102\1\@\20\KS_BRG_Qualification\1\760000402\1\4\1\1\760000200\99\760000200\4\1\1\760000400\99\760000400\2\3\
+   }
+end

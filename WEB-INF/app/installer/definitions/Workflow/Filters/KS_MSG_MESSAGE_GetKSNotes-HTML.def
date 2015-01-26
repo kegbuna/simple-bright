@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_MSG_MESSAGE_GetKSNotes-HTML
+   timestamp      : 1421095858
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 700
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Message
+   export-version : 9
+   filter-query   : 1\1\4\6\99\600000530\2\0\4\1\99\700003530\2\6\0\4\1\99\700003453\2\4\4\HTML\
+   action {
+      set-field   : 0\700003530\101\0\
+      set-field   : 1\600000530\101\0\
+   }
+   action {
+      push-field  : 0\1\@\20\KS_ACC_NoteAssembler\1\700075644\0\4\6\102\1\@\1\@\1\18091\0\1\4\
+      push-field  : 1\1\@\20\KS_ACC_NoteAssembler\1\700075643\0\4\6\102\1\@\1\@\1\18090\0\1\4\
+      push-field  : 2\1\@\20\KS_ACC_NoteAssembler\1\700001310\0\4\6\102\1\@\1\@\1\1\0\1\4\
+      push-field  : 3\1\@\20\KS_ACC_NoteAssembler\1\700000300\0\4\6\104\1\101\1\5\101\4\5\-HTML\
+      push-field  : 4\1\@\20\KS_ACC_NoteAssembler\1\700000299\0\4\6\102\1\@\1\@\1\700000299\0\1\4\
+      push-field  : 5\1\@\20\KS_ACC_NoteAssembler\1\700000295\0\4\6\101\6\0\
+      push-field  : 6\1\@\20\KS_ACC_NoteAssembler\1\600000310\0\4\6\102\1\@\1\@\1\600000310\0\1\4\
+      push-field  : 7\1\@\20\KS_ACC_NoteAssembler\1\600000300\0\4\6\102\1\@\1\@\1\600000300\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

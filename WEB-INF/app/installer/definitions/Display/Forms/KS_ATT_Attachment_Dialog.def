@@ -1,0 +1,79 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:18:05 2015
+#
+begin schema
+   name           : KS_ATT_Attachment_Dialog
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 3
+   timestamp      : 1421095690
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   default-vui    : Default Admin View
+   num-vuis       : 1
+   export-version : 9
+   schema-type    : 4
+   next-field-id  : 536870912
+   permission     : 0\2
+   permission     : 10010\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60018\4\0\\
+vui  {
+   id             : 536870912
+   name           : Default Admin View
+   label          : Default Admin View
+   timestamp      : 1421095690
+   vui-locale     : 
+   vui-type       : 1
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   display-prop   : 7\20\4\18\Default Admin View\60019\4\21\ViewWebAlias536870912\251\6\0\252\6\0\264\6\0\201\2\40950\202\2\8100\
+}
+field {
+   id             : 700000041
+   name           : At_Attachment Field
+   datatype       : 11
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095690
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxsize        : 0
+   attachtype     : 1
+   fulltext-optns : 0
+   permission     : 10010\2
+ display-instance : 536870912\4\4\6\1\20\4\19\At_Attachment Field\170\40\700000133\143\40\2\
+}
+field {
+   id             : 700000049
+   name           : At_Attachment Field2
+   datatype       : 11
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095690
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxsize        : 0
+   attachtype     : 1
+   fulltext-optns : 0
+   permission     : 10010\2
+ display-instance : 536870912\4\4\6\1\20\4\20\At_Attachment Field2\170\40\700000133\143\40\4\
+}
+field {
+   id             : 700000133
+   name           : Ap_Attachment_Pool
+   datatype       : 37
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095690
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 10010\1
+ display-instance : 536870912\22\14\40\1\232\4\3\Add\233\4\6\Delete\234\4\7\Display\235\4\12\Save to Disk\236\4\12\Attach Label\237\4\9\File Name\238\4\8\Max Size\20\4\15\Attach&
+ display-instance : ment Pool\3\41\2\112\200\39599\6900\4\6\1\5\6\2\9\6\4\41\40\2\1\6\2\21\41\2\0\0\0\0\7\40\2147483648\143\40\10\151\41\2\43987\79200\83474\85900\65\41\2\4&
+ display-instance : 3987\79200\83474\85900\66\41\2\43987\79200\83474\85900\170\40\0\
+}
+end

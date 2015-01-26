@@ -1,0 +1,20 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_RQT_CUSTSRVB_TaskApi_LookupTaskServerTemplateAttribute
+   timestamp      : 1421095862
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey_base
+   export-version : 9
+   filter-query   : 4\1\99\600000090\2\0\
+   action {
+      set-field   : 0\600000090\102\1\@\32\KS_ATT_AttributeTypeInstanceJoin\1\710000040\1\4\1\1\710000074\2\4\16\Task Server Name\4\1\1\710000078\99\700000800\2\3\
+   }
+end

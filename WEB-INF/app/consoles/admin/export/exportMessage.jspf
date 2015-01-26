@@ -1,0 +1,21 @@
+<div class="alerts">
+    <% if (org.apache.commons.lang3.StringUtils.isNotBlank(sessionMessage)) { %>
+        <% if ("success".equals(sessionMessageType)) { %>
+            <div class="alert alert-success">
+                <button class="close" data-dismiss="alert">&times;</button>
+                <h3>Export Results</h3>
+                <%= sessionMessage %>
+            </div>
+        <% } else if ("error".equals(sessionMessageType)) { %>
+            <div class="alert alert-danger">
+                <button class="close" data-dismiss="alert">&times;</button>
+                <%= sessionMessage %>
+            </div>
+        <% } else { %>
+            <div class="alert alert-warning">
+                <button class="close" data-dismiss="alert">&times;</button>
+                <%= sessionMessage %>
+            </div>
+        <% } %>
+    <% } %>
+</div>

@@ -1,0 +1,48 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_RC_T_Type_SetAttributeFlds
+   timestamp      : 1421095830
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 1
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   enable         : 1
+   permission     : 0
+   actlink-query  : 2\1\4\6\1\710000026\2\0\4\6\1\710000023\1\710000001\4\1\1\710000074\2\0\
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_HideValueFlds
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\710000001\102\1\@\20\KS_ATT_AttributeType\1\710000077\4\1\99\710000026\1\179\1\1\
+      set-field   : 1\710000003\102\1\@\20\KS_ATT_AttributeType\1\710000003\4\1\99\710000026\1\179\1\1\
+      set-field   : 2\710000004\102\1\@\20\KS_ATT_AttributeType\1\710000004\4\1\99\710000026\1\179\1\1\
+      set-field   : 3\710000012\102\1\@\20\KS_ATT_AttributeType\1\179\4\1\99\710000026\1\179\1\1\
+      set-field   : 4\710000074\102\1\@\20\KS_ATT_AttributeType\1\710000074\4\1\99\710000026\1\179\1\1\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_ShowValueFlds
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   else {
+      set-field   : 0\710000003\102\1\@\20\KS_ATT_AttributeType\1\710000003\4\1\99\710000026\1\179\1\1\
+      set-field   : 1\710000004\102\1\@\20\KS_ATT_AttributeType\1\710000004\4\1\99\710000026\1\179\1\1\
+      set-field   : 2\710000012\102\1\@\20\KS_ATT_AttributeType\1\179\4\1\99\710000026\1\179\1\1\
+      set-field   : 3\710000074\102\1\@\20\KS_ATT_AttributeType\1\710000074\4\1\99\710000026\1\179\1\1\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

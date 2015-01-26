@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_MSG_MGR_SetCategoryInstanceIdIfNull
+   timestamp      : 1421095764
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 200
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Manager
+   actlink-mask   : 16512
+   actlink-focus  : 700003421
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700001923\2\0\
+   action {
+      set-field   : 0\700001923\102\1\@\15\KS_SRV_Category\1\179\1\4\1\1\600000500\99\600000500\4\1\1\700036000\99\400069400\2\3\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

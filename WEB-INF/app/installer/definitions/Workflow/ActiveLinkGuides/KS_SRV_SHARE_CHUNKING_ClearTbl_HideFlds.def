@@ -1,0 +1,29 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SHARE_CHUNKING_ClearTbl/HideFlds
+   type           : 1
+   num-references : 2
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 7\2\27\KS_SRV_ConfigurationManager\2\14\KS_RQT_Manager\2\19\KS_SRV_List_Manager\2\14\KS_SRV_Manager\2\24\KS_SRV_SubmissionManager\2\13\KS_SRV_Viewer\2\2&
+   owning-obj     : 4\KS_RQT_SubmissionManager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   label          : KS_SRV_SHARE_CHUNKING_ClearTbl/HideFlds
+   description    : Clears the table and hides the Display Text.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SHARE_CHUNKING_ClearTbl
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SHARE_CHUNKING_HideTextFlds
+}
+end

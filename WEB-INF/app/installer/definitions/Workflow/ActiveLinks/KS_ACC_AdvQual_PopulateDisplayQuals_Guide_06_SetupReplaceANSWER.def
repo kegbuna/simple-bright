@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ACC_AdvQual_PopulateDisplayQuals_Guide_06_SetupReplaceANSWER
+   timestamp      : 1421095751
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_AdvancedQualification
+   enable         : 1
+   permission     : 10105
+   actlink-query  : 1\4\3\1\600000097\2\2\0\4\7\1\600000090\2\4\14\'AnswerViewer%\
+   action {
+      set-field   : 0\536870956\105\43\3\105\23\3\102\1\*\1\*\1\536870956\0\1\4\101\4\12\AnswerViewer\101\4\1\0\101\2\9\101\4\9\700004000\
+   }
+   action {
+      set-field   : 0\600000100\102\1\*\1\*\1\536870956\0\1\4\
+   }
+   action {
+      set-field   : 0\600000096\102\1\@\29\KS_SRV_DataSet_Question_Union\1\700040000\1\4\1\1\700000800\99\700000800\4\1\1\536870914\99\600000100\2\3\
+   }
+   action {
+      set-field   : 0\536870958\104\1\104\1\101\4\5\<FLD>\102\1\*\1\*\1\600000096\0\1\4\101\4\13\;ANSWER</FLD>\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

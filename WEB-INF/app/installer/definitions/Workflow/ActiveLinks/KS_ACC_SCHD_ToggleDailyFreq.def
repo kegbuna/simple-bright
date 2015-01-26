@@ -1,0 +1,80 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ACC_SCHD_ToggleDailyFreq
+   timestamp      : 1421095754
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_Schedule
+   actlink-mask   : 17042
+   actlink-focus  : 700004056
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700004056\2\6\0\
+   action {
+      id          : 700004058
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700004060
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700004066
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700004054
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700004062
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   else {
+      id          : 700004058
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   else {
+      id          : 700004060
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   else {
+      id          : 700004062
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   else {
+      id          : 700004066
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   else {
+      id          : 700004054
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

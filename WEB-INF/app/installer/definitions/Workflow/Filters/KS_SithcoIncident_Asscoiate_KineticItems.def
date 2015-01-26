@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SithcoIncident_Asscoiate_KineticItems
+   timestamp      : 1421095863
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SithcoIncident
+   export-version : 9
+   filter-query   : 4\6\50\700000830\2\0\
+   action {
+      set-field   : 0\700002005\102\1\@\26\KS_SRV_CustomerSurvey_base\1\700001000\4\1\1\179\99\700000830\2\3\
+      set-field   : 1\200000105\102\1\@\26\KS_SRV_CustomerSurvey_base\1\1\4\1\1\179\99\700000830\2\3\
+   }
+   action {
+      push-field  : 0\1\@\25\KS_SRV_Sithco:Association\1\230000022\0\4\6\104\1\101\4\18\Sithco Incident - \102\1\@\1\@\1\536870915\0\1\4\
+      push-field  : 1\1\@\25\KS_SRV_Sithco:Association\1\230000021\0\4\6\104\1\101\4\8\Kinetic-\102\1\@\1\@\1\700002005\0\1\4\
+      push-field  : 2\1\@\25\KS_SRV_Sithco:Association\1\230000004\0\4\6\102\1\@\1\@\1\1\0\1\4\
+      push-field  : 3\1\@\25\KS_SRV_Sithco:Association\1\230000003\0\4\6\101\4\15\SITHCO_INCIDENT\
+      push-field  : 4\1\@\25\KS_SRV_Sithco:Association\1\230000002\0\4\6\102\1\@\1\@\1\200000105\0\1\4\
+      push-field  : 5\1\@\25\KS_SRV_Sithco:Association\1\230000001\0\4\6\101\4\7\KINETIC\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

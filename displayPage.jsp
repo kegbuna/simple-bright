@@ -13,8 +13,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta http-equiv="X-Frame-Options" content="sameorigin"/>
-        <title><jsp:getProperty name="customerSurvey" property="surveyTemplateName"/></title>
+        <title><%= customerSurvey.getSurveyTemplateName()%></title>
         <link rel="shortcut icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon"/>
 
         <%@ include file="resources/includes/includesTemplate.jsp" %>
@@ -73,16 +72,16 @@
             <jsp:getProperty name="customerSurvey" property="questions"/>
 
             <% if (request.getParameter("srv") != null) {%>
-            <input type="hidden" name="srv" value="<%=request.getParameter("srv")%>"/>
+            <input type="hidden" name="srv" value="<%=customerSurvey.getSurveyTemplateInstanceID()%>"/>
             <%}%>
             <% if (request.getParameter("csrv") != null) {%>
-            <input type="hidden" name="csrv" value="<%=request.getParameter("csrv")%>"/>
+            <input type="hidden" name="csrv" value="<%=customerSurvey.getCustomerSurveyInstanceID()%>"/>
             <%}%>
 
-            <input type="hidden" name="templateID" id= "templateID" value="<jsp:getProperty name="customerSurvey" property="surveyTemplateInstanceID"/>"/>
-            <input type="hidden" name="sessionID" id="sessionID" value="<jsp:getProperty name="customerSurvey" property="customerSessionInstanceID"/>"/>
-            <input type="hidden" name="surveyRequestID" id="surveyRequestID" value="<jsp:getProperty name="customerSurvey" property="customerSurveyRequestID"/>"/>
-            <input type="hidden" name="pageID" id="pageID" value="<jsp:getProperty name="customerSurvey" property="pageInstanceID"/>"/>
+            <input type="hidden" name="templateID" id="templateID" value="<%=customerSurvey.getSurveyTemplateInstanceID()%>"/>
+            <input type="hidden" name="sessionID" id="sessionID" value="<%=customerSurvey.getCustomerSessionInstanceID()%>"/>
+            <input type="hidden" name="surveyRequestID" id="surveyRequestID" value="<%=customerSurvey.getCustomerSurveyRequestID()%>"/>
+            <input type="hidden" name="pageID" id="pageID" value="<%=customerSurvey.getPageInstanceID()%>"/>
             <input type="hidden" name="queryString" id="queryString" value="<%=StringEscapeUtils.escapeXml(request.getQueryString())%>"/>
         </form>
         <jsp:setProperty name="UserContext" property="errorMessage" value=""/>

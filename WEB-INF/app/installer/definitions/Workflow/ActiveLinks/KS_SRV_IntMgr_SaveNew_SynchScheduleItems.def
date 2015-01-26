@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_IntMgr_SaveNew_SynchScheduleItems
+   timestamp      : 1421095815
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 800
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationManager
+   actlink-mask   : 1
+   actlink-control: 700000001
+   enable         : 1
+   permission     : 0 10010
+   actlink-query  : 4\7\1\700002034\2\4\7\%Batch%\
+   action {
+      push-field  : 0\1\@\15\KS_ACC_Schedule\1\7\4\1\99\179\1\700004104\3\5\102\1\*\1\*\1\700009007\0\1\4\
+   }
+   else {
+      push-field  : 0\1\@\15\KS_ACC_Schedule\1\7\1\4\1\99\179\1\700004104\4\1\1\7\2\6\0\3\5\101\6\1\
+   }
+   help-text      : Ensures that the status of the scheduled event(s) is the same as the source's (AKA integration point) status.
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

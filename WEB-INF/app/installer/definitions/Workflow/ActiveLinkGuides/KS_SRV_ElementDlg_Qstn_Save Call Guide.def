@@ -1,0 +1,201 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ElementDlg_Qstn_Save Call Guide
+   type           : 1
+   num-references : 37
+   timestamp      : 1421095851
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\20\KS_SRV_ElementDialog\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_CommaInChoice_Check
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_CommaInChoice_Error
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_MenuLabelCheck
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_MenuLabelError
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_MultipleSelectionChg
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Set MultipleSelection
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_CoreFields
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_DateType
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_DynamicList_Type
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_DynamicList_UseDataSource
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_FreeText_Type_Email
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_AdvanceDefault
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_AdvanceDefault_Qual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_AdvanceDefault_UseDataSource
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_Vldt_NmrRange
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ChoiceMaxMin
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_VldtFieldMap0
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_VldtFieldMap1
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_VldtFieldMap2
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ValidateList
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ValidateListChoiceExist_01
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ValidateListChoiceExist_02
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ValidateJustification
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ValidateAttachment_01
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ValidateAttachment_02
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ValidateAnswerMap
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Modify Question using the same list
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_DynamicList_UseDataSource_CleanUpOnSave
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_DynamicList_NotUseDataSource_CleanUpOnSave
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_AdvanceDefault_UseDataSource_CleanUpOnSave
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_AdvanceDefault_CleanUpOnSave
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_OKPush
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_OKPush_CreateBridgedResource
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_OKPush_CreateBridgedResource_AdvDefault
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_ResetFieldMapForCheckboxQstns_callguide
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_OKPush_ReMapCheckbox
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ElementDlg_Qstn_OKPush_CloseWindow
+}
+end

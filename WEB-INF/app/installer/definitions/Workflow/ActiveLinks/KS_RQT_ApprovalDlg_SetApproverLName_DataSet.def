@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_ApprovalDlg_SetApproverLName_DataSet
+   timestamp      : 1421095770
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_ApprovalDialog
+   actlink-mask   : 128
+   actlink-focus  : 700088102
+   enable         : 1
+   permission     : 0 10105
+   actlink-query  : 1\4\1\1\700040002\2\4\14\KS_SRV_DataSet\4\6\1\700088102\2\0\
+   action {
+      set-field   : 0\700002310\102\1\@\14\KS_SRV_DataSet\1\700000820\4\1\1\179\99\700040003\1\4\
+      set-field   : 1\700008013\102\1\@\14\KS_SRV_DataSet\1\700000828\4\1\1\179\99\700040003\1\4\
+   }
+   action {
+      set-field   : 0\700088102\104\1\104\1\104\1\104\1\101\4\5\<FLD>\102\1\*\1\*\1\700008013\0\1\4\101\4\1\;\102\1\*\1\*\1\700002310\0\1\4\101\4\11\;BASE</FLD>\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

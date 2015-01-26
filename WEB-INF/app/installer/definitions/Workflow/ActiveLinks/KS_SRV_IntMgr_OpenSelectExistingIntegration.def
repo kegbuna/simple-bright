@@ -1,0 +1,61 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_IntMgr_OpenSelectExistingIntegration
+   timestamp      : 1421095813
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 5
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationManager
+   actlink-mask   : 1
+   actlink-control: 770000200
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\2\1\16\2\4\13\RecordBuilder\
+   action {
+      open-server : @
+      open-schema : KS_SRV_IntegrationManager
+      open-vui    : SelectIntegrationName
+      open-close  : 1
+      open-input  : 1\700036000\102\1\@\1\@\1\700036000\0\1\4\
+      open-output : 2\700000030\102\1\@\25\KS_SRV_IntegrationManager\1\770000201\0\1\4\700000032\102\1\@\25\KS_SRV_IntegrationManager\1\770000211\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   else {
+      open-server : @
+      open-schema : KS_SRV_IntegrationManager
+      open-vui    : SelectIntegrationName
+      open-close  : 1
+      open-input  : 7\536870957\102\1\@\1\@\1\179\0\1\4\600000095\102\1\@\1\@\1\700000800\0\1\4\600000096\101\1\16\700002034\102\1\@\1\@\1\700002034\0\1\4\700036000\102\1\@\1\@\1\700036000\0\1\4\700066225\101\4\71\'Application' = $Application$ AND 'Trigge
+      open-input  : r Process' = $Trigger Process$\700066650\102\1\@\1\@\1\490000700\0\1\4\
+
+      open-output : 3\490000700\102\1\@\25\KS_SRV_IntegrationManager\1\490000700\0\1\4\700000030\102\1\@\25\KS_SRV_IntegrationManager\1\770000201\0\1\4\700000032\102\1\@\25\KS_SRV_IntegrationManager\1\770000211\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   else {
+   display-prop   : 2\225\6\1\22\4\7\Default\
+      id          : 700009500
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

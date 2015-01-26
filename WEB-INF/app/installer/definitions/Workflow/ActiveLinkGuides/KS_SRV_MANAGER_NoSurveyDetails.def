@@ -1,0 +1,42 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_MANAGER_NoSurveyDetails
+   type           : 1
+   num-references : 5
+   timestamp      : 1421095852
+   owner          : KineticData, Inc.
+   owning-obj     : 4\2\14\KS_SRV_Manager\2\24\KS_SRV_SubmissionManager\2\14\KS_RQT_Manager\2\24\KS_RQT_SubmissionManager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   description    : Used to clear out survey details, and make read-only until a survey is selected or until a new one is created.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ClearDetails
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ClearChangeFlag
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_Disable_SurveyPage
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_Disable_OtherPages
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_Disable_OtherPages_02
+}
+end

@@ -1,0 +1,29 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_EnforceTransient
+   timestamp      : 1421095880
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 100
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   filter-query   : 4\1\50\710060705\2\6\0\
+   action {
+      set-field   : 0\700071874\101\6\0\
+      set-field   : 1\700001346\101\6\0\
+      set-field   : 2\700001179\101\0\
+      set-field   : 3\700001177\101\0\
+      set-field   : 4\700001123\101\0\
+      set-field   : 5\700000010\101\0\
+   }
+   action {
+      push-field  : 0\1\@\23\KS_SRV_NotificationRule\1\7\4\1\1\700000230\99\179\3\5\101\6\1\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

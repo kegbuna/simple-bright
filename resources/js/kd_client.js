@@ -1291,6 +1291,7 @@ if (!KD.utils.ClientManager) {
                 var form = document.createElement('form');
                 form.name = "Login";
                 form.action = "KSAuthenticationServlet";
+                form.method = "POST";
                 bd.appendChild(form);
 
                 // username label and input field
@@ -1727,6 +1728,17 @@ if (!KD.bridges.BridgeConnector) {
      *   webAppRoot: "/kinetic/"
      * });
      * </code>
+     * 
+     * <br/>
+     * TODO: Explaination
+     * <br/>
+     * <code>
+     * var connector = new KD.bridges.BridgeConnector({
+     *   catalogName: "ACME3",
+     *   tempateName: "iPad Request",
+     *   webAppRoot: "/kinetic/"
+     * });
+     * </code>
      *
      * @namespace KD.bridges
      * @class BridgeConnector
@@ -1751,7 +1763,9 @@ if (!KD.bridges.BridgeConnector) {
             } else {
                 // If the template id was not specified, default it to the
                 // ClientManager value.
-                if (properties.templateId == undefined) {
+                if (properties.templateId == undefined && 
+                    (properties.catalogName == undefined && properties.templateName == undefined)
+                ) {
                     properties.templateId = KD.utils.ClientManager.templateId;
                 }
                 // If the web app root was not specified, default it to the
@@ -1770,12 +1784,29 @@ if (!KD.bridges.BridgeConnector) {
          * @default <code>KD.utils.ClientManager.templateId</code>
          */
         this.templateId = properties['templateId'];
+        
+        /**
+         * TODO: Document KD.bridges.BridgeConnector.catalogName
+         *
+         * @property catalogName
+         * @type String
+         */
+        this.catalogName = properties['catalogName'];
+        
+        /**
+         * TODO: Document KD.bridges.BridgeConnector.templateName
+         *
+         * @property catalogName
+         * @type String
+         */
+        this.templateName = properties['templateName'];
+        
+        
         /**
          * TODO: Document KD.bridges.BridgeConnector.webAppRoot
          *
          * @property webAppRoot
          * @type String
-         * @default <code>KD.utils.ClientManager.templateId</code>
          */
         this.webAppRoot = properties['webAppRoot'];
         // Ensure that the web app root includes a trailing slash
@@ -1904,12 +1935,23 @@ if (!KD.bridges.BridgeConnector) {
          */
         var generateRequestPath = function(action, model, qualification, config) {
             // Build the base path
-            var path = self.webAppRoot+
-                "BridgeDataRequest"+
-                "?action="+action+
-                "&formId="+self.templateId+
-                "&model="+model+
-                "&qualification="+qualification;
+            var path;
+            if (self.catalogName !== undefined && self.templateName !== undefined) {
+                path = self.webAppRoot+
+                    "BridgeDataRequest"+
+                    "?action="+action+
+                    "&catalogName="+self.catalogName+
+                    "&formName="+self.templateName+
+                    "&model="+model+
+                    "&qualification="+qualification;
+            } else {
+                path = self.webAppRoot+
+                    "BridgeDataRequest"+
+                    "?action="+action+
+                    "&formId="+self.templateId+
+                    "&model="+model+
+                    "&qualification="+qualification;
+            }
             // If attributes were specified, build the attributes parameter
             if (config["attributes"] != null) {
                 path += "&attributes="+config["attributes"].join(",");

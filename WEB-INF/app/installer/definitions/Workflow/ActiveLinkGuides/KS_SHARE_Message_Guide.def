@@ -1,0 +1,54 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SHARE_Message_Guide
+   type           : 1
+   num-references : 7
+   timestamp      : 1421095850
+   owner          : KineticData, Inc.
+   owning-obj     : 7\2\18\KS_ACC_ATT_Manager\2\14\KS_ACC_Manager\2\13\KS_ATT_Dialog\2\14\KS_MSG_Manager\2\28\KS_RPT_AdvancedReportConsole\2\14\KS_RPT_Manager\2\22\KS_RPT_S&
+   owning-obj     : avedSearch_dlg\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   label          : KS_SHARE_Message_Guide
+   description    : KS_SHARE_Message_Guide
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SHARE_Message_GetMessage
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SHARE_Message_DisplayNote
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SHARE_Message_DisplayWarning
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SHARE_Message_DisplayError
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SHARE_Message_DisplayPrompt
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SHARE_Message_DisplayAccessible
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SHARE_Message_DisplayDialog
+}
+end

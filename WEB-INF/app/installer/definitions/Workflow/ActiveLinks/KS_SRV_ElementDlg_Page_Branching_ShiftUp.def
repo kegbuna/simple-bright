@@ -1,0 +1,31 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Page_Branching_ShiftUp
+   timestamp      : 1421095796
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 1
+   actlink-control: 700002058
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\2\1\700009321\2\2\1\
+   action {
+      push-field  : 0\1\@\27\KS_SRV_PageBranchingOptions\1\600000042\4\1\1\179\99\700009323\3\3\101\4\8\SHIFT_UP\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_ElementDlg_Page_Branching_RefreshOptions_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

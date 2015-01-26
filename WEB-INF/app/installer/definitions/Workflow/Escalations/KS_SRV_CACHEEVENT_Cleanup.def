@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin escalation
+   name           : KS_SRV_CACHEEVENT_Cleanup
+   timestamp      : 1421095855
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enable         : 1
+   escl-tmType    : 2
+   export-version : 9
+   escl-monthday  : 0
+   escl-weekday   : 127
+   escl-hourmask  : 2097152
+   escl-minute    : 30
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CacheEvent
+   escl-query     : 4\4\1\6\3\2\2\1\2\2\2\86400\
+   action {
+      set-field   : 0\7\101\6\1\
+   }
+end

@@ -1,0 +1,20 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_DisplayPage_Union_SetCatalogInstanceID
+   timestamp      : 1421095873
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_DisplayPage_UNION
+   export-version : 9
+   filter-query   : 4\1\99\700001923\2\0\
+   action {
+      set-field   : 0\700001923\102\1\@\21\KS_SRV_SurveyTemplate\1\700001923\4\1\1\179\99\700000800\2\3\
+   }
+end

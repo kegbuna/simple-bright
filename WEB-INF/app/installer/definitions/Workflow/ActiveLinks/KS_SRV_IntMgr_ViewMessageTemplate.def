@@ -1,0 +1,49 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_IntMgr_ViewMessageTemplate
+   timestamp      : 1421095818
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationManager
+   actlink-mask   : 1
+   actlink-control: 700007009
+   enable         : 1
+   permission     : 0 10105 10305
+   actlink-query  : 4\6\1\700001972\2\0\
+   action {
+      set-field   : 0\536870956\102\1\@\22\KS_MSG_MessageTemplate\1\536870913\4\1\99\700001974\1\179\1\4\
+      set-field   : 1\600000091\102\1\@\22\KS_MSG_MessageTemplate\1\700003453\4\1\99\700001974\1\179\1\4\
+      set-field   : 2\600000092\102\1\@\22\KS_MSG_MessageTemplate\1\600000500\4\1\99\700001974\1\179\1\4\
+      set-field   : 3\600000093\102\1\@\22\KS_MSG_MessageTemplate\1\600000600\4\1\99\700001974\1\179\1\4\
+      set-field   : 4\600000094\102\1\@\22\KS_MSG_MessageTemplate\1\18090\4\1\99\700001974\1\179\1\4\
+      set-field   : 5\600000095\102\1\@\22\KS_MSG_MessageTemplate\1\700003469\4\1\99\700001974\1\179\1\4\
+      set-field   : 6\600000096\102\1\@\22\KS_MSG_MessageTemplate\1\600000300\4\1\99\700001974\1\179\1\4\
+   }
+   action {
+      open-server : @
+      open-schema : KS_MSG_Manager
+      open-vui    : NewMessageTemplateView
+      open-close  : 1
+      open-input  : 12\179\102\1\@\1\@\1\700001974\0\1\4\18090\102\1\@\1\@\1\600000094\0\1\4\400069400\102\1\@\1\@\1\700036000\0\1\4\536870913\102\1\@\1\@\1\536870956\0\1\4\600000300\102\1\@\1\@\1\600000096\0\1\4\600000340\101\4\23\KS_SRV_SurveyCategories
+      open-input  : \600000500\102\1\@\1\@\1\600000092\0\1\4\600000600\102\1\@\1\@\1\600000093\0\1\4\700001261\102\1\@\1\@\1\700001972\0\1\4\700003453\102\1\@\1\@\1\600000091\0\1\4\700003469\102\1\@\1\@\1\600000095\0\1\4\700036000\102\1\@\1\@\1\700036000\
+      open-input  : 0\1\4\
+
+      open-output : 2\700001972\102\1\@\14\KS_MSG_Manager\1\700001261\0\1\4\700001974\102\1\@\14\KS_MSG_Manager\1\179\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-query  : 4\1\99\700001859\1\179\
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

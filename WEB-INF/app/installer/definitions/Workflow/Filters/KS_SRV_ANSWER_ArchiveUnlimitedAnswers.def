@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_ANSWER_ArchiveUnlimitedAnswers
+   timestamp      : 1421095863
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 1
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyAnswer
+   export-version : 9
+   filter-query   : 1\1\4\1\50\700036556\2\6\0\4\1\51\700036556\2\0\4\1\99\600000090\2\4\7\Archive\
+   action {
+      push-field  : 0\1\@\28\KS_SRV_SurveyAnswerUnlimited\1\700036556\4\1\1\179\99\700001840\3\5\101\6\0\
+   }
+   action {
+      goto action : 2\1000
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ConfigMgr_BuidAttTableQual_SetBase_Survey
+   timestamp      : 1421095788
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ConfigurationManager
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700036000\2\4\14\Kinetic Survey\
+   action {
+      set-field   : 0\700008001\104\1\104\1\101\4\71\'Attribute_Parent_Form' = "KS_SRV_SurveyTemplate" AND 'Application' = "\102\1\*\1\*\1\700036000\0\1\4\101\4\27\" AND 'Status'  != "Delete"\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

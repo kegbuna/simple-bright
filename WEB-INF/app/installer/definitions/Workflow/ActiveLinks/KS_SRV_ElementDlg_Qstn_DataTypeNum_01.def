@@ -1,0 +1,196 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_DataTypeNum_01
+   timestamp      : 1421095801
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 16512
+   actlink-focus  : 700000002
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\7\2\1\16\2\4\15\QuestionDialog%\4\1\1\700000002\2\4\13\Numeric Range\
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000012
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000011
+      focus       : 1
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000004
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000008
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700003606
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001287
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001290
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000950
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000810
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000913
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000014
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      set-field   : 0\536870966\101\0\
+      set-field   : 1\700000004\101\0\
+      set-field   : 2\700000008\101\0\
+      set-field   : 3\700000014\101\0\
+      set-field   : 4\700000810\101\0\
+      set-field   : 5\700000913\101\0\
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 536870910
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      id          : 700000420
+      char-menu   : KS_ACC_FieldsFromForm_NameOnly
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000015
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700000016
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001005
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700005005
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700005010
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001300
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001310
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001320
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 600000261
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001340
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000010
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,28 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_ListMember_CreateListRelationshipOnMerge
+   timestamp      : 1421095875
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 16
+   enable         : 1
+   filter-order   : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Member
+   export-version : 9
+   filter-query   : 4\6\99\700000000\2\0\
+   action {
+      push-field  : 0\1\@\25\KS_SRV_List_Relationships\1\700000002\1\4\1\99\700000000\1\700000001\4\1\99\179\1\700000002\4\6\102\1\@\1\@\1\179\0\1\4\
+      push-field  : 1\1\@\25\KS_SRV_List_Relationships\1\700000001\1\4\1\99\700000000\1\700000001\4\1\99\179\1\700000002\4\6\102\1\@\1\@\1\700000000\0\1\4\
+      push-field  : 2\1\@\25\KS_SRV_List_Relationships\1\7\1\4\1\99\700000000\1\700000001\4\1\99\179\1\700000002\4\6\101\6\0\
+   }
+   else {
+      message-type: 2
+      message-num : 10000
+      message-text: The list name/category that you are importing your list members to is not vaild.  Please verify that you have spelled the list name and/or category correctly.  If the list name does not exist, please create it prior to importing your list members.
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

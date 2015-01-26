@@ -1,0 +1,28 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_List_Manager_CreateMember
+   timestamp      : 1421095819
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Manager
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\2\2\1\24\2\4\1\0\
+   action {
+      push-field  : 0\1\@\18\KS_SRV_List_Member\1\7\4\1\99\700000251\1\179\4\3\101\6\0\
+      push-field  : 1\1\@\18\KS_SRV_List_Member\1\179\4\1\99\700000251\1\179\4\3\102\1\*\1\*\1\700000251\0\1\4\
+      push-field  : 2\1\@\18\KS_SRV_List_Member\1\400005200\4\1\99\700000251\1\179\4\3\102\1\*\1\*\1\700002003\0\1\4\
+      push-field  : 3\1\@\18\KS_SRV_List_Member\1\400007300\4\1\99\700000251\1\179\4\3\102\1\*\1\*\1\700002007\0\1\4\
+      push-field  : 4\1\@\18\KS_SRV_List_Member\1\400007500\4\1\99\700000251\1\179\4\3\102\1\*\1\*\1\700002006\0\1\4\
+      push-field  : 5\1\@\18\KS_SRV_List_Member\1\400068300\4\1\99\700000251\1\179\4\3\102\1\*\1\*\1\700002205\0\1\4\
+      push-field  : 6\1\@\18\KS_SRV_List_Member\1\400098500\4\1\99\700000251\1\179\4\3\102\1\*\1\*\1\700002204\0\1\4\
+      push-field  : 7\1\@\18\KS_SRV_List_Member\1\700004000\4\1\99\700000251\1\179\4\3\102\1\*\1\*\1\700002004\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

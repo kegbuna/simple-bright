@@ -1,0 +1,31 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_ContentEvents_BridgeParams_ParseParams_CallGuide
+   timestamp      : 1421095865
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 250
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentEvents
+   export-version : 9
+   filter-query   : 1\1\1\2\4\1\99\700004642\2\4\13\Populate Menu\4\1\99\700004642\2\4\21\Set Fields - External\4\6\99\710060809\2\0\4\6\99\7\2\6\1\4\6\99\760001307\2\0\
+   action {
+      set-field   : 0\536870916\101\0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_ContentEvents_BridgeParams_ParseParams_Guide
+      call-mode   : 0
+      call-tableid: 770006499
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\536870916\105\41\2\102\1\@\1\@\1\536870916\0\1\4\104\2\105\40\1\102\1\@\1\@\1\536870916\0\1\4\101\2\2\
+   }
+end

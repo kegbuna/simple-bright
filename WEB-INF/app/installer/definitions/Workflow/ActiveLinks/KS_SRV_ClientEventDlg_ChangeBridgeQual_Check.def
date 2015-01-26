@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_ChangeBridgeQual_Check
+   timestamp      : 1421095780
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 8
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   actlink-mask   : 128
+   actlink-focus  : 760000400
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\760000400\2\0\4\6\1\760000400\1\536870933\
+   action {
+      set-field   : 0\600000092\102\1\@\31\KS_RQT_BridgedResourceParameter\1\1\1\1\4\1\1\760000901\99\710060809\4\1\1\760000200\99\760000200\4\1\1\760000400\99\536870933\2\3\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

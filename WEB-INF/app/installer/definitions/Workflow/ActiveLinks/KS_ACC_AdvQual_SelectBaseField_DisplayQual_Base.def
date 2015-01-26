@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ACC_AdvQual_SelectBaseField_DisplayQual_Base
+   timestamp      : 1421095751
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_AdvancedQualification
+   actlink-mask   : 128
+   actlink-focus  : 700009172
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\1\4\6\2\1\16\2\4\27\ClientEventsQualBuilderView\4\6\1\700009172\2\0\4\1\1\600000301\2\4\33\KS_SRV_CustomerSurveyResults_join\4\1\1\700040002\2\4\14\
+   actlink-query  : KS_SRV_DataSet\
+   action {
+      set-field   : 0\600000261\105\20\1\105\19\1\104\1\104\1\104\1\102\1\*\1\*\1\600000261\0\1\4\101\4\6\ <FLD>\102\1\*\1\*\1\700040000\0\1\4\101\4\11\;BASE</FLD>\
+   }
+   action {
+      id          : 600000261
+      focus       : 1
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

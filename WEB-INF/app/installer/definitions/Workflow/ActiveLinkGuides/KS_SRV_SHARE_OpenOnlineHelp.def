@@ -1,0 +1,92 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SHARE_OpenOnlineHelp
+   type           : 1
+   num-references : 14
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 10\2\14\KS_MSG_Manager\2\28\KS_RPT_AdvancedReportConsole\2\14\KS_RPT_Manager\2\27\KS_SRV_ConfigurationManager\2\25\KS_SRV_HTML_AdvanceEditor\2\25\KS_SRV&
+   owning-obj     : _IntegrationManager\2\19\KS_SRV_List_Manager\2\14\KS_SRV_Manager\2\13\KS_SRV_Viewer\2\14\KS_RQT_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   permission     : 10010\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : FORM SPECIFIC
+   value          : 0\
+   ref-groups     : 10010
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetMainHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_SetGlobalSearchHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RPT_CONSOLE_SetAdvRptConsoleHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_MSG_MGR_SetMsgTmpltMgrHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_List_Manager_SetListManagerHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ConfigMgr_SetConfigMgrHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SetIntegrationMgrHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RPT_MANAGER_SetReportMgrHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_HTMLEditor_SetHTMLEditorHelp
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SetNewIntegrationHelp
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : SHARED
+   value          : 0\
+   ref-groups     : 10010
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SHARE_OpenHelpURL_GetURL
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SHARE_OpenHelpURL_OpenURL
+}
+end

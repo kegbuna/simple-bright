@@ -1,0 +1,57 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CONTENTSHTML_BuildAnswerEvents_Init
+   timestamp      : 1421095868
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 700
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentsElementHTML
+   export-version : 9
+   filter-query   : 1\4\1\99\600000042\2\4\10\BUILD_HTML\4\1\99\700001202\2\6\0\
+   action {
+      set-field   : 0\700002239\101\2\1\
+      set-field   : 1\700001239\101\2\1\
+   }
+   action {
+      set-field   : 0\70000083\107\1\@\65\SELECT schemaId FROM arschema WHERE name = 'KS_SRV_ContentEvents'\1\2\3\
+   }
+   action {
+      set-field   : 0\70000082\107\1\@\88\SELECT fieldId FROM field WHERE schemaId = $70000083$ AND fieldName = 'SurveyInstanceID'\1\2\3\
+   }
+   action {
+      set-field   : 0\700002304\107\1\@\86\SELECT fieldId FROM field WHERE schemaId = $70000083$ AND fieldName = 'PageInstanceId'\1\2\3\
+   }
+   action {
+      set-field   : 0\70000087\107\1\@\82\SELECT fieldId FROM field WHERE schemaId = $70000083$ AND fieldName = 'Event_Code'\1\2\3\
+   }
+   action {
+      set-field   : 0\700002239\107\1\@\66\SELECT COUNT(*) FROM T$70000083$ WHERE C$70000082$ = '$700000800$'\1\2\3\
+   }
+   action {
+      set-field   : 0\70000080\101\4\3\' '\
+   }
+   action {
+      set-field   : 0\700001053\104\1\102\1\@\1\@\1\700001053\0\1\4\101\4\61\ <script type="text/javascript">function ks_actionsInit(){\
+   }
+   action {
+      set-field   : 0\710060521\107\1\@\84\SELECT fieldId FROM field WHERE schemaId = $70000083$ AND fieldName = 'Event_Status'\1\2\3\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_CONTENTSHTML_BuildAnswerEvents_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\700001053\104\1\102\1\@\1\@\1\700001053\0\1\4\101\4\14\ }</script>\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

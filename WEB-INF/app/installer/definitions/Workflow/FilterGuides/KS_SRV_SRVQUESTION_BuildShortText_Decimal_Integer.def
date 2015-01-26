@@ -1,0 +1,61 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SRVQUESTION_BuildShortText_Decimal_Integer
+   type           : 4
+   num-references : 9
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\21\KS_SRV_SurveyQuestion\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   description    : FilterGuide that builds the Answer HTML for
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_SetReadOnlyDisplay_ReadOnly
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildShortText_HTML_InGuide
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildShortText_HTML_InGuide_Required
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDecimal_HTML_InGuide
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildDecimal_HTML_InGuide_Required
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildInteger_HTML_InGuide
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_BuildInteger_HTML_InGuide_Required
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_ShortTextIntegerDecimal_HTML_NoPattern
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_ShortTextIntegerDecimal_HTML_NoPattern_Required
+}
+end

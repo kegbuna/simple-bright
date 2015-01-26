@@ -1,0 +1,51 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_ContentEvents_BuildSetFieldsParams_CallGuide
+   timestamp      : 1421095865
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 300
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentEvents
+   export-version : 9
+   filter-query   : 1\1\4\6\99\700004584\2\0\2\4\1\99\700004642\2\4\21\Set Fields - External\4\1\99\700004642\2\4\21\Set Fields - Internal\4\6\99\7\2\6\1\
+   action {
+      set-field   : 0\700001681\101\0\
+      set-field   : 1\700001680\101\0\
+   }
+   action {
+      set-field   : 0\70000083\107\1\@\60\SELECT schemaId FROM arschema WHERE name = 'KS_SRV_FieldMap'\1\2\3\
+   }
+   action {
+      set-field   : 0\70000082\107\1\@\91\SELECT fieldId FROM field WHERE schemaId = $70000083$ AND fieldName = 'FormEventInstanceId'\1\2\3\
+   }
+   action {
+      set-field   : 0\70000087\107\1\@\82\SELECT fieldId FROM field WHERE schemaId = $70000083$ AND fieldName = 'instanceId'\1\2\3\
+   }
+   action {
+      set-field   : 0\70000088\107\1\@\82\SELECT fieldId FROM field WHERE schemaId = $70000083$ AND fieldName = 'Sort_Order'\1\2\3\
+   }
+   action {
+      set-field   : 0\700001055\101\4\1\1\
+   }
+   action {
+      set-field   : 0\700001056\101\2\0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_ContentEvents_BuildSetFieldsParams_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\700001680\105\41\2\102\1\@\1\@\1\700001680\0\1\4\104\2\105\40\1\102\1\@\1\@\1\700001680\0\1\4\101\2\2\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

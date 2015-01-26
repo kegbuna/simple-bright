@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_DLG_Delete_Att_Inst1
+   timestamp      : 1421095756
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 1
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_Dialog
+   actlink-mask   : 1
+   actlink-control: 710000016
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\710000034\2\0\
+   action {
+      set-field   : 0\600000042\102\1\@\25\AR System Message Catalog\1\156\1\4\1\1\151\2\2\70004\4\7\2\1\21\3\1\1\152\2\4\1\%\1\3\
+   }
+   action {
+      open-server : @
+      open-schema : KS_ACC_Confirm
+      open-vui    : YN_Short_Message
+      open-close  : 0
+      open-input  : 1\600000325\102\1\@\13\KS_ATT_Dialog\1\600000042\0\1\4\
+      open-output : 1\600000042\102\1\@\14\KS_ACC_Confirm\1\600000042\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   help-text      : 'C_In_Att_Inst_InstanceID' !=  $NULL$
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

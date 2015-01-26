@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_FormEventInstance_SetTriggerDevName
+   timestamp      : 1421095874
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 800
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_FormEventInstance
+   export-version : 9
+   filter-query   : 4\6\99\700002034\51\700002034\
+   action {
+      set-field   : 0\700002234\102\1\@\11\KS_ACC_Menu\1\600000200\1\1\4\1\99\700002034\1\700000820\4\1\1\700000800\2\4\27\Integration Trigger Process\4\1\1\7\2\6\0\2\3\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

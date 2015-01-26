@@ -1,0 +1,86 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_SetTemplateInfo
+   timestamp      : 1421095775
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700000800\2\0\
+   action {
+      set-field   : 0\112\102\1\@\21\KS_SRV_SurveyTemplate\1\112\4\1\99\700000800\1\179\1\4\
+      set-field   : 1\160\102\1\@\21\KS_SRV_SurveyTemplate\1\160\4\1\99\700000800\1\179\1\4\
+      set-field   : 2\179\102\1\@\21\KS_SRV_SurveyTemplate\1\179\4\1\99\700000800\1\179\1\4\
+      set-field   : 3\70000100\102\1\@\21\KS_SRV_SurveyTemplate\1\70000100\4\1\99\700000800\1\179\1\4\
+      set-field   : 4\490000100\101\4\21\KS_SRV_SurveyTemplate\
+      set-field   : 5\600000500\102\1\@\21\KS_SRV_SurveyTemplate\1\600000500\4\1\99\700000800\1\179\1\4\
+      set-field   : 6\600000600\102\1\@\21\KS_SRV_SurveyTemplate\1\600000600\4\1\99\700000800\1\179\1\4\
+      set-field   : 7\700000145\102\1\@\21\KS_SRV_SurveyTemplate\1\7\4\1\99\700000800\1\179\1\4\
+      set-field   : 8\700000412\102\1\@\21\KS_SRV_SurveyTemplate\1\700001259\4\1\99\700000800\1\179\1\4\
+      set-field   : 9\700000413\102\1\@\21\KS_SRV_SurveyTemplate\1\700002302\4\1\99\700000800\1\179\1\4\
+      set-field   : 10\700000800\102\1\@\21\KS_SRV_SurveyTemplate\1\179\4\1\99\700000800\1\179\1\4\
+      set-field   : 11\700000829\102\1\@\21\KS_SRV_SurveyTemplate\1\700000829\4\1\99\700000800\1\179\1\4\
+      set-field   : 12\700001000\102\1\@\21\KS_SRV_SurveyTemplate\1\700001000\4\1\99\700000800\1\179\1\4\
+      set-field   : 13\700001010\102\1\@\21\KS_SRV_SurveyTemplate\1\700001010\4\1\99\700000800\1\179\1\4\
+      set-field   : 14\700001150\102\1\@\21\KS_SRV_SurveyTemplate\1\700001150\4\1\99\700000800\1\179\1\4\
+      set-field   : 15\700001185\101\0\
+      set-field   : 16\700001259\102\1\@\21\KS_SRV_SurveyTemplate\1\700001259\4\1\99\700000800\1\179\1\4\
+      set-field   : 17\700001261\101\0\
+      set-field   : 18\700001560\101\0\
+      set-field   : 19\700001698\101\0\
+      set-field   : 20\700001706\101\0\
+      set-field   : 21\700001859\101\0\
+      set-field   : 22\700001895\101\1\0\
+      set-field   : 23\700001923\102\1\@\21\KS_SRV_SurveyTemplate\1\700001923\4\1\99\700000800\1\179\1\4\
+      set-field   : 24\700001954\101\0\
+      set-field   : 25\700001966\101\0\
+      set-field   : 26\700002259\102\1\@\21\KS_SRV_SurveyTemplate\1\700002259\4\1\99\700000800\1\179\1\4\
+      set-field   : 27\700002268\102\1\@\21\KS_SRV_SurveyTemplate\1\700002268\4\1\99\700000800\1\179\1\4\
+      set-field   : 28\700002297\102\1\@\21\KS_SRV_SurveyTemplate\1\700002297\4\1\99\700000800\1\179\1\4\
+      set-field   : 29\700002298\102\1\@\21\KS_SRV_SurveyTemplate\1\700002298\4\1\99\700000800\1\179\1\4\
+      set-field   : 30\700002301\102\1\@\21\KS_SRV_SurveyTemplate\1\700002301\4\1\99\700000800\1\179\1\4\
+      set-field   : 31\700002302\102\1\@\21\KS_SRV_SurveyTemplate\1\700002302\4\1\99\700000800\1\179\1\4\
+      set-field   : 32\700002455\102\1\@\21\KS_SRV_SurveyTemplate\1\700002455\4\1\99\700000800\1\179\1\4\
+      set-field   : 33\700002456\102\1\@\21\KS_SRV_SurveyTemplate\1\700002456\4\1\99\700000800\1\179\1\4\
+      set-field   : 34\700002457\102\1\@\21\KS_SRV_SurveyTemplate\1\700002457\4\1\99\700000800\1\179\1\4\
+      set-field   : 35\700002458\102\1\@\21\KS_SRV_SurveyTemplate\1\700002458\4\1\99\700000800\1\179\1\4\
+      set-field   : 36\700002486\102\1\@\21\KS_SRV_SurveyTemplate\1\700002486\4\1\99\700000800\1\179\1\4\
+      set-field   : 37\700002489\102\1\@\21\KS_SRV_SurveyTemplate\1\700002489\4\1\99\700000800\1\179\1\4\
+      set-field   : 38\700003000\102\1\@\21\KS_SRV_SurveyTemplate\1\700003000\4\1\99\700000800\1\179\1\4\
+      set-field   : 39\700003001\102\1\@\21\KS_SRV_SurveyTemplate\1\700003001\4\1\99\700000800\1\179\1\4\
+      set-field   : 40\700003002\102\1\@\21\KS_SRV_SurveyTemplate\1\700003002\4\1\99\700000800\1\179\1\4\
+      set-field   : 41\700003101\102\1\@\21\KS_SRV_SurveyTemplate\1\700001000\4\1\99\700000800\1\179\1\4\
+      set-field   : 42\700003102\102\1\@\21\KS_SRV_SurveyTemplate\1\600000500\4\1\99\700000800\1\179\1\4\
+      set-field   : 43\700061010\102\1\@\21\KS_SRV_SurveyTemplate\1\700061010\4\1\99\700000800\1\179\1\4\
+      set-field   : 44\700073300\102\1\@\21\KS_SRV_SurveyTemplate\1\700073300\4\1\99\700000800\1\179\1\4\
+      set-field   : 45\700073301\102\1\@\21\KS_SRV_SurveyTemplate\1\700073301\4\1\99\700000800\1\179\1\4\
+      set-field   : 46\700073302\102\1\@\21\KS_SRV_SurveyTemplate\1\700073302\4\1\99\700000800\1\179\1\4\
+      set-field   : 47\700073501\102\1\@\21\KS_SRV_SurveyTemplate\1\700073501\4\1\99\700000800\1\179\1\4\
+      set-field   : 48\700073502\102\1\@\21\KS_SRV_SurveyTemplate\1\700073502\4\1\99\700000800\1\179\1\4\
+      set-field   : 49\700073503\102\1\@\21\KS_SRV_SurveyTemplate\1\700073503\4\1\99\700000800\1\179\1\4\
+      set-field   : 50\702031800\102\1\@\21\KS_SRV_SurveyTemplate\1\702031800\4\1\99\700000800\1\179\1\4\
+      set-field   : 51\702031801\102\1\@\21\KS_SRV_SurveyTemplate\1\702031801\4\1\99\700000800\1\179\1\4\
+      set-field   : 52\702031803\102\1\@\21\KS_SRV_SurveyTemplate\1\702031803\4\1\99\700000800\1\179\1\4\
+   }
+   action {
+      id          : 700001245
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 700001020
+      char-menu   : KS_CORE_NoMenu
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

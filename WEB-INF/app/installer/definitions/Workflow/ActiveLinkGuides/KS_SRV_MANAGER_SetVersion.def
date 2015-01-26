@@ -1,0 +1,42 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_MANAGER_SetVersion
+   type           : 1
+   num-references : 5
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 2\2\14\KS_SRV_Manager\2\14\KS_RQT_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   label          : KS_SRV_MANAGER_SetVersion
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetVersion00
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetVersion0
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetVersion1
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetVersion2
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetVersion3
+}
+end

@@ -1,0 +1,20 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_BRG_MODELMAP_SetStatusToInactive
+   timestamp      : 1421095857
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_ModelMapping
+   export-version : 9
+   filter-query   : 4\1\50\7\2\6\0\
+   action {
+      push-field  : 0\1\@\19\KS_BRG_ModelMapping\1\7\1\4\1\1\760000200\99\760000200\4\6\1\1\99\1\3\5\101\6\1\
+   }
+end

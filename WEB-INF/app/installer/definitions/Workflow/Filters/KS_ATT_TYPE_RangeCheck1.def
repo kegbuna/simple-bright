@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_ATT_TYPE_RangeCheck1
+   timestamp      : 1421095857
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 110
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_AttributeType
+   export-version : 9
+   filter-query   : 1\4\6\99\710000065\2\0\2\4\1\99\710000062\2\0\4\1\99\710000061\2\0\
+   action {
+      set-field   : 0\710000065\101\0\
+      set-field   : 1\710000062\101\0\
+      set-field   : 2\710000061\101\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

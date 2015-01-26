@@ -1,0 +1,36 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_AnswerStyleWithFormatting_TabFocus
+   timestamp      : 1421095801
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 24576
+   actlink-focus  : 700009250
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\2\1\16\2\4\14\QuestionDialog\2\2\2\2\2\4\1\1\700000002\2\4\5\Email\4\1\1\700000002\2\4\7\Decimal\4\1\1\700000002\2\4\7\Integer\4\1\1\700000002\2\4
+   actlink-query  : \4\Date\4\1\1\700000002\2\4\9\Free Text\4\1\1\700000002\2\4\9\Date/Time\
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700001190
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700001190
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   change-diary   : 1167942448dlarsonAdded more answer types to the Run If to handle more Pattern Matching Options
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,45 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_SHARE_Message_GetMessageTextAppend
+   timestamp      : 1421095839
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_MessageText
+   schema-name    : KS_RQT_ApprovalDialog
+   schema-name    : KS_RQT_Manager
+   schema-name    : KS_RQT_SubmissionManager
+   schema-name    : KS_RQT_TaskManager
+   schema-name    : KS_SRV_AnswerPatternMatch_Dialog
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   schema-name    : KS_SRV_ConfigurationManager
+   schema-name    : KS_SRV_ConfigurationValue
+   schema-name    : KS_SRV_Dialog
+   schema-name    : KS_SRV_ElementDialog
+   schema-name    : KS_SRV_HTML_AdvanceEditor
+   schema-name    : KS_SRV_IntegrationManager
+   schema-name    : KS_SRV_List_Manager
+   schema-name    : KS_SRV_List_Member
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_SRV_NotificationDialog
+   schema-name    : KS_SRV_SavedSearch_dlg
+   schema-name    : KS_SRV_SimpleDataRequest
+   schema-name    : KS_SRV_SubmissionManager
+   schema-name    : KS_SRV_SurveyLoad_Dialog
+   schema-name    : KS_SRV_Viewer
+   schema-name    : KS_RQT_TaskServer_Dlg
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\600000098\2\0\
+   action {
+      set-field   : 0\600000325\104\1\102\1\@\18\KS_ACC_MessageText\1\600000325\1\4\1\99\600000098\1\600000098\4\1\1\7\2\6\0\2\3\102\1\@\18\KS_ACC_MessageText\1\700000000\1\4\1\99\600000098\1\600000098\4\1\1\7\2\6\0\2\3\
+   }
+   help-text      : ( $Message_Number$ = 'Message_Number') AND ( 'Status' = "Active") AND ( $_msgtextappend$ !=  $NULL$ )original set fields if - I am removing "AND ( $_m
+   help-text      : sgtextappend$ !=  $NULL$ )" because this field is not used on anyform, and is setting the message to NULL
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

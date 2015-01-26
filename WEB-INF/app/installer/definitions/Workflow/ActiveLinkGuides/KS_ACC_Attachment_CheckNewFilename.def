@@ -1,0 +1,48 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_ACC_Attachment_CheckNewFilename
+   type           : 1
+   num-references : 6
+   timestamp      : 1421095849
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\18\KS_ACC_ATT_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   label          : KS_ACC_Attachment_CheckNewFilename
+   description    : KS_ACC_Attachment_CheckNewFilename
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_Attachment_CheckNewFilename_CopyLastTwo
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_Attachment_CheckNewFilename_CopyLastTwo_CheckCorrectFormat
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_Attachment_CheckNewFilename_CopyLastThree
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_Attachment_CheckNewFilename_CopyLastThree_CheckCorrectFormat
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_Attachment_CheckNewFilename_CopyLastFour
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ACC_Attachment_CheckNewFilename_CopyLastFour_CheckFormat
+}
+end

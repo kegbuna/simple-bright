@@ -1,0 +1,645 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_CustomerSubmission_ImportExport
+   type           : 5
+   num-references : 16
+   timestamp      : 1421095887
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\34\KS_SRV_CustomerSurvey_ImportExport\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   permission     : 10105\1
+   label          : Customer Submissions
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\112\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>	</wsProperties>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\537\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="ModifyCustomerSubmission" type="set" qualification="&
+   value          : apos;CustomerSurveyID&apos; = XPATH(/ROOT/CustomerSurveyID)">		<arOptions>			<setOptions>				<type>setFirst</type>				<documentType>partial</doc
+   value          : umentType>			</setOptions>		</arOptions>		<inputMapping name="InputMapping11" topLevelElement="ModifyCustomerSubmission"/>		<outputMapping name=
+   value          : "OutputMapping11" topLevelElement="ModifyCustomerSubmissionResponse"/>	</operation>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\367\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="GetCustomerSubmissionList" type="get" qualification="
+   value          : XPATH(/ROOT/Qualification)">		<inputMapping name="InputMapping" topLevelElement="GetCustomerSubmissionList"/>		<outputMapping name="OutputMapping" t
+   value          : opLevelElement="GetCustomerSubmissionListResponse"/>	</operation>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\387\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="GetCustomerSubmission" type="get" qualification="&apo
+   value          : s;CustomerSurveyID&apos; = XPATH(/ROOT/CustomerSurveyID)">		<inputMapping name="GetInputMap" topLevelElement="GetCustomerSubmission"/>		<outputMappi
+   value          : ng name="GetOutputMap" topLevelElement="GetCustomerSubmissionResponse"/>	</operation>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\326\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="CreateCustomerSubmission" type="create">		<inputMap
+   value          : ping name="InputMapping1" topLevelElement="CreateCustomerSubmission"/>		<outputMapping name="OutputMapping1" topLevelElement="CreateCustomerSubmission
+   value          : Response"/>	</operation>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\296\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping11" arDocVersion="8" schemaSource="ge
+   value          : nerated">		<element name="ROOT" dataType="string" nillable="true" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport"/>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\360\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="GetInputMap" arDocVersion="8" schemaSource="genera
+   value          : ted">		<element name="ROOT" dataType="ROOT" nillable="true" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport">			<element name="CustomerS
+   value          : urveyID" dataType="string"/>		</element>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\552\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping1" arDocVersion="8" schemaSource="gen
+   value          : erated">		<formMapping>			<form formName="KS_SRV_CustomerSurvey_ImportExport" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<eleme
+   value          : nt name="ROOT" nillable="true" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport">				<element name="CustomerSurveyID" dataType="string">	
+   value          : 				<fieldMapping arFieldId="1"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\11190\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping1" arDocVersion="8" schemaSource="ge
+   value          : nerated">		<formMapping>			<form formName="KS_SRV_CustomerSurvey_ImportExport" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<elem
+   value          : ent name="ROOT" nillable="true" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport">				<element name="Assigned_To" dataType="string" nillabl
+   value          : e="true">					<fieldMapping arFieldId="4"/>				</element>				<element name="AssigneeGroup" dataType="string" nillable="true">					<fieldMapping 
+   value          : arFieldId="112"/>				</element>				<element name="Attribute1" dataType="string" nillable="true">					<fieldMapping arFieldId="300299400"/>				</
+   value          : element>				<element name="Attribute10" dataType="string" nillable="true">					<fieldMapping arFieldId="700001810"/>				</element>				<element n
+   value          : ame="Attribute11" dataType="string" nillable="true">					<fieldMapping arFieldId="700001811"/>				</element>				<element name="Attribute12" dataTy
+   value          : pe="string" nillable="true">					<fieldMapping arFieldId="700001812"/>				</element>				<element name="Attribute13" dataType="string" nillable="tr
+   value          : ue">					<fieldMapping arFieldId="700001813"/>				</element>				<element name="Attribute14" dataType="string" nillable="true">					<fieldMapping
+   value          :  arFieldId="700001814"/>				</element>				<element name="Attribute15" dataType="string" nillable="true">					<fieldMapping arFieldId="700001815"/>
+   value          : 				</element>				<element name="Attribute16" dataType="string" nillable="true">					<fieldMapping arFieldId="700001816"/>				</element>				<e
+   value          : lement name="Attribute17" dataType="string" nillable="true">					<fieldMapping arFieldId="700001817"/>				</element>				<element name="Attribute18
+   value          : " dataType="string" nillable="true">					<fieldMapping arFieldId="700001818"/>				</element>				<element name="Attribute19" dataType="string" nill
+   value          : able="true">					<fieldMapping arFieldId="700001819"/>				</element>				<element name="Attribute2" dataType="string" nillable="true">					<field
+   value          : Mapping arFieldId="300299500"/>				</element>				<element name="Attribute20" dataType="string" nillable="true">					<fieldMapping arFieldId="70000
+   value          : 1820"/>				</element>				<element name="Attribute21" dataType="string" nillable="true">					<fieldMapping arFieldId="700001821"/>				</element>
+   value          : 				<element name="Attribute22" dataType="string" nillable="true">					<fieldMapping arFieldId="700001822"/>				</element>				<element name="Att
+   value          : ribute23" dataType="string" nillable="true">					<fieldMapping arFieldId="700001823"/>				</element>				<element name="Attribute24" dataType="stri
+   value          : ng" nillable="true">					<fieldMapping arFieldId="700001824"/>				</element>				<element name="Attribute25" dataType="string" nillable="true">		
+   value          : 			<fieldMapping arFieldId="700001825"/>				</element>				<element name="Attribute26" dataType="string" nillable="true">					<fieldMapping arField
+   value          : Id="700001826"/>				</element>				<element name="Attribute27" dataType="string" nillable="true">					<fieldMapping arFieldId="700001827"/>				</
+   value          : element>				<element name="Attribute28" dataType="string" nillable="true">					<fieldMapping arFieldId="700001828"/>				</element>				<element n
+   value          : ame="Attribute29" dataType="string" nillable="true">					<fieldMapping arFieldId="700001829"/>				</element>				<element name="Attribute3" dataTyp
+   value          : e="string" nillable="true">					<fieldMapping arFieldId="300299600"/>				</element>				<element name="Attribute30" dataType="string" nillable="tru
+   value          : e">					<fieldMapping arFieldId="700001830"/>				</element>				<element name="Attribute31" dataType="string" nillable="true">					<fieldMapping 
+   value          : arFieldId="700001831"/>				</element>				<element name="Attribute32" dataType="string" nillable="true">					<fieldMapping arFieldId="700001832"/>
+   value          : 				</element>				<element name="Attribute33" dataType="string" nillable="true">					<fieldMapping arFieldId="700001833"/>				</element>				<e
+   value          : lement name="Attribute34" dataType="string" nillable="true">					<fieldMapping arFieldId="700001834"/>				</element>				<element name="Attribute35
+   value          : " dataType="string" nillable="true">					<fieldMapping arFieldId="700001835"/>				</element>				<element name="Attribute36" dataType="string" nill
+   value          : able="true">					<fieldMapping arFieldId="700001836"/>				</element>				<element name="Attribute37" dataType="string" nillable="true">					<fiel
+   value          : dMapping arFieldId="700001837"/>				</element>				<element name="Attribute38" dataType="string" nillable="true">					<fieldMapping arFieldId="7000
+   value          : 01838"/>				</element>				<element name="Attribute39" dataType="string" nillable="true">					<fieldMapping arFieldId="700001839"/>				</element>
+   value          : 				<element name="Attribute4" dataType="string" nillable="true">					<fieldMapping arFieldId="300299700"/>				</element>				<element name="Attr
+   value          : ibute40" dataType="string" nillable="true">					<fieldMapping arFieldId="700001840"/>				</element>				<element name="Attribute41" dataType="strin
+   value          : g" nillable="true">					<fieldMapping arFieldId="700001841"/>				</element>				<element name="Attribute42" dataType="string" nillable="true">			
+   value          : 		<fieldMapping arFieldId="700001842"/>				</element>				<element name="Attribute43" dataType="string" nillable="true">					<fieldMapping arFieldI
+   value          : d="700001843"/>				</element>				<element name="Attribute44" dataType="string" nillable="true">					<fieldMapping arFieldId="700001844"/>				</e
+   value          : lement>				<element name="Attribute45" dataType="string" nillable="true">					<fieldMapping arFieldId="700001845"/>				</element>				<element na
+   value          : me="Attribute46" dataType="string" nillable="true">					<fieldMapping arFieldId="700001846"/>				</element>				<element name="Attribute47" dataTyp
+   value          : e="string" nillable="true">					<fieldMapping arFieldId="700001847"/>				</element>				<element name="Attribute48" dataType="string" nillable="tru
+   value          : e">					<fieldMapping arFieldId="700001848"/>				</element>				<element name="Attribute49" dataType="string" nillable="true">					<fieldMapping 
+   value          : arFieldId="700001849"/>				</element>				<element name="Attribute5" dataType="string" nillable="true">					<fieldMapping arFieldId="300299800"/>
+   value          : 				</element>				<element name="Attribute50" dataType="string" nillable="true">					<fieldMapping arFieldId="700001850"/>				</element>				<ele
+   value          : ment name="Attribute51" dataType="string" nillable="true">					<fieldMapping arFieldId="700001851"/>				</element>				<element name="Attribute52" 
+   value          : dataType="string" nillable="true">					<fieldMapping arFieldId="700001852"/>				</element>				<element name="Attribute53" dataType="string" nillab
+   value          : le="true">					<fieldMapping arFieldId="700001853"/>				</element>				<element name="Attribute54" dataType="string" nillable="true">					<fieldM
+   value          : apping arFieldId="700001854"/>				</element>				<element name="Attribute55" dataType="string" nillable="true">					<fieldMapping arFieldId="700001
+   value          : 855"/>				</element>				<element name="Attribute56" dataType="string" nillable="true">					<fieldMapping arFieldId="700001856"/>				</element>
+   value          : 				<element name="Attribute57" dataType="string" nillable="true">					<fieldMapping arFieldId="700001857"/>				</element>				<element name="Attri
+   value          : bute58" dataType="string" nillable="true">					<fieldMapping arFieldId="700001858"/>				</element>				<element name="Attribute59" dataType="string
+   value          : " nillable="true">					<fieldMapping arFieldId="700001859"/>				</element>				<element name="Attribute6" dataType="string" nillable="true">					
+   value          : <fieldMapping arFieldId="700001806"/>				</element>				<element name="Attribute60" dataType="string" nillable="true">					<fieldMapping arFieldId=
+   value          : "700001860"/>				</element>				<element name="Attribute61" dataType="string" nillable="true">					<fieldMapping arFieldId="700001861"/>				</ele
+   value          : ment>				<element name="Attribute62" dataType="string" nillable="true">					<fieldMapping arFieldId="700001862"/>				</element>				<element name
+   value          : ="Attribute63" dataType="string" nillable="true">					<fieldMapping arFieldId="700001863"/>				</element>				<element name="Attribute64" dataType=
+   value          : "string" nillable="true">					<fieldMapping arFieldId="700001864"/>				</element>				<element name="Attribute7" dataType="string" nillable="true">
+   value          : 					<fieldMapping arFieldId="700001807"/>				</element>				<element name="Attribute8" dataType="string" nillable="true">					<fieldMapping arFi
+   value          : eldId="700001808"/>				</element>				<element name="Attribute9" dataType="string" nillable="true">					<fieldMapping arFieldId="700001809"/>				
+   value          : </element>				<element name="Category" dataType="string" nillable="true">					<fieldMapping arFieldId="600000500"/>				</element>				<element na
+   value          : me="Company_ID" dataType="string" nillable="true">					<fieldMapping arFieldId="400098500"/>				</element>				<element name="Company_Name" dataTyp
+   value          : e="string" nillable="true">					<fieldMapping arFieldId="400005200"/>				</element>				<element name="Contact_ID" dataType="string" nillable="true
+   value          : ">					<fieldMapping arFieldId="400068300"/>				</element>				<element name="Email_Address" dataType="string" nillable="true">					<fieldMapping
+   value          :  arFieldId="700004000"/>				</element>				<element name="First_Name" dataType="string" nillable="true">					<fieldMapping arFieldId="400007300"/>
+   value          : 				</element>				<element name="Form" dataType="string" nillable="true">					<fieldMapping arFieldId="600000300"/>				</element>				<element 
+   value          : name="Internal_Notes" dataType="string" nillable="true">					<fieldMapping arFieldId="600000021"/>				</element>				<element name="Last_Name" data
+   value          : Type="string" nillable="true">					<fieldMapping arFieldId="400007500"/>				</element>				<element name="Locale" dataType="string" nillable="true"
+   value          : >					<fieldMapping arFieldId="160"/>				</element>				<element name="Message_Template" dataType="string" nillable="true">					<fieldMapping arF
+   value          : ieldId="700001972"/>				</element>				<element name="MessageTemplateInstanceID" dataType="string" nillable="true">					<fieldMapping arFieldId="70
+   value          : 0001974"/>				</element>				<element name="OriginatingID" dataType="string" nillable="true">					<fieldMapping arFieldId="600000310"/>				</elem
+   value          : ent>				<element name="Source" dataType="string" nillable="true">					<fieldMapping arFieldId="700006300"/>				</element>				<element name="Surv
+   value          : ey_Method" dataType="string" nillable="true">					<fieldMapping arFieldId="700001150"/>				</element>				<element name="Survey_Template_Name" data
+   value          : Type="string" nillable="true">					<fieldMapping arFieldId="700001000"/>				</element>				<element name="SurveyInstanceID" dataType="string" nilla
+   value          : ble="true">					<fieldMapping arFieldId="700000800"/>				</element>				<element name="ValidationStatus" dataType="string" nillable="true">					<
+   value          : fieldMapping arFieldId="700002400"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\6192\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="gen
+   value          : erated">		<element name="ROOT" dataType="ROOT" nillable="true" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport">			<formMapping>				<f
+   value          : orm formName="KS_SRV_CustomerSurvey_ImportExport" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>				<element name="getListValues" maxOccu
+   value          : rs="unbounded">					<element name="Assigned_To" dataType="string" nillable="true">						<fieldMapping arFieldId="4"/>					</element>					<elemen
+   value          : t name="AssigneeGroup" dataType="string"/>					<element name="Attribute1" dataType="string"/>					<element name="Attribute10" dataType="string"/>	
+   value          : 				<element name="Attribute11" dataType="string"/>					<element name="Attribute12" dataType="string"/>					<element name="Attribute13" dataType="st
+   value          : ring"/>					<element name="Attribute14" dataType="string"/>					<element name="Attribute15" dataType="string"/>					<element name="Attribute16" da
+   value          : taType="string"/>					<element name="Attribute17" dataType="string"/>					<element name="Attribute18" dataType="string"/>					<element name="Attri
+   value          : bute19" dataType="string"/>					<element name="Attribute2" dataType="string"/>					<element name="Attribute20" dataType="string"/>					<element na
+   value          : me="Attribute21" dataType="string"/>					<element name="Attribute22" dataType="string"/>					<element name="Attribute23" dataType="string"/>					<
+   value          : element name="Attribute24" dataType="string"/>					<element name="Attribute25" dataType="string"/>					<element name="Attribute26" dataType="string"
+   value          : />					<element name="Attribute27" dataType="string"/>					<element name="Attribute28" dataType="string"/>					<element name="Attribute29" dataTyp
+   value          : e="string"/>					<element name="Attribute3" dataType="string"/>					<element name="Attribute30" dataType="string"/>					<element name="Attribute31
+   value          : " dataType="string"/>					<element name="Attribute32" dataType="string"/>					<element name="Attribute33" dataType="string"/>					<element name="A
+   value          : ttribute34" dataType="string"/>					<element name="Attribute35" dataType="string"/>					<element name="Attribute36" dataType="string"/>					<eleme
+   value          : nt name="Attribute37" dataType="string"/>					<element name="Attribute38" dataType="string"/>					<element name="Attribute39" dataType="string"/>	
+   value          : 				<element name="Attribute4" dataType="string"/>					<element name="Attribute40" dataType="string"/>					<element name="Attribute41" dataType="str
+   value          : ing"/>					<element name="Attribute42" dataType="string"/>					<element name="Attribute43" dataType="string"/>					<element name="Attribute44" dat
+   value          : aType="string"/>					<element name="Attribute45" dataType="string"/>					<element name="Attribute46" dataType="string"/>					<element name="Attrib
+   value          : ute47" dataType="string"/>					<element name="Attribute48" dataType="string"/>					<element name="Attribute49" dataType="string"/>					<element na
+   value          : me="Attribute5" dataType="string"/>					<element name="Attribute50" dataType="string"/>					<element name="Attribute51" dataType="string"/>					<e
+   value          : lement name="Attribute52" dataType="string"/>					<element name="Attribute53" dataType="string"/>					<element name="Attribute54" dataType="string"/
+   value          : >					<element name="Attribute55" dataType="string"/>					<element name="Attribute56" dataType="string"/>					<element name="Attribute57" dataType
+   value          : ="string"/>					<element name="Attribute58" dataType="string"/>					<element name="Attribute59" dataType="string"/>					<element name="Attribute6"
+   value          :  dataType="string"/>					<element name="Attribute60" dataType="string"/>					<element name="Attribute61" dataType="string"/>					<element name="At
+   value          : tribute62" dataType="string"/>					<element name="Attribute63" dataType="string"/>					<element name="Attribute64" dataType="string"/>					<elemen
+   value          : t name="Attribute7" dataType="string"/>					<element name="Attribute8" dataType="string"/>					<element name="Attribute9" dataType="string"/>					
+   value          : <element name="Category" dataType="string"/>					<element name="Company_ID" dataType="string"/>					<element name="Company_Name" dataType="string"/>
+   value          : 					<element name="Contact_ID" dataType="string"/>					<element name="Create_Date" dataType="dateTime">						<fieldMapping arFieldId="3"/>					
+   value          : </element>					<element name="CustomerSurveyID" dataType="string">						<fieldMapping arFieldId="1"/>					</element>					<element name="Email_Ad
+   value          : dress" dataType="string"/>					<element name="First_Name" dataType="string"/>					<element name="Form" dataType="string"/>					<element name="inst
+   value          : anceId" dataType="string"/>					<element name="Internal_Notes" dataType="string"/>					<element name="Last_Modified_By" dataType="string">						<f
+   value          : ieldMapping arFieldId="5"/>					</element>					<element name="Last_Name" dataType="string"/>					<element name="Locale" dataType="string"/>					
+   value          : <element name="Message_Template" dataType="string"/>					<element name="MessageTemplateInstanceID" dataType="string"/>					<element name="Modified_D
+   value          : ate" dataType="dateTime">						<fieldMapping arFieldId="6"/>					</element>					<element name="OriginatingID" dataType="string"/>					<element n
+   value          : ame="Short_Description" dataType="string">						<fieldMapping arFieldId="8"/>					</element>					<element name="Source" dataType="string"/>					
+   value          : <element name="Status" dataType="string" enumValues="New,Send,Completed">						<fieldMapping arFieldId="7"/>					</element>					<element name="Sta
+   value          : tus_History" dataType="string"/>					<element name="Submitter" dataType="string">						<fieldMapping arFieldId="2"/>					</element>					<element
+   value          :  name="Survey_Method" dataType="string"/>					<element name="Survey_Template_Name" dataType="string"/>					<element name="SurveyInstanceID" dataType
+   value          : ="string"/>					<element name="SurveySentDate" dataType="string" nillable="true">						<fieldMapping arFieldId="700001282"/>					</element>					
+   value          : <element name="TemplateStatus" dataType="string"/>				</element>			</formMapping>		</element>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\11116\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping11" arDocVersion="8" schemaSource="g
+   value          : enerated">		<formMapping>			<form formName="KS_SRV_CustomerSurvey_ImportExport" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<ele
+   value          : ment name="ROOT" nillable="true" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport">				<element name="Assigned_To" dataType="string" nillab
+   value          : le="true">					<fieldMapping arFieldId="4"/>				</element>				<element name="AssigneeGroup" dataType="string" nillable="true">					<fieldMapping
+   value          :  arFieldId="112"/>				</element>				<element name="Attribute1" dataType="string" nillable="true">					<fieldMapping arFieldId="300299400"/>				<
+   value          : /element>				<element name="Attribute10" dataType="string" nillable="true">					<fieldMapping arFieldId="700001810"/>				</element>				<element 
+   value          : name="Attribute11" dataType="string" nillable="true">					<fieldMapping arFieldId="700001811"/>				</element>				<element name="Attribute12" dataT
+   value          : ype="string" nillable="true">					<fieldMapping arFieldId="700001812"/>				</element>				<element name="Attribute13" dataType="string" nillable="t
+   value          : rue">					<fieldMapping arFieldId="700001813"/>				</element>				<element name="Attribute14" dataType="string" nillable="true">					<fieldMappin
+   value          : g arFieldId="700001814"/>				</element>				<element name="Attribute15" dataType="string" nillable="true">					<fieldMapping arFieldId="700001815"/
+   value          : >				</element>				<element name="Attribute16" dataType="string" nillable="true">					<fieldMapping arFieldId="700001816"/>				</element>				<
+   value          : element name="Attribute17" dataType="string" nillable="true">					<fieldMapping arFieldId="700001817"/>				</element>				<element name="Attribute1
+   value          : 8" dataType="string" nillable="true">					<fieldMapping arFieldId="700001818"/>				</element>				<element name="Attribute19" dataType="string" nil
+   value          : lable="true">					<fieldMapping arFieldId="700001819"/>				</element>				<element name="Attribute2" dataType="string" nillable="true">					<fiel
+   value          : dMapping arFieldId="300299500"/>				</element>				<element name="Attribute20" dataType="string" nillable="true">					<fieldMapping arFieldId="7000
+   value          : 01820"/>				</element>				<element name="Attribute21" dataType="string" nillable="true">					<fieldMapping arFieldId="700001821"/>				</element>
+   value          : 				<element name="Attribute22" dataType="string" nillable="true">					<fieldMapping arFieldId="700001822"/>				</element>				<element name="Att
+   value          : ribute23" dataType="string" nillable="true">					<fieldMapping arFieldId="700001823"/>				</element>				<element name="Attribute24" dataType="stri
+   value          : ng" nillable="true">					<fieldMapping arFieldId="700001824"/>				</element>				<element name="Attribute25" dataType="string" nillable="true">		
+   value          : 			<fieldMapping arFieldId="700001825"/>				</element>				<element name="Attribute26" dataType="string" nillable="true">					<fieldMapping arField
+   value          : Id="700001826"/>				</element>				<element name="Attribute27" dataType="string" nillable="true">					<fieldMapping arFieldId="700001827"/>				</
+   value          : element>				<element name="Attribute28" dataType="string" nillable="true">					<fieldMapping arFieldId="700001828"/>				</element>				<element n
+   value          : ame="Attribute29" dataType="string" nillable="true">					<fieldMapping arFieldId="700001829"/>				</element>				<element name="Attribute3" dataTyp
+   value          : e="string" nillable="true">					<fieldMapping arFieldId="300299600"/>				</element>				<element name="Attribute30" dataType="string" nillable="tru
+   value          : e">					<fieldMapping arFieldId="700001830"/>				</element>				<element name="Attribute31" dataType="string" nillable="true">					<fieldMapping 
+   value          : arFieldId="700001831"/>				</element>				<element name="Attribute32" dataType="string" nillable="true">					<fieldMapping arFieldId="700001832"/>
+   value          : 				</element>				<element name="Attribute33" dataType="string" nillable="true">					<fieldMapping arFieldId="700001833"/>				</element>				<e
+   value          : lement name="Attribute34" dataType="string" nillable="true">					<fieldMapping arFieldId="700001834"/>				</element>				<element name="Attribute35
+   value          : " dataType="string" nillable="true">					<fieldMapping arFieldId="700001835"/>				</element>				<element name="Attribute36" dataType="string" nill
+   value          : able="true">					<fieldMapping arFieldId="700001836"/>				</element>				<element name="Attribute37" dataType="string" nillable="true">					<fiel
+   value          : dMapping arFieldId="700001837"/>				</element>				<element name="Attribute38" dataType="string" nillable="true">					<fieldMapping arFieldId="7000
+   value          : 01838"/>				</element>				<element name="Attribute39" dataType="string" nillable="true">					<fieldMapping arFieldId="700001839"/>				</element>
+   value          : 				<element name="Attribute4" dataType="string" nillable="true">					<fieldMapping arFieldId="300299700"/>				</element>				<element name="Attr
+   value          : ibute40" dataType="string" nillable="true">					<fieldMapping arFieldId="700001840"/>				</element>				<element name="Attribute41" dataType="strin
+   value          : g" nillable="true">					<fieldMapping arFieldId="700001841"/>				</element>				<element name="Attribute42" dataType="string" nillable="true">			
+   value          : 		<fieldMapping arFieldId="700001842"/>				</element>				<element name="Attribute43" dataType="string" nillable="true">					<fieldMapping arFieldI
+   value          : d="700001843"/>				</element>				<element name="Attribute44" dataType="string" nillable="true">					<fieldMapping arFieldId="700001844"/>				</e
+   value          : lement>				<element name="Attribute45" dataType="string" nillable="true">					<fieldMapping arFieldId="700001845"/>				</element>				<element na
+   value          : me="Attribute46" dataType="string" nillable="true">					<fieldMapping arFieldId="700001846"/>				</element>				<element name="Attribute47" dataTyp
+   value          : e="string" nillable="true">					<fieldMapping arFieldId="700001847"/>				</element>				<element name="Attribute48" dataType="string" nillable="tru
+   value          : e">					<fieldMapping arFieldId="700001848"/>				</element>				<element name="Attribute49" dataType="string" nillable="true">					<fieldMapping 
+   value          : arFieldId="700001849"/>				</element>				<element name="Attribute5" dataType="string" nillable="true">					<fieldMapping arFieldId="300299800"/>
+   value          : 				</element>				<element name="Attribute50" dataType="string" nillable="true">					<fieldMapping arFieldId="700001850"/>				</element>				<ele
+   value          : ment name="Attribute51" dataType="string" nillable="true">					<fieldMapping arFieldId="700001851"/>				</element>				<element name="Attribute52" 
+   value          : dataType="string" nillable="true">					<fieldMapping arFieldId="700001852"/>				</element>				<element name="Attribute53" dataType="string" nillab
+   value          : le="true">					<fieldMapping arFieldId="700001853"/>				</element>				<element name="Attribute54" dataType="string" nillable="true">					<fieldM
+   value          : apping arFieldId="700001854"/>				</element>				<element name="Attribute55" dataType="string" nillable="true">					<fieldMapping arFieldId="700001
+   value          : 855"/>				</element>				<element name="Attribute56" dataType="string" nillable="true">					<fieldMapping arFieldId="700001856"/>				</element>
+   value          : 				<element name="Attribute57" dataType="string" nillable="true">					<fieldMapping arFieldId="700001857"/>				</element>				<element name="Attri
+   value          : bute58" dataType="string" nillable="true">					<fieldMapping arFieldId="700001858"/>				</element>				<element name="Attribute59" dataType="string
+   value          : " nillable="true">					<fieldMapping arFieldId="700001859"/>				</element>				<element name="Attribute6" dataType="string" nillable="true">					
+   value          : <fieldMapping arFieldId="700001806"/>				</element>				<element name="Attribute60" dataType="string" nillable="true">					<fieldMapping arFieldId=
+   value          : "700001860"/>				</element>				<element name="Attribute61" dataType="string" nillable="true">					<fieldMapping arFieldId="700001861"/>				</ele
+   value          : ment>				<element name="Attribute62" dataType="string" nillable="true">					<fieldMapping arFieldId="700001862"/>				</element>				<element name
+   value          : ="Attribute63" dataType="string" nillable="true">					<fieldMapping arFieldId="700001863"/>				</element>				<element name="Attribute64" dataType=
+   value          : "string" nillable="true">					<fieldMapping arFieldId="700001864"/>				</element>				<element name="Attribute7" dataType="string" nillable="true">
+   value          : 					<fieldMapping arFieldId="700001807"/>				</element>				<element name="Attribute8" dataType="string" nillable="true">					<fieldMapping arFi
+   value          : eldId="700001808"/>				</element>				<element name="Attribute9" dataType="string" nillable="true">					<fieldMapping arFieldId="700001809"/>				
+   value          : </element>				<element name="Category" dataType="string" nillable="true">					<fieldMapping arFieldId="600000500"/>				</element>				<element na
+   value          : me="Company_ID" dataType="string" nillable="true">					<fieldMapping arFieldId="400098500"/>				</element>				<element name="Company_Name" dataTyp
+   value          : e="string" nillable="true">					<fieldMapping arFieldId="400005200"/>				</element>				<element name="Contact_ID" dataType="string" nillable="true
+   value          : ">					<fieldMapping arFieldId="400068300"/>				</element>				<element name="Email_Address" dataType="string" nillable="true">					<fieldMapping
+   value          :  arFieldId="700004000"/>				</element>				<element name="First_Name" dataType="string" nillable="true">					<fieldMapping arFieldId="400007300"/>
+   value          : 				</element>				<element name="Form" dataType="string" nillable="true">					<fieldMapping arFieldId="600000300"/>				</element>				<element 
+   value          : name="Internal_Notes" dataType="string" nillable="true">					<fieldMapping arFieldId="600000021"/>				</element>				<element name="Last_Name" data
+   value          : Type="string" nillable="true">					<fieldMapping arFieldId="400007500"/>				</element>				<element name="Locale" dataType="string" nillable="true"
+   value          : >					<fieldMapping arFieldId="160"/>				</element>				<element name="Message_Template" dataType="string" nillable="true">					<fieldMapping arF
+   value          : ieldId="700001972"/>				</element>				<element name="MessageTemplateInstanceID" dataType="string" nillable="true">					<fieldMapping arFieldId="70
+   value          : 0001974"/>				</element>				<element name="OriginatingID" dataType="string" nillable="true">					<fieldMapping arFieldId="600000310"/>				</elem
+   value          : ent>				<element name="Source" dataType="string" nillable="true">					<fieldMapping arFieldId="700006300"/>				</element>				<element name="Surv
+   value          : ey_Method" dataType="string" nillable="true">					<fieldMapping arFieldId="700001150"/>				</element>				<element name="Survey_Template_Name" data
+   value          : Type="string" nillable="true">					<fieldMapping arFieldId="700001000"/>				</element>				<element name="SurveyInstanceID" dataType="string" nilla
+   value          : ble="true">					<fieldMapping arFieldId="700000800"/>				</element>				<element name="CustomerSurveyID" dataType="string"/>			</element>		</fo
+   value          : rmMapping>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\358\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="gener
+   value          : ated">		<element name="ROOT" dataType="ROOT" nillable="true" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport">			<element name="Qualific
+   value          : ation" dataType="string"/>		</element>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\14671\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="GetOutputMap" arDocVersion="8" schemaSource="gen
+   value          : erated">		<element name="ROOT" dataType="ROOT" nillable="true" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport">			<formMapping>				<f
+   value          : orm formName="KS_SRV_CustomerSurvey_ImportExport" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>				<element name="Record">					<elemen
+   value          : t name="CustomerSurveyID" dataType="string">						<fieldMapping arFieldId="1"/>					</element>					<element name="Assigned_To" dataType="string" n
+   value          : illable="true">						<fieldMapping arFieldId="4"/>					</element>					<element name="AssigneeGroup" dataType="string" nillable="true">						<fie
+   value          : ldMapping arFieldId="112"/>					</element>					<element name="Attribute1" dataType="string" nillable="true">						<fieldMapping arFieldId="3002994
+   value          : 00"/>					</element>					<element name="Attribute10" dataType="string" nillable="true">						<fieldMapping arFieldId="700001810"/>					</element
+   value          : >					<element name="Attribute11" dataType="string" nillable="true">						<fieldMapping arFieldId="700001811"/>					</element>					<element name
+   value          : ="Attribute12" dataType="string" nillable="true">						<fieldMapping arFieldId="700001812"/>					</element>					<element name="Attribute13" dataTy
+   value          : pe="string" nillable="true">						<fieldMapping arFieldId="700001813"/>					</element>					<element name="Attribute14" dataType="string" nillable=
+   value          : "true">						<fieldMapping arFieldId="700001814"/>					</element>					<element name="Attribute15" dataType="string" nillable="true">						<field
+   value          : Mapping arFieldId="700001815"/>					</element>					<element name="Attribute16" dataType="string" nillable="true">						<fieldMapping arFieldId="70
+   value          : 0001816"/>					</element>					<element name="Attribute17" dataType="string" nillable="true">						<fieldMapping arFieldId="700001817"/>					</el
+   value          : ement>					<element name="Attribute18" dataType="string" nillable="true">						<fieldMapping arFieldId="700001818"/>					</element>					<element
+   value          :  name="Attribute19" dataType="string" nillable="true">						<fieldMapping arFieldId="700001819"/>					</element>					<element name="Attribute2" da
+   value          : taType="string" nillable="true">						<fieldMapping arFieldId="300299500"/>					</element>					<element name="Attribute20" dataType="string" nilla
+   value          : ble="true">						<fieldMapping arFieldId="700001820"/>					</element>					<element name="Attribute21" dataType="string" nillable="true">						<f
+   value          : ieldMapping arFieldId="700001821"/>					</element>					<element name="Attribute22" dataType="string" nillable="true">						<fieldMapping arFieldId
+   value          : ="700001822"/>					</element>					<element name="Attribute23" dataType="string" nillable="true">						<fieldMapping arFieldId="700001823"/>					
+   value          : </element>					<element name="Attribute24" dataType="string" nillable="true">						<fieldMapping arFieldId="700001824"/>					</element>					<ele
+   value          : ment name="Attribute25" dataType="string" nillable="true">						<fieldMapping arFieldId="700001825"/>					</element>					<element name="Attribute2
+   value          : 6" dataType="string" nillable="true">						<fieldMapping arFieldId="700001826"/>					</element>					<element name="Attribute27" dataType="string" 
+   value          : nillable="true">						<fieldMapping arFieldId="700001827"/>					</element>					<element name="Attribute28" dataType="string" nillable="true">			
+   value          : 			<fieldMapping arFieldId="700001828"/>					</element>					<element name="Attribute29" dataType="string" nillable="true">						<fieldMapping arFi
+   value          : eldId="700001829"/>					</element>					<element name="Attribute3" dataType="string" nillable="true">						<fieldMapping arFieldId="300299600"/>	
+   value          : 				</element>					<element name="Attribute30" dataType="string" nillable="true">						<fieldMapping arFieldId="700001830"/>					</element>					
+   value          : <element name="Attribute31" dataType="string" nillable="true">						<fieldMapping arFieldId="700001831"/>					</element>					<element name="Attrib
+   value          : ute32" dataType="string" nillable="true">						<fieldMapping arFieldId="700001832"/>					</element>					<element name="Attribute33" dataType="stri
+   value          : ng" nillable="true">						<fieldMapping arFieldId="700001833"/>					</element>					<element name="Attribute34" dataType="string" nillable="true">
+   value          : 						<fieldMapping arFieldId="700001834"/>					</element>					<element name="Attribute35" dataType="string" nillable="true">						<fieldMapping
+   value          :  arFieldId="700001835"/>					</element>					<element name="Attribute36" dataType="string" nillable="true">						<fieldMapping arFieldId="700001836
+   value          : "/>					</element>					<element name="Attribute37" dataType="string" nillable="true">						<fieldMapping arFieldId="700001837"/>					</element>
+   value          : 					<element name="Attribute38" dataType="string" nillable="true">						<fieldMapping arFieldId="700001838"/>					</element>					<element name=
+   value          : "Attribute39" dataType="string" nillable="true">						<fieldMapping arFieldId="700001839"/>					</element>					<element name="Attribute4" dataType
+   value          : ="string" nillable="true">						<fieldMapping arFieldId="300299700"/>					</element>					<element name="Attribute40" dataType="string" nillable="t
+   value          : rue">						<fieldMapping arFieldId="700001840"/>					</element>					<element name="Attribute41" dataType="string" nillable="true">						<fieldMa
+   value          : pping arFieldId="700001841"/>					</element>					<element name="Attribute42" dataType="string" nillable="true">						<fieldMapping arFieldId="7000
+   value          : 01842"/>					</element>					<element name="Attribute43" dataType="string" nillable="true">						<fieldMapping arFieldId="700001843"/>					</elem
+   value          : ent>					<element name="Attribute44" dataType="string" nillable="true">						<fieldMapping arFieldId="700001844"/>					</element>					<element n
+   value          : ame="Attribute45" dataType="string" nillable="true">						<fieldMapping arFieldId="700001845"/>					</element>					<element name="Attribute46" dat
+   value          : aType="string" nillable="true">						<fieldMapping arFieldId="700001846"/>					</element>					<element name="Attribute47" dataType="string" nillab
+   value          : le="true">						<fieldMapping arFieldId="700001847"/>					</element>					<element name="Attribute48" dataType="string" nillable="true">						<fi
+   value          : eldMapping arFieldId="700001848"/>					</element>					<element name="Attribute49" dataType="string" nillable="true">						<fieldMapping arFieldId=
+   value          : "700001849"/>					</element>					<element name="Attribute5" dataType="string" nillable="true">						<fieldMapping arFieldId="300299800"/>					</
+   value          : element>					<element name="Attribute50" dataType="string" nillable="true">						<fieldMapping arFieldId="700001850"/>					</element>					<eleme
+   value          : nt name="Attribute51" dataType="string" nillable="true">						<fieldMapping arFieldId="700001851"/>					</element>					<element name="Attribute52"
+   value          :  dataType="string" nillable="true">						<fieldMapping arFieldId="700001852"/>					</element>					<element name="Attribute53" dataType="string" ni
+   value          : llable="true">						<fieldMapping arFieldId="700001853"/>					</element>					<element name="Attribute54" dataType="string" nillable="true">					
+   value          : 	<fieldMapping arFieldId="700001854"/>					</element>					<element name="Attribute55" dataType="string" nillable="true">						<fieldMapping arFiel
+   value          : dId="700001855"/>					</element>					<element name="Attribute56" dataType="string" nillable="true">						<fieldMapping arFieldId="700001856"/>		
+   value          : 			</element>					<element name="Attribute57" dataType="string" nillable="true">						<fieldMapping arFieldId="700001857"/>					</element>					<
+   value          : element name="Attribute58" dataType="string" nillable="true">						<fieldMapping arFieldId="700001858"/>					</element>					<element name="Attribu
+   value          : te59" dataType="string" nillable="true">						<fieldMapping arFieldId="700001859"/>					</element>					<element name="Attribute6" dataType="string
+   value          : " nillable="true">						<fieldMapping arFieldId="700001806"/>					</element>					<element name="Attribute60" dataType="string" nillable="true">	
+   value          : 					<fieldMapping arFieldId="700001860"/>					</element>					<element name="Attribute61" dataType="string" nillable="true">						<fieldMapping ar
+   value          : FieldId="700001861"/>					</element>					<element name="Attribute62" dataType="string" nillable="true">						<fieldMapping arFieldId="700001862"/>
+   value          : 					</element>					<element name="Attribute63" dataType="string" nillable="true">						<fieldMapping arFieldId="700001863"/>					</element>		
+   value          : 			<element name="Attribute64" dataType="string" nillable="true">						<fieldMapping arFieldId="700001864"/>					</element>					<element name="Att
+   value          : ribute7" dataType="string" nillable="true">						<fieldMapping arFieldId="700001807"/>					</element>					<element name="Attribute8" dataType="str
+   value          : ing" nillable="true">						<fieldMapping arFieldId="700001808"/>					</element>					<element name="Attribute9" dataType="string" nillable="true">
+   value          : 						<fieldMapping arFieldId="700001809"/>					</element>					<element name="Category" dataType="string" nillable="true">						<fieldMapping ar
+   value          : FieldId="600000500"/>					</element>					<element name="Company_ID" dataType="string" nillable="true">						<fieldMapping arFieldId="400098500"/>
+   value          : 					</element>					<element name="Company_Name" dataType="string" nillable="true">						<fieldMapping arFieldId="400005200"/>					</element>	
+   value          : 				<element name="Contact_ID" dataType="string" nillable="true">						<fieldMapping arFieldId="400068300"/>					</element>					<element name="Cre
+   value          : ate_Date" dataType="dateTime">						<fieldMapping arFieldId="3"/>					</element>					<element name="Email_Address" dataType="string" nillable="tru
+   value          : e">						<fieldMapping arFieldId="700004000"/>					</element>					<element name="First_Name" dataType="string" nillable="true">						<fieldMappi
+   value          : ng arFieldId="400007300"/>					</element>					<element name="Form" dataType="string" nillable="true">						<fieldMapping arFieldId="600000300"/>
+   value          : 					</element>					<element name="instanceId" dataType="string" nillable="true">						<fieldMapping arFieldId="179"/>					</element>					<eleme
+   value          : nt name="Internal_Notes" dataType="string" nillable="true">						<fieldMapping arFieldId="600000021"/>					</element>					<element name="Last_Modi
+   value          : fied_By" dataType="string" nillable="true">						<fieldMapping arFieldId="5"/>					</element>					<element name="Last_Name" dataType="string" nill
+   value          : able="true">						<fieldMapping arFieldId="400007500"/>					</element>					<element name="Locale" dataType="string" nillable="true">						<field
+   value          : Mapping arFieldId="160"/>					</element>					<element name="Message_Template" dataType="string" nillable="true">						<fieldMapping arFieldId="700
+   value          : 001972"/>					</element>					<element name="MessageTemplateInstanceID" dataType="string" nillable="true">						<fieldMapping arFieldId="700001974"
+   value          : />					</element>					<element name="Modified_Date" dataType="dateTime">						<fieldMapping arFieldId="6"/>					</element>					<element name="
+   value          : OriginatingID" dataType="string" nillable="true">						<fieldMapping arFieldId="600000310"/>					</element>					<element name="Short_Description" 
+   value          : dataType="string" nillable="true">						<fieldMapping arFieldId="8"/>					</element>					<element name="Source" dataType="string" nillable="true">
+   value          : 						<fieldMapping arFieldId="700006300"/>					</element>					<element name="Status" dataType="string" nillable="true" enumValues="New,Send,Compl
+   value          : eted">						<fieldMapping arFieldId="7"/>					</element>					<element name="Status_History" dataType="string">						<fieldMapping arFieldId="15"
+   value          : />					</element>					<element name="Submitter" dataType="string" nillable="true">						<fieldMapping arFieldId="2"/>					</element>					<elem
+   value          : ent name="Survey_Method" dataType="string" nillable="true">						<fieldMapping arFieldId="700001150"/>					</element>					<element name="Survey_Te
+   value          : mplate_Name" dataType="string" nillable="true">						<fieldMapping arFieldId="700001000"/>					</element>					<element name="SurveyInstanceID" dat
+   value          : aType="string" nillable="true">						<fieldMapping arFieldId="700000800"/>					</element>					<element name="SurveySentDate" dataType="string" nil
+   value          : lable="true" minOccurs="0">						<fieldMapping arFieldId="700001282"/>					</element>					<element name="TemplateStatus" dataType="string" nillabl
+   value          : e="true" enumValues="New,Active,Inactive,Closed,Delete">						<fieldMapping arFieldId="700001987"/>					</element>					<element name="CategoryInst
+   value          : anceID" dataType="string">						<fieldMapping arFieldId="700001923"/>					</element>					<element name="Data_Set" dataType="string" nillable="true
+   value          : ">						<fieldMapping arFieldId="536870924"/>					</element>					<element name="Delay_Hours" dataType="int" nillable="true">						<fieldMapping 
+   value          : arFieldId="770001001"/>					</element>					<element name="Delay_Send" dataType="string" nillable="true" enumValues="Delay sending">						<fieldMap
+   value          : ping arFieldId="770001000"/>					</element>					<element name="IntegrationID" dataType="string" nillable="true">						<fieldMapping arFieldId="536
+   value          : 870923"/>					</element>					<element name="NotesForCustomer" dataType="string" nillable="true">						<fieldMapping arFieldId="600003021"/>					
+   value          : </element>					<element name="PossibleScore" dataType="int" nillable="true">						<fieldMapping arFieldId="700001244"/>					</element>					<elem
+   value          : ent name="Request_Status" dataType="string" enumValues="Open,Closed">						<fieldMapping arFieldId="700089541"/>					</element>					<element name=
+   value          : "Score" dataType="int" nillable="true">						<fieldMapping arFieldId="700001240"/>					</element>					<element name="Score_Percentage" dataType="d
+   value          : ecimal" nillable="true">						<fieldMapping arFieldId="700001248"/>					</element>					<element name="ValidationStatus" dataType="string" nillable
+   value          : ="true">						<fieldMapping arFieldId="700002400"/>					</element>					<element name="Completed_Date" dataType="dateTime" nillable="true">						
+   value          : <fieldMapping arFieldId="700001285"/>					</element>					<element name="Submit_Type" dataType="string" nillable="true">						<fieldMapping arField
+   value          : Id="700088475"/>					</element>					<element name="Request_Closed_Date" dataType="dateTime" nillable="true">						<fieldMapping arFieldId="7000884
+   value          : 89"/>					</element>				</element>			</formMapping>		</element>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\35271\<?xml version="1.0" encoding="UTF-8"?><definitions targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport" xmlns="http://schemas.xmlsoap.
+   value          : org/wsdl/" xmlns:s="urn:KS_SRV_CustomerSubmission_ImportExport" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap
+   value          : .org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFo
+   value          : rmDefault="qualified" targetNamespace="urn:KS_SRV_CustomerSubmission_ImportExport">   <xsd:element name="ModifyCustomerSubmission" type="s:InputMappin
+   value          : g11"/>   <xsd:complexType name="InputMapping11">    <xsd:sequence>     <xsd:element name="Assigned_To" nillable="true" type="xsd:string"/>     <
+   value          : xsd:element name="AssigneeGroup" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute1" nillable="true" type="xsd:string"/>     <xsd
+   value          : :element name="Attribute10" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute11" nillable="true" type="xsd:string"/>     <xsd:ele
+   value          : ment name="Attribute12" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute13" nillable="true" type="xsd:string"/>     <xsd:element
+   value          :  name="Attribute14" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute15" nillable="true" type="xsd:string"/>     <xsd:element nam
+   value          : e="Attribute16" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute17" nillable="true" type="xsd:string"/>     <xsd:element name="A
+   value          : ttribute18" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute19" nillable="true" type="xsd:string"/>     <xsd:element name="Attri
+   value          : bute2" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute20" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute2
+   value          : 1" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute22" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute23" n
+   value          : illable="true" type="xsd:string"/>     <xsd:element name="Attribute24" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute25" nilla
+   value          : ble="true" type="xsd:string"/>     <xsd:element name="Attribute26" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute27" nillable=
+   value          : "true" type="xsd:string"/>     <xsd:element name="Attribute28" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute29" nillable="tru
+   value          : e" type="xsd:string"/>     <xsd:element name="Attribute3" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute30" nillable="true" ty
+   value          : pe="xsd:string"/>     <xsd:element name="Attribute31" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute32" nillable="true" type="
+   value          : xsd:string"/>     <xsd:element name="Attribute33" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute34" nillable="true" type="xsd:
+   value          : string"/>     <xsd:element name="Attribute35" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute36" nillable="true" type="xsd:stri
+   value          : ng"/>     <xsd:element name="Attribute37" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute38" nillable="true" type="xsd:string"/
+   value          : >     <xsd:element name="Attribute39" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute4" nillable="true" type="xsd:string"/>  
+   value          :    <xsd:element name="Attribute40" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute41" nillable="true" type="xsd:string"/>     <
+   value          : xsd:element name="Attribute42" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute43" nillable="true" type="xsd:string"/>     <xsd:
+   value          : element name="Attribute44" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute45" nillable="true" type="xsd:string"/>     <xsd:elem
+   value          : ent name="Attribute46" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute47" nillable="true" type="xsd:string"/>     <xsd:element 
+   value          : name="Attribute48" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute49" nillable="true" type="xsd:string"/>     <xsd:element name
+   value          : ="Attribute5" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute50" nillable="true" type="xsd:string"/>     <xsd:element name="Att
+   value          : ribute51" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute52" nillable="true" type="xsd:string"/>     <xsd:element name="Attribu
+   value          : te53" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute54" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute55
+   value          : " nillable="true" type="xsd:string"/>     <xsd:element name="Attribute56" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute57" ni
+   value          : llable="true" type="xsd:string"/>     <xsd:element name="Attribute58" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute59" nillab
+   value          : le="true" type="xsd:string"/>     <xsd:element name="Attribute6" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute60" nillable="t
+   value          : rue" type="xsd:string"/>     <xsd:element name="Attribute61" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute62" nillable="true"
+   value          :  type="xsd:string"/>     <xsd:element name="Attribute63" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute64" nillable="true" typ
+   value          : e="xsd:string"/>     <xsd:element name="Attribute7" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute8" nillable="true" type="xsd
+   value          : :string"/>     <xsd:element name="Attribute9" nillable="true" type="xsd:string"/>     <xsd:element name="Category" nillable="true" type="xsd:string"
+   value          : />     <xsd:element name="Company_ID" nillable="true" type="xsd:string"/>     <xsd:element name="Company_Name" nillable="true" type="xsd:string"/>
+   value          :      <xsd:element name="Contact_ID" nillable="true" type="xsd:string"/>     <xsd:element name="Email_Address" nillable="true" type="xsd:string"/>   
+   value          :   <xsd:element name="First_Name" nillable="true" type="xsd:string"/>     <xsd:element name="Form" nillable="true" type="xsd:string"/>     <xsd:eleme
+   value          : nt name="Internal_Notes" nillable="true" type="xsd:string"/>     <xsd:element name="Last_Name" nillable="true" type="xsd:string"/>     <xsd:element 
+   value          : name="Locale" nillable="true" type="xsd:string"/>     <xsd:element name="Message_Template" nillable="true" type="xsd:string"/>     <xsd:element name
+   value          : ="MessageTemplateInstanceID" nillable="true" type="xsd:string"/>     <xsd:element name="OriginatingID" nillable="true" type="xsd:string"/>     <xsd:
+   value          : element name="Source" nillable="true" type="xsd:string"/>     <xsd:element name="Survey_Method" nillable="true" type="xsd:string"/>     <xsd:element
+   value          :  name="Survey_Template_Name" nillable="true" type="xsd:string"/>     <xsd:element name="SurveyInstanceID" nillable="true" type="xsd:string"/>     <x
+   value          : sd:element name="CustomerSurveyID" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element name="ModifyCustomerSubmissionRespon
+   value          : se" type="s:OutputMapping11"/>   <xsd:complexType name="OutputMapping11">    <xsd:sequence/>   </xsd:complexType>   <xsd:element name="GetCustom
+   value          : erSubmissionList" type="s:InputMapping"/>   <xsd:complexType name="InputMapping">    <xsd:sequence>     <xsd:element name="Qualification" type="xs
+   value          : d:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element name="GetCustomerSubmissionListResponse" type="s:OutputMapping"/>   <xsd:comp
+   value          : lexType name="OutputMapping">    <xsd:sequence>     <xsd:element maxOccurs="unbounded" name="getListValues">      <xsd:complexType>       <xsd:s
+   value          : equence>        <xsd:element name="Assigned_To" nillable="true" type="xsd:string"/>        <xsd:element name="AssigneeGroup" type="xsd:string"/>  
+   value          :       <xsd:element name="Attribute1" type="xsd:string"/>        <xsd:element name="Attribute10" type="xsd:string"/>        <xsd:element name="Attrib
+   value          : ute11" type="xsd:string"/>        <xsd:element name="Attribute12" type="xsd:string"/>        <xsd:element name="Attribute13" type="xsd:string"/>  
+   value          :       <xsd:element name="Attribute14" type="xsd:string"/>        <xsd:element name="Attribute15" type="xsd:string"/>        <xsd:element name="Attri
+   value          : bute16" type="xsd:string"/>        <xsd:element name="Attribute17" type="xsd:string"/>        <xsd:element name="Attribute18" type="xsd:string"/> 
+   value          :        <xsd:element name="Attribute19" type="xsd:string"/>        <xsd:element name="Attribute2" type="xsd:string"/>        <xsd:element name="Attri
+   value          : bute20" type="xsd:string"/>        <xsd:element name="Attribute21" type="xsd:string"/>        <xsd:element name="Attribute22" type="xsd:string"/> 
+   value          :        <xsd:element name="Attribute23" type="xsd:string"/>        <xsd:element name="Attribute24" type="xsd:string"/>        <xsd:element name="Attr
+   value          : ibute25" type="xsd:string"/>        <xsd:element name="Attribute26" type="xsd:string"/>        <xsd:element name="Attribute27" type="xsd:string"/>
+   value          :         <xsd:element name="Attribute28" type="xsd:string"/>        <xsd:element name="Attribute29" type="xsd:string"/>        <xsd:element name="Att
+   value          : ribute3" type="xsd:string"/>        <xsd:element name="Attribute30" type="xsd:string"/>        <xsd:element name="Attribute31" type="xsd:string"/>
+   value          :         <xsd:element name="Attribute32" type="xsd:string"/>        <xsd:element name="Attribute33" type="xsd:string"/>        <xsd:element name="Att
+   value          : ribute34" type="xsd:string"/>        <xsd:element name="Attribute35" type="xsd:string"/>        <xsd:element name="Attribute36" type="xsd:string"/>
+   value          :         <xsd:element name="Attribute37" type="xsd:string"/>        <xsd:element name="Attribute38" type="xsd:string"/>        <xsd:element name="A
+   value          : ttribute39" type="xsd:string"/>        <xsd:element name="Attribute4" type="xsd:string"/>        <xsd:element name="Attribute40" type="xsd:string"/>
+   value          :         <xsd:element name="Attribute41" type="xsd:string"/>        <xsd:element name="Attribute42" type="xsd:string"/>        <xsd:element name="A
+   value          : ttribute43" type="xsd:string"/>        <xsd:element name="Attribute44" type="xsd:string"/>        <xsd:element name="Attribute45" type="xsd:string"/
+   value          : >        <xsd:element name="Attribute46" type="xsd:string"/>        <xsd:element name="Attribute47" type="xsd:string"/>        <xsd:element name="
+   value          : Attribute48" type="xsd:string"/>        <xsd:element name="Attribute49" type="xsd:string"/>        <xsd:element name="Attribute5" type="xsd:string"/
+   value          : >        <xsd:element name="Attribute50" type="xsd:string"/>        <xsd:element name="Attribute51" type="xsd:string"/>        <xsd:element name="
+   value          : Attribute52" type="xsd:string"/>        <xsd:element name="Attribute53" type="xsd:string"/>        <xsd:element name="Attribute54" type="xsd:string"
+   value          : />        <xsd:element name="Attribute55" type="xsd:string"/>        <xsd:element name="Attribute56" type="xsd:string"/>        <xsd:element name=
+   value          : "Attribute57" type="xsd:string"/>        <xsd:element name="Attribute58" type="xsd:string"/>        <xsd:element name="Attribute59" type="xsd:string
+   value          : "/>        <xsd:element name="Attribute6" type="xsd:string"/>        <xsd:element name="Attribute60" type="xsd:string"/>        <xsd:element name=
+   value          : "Attribute61" type="xsd:string"/>        <xsd:element name="Attribute62" type="xsd:string"/>        <xsd:element name="Attribute63" type="xsd:string
+   value          : "/>        <xsd:element name="Attribute64" type="xsd:string"/>        <xsd:element name="Attribute7" type="xsd:string"/>        <xsd:element name=
+   value          : "Attribute8" type="xsd:string"/>        <xsd:element name="Attribute9" type="xsd:string"/>        <xsd:element name="Category" type="xsd:string"/>
+   value          :         <xsd:element name="Company_ID" type="xsd:string"/>        <xsd:element name="Company_Name" type="xsd:string"/>        <xsd:element name="Con
+   value          : tact_ID" type="xsd:string"/>        <xsd:element name="Create_Date" type="xsd:dateTime"/>        <xsd:element name="CustomerSurveyID" type="xsd:stri
+   value          : ng"/>        <xsd:element name="Email_Address" type="xsd:string"/>        <xsd:element name="First_Name" type="xsd:string"/>        <xsd:element n
+   value          : ame="Form" type="xsd:string"/>        <xsd:element name="instanceId" type="xsd:string"/>        <xsd:element name="Internal_Notes" type="xsd:string"
+   value          : />        <xsd:element name="Last_Modified_By" type="xsd:string"/>        <xsd:element name="Last_Name" type="xsd:string"/>        <xsd:element na
+   value          : me="Locale" type="xsd:string"/>        <xsd:element name="Message_Template" type="xsd:string"/>        <xsd:element name="MessageTemplateInstanceID"
+   value          :  type="xsd:string"/>        <xsd:element name="Modified_Date" type="xsd:dateTime"/>        <xsd:element name="OriginatingID" type="xsd:string"/>  
+   value          :       <xsd:element name="Short_Description" type="xsd:string"/>        <xsd:element name="Source" type="xsd:string"/>        <xsd:element name="Stat
+   value          : us" type="s:StatusType"/>        <xsd:element name="Status_History" type="xsd:string"/>        <xsd:element name="Submitter" type="xsd:string"/>  
+   value          :       <xsd:element name="Survey_Method" type="xsd:string"/>        <xsd:element name="Survey_Template_Name" type="xsd:string"/>        <xsd:element 
+   value          : name="SurveyInstanceID" type="xsd:string"/>        <xsd:element name="SurveySentDate" nillable="true" type="xsd:string"/>        <xsd:element name="
+   value          : TemplateStatus" type="xsd:string"/>       </xsd:sequence>      </xsd:complexType>     </xsd:element>    </xsd:sequence>   </xsd:complexType>
+   value          :    <xsd:simpleType name="StatusType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="New"/>     <xsd:enumeration value="Send"/
+   value          : >     <xsd:enumeration value="Completed"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:element name="GetCustomerSubmission" type="s:GetInpu
+   value          : tMap"/>   <xsd:complexType name="GetInputMap">    <xsd:sequence>     <xsd:element name="CustomerSurveyID" type="xsd:string"/>    </xsd:sequence>
+   value          :    </xsd:complexType>   <xsd:element name="GetCustomerSubmissionResponse" type="s:GetOutputMap"/>   <xsd:complexType name="GetOutputMap">    <xs
+   value          : d:sequence>     <xsd:element name="Record">      <xsd:complexType>       <xsd:sequence>        <xsd:element name="CustomerSurveyID" type="xsd:st
+   value          : ring"/>        <xsd:element name="Assigned_To" nillable="true" type="xsd:string"/>        <xsd:element name="AssigneeGroup" nillable="true" type="xs
+   value          : d:string"/>        <xsd:element name="Attribute1" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute10" nillable="true" type="x
+   value          : sd:string"/>        <xsd:element name="Attribute11" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute12" nillable="true" type=
+   value          : "xsd:string"/>        <xsd:element name="Attribute13" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute14" nillable="true" typ
+   value          : e="xsd:string"/>        <xsd:element name="Attribute15" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute16" nillable="true" t
+   value          : ype="xsd:string"/>        <xsd:element name="Attribute17" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute18" nillable="true"
+   value          :  type="xsd:string"/>        <xsd:element name="Attribute19" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute2" nillable="true
+   value          : " type="xsd:string"/>        <xsd:element name="Attribute20" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute21" nillable="tr
+   value          : ue" type="xsd:string"/>        <xsd:element name="Attribute22" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute23" nillable="
+   value          : true" type="xsd:string"/>        <xsd:element name="Attribute24" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute25" nillable
+   value          : ="true" type="xsd:string"/>        <xsd:element name="Attribute26" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute27" nillab
+   value          : le="true" type="xsd:string"/>        <xsd:element name="Attribute28" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute29" nill
+   value          : able="true" type="xsd:string"/>        <xsd:element name="Attribute3" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute30" nil
+   value          : lable="true" type="xsd:string"/>        <xsd:element name="Attribute31" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute32" n
+   value          : illable="true" type="xsd:string"/>        <xsd:element name="Attribute33" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute34"
+   value          :  nillable="true" type="xsd:string"/>        <xsd:element name="Attribute35" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute3
+   value          : 6" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute37" nillable="true" type="xsd:string"/>        <xsd:element name="Attribut
+   value          : e38" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute39" nillable="true" type="xsd:string"/>        <xsd:element name="Attrib
+   value          : ute4" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute40" nillable="true" type="xsd:string"/>        <xsd:element name="Attri
+   value          : bute41" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute42" nillable="true" type="xsd:string"/>        <xsd:element name="Att
+   value          : ribute43" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute44" nillable="true" type="xsd:string"/>        <xsd:element name="A
+   value          : ttribute45" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute46" nillable="true" type="xsd:string"/>        <xsd:element name=
+   value          : "Attribute47" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute48" nillable="true" type="xsd:string"/>        <xsd:element nam
+   value          : e="Attribute49" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute5" nillable="true" type="xsd:string"/>        <xsd:element na
+   value          : me="Attribute50" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute51" nillable="true" type="xsd:string"/>        <xsd:element 
+   value          : name="Attribute52" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute53" nillable="true" type="xsd:string"/>        <xsd:elemen
+   value          : t name="Attribute54" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute55" nillable="true" type="xsd:string"/>        <xsd:elem
+   value          : ent name="Attribute56" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute57" nillable="true" type="xsd:string"/>        <xsd:el
+   value          : ement name="Attribute58" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute59" nillable="true" type="xsd:string"/>        <xsd:
+   value          : element name="Attribute6" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute60" nillable="true" type="xsd:string"/>        <xsd
+   value          : :element name="Attribute61" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute62" nillable="true" type="xsd:string"/>        <x
+   value          : sd:element name="Attribute63" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute64" nillable="true" type="xsd:string"/>        
+   value          : <xsd:element name="Attribute7" nillable="true" type="xsd:string"/>        <xsd:element name="Attribute8" nillable="true" type="xsd:string"/>        
+   value          : <xsd:element name="Attribute9" nillable="true" type="xsd:string"/>        <xsd:element name="Category" nillable="true" type="xsd:string"/>        <x
+   value          : sd:element name="Company_ID" nillable="true" type="xsd:string"/>        <xsd:element name="Company_Name" nillable="true" type="xsd:string"/>        
+   value          : <xsd:element name="Contact_ID" nillable="true" type="xsd:string"/>        <xsd:element name="Create_Date" type="xsd:dateTime"/>        <xsd:element 
+   value          : name="Email_Address" nillable="true" type="xsd:string"/>        <xsd:element name="First_Name" nillable="true" type="xsd:string"/>        <xsd:eleme
+   value          : nt name="Form" nillable="true" type="xsd:string"/>        <xsd:element name="instanceId" nillable="true" type="xsd:string"/>        <xsd:element nam
+   value          : e="Internal_Notes" nillable="true" type="xsd:string"/>        <xsd:element name="Last_Modified_By" nillable="true" type="xsd:string"/>        <xsd:e
+   value          : lement name="Last_Name" nillable="true" type="xsd:string"/>        <xsd:element name="Locale" nillable="true" type="xsd:string"/>        <xsd:elemen
+   value          : t name="Message_Template" nillable="true" type="xsd:string"/>        <xsd:element name="MessageTemplateInstanceID" nillable="true" type="xsd:string"/>
+   value          :         <xsd:element name="Modified_Date" type="xsd:dateTime"/>        <xsd:element name="OriginatingID" nillable="true" type="xsd:string"/>      
+   value          :   <xsd:element name="Short_Description" nillable="true" type="xsd:string"/>        <xsd:element name="Source" nillable="true" type="xsd:string"/>   
+   value          :      <xsd:element name="Status" nillable="true" type="s:StatusType"/>        <xsd:element name="Status_History" type="xsd:string"/>        <xsd:elem
+   value          : ent name="Submitter" nillable="true" type="xsd:string"/>        <xsd:element name="Survey_Method" nillable="true" type="xsd:string"/>        <xsd:el
+   value          : ement name="Survey_Template_Name" nillable="true" type="xsd:string"/>        <xsd:element name="SurveyInstanceID" nillable="true" type="xsd:string"/>
+   value          :         <xsd:element minOccurs="0" name="SurveySentDate" nillable="true" type="xsd:string"/>        <xsd:element name="TemplateStatus" nillable="tru
+   value          : e" type="s:TemplateStatusType"/>        <xsd:element name="CategoryInstanceID" type="xsd:string"/>        <xsd:element name="Data_Set" nillable="tru
+   value          : e" type="xsd:string"/>        <xsd:element name="Delay_Hours" nillable="true" type="xsd:int"/>        <xsd:element name="Delay_Send" nillable="true"
+   value          :  type="s:Delay_SendType"/>        <xsd:element name="IntegrationID" nillable="true" type="xsd:string"/>        <xsd:element name="NotesForCustomer" 
+   value          : nillable="true" type="xsd:string"/>        <xsd:element name="PossibleScore" nillable="true" type="xsd:int"/>        <xsd:element name="Request_Stat
+   value          : us" type="s:Request_StatusType"/>        <xsd:element name="Score" nillable="true" type="xsd:int"/>        <xsd:element name="Score_Percentage" nill
+   value          : able="true" type="xsd:decimal"/>        <xsd:element name="ValidationStatus" nillable="true" type="xsd:string"/>        <xsd:element name="Completed
+   value          : _Date" nillable="true" type="xsd:dateTime"/>        <xsd:element name="Submit_Type" nillable="true" type="xsd:string"/>        <xsd:element name="Re
+   value          : quest_Closed_Date" nillable="true" type="xsd:dateTime"/>       </xsd:sequence>      </xsd:complexType>     </xsd:element>    </xsd:sequence>  
+   value          :  </xsd:complexType>   <xsd:simpleType name="TemplateStatusType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="New"/>     <
+   value          : xsd:enumeration value="Active"/>     <xsd:enumeration value="Inactive"/>     <xsd:enumeration value="Closed"/>     <xsd:enumeration value="Delete"
+   value          : />    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Delay_SendType">    <xsd:restriction base="xsd:string">     <xsd:enumerat
+   value          : ion value="Delay sending"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Request_StatusType">    <xsd:restriction base="xsd
+   value          : :string">     <xsd:enumeration value="Open"/>     <xsd:enumeration value="Closed"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:element n
+   value          : ame="CreateCustomerSubmission" type="s:InputMapping1"/>   <xsd:complexType name="InputMapping1">    <xsd:sequence>     <xsd:element name="Assigned
+   value          : _To" nillable="true" type="xsd:string"/>     <xsd:element name="AssigneeGroup" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute1
+   value          : " nillable="true" type="xsd:string"/>     <xsd:element name="Attribute10" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute11" ni
+   value          : llable="true" type="xsd:string"/>     <xsd:element name="Attribute12" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute13" nillab
+   value          : le="true" type="xsd:string"/>     <xsd:element name="Attribute14" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute15" nillable="
+   value          : true" type="xsd:string"/>     <xsd:element name="Attribute16" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute17" nillable="true
+   value          : " type="xsd:string"/>     <xsd:element name="Attribute18" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute19" nillable="true" ty
+   value          : pe="xsd:string"/>     <xsd:element name="Attribute2" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute20" nillable="true" type="x
+   value          : sd:string"/>     <xsd:element name="Attribute21" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute22" nillable="true" type="xsd:s
+   value          : tring"/>     <xsd:element name="Attribute23" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute24" nillable="true" type="xsd:strin
+   value          : g"/>     <xsd:element name="Attribute25" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute26" nillable="true" type="xsd:string"/>
+   value          :      <xsd:element name="Attribute27" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute28" nillable="true" type="xsd:string"/>  
+   value          :    <xsd:element name="Attribute29" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute3" nillable="true" type="xsd:string"/>     <x
+   value          : sd:element name="Attribute30" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute31" nillable="true" type="xsd:string"/>     <xsd:e
+   value          : lement name="Attribute32" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute33" nillable="true" type="xsd:string"/>     <xsd:eleme
+   value          : nt name="Attribute34" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute35" nillable="true" type="xsd:string"/>     <xsd:element n
+   value          : ame="Attribute36" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute37" nillable="true" type="xsd:string"/>     <xsd:element name=
+   value          : "Attribute38" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute39" nillable="true" type="xsd:string"/>     <xsd:element name="Att
+   value          : ribute4" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute40" nillable="true" type="xsd:string"/>     <xsd:element name="Attribut
+   value          : e41" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute42" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute43"
+   value          :  nillable="true" type="xsd:string"/>     <xsd:element name="Attribute44" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute45" nil
+   value          : lable="true" type="xsd:string"/>     <xsd:element name="Attribute46" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute47" nillabl
+   value          : e="true" type="xsd:string"/>     <xsd:element name="Attribute48" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute49" nillable="t
+   value          : rue" type="xsd:string"/>     <xsd:element name="Attribute5" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute50" nillable="true" 
+   value          : type="xsd:string"/>     <xsd:element name="Attribute51" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute52" nillable="true" type
+   value          : ="xsd:string"/>     <xsd:element name="Attribute53" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute54" nillable="true" type="xs
+   value          : d:string"/>     <xsd:element name="Attribute55" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute56" nillable="true" type="xsd:st
+   value          : ring"/>     <xsd:element name="Attribute57" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute58" nillable="true" type="xsd:string
+   value          : "/>     <xsd:element name="Attribute59" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute6" nillable="true" type="xsd:string"/>
+   value          :      <xsd:element name="Attribute60" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute61" nillable="true" type="xsd:string"/>    
+   value          :  <xsd:element name="Attribute62" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute63" nillable="true" type="xsd:string"/>     <xs
+   value          : d:element name="Attribute64" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute7" nillable="true" type="xsd:string"/>     <xsd:ele
+   value          : ment name="Attribute8" nillable="true" type="xsd:string"/>     <xsd:element name="Attribute9" nillable="true" type="xsd:string"/>     <xsd:element n
+   value          : ame="Category" nillable="true" type="xsd:string"/>     <xsd:element name="Company_ID" nillable="true" type="xsd:string"/>     <xsd:element name="Com
+   value          : pany_Name" nillable="true" type="xsd:string"/>     <xsd:element name="Contact_ID" nillable="true" type="xsd:string"/>     <xsd:element name="Email_A
+   value          : ddress" nillable="true" type="xsd:string"/>     <xsd:element name="First_Name" nillable="true" type="xsd:string"/>     <xsd:element name="Form" nill
+   value          : able="true" type="xsd:string"/>     <xsd:element name="Internal_Notes" nillable="true" type="xsd:string"/>     <xsd:element name="Last_Name" nillabl
+   value          : e="true" type="xsd:string"/>     <xsd:element name="Locale" nillable="true" type="xsd:string"/>     <xsd:element name="Message_Template" nillable="t
+   value          : rue" type="xsd:string"/>     <xsd:element name="MessageTemplateInstanceID" nillable="true" type="xsd:string"/>     <xsd:element name="OriginatingID"
+   value          :  nillable="true" type="xsd:string"/>     <xsd:element name="Source" nillable="true" type="xsd:string"/>     <xsd:element name="Survey_Method" nillab
+   value          : le="true" type="xsd:string"/>     <xsd:element name="Survey_Template_Name" nillable="true" type="xsd:string"/>     <xsd:element name="SurveyInstance
+   value          : ID" nillable="true" type="xsd:string"/>     <xsd:element name="ValidationStatus" nillable="true" type="xsd:string"/>    </xsd:sequence>   </xsd:co
+   value          : mplexType>   <xsd:element name="CreateCustomerSubmissionResponse" type="s:OutputMapping1"/>   <xsd:complexType name="OutputMapping1">    <xsd:sequ
+   value          : ence>     <xsd:element name="CustomerSurveyID" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element name="AuthenticationIn
+   value          : fo" type="s:AuthenticationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:strin
+   value          : g"/>     <xsd:element name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:elemen
+   value          : t minOccurs="0" name="locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:co
+   value          : mplexType>  </xsd:schema> </wsdl:types>   <message name="CreateCustomerSubmissionSoapOut">      <part element="s:CreateCustomerSubmissionRes
+   value          : ponse" name="parameters"/>   </message>   <message name="CreateCustomerSubmissionSoapIn">      <part element="s:CreateCustomerSubmission" na
+   value          : me="parameters"/>   </message>   <message name="GetCustomerSubmissionSoapIn">      <part element="s:GetCustomerSubmission" name="parameters"
+   value          : />   </message>   <message name="ModifyCustomerSubmissionSoapIn">      <part element="s:ModifyCustomerSubmission" name="parameters"/>   
+   value          : </message>   <message name="ARAuthenticate">      <part element="s:AuthenticationInfo" name="parameters"/>   </message>   <message name=
+   value          : "ModifyCustomerSubmissionSoapOut">      <part element="s:ModifyCustomerSubmissionResponse" name="parameters"/>   </message>   <message name=
+   value          : "GetCustomerSubmissionListSoapIn">      <part element="s:GetCustomerSubmissionList" name="parameters"/>   </message>   <message name="GetCus
+   value          : tomerSubmissionSoapOut">      <part element="s:GetCustomerSubmissionResponse" name="parameters"/>   </message>   <message name="GetCustomerS
+   value          : ubmissionListSoapOut">      <part element="s:GetCustomerSubmissionListResponse" name="parameters"/>   </message>   <portType name="KS_SRV_Cu
+   value          : stomerSubmission_ImportExportPortType">      <operation name="ModifyCustomerSubmission">         <input message="s:ModifyCustomerSubmissionSoapI
+   value          : n"/>         <output message="s:ModifyCustomerSubmissionSoapOut"/>      </operation>      <operation name="GetCustomerSubmissionList">  
+   value          :        <input message="s:GetCustomerSubmissionListSoapIn"/>         <output message="s:GetCustomerSubmissionListSoapOut"/>      </operation>
+   value          :       <operation name="GetCustomerSubmission">         <input message="s:GetCustomerSubmissionSoapIn"/>         <output message="s:GetCustomerSu
+   value          : bmissionSoapOut"/>      </operation>      <operation name="CreateCustomerSubmission">         <input message="s:CreateCustomerSubmissionSoap
+   value          : In"/>         <output message="s:CreateCustomerSubmissionSoapOut"/>      </operation>   </portType>   <binding name="KS_SRV_CustomerSubm
+   value          : ission_ImportExportSoapBinding" type="s:KS_SRV_CustomerSubmission_ImportExportPortType">      <soap:binding style="document" transport="http://schem
+   value          : as.xmlsoap.org/soap/http"/>      <operation name="ModifyCustomerSubmission">         <soap:operation soapAction="urn:KS_SRV_CustomerSubmission_I
+   value          : mportExport/ModifyCustomerSubmission" style="document"/>         <input>            <soap:header message="s:ARAuthenticate" part="parameters" us
+   value          : e="literal">            </soap:header>            <soap:body use="literal"/>         </input>         <output>            <soap:body
+   value          :  use="literal"/>         </output>      </operation>      <operation name="GetCustomerSubmissionList">         <soap:operation soapActio
+   value          : n="urn:KS_SRV_CustomerSubmission_ImportExport/GetCustomerSubmissionList" style="document"/>         <input>            <soap:header message="s:A
+   value          : RAuthenticate" part="parameters" use="literal">            </soap:header>            <soap:body use="literal"/>         </input>        
+   value          :  <output>            <soap:body use="literal"/>         </output>      </operation>      <operation name="GetCustomerSubmission">   
+   value          :       <soap:operation soapAction="urn:KS_SRV_CustomerSubmission_ImportExport/GetCustomerSubmission" style="document"/>         <input>          
+   value          :   <soap:header message="s:ARAuthenticate" part="parameters" use="literal">            </soap:header>            <soap:body use="literal"/>  
+   value          :        </input>         <output>            <soap:body use="literal"/>         </output>      </operation>      <operation name="Cre
+   value          : ateCustomerSubmission">         <soap:operation soapAction="urn:KS_SRV_CustomerSubmission_ImportExport/CreateCustomerSubmission" style="document"/>
+   value          :          <input>            <soap:header message="s:ARAuthenticate" part="parameters" use="literal">            </soap:header>          
+   value          :   <soap:body use="literal"/>         </input>         <output>            <soap:body use="literal"/>         </output>      </operat
+   value          : ion>   </binding>   <service name="KS_SRV_CustomerSubmission_ImportExportService">      <port binding="s:KS_SRV_CustomerSubmission_ImportExp
+   value          : ortSoapBinding" name="KS_SRV_CustomerSubmission_ImportExportSoap">         <soap:address location="@LOCATION@"/>      </port>   </service>
+   value          : </definitions>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\96\http://<midtier_server>/arsys/WSDL/protected/<servername>/KS_SRV_CustomerSubmission_ImportExport\
+   ref-groups     : 0 10105
+}
+end

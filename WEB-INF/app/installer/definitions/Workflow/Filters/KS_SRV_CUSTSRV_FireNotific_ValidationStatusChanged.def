@@ -1,0 +1,29 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CUSTSRV_FireNotific_ValidationStatusChanged
+   timestamp      : 1421095872
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 800
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey
+   export-version : 9
+   filter-query   : 2\1\1\4\1\99\600000042\2\4\9\GetScores\4\6\99\700002400\51\700002400\4\6\99\600000043\2\4\15\Fired All Notif\1\4\1\99\600000042\2\4\14\STATUS_CHANGED\4\
+   filter-query   : 6\99\700001043\2\4\8\No_Email\
+   action {
+      push-field  : 0\1\@\46\KS_SRV_Notification_CustomerSurveyResults_join\1\700092400\1\1\1\4\1\1\179\99\179\4\1\1\700006350\2\6\0\4\1\1\700002273\2\4\12\Notification\4\1\1\7\2\6\0\3\5\102\1\@\1\@\1\600000043\0\1\4\
+      push-field  : 1\1\@\46\KS_SRV_Notification_CustomerSurveyResults_join\1\700091248\1\1\1\4\1\1\179\99\179\4\1\1\700006350\2\6\0\4\1\1\700002273\2\4\12\Notification\4\1\1\7\2\6\0\3\5\102\1\@\1\@\1\700001248\0\1\4\
+      push-field  : 2\1\@\46\KS_SRV_Notification_CustomerSurveyResults_join\1\700091240\1\1\1\4\1\1\179\99\179\4\1\1\700006350\2\6\0\4\1\1\700002273\2\4\12\Notification\4\1\1\7\2\6\0\3\5\102\1\@\1\@\1\700001240\0\1\4\
+      push-field  : 3\1\@\46\KS_SRV_Notification_CustomerSurveyResults_join\1\600000530\1\1\1\4\1\1\179\99\179\4\1\1\700006350\2\6\0\4\1\1\700002273\2\4\12\Notification\4\1\1\7\2\6\0\3\5\101\6\0\
+   }
+   action {
+      push-field  : 0\1\@\39\KS_SRV_Notification_QuestionAnswer_join\1\700001297\1\4\1\99\179\1\700001850\4\1\1\700006350\2\6\0\3\5\101\4\3\1=2\
+      push-field  : 1\1\@\39\KS_SRV_Notification_QuestionAnswer_join\1\600000042\1\4\1\99\179\1\700001850\4\1\1\700006350\2\6\0\3\5\101\4\13\Test Question\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

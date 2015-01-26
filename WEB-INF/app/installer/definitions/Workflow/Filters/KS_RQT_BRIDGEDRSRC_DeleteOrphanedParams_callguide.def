@@ -1,0 +1,28 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_RQT_BRIDGEDRSRC_DeleteOrphanedParams_callguide
+   timestamp      : 1421095861
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_BridgedResource
+   export-version : 9
+   filter-query   : 4\1\99\600000042\2\4\14\Delete Orphans\
+   action {
+      call-server : @
+      call-guide  : KS_RQT_BRIDGEDRSRC_DeleteOrphanedParams_guide
+      call-mode   : 0
+      call-tableid: 760000813
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\600000042\105\28\1\102\1\@\1\@\1\760000816\0\1\4\
+   }
+end

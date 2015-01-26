@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_BuildDateList_HTML_ListBox_Begin
+   timestamp      : 1421095878
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   filter-query   : 1\4\1\99\700000002\2\4\4\Date\4\1\99\710060702\2\0\
+   action {
+      set-field   : 0\70000060\104\1\104\1\104\1\104\1\104\1\104\1\104\1\102\1\@\1\@\1\70000060\0\1\4\101\4\88\<select style='margin-left:3px;' class='dateMonth answerValue answerSelect' name='month_\102\1\@\1\@\1\179\0\1\4\101\4\12\' id='month_\102\1\@\1
+      set-field   : 0\\@\1\179\0\1\4\101\4\1\'\102\1\@\1\@\1\710060710\0\1\4\101\4\46\ onchange='KD.utils.Action.updateDate(this)'>\
+
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

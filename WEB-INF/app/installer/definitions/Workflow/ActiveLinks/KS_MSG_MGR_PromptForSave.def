@@ -1,0 +1,31 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_MSG_MGR_PromptForSave
+   timestamp      : 1421095764
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 20
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Manager
+   actlink-mask   : 1
+   actlink-control: 600000051
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\1\600000042\2\4\1\1\2\4\1\2\1\16\2\4\21\MessagingTemplateView\4\1\2\1\16\2\4\22\NewMessageTemplateView\
+   action {
+      set-field   : 0\600000098\101\2\100\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SHARE_Message_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

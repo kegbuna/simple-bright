@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_ACC_NoteAsmblr_RemoveFieldName
+   timestamp      : 1421095855
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 120
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_NoteAssembler
+   export-version : 9
+   action {
+      set-field   : 0\700000281\105\45\2\102\1\@\1\@\1\700000260\0\1\4\101\4\5\<FLD>\
+   }
+   action {
+      set-field   : 0\700000260\105\23\3\102\1\@\1\@\1\700000260\0\1\4\105\46\2\102\1\@\1\@\1\700000260\0\1\4\102\1\@\1\@\1\700000281\0\1\4\105\23\3\105\46\2\102\1\@\1\@\1\700000260\0\1\4\102\1\@\1\@\1\700000281\0\1\4\101\4\5\&#39;\101\4\0\\
+   }
+   action {
+      set-field   : 0\700000280\104\1\102\1\@\1\@\1\700000281\0\1\4\105\45\2\105\46\2\102\1\@\1\@\1\700000260\0\1\4\102\1\@\1\@\1\700000281\0\1\4\101\4\1\;\
+   }
+   action {
+      set-field   : 0\700000270\104\1\101\4\1\C\105\46\2\102\1\@\1\@\1\700000260\0\1\4\104\1\102\1\@\1\@\1\700000280\0\1\4\101\2\1\
+   }
+   help-text      : Grabs the field ID (assumes 9 characters).
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

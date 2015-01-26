@@ -1,0 +1,36 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_LaunchBridgeManager
+   timestamp      : 1421095828
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 702040000
+   enable         : 1
+   permission     : 0
+   action {
+      open-server : @
+      open-schema : KS_BRG_Manager
+      open-vui    : Manager
+      open-close  : 1
+      open-input  : 0\
+      open-output : 0\
+      open-winmod : 1
+      open-target : New
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

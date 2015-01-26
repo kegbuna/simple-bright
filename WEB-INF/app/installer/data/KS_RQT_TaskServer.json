@@ -1,0 +1,10 @@
+{
+  "form" : "KS_RQT_TaskServer",
+  "duplicateRecordQualifierFieldNames" : [ "Name" ],
+  "data" : [ {
+    "Status" : "0",
+    "Short Description" : "N/A",
+    "Name" : "Request Task Server",
+    "Application Base Url" : "http://task4.mycompany.com:8080/kinetic-task"
+  } ]
+}

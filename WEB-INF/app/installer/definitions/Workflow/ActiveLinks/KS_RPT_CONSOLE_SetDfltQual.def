@@ -1,0 +1,43 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RPT_CONSOLE_SetDfltQual
+   timestamp      : 1421095768
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RPT_AdvancedReportConsole
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700000375\2\0\
+   action {
+      set-field   : 0\700000104\102\1\@\20\KS_RPT_SavedSearches\1\700000104\4\1\99\700000375\1\179\2\1\
+      set-field   : 1\700000109\102\1\@\20\KS_RPT_SavedSearches\1\700000109\4\1\99\700000375\1\179\2\1\
+      set-field   : 2\700000110\102\1\@\20\KS_RPT_SavedSearches\1\700000110\4\1\99\700000375\1\179\2\1\
+      set-field   : 3\700000111\102\1\@\20\KS_RPT_SavedSearches\1\700000111\4\1\99\700000375\1\179\2\1\
+      set-field   : 4\700000112\102\1\@\20\KS_RPT_SavedSearches\1\700000112\4\1\99\700000375\1\179\2\1\
+      set-field   : 5\700000113\102\1\@\20\KS_RPT_SavedSearches\1\700000113\4\1\99\700000375\1\179\2\1\
+      set-field   : 6\700000114\102\1\@\20\KS_RPT_SavedSearches\1\700000114\4\1\99\700000375\1\179\2\1\
+      set-field   : 7\700000115\102\1\@\20\KS_RPT_SavedSearches\1\700000115\4\1\99\700000375\1\179\2\1\
+      set-field   : 8\700000116\102\1\@\20\KS_RPT_SavedSearches\1\700000116\4\1\99\700000375\1\179\2\1\
+      set-field   : 9\700000117\102\1\@\20\KS_RPT_SavedSearches\1\700000117\4\1\99\700000375\1\179\2\1\
+      set-field   : 10\700000118\102\1\@\20\KS_RPT_SavedSearches\1\700000118\4\1\99\700000375\1\179\2\1\
+      set-field   : 11\700000119\102\1\@\20\KS_RPT_SavedSearches\1\700000119\4\1\99\700000375\1\179\2\1\
+      set-field   : 12\700000120\102\1\@\20\KS_RPT_SavedSearches\1\700000120\4\1\99\700000375\1\179\2\1\
+      set-field   : 13\700000121\102\1\@\20\KS_RPT_SavedSearches\1\700000121\4\1\99\700000375\1\179\2\1\
+      set-field   : 14\700000122\102\1\@\20\KS_RPT_SavedSearches\1\700000122\4\1\99\700000375\1\179\2\1\
+      set-field   : 15\700000123\102\1\@\20\KS_RPT_SavedSearches\1\700000123\4\1\99\700000375\1\179\2\1\
+      set-field   : 16\700000126\102\1\@\20\KS_RPT_SavedSearches\1\700000126\4\1\99\700000375\1\179\2\1\
+      set-field   : 17\700000127\102\1\@\20\KS_RPT_SavedSearches\1\700000127\4\1\99\700000375\1\179\2\1\
+      set-field   : 18\700000136\102\1\@\20\KS_RPT_SavedSearches\1\700000250\4\1\99\700000375\1\179\2\1\
+      set-field   : 19\700000236\102\1\@\20\KS_RPT_SavedSearches\1\1\4\1\99\700000375\1\179\2\1\
+   }
+   else {
+      set-field   : 0\700000104\102\1\*\1\*\1\700004205\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

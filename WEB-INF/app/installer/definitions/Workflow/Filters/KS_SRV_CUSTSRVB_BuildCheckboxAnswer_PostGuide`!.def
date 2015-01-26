@@ -1,0 +1,31 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CUSTSRVB_BuildCheckboxAnswer_PostGuide`!
+   timestamp      : 1421095871
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 401
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey_base
+   export-version : 9
+   filter-query   : 1\4\1\99\600000042\2\4\9\GetScores\4\6\99\536870923\2\0\
+   action {
+      push-field  : 0\1\@\19\KS_SRV_SurveyAnswer\1\700002832\1\4\1\1\700001850\99\179\4\1\1\700001890\99\536870922\4\5\102\1\@\1\@\1\536870923\0\1\4\
+      push-field  : 1\1\@\19\KS_SRV_SurveyAnswer\1\700001890\1\4\1\1\700001850\99\179\4\1\1\700001890\99\536870922\4\5\102\1\@\1\@\1\536870922\0\1\4\
+      push-field  : 2\1\@\19\KS_SRV_SurveyAnswer\1\700001850\1\4\1\1\700001850\99\179\4\1\1\700001890\99\536870922\4\5\102\1\@\1\@\1\179\0\1\4\
+      push-field  : 3\1\@\19\KS_SRV_SurveyAnswer\1\112\1\4\1\1\700001850\99\179\4\1\1\700001890\99\536870922\4\5\102\1\@\1\@\1\112\0\1\4\
+   }
+   action {
+      command     : Application-Release-Pending
+   }
+   action {
+      set-field   : 0\536870923\101\0\
+      set-field   : 1\536870922\101\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

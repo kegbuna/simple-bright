@@ -1,0 +1,61 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_VIEWER_SetTemplateInfo
+   type           : 1
+   num-references : 9
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 4\2\14\KS_SRV_Manager\2\14\KS_RQT_Manager\2\24\KS_RQT_SubmissionManager\2\24\KS_SRV_SubmissionManager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetTemplateInfo
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_MANAGER_SetTemplateInfo
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetTemplateArchiveInfo
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetArchiveMethodIfNull
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ShowArchiveFields_External
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ShowArchiveFields_Off
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_ShowArchiveFields_Template
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_EnableShowAnonBtn
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SetForActive
+}
+end

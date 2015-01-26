@@ -1,0 +1,28 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CONTENTSHTML_UpdateStyleUnion_Template`!
+   timestamp      : 1421095870
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentsElementHTML
+   export-version : 9
+   filter-query   : 4\6\99\700073303\2\0\
+   action {
+      push-field  : 0\1\@\16\KS_SRV_CSS_UNION\1\700074001\1\1\1\4\1\1\700074000\2\6\1\4\1\1\700040002\2\4\21\KS_SRV_SurveyTemplate\4\1\1\700040003\99\700000800\4\1\1\700074001\99\700073303\4\3\102\1\@\1\@\1\700073303\0\1\4\
+      push-field  : 1\1\@\16\KS_SRV_CSS_UNION\1\700074000\1\1\1\4\1\1\700074000\2\6\1\4\1\1\700040002\2\4\21\KS_SRV_SurveyTemplate\4\1\1\700040003\99\700000800\4\1\1\700074001\99\700073303\4\3\101\6\1\
+      push-field  : 2\1\@\16\KS_SRV_CSS_UNION\1\700040003\1\1\1\4\1\1\700074000\2\6\1\4\1\1\700040002\2\4\21\KS_SRV_SurveyTemplate\4\1\1\700040003\99\700000800\4\1\1\700074001\99\700073303\4\3\102\1\@\1\@\1\700000800\0\1\4\
+      push-field  : 3\1\@\16\KS_SRV_CSS_UNION\1\700040002\1\1\1\4\1\1\700074000\2\6\1\4\1\1\700040002\2\4\21\KS_SRV_SurveyTemplate\4\1\1\700040003\99\700000800\4\1\1\700074001\99\700073303\4\3\101\4\21\KS_SRV_SurveyTemplate\
+      push-field  : 4\1\@\16\KS_SRV_CSS_UNION\1\700000800\1\1\1\4\1\1\700074000\2\6\1\4\1\1\700040002\2\4\21\KS_SRV_SurveyTemplate\4\1\1\700040003\99\700000800\4\1\1\700074001\99\700073303\4\3\102\1\@\1\@\1\700000800\0\1\4\
+   }
+   action {
+      set-field   : 0\600000090\102\1\@\21\KS_SRV_SurveyTemplate\1\700001923\4\1\1\179\99\700000800\2\3\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

@@ -1,0 +1,35 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ContentEvents_BuildListParams_Parse
+   type           : 4
+   num-references : 4
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\20\KS_SRV_ContentEvents\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_Params_ParseItem
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_BuildListParams_ReqOpt
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_Params_TableWalk_Left
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentsEvent_Build_Params_TableWalk_Right
+}
+end

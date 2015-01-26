@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_BRG_MODEL_UpdateMappingsOnNameChange`!
+   timestamp      : 1421095857
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Model
+   export-version : 9
+   filter-query   : 1\4\6\99\760000201\99\760000200\4\6\99\760000201\2\0\
+   action {
+      push-field  : 0\1\@\19\KS_BRG_ModelMapping\1\760000200\4\1\1\760000200\99\760000201\3\5\102\1\@\1\@\1\760000200\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\23\KS_BRG_AttributeMapping\1\760000200\4\1\1\760000200\99\760000201\3\5\102\1\@\1\@\1\760000200\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\27\KS_BRG_QualificationMapping\1\760000200\4\1\1\760000200\99\760000201\3\5\102\1\@\1\@\1\760000200\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

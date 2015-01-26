@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SAMPLE_People_ClearSupervisor
+   timestamp      : 1421095779
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SAMPLE_People
+   actlink-mask   : 1
+   actlink-control: 770000025
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\720000014\101\0\
+      set-field   : 1\720000015\101\0\
+      set-field   : 2\720000179\101\0\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

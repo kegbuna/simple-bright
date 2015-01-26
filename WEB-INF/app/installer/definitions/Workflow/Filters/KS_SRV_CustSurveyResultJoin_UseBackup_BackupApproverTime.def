@@ -1,0 +1,25 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CustSurveyResultJoin_UseBackup_BackupApproverTime
+   timestamp      : 1421095873
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurveyResults_join
+   export-version : 9
+   action {
+      set-field   : 0\700088131\102\1\@\15\KS_RQT_Approval\1\700088132\4\1\1\700001560\99\600000092\2\3\
+      set-field   : 1\700088106\102\1\@\15\KS_RQT_Approval\1\700088113\4\1\1\700001560\99\600000092\2\3\
+      set-field   : 2\700088104\102\1\@\15\KS_RQT_Approval\1\700088111\4\1\1\700001560\99\600000092\2\3\
+      set-field   : 3\700088103\102\1\@\15\KS_RQT_Approval\1\700088110\4\1\1\700001560\99\600000092\2\3\
+      set-field   : 4\700088102\102\1\@\15\KS_RQT_Approval\1\700088109\4\1\1\700001560\99\600000092\2\3\
+      set-field   : 5\700088101\102\1\@\15\KS_RQT_Approval\1\700088108\4\1\1\700001560\99\600000092\2\3\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

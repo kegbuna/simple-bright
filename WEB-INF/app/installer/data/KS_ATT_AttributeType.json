@@ -1,0 +1,275 @@
+{
+  "form" : "KS_ATT_AttributeType",
+  "duplicateRecordQualifierFieldNames" : [ "Application", "Attribute_Parent_Form", "Attribute_Type", "Attribute_Data_Type" ],
+  "data" : [ {
+    "Application" : "Kinetic Survey",
+    "Developer Name" : "Expiration Days",
+    "Attribute_Data_Type" : "Integer",
+    "Default_Value" : "30",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Admin_Only_Attribute_Type" : "0",
+    "Maximum" : 10000.0,
+    "Minimum" : 1.0,
+    "Enable_Range_Check" : "0",
+    "Attribute_Type" : "Expiration Days",
+    "Attribute_Type_Description" : "Number of days that a customer survey base record can be open.",
+    "Data Type Developer Name" : "Integer"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Category",
+    "Attribute_Data_Type" : "Character",
+    "Menu_Name" : "KS_RQT_ServiceItemCategories",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Admin_Only_Attribute_Type" : "0",
+    "Allow_Multiple_Instances" : "0",
+    "Attach_Menu" : "0",
+    "Attribute_Type" : "Category",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Keyword",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Admin_Only_Attribute_Type" : "0",
+    "Allow_Multiple_Instances" : "0",
+    "Attribute_Type" : "Keyword",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Version",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Admin_Only_Attribute_Type" : "0",
+    "Attribute_Type" : "Version",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "ID",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Admin_Only_Attribute_Type" : "0",
+    "Attribute_Type" : "ID",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Author",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Admin_Only_Attribute_Type" : "0",
+    "Attribute_Type" : "Author",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Business Unit",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Admin_Only_Attribute_Type" : "0",
+    "Attribute_Type" : "Business Unit",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Expiration Days",
+    "Attribute_Data_Type" : "Integer",
+    "Default_Value" : "30",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Admin_Only_Attribute_Type" : "0",
+    "Maximum" : 10000.0,
+    "Minimum" : 1.0,
+    "Enable_Range_Check" : "0",
+    "Attribute_Type" : "Expiration Days",
+    "Attribute_Type_Description" : "Number of days that a customer survey base record can be open.",
+    "Data Type Developer Name" : "Integer"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Header Details",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Header Details",
+    "Attribute_Type_Description" : "Header description text used in the Service Catalog Launcher",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Header Icon",
+    "Attribute_Data_Type" : "Character",
+    "Menu_Name" : "KS_RQT_KineticRequestLibraryImages",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Header Icon",
+    "Attribute_Type_Description" : "Header icon used in the Service Catalog Launcher",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Header Link",
+    "Attribute_Data_Type" : "Character",
+    "Default_Value" : "Request",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Header Link",
+    "Attribute_Type_Description" : "Name of the button used to request the service item from the Service Catalog Launcher.  Use \"none\" to not display a button.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Review JSP",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Review JSP",
+    "Attribute_Type_Description" : "The JSP page to use when rendering a submitted request in Review mode.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Review Tab JSP",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Review Tab JSP",
+    "Attribute_Type_Description" : "The JSP page to use to render a page of the submitted request in Review mode when the user clicks on the page tab.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Review Exclude Pages",
+    "Attribute_Data_Type" : "Character",
+    "Default_Value" : "Review Page",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Review Exclude Pages",
+    "Attribute_Type_Description" : "A comma separated list of page names to exclude from viewing in Review mode.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Review Preload Pages",
+    "Attribute_Data_Type" : "Character",
+    "Default_Value" : "false",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Review Preload Pages",
+    "Attribute_Type_Description" : "Indicates whether all pages should be loaded and displayed (true) when the page loads in Review mode, or if page tabs should be provided to show each page, and only the first page actually loaded when the page loads (false).",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Survey",
+    "Developer Name" : "Task Tree Name",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Admin_Only_Attribute_Type" : "0",
+    "Attribute_Type" : "Task Tree Name",
+    "Attribute_Type_Description" : "The name of the Task Tree that you have integrated the survey with.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Character Attribute",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Character Attribute",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Integer Type",
+    "Attribute_Data_Type" : "Integer",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Integer Type",
+    "Data Type Developer Name" : "Integer"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Character Array Attribute",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Allow_Multiple_Instances" : "0",
+    "Attribute_Type" : "Character Array Attribute",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Task Server Name",
+    "Attribute_Data_Type" : "Character",
+    "Menu_Name" : "KS_RQT_ActiveTaskServers",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attach_Menu" : "0",
+    "Attribute_Type" : "Task Server Name",
+    "Attribute_Type_Description" : "The name of the Kinetic Task 4+ server to use when processing Kinetic Task 4+ trees.  This value takes precedence over the attribute defined at the catalog level.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Task Source Name",
+    "Attribute_Data_Type" : "Character",
+    "Default_Value" : "Kinetic Request",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Task Source Name",
+    "Attribute_Type_Description" : "The name of the 'Source' this Kinetic Request application should use on the Kinetic Task 4+ server.  This value takes precedence over the attribute defined at the catalog level.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Task Server Name",
+    "Attribute_Data_Type" : "Character",
+    "Menu_Name" : "KS_RQT_ActiveTaskServers",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Attach_Menu" : "0",
+    "Attribute_Type" : "Task Server Name",
+    "Attribute_Type_Description" : "The name of the Kinetic Task 4+ server to use when processing Kinetic Task 4+ trees.  This value will be used for all service items in the catalog unless the service item explicitly overrides the value.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Task Source Name",
+    "Attribute_Data_Type" : "Character",
+    "Default_Value" : "Kinetic Request",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Attribute_Type" : "Task Source Name",
+    "Attribute_Type_Description" : "The name of the 'Source' this Kinetic Request application should use on the Kinetic Task 4+ server.  This value will be used for all service items in the catalog unless the service item explicitly overrides the value.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Review JSP",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Attribute_Type" : "Review JSP",
+    "Attribute_Type_Description" : "The default JSP page to use when rendering a submitted request in Review mode.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Review Tab JSP",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Attribute_Type" : "Review Tab JSP",
+    "Attribute_Type_Description" : "The default JSP page to use to render a page of the submitted request in Review mode when the user clicks on the page tab.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Theme Base",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Attribute_Type" : "Theme Base",
+    "Attribute_Type_Description" : "The default path prepended to template Display JSP and Review JSP references.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Theme Base",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Attribute_Type" : "Theme Base",
+    "Attribute_Type_Description" : "The default path prepended to template Display JSP and Review JSP references.",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Multiple",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Allow_Multiple_Instances" : "0",
+    "Attribute_Type" : "Multiple",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "Single",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Attribute_Type" : "Single",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "KSL Template Policy",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_SRV_SurveyTemplate",
+    "Allow_Multiple_Instances" : "0",
+    "Attribute_Type" : "KSL Template Policy",
+    "Data Type Developer Name" : "Character"
+  }, {
+    "Application" : "Kinetic Request",
+    "Developer Name" : "KSL Template Policy",
+    "Attribute_Data_Type" : "Character",
+    "Attribute_Parent_Form" : "KS_RQT_ServiceCatalog_base",
+    "Allow_Multiple_Instances" : "0",
+    "Attribute_Type" : "KSL Template Policy",
+    "Data Type Developer Name" : "Character"
+  } ]
+}

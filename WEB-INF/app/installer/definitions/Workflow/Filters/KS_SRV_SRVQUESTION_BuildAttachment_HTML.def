@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_BuildAttachment_HTML
+   timestamp      : 1421095878
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   filter-query   : 4\1\99\700001177\2\0\
+   action {
+      set-field   : 0\70000060\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\101\4\31\<input type='text' id='SRVQSTN_\102\1\@\1\@\1\179\0\1\4\101\4\16\' name='SRVQSTN_\102\1\@\1\@\1\179\0\1\4\101\4\8\' size='\102\1\@\
+      set-field   : 0\1\@\1\700000015\0\1\4\101\4\51\' class='answerValue answerAttachment' errorValue='\102\1\@\1\@\1\700001179\0\1\4\101\4\13\' sizeLimit='\102\1\@\1\@\1\700002350\0\1\4\101\4\20\' enforceFileTypes='\102\1\@\1\@\1\700002390\0\1\4\101\4\2
+      set-field   : 0\0\' fileTypesAllowed='\102\1\@\1\@\1\700002360\0\1\4\101\4\68\'  readOnly='readOnly' style='BACKGROUND-COLOR: #E0E0E0'/>&nbsp&nbsp\
+
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

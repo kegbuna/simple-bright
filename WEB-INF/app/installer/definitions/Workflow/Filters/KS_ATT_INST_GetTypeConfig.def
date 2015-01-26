@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_ATT_INST_GetTypeConfig
+   timestamp      : 1421095856
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 6
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_AttributeInstance
+   export-version : 9
+   action {
+      set-field   : 0\710000067\102\1\@\20\KS_ATT_AttributeType\1\710000067\4\1\1\179\99\710000012\2\3\
+      set-field   : 1\710000065\102\1\@\20\KS_ATT_AttributeType\1\710000065\4\1\1\179\99\710000012\2\3\
+      set-field   : 2\710000064\102\1\@\20\KS_ATT_AttributeType\1\710000064\4\1\1\179\99\710000012\2\3\
+      set-field   : 3\710000063\102\1\@\20\KS_ATT_AttributeType\1\710000063\4\1\1\179\99\710000012\2\3\
+      set-field   : 4\710000062\102\1\@\20\KS_ATT_AttributeType\1\710000062\4\1\1\179\99\710000012\2\3\
+      set-field   : 5\710000061\102\1\@\20\KS_ATT_AttributeType\1\710000061\4\1\1\179\99\710000012\2\3\
+      set-field   : 6\710000060\102\1\@\20\KS_ATT_AttributeType\1\710000060\4\1\1\179\99\710000012\2\3\
+      set-field   : 7\710000059\102\1\@\20\KS_ATT_AttributeType\1\710000059\4\1\1\179\99\710000012\2\3\
+      set-field   : 8\710000058\102\1\@\20\KS_ATT_AttributeType\1\710000058\4\1\1\179\99\710000012\2\3\
+      set-field   : 9\710000057\102\1\@\20\KS_ATT_AttributeType\1\710000057\4\1\1\179\99\710000012\2\3\
+      set-field   : 10\710000004\102\1\@\20\KS_ATT_AttributeType\1\710000004\4\1\1\179\99\710000012\2\3\
+      set-field   : 11\710000003\102\1\@\20\KS_ATT_AttributeType\1\710000003\4\1\1\179\99\710000012\2\3\
+      set-field   : 12\600000200\102\1\@\20\KS_ATT_AttributeType\1\710000077\4\1\1\179\99\710000012\2\3\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

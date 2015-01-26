@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_List_Member_RefreshTbls
+   timestamp      : 1421095823
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Member
+   actlink-mask   : 16384
+   enable         : 1
+   permission     : 0
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700044070
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_List_Manager_SetMembersLists
+      call-mode   : 0
+      call-tableid: 700044070
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700044080
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,48 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Notification_SetForStandard
+   timestamp      : 1421095795
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 200
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 16514
+   actlink-focus  : 700001895
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\7\2\1\16\2\4\21\SurveyQuestionDialog%\4\1\1\700001895\2\6\0\
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700002298
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700006305
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\1\
+      id          : 700002298
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700006305
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

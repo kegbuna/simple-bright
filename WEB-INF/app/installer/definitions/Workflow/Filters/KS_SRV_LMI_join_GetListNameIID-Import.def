@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_LMI_join_GetListNameIID-Import
+   timestamp      : 1421095875
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 20
+   enable         : 1
+   filter-order   : 100
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Manager_Import
+   export-version : 9
+   action {
+      set-field   : 0\600000090\102\1\@\16\KS_SRV_List_Name\1\700001923\1\4\1\99\536870914\1\700000000\2\4\1\1\600000500\2\0\4\1\99\536870921\1\600000500\2\3\
+      set-field   : 1\536870923\102\1\@\16\KS_SRV_List_Name\1\179\1\4\1\99\536870914\1\700000000\2\4\1\1\600000500\2\0\4\1\99\536870921\1\600000500\2\3\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

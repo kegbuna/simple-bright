@@ -9,31 +9,26 @@
     response.setDateHeader ("EXPIRES", 0); //prevents caching at the proxy server
     response.setHeader("PRAGMA","NO-CACHE");
 
-    String pageName;
-    String pageText;
-    String headerFile;
+    String pageName = "";
+    String pageText = "";
+    String headerFile = null;
 
     if (messageInfo != null) {
         pageName = messageInfo.getPageName();
         pageText = messageInfo.getMessageText();
         headerFile = messageInfo.getHeaderFile();
-    } else {
-        pageName = request.getParameter("pageName");
-        pageText = request.getParameter("pageText");
-        headerFile = request.getParameter("headerFile");
     }
     if (headerFile == null || headerFile.trim().length() == 0) {
-        String path = request.getContextPath() + request.getServletPath();
-        headerFile = path + "/../resources/poweredByKS.gif";
+        String path = request.getContextPath();
+        headerFile = path + "/resources/poweredByKS.gif";
     }
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta http-equiv="X-Frame-Options" content="sameorigin"/>
         <script type="text/javascript">
-            try{top.document.domain}catch(e){
+            try{top.document.domain;}catch(e){
                 var f=function(){document.body.innerHTML="";};
                 setInterval(f,1);
                 if(document.body){document.body.onload=f;}

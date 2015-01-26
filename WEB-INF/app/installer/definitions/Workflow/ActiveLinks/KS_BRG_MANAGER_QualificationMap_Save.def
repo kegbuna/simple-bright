@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_BRG_MANAGER_QualificationMap_Save
+   timestamp      : 1421095763
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Manager
+   enable         : 1
+   permission     : 0
+   action {
+      push-field  : 0\1\@\27\KS_BRG_QualificationMapping\1\760000200\4\1\99\600000425\1\1\4\3\102\1\*\1\*\1\760000750\0\1\4\
+      push-field  : 1\1\@\27\KS_BRG_QualificationMapping\1\760000400\4\1\99\600000425\1\1\4\3\102\1\*\1\*\1\760000400\0\1\4\
+      push-field  : 2\1\@\27\KS_BRG_QualificationMapping\1\760001000\4\1\99\600000425\1\1\4\3\102\1\*\1\*\1\760001000\0\1\4\
+      push-field  : 3\1\@\27\KS_BRG_QualificationMapping\1\760001200\4\1\99\600000425\1\1\4\3\102\1\*\1\*\1\760000401\0\1\4\
+   }
+   action {
+    commit_changes: 
+   }
+   action {
+      close-wnd   : 
+      close-all   : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,216 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SHARE_AUDIT_Field Change Check Fields
+   type           : 4
+   num-references : 40
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 8\2\26\KS_SRV_CustomerSurvey_base\2\24\KS_ATT_AttributeInstance\2\26\KS_SRV_ArchiveFormSettings\2\21\KS_SRV_CustomerSurvey\2\19\KS_SRV_SurveyAnswer\2\21&
+   owning-obj     : \KS_SRV_SurveyQuestion\2\27\KS_SRV_SurveyQuestionChoice\2\21\KS_SRV_SurveyTemplate\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_Company Name
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_Contact_Info_Value
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_First Name
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_Last Name
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_SentDate
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_CompletedDate
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_ValidationStatus
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_RequestCompletedDate
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_ArchiveMe
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ANSWER_AUDIT_Full Answer
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Category
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Survey Template Name
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Mapping Data Set
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Mid Tier
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Survey Context
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Display Page
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Assignee Group
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_ManagementGroup
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_SubmissionGroup
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_RequireAuth
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_AuthenticationType
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_AuthTemplateName
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Display Name
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Type
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_SubmissionsLockable
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_SubmissionsLockableBy
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_SubmissionsLockExpiration
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_SubmissionsUnlockableBy
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_AUDIT_Question
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_AUDIT_RequiredQuestion
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_AUDIT_ChoiceType
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_AUDIT_AnswerDataType
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_AUDIT_FieldMap
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_AUDIT_ApplyNotApplicable
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQSTNCHOICE_AUDIT_Value
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQSTNCHOICE_AUDIT_Label
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ATT_INST_AUDIT_AttributeValue
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ARCHFORM_AUDIT_ArchiveMethod
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ARCHFORM_AUDIT_ArchiveForm
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ARCHFORM_AUDIT_ArchiveQualification
+}
+end

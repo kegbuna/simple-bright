@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_BRG_MANAGER_DeleteBridge_CheckForUsage_01
+   timestamp      : 1421095761
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Manager
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\600000425\101\0\
+   }
+   action {
+      set-field   : 0\600000425\102\1\@\19\KS_BRG_ModelMapping\1\1\4\1\1\760000100\99\760000716\2\3\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,46 @@
+{
+  "form" : "KS_SRV_NotificationRule",
+  "duplicateRecordQualifierFieldNames" : [ "ApplicationName", "Rule_Type", "Rule_Name" ],
+  "data" : [ {
+    "OperationID" : "$490000700$",
+    "ExternalQualification" : "1=1",
+    "DisplayQualification" : "1=1",
+    "SurveyInstanceID" : "KS000C29B22419iJz1RQJfbOBQqgAA",
+    "NotifyOnAnswer" : "AnswerViewer2",
+    "NotifyOnAnswerDisaplyName" : "Email Address",
+    "Message_Template" : "Installation Email",
+    "Rule_Name" : "Startup Notification",
+    "MessageTemplateInstanceID" : "ID000C298C9351V320TAQchjIwgAgA",
+    "NotificationAssignmentType" : "1",
+    "Rule_Type" : "Notification",
+    "ApplicationName" : "Kinetic Survey",
+    "Run_When" : "0"
+  }, {
+    "OperationID" : "$490000700$",
+    "ExternalQualification" : "'700004002'!=$\\NULL$",
+    "DisplayQualification" : "<FLD>Email Address;ANSWER</FLD>!=$\\NULL$",
+    "SurveyInstanceID" : "KS000C298C9351LYyzTACr21HwMAcA",
+    "NotifyOnAnswer" : "AnswerViewer2",
+    "NotifyOnAnswerDisaplyName" : "Email Address",
+    "Message_Template" : "Installation Email",
+    "Rule_Name" : "Startup Notification",
+    "MessageTemplateInstanceID" : "ID000C298C9351CJGzTAOLPIHwjwcA",
+    "NotificationAssignmentType" : "1",
+    "Rule_Type" : "Notification",
+    "ApplicationName" : "Kinetic Request",
+    "Run_When" : "1"
+  }, {
+    "ExternalQualification" : "1=1",
+    "DisplayQualification" : "1=1",
+    "SurveyInstanceID" : "KS000C292459104IYlVA0YFqSALXcM",
+    "HoursAfterSend" : 1,
+    "Message_Template" : "Sample Escalation",
+    "Rule_Name" : "Test",
+    "MessageTemplateInstanceID" : "ID000C29497A1AWjAJRgGdRegA7iQA",
+    "NotificationAssignmentType" : "0",
+    "Rule_Type" : "Reminder",
+    "ReminderID" : 1,
+    "ApplicationName" : "Kinetic Survey",
+    "Run_When" : "0"
+  } ]
+}

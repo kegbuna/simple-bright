@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_BRG_MANAGER_QualificationMap_Save_Guide
+   type           : 1
+   num-references : 2
+   timestamp      : 1421095850
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\14\KS_BRG_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_BRG_MANAGER_QualificationMap_Save_CheckForQuery
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_BRG_MANAGER_QualificationMap_Save
+}
+end

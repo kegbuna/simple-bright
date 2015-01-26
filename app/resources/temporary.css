@@ -1,0 +1,680 @@
+html {
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+}
+
+table dd {
+    white-space: pre-line;
+    word-break: break-all;
+    word-wrap: normal;
+}
+
+.dropdown.more-actions span.glyphicon:hover {
+    color: #777;
+}
+
+/*--------------------------------------------------------------------------------------------
+ * installer wizard styles
+ *------------------------------------------------------------------------------------------*/
+.wizard-panel .removed {
+    display: none;
+}
+.wizard-panel {
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 700px;
+    margin: 30px auto 70px;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    font-size: 14px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 1px 2px 3px #dddddd;
+    -webkit-box-shadow: 1px 2px 3px #dddddd;
+    box-shadow: 1px 2px 3px #dddddd;
+}
+.wizard-panel .title {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #fafafa;
+    padding: 14px 15px 15px;
+    margin: -10px -10px 0 -10px;
+    border-bottom: 1px solid #ddd;
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    -moz-box-shadow: inset 0 1px 4px #dddddd;
+    -webkit-box-shadow: inset 0 1px 4px #dddddd;
+    box-shadow: inset 0 1px 4px #dddddd;
+    zoom: 1;
+}
+.wizard-panel .message {
+    margin: 30px auto 45px;
+    width: 600px;
+    line-height: 1.5;
+    text-align: left;
+}
+.wizard-panel a {
+/*
+  color: #2a6496;
+  text-decoration: underline;
+*/
+}
+.wizard-panel .alert-details {
+    padding: 0 30px;
+}
+.wizard-panel .description {
+    margin-bottom: 20px;
+}
+.wizard-panel .actions {
+    background-color: #f5f5f5;
+    text-align: right;
+    padding: 14px 15px 15px;
+    margin: 0 -10px -10px -10px;
+    border-top: 1px solid #ddd;
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -moz-box-shadow: inset 0 1px 4px #dddddd;
+    -webkit-box-shadow: inset 0 1px 4px #dddddd;
+    box-shadow: inset 0 1px 4px #dddddd;
+    zoom: 1;
+}
+.wizard-panel .form-contents {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    width: 540px;
+    margin: 0 auto 0;
+    position: relative;
+    padding: 10px;
+    font-size: 14px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 1px 2px 3px #dddddd;
+    -webkit-box-shadow: 1px 2px 3px #dddddd;
+    box-shadow: 1px 2px 3px #dddddd;
+}
+
+.wizard-panel a.btn-secondary {
+    background-color: rgb(192, 192, 192);
+}
+
+
+/*--------------------------------------------------------------------------------------------
+ * application.tag styles
+ *------------------------------------------------------------------------------------------*/
+.nav-pills.sub-nav > li.active > a, .nav-pills.sub-nav > li.active > a:hover, .nav-pills.sub-nav > li.active > a:focus {
+    color: #00427e;
+    border-radius: 0;
+}
+.nav-pills > li > a > .badge{
+    background-color: #eee;
+    color:#999;
+}
+
+.nav-pills.sub-nav > li > a {
+    background-color:transparent;
+    border-radius:0;
+    border-right: 1px solid #d7d3d2;
+}
+.nav-pills.sub-nav > li > a:hover,
+.nav-pills.sub-nav > li > a:focus{
+    background-color:#eee;
+}
+
+.nav-pills.sub-nav > li:last-child > a{
+    border-right:none;
+}
+.nav-pills.sub-nav > li + li {
+    margin-left: 0;
+}
+
+.nav-title h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pagination .active > a {
+    background-color: #ede9e8;
+    border-color: #dddddd;
+    color: #00427e;
+}
+
+.pagination .active > a:hover {
+    background-color: #ede9e8;
+    border-color: #dddddd;
+    color: #00427e;
+}
+
+.pagination li > a {
+    color: rgb(51, 51, 51);
+}
+
+.pagination li > a:hover {
+    color: #d95900;
+}
+
+.message.alerts .alert {
+    border-radius: 0;
+}
+
+.sub-nav {
+    margin-bottom: 2em;
+}
+
+/* TODO: Review this; added so that the edit/show page form buttons don't touch the footer */
+form .form-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+th.sorting {
+    cursor: pointer;
+}
+th.sorting_asc, th.sorting_desc {
+    color: #00427e;
+    cursor: pointer;
+}
+.table > thead > tr > th.sorting,
+.table > thead > tr > th.sorting_asc,
+.table > thead > tr > th.sorting_desc {
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+/* .btn-subtle styling that will eventually be added to application css */
+.btn-subtle { 
+  color: #333333; 
+  background-color: #E9E9E9; 
+  border-color: #CCCCCC; 
+} 
+
+.btn-subtle:hover, 
+.btn-subtle:focus, 
+.btn-subtle:active, 
+.btn-subtle.active, 
+.open .dropdown-toggle.btn-subtle { 
+  color: #333333; 
+  background-color: #D6D6D6; 
+  border-color: #CCCCCC; 
+} 
+
+.btn-subtle:active, 
+.btn-subtle.active, 
+.open .dropdown-toggle.btn-subtle { 
+  background-image: none; 
+} 
+
+.btn-subtle.disabled, 
+.btn-subtle[disabled], 
+fieldset[disabled] .btn-subtle, 
+.btn-subtle.disabled:hover, 
+.btn-subtle[disabled]:hover, 
+fieldset[disabled] .btn-subtle:hover, 
+.btn-subtle.disabled:focus, 
+.btn-subtle[disabled]:focus, 
+fieldset[disabled] .btn-subtle:focus, 
+.btn-subtle.disabled:active, 
+.btn-subtle[disabled]:active, 
+fieldset[disabled] .btn-subtle:active, 
+.btn-subtle.disabled.active, 
+.btn-subtle[disabled].active, 
+fieldset[disabled] .btn-subtle.active { 
+  background-color: #E9E9E9; 
+  border-color: #CCCCCC; 
+} 
+
+.btn-subtle .badge { 
+  color: #E9E9E9; 
+  background-color: #333333; 
+}
+
+.sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 {
+    margin-top:0;
+    padding-top:3px;
+}
+
+/*--------------------------------------------------------------------------------------------
+ * login page styles
+ *------------------------------------------------------------------------------------------*/
+#login-box{
+    background: #fff;
+    max-width: 450px;
+    min-width: 280px;
+    border: 1px solid #e1e1e1;
+    margin: 60px auto;
+    border-radius: 4px;
+}
+#login-box-inner{
+    padding: 15px 42px 42px;
+}
+#login-logo{
+    display: block;
+    margin: 30px auto 60px;
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: 600;
+}
+.content {
+    background-color: #ede9e8;
+}
+
+
+/*--------------------------------------------------------------------------------------------
+ * setup styles
+ *------------------------------------------------------------------------------------------*/
+.bs-callout {
+    margin: 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+    margin-top: 0;
+}
+ 
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+ 
+.bs-callout code,
+.bs-callout .highlight {
+    background-color: #fff;
+}
+ 
+/* Themes for different contexts */
+.bs-callout-danger {
+    background-color: #fdf7f7;
+    border-color: #d9534f;
+}
+ 
+.bs-callout-warning {
+    background-color: #fefbed;
+    border-color: #f1e7bc;
+}
+ 
+.bs-callout-info {
+    background-color: #f0f7fd;
+    border-color: #d0e3f0;
+}
+ 
+.bs-callout-danger h4,
+.bs-callout-danger a.alert-link {
+    color: #B94A48;
+}
+ 
+.bs-callout-warning h4,
+.bs-callout-warning a.alert-link {
+    color: #C09853;
+}
+ 
+.bs-callout-info h4,
+.bs-callout-info a.alert-link {
+    color: #3A87AD;
+}
+ 
+.bs-callout a.alert-link {
+    font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------------------------------------
+ * admin navigation styles
+ *------------------------------------------------------------------------------------------*/
+.adminNavigation hr {
+    margin: 5px 0;
+    border-top:1px solid #d7d3d2;
+}
+
+/*--------------------------------------------------------------------------------------------
+ * error pages
+ *------------------------------------------------------------------------------------------*/
+.error-page-400 {
+    background: url(422-bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.error-page-403 {
+    background: url(500-bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.error-page-404 {
+    background: url(404-bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.error-page-500 {
+    background: url(500-bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+.page-header .row h1 {margin-top: 0;}
+.page-header { word-break: break-all; }
+.alert-permanent {margin-bottom: 0; margin-top:15px;}
+h3.chart-title  {margin-top:0;text-align: center;}
+.dl-small-label dt {width: 110px;}
+.dl-small-label dd {margin-left: 120px;}
+
+.time-ago { cursor: default; }
+.tooltip { cursor: default; }
+.breadcrumb {padding:0;margin-top:25px;}
+
+/*
+ * Styles for the more actions chevron (initially only shown on the tree index page).
+ */
+.dropdown.more-actions {
+    cursor: pointer;
+}
+.dropdown.more-actions span.fa {
+    color: #ccc;
+}
+.dropdown.more-actions span.fa:hover{
+    color: #333;
+}
+
+/* Style for very large menus */
+.dropdown-menu.scrollable-menu {
+    max-height: 300px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+/* make sure the dataTable is displayed the pagination controls if they are floated */
+.dataTables_wrapper table {
+    clear: both;
+}
+.dataTables_wrapper .wrapper {
+    margin-bottom: 10px;
+}
+.dataTables_wrapper .dataTables_info {
+    color: #999999;
+}
+.dataTables_wrapper .dataTables_paginate .pagination {
+    margin: 0;
+}
+
+
+/*
+ * Caret styles for run tables (trigger and task)
+ */
+.table-caret-right {
+	width: 0; 
+	height: 0; 
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 8px solid #ccc;
+}
+tr:hover .table-caret-right {
+    border-left-color: #777;
+}
+
+.table-caret-down {
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 8px solid #777;
+}
+
+.table td.nowrap {
+    white-space: nowrap;
+}
+.table td.breakall {
+    word-break: break-all;
+}
+
+/*
+ * logs.jsp
+ */
+dt a {
+    color: #d95900;
+}
+
+/*
+ * runShow.jsp
+ */
+table tr.callout-row td {
+    padding: 0px;
+}
+table tr.callout-row .table-callout {
+    margin: 8px 8px 28px 8px;
+}
+
+
+/*
+ * treeEdit.jsp
+ */ 
+table.drag-drop-items th.move-button {
+    width: 50px
+}
+table.drag-drop-items th.name-field {
+    width: 25%;
+}
+table.drag-drop-items th.required-field {
+    width: 80px;
+}
+table.drag-drop-items th.remove-button {
+    width: 100px;
+}
+table.drag-drop-items td.center {
+    text-align: center;
+}
+table.drag-drop-items td.move {
+    cursor: move;
+    text-align: center;
+}
+table.drag-drop-items td.move span {
+    line-height: 30px;
+}
+
+/*
+ * errorIndex.jsp
+ */
+.table.table-grouped > tbody > tr > td {
+    border: 0;
+}
+.table.table-grouped > tbody + tbody {
+    border-top-width: 1px;
+}
+.table.table-grouped > tbody:hover {
+    background-color: rgb(245,245,245);
+}
+.table.table-grouped > tbody p {
+    color: #999;
+}
+
+/*
+ * Navigation dividers
+ */
+hr.navigation-divider {
+    margin: 5px 0;
+    border-top: 1px solid #d7d3d2;
+}
+
+/*
+ * updatedHandlers.jsp
+ */ 
+.emphasized {
+    font-style: italic;
+}
+
+/*
+ * environment.jsp
+ */
+.primaryEnvValue {
+    font-weight: bold;
+}
+
+/*
+ * authentication.jsp
+ */
+.top-space {
+    padding-top: 20px;
+}
+
+/*
+ * license.jsp
+ */ 
+#export-license-button {
+    margin-left: 1em;
+}
+
+/*
+ * treeIndex.jsp
+ */
+#create-link {
+    margin-left: 1em;
+}
+
+/*
+ * application.tag
+ */
+#modal-auth div.modal-header {
+    border-bottom-width: 0;
+}
+
+/*
+ * Error Counts: dashboard.jsp/treeShowDetails.jsp
+ */
+h3 ul {
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 24px;
+    margin: 0;
+}
+h3 ul a {
+    color: #d95900;
+}
+
+/* Required form fields */
+label abbr {
+    color: #c00;
+}
+
+/* DISABLED BUTTONS (override so that all disabled buttons look the same) */
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn,
+.btn.disabled:hover, .btn[disabled]:hover, fieldset[disabled] .btn:hover,
+.btn.disabled:focus, .btn[disabled]:focus, fieldset[disabled] .btn:focus {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #333;
+    background: #C0C0C0;
+    border: 1px solid transparent;
+}
+
+/* help for policy rules */
+.rule-help-content {
+    display:none;
+}
+
+
+/*
+ * Routine pagination
+ */
+section.routine ul.pagination {
+    margin-top: 0;
+}
+
+/*
+ * Staged pagination
+ */
+section.staged ul.pagination {
+    margin-top: 0;
+}
+
+/*
+ * Error show page (possibly others).
+ */
+.form-control-static a {
+    color: #d95900;
+}
+
+/*
+ * Tables with the "expand" caret should have a fixed width so that the caret column doesn't shift
+ */
+.caret-cell {
+    width: 30px;
+}
+
+/*
+ * The inputs/results for triggers / tasks on show run blind down.
+ */
+pre .dl-horizontal dt {
+    width: 150px;
+}
+pre .dl-horizontal dd {
+    margin-left: 169px;
+}
+
+/*
+ * The Run/System error text.
+ */
+pre .breakword {
+    word-break: break-word;
+}
+.btn-delete{color:red;}
+
+
+.tree-actions {
+    margin-right: 1em;
+}
+
+/*
+ * Show Run inputs/outputs
+ */
+.table.headless > tbody > tr:first-child > td {
+    border-top: none;
+}
+p.no-items {
+    padding: 8px 8px 20px 8px;
+}
+
+/*
+ *
+ */
+dl.breakall dd {
+    word-break: break-all;
+    word-wrap: normal;
+}
+
+
+/*
+ * Quick Start Link
+ */
+.message .quick-start {
+    padding-right: 15px;
+}
+
+span.meta {
+   display: block;
+   font-size: 12px;
+   font-size: 1.2rem;
+   color: #999;
+   cursor: default
+}
+
+/*
+ * Styles for the task messages in the run show page.  Hex values are for
+ * browsers that does not support rgba().
+ */
+.table-callout .list-group-item {
+    background-color: #FFFFFF;
+    background-color: rgba(255,255,255,0.5);
+    border-color: #DDDDDD;
+    border-color: rgba(221,221,221,0.5);
+}

@@ -1,0 +1,34 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEvent_dlg_SetFieldsExternal_BridgeToSDR_GetSourceForm
+   timestamp      : 1421095787
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\600000042\2\4\3\Yes\
+   action {
+      open-server : @
+      open-schema : KS_SRV_ClientEvent_Dialog
+      open-vui    : Select Form
+      open-close  : 1
+      open-input  : 0\
+      open-output : 1\600000300\102\1\@\25\KS_SRV_ClientEvent_Dialog\1\600000300\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

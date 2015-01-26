@@ -1,0 +1,50 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_MSG_MGR_ViewMessageTemplate
+   timestamp      : 1421095765
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Manager
+   actlink-mask   : 1
+   actlink-control: 700004930
+   enable         : 1
+   permission     : 0 10105 10305
+   actlink-query  : 4\6\1\700004915\2\0\
+   action {
+      set-field   : 0\600000091\102\1\@\22\KS_MSG_MessageTemplate\1\700003453\4\1\99\700004921\1\179\1\4\
+      set-field   : 1\600000092\102\1\@\22\KS_MSG_MessageTemplate\1\600000500\4\1\99\700004921\1\179\1\4\
+      set-field   : 2\600000093\102\1\@\22\KS_MSG_MessageTemplate\1\600000600\4\1\99\700004921\1\179\1\4\
+      set-field   : 3\600000094\102\1\@\22\KS_MSG_MessageTemplate\1\18090\4\1\99\700004921\1\179\1\4\
+      set-field   : 4\600000095\102\1\@\22\KS_MSG_MessageTemplate\1\700003469\4\1\99\700004921\1\179\1\4\
+      set-field   : 5\600000096\102\1\@\22\KS_MSG_MessageTemplate\1\600000300\4\1\99\700004921\1\179\1\4\
+   }
+   action {
+      open-server : @
+      open-schema : KS_MSG_Manager
+      open-vui    : NewMessageTemplateView
+      open-close  : 1
+      open-input  : 10\179\102\1\@\1\@\1\179\0\1\4\18090\102\1\@\1\@\1\600000094\0\1\4\400069400\101\4\14\Kinetic Survey\600000300\102\1\@\1\@\1\600000096\0\1\4\600000500\102\1\@\1\@\1\600000092\0\1\4\600000600\102\1\@\1\@\1\600000093\0\1\4\700001261\102\
+      open-input  : 1\@\1\@\1\700001261\0\1\4\700003453\102\1\@\1\@\1\600000091\0\1\4\700003469\102\1\@\1\@\1\600000095\0\1\4\700009320\102\1\@\1\@\1\700009320\0\1\4\
+
+      open-output : 2\179\102\1\@\14\KS_MSG_Manager\1\179\0\1\4\18139\102\1\@\14\KS_MSG_Manager\1\18139\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-query  : 4\1\99\700001859\1\179\
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+      set-field   : 0\700004915\102\1\@\22\KS_MSG_MessageTemplate\1\700001261\4\1\99\179\1\179\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

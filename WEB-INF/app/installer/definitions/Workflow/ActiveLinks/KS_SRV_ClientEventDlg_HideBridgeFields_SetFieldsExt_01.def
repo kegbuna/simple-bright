@@ -1,0 +1,104 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_HideBridgeFields_SetFieldsExt_01
+   timestamp      : 1421095781
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 900
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   actlink-mask   : 16386
+   actlink-focus  : 760001307
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\2\1\16\2\4\21\Set Fields - External\4\1\1\760001307\2\0\
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760000200
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760000400
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 2\4\6\0\225\6\1\
+      id          : 760000999
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760001000
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760001001
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760005000
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760005010
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760005011
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760005012
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760005013
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760005014
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 760005015
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

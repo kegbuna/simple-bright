@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_RQT_BRIDGEDRSRCPARAM_SetBridgeInfoIfNull
+   timestamp      : 1421095861
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_BridgedResourceParameter
+   export-version : 9
+   filter-query   : 2\4\1\99\760000200\2\0\4\1\99\760000400\2\0\
+   action {
+      set-field   : 0\760000400\102\1\@\22\KS_RQT_BridgedResource\1\760000400\4\1\1\179\99\760000901\2\3\
+      set-field   : 1\760000200\102\1\@\22\KS_RQT_BridgedResource\1\760000200\4\1\1\179\99\760000901\2\3\
+   }
+end

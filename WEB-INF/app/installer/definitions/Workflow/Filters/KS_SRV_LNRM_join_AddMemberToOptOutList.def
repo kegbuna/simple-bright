@@ -1,0 +1,22 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_LNRM_join_AddMemberToOptOutList
+   timestamp      : 1421095875
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Name_Relationships_Member_join
+   export-version : 9
+   action {
+      push-field  : 0\1\@\25\KS_SRV_List_Relationships\1\700000002\1\4\1\99\700000001\1\700000001\4\1\99\700000002\1\700000002\4\5\102\1\@\1\@\1\700000002\0\1\4\
+      push-field  : 1\1\@\25\KS_SRV_List_Relationships\1\700000001\1\4\1\99\700000001\1\700000001\4\1\99\700000002\1\700000002\4\5\102\1\@\1\@\1\700000001\0\1\4\
+      push-field  : 2\1\@\25\KS_SRV_List_Relationships\1\7\1\4\1\99\700000001\1\700000001\4\1\99\700000002\1\700000002\4\5\101\6\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

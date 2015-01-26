@@ -1,0 +1,13 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_SRV_CSS_StyleTypes_NonElements
+   timestamp      : 1421095885
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 1
+   char-menu      : 0\2\11\KS_ACC_Menu\1\@\700000810\700000820\1\1\1\4\1\1\700000800\2\4\15\CSS Style Types\4\1\1\7\2\6\0\4\6\1\700000810\2\4\7\HTML ID\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

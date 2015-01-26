@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_ModifyNotification
+   timestamp      : 1421095803
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 3
+   actlink-control: 700001284
+   actlink-focus  : 700001479
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\700001908\2\0\4\7\2\1\16\2\4\15\QuestionDialog%\
+   action {
+      set-field   : 0\700000013\102\1\*\1\*\1\700009311\0\1\4\
+      set-field   : 1\700000060\102\1\*\1\*\1\700009310\0\1\4\
+      set-field   : 2\700001020\102\1\*\1\*\1\700009257\0\1\4\
+      set-field   : 3\700001261\102\1\*\1\*\1\700001760\0\1\4\
+      set-field   : 4\700001859\102\1\*\1\*\1\700009314\0\1\4\
+      set-field   : 5\700001895\102\1\*\1\*\1\700006949\0\1\4\
+      set-field   : 6\700001985\102\1\*\1\*\1\700001908\0\1\4\
+      set-field   : 7\700006350\102\1\*\1\*\1\700009312\0\1\4\
+      set-field   : 8\710060707\102\1\*\1\*\1\710060706\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

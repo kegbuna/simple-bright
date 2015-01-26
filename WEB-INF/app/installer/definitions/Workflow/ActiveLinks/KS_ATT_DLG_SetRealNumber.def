@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_DLG_SetRealNumber
+   timestamp      : 1421095757
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_Dialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\710000001\2\4\11\Real Number\
+   action {
+      set-field   : 0\710000047\102\1\*\1\*\1\710000038\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

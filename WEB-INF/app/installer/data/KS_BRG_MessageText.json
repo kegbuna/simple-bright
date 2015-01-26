@@ -1,0 +1,411 @@
+{
+  "form" : "KS_BRG_MessageText",
+  "duplicateRecordQualifierFieldNames" : [ "Message_Number" ],
+  "data" : [ {
+    "Message_Number" : 1120,
+    "Message_Text" : "You must select a Connection from the menu before adding a Model.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1121,
+    "Message_Text" : "You must select a Model from the table to the left before adding an Attribute.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1122,
+    "Message_Text" : "You must select a Model from the table above before adding a Qualification.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1123,
+    "Message_Text" : "You must select a Qualification from the table above before adding a Parameter.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1124,
+    "Message_Text" : "You must select a Bridge from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1125,
+    "Message_Text" : "You must select a Model from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1126,
+    "Message_Text" : "You must select a Qualification from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1127,
+    "Message_Text" : "You must select an Attribute from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1128,
+    "Message_Text" : "You must select a Parameter from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1129,
+    "Message_Text" : "You must select a Bridge from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1130,
+    "Message_Text" : "You must select a Model from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1131,
+    "Message_Text" : "You must select an Attribute from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1132,
+    "Message_Text" : "You must select a Qualification from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1133,
+    "Message_Text" : "You must select a Parameter from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1134,
+    "Message_Text" : "Are you sure you want to delete this Bridge?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Confirm",
+    "Message_View" : "YNC_Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1135,
+    "Message_Text" : "Deleting this Model will also delete all associated Attributes and Qualifications.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Confirm",
+    "Message_View" : "YNC_Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1136,
+    "Message_Text" : "Deleting this Qualification will also delete all associated Parameters.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Confirm",
+    "Message_View" : "YNC_Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1137,
+    "Message_Text" : "Fields with bold names are required.  Please be sure that all required fields have been filled in before saving this record.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1138,
+    "Message_Text" : "Are you sure you want to clear the value for the selected Attribute?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Confirm",
+    "Message_View" : "YN_Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1139,
+    "Message_Text" : "Are you sure you want to clear the Query value for the selected Qualification?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Confirm",
+    "Message_View" : "YN_Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 120,
+    "Message_Text" : "Do you wish to delete the selected item(s)?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Confirm",
+    "Message_View" : "YN_Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1140,
+    "Message_Text" : "You must select a Model from the list before you can add a Model Mapping.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1141,
+    "Message_Text" : "You must select an Attrubute from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1142,
+    "Message_Text" : "You must select an Attrubute from the table before you can clear it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1143,
+    "Message_Text" : "The Attribute you have selected has no value to clear.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1144,
+    "Message_Text" : "You must select a Model Mapping from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1145,
+    "Message_Text" : "You must select a Model Mapping from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1146,
+    "Message_Text" : "You must select a Model Attribute from the table before you can clear it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1147,
+    "Message_Text" : "You must select a Qualification Mapping from the table above before adding a Parameter Mapping.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1150,
+    "Message_Text" : "You must specify a Name before saving this Model.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1151,
+    "Message_Text" : "You must specify an Attribute Name before saving this Attribute.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1152,
+    "Message_Text" : "You must specify a Qualification Name before saving this Qualification.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1153,
+    "Message_Text" : "You must specify a Result Type before saving this Qualification.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1154,
+    "Message_Text" : "You must specify a Parameter Name before saving this Parameter.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1155,
+    "Message_Text" : "You must specify a Bridge Name before saving this Bridge.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1156,
+    "Message_Text" : "You must specify a Bridge URL before saving this Bridge.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1157,
+    "Message_Text" : "You must specify a Management Group before saving this Bridge.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1158,
+    "Message_Text" : "You must specify a Status before saving this Bridge.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1159,
+    "Message_Text" : "You must specify a Name before saving this Model Mapping.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1160,
+    "Message_Text" : "You must specify a Bridge Name before saving this Model Mapping.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1161,
+    "Message_Text" : "You must specify a Structure before saving this Model Mapping.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1162,
+    "Message_Text" : "You must specify a Status before saving this Model Mapping.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1163,
+    "Message_Text" : "You must specify a Structure Member before saving this Attribute Mapping.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1164,
+    "Message_Text" : "You must specify a Query before saving this Qualification Mapping.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1165,
+    "Message_Text" : "You must specify a Parameter Name before saving this Qualification Parameter.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1166,
+    "Message_Text" : "You must specify a Value before saving this Qualification Parameter.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1167,
+    "Message_Text" : "You must specify a Type before saving this Qualification Parameter.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1168,
+    "Message_Text" : "You must specify a Model Name when saving an event that uses a Data Source.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1169,
+    "Message_Text" : "You must specify a Qualification Name when saving an event that uses a Data Source.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1170,
+    "Message_Text" : "You must specify a Value Attribute when saving a Populate Menu event that uses a Data Source.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1171,
+    "Message_Text" : "You must specify a Label Attribute when saving a Populate Menu event that uses a Data Source.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1172,
+    "Message_Text" : "You cannot delete a Bridge that is currently being used by a Model Mapping.  Update any Model Mapping records that use this Bridge before deleting.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1173,
+    "Message_Text" : "You cannot delete a Model that is currently being used by a Question or Client-Side Event.  Please review these elements and update them accordingly before deleting this Model.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1174,
+    "Message_Text" : "You cannot delete an Attribute that is currently being used by a Question or Client-Side Event.  Please review these elements and update them accordingly before deleting this Attribute.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1175,
+    "Message_Text" : "You cannot delete a Qualification that is currently being used by a Question or Client-Side Event.  Please review these elements and update them accordingly before deleting this Qualification.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1176,
+    "Message_Text" : "You cannot delete a Parameter that is currently being used by a Question or Client-Side Event.  Please review these elements and update them accordingly before deleting this Parameter.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1177,
+    "Message_Text" : "The name of this qualification has changed.  Would you like to update all instances where this qualification is being used with the new name?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Confirm",
+    "Message_View" : "YNC_Medium_Message",
+    "Application" : "Kinetic Bridge"
+  }, {
+    "Message_Number" : 1178,
+    "Message_Text" : "The name of this bridge has changed.  Would you like to update all instances where this bridge is being used with the new name?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Confirm",
+    "Message_View" : "YNC_Medium_Message",
+    "Application" : "Kinetic Bridge"
+  } ]
+}

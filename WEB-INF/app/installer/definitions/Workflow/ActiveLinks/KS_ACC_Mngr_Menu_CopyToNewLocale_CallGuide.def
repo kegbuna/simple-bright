@@ -1,0 +1,49 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ACC_Mngr_Menu_CopyToNewLocale_CallGuide
+   timestamp      : 1421095753
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_Manager
+   actlink-mask   : 1
+   actlink-control: 700000284
+   enable         : 1
+   permission     : 0
+   actlink-query  : 2\4\6\1\700005460\2\0\4\1\1\700000265\2\0\
+   action {
+      set-field   : 0\160\101\0\
+      set-field   : 1\490000700\103\32\@@ :Application-Generate-GUID KS\
+      set-field   : 2\700000290\101\0\
+      set-field   : 3\700000292\101\0\
+      set-field   : 4\700000298\101\0\
+      set-field   : 5\700000800\101\0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_ACC_Mngr_Menu_CopytoNewLocale_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   else {
+      set-field   : 0\600000098\101\2\231\
+   }
+   else {
+      call-server : @
+      call-guide  : KS_SHARE_Message_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   change-diary   : 1074809219bpetersonremoved call guide KS_ACC_Mngr_Menu_CopytoNewLocale_Guide from If action.1074908650bpetersonAdded call guide KS_ACC_Mngr_Menu_Co
+   change-diary   : pytoNewLocale_Guide from If action.
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,302 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:18:33 2015
+#
+begin container
+   name           : KineticSurveyRequest - Join Forms Only
+   type           : 3
+   num-references : 56
+   timestamp      : 1421095887
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 10105\1
+   label          : Join Forms for the Kinetic Survey & Kinetic Request Application.
+   description    : VERSION: 5.2.0
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_ATT_AttributeTypeInstanceJoin
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_ModelMap_Attribute_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_ModelMap_Qualification_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_ModelMap_QualificationParameter_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_ModelMapAttribute_AttributeMap_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_ModelMapQualification_QualificationMap_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_Qualification_Mapping_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_BRG_Qualification_Parameter_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RPT_Report
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_BridgedResource_Parameter_BridgedResrouceParam_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_BridgedResource_Parameter_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_CustomerSurvey_Task_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_RequestTaskApproval_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_ServiceCatalog_base_Category_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_SubmissionLock
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_SurveyTemplate_Tree_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_SurveyTemplateAttrInst_Category_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_RQT_TaskApiCall_TaskApiCallLock_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Category_Template_Audit_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Category_Template_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_ContentEvents_ContentsElementHTML_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerQuestionAnswerResults_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerResultsQuestionAnswerJoin
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerSurvey
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerSurveyAnswer_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerSurveyAnswerQuestion_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerSurveyQstnAnswer_Attachment_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerSurveyQuestionAnswerJoin
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_CustomerSurveyResults_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DataSetFieldMap_JOIN
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DataSetQuestionUnion_ContentsElementHTML_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DataSetQuestionUnion_PageQuestion_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_DynAnswerHideShow_AvailableItems_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_List_Name_Relationships_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_List_Name_Relationships_Member_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_ListNameMember_ResultsCustomerBase_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Notification_CustomerSurveyResults_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_Notification_QuestionAnswer_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_PageQuestionAnswers_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_PageQuestions
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_QuestionAnswer_QuestionChoice_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_QuestionAnswerJoin
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_QuestionAnswerToQuestionAnswerJoin
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_ResultCustomerBaseJOIN
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_StyleApplied_ContentsElementHTML_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyAnswerAttachment_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyElements_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyTemplate_ContentsElementHTML_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyTemplateAttrInstance_join
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_SurveyTemplateQuestion_JOIN
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : KS_SRV_TemplateDataSet_join
+}
+reference {
+   type           : 32783
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 32793
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 32784
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 32785
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+reference {
+   type           : 32801
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 10105
+}
+end

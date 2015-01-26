@@ -6,7 +6,6 @@ response.setDateHeader ("Expires", 0); //prevents caching at the proxy server
 response.setHeader("Pragma","no-cache");
 %>
 <%@page import="org.apache.log4j.Logger"%>
-<%@page import="com.kd.kineticSurvey.impl.SurveyLogger"%>
 <%
     String fwdQry = (String)request.getAttribute("javax.servlet.forward.query_string");
     String fwdUri = (String)request.getAttribute("javax.servlet.forward.request_uri");
@@ -14,7 +13,7 @@ response.setHeader("Pragma","no-cache");
     String errorMsg = (String)request.getAttribute("javax.servlet.error.message");
     Exception errorEx = (Exception)request.getAttribute("javax.servlet.error.exception");
 
-    Logger logger = SurveyLogger.getLogger();
+    Logger logger = Logger.getLogger("com.kineticdata");
     String loggerID = "ERROR_PAGE_" + errorCode.toString() + ": ";
 
     // explain why this page was rendered
@@ -30,9 +29,6 @@ response.setHeader("Pragma","no-cache");
         buf = new StringBuffer();
         if (errorCode.intValue() == 404) {
             buf.append("The following page was not found on this web server: ");
-        }
-        if (errorCode.intValue() == 500) {
-            buf.append("The following server error was encountered: ");
         }
         buf.append(errorMsg);
         if (errorEx != null) {

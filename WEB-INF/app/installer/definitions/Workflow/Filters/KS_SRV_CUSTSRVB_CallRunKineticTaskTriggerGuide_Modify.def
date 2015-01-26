@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CUSTSRVB_CallRunKineticTaskTriggerGuide_Modify
+   timestamp      : 1421095871
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 3
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey_base
+   export-version : 9
+   filter-query   : 1\1\1\4\1\99\770000500\2\4\4\True\4\1\99\600000042\2\4\9\GetScores\4\1\99\700036000\2\4\15\Kinetic Request\4\1\99\700073501\2\6\0\
+   action {
+      set-field   : 0\770000501\101\4\3\New\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_CUSTSRVB_RunTaskProcess
+      call-mode   : 0
+      call-tableid: 770001006
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\770000501\101\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

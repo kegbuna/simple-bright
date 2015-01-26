@@ -1,0 +1,96 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_GetActiveTemplates
+   type           : 5
+   num-references : 7
+   timestamp      : 1421095887
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\21\KS_SRV_SurveyTemplate\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   permission     : 10105\1
+   label          : Active Templates
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\112\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>	</wsProperties>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\363\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="GetActiveTemplates" type="get" qualification="&apos;S
+   value          : tatus&apos; &lt;= &quot;Active&quot;">		<inputMapping name="InputMapping" topLevelElement="GetActiveTemplates"/>		<outputMapping name="OutputMapping
+   value          : " topLevelElement="GetActiveTemplatesResponse"/>	</operation>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1279\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="gen
+   value          : erated">		<element name="ROOT" dataType="ROOT" nillable="true" targetNamespace="urn:KS_SRV_GetActiveTemplates">			<formMapping>				<form formName=
+   value          : "KS_SRV_SurveyTemplate" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>				<element name="getListValues" maxOccurs="unbounded">					<ele
+   value          : ment name="Template_Name" dataType="string">						<fieldMapping arFieldId="700001000"/>					</element>					<element name="Template_Status" dataTyp
+   value          : e="string" enumValues="New,Active,Inactive,Closed,Delete">						<fieldMapping arFieldId="7"/>					</element>					<element name="Template_Instance_
+   value          : ID" dataType="string">						<fieldMapping arFieldId="179"/>					</element>					<element name="Template_Description" dataType="string" nillable="tr
+   value          : ue">						<fieldMapping arFieldId="700001010"/>					</element>					<element name="Catalog_Name" dataType="string">						<fieldMapping arFieldId=
+   value          : "600000500"/>					</element>					<element name="Catalog_Instance_ID" dataType="string">						<fieldMapping arFieldId="700001923"/>					</element
+   value          : >				</element>			</formMapping>		</element>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\278\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="gener
+   value          : ated">		<element name="ROOT" dataType="ROOT" nillable="true" targetNamespace="urn:KS_SRV_GetActiveTemplates"/>	</arDocMapping>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\3901\<?xml version="1.0" encoding="UTF-8"?><definitions targetNamespace="urn:KS_SRV_GetActiveTemplates" xmlns="http://schemas.xmlsoap.org/wsdl/" xml
+   value          : ns:s="urn:KS_SRV_GetActiveTemplates" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:
+   value          : wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDefault="qualified" targe
+   value          : tNamespace="urn:KS_SRV_GetActiveTemplates">   <xsd:element name="GetActiveTemplates" type="s:InputMapping"/>   <xsd:complexType name="InputMapping">
+   value          :     <xsd:sequence/>   </xsd:complexType>   <xsd:element name="GetActiveTemplatesResponse" type="s:OutputMapping"/>   <xsd:complexType name="Outp
+   value          : utMapping">    <xsd:sequence>     <xsd:element maxOccurs="unbounded" name="getListValues">      <xsd:complexType>       <xsd:sequence>        
+   value          : <xsd:element name="Template_Name" type="xsd:string"/>        <xsd:element name="Template_Status" type="s:Template_StatusType"/>        <xsd:element 
+   value          : name="Template_Instance_ID" type="xsd:string"/>        <xsd:element name="Template_Description" nillable="true" type="xsd:string"/>        <xsd:elem
+   value          : ent name="Catalog_Name" type="xsd:string"/>        <xsd:element name="Catalog_Instance_ID" type="xsd:string"/>       </xsd:sequence>      </xsd:co
+   value          : mplexType>     </xsd:element>    </xsd:sequence>   </xsd:complexType>   <xsd:simpleType name="Template_StatusType">    <xsd:restriction base="
+   value          : xsd:string">     <xsd:enumeration value="New"/>     <xsd:enumeration value="Active"/>     <xsd:enumeration value="Inactive"/>     <xsd:enumerati
+   value          : on value="Closed"/>     <xsd:enumeration value="Delete"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:element name="AuthenticationInfo" typ
+   value          : e="s:AuthenticationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/> 
+   value          :     <xsd:element name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOc
+   value          : curs="0" name="locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexTy
+   value          : pe>  </xsd:schema> </wsdl:types>   <message name="GetActiveTemplatesSoapOut">      <part element="s:GetActiveTemplatesResponse" name="parame
+   value          : ters"/>   </message>   <message name="GetActiveTemplatesSoapIn">      <part element="s:GetActiveTemplates" name="parameters"/>   </messa
+   value          : ge>   <message name="ARAuthenticate">      <part element="s:AuthenticationInfo" name="parameters"/>   </message>   <portType name="KS_SR
+   value          : V_GetActiveTemplatesPortType">      <operation name="GetActiveTemplates">         <input message="s:GetActiveTemplatesSoapIn"/>         <out
+   value          : put message="s:GetActiveTemplatesSoapOut"/>      </operation>   </portType>   <binding name="KS_SRV_GetActiveTemplatesSoapBinding" type="s:K
+   value          : S_SRV_GetActiveTemplatesPortType">      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>      <operation name="
+   value          : GetActiveTemplates">         <soap:operation soapAction="urn:KS_SRV_GetActiveTemplates/GetActiveTemplates" style="document"/>         <input>
+   value          :             <soap:header message="s:ARAuthenticate" part="parameters" use="literal">            </soap:header>            <soap:body use="lite
+   value          : ral"/>         </input>         <output>            <soap:body use="literal"/>         </output>      </operation>   </binding>
+   value          :    <service name="KS_SRV_GetActiveTemplatesService">      <port binding="s:KS_SRV_GetActiveTemplatesSoapBinding" name="KS_SRV_GetActiveTemplates
+   value          : Soap">         <soap:address location="@LOCATION@"/>      </port>   </service></definitions>\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 0 10105
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\83\http://<midtier_server>/arsys/WSDL/protected/<servername>/KS_SRV_GetActiveTemplates\
+   ref-groups     : 0 10105
+}
+end

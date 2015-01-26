@@ -1,0 +1,22 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_ACC_SCHD_Set_D_OEvery_SM2a
+   timestamp      : 1421095855
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 621
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_Schedule
+   export-version : 9
+   filter-query   : 1\1\1\1\1\1\1\4\1\99\7\2\6\0\4\1\99\700004074\2\6\0\4\1\99\700004056\2\6\1\4\6\99\700004062\2\0\4\6\99\700004066\2\0\4\6\99\700004054\2\0\4\6\50\7000040
+   filter-query   : 76\2\0\4\4\99\700004004\99\700004012\
+   action {
+      set-field   : 0\700004004\104\1\102\1\@\1\@\1\700004004\0\1\4\101\2\86400\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

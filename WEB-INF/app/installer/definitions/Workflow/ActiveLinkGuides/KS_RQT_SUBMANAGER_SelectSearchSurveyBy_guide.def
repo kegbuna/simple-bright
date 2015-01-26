@@ -1,0 +1,51 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_RQT_SUBMANAGER_SelectSearchSurveyBy_guide
+   type           : 1
+   num-references : 7
+   timestamp      : 1421095850
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\24\KS_RQT_SubmissionManager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 10105\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SelectSearchSurveyBy_Other
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SelectSearchSurveyBy_Status
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SelectSearchSurveyBy_ValidationStatus
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_SUBMANAGER_SelectSearchSurveyBy
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_SUBMANAGER_SearchSurveyBy_ShowAll
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_SUBMANAGER_SearchSurveyBy_ShowAll_01
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_SUBMANAGER_SearchSurveyBy_ShowAll_02
+}
+end

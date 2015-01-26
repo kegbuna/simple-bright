@@ -1,0 +1,4556 @@
+{
+  "form" : "KS_ACC_Menu",
+  "duplicateRecordQualifierFieldNames" : [ "Category", "Application", "MenuType", "MenuLabel", "MenuValue" ],
+  "data" : [ {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Word Document",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Attachment Types",
+    "MenuLabel" : "Word Document",
+    "MenuValue" : "Word Document"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Excel Document",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Attachment Types",
+    "MenuLabel" : "Excel Document",
+    "MenuValue" : "Excel Document"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "JPEG Image",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Attachment Types",
+    "MenuLabel" : "JPEG Image",
+    "MenuValue" : "JPEG Image"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Default Error Message",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Default Error Message",
+    "MenuValue" : "Default Error Message"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Default Web Server",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Default Web Server",
+    "MenuValue" : "Default Web Server"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Submit Button Text",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Submit Button Text",
+    "MenuValue" : "Submit Button Text"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Display Page-Web",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Display Page-Web",
+    "MenuValue" : "Display Page-Web"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Default Servlet",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Default Servlet",
+    "MenuValue" : "Default Servlet"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Default Background Color",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Default Background Color",
+    "MenuValue" : "Default Background Color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Manager Licenses",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Manager Licenses",
+    "MenuValue" : "Manager Licenses"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Web Servers List",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Web Servers List",
+    "MenuValue" : "Web Servers List"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Serial Number",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Serial Number",
+    "MenuValue" : "Serial Number"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "BlankSurveyView",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Customer Survey Views",
+    "MenuLabel" : "BlankSurveyView",
+    "MenuValue" : "BlankSurveyView"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "DataValidationView",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Customer Survey Views",
+    "MenuLabel" : "DataValidationView",
+    "MenuValue" : "DataValidationView"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Confirm Delete",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Dialog Types",
+    "MenuLabel" : "Confirm Delete",
+    "MenuValue" : "Confirm Delete"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Confirm Change",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Dialog Types",
+    "MenuLabel" : "Confirm Change",
+    "MenuValue" : "Confirm Change"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "KS_SRV_IntegrationSample",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Forms Integrated",
+    "MenuLabel" : "Kinetic Survey-Integration Sample",
+    "MenuValue" : "KS_SRV_IntegrationSample"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Event",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Integration Trigger Process",
+    "MenuLabel" : "Event",
+    "MenuValue" : "Event"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Batch-One Time",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Integration Trigger Process",
+    "MenuLabel" : "Batch-One Time",
+    "MenuValue" : "Batch-One Time"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Batch-Recurring",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Integration Trigger Process",
+    "MenuLabel" : "Batch-Recurring",
+    "MenuValue" : "Batch-Recurring"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Rule Types",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Rule Types",
+    "MenuValue" : "Rule Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Mid-Tier Servers",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Mid-Tier Servers",
+    "MenuValue" : "Mid-Tier Servers"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Messaging Types",
+    "Category" : "All",
+    "Application" : "Kinetic Messaging",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Messaging Types",
+    "MenuValue" : "Messaging Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Message Template Format",
+    "Category" : "All",
+    "Application" : "Kinetic Messaging",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Message Template Format",
+    "MenuValue" : "Message Template Format"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Dialog Types",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Dialog Types",
+    "MenuValue" : "Dialog Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attachment Types",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Attachment Types",
+    "MenuValue" : "Attachment Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Data Types",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Data Types",
+    "MenuValue" : "Survey Data Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Method",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Method",
+    "MenuValue" : "Survey Method"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Search Customer Survey By",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Search Customer Survey By",
+    "MenuValue" : "Search Customer Survey By"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Search Survey Template By",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Search  Survey Template By",
+    "MenuValue" : "Search Survey Template By"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Customer Survey Views",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Customer Survey Views",
+    "MenuValue" : "Customer Survey Views"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Rules",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Rules",
+    "MenuValue" : "Survey Rules"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Notification Method",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Notification Method",
+    "MenuValue" : "Survey Notification Method"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Configuration Values",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Configuration Values",
+    "MenuValue" : "Configuration Values"
+  }, {
+    "AssigneeGroup" : "10305;",
+    "Developer Name" : "Survey Data Styles",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Data Styles",
+    "MenuValue" : "Survey Data Styles"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Web User Messages",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Web User Messages",
+    "MenuValue" : "Web User Messages"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Forms Integrated",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Forms Integrated",
+    "MenuValue" : "Forms Integrated"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Integration Trigger Process",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Integration Trigger Process",
+    "MenuValue" : "Integration Trigger Process"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Plain Text",
+    "Category" : "ALL",
+    "Application" : "Kinetic Messaging",
+    "MenuType" : "Message Template Format",
+    "MenuLabel" : "Plain Text",
+    "MenuValue" : "Plain Text"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "HTML",
+    "Category" : "ALL",
+    "Application" : "Kinetic Messaging",
+    "MenuType" : "Message Template Format",
+    "MenuLabel" : "HTML",
+    "MenuValue" : "HTML"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Email",
+    "Category" : "All",
+    "Application" : "Kinetic Messaging",
+    "SystemValue" : "0",
+    "MenuType" : "Messaging Types",
+    "MenuLabel" : "Email",
+    "MenuValue" : "Email",
+    "SortOrder" : 0
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Alert",
+    "Category" : "All",
+    "Application" : "Kinetic Messaging",
+    "SystemValue" : "0",
+    "MenuType" : "Messaging Types",
+    "MenuLabel" : "Alert",
+    "MenuValue" : "Alert",
+    "SortOrder" : 1
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Page",
+    "Category" : "All",
+    "Application" : "Kinetic Messaging",
+    "SystemValue" : "0",
+    "MenuType" : "Messaging Types",
+    "MenuLabel" : "Page",
+    "MenuValue" : "Page",
+    "SortOrder" : 2
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Notification",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Rule Types",
+    "MenuLabel" : "Notification",
+    "MenuValue" : "Notification"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Frequency",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Rule Types",
+    "MenuLabel" : "Survey Frequency",
+    "MenuValue" : "Survey Frequency"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Last Name",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Last Name",
+    "MenuValue" : "Last Name"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Originating ID",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Originating ID",
+    "MenuValue" : "Originating ID"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Company Name",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Company Name",
+    "MenuValue" : "Company Name"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Company ID",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Company ID",
+    "MenuValue" : "Company ID"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Show All",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Show All",
+    "MenuValue" : "Show All"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Contact Value-Email/Phone",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Contact Value-Email/Phone",
+    "MenuValue" : "Contact Value-Email/Phone"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey ID",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Survey ID",
+    "MenuValue" : "Survey ID"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Category",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Search Survey Template By",
+    "MenuLabel" : "Category",
+    "MenuValue" : "Category",
+    "SortOrder" : 0
+  }, {
+    "Status" : "0",
+    "Short Description" : "na1",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Name (leading)",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Search Survey Template By",
+    "MenuLabel" : "Name (leading)",
+    "MenuValue" : "Name (leading)",
+    "SortOrder" : 0
+  }, {
+    "Status" : "0",
+    "Short Description" : "na1",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Name (anywhere)",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Search Survey Template By",
+    "MenuLabel" : "Name (anywhere)",
+    "MenuValue" : "Name (anywhere)",
+    "SortOrder" : 0
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Email/Phone",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Mapping",
+    "MenuLabel" : "Email/Phone",
+    "MenuValue" : "Email/Phone"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "First Name",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Mapping",
+    "MenuLabel" : "First Name",
+    "MenuValue" : "First Name"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Last Name",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Mapping",
+    "MenuLabel" : "Last Name",
+    "MenuValue" : "Last Name"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Company Name",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Mapping",
+    "MenuLabel" : "Company Name",
+    "MenuValue" : "Company Name"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Single Line",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Styles",
+    "MenuLabel" : "Single Line",
+    "MenuValue" : "Single Line"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Numeric Range",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Numeric Range",
+    "MenuValue" : "Numeric Range"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "List",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "List",
+    "MenuValue" : "List"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Free Text",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Free Text",
+    "MenuValue" : "Free Text"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Phone/Voice",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Method",
+    "MenuLabel" : "Phone/Voice",
+    "MenuValue" : "Phone/Voice"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Web",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Method",
+    "MenuLabel" : "Web",
+    "MenuValue" : "Web",
+    "SortOrder" : 0
+  }, {
+    "Status" : "0",
+    "Short Description" : "9na",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Email",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Notification Method",
+    "MenuLabel" : "Email",
+    "MenuValue" : "Email"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na9",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Phone",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Notification Method",
+    "MenuLabel" : "Phone",
+    "MenuValue" : "Phone"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na9",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Postal",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Notification Method",
+    "MenuLabel" : "Postal",
+    "MenuValue" : "Postal"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Screen Pop",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Notification Method",
+    "MenuLabel" : "Screen Pop",
+    "MenuValue" : "Screen Pop"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Verbal",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Notification Method",
+    "MenuLabel" : "Verbal",
+    "MenuValue" : "Verbal"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Resurvey After (Days)",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Rules",
+    "MenuLabel" : "Resurvey After (Days)",
+    "MenuValue" : "Resurvey After (Days)"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Min Survey Frequency (Days)",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Rules",
+    "MenuLabel" : "Min Survey Frequency (Days)",
+    "MenuValue" : "Min Survey Frequency (Days)"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Template Closed",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Web User Messages",
+    "MenuLabel" : "Survey Template Closed",
+    "MenuValue" : "Survey Template Closed"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Instance Closed",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Web User Messages",
+    "MenuLabel" : "Survey Instance Closed",
+    "MenuValue" : "Survey Instance Closed"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Not Found",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Web User Messages",
+    "MenuLabel" : "Survey Not Found",
+    "MenuValue" : "Survey Not Found"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Generic Error",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Web User Messages",
+    "MenuLabel" : "Generic Error",
+    "MenuValue" : "Generic Error"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attribute1",
+    "Category" : "KS_SRV_CustomerSurvey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Notification Fields",
+    "MenuLabel" : "Fields From Survey",
+    "MenuValue" : "Attribute1"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Notification Fields",
+    "Category" : "Customer Survey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Notification Fields",
+    "MenuValue" : "Survey Notification Fields"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attribute2",
+    "Category" : "KS_SRV_CustomerSurvey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Notification Fields",
+    "MenuLabel" : "Fields From Survey",
+    "MenuValue" : "Attribute2"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attribute3",
+    "Category" : "KS_SRV_CustomerSurvey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Notification Fields",
+    "MenuLabel" : "Fields From Survey",
+    "MenuValue" : "Attribute3"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attribute4",
+    "Category" : "KS_SRV_CustomerSurvey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Notification Fields",
+    "MenuLabel" : "Fields From Survey",
+    "MenuValue" : "Attribute4"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attribute5",
+    "Category" : "KS_SRV_CustomerSurvey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Notification Fields",
+    "MenuLabel" : "Fields From Survey",
+    "MenuValue" : "Attribute5"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Contact_Info_Value",
+    "Category" : "KS_SRV_CustomerSurvey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Notification Fields",
+    "MenuLabel" : "Fields From Survey",
+    "MenuValue" : "Contact_Info_Value"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "AnswerViewer",
+    "Category" : "KS_SRV_QuestionAnswerJoin",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Notification Fields",
+    "MenuLabel" : "Fields From Question",
+    "MenuValue" : "AnswerViewer"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Notification Fields",
+    "Category" : "KS_SRV_CustomerSurvey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Notification Fields",
+    "MenuValue" : "Survey Notification Fields"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Notification Fields",
+    "Category" : "KS_SRV_QuestionAnswerJoin",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Notification Fields",
+    "MenuValue" : "Survey Notification Fields"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "?loggingLevel=ALL",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Logging Type",
+    "MenuLabel" : "ALL",
+    "MenuValue" : "?loggingLevel=ALL"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Logging Type",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Logging Type",
+    "MenuValue" : "Logging Type"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "?loggingLevel=FINE",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Logging Type",
+    "MenuLabel" : "FINE",
+    "MenuValue" : "?loggingLevel=FINE"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "?loggingLevel=INFO",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Logging Type",
+    "MenuLabel" : "INFO",
+    "MenuValue" : "?loggingLevel=INFO"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "?loggingLevel=OFF",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Logging Type",
+    "MenuLabel" : "OFF",
+    "MenuValue" : "?loggingLevel=OFF"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Multi-Line",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Styles",
+    "MenuLabel" : "Multi-Line",
+    "MenuValue" : "Multi-Line"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Notification Fields",
+    "Category" : "Fields From Survey",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Notification Fields",
+    "MenuValue" : "Survey Notification Fields"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Notification Fields",
+    "Category" : "Fields From Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Notification Fields",
+    "MenuValue" : "Survey Notification Fields"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Forms For Templates",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Forms For Templates",
+    "MenuValue" : "Forms For Templates"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "KS_SRV_CustomerSurveyResults_join",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Forms For Templates",
+    "MenuLabel" : "Post-Survey Notification",
+    "MenuValue" : "KS_SRV_CustomerSurveyResults_join"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Mary Manager",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Assignees",
+    "MenuLabel" : "Mary Manager",
+    "MenuValue" : "Mary Manager"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Demo Assignees",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Demo Assignees",
+    "MenuValue" : "Demo Assignees"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Helga Helper",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Assignees",
+    "MenuLabel" : "Helga Helper",
+    "MenuValue" : "Helga Helper"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Tom Technician",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Assignees",
+    "MenuLabel" : "Tom Technician",
+    "MenuValue" : "Tom Technician"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Server",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Category-Type",
+    "MenuLabel" : "Hardware",
+    "MenuValue" : "Server"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Demo Category-Type",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Demo Category-Type",
+    "MenuValue" : "Demo Category-Type"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Router",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Category-Type",
+    "MenuLabel" : "Hardware",
+    "MenuValue" : "Router"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Desktop",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Category-Type",
+    "MenuLabel" : "Hardware",
+    "MenuValue" : "Desktop"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Productivity",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Category-Type",
+    "MenuLabel" : "Software",
+    "MenuValue" : "Productivity"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Web Application",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Category-Type",
+    "MenuLabel" : "Software",
+    "MenuValue" : "Web Application"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Order Entry",
+    "Category" : "Demo",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Demo Category-Type",
+    "MenuLabel" : "Software",
+    "MenuValue" : "Order Entry"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "List",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Source Field Data Types",
+    "MenuLabel" : "List",
+    "MenuValue" : "List"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Source Field Data Types",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Source Field Data Types",
+    "MenuValue" : "Survey Source Field Data Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Single",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Source Field Data Types",
+    "MenuLabel" : "Single",
+    "MenuValue" : "Single"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Date",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Date",
+    "MenuValue" : "Date"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "SHORT",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format Styles",
+    "MenuLabel" : "SHORT (12/02/05)",
+    "MenuValue" : "SHORT"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Date format Styles",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Date format Styles",
+    "MenuValue" : "Date format Styles"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "MEDIUM",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format Styles",
+    "MenuLabel" : "MEDIUM (Feb 12, 2005)",
+    "MenuValue" : "MEDIUM"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "LONG",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format Styles",
+    "MenuLabel" : "LONG (July 4, 2005)",
+    "MenuValue" : "LONG"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "SHR:People",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Forms Integrated",
+    "MenuLabel" : "People",
+    "MenuValue" : "SHR:People"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ExtensionMapping",
+    "Category" : "Mapping",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "ExtensionMapping",
+    "MenuValue" : "ExtensionMapping"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Extension Mapping",
+    "Category" : "Mapping",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Extension Mapping",
+    "MenuValue" : "Survey Extension Mapping"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Extention Mapping",
+    "Category" : "Mapping",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Extention Mapping",
+    "MenuValue" : "Survey Extention Mapping"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Active Link",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Integration Trigger Process",
+    "MenuLabel" : "Active Link",
+    "MenuValue" : "Active Link"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Integer",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Styles",
+    "MenuLabel" : "Integer",
+    "MenuValue" : "Integer"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Decimal",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Styles",
+    "MenuLabel" : "Decimal",
+    "MenuValue" : "Decimal"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Data Mapping",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Data Mapping",
+    "MenuValue" : "Survey Data Mapping"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Email",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Styles",
+    "MenuLabel" : "Email",
+    "MenuValue" : "Email"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Status",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Status",
+    "MenuValue" : "Status"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Dynamic List",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Dynamic List",
+    "MenuValue" : "Dynamic List"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Embed Survey",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Message Template Tags",
+    "MenuLabel" : "Embed Link",
+    "MenuValue" : "<<EMBEDDED_SURVEY>><br>"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Message Template Tags",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Message Template Tags",
+    "MenuValue" : "Survey Message Template Tags"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "<a href='<<CUSTOMER_SURVEY_LINK>>' >Rename Me </a>",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Message Template Tags",
+    "MenuLabel" : "Targeted Link",
+    "MenuValue" : "<a href='<<CUSTOMER_SURVEY_LINK>>' >Link</a><br>"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "<a href='<<ANONYMOUS_SURVEY_LINK>>' >Link</a><br>",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Message Template Tags",
+    "MenuLabel" : "Anonymous Link",
+    "MenuValue" : "<a href='<<ANONYMOUS_SURVEY_LINK>>' >Link</a><br>"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "<a href='<<OPT_OUT_SURVEY_LINK>>' >Opt Out</a><br>",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Message Template Tags",
+    "MenuLabel" : "Opt Out Link",
+    "MenuValue" : "<a href='<<OPT_OUT_SURVEY_LINK>>' >Opt Out</a><br>"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ARSystem-Form",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Integration Source Types",
+    "MenuLabel" : "ARSystem-Form",
+    "MenuValue" : "ARSystem-Form"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Integration Source Types",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Integration Source Types",
+    "MenuValue" : "Integration Source Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ARSystem-Web Service",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Integration Source Types",
+    "MenuLabel" : "ARSystem-Web Service",
+    "MenuValue" : "ARSystem-Web Service"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Import",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Integration Source Types",
+    "MenuLabel" : "Import",
+    "MenuValue" : "Import"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey List Manager",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Integration Source Types",
+    "MenuLabel" : "Survey List Manager",
+    "MenuValue" : "Survey List Manager"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "KS_SRV_CustomerSurvey",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Forms For Templates",
+    "MenuLabel" : "Pre-Survey Invite",
+    "MenuValue" : "KS_SRV_CustomerSurvey"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "<a href='<<SUB_SURVEY_LINK>>' >Survey</a><br>",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Message Template Tags",
+    "MenuLabel" : "Submitted Link",
+    "MenuValue" : "<a href='<<SUB_SURVEY_LINK>>' >Survey</a><br>"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Accepted",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Validation Status",
+    "MenuLabel" : "Accepted",
+    "MenuValue" : "Accepted"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Validation Status",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Validation Status",
+    "MenuValue" : "Validation Status"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Rejected",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Validation Status",
+    "MenuLabel" : "Rejected",
+    "MenuValue" : "Rejected"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Validation Status",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Validation Status",
+    "MenuValue" : "Validation Status"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Closed",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Validation Status",
+    "MenuLabel" : "Closed",
+    "MenuValue" : "Closed"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Integer",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Integer",
+    "MenuValue" : "Integer"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Decimal",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Decimal",
+    "MenuValue" : "Decimal"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Email",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Email",
+    "MenuValue" : "Email"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "WHC",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Sample Buildings",
+    "MenuLabel" : "World Headquarters",
+    "MenuValue" : "WHC",
+    "SortOrder" : 1
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Sample Buildings",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Sample Buildings",
+    "MenuValue" : "Sample Buildings"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "AUSTIN-3MG",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Sample Buildings",
+    "MenuLabel" : "Austin Manufacturing",
+    "MenuValue" : "AUSTIN-3MG",
+    "SortOrder" : 3
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "CHAN-2MG",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Sample Buildings",
+    "MenuLabel" : "Chanhassen Manufacturing",
+    "MenuValue" : "CHAN-2MG",
+    "SortOrder" : 2
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "PCK-SL4",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Sample Buildings",
+    "MenuLabel" : "Puck Sales Center",
+    "MenuValue" : "PCK-SL4",
+    "SortOrder" : 9
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attachment",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Attachment",
+    "MenuValue" : "Attachment"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : ".pdf",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Attachment Upload Types",
+    "MenuLabel" : ".pdf",
+    "MenuValue" : ".pdf"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : ".doc",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Attachment Upload Types",
+    "MenuLabel" : ".doc",
+    "MenuValue" : ".doc"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : ".gif",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Attachment Upload Types",
+    "MenuLabel" : ".gif",
+    "MenuValue" : ".gif"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : ".xls",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Attachment Upload Types",
+    "MenuLabel" : ".xls",
+    "MenuValue" : ".xls"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "List Box",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data List Types",
+    "MenuLabel" : "List Box",
+    "MenuValue" : "List Box"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Data List Types",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Data List Types",
+    "MenuValue" : "Survey Data List Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Check Box",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data List Types",
+    "MenuLabel" : "Check Box",
+    "MenuValue" : "Check Box"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Radio Button",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data List Types",
+    "MenuLabel" : "Radio Button",
+    "MenuValue" : "Radio Button"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Horizontal",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Justification",
+    "MenuLabel" : "Horizontal",
+    "MenuValue" : "Horizontal"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Data Justification",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Data Justification",
+    "MenuValue" : "Survey Data Justification"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Vertical",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Survey Data Justification",
+    "MenuLabel" : "Vertical",
+    "MenuValue" : "Vertical"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Integration Type",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Integration Type",
+    "MenuValue" : "Integration Type"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Inbound",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Integration Type",
+    "MenuLabel" : "Inbound",
+    "MenuValue" : "Inbound"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Outbound",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Integration Type",
+    "MenuLabel" : "Outbound",
+    "MenuValue" : "Outbound"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Both",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Integration Type",
+    "MenuLabel" : "Both",
+    "MenuValue" : "Both"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Create Record",
+    "Category" : "ALL",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Integration Trigger Process",
+    "MenuLabel" : "Create Record",
+    "MenuValue" : "Create Record"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attribute Data Type",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Attribute Data Type",
+    "MenuValue" : "Attribute Data Type"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Character",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Character",
+    "MenuValue" : "Character"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Integer",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Integer",
+    "MenuValue" : "Integer"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Decimal",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Decimal",
+    "MenuValue" : "Decimal"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Currency",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Currency",
+    "MenuValue" : "Currency"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Date",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Date",
+    "MenuValue" : "Date"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Date/Time",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Date/Time",
+    "MenuValue" : "Date/Time"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Time",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Time",
+    "MenuValue" : "Time"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Attachment",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Attachment",
+    "MenuValue" : "Attachment"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Real Number",
+    "Category" : "All",
+    "Application" : "Kinetic Attributes",
+    "MenuType" : "Attribute Data Type",
+    "MenuLabel" : "Real Number",
+    "MenuValue" : "Real Number"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "HTML Tags",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "HTML Tags",
+    "MenuValue" : "HTML Tags"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "a",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "a",
+    "MenuValue" : "a"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "blockquote",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "blockquote",
+    "MenuValue" : "blockquote"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "body",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "body",
+    "MenuValue" : "body"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "button",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "button",
+    "MenuValue" : "button"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "div",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "div",
+    "MenuValue" : "div"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "fieldset",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "fieldset",
+    "MenuValue" : "fieldset"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "font",
+    "MenuValue" : "font"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "form",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "form",
+    "MenuValue" : "form"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "frame",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "frame",
+    "MenuValue" : "frame"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "frameset",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "frameset",
+    "MenuValue" : "frameset"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "h1",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "h1",
+    "MenuValue" : "h1"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "h2",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "h2",
+    "MenuValue" : "h2"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "h3",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "h3",
+    "MenuValue" : "h3"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "h4",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "h4",
+    "MenuValue" : "h4"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "h5",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "h5",
+    "MenuValue" : "h5"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "h6",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "h6",
+    "MenuValue" : "h6"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "hr",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "hr",
+    "MenuValue" : "hr"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "iframe",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "iframe",
+    "MenuValue" : "iframe"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "img",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "img",
+    "MenuValue" : "img"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "input",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "input",
+    "MenuValue" : "input"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "label",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "label",
+    "MenuValue" : "label"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "legend",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "legend",
+    "MenuValue" : "legend"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "li",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "li",
+    "MenuValue" : "li"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "map",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "map",
+    "MenuValue" : "map"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "option",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "option",
+    "MenuValue" : "option"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "p",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "p",
+    "MenuValue" : "p"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "pre",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "pre",
+    "MenuValue" : "pre"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "select",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "select",
+    "MenuValue" : "select"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "span",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "span",
+    "MenuValue" : "span"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "table",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "table",
+    "MenuValue" : "table"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "tbody",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "tbody",
+    "MenuValue" : "tbody"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "td",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "td",
+    "MenuValue" : "td"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "textarea",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "textarea",
+    "MenuValue" : "textarea"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "tfoot",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "tfoot",
+    "MenuValue" : "tfoot"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "th",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "th",
+    "MenuValue" : "th"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "thead",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "thead",
+    "MenuValue" : "thead"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "tr",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "tr",
+    "MenuValue" : "tr"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ul",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "HTML Tags",
+    "MenuLabel" : "ul",
+    "MenuValue" : "ul"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Question HTML IDs",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Question HTML IDs",
+    "MenuValue" : "Question HTML IDs"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "QLAYER_",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Question HTML IDs",
+    "MenuLabel" : "All",
+    "MenuValue" : "QLAYER_"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "QLABEL_",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Question HTML IDs",
+    "MenuLabel" : "Question Label",
+    "MenuValue" : "QLABEL_"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "QANSWER_",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Question HTML IDs",
+    "MenuLabel" : "Answer Label(s)",
+    "MenuValue" : "QANSWER_"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "SRVQSTN_",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Question HTML IDs",
+    "MenuLabel" : "Answer Value",
+    "MenuValue" : "SRVQSTN_"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "CSS Property Helpers",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "CSS Property Helpers",
+    "MenuValue" : "CSS Property Helpers"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font-size-adjust",
+    "Category" : "Font",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "font-size-adjust",
+    "MenuValue" : "font-size-adjust"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font-stretch",
+    "Category" : "Font",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "font-stretch",
+    "MenuValue" : "font-stretch"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font",
+    "Category" : "Font",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "font",
+    "MenuValue" : "font"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font-style",
+    "Category" : "Font",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "font-style",
+    "MenuValue" : "font-style"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font-variant",
+    "Category" : "Font",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "font-variant",
+    "MenuValue" : "font-variant"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font-weight",
+    "Category" : "Font",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "font-weight",
+    "MenuValue" : "font-weight"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font-size",
+    "Category" : "Font",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "font-size",
+    "MenuValue" : "font-size"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "font-family",
+    "Category" : "Font",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "font-family",
+    "MenuValue" : "font-family"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "word-spacing",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "word-spacing",
+    "MenuValue" : "word-spacing"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "letter-spacing",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "letter-spacing",
+    "MenuValue" : "letter-spacing"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "white-space",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "white-space",
+    "MenuValue" : "white-space"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "word-wrap",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "word-wrap",
+    "MenuValue" : "word-wrap"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-align",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-align",
+    "MenuValue" : "text-align"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-align-last",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-align-last",
+    "MenuValue" : "text-align-last"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-decoration",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-decoration",
+    "MenuValue" : "text-decoration"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-transform",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-transform",
+    "MenuValue" : "text-transform"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-shadow",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-shadow",
+    "MenuValue" : "text-shadow"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-indent",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-indent",
+    "MenuValue" : "text-indent"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-underline-position",
+    "Category" : "Text",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-underline-position",
+    "MenuValue" : "text-underline-position"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "color",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "color",
+    "MenuValue" : "color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layer-background-color",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layer-background-color",
+    "MenuValue" : "layer-background-color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layer-background-image",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layer-background-image",
+    "MenuValue" : "layer-background-image"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "background",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "background",
+    "MenuValue" : "background"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "background-color",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "background-color",
+    "MenuValue" : "background-color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "background-image",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "background-image",
+    "MenuValue" : "background-image"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "background-repeat",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "background-repeat",
+    "MenuValue" : "background-repeat"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "background-attachment",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "background-attachment",
+    "MenuValue" : "background-attachment"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "background-position",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "background-position",
+    "MenuValue" : "background-position"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "background-position-x",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "background-position-x",
+    "MenuValue" : "background-position-x"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "background-position-y",
+    "Category" : "Color and Background",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "background-position-y",
+    "MenuValue" : "background-position-y"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "outline",
+    "Category" : "Outlines",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "outline",
+    "MenuValue" : "outline"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "outline-color",
+    "Category" : "Outlines",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "outline-color",
+    "MenuValue" : "outline-color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "outline-style",
+    "Category" : "Outlines",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "outline-style",
+    "MenuValue" : "outline-style"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "outline-width",
+    "Category" : "Outlines",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "outline-width",
+    "MenuValue" : "outline-width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "marker-offset",
+    "Category" : "Lists",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "marker-offset",
+    "MenuValue" : "marker-offset"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "list-style",
+    "Category" : "Lists",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "list-style",
+    "MenuValue" : "list-style"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "list-style-type",
+    "Category" : "Lists",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "list-style-type",
+    "MenuValue" : "list-style-type"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "list-style-position",
+    "Category" : "Lists",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "list-style-position",
+    "MenuValue" : "list-style-position"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "list-style-image",
+    "Category" : "Lists",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "list-style-image",
+    "MenuValue" : "list-style-image"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-collapse",
+    "Category" : "Tables",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-collapse",
+    "MenuValue" : "border-collapse"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-spacing",
+    "Category" : "Tables",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-spacing",
+    "MenuValue" : "border-spacing"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "caption-side",
+    "Category" : "Tables",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "caption-side",
+    "MenuValue" : "caption-side"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "empty-cells",
+    "Category" : "Tables",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "empty-cells",
+    "MenuValue" : "empty-cells"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "speak-header",
+    "Category" : "Tables",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "speak-header",
+    "MenuValue" : "speak-header"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "table-layout",
+    "Category" : "Tables",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "table-layout",
+    "MenuValue" : "table-layout"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "display",
+    "Category" : "Classification",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "display",
+    "MenuValue" : "display"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "visibility",
+    "Category" : "Classification",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "visibility",
+    "MenuValue" : "visibility"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "position",
+    "Category" : "Classification",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "position",
+    "MenuValue" : "position"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "float",
+    "Category" : "Classification",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "float",
+    "MenuValue" : "float"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clear",
+    "Category" : "Classification",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "clear",
+    "MenuValue" : "clear"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "width",
+    "Category" : "Dimensions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "width",
+    "MenuValue" : "width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "min-width",
+    "Category" : "Dimensions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "min-width",
+    "MenuValue" : "min-width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "max-width",
+    "Category" : "Dimensions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "max-width",
+    "MenuValue" : "max-width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "line-height",
+    "Category" : "Dimensions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "line-height",
+    "MenuValue" : "line-height"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "height",
+    "Category" : "Dimensions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "height",
+    "MenuValue" : "height"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "min-height",
+    "Category" : "Dimensions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "min-height",
+    "MenuValue" : "min-height"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "max-height",
+    "Category" : "Dimensions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "max-height",
+    "MenuValue" : "max-height"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "top",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "top",
+    "MenuValue" : "top"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "right",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "right",
+    "MenuValue" : "right"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "bottom",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "bottom",
+    "MenuValue" : "bottom"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "left",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "left",
+    "MenuValue" : "left"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "vertical-align",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "vertical-align",
+    "MenuValue" : "vertical-align"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "overflow",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "overflow",
+    "MenuValue" : "overflow"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "overflow-x",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "overflow-x",
+    "MenuValue" : "overflow-x"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "overflow-y",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "overflow-y",
+    "MenuValue" : "overflow-y"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-overflow",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-overflow",
+    "MenuValue" : "text-overflow"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clip",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "clip",
+    "MenuValue" : "clip"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "z-index",
+    "Category" : "Positioning",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "z-index",
+    "MenuValue" : "z-index"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "margin",
+    "Category" : "Margins",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "margin",
+    "MenuValue" : "margin"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "margin-top",
+    "Category" : "Margins",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "margin-top",
+    "MenuValue" : "margin-top"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "margin-right",
+    "Category" : "Margins",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "margin-right",
+    "MenuValue" : "margin-right"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "margin-bottom",
+    "Category" : "Margins",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "margin-bottom",
+    "MenuValue" : "margin-bottom"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "margin-left",
+    "Category" : "Margins",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "margin-left",
+    "MenuValue" : "margin-left"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "padding",
+    "Category" : "Padding",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "padding",
+    "MenuValue" : "padding"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "padding-top",
+    "Category" : "Padding",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "padding-top",
+    "MenuValue" : "padding-top"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "padding-right",
+    "Category" : "Padding",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "padding-right",
+    "MenuValue" : "padding-right"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "padding-bottom",
+    "Category" : "Padding",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "padding-bottom",
+    "MenuValue" : "padding-bottom"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "padding-left",
+    "Category" : "Padding",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "padding-left",
+    "MenuValue" : "padding-left"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border",
+    "MenuValue" : "border"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-top",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-top",
+    "MenuValue" : "border-top"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-right",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-right",
+    "MenuValue" : "border-right"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-bottom",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-bottom",
+    "MenuValue" : "border-bottom"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-left",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-left",
+    "MenuValue" : "border-left"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-width",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-width",
+    "MenuValue" : "border-width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-top-width",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-top-width",
+    "MenuValue" : "border-top-width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-right-width",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-right-width",
+    "MenuValue" : "border-right-width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-bottom-width",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-bottom-width",
+    "MenuValue" : "border-bottom-width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-left-width",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-left-width",
+    "MenuValue" : "border-left-width"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-style",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-style",
+    "MenuValue" : "border-style"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-top-style",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-top-style",
+    "MenuValue" : "border-top-style"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-right-style",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-right-style",
+    "MenuValue" : "border-right-style"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-bottom-style",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-bottom-style",
+    "MenuValue" : "border-bottom-style"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-left-style",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-left-style",
+    "MenuValue" : "border-left-style"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-color",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-color",
+    "MenuValue" : "border-color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-top-color",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-top-color",
+    "MenuValue" : "border-top-color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-right-color",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-right-color",
+    "MenuValue" : "border-right-color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-bottom-color",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-bottom-color",
+    "MenuValue" : "border-bottom-color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "border-left-color",
+    "Category" : "Borders",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "border-left-color",
+    "MenuValue" : "border-left-color"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "accelerator",
+    "Category" : "Dynamic Content",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "accelerator",
+    "MenuValue" : "accelerator"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "cursor",
+    "Category" : "Dynamic Content",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "cursor",
+    "MenuValue" : "cursor"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "filter",
+    "Category" : "Dynamic Content",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "filter",
+    "MenuValue" : "filter"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "behavior",
+    "Category" : "Dynamic Content",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "behavior",
+    "MenuValue" : "behavior"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "zoom",
+    "Category" : "Dynamic Content",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "zoom",
+    "MenuValue" : "zoom"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "unicode-bidi",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "unicode-bidi",
+    "MenuValue" : "unicode-bidi"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "direction",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "direction",
+    "MenuValue" : "direction"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ruby-align",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "ruby-align",
+    "MenuValue" : "ruby-align"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ruby-overhang",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "ruby-overhang",
+    "MenuValue" : "ruby-overhang"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ruby-position",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "ruby-position",
+    "MenuValue" : "ruby-position"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "line-break",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "line-break",
+    "MenuValue" : "line-break"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "word-break",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "word-break",
+    "MenuValue" : "word-break"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "writing-mode",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "writing-mode",
+    "MenuValue" : "writing-mode"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ime-mode",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "ime-mode",
+    "MenuValue" : "ime-mode"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-justify",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-justify",
+    "MenuValue" : "text-justify"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-autospace",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-autospace",
+    "MenuValue" : "text-autospace"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "text-kashida-space",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "text-kashida-space",
+    "MenuValue" : "text-kashida-space"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layout-flow",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layout-flow",
+    "MenuValue" : "layout-flow"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layout-grid",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layout-grid",
+    "MenuValue" : "layout-grid"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layout-grid-mode",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layout-grid-mode",
+    "MenuValue" : "layout-grid-mode"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layout-grid-type",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layout-grid-type",
+    "MenuValue" : "layout-grid-type"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layout-grid-line",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layout-grid-line",
+    "MenuValue" : "layout-grid-line"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layout-grid-char",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layout-grid-char",
+    "MenuValue" : "layout-grid-char"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "layout-grid-char-spacing",
+    "Category" : "International",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "layout-grid-char-spacing",
+    "MenuValue" : "layout-grid-char-spacing"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "page-break-before",
+    "Category" : "Printing",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "page-break-before",
+    "MenuValue" : "page-break-before"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "page-break-inside",
+    "Category" : "Printing",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "page-break-inside",
+    "MenuValue" : "page-break-inside"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "page-break-after",
+    "Category" : "Printing",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "page-break-after",
+    "MenuValue" : "page-break-after"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "page",
+    "Category" : "Printing",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "page",
+    "MenuValue" : "page"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "size",
+    "Category" : "Printing",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "size",
+    "MenuValue" : "size"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "marks",
+    "Category" : "Printing",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "marks",
+    "MenuValue" : "marks"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "widows",
+    "Category" : "Printing",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "widows",
+    "MenuValue" : "widows"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "orphans",
+    "Category" : "Printing",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Property Helpers",
+    "MenuLabel" : "orphans",
+    "MenuValue" : "orphans"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "CSS Style Types",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "CSS Style Types",
+    "MenuValue" : "CSS Style Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "CSS Class",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Style Types",
+    "MenuLabel" : "CSS Class",
+    "MenuValue" : "CSS Class"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "HTML Tag",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Style Types",
+    "MenuLabel" : "HTML Tag",
+    "MenuValue" : "HTML Tag"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Combined",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Style Types",
+    "MenuLabel" : "Combined",
+    "MenuValue" : "Combined"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "HTML ID",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Style Types",
+    "MenuLabel" : "HTML ID",
+    "MenuValue" : "HTML ID"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Authentication Types",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Authentication Types",
+    "MenuValue" : "Authentication Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Default",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Authentication Types",
+    "MenuLabel" : "Default",
+    "MenuValue" : "Default"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Template",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Authentication Types",
+    "MenuLabel" : "Template",
+    "MenuValue" : "Template"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "External",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Authentication Types",
+    "MenuLabel" : "External",
+    "MenuValue" : "External"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Outbound Integration Type",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Outbound Integration Type",
+    "MenuValue" : "Outbound Integration Type"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ARSystem-Form",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Outbound Integration Type",
+    "MenuLabel" : "ARSystem-Form",
+    "MenuValue" : "ARSystem-Form"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "External",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Outbound Integration Type",
+    "MenuLabel" : "External",
+    "MenuValue" : "External"
+  }, {
+    "AssigneeGroup" : "10105;",
+    "Developer Name" : "Integration Trigger Process",
+    "Category" : "ALL",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Integration Trigger Process",
+    "MenuValue" : "Integration Trigger Process"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Decimal",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Pattern Data Types",
+    "MenuLabel" : "Decimal",
+    "MenuValue" : "Decimal"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Pattern Data Types",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Pattern Data Types",
+    "MenuValue" : "Survey Pattern Data Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Date",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Pattern Data Types",
+    "MenuLabel" : "Date",
+    "MenuValue" : "Date"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Free Text",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Pattern Data Types",
+    "MenuLabel" : "Free Text",
+    "MenuValue" : "Free Text"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Integer",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Pattern Data Types",
+    "MenuLabel" : "Integer",
+    "MenuValue" : "Integer"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Email",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Pattern Data Types",
+    "MenuLabel" : "Email",
+    "MenuValue" : "Email"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Task Status",
+    "Category" : "All",
+    "Application" : "Kinetic Reqeuest",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Task Status",
+    "MenuValue" : "Task Status"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "New",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Task Status",
+    "MenuLabel" : "New",
+    "MenuValue" : "New"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Task Status",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Task Status",
+    "MenuValue" : "Task Status"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Pending",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Task Status",
+    "MenuLabel" : "Pending",
+    "MenuValue" : "Pending"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "In Progress",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Task Status",
+    "MenuLabel" : "In Progress",
+    "MenuValue" : "In Progress"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Completed",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Task Status",
+    "MenuLabel" : "Completed",
+    "MenuValue" : "Completed"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Service Item Type",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Organize Service Catalog By",
+    "MenuLabel" : "Service Item Type",
+    "MenuValue" : "Service Item Type",
+    "SortOrder" : 1
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Organize Service Catalog By",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Organize Service Catalog By",
+    "MenuValue" : "Organize Service Catalog By"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Category",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Organize Service Catalog By",
+    "MenuLabel" : "Category",
+    "MenuValue" : "Category",
+    "SortOrder" : 2
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Keyword",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Search Service Catalog By",
+    "MenuLabel" : "Keyword",
+    "MenuValue" : "Keyword",
+    "SortOrder" : 1
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Search Service Catalog By",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Search Service Catalog By",
+    "MenuValue" : "Search Service Catalog By"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Template Name",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Search Service Catalog By",
+    "MenuLabel" : "Template Name",
+    "MenuValue" : "Template Name",
+    "SortOrder" : 2
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Search Service Catalog By",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Search Service Catalog By",
+    "MenuValue" : "Search Service Catalog By"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Kinetic Survey",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Survey Application Name",
+    "MenuLabel" : "Kinetic Survey",
+    "MenuValue" : "Kinetic Survey"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Application Name",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Application Name",
+    "MenuValue" : "Survey Application Name"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Kinetic Request",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Survey Application Name",
+    "MenuLabel" : "Kinetic Request",
+    "MenuValue" : "Kinetic Request"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Approval",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Outbound Integration Type",
+    "MenuLabel" : "Approval",
+    "MenuValue" : "Approval"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Approval Types",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Approval Types",
+    "MenuValue" : "Approval Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Default",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Approval Types",
+    "MenuLabel" : "Default",
+    "MenuValue" : "Default"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Categorized",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Approval Types",
+    "MenuLabel" : "Categorized",
+    "MenuValue" : "Categorized"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Launcher",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Special Template",
+    "MenuLabel" : "Launcher",
+    "MenuValue" : "Launcher"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Special Template",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Special Template",
+    "MenuValue" : "Special Template"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Cancel",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Task Status",
+    "MenuLabel" : "Cancel",
+    "MenuValue" : "Cancel"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "obj.value=",
+    "Category" : "Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "This Value Equals",
+    "MenuValue" : "obj.value=="
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.submitType = \"Approval\"",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "This is an Approval",
+    "MenuValue" : "clientManager.submitType == \"Approval\""
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.submitType != \"Approval\"",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "This is NOT an Approval",
+    "MenuValue" : "clientManager.submitType != \"Approval\""
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "MM/dd/yyyy h:mm:ss a",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "07/31/2001 6:00:00 PM",
+    "MenuValue" : "MM/dd/yyyy h:mm:ss a"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "MM-dd-yyyy HH:mm:ss",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "07-31-2001 18:00:00",
+    "MenuValue" : "MM-dd-yyyy HH:mm:ss"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "MM-dd-yyyy h:mm:ss a",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "07-31-2001 6:00:00 PM",
+    "MenuValue" : "MM-dd-yyyy h:mm:ss a"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dd/MM/yyyy HH:mm:ss",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "31/07/2001 18:00:00",
+    "MenuValue" : "dd/MM/yyyy HH:mm:ss"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dd/MM/yyyy h:mm:ss a",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "31/07/2001 6:00:00 PM",
+    "MenuValue" : "dd/MM/yyyy h:mm:ss a"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dd-MM-yyyy HH:mm:ss",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "31-07-2001 18:00:00",
+    "MenuValue" : "dd-MM-yyyy HH:mm:ss"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dd-MM-yyyy h:mm:ss a",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "31-07-2001 6:00:00 PM",
+    "MenuValue" : "dd-MM-yyyy h:mm:ss a"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "yyyy/MM/dd HH:mm:ss",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "2001/07/31 18:00:00",
+    "MenuValue" : "yyyy/MM/dd HH:mm:ss"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "yyyy/MM/dd h:mm:ss a",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "2001/07/31 6:00:00 PM",
+    "MenuValue" : "yyyy/MM/dd h:mm:ss a"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "yyyy-MM-dd HH:mm:ss",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "2001-07-31 18:00:00",
+    "MenuValue" : "yyyy-MM-dd HH:mm:ss"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "yyyy-MM-dd h:mm:ss a",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "2001-07-31 6:00:00 PM",
+    "MenuValue" : "yyyy-MM-dd h:mm:ss a"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "yyyyMMdd'T'HHmmssZ",
+    "Category" : "All",
+    "Application" : "All",
+    "SystemValue" : "0",
+    "MenuType" : "Date Format String",
+    "MenuLabel" : "ISO 8601",
+    "MenuValue" : "yyyyMMdd'T'HHmmssZ"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateBox",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Display Format",
+    "MenuLabel" : "templateBox",
+    "MenuValue" : "templateBox"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "requestViewer",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Display Format",
+    "MenuLabel" : "requestViewer",
+    "MenuValue" : "requestViewer"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateList",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Display Format",
+    "MenuLabel" : "templateList",
+    "MenuValue" : "templateList"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Sort Order",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Sort Order",
+    "MenuValue" : "Sort Order"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Ascending",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Sort Order",
+    "MenuLabel" : "Ascending",
+    "MenuValue" : "Ascending"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Descending",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Sort Order",
+    "MenuLabel" : "Descending",
+    "MenuValue" : "Descending"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Flashboard",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Flashboard",
+    "MenuValue" : "Flashboard"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "KS_Status_Per_Template",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Flashboard",
+    "MenuLabel" : "KS_Status_Per_Template",
+    "MenuValue" : "KS_Status_Per_Template"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "KS_Completed_Instances",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Flashboard",
+    "MenuLabel" : "KS_Completed_Instances",
+    "MenuValue" : "KS_Completed_Instances"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Jarrod",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Survey Data List Types",
+    "MenuLabel" : "Happy",
+    "MenuValue" : "Happy"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey Data List Types",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Survey Data List Types",
+    "MenuValue" : "Survey Data List Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Jarrod",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Survey Data List Types",
+    "MenuLabel" : "Ok",
+    "MenuValue" : "Ok"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Jarrod",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Survey Data List Types",
+    "MenuLabel" : "Sad",
+    "MenuValue" : "Sad"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "obj.value!=",
+    "Category" : "Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "This Value NOT Equal to",
+    "MenuValue" : "obj.value!="
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "allTaggedItems",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Display Format",
+    "MenuLabel" : "allTaggedItems",
+    "MenuValue" : "allTaggedItems"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateTaggedList",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Display Format",
+    "MenuLabel" : "templateTaggedList",
+    "MenuValue" : "templateTaggedList"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\USER$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\USER$",
+    "MenuValue" : "$\\USER$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "ClientEventsQual Keywords",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "ClientEventsQual Keywords",
+    "MenuValue" : "ClientEventsQual Keywords"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "obj.value=",
+    "Category" : "Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "This Value Equals",
+    "MenuValue" : "obj.value=="
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "obj.value!=",
+    "Category" : "Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "This Value NOT Equal to",
+    "MenuValue" : "obj.value!="
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.authenticated==true",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "User is Authenticated",
+    "MenuValue" : "clientManager.authenticated==true"
+  }, {
+    "Status" : "0",
+    "Short Description" : "na2",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Survey ID",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "SystemValue" : "0",
+    "MenuType" : "Search Customer Survey By",
+    "MenuLabel" : "Submission ID",
+    "MenuValue" : "Submission ID"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Search Customer Survey By",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Search Customer Survey By",
+    "MenuValue" : "Search Customer Survey By"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Search Customer Survey By",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Search Customer Survey By",
+    "MenuValue" : "Search Customer Survey By"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.authenticated !=true",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "User is not Authenticated",
+    "MenuValue" : "clientManager.authenticated !=true"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "First",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Set Fields Multiple Options",
+    "MenuLabel" : "First",
+    "MenuValue" : "First"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Set Fields Multiple Options",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Set Fields Multiple Options",
+    "MenuValue" : "Set Fields Multiple Options"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Show List",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Set Fields Multiple Options",
+    "MenuLabel" : "Show List",
+    "MenuValue" : "Show List"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "obj.checked==true",
+    "Category" : "Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Checkbox is checked",
+    "MenuValue" : "obj.checked==true"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "obj.checked==true",
+    "Category" : "Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Checkbox is checked",
+    "MenuValue" : "obj.checked==true"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "KD.utils.Util.getKeyPressed(evt)==13",
+    "Category" : "Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "RETURN was pressed",
+    "MenuValue" : "KD.utils.Util.getKeyPressed(evt)==13"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "KD.utils.Util.getKeyPressed(evt)==13",
+    "Category" : "Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "RETURN was pressed",
+    "MenuValue" : "KD.utils.Util.getKeyPressed(evt)==13"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "No Access",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Web User Messages",
+    "MenuLabel" : "No Access",
+    "MenuValue" : "No Access"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Report Types",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Report Types",
+    "MenuValue" : "Report Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "AR System",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Report Types",
+    "MenuLabel" : "AR System",
+    "MenuValue" : "AR System"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Crystal",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Report Types",
+    "MenuLabel" : "Crystal",
+    "MenuValue" : "Crystal"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Web",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Report Types",
+    "MenuLabel" : "Web",
+    "MenuValue" : "Web"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.isNewPage == true",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Page is New",
+    "MenuValue" : "clientManager.isNewPage == true"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.isNewPage == true",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Page is New",
+    "MenuValue" : "clientManager.isNewPage == true"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.isNewPage != true",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Page is NOT New",
+    "MenuValue" : "clientManager.isNewPage != true"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.isNewPage != true",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Page is NOT New",
+    "MenuValue" : "clientManager.isNewPage != true"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "BUTTON_",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Button HTML IDs",
+    "MenuLabel" : "Button",
+    "MenuValue" : "BUTTON_"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Button HTML IDs",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Button HTML IDs",
+    "MenuValue" : "Button HTML IDs"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "BUTTON_",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Button HTML IDs",
+    "MenuLabel" : "Button Layer",
+    "MenuValue" : "BUTTON_"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Button HTML IDs",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Button HTML IDs",
+    "MenuValue" : "Button HTML IDs"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "CSS Class",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "SystemValue" : "0",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "CSS Class",
+    "MenuValue" : "CSS Class"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dynamicText",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "dynamicText",
+    "MenuValue" : "dynamicText"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dynamicText",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "dynamicText",
+    "MenuValue" : "dynamicText"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "imageElement",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "imageElement",
+    "MenuValue" : "imageElement"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "imageElement",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "imageElement",
+    "MenuValue" : "imageElement"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "questionLabel",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "questionLabel",
+    "MenuValue" : "questionLabel"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "questionLabel",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "questionLabel",
+    "MenuValue" : "questionLabel"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "questionLayer",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "questionLayer",
+    "MenuValue" : "questionLayer"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "questionLayer",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "questionLayer",
+    "MenuValue" : "questionLayer"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateButton",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "templateButton",
+    "MenuValue" : "templateButton"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateButton",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "templateButton",
+    "MenuValue" : "templateButton"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateButtonLayer",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "templateButtonLayer",
+    "MenuValue" : "templateButtonLayer"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateButtonLayer",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "templateButtonLayer",
+    "MenuValue" : "templateButtonLayer"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateContent",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "templateContent",
+    "MenuValue" : "templateContent"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateContent",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "templateContent",
+    "MenuValue" : "templateContent"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateSection",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "templateSection",
+    "MenuValue" : "templateSection"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "templateSection",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "templateSection",
+    "MenuValue" : "templateSection"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "body",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "body",
+    "MenuValue" : "body"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "body",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "body",
+    "MenuValue" : "body"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "pageQuestionsForm",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "pageQuestionsForm",
+    "MenuValue" : "pageQuestionsForm"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "pageQuestionsForm",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "pageQuestionsForm",
+    "MenuValue" : "pageQuestionsForm"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "div",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "div",
+    "MenuValue" : "div"
+  }, {
+    "Status" : "0",
+    "Short Description" : "NA3",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "div",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "div",
+    "MenuValue" : "div"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "CSS Class",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "CSS Class",
+    "MenuValue" : "CSS Class"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerCheckbox",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerCheckbox",
+    "MenuValue" : "answerCheckbox"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerValue",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerValue",
+    "MenuValue" : "answerValue"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dateMonth",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "dateMonth",
+    "MenuValue" : "dateMonth"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dateYear",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "dateYear",
+    "MenuValue" : "dateYear"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "questionAnswer",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "questionAnswer",
+    "MenuValue" : "questionAnswer"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerRadio",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerRadio",
+    "MenuValue" : "answerRadio"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerSelect",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerSelect",
+    "MenuValue" : "answerSelect"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerText",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerText",
+    "MenuValue" : "answerText"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : ".answerCheckbox",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : ".answerCheckbox",
+    "MenuValue" : ".answerCheckbox"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerValue",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerValue",
+    "MenuValue" : "answerValue"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dateMonth",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "dateMonth",
+    "MenuValue" : "dateMonth"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "dateYear",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "dateYear",
+    "MenuValue" : "dateYear"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "questionAnswer",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "questionAnswer",
+    "MenuValue" : "questionAnswer"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerRadio",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerRadio",
+    "MenuValue" : "answerRadio"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerSelect",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerSelect",
+    "MenuValue" : "answerSelect"
+  }, {
+    "Status" : "0",
+    "Short Description" : "BLH",
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "answerText",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "answerText",
+    "MenuValue" : "answerText"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "Questions",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "Questions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "Non-Questions",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "Non-Questions",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Client Event If Statements",
+    "Category" : "Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Client Event If Statements",
+    "MenuValue" : "Client Event If Statements"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.isLoading==false",
+    "Category" : "Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Page is NOT Loading",
+    "MenuValue" : "clientManager.isLoading==false"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.isLoading==false",
+    "Category" : "Question",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Page is NOT Loading",
+    "MenuValue" : "clientManager.isLoading==false"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Javascript Operators",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Javascript Operators",
+    "MenuValue" : "Javascript Operators"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "&&",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "AND",
+    "MenuValue" : "&&"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "||",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "OR",
+    "MenuValue" : "||"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "!",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "NOT",
+    "MenuValue" : "!"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "!=",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "not equal",
+    "MenuValue" : "!="
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : ">",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "greater than",
+    "MenuValue" : ">"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "<",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "less than",
+    "MenuValue" : "<"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : ">=",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "greater than or equal",
+    "MenuValue" : ">="
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "<=",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "less than or equal",
+    "MenuValue" : "<="
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.submitType ==\"ReviewRequest\"",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "This is a Review Request",
+    "MenuValue" : "clientManager.submitType ==\"ReviewRequest\""
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.submitType !=\"ReviewRequest\"",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "This is NOT a Review Request",
+    "MenuValue" : "clientManager.submitType !=\"ReviewRequest\""
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Date/Time",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Data Types",
+    "MenuLabel" : "Date/Time",
+    "MenuValue" : "Date/Time"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Date/Time",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Survey Pattern Data Types",
+    "MenuLabel" : "Date/Time",
+    "MenuValue" : "Date/Time"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\NULL$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\NULL$",
+    "MenuValue" : "$\\NULL$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\DATE$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\DATE$",
+    "MenuValue" : "$\\DATE$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\TIMESTAMP$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\TIMESTAMP$",
+    "MenuValue" : "$\\TIMESTAMP$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\GROUPS$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\GROUPS$",
+    "MenuValue" : "$\\GROUPS$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\LOCALE$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\LOCALE$",
+    "MenuValue" : "$\\LOCALE$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\SCHEMA$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\SCHEMA$",
+    "MenuValue" : "$\\SCHEMA$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\SERVER$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\SERVER$",
+    "MenuValue" : "$\\SERVER$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\TIME$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\TIME$",
+    "MenuValue" : "$\\TIME$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "$\\APPLICATION$",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "ClientEventsQual Keywords",
+    "MenuLabel" : "$\\APPLICATION$",
+    "MenuValue" : "$\\APPLICATION$"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "==",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Javascript Operators",
+    "MenuLabel" : "equal to",
+    "MenuValue" : "=="
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Task Tree Type",
+    "Category" : "ALL",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Task Tree Type",
+    "MenuValue" : "Task Tree Type"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Login",
+    "Category" : "All",
+    "Application" : "All",
+    "MenuType" : "Special Template",
+    "MenuLabel" : "Login",
+    "MenuValue" : "Login"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.customerSurveyId==\"null\"",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Request Submission ID is NULL",
+    "MenuValue" : "clientManager.customerSurveyId==\"null\""
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "clientManager.customerSurveyId != \"null\"",
+    "Category" : "Non-Question",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Client Event If Statements",
+    "MenuLabel" : "Request Submission ID is NOT NULL",
+    "MenuValue" : "clientManager.customerSurveyId != \"null\""
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Submission Locking Types",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Menu Type",
+    "MenuLabel" : "Submission Locking Types",
+    "MenuValue" : "Submission Locking Types"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Automatic",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Submission Locking Types",
+    "MenuLabel" : "Automatic",
+    "MenuValue" : "Automatic",
+    "SortOrder" : 1
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Manual",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Submission Locking Types",
+    "MenuLabel" : "Manual",
+    "MenuValue" : "Manual",
+    "SortOrder" : 2
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "None",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "Submission Locking Types",
+    "MenuLabel" : "None",
+    "MenuValue" : "None",
+    "SortOrder" : 3
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Management Link",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Management Link",
+    "MenuValue" : "Management Link"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "imageElementLayer",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "imageElementLayer",
+    "MenuValue" : "imageElementLayer"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "imageElementLayer",
+    "Category" : "All",
+    "Application" : "Kinetic Request",
+    "MenuType" : "CSS Class",
+    "MenuLabel" : "imageElementLayer",
+    "MenuValue" : "imageElementLayer"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Web Frame Policy",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Web Frame Policy",
+    "MenuValue" : "Web Frame Policy"
+  }, {
+    "AssigneeGroup" : "0;",
+    "Developer Name" : "Web Redirection Whitelist",
+    "Category" : "All",
+    "Application" : "Kinetic Survey",
+    "MenuType" : "Configuration Values",
+    "MenuLabel" : "Web Redirection Whitelist",
+    "MenuValue" : "Web Redirection Whitelist"
+  } ]
+}

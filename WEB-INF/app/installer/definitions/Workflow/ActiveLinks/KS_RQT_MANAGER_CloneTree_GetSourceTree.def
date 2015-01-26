@@ -1,0 +1,33 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_CloneTree_GetSourceTree
+   timestamp      : 1421095772
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   enable         : 1
+   permission     : 10105
+   action {
+      open-server : @
+      open-schema : KS_SRV_Dialog
+      open-vui    : SourceTreeView
+      open-close  : 1
+      open-input  : 0\
+      open-output : 2\770008610\102\1\@\1\@\1\770008610\0\1\4\770008612\102\1\@\1\@\1\770008612\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

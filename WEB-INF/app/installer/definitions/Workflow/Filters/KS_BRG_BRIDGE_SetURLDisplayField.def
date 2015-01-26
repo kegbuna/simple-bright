@@ -1,0 +1,20 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_BRG_BRIDGE_SetURLDisplayField
+   timestamp      : 1421095857
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Bridge
+   export-version : 9
+   filter-query   : 4\6\99\760000101\2\0\
+   action {
+      set-field   : 0\760000103\105\16\3\102\1\@\1\@\1\760000101\0\1\4\101\2\0\101\2\254\
+   }
+end

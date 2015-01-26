@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Norification_SetDisplayName_Standard
+   timestamp      : 1421095795
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 256
+   actlink-focus  : 700001020
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\7\2\1\16\2\4\21\SurveyQuestionDialog%\4\1\1\700001895\2\6\0\
+   action {
+      set-field   : 0\700002298\102\1\*\1\*\1\700001020\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

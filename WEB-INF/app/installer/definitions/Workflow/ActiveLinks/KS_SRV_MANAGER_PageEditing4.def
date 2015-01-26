@@ -1,0 +1,103 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_PageEditing4
+   timestamp      : 1421095829
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 400
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 700001670
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700009243\2\0\
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_TriggerBuildHTML_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\600000042\101\0\
+      set-field   : 1\600000090\103\34\@@ :Application-Generate-GUID SESS\
+   }
+   action {
+      set-field   : 0\700009874\102\1\*\1\*\1\600000090\0\1\4\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_EncodeSurveyURL
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\536870956\102\1\*\1\*\1\700009874\0\1\4\
+   }
+   action {
+      set-field   : 0\700009874\102\1\*\1\*\1\700009243\0\1\4\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_EncodeSurveyURL
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\600000091\102\1\*\1\*\1\700009874\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\26\KS_SRV_ContentsElementHTML\1\7\1\4\1\1\700000800\99\700000800\4\1\1\179\99\700009243\3\3\101\6\2\
+      push-field  : 1\1\@\26\KS_SRV_ContentsElementHTML\1\600000042\1\4\1\1\700000800\99\700000800\4\1\1\179\99\700009243\3\3\101\4\7\Editing\
+      push-field  : 2\1\@\26\KS_SRV_ContentsElementHTML\1\700002320\1\4\1\1\700000800\99\700000800\4\1\1\179\99\700009243\3\3\102\1\*\1\*\1\600000090\0\1\4\
+   }
+   action {
+      set-field   : 0\700009874\102\1\*\1\*\1\700000800\0\1\4\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_SHARE_EncodeSurveyURL
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\600000092\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\102\1\*\1\*\1\700001259\0\1\4\101\4\18\AdvanceEditor?srv=\102\1\*\1\*\1\700009874\0\1\4\101\4\8\&pageID=\102\1\*\1\*\1\600000091\0\1\4\101\4\8\&deploy=\102\1\*\1\*\1\700002259
+      set-field   : 0\\0\1\4\101\4\15\&editSessionID=\102\1\*\1\*\1\536870956\0\1\4\
+
+   }
+   action {
+      open-server : @
+      open-schema : KS_SRV_HTML_AdvanceEditor
+      open-vui    : Page Editor
+      open-close  : 0
+      open-input  : 4\536870913\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\102\1\*\1\*\1\700001259\0\1\4\101\42\18\AdvanceEditor?srv=\102\1\*\1\*\1\700009874\0\1\4\101\42\8\&pageID=\102\1\*\1\*\1\600000091\0\1\4\101\42\8\&deploy=\102\1\*\1\*\1\700002
+      open-input  : 259\0\1\4\101\42\15\&editSessionID=\102\1\*\1\*\1\536870956\0\1\4\700002012\102\1\@\1\@\1\700000800\0\1\4\700002013\102\1\@\1\@\1\700009243\0\1\4\700002020\102\1\@\1\@\1\600000090\0\1\4\
+
+      open-output : 0\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+      set-field   : 0\700002259\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

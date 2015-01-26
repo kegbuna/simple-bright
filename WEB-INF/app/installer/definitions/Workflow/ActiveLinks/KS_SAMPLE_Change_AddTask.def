@@ -1,0 +1,44 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SAMPLE_Change_AddTask
+   timestamp      : 1421095779
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SAMPLE_Change
+   actlink-mask   : 1
+   actlink-control: 700000073
+   enable         : 1
+   permission     : 0
+   action {
+      open-server : @
+      open-schema : KS_SAMPLE_ChangeTask
+      open-vui    : 
+      open-close  : 1
+      open-input  : 7\7\101\6\0\700000071\102\1\@\1\@\1\700000071\0\1\4\700000072\102\1\@\1\@\1\700000072\0\1\4\720000102\102\1\@\1\@\1\700000050\0\1\4\720000103\102\1\@\1\@\1\179\0\1\4\720000104\102\1\@\1\@\1\700000081\0\1\4\720000105\102\1\@\1\@\1\70000
+      open-input  : 0082\0\1\4\
+
+      open-output : 0\
+      open-winmod : 2
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 770000007
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

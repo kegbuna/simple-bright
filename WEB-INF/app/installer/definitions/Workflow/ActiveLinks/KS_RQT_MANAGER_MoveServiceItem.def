@@ -1,0 +1,36 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_MoveServiceItem
+   timestamp      : 1421095774
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 702023111
+   enable         : 1
+   permission     : 0 10105
+   actlink-query  : 1\4\6\1\710060137\2\0\4\6\1\600000042\2\4\6\Cancel\
+   action {
+      push-field  : 0\1\@\21\KS_SRV_SurveyTemplate\1\112\4\1\1\179\99\710060137\3\5\102\1\*\1\*\1\112\0\1\4\
+      push-field  : 1\1\@\21\KS_SRV_SurveyTemplate\1\600000500\4\1\1\179\99\710060137\3\5\102\1\*\1\*\1\700002030\0\1\4\
+      push-field  : 2\1\@\21\KS_SRV_SurveyTemplate\1\700001000\4\1\1\179\99\710060137\3\5\102\1\*\1\*\1\700073200\0\1\4\
+      push-field  : 3\1\@\21\KS_SRV_SurveyTemplate\1\700001010\4\1\1\179\99\710060137\3\5\102\1\*\1\*\1\700073201\0\1\4\
+      push-field  : 4\1\@\21\KS_SRV_SurveyTemplate\1\700001923\4\1\1\179\99\710060137\3\5\102\1\*\1\*\1\700001923\0\1\4\
+      push-field  : 5\1\@\21\KS_SRV_SurveyTemplate\1\700002298\4\1\1\179\99\710060137\3\5\102\1\*\1\*\1\700073202\0\1\4\
+      push-field  : 6\1\@\21\KS_SRV_SurveyTemplate\1\702031800\4\1\1\179\99\710060137\3\5\102\1\*\1\*\1\702031800\0\1\4\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 710000250
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,22 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_CustSurveyResultsJoin_RunCustomLogic
+   type           : 4
+   num-references : 1
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\33\KS_SRV_CustomerSurveyResults_join\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   description    : Customers can add filters to this guide to perform actions after a survey is submitted, such as creating a new record in another form/application.  Keep
+   description    :  in mind this guide will run whenever a survey is submitted or rescored (such as if an answer changes or the survey is re-submitted).  
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SAMPLE_PushFromSimpleForm_ToIntgrSample
+}
+end

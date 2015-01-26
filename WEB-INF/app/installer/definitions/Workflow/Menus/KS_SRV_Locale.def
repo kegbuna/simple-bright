@@ -1,0 +1,50 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_SRV_Locale
+   timestamp      : 1421095886
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 1
+   char-menu      : 0\1\23\English (United States)\5\en_US
+   char-menu      : 0\1\20\English (Australian)\5\en_AU
+   char-menu      : 0\1\18\English (Canadian)\5\en_CA
+   char-menu      : 0\1\17\English (Ireland)\5\en_IE
+   char-menu      : 0\1\21\English (New Zealand)\5\en_NZ
+   char-menu      : 0\1\22\English (South Africa)\5\en_ZA
+   char-menu      : 0\1\24\English (United Kingdom)\5\en_GB
+   char-menu      : 0\1\16\French (Belgian)\5\fr_BE
+   char-menu      : 0\1\17\French (Canadian)\5\fr_CA
+   char-menu      : 0\1\19\French (Luxembourg)\5\fr_LU
+   char-menu      : 0\1\17\French (Standard)\5\fr_FR
+   char-menu      : 0\1\14\French (Swiss)\5\fr_CH
+   char-menu      : 0\1\17\German (Austrian)\5\de_AT
+   char-menu      : 0\1\18\German (Luxemburg)\5\de_LU
+   char-menu      : 0\1\17\German (Standard)\5\de_DE
+   char-menu      : 0\1\14\German (Swiss)\5\de_CH
+   char-menu      : 0\1\18\Italian (Standard)\5\it_IT
+   char-menu      : 0\1\15\Italian (Swiss)\5\it_CH
+   char-menu      : 0\1\16\Japanese (Japan)\5\ja_JP
+   char-menu      : 0\1\19\Spanish (Argentina)\5\es_AR
+   char-menu      : 0\1\17\Spanish (Bolivia)\5\es_BO
+   char-menu      : 0\1\15\Spanish (Chile)\5\es_CL
+   char-menu      : 0\1\18\Spanish (Columbia)\5\es_CO
+   char-menu      : 0\1\20\Spanish (Costa Rica)\5\es_CR
+   char-menu      : 0\1\28\Spanish (Dominican Republic)\5\es_DO
+   char-menu      : 0\1\17\Spanish (Ecuador)\5\es_EC
+   char-menu      : 0\1\21\Spanish (El Salvador)\5\es_SV
+   char-menu      : 0\1\19\Spanish (Guatemala)\5\es_GT
+   char-menu      : 0\1\17\Spanish (Mexican)\5\es_MX
+   char-menu      : 0\1\21\Spanish (Modern Sort)\5\es_ES
+   char-menu      : 0\1\19\Spanish (Nicaragua)\5\es_NI
+   char-menu      : 0\1\16\Spanish (Panama)\5\es_PA
+   char-menu      : 0\1\18\Spanish (Paraguay)\5\es_PY
+   char-menu      : 0\1\14\Spanish (Peru)\5\es_PE
+   char-menu      : 0\1\21\Spanish (Puerto Rico)\5\es_PR
+   char-menu      : 0\1\17\Spanish (Uruguay)\5\es_UY
+   char-menu      : 0\1\19\Spanish (Venezuela)\5\es_VE
+   help-text      : Queries for a list of all locale values. Used in localization of data.
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

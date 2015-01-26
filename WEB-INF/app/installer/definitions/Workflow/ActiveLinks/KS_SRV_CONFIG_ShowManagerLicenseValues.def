@@ -1,0 +1,47 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_CONFIG_ShowManagerLicenseValues
+   timestamp      : 1421095791
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ConfigurationValue
+   actlink-mask   : 278544
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\8\2\4\19\Manager License Key\
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700038720
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700038721
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700038720
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700038721
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

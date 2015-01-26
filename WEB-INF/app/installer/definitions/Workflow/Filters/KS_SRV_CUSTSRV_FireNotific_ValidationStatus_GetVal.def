@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CUSTSRV_FireNotific_ValidationStatus_GetVal
+   timestamp      : 1421095872
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 795
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey
+   export-version : 9
+   filter-query   : 1\1\1\4\1\99\600000042\2\4\9\GetScores\4\6\99\700002400\51\700002400\4\6\99\600000043\2\4\15\Fired All Notif\4\6\99\700001043\2\4\8\No_Email\
+   action {
+      set-field   : 0\600000043\102\1\@\1\@\1\700002400\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

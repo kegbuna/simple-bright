@@ -1,0 +1,39 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_VIEWER_Clear
+   timestamp      : 1421095844
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Viewer
+   actlink-mask   : 1
+   actlink-control: 600000054
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\400005200\101\0\
+      set-field   : 1\400007300\101\0\
+      set-field   : 2\400007500\101\0\
+      set-field   : 3\536870925\101\0\
+      set-field   : 4\600000261\101\0\
+      set-field   : 5\600000300\101\0\
+      set-field   : 6\600000310\101\0\
+      set-field   : 7\600000500\101\0\
+      set-field   : 8\700001000\101\0\
+      set-field   : 9\700001150\101\0\
+      set-field   : 10\700001369\101\0\
+      set-field   : 11\700004000\101\0\
+      set-field   : 12\700004024\101\0\
+      set-field   : 13\700004036\101\0\
+      set-field   : 14\700004060\101\0\
+   }
+   action {
+      command     : PERFORM-ACTION-TABLE-CLEAR 700001745
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

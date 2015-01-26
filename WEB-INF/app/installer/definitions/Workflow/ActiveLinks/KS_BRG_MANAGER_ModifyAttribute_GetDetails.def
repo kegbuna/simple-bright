@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_BRG_MANAGER_ModifyAttribute_GetDetails
+   timestamp      : 1421095762
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Manager
+   actlink-mask   : 16384
+   enable         : 0
+   permission     : 0
+   actlink-query  : 1\4\1\1\700009350\2\4\16\Modify Attribute\4\1\2\1\16\2\4\15\AttributeDialog\
+   action {
+      set-field   : 0\760000110\102\1\@\16\KS_BRG_Attribute\1\7\1\4\1\1\760000300\99\760000300\4\1\1\760000200\99\760000200\2\3\
+      set-field   : 1\760000301\102\1\@\16\KS_BRG_Attribute\1\760000301\1\4\1\1\760000300\99\760000300\4\1\1\760000200\99\760000200\2\3\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

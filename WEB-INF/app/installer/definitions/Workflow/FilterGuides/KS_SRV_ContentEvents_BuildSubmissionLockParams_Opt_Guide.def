@@ -1,0 +1,37 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ContentEvents_BuildSubmissionLockParams_Opt_Guide
+   type           : 4
+   num-references : 4
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\20\KS_SRV_ContentEvents\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   label          : KS_SRV_ContentEvents_BuildSubmissionLockParams_Opt_Guide
+   description    : Builds the Optional Left Parameters for Submission Lock and Submission Unlock actions.
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentEvents_BuildSubmissionLockParams_Confirm
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentEvents_BuildSubmissionLockParams_ConfirmMsg
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentEvents_BuildSubmissionLockParams_CallbackHandler
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ContentEvents_BuildSubmissionLockParams_CallbackElement
+}
+end

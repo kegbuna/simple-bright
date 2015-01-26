@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_GenerateLauncherTemplate
+   timestamp      : 1421095773
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\702020021\103\31\@@:Application-Generate-GUID KR\
+   }
+   action {
+      push-field  : 0\1\@\21\KS_SRV_SurveyTemplate\1\600000042\4\1\1\179\99\700001761\3\3\101\4\5\Clone\
+      push-field  : 1\1\@\21\KS_SRV_SurveyTemplate\1\700001043\4\1\1\179\99\700001761\3\3\104\1\101\4\8\Launcher\102\1\*\1\*\1\702020021\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\21\KS_SRV_SurveyTemplate\1\112\4\1\1\179\99\702020021\3\3\102\1\*\1\*\1\112\0\1\4\
+      push-field  : 1\1\@\21\KS_SRV_SurveyTemplate\1\600000500\4\1\1\179\99\702020021\3\3\102\1\*\1\*\1\700002030\0\1\4\
+      push-field  : 2\1\@\21\KS_SRV_SurveyTemplate\1\700001000\4\1\1\179\99\702020021\3\3\102\1\*\1\*\1\702020004\0\1\4\
+      push-field  : 3\1\@\21\KS_SRV_SurveyTemplate\1\700001259\4\1\1\179\99\702020021\3\3\102\1\*\1\*\1\700001259\0\1\4\
+      push-field  : 4\1\@\21\KS_SRV_SurveyTemplate\1\700001923\4\1\1\179\99\702020021\3\3\102\1\*\1\*\1\700001923\0\1\4\
+      push-field  : 5\1\@\21\KS_SRV_SurveyTemplate\1\702031800\4\1\1\179\99\702020021\3\3\102\1\*\1\*\1\702031800\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,103 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_Connector_PushIntoSurveyBase
+   timestamp      : 1421095864
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 800
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationConnector
+   export-version : 9
+   filter-query   : 4\6\99\700000001\2\0\
+   action {
+      push-field  : 0\1\@\26\KS_SRV_CustomerSurvey_base\1\700004000\5\600000260\4\6\102\1\@\1\@\1\700004000\0\1\4\
+      push-field  : 1\1\@\26\KS_SRV_CustomerSurvey_base\1\700002012\5\600000260\4\6\102\1\@\1\@\1\700002012\0\1\4\
+      push-field  : 2\1\@\26\KS_SRV_CustomerSurvey_base\1\700001864\5\600000260\4\6\102\1\@\1\@\1\700001864\0\1\4\
+      push-field  : 3\1\@\26\KS_SRV_CustomerSurvey_base\1\700001863\5\600000260\4\6\102\1\@\1\@\1\700001863\0\1\4\
+      push-field  : 4\1\@\26\KS_SRV_CustomerSurvey_base\1\700001862\5\600000260\4\6\102\1\@\1\@\1\700001862\0\1\4\
+      push-field  : 5\1\@\26\KS_SRV_CustomerSurvey_base\1\700001861\5\600000260\4\6\102\1\@\1\@\1\700001861\0\1\4\
+      push-field  : 6\1\@\26\KS_SRV_CustomerSurvey_base\1\700001860\5\600000260\4\6\102\1\@\1\@\1\700001860\0\1\4\
+      push-field  : 7\1\@\26\KS_SRV_CustomerSurvey_base\1\700001859\5\600000260\4\6\102\1\@\1\@\1\700001859\0\1\4\
+      push-field  : 8\1\@\26\KS_SRV_CustomerSurvey_base\1\700001858\5\600000260\4\6\102\1\@\1\@\1\700001858\0\1\4\
+      push-field  : 9\1\@\26\KS_SRV_CustomerSurvey_base\1\700001857\5\600000260\4\6\102\1\@\1\@\1\700001857\0\1\4\
+      push-field  : 10\1\@\26\KS_SRV_CustomerSurvey_base\1\700001856\5\600000260\4\6\102\1\@\1\@\1\700001856\0\1\4\
+      push-field  : 11\1\@\26\KS_SRV_CustomerSurvey_base\1\700001855\5\600000260\4\6\102\1\@\1\@\1\700001855\0\1\4\
+      push-field  : 12\1\@\26\KS_SRV_CustomerSurvey_base\1\700001854\5\600000260\4\6\102\1\@\1\@\1\700001854\0\1\4\
+      push-field  : 13\1\@\26\KS_SRV_CustomerSurvey_base\1\700001853\5\600000260\4\6\102\1\@\1\@\1\700001853\0\1\4\
+      push-field  : 14\1\@\26\KS_SRV_CustomerSurvey_base\1\700001852\5\600000260\4\6\102\1\@\1\@\1\700001852\0\1\4\
+      push-field  : 15\1\@\26\KS_SRV_CustomerSurvey_base\1\700001851\5\600000260\4\6\102\1\@\1\@\1\700001851\0\1\4\
+      push-field  : 16\1\@\26\KS_SRV_CustomerSurvey_base\1\700001850\5\600000260\4\6\102\1\@\1\@\1\700001850\0\1\4\
+      push-field  : 17\1\@\26\KS_SRV_CustomerSurvey_base\1\700001849\5\600000260\4\6\102\1\@\1\@\1\700001849\0\1\4\
+      push-field  : 18\1\@\26\KS_SRV_CustomerSurvey_base\1\700001848\5\600000260\4\6\102\1\@\1\@\1\700001848\0\1\4\
+      push-field  : 19\1\@\26\KS_SRV_CustomerSurvey_base\1\700001847\5\600000260\4\6\102\1\@\1\@\1\700001847\0\1\4\
+      push-field  : 20\1\@\26\KS_SRV_CustomerSurvey_base\1\700001846\5\600000260\4\6\102\1\@\1\@\1\700001846\0\1\4\
+      push-field  : 21\1\@\26\KS_SRV_CustomerSurvey_base\1\700001845\5\600000260\4\6\102\1\@\1\@\1\700001845\0\1\4\
+      push-field  : 22\1\@\26\KS_SRV_CustomerSurvey_base\1\700001844\5\600000260\4\6\102\1\@\1\@\1\700001844\0\1\4\
+      push-field  : 23\1\@\26\KS_SRV_CustomerSurvey_base\1\700001843\5\600000260\4\6\102\1\@\1\@\1\700001843\0\1\4\
+      push-field  : 24\1\@\26\KS_SRV_CustomerSurvey_base\1\700001842\5\600000260\4\6\102\1\@\1\@\1\700001842\0\1\4\
+      push-field  : 25\1\@\26\KS_SRV_CustomerSurvey_base\1\700001841\5\600000260\4\6\102\1\@\1\@\1\700001841\0\1\4\
+      push-field  : 26\1\@\26\KS_SRV_CustomerSurvey_base\1\700001840\5\600000260\4\6\102\1\@\1\@\1\700001840\0\1\4\
+      push-field  : 27\1\@\26\KS_SRV_CustomerSurvey_base\1\700001839\5\600000260\4\6\102\1\@\1\@\1\700001839\0\1\4\
+      push-field  : 28\1\@\26\KS_SRV_CustomerSurvey_base\1\700001838\5\600000260\4\6\102\1\@\1\@\1\700001838\0\1\4\
+      push-field  : 29\1\@\26\KS_SRV_CustomerSurvey_base\1\700001837\5\600000260\4\6\102\1\@\1\@\1\700001837\0\1\4\
+      push-field  : 30\1\@\26\KS_SRV_CustomerSurvey_base\1\700001836\5\600000260\4\6\102\1\@\1\@\1\700001836\0\1\4\
+      push-field  : 31\1\@\26\KS_SRV_CustomerSurvey_base\1\700001835\5\600000260\4\6\102\1\@\1\@\1\700001835\0\1\4\
+      push-field  : 32\1\@\26\KS_SRV_CustomerSurvey_base\1\700001834\5\600000260\4\6\102\1\@\1\@\1\700001834\0\1\4\
+      push-field  : 33\1\@\26\KS_SRV_CustomerSurvey_base\1\700001833\5\600000260\4\6\102\1\@\1\@\1\700001833\0\1\4\
+      push-field  : 34\1\@\26\KS_SRV_CustomerSurvey_base\1\700001832\5\600000260\4\6\102\1\@\1\@\1\700001832\0\1\4\
+      push-field  : 35\1\@\26\KS_SRV_CustomerSurvey_base\1\700001831\5\600000260\4\6\102\1\@\1\@\1\700001831\0\1\4\
+      push-field  : 36\1\@\26\KS_SRV_CustomerSurvey_base\1\700001830\5\600000260\4\6\102\1\@\1\@\1\700001830\0\1\4\
+      push-field  : 37\1\@\26\KS_SRV_CustomerSurvey_base\1\700001829\5\600000260\4\6\102\1\@\1\@\1\700001829\0\1\4\
+      push-field  : 38\1\@\26\KS_SRV_CustomerSurvey_base\1\700001828\5\600000260\4\6\102\1\@\1\@\1\700001828\0\1\4\
+      push-field  : 39\1\@\26\KS_SRV_CustomerSurvey_base\1\700001827\5\600000260\4\6\102\1\@\1\@\1\700001827\0\1\4\
+      push-field  : 40\1\@\26\KS_SRV_CustomerSurvey_base\1\700001826\5\600000260\4\6\102\1\@\1\@\1\700001826\0\1\4\
+      push-field  : 41\1\@\26\KS_SRV_CustomerSurvey_base\1\700001825\5\600000260\4\6\102\1\@\1\@\1\700001825\0\1\4\
+      push-field  : 42\1\@\26\KS_SRV_CustomerSurvey_base\1\700001824\5\600000260\4\6\102\1\@\1\@\1\700001824\0\1\4\
+      push-field  : 43\1\@\26\KS_SRV_CustomerSurvey_base\1\700001823\5\600000260\4\6\102\1\@\1\@\1\700001823\0\1\4\
+      push-field  : 44\1\@\26\KS_SRV_CustomerSurvey_base\1\700001822\5\600000260\4\6\102\1\@\1\@\1\700001822\0\1\4\
+      push-field  : 45\1\@\26\KS_SRV_CustomerSurvey_base\1\700001821\5\600000260\4\6\102\1\@\1\@\1\700001821\0\1\4\
+      push-field  : 46\1\@\26\KS_SRV_CustomerSurvey_base\1\700001820\5\600000260\4\6\102\1\@\1\@\1\700001820\0\1\4\
+      push-field  : 47\1\@\26\KS_SRV_CustomerSurvey_base\1\700001819\5\600000260\4\6\102\1\@\1\@\1\700001819\0\1\4\
+      push-field  : 48\1\@\26\KS_SRV_CustomerSurvey_base\1\700001818\5\600000260\4\6\102\1\@\1\@\1\700001818\0\1\4\
+      push-field  : 49\1\@\26\KS_SRV_CustomerSurvey_base\1\700001817\5\600000260\4\6\102\1\@\1\@\1\700001817\0\1\4\
+      push-field  : 50\1\@\26\KS_SRV_CustomerSurvey_base\1\700001816\5\600000260\4\6\102\1\@\1\@\1\700001816\0\1\4\
+      push-field  : 51\1\@\26\KS_SRV_CustomerSurvey_base\1\700001815\5\600000260\4\6\102\1\@\1\@\1\700001815\0\1\4\
+      push-field  : 52\1\@\26\KS_SRV_CustomerSurvey_base\1\700001814\5\600000260\4\6\102\1\@\1\@\1\700001814\0\1\4\
+      push-field  : 53\1\@\26\KS_SRV_CustomerSurvey_base\1\700001813\5\600000260\4\6\102\1\@\1\@\1\700001813\0\1\4\
+      push-field  : 54\1\@\26\KS_SRV_CustomerSurvey_base\1\700001812\5\600000260\4\6\102\1\@\1\@\1\700001812\0\1\4\
+      push-field  : 55\1\@\26\KS_SRV_CustomerSurvey_base\1\700001811\5\600000260\4\6\102\1\@\1\@\1\700001811\0\1\4\
+      push-field  : 56\1\@\26\KS_SRV_CustomerSurvey_base\1\700001810\5\600000260\4\6\102\1\@\1\@\1\700001810\0\1\4\
+      push-field  : 57\1\@\26\KS_SRV_CustomerSurvey_base\1\700001809\5\600000260\4\6\102\1\@\1\@\1\700001809\0\1\4\
+      push-field  : 58\1\@\26\KS_SRV_CustomerSurvey_base\1\700001808\5\600000260\4\6\102\1\@\1\@\1\700001808\0\1\4\
+      push-field  : 59\1\@\26\KS_SRV_CustomerSurvey_base\1\700001807\5\600000260\4\6\102\1\@\1\@\1\700001807\0\1\4\
+      push-field  : 60\1\@\26\KS_SRV_CustomerSurvey_base\1\700001806\5\600000260\4\6\102\1\@\1\@\1\700001806\0\1\4\
+      push-field  : 61\1\@\26\KS_SRV_CustomerSurvey_base\1\700001560\5\600000260\4\6\102\1\@\1\@\1\700001560\0\1\4\
+      push-field  : 62\1\@\26\KS_SRV_CustomerSurvey_base\1\700001000\5\600000260\4\6\102\1\@\1\@\1\700001000\0\1\4\
+      push-field  : 63\1\@\26\KS_SRV_CustomerSurvey_base\1\700000829\5\600000260\4\6\102\1\@\1\@\1\700000829\0\1\4\
+      push-field  : 64\1\@\26\KS_SRV_CustomerSurvey_base\1\700000800\5\600000260\4\6\102\1\@\1\@\1\700001001\0\1\4\
+      push-field  : 65\1\@\26\KS_SRV_CustomerSurvey_base\1\600000310\5\600000260\4\6\102\1\@\1\@\1\600000310\0\1\4\
+      push-field  : 66\1\@\26\KS_SRV_CustomerSurvey_base\1\600000300\5\600000260\4\6\102\1\@\1\@\1\700000031\0\1\4\
+      push-field  : 67\1\@\26\KS_SRV_CustomerSurvey_base\1\400098500\5\600000260\4\6\102\1\@\1\@\1\400098500\0\1\4\
+      push-field  : 68\1\@\26\KS_SRV_CustomerSurvey_base\1\400068300\5\600000260\4\6\102\1\@\1\@\1\400068300\0\1\4\
+      push-field  : 69\1\@\26\KS_SRV_CustomerSurvey_base\1\400007500\5\600000260\4\6\102\1\@\1\@\1\700000004\0\1\4\
+      push-field  : 70\1\@\26\KS_SRV_CustomerSurvey_base\1\400007300\5\600000260\4\6\102\1\@\1\@\1\700000003\0\1\4\
+      push-field  : 71\1\@\26\KS_SRV_CustomerSurvey_base\1\400005200\5\600000260\4\6\102\1\@\1\@\1\700000002\0\1\4\
+      push-field  : 72\1\@\26\KS_SRV_CustomerSurvey_base\1\300299800\5\600000260\4\6\102\1\@\1\@\1\300299800\0\1\4\
+      push-field  : 73\1\@\26\KS_SRV_CustomerSurvey_base\1\300299700\5\600000260\4\6\102\1\@\1\@\1\300299700\0\1\4\
+      push-field  : 74\1\@\26\KS_SRV_CustomerSurvey_base\1\300299600\5\600000260\4\6\102\1\@\1\@\1\300299600\0\1\4\
+      push-field  : 75\1\@\26\KS_SRV_CustomerSurvey_base\1\300299500\5\600000260\4\6\102\1\@\1\@\1\300299500\0\1\4\
+      push-field  : 76\1\@\26\KS_SRV_CustomerSurvey_base\1\300299400\5\600000260\4\6\102\1\@\1\@\1\300299400\0\1\4\
+   }
+   action {
+      set-field   : 0\7\101\6\4\
+   }
+   else {
+      set-field   : 0\7\101\6\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

@@ -1,0 +1,41 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_SUBMANAGER_SelectSearch_02
+   timestamp      : 1421095843
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 22
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SubmissionManager
+   schema-name    : KS_RQT_SubmissionManager
+   actlink-mask   : 1
+   actlink-control: 700072020
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\710000001\2\0\
+   action {
+      set-field   : 0\400005200\102\1\@\20\KS_SRV_SavedSearches\1\400005200\4\1\1\179\99\710000001\2\4\
+      set-field   : 1\400007300\102\1\@\20\KS_SRV_SavedSearches\1\400007300\4\1\1\179\99\710000001\2\4\
+      set-field   : 2\400007500\102\1\@\20\KS_SRV_SavedSearches\1\400007500\4\1\1\179\99\710000001\2\4\
+      set-field   : 3\536870925\102\1\@\20\KS_SRV_SavedSearches\1\536870925\4\1\1\179\99\710000001\2\4\
+      set-field   : 4\536870927\102\1\@\20\KS_SRV_SavedSearches\1\700000829\4\1\1\179\99\710000001\2\4\
+      set-field   : 5\600000300\102\1\@\20\KS_SRV_SavedSearches\1\600000300\4\1\1\179\99\710000001\2\4\
+      set-field   : 6\600000500\102\1\@\20\KS_SRV_SavedSearches\1\600000500\4\1\1\179\99\710000001\2\4\
+      set-field   : 7\700001000\102\1\@\20\KS_SRV_SavedSearches\1\700001000\4\1\1\179\99\710000001\2\4\
+      set-field   : 8\700001150\102\1\@\20\KS_SRV_SavedSearches\1\700001150\4\1\1\179\99\710000001\2\4\
+      set-field   : 9\700001369\102\1\@\20\KS_SRV_SavedSearches\1\700001369\4\1\1\179\99\710000001\2\4\
+      set-field   : 10\700002200\102\1\@\20\KS_SRV_SavedSearches\1\700000800\4\1\1\179\99\710000001\2\4\
+      set-field   : 11\700004000\102\1\@\20\KS_SRV_SavedSearches\1\700004000\4\1\1\179\99\710000001\2\4\
+      set-field   : 12\700004024\102\1\@\20\KS_SRV_SavedSearches\1\700004024\4\1\1\179\99\710000001\2\4\
+      set-field   : 13\700004036\102\1\@\20\KS_SRV_SavedSearches\1\700004036\4\1\1\179\99\710000001\2\4\
+      set-field   : 14\700066820\102\1\@\20\KS_SRV_SavedSearches\1\700066820\4\1\1\179\99\710000001\2\4\
+      set-field   : 15\700072018\102\1\@\20\KS_SRV_SavedSearches\1\700072018\4\1\1\179\99\710000001\2\4\
+      set-field   : 16\710000000\102\1\@\20\KS_SRV_SavedSearches\1\710000000\4\1\1\179\99\710000001\2\4\
+      set-field   : 17\710000001\102\1\@\20\KS_SRV_SavedSearches\1\179\4\1\1\179\99\710000001\2\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

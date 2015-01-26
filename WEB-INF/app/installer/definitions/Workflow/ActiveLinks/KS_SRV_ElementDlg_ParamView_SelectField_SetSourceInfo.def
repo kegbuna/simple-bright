@@ -1,0 +1,25 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_ParamView_SelectField_SetSourceInfo
+   timestamp      : 1421095799
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 128
+   actlink-focus  : 700009171
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\700009171\2\0\4\1\2\1\16\2\4\9\ParamView\
+   action {
+      set-field   : 0\700040000\102\1\@\29\KS_SRV_DataSet_Question_Union\1\700040000\4\1\1\179\99\700009171\1\4\
+      set-field   : 1\700040002\102\1\@\29\KS_SRV_DataSet_Question_Union\1\700040002\4\1\1\179\99\700009171\1\4\
+      set-field   : 2\700040003\102\1\@\29\KS_SRV_DataSet_Question_Union\1\700040003\4\1\1\179\99\700009171\1\4\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

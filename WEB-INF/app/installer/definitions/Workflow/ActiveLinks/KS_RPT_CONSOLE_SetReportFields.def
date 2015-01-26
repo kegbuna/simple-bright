@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RPT_CONSOLE_SetReportFields
+   timestamp      : 1421095768
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RPT_AdvancedReportConsole
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\2000010\102\1\@\13\KS_RPT_Report\1\2000010\1\4\1\99\700000406\1\179\4\1\1\7\2\6\0\2\1\
+      set-field   : 1\300584300\102\1\@\13\KS_RPT_Report\1\300584300\1\4\1\99\700000406\1\179\4\1\1\7\2\6\0\2\1\
+      set-field   : 2\300584400\102\1\@\13\KS_RPT_Report\1\300584400\1\4\1\99\700000406\1\179\4\1\1\7\2\6\0\2\1\
+      set-field   : 3\700000102\102\1\@\13\KS_RPT_Report\1\2010005\1\4\1\99\700000406\1\179\4\1\1\7\2\6\0\2\1\
+      set-field   : 4\700000135\102\1\@\13\KS_RPT_Report\1\700004200\1\4\1\99\700000406\1\179\4\1\1\7\2\6\0\2\1\
+      set-field   : 5\700000375\102\1\@\13\KS_RPT_Report\1\700000375\1\4\1\99\700000406\1\179\4\1\1\7\2\6\0\2\1\
+      set-field   : 6\700004204\102\1\@\13\KS_RPT_Report\1\700004204\1\4\1\99\700000406\1\179\4\1\1\7\2\6\0\2\1\
+      set-field   : 7\700009200\102\1\@\13\KS_RPT_Report\1\700004207\1\4\1\99\700000406\1\179\4\1\1\7\2\6\0\2\1\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,15 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ElementDialog_CheckForDeletedModels_guide
+   type           : 1
+   num-references : 0
+   timestamp      : 1421095851
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\20\KS_SRV_ElementDialog\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 1\60020\4\0\\
+end

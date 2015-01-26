@@ -1,0 +1,62 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_DLG_Menu-EnableMenu&Pattern
+   timestamp      : 1421095756
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 5
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_Dialog
+   actlink-mask   : 128
+   actlink-focus  : 710000001
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\710000001\2\4\9\Character\
+   action {
+      id          : 710000059
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 710000064
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   else {
+      id          : 710000059
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   else {
+      id          : 710000064
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   else {
+      id          : 710000063
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   else {
+      id          : 710000004
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   else {
+      set-field   : 0\710000004\101\0\
+      set-field   : 1\710000059\101\0\
+      set-field   : 2\710000063\101\0\
+      set-field   : 3\710000064\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

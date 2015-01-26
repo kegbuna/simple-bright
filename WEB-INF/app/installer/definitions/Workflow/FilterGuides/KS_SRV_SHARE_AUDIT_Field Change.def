@@ -1,0 +1,71 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SHARE_AUDIT_Field Change
+   type           : 4
+   num-references : 11
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 9\2\26\KS_SRV_CustomerSurvey_base\2\24\KS_ATT_AttributeInstance\2\26\KS_SRV_ArchiveFormSettings\2\21\KS_SRV_CustomerSurvey\2\24\KS_SRV_FormEventInstance&
+   owning-obj     : \2\19\KS_SRV_SurveyAnswer\2\21\KS_SRV_SurveyQuestion\2\27\KS_SRV_SurveyQuestionChoice\2\21\KS_SRV_SurveyTemplate\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SHARE_AUDIT_Value Is NULL Current
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SHARE_AUDIT_Value Is NULL Previous
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ANSWER_AUDIT_Set Audit Fields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_AUDIT_Set Audit Fields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVTEMPLATE_AUDIT_Set Audit Fields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQUESTION_AUDIT_Set Audit Fields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SRVQSTNCHOICE_AUDIT_Set Audit Fields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_ARCHFORM_AUDIT_Set Audit Fields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ATT_INST_AUDIT_ChangeSetFields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FormEventInstance_AUDIT_Set Audit Fields
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SHARE_AUDIT_Field Change Push To Audit`!
+}
+end

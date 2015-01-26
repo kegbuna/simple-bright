@@ -1,0 +1,13 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_SRV_CustomerQAResults_Fields_AndTask
+   timestamp      : 1421095885
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 2
+   char-menu      : 0\2\29\KS_SRV_DataSet_Question_Union\1\@\700040001 700040000\179\1\1\1\2\2\4\1\1\700000800\99\700000800\4\1\1\700000829\99\700000829\4\1\1\700040001\2\4\4\TASK\4\1\1\7\2\6\0\4\1\1\710060705\2\0\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

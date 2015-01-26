@@ -1,0 +1,62 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_ShiftUp_Section_01
+   timestamp      : 1421095834
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 700001506
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700009230\2\4\7\Section\
+   action {
+      set-field   : 0\700000402\101\2\1\
+      set-field   : 1\700000403\101\2\0\
+      set-field   : 2\700000405\104\1\102\1\*\1\*\1\700000401\0\1\4\101\2\1\
+      set-field   : 3\700000407\101\6\0\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870946
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_Shift_Current_Section_ElementsCount_Guide
+      call-mode   : 0
+      call-tableid: 536870946
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\700000403\101\2\1\
+      set-field   : 1\700000404\101\2\0\
+      set-field   : 2\700000405\104\2\102\1\*\1\*\1\700009234\0\1\4\101\2\1\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700000201
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_Shift_Previous_Section_ElementsCount_Guide
+      call-mode   : 0
+      call-tableid: 700000201
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

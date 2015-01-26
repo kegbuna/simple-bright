@@ -1,0 +1,53 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_BRG_MANAGER_ModifyModelMap
+   timestamp      : 1421095762
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_BRG_Manager
+   actlink-mask   : 3
+   actlink-control: 760000681
+   actlink-focus  : 760000720
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\760001001\2\0\
+   action {
+      open-server : @
+      open-schema : KS_BRG_Manager
+      open-vui    : ModelMapDialog
+      open-close  : 1
+      open-input  : 7\760000110\102\1\@\1\@\1\760000781\0\1\4\760000201\102\1\@\1\@\1\760000782\0\1\4\700009350\101\4\16\Modify Model Map\600000425\102\1\@\1\@\1\760001001\0\1\4\760001000\102\1\@\1\@\1\760000779\0\1\4\760000750\102\1\@\1\@\1\760000778\0\1
+      open-input  : \4\760000751\102\1\@\1\@\1\760000780\0\1\4\
+
+      open-output : 1\700009350\101\4\18\Model Map Modified\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   else {
+      set-field   : 0\600000098\101\2\1144\
+   }
+   else {
+      call-server : @
+      call-guide  : KS_BRG_MESSAGE_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   else {
+      goto action : 2\1000
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

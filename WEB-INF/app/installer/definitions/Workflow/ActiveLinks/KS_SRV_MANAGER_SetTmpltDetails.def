@@ -1,0 +1,63 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_MANAGER_SetTmpltDetails
+   timestamp      : 1421095834
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 700
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Manager
+   actlink-mask   : 130
+   actlink-focus  : 700001090
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700001761\2\0\
+   action {
+      set-field   : 0\600000100\102\1\*\1\*\1\700001090\0\1\4\
+      set-field   : 1\600000260\101\4\3\1=0\
+      set-field   : 2\700000800\102\1\*\1\*\1\700001761\0\1\4\
+      set-field   : 3\700001922\101\0\
+      set-field   : 4\700001924\101\0\
+      set-field   : 5\700001926\101\0\
+      set-field   : 6\700001929\101\0\
+      set-field   : 7\700001930\101\0\
+      set-field   : 8\700001931\101\0\
+      set-field   : 9\700001940\101\0\
+      set-field   : 10\700001941\101\0\
+      set-field   : 11\700001950\101\0\
+      set-field   : 12\700003183\101\0\
+      set-field   : 13\700058201\101\0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_VIEWER_SetTemplateInfo
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_Refresh_Questions_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_MANAGER_ResetPageFocus
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      command     : SET-CHANGE-FLAG 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

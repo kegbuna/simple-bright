@@ -1,0 +1,42 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_VIEWER_LoadDLG_AnswrDtl_UnlimitedAnswer
+   timestamp      : 1421095845
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Viewer
+   actlink-mask   : 16384
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\1\4\6\1\700001179\2\0\4\1\2\1\9\2\4\6\DIALOG\4\1\2\1\16\2\4\16\AnswerDetailView\4\6\1\536870933\2\0\
+   action {
+      set-field   : 0\536870917\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700000008\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 1\700000002\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700000002\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 2\700000003\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700000003\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 3\700000008\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700000008\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 4\700000011\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700000011\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 5\700000012\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700000012\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 6\700000800\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700000850\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 7\700001200\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700001210\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 8\700001240\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700001240\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 9\700001346\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700001346\4\1\99\700001179\1\536870917\1\4\
+      set-field   : 10\700003203\102\1\@\25\KS_SRV_QuestionAnswerJoin\1\700001832\4\1\99\700001179\1\536870917\1\4\
+   }
+   action {
+      set-field   : 0\700001250\102\1\@\28\KS_SRV_SurveyAnswerUnlimited\1\700003832\4\1\1\179\99\536870933\2\3\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700000200
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

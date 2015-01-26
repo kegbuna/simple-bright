@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_AdvanceDefault_SelectField
+   timestamp      : 1421095800
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 128
+   actlink-focus  : 700000420
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\700000420\2\0\4\6\1\600000300\2\4\21\KS_SRV_CustomerSurvey\
+   action {
+      set-field   : 0\536870934\107\1\@\84\SELECT fieldId FROM field WHERE schemaId = $700000422$ AND fieldName = '$700000420$'\1\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

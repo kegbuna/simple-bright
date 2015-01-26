@@ -1,0 +1,63 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_FIELDMAP_ReplaceQuestionIIDsInValueOnClone_guide
+   type           : 4
+   num-references : 9
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\15\KS_SRV_FieldMap\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   description    : This filter guide parses all of the question instance Ids out of the Value field and replaces them with the new cloned values when the field map record 
+   description    : is cloned.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Loop
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FIELDMAP_FindStartFieldTag
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FIELDMAP_FindEndFieldTag
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FIELDMAP_ParseQuestionInstanceID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FIELDMAP_ParseQuestionInstanceID_Outbound
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FIELDMAP_FindNewQuestionInstanceID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FIELDMAP_ReplaceOldQuestionInstanceID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FIELDMAP_ResetTempValueString
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_FIELDMAP_Loop
+}
+end

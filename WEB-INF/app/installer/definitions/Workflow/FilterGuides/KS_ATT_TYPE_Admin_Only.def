@@ -1,0 +1,43 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_ATT_TYPE_Admin_Only
+   type           : 4
+   num-references : 5
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\20\KS_ATT_AttributeType\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   label          : KS_ATT_TYPE_Admin_Only
+   description    : Allows only user in the Administrator group to Create, Modify, or Delete a type marked as Admin
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ATT_TYPE_Admin_Only1
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ATT_TYPE_Admin_Only1a
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ATT_TYPE_Admin_Only1b
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : MESSAGE
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ATT_TYPE_Admin_Only2
+}
+end

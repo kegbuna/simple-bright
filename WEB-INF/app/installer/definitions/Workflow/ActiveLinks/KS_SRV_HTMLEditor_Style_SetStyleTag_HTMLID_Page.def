@@ -1,0 +1,48 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_HTMLEditor_Style_SetStyleTag_HTMLID_Page
+   timestamp      : 1421095810
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 5
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_HTML_AdvanceEditor
+   actlink-mask   : 16512
+   actlink-focus  : 700070510
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\1\700070510\2\4\7\HTML ID\4\1\1\700001202\2\6\0\
+   action {
+      set-field   : 0\700050200\101\6\0\
+      set-field   : 1\700070501\101\0\
+      set-field   : 2\700070502\104\1\101\4\5\PAGE_\102\1\*\1\*\1\700070540\0\1\4\
+      set-field   : 3\700070520\101\4\1\#\
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700070502
+      char-menu   : $NULL$
+      focus       : 1
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+   display-prop   : 2\4\6\0\22\4\7\Default\
+      id          : 700070501
+      char-menu   : $NULL$
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      id          : 700006500
+      focus       : 1
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

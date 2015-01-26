@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_DD_Close4CREATE
+   timestamp      : 1421095754
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_DataDictionary
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\600000042\2\4\2\No\
+   action {
+      push-field  : 0\1\@\24\KS_ATT_AttributeInstance\1\7\4\1\99\179\1\710000078\3\5\101\6\2\
+   }
+   action {
+      command     : SET-CHANGE-FLAG 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : AR System Administration: AL Guide To Build EA Group Mapping On Load
+   type           : 1
+   num-references : 1
+   timestamp      : 1421095849
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\44\AR System Administration: Server Information\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : AR System Administration: EA Group Mapping - Build Str
+}
+end

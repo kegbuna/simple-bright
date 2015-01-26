@@ -1,0 +1,20 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVTEMPLATE_SetNullSubmissionLockType
+   timestamp      : 1421095881
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 800
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyTemplate
+   export-version : 9
+   filter-query   : 4\1\99\700002455\2\0\
+   action {
+      set-field   : 0\700002455\101\4\4\None\
+   }
+end

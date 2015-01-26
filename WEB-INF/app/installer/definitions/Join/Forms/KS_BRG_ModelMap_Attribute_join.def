@@ -1,0 +1,282 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:18:33 2015
+#
+begin schema
+   name           : KS_BRG_ModelMap_Attribute_join
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 12
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   default-vui    : Default Admin View
+   num-vuis       : 1
+   export-version : 9
+   schema-type    : 2
+      primary     : KS_BRG_ModelMapping
+      secondary   : KS_BRG_Attribute
+      join-option : 0
+      join-query  : 4\1\99\760000200\1\760000200\
+   next-field-id  : 536870925
+   permission     : 0\2
+   object-prop    : 1\60018\4\0\\
+vui  {
+   id             : 536870912
+   name           : Default Admin View
+   label          : Default Admin View
+   timestamp      : 1421095685
+   vui-locale     : 
+   vui-type       : 1
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   display-prop   : 5\20\4\18\Default Admin View\264\6\0\60019\4\21\ViewWebAlias536870912\251\6\0\252\6\0\
+}
+field {
+   id             : 1
+   name           : Request ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+ display-instance : 536870912\15\20\4\10\Request ID\3\41\2\787\700\57599\3100\7\40\2147483648\231\6\0\143\40\4294967295\21\41\2\0\400\6862\2400\151\41\2\7425\0\53887\2100\65\41\&
+ display-instance : 2\0\0\0\0\66\41\2\54450\0\56812\2100\61\40\80\27\8\16\91\6\2\90\6\1\60\40\1\170\40\0\
+}
+field {
+   id             : 7
+   name           : modelmap_Status
+   datatype       : 6
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 7
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Active
+   enum-value     : Inactive
+   enum-value     : Delete
+   default        : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\21\20\4\15\modelmap_Status\64\6\0\61\40\0\60\40\1\3\41\2\1462\21300\34312\23400\4\6\1\28\6\4\29\6\1\27\8\16\7\40\2147483660\231\6\0\230\4\30\3\0\Ac&
+ display-instance : tive\1\Inactive\2\Delete\143\40\4294967295\21\41\2\0\400\12937\2100\151\41\2\13050\0\32850\2100\65\41\2\13612\0\13612\0\66\41\2\13612\0\13612\0\62\6\0\9&
+ display-instance : 1\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 15
+   name           : Status-History
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 15
+   create-mode    : 1
+   option         : 3
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 0\1
+   permission     : 10391\2
+}
+field {
+   id             : 760000100
+   name           : modelmap_bridge_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000100
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\20\14\40\1\20\4\20\modelmap_bridge_name\3\41\2\1462\13100\53999\15200\4\6\1\5\6\2\60\40\1\61\40\63\27\8\16\28\6\4\29\6\1\7\40\2147483652\231\6\0\14&
+ display-instance : 3\40\4294967295\21\41\2\0\400\12937\2100\151\41\2\13050\0\49612\2100\65\41\2\7372462\0\7372462\0\66\41\2\50175\0\52537\2100\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000200
+   name           : modelmap_model_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000200
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\20\14\40\1\20\4\19\modelmap_model_name\3\41\2\1462\15800\53999\17900\4\6\1\5\6\2\60\40\1\61\40\63\27\8\16\28\6\4\29\6\1\7\40\2147483655\231\6\0\143&
+ display-instance : \40\4294967295\21\41\2\0\400\12937\2100\151\41\2\13050\0\49612\2100\65\41\2\7372575\0\7372575\0\66\41\2\50175\0\52537\2100\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000300
+   name           : attribute_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 760000300
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\20\14\40\1\20\4\14\attribute_name\3\41\2\1462\33100\54562\35200\4\6\1\5\6\2\60\40\1\61\40\64\27\8\16\28\6\4\29\6\1\7\40\2147483670\231\6\0\143\40\4&
+ display-instance : 294967295\21\41\2\0\400\12937\2100\151\41\2\13050\0\50175\2100\65\41\2\4612\0\4612\0\66\41\2\50737\0\53099\2100\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760001000
+   name           : modelmap_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760001000
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\20\14\40\1\20\4\13\modelmap_name\3\41\2\1462\10400\53999\12500\4\6\1\5\6\2\60\40\1\61\40\63\27\8\16\28\6\4\29\6\1\7\40\2147483657\231\6\0\143\40\42&
+ display-instance : 94967295\21\41\2\0\400\12937\2100\151\41\2\13050\0\49612\2100\65\41\2\3487\0\3487\0\66\41\2\50175\0\52537\2100\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760001001
+   name           : modelmap_structure
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760001001
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\20\14\40\1\20\4\18\modelmap_structure\3\41\2\1462\18500\53999\20600\4\6\1\5\6\2\60\40\1\61\40\63\27\8\16\28\6\4\29\6\1\7\40\2147483661\231\6\0\143\&
+ display-instance : 40\4294967295\21\41\2\0\400\12937\2100\151\41\2\13050\0\49612\2100\65\41\2\1800\0\1800\0\66\41\2\50175\0\52537\2100\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760001800
+   name           : modelmap_Request ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\18\20\4\19\modelmap_Request ID\61\40\33\60\40\1\3\41\2\1462\8000\34312\10100\4\6\1\28\6\4\29\6\1\27\8\16\7\40\2147483658\231\6\0\143\40\4294967295\&
+ display-instance : 21\41\2\0\400\12937\2100\151\41\2\13050\0\32850\2100\65\41\2\-450\0\-450\0\66\41\2\-450\0\-450\0\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760001801
+   name           : attribute_Request ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\18\20\4\20\attribute_Request ID\61\40\33\60\40\1\3\41\2\1462\30500\34312\32600\4\6\1\28\6\4\29\6\1\27\8\16\7\40\2147483671\231\6\0\143\40\429496729&
+ display-instance : 5\21\41\2\0\400\12937\2100\151\41\2\13050\0\32850\2100\65\41\2\675\0\675\0\66\41\2\675\0\675\0\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760001802
+   name           : attribute_model_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 760000200
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\20\14\40\1\20\4\20\attribute_model_name\3\41\2\1462\35600\54562\37700\4\6\1\5\6\2\60\40\1\61\40\64\27\8\16\28\6\4\29\6\1\7\40\2147483668\231\6\0\14&
+ display-instance : 3\40\4294967295\21\41\2\0\400\12937\2100\151\41\2\13050\0\50175\2100\65\41\2\787\0\787\0\66\41\2\50737\0\53099\2100\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760001803
+   name           : attribute_Status
+   datatype       : 6
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 7
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1421095685
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Active
+   enum-value     : Inactive
+   enum-value     : Delete
+   default        : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\21\20\4\16\attribute_Status\64\6\0\61\40\0\60\40\1\3\41\2\1462\38200\34312\40300\4\6\1\28\6\4\29\6\1\27\8\16\7\40\2147483673\231\6\0\230\4\30\3\0\A&
+ display-instance : ctive\1\Inactive\2\Delete\143\40\4294967295\21\41\2\0\400\12937\2100\151\41\2\13050\0\32850\2100\65\41\2\14625\0\14625\0\66\41\2\14625\0\14625\0\62\6\0\&
+ display-instance : 91\6\2\90\6\1\170\40\0\
+}
+end

@@ -1,0 +1,24 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_Save_Custom_SetTempParamsLeft
+   timestamp      : 1421095783
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\1\700004642\2\4\6\Custom\4\6\1\700001680\2\0\
+   action {
+      set-field   : 0\536870932\102\1\*\1\*\1\700001680\0\1\4\
+   }
+   action {
+      set-field   : 0\536870932\105\23\3\102\1\*\1\*\1\536870932\0\1\4\105\19\1\101\4\2\ \101\4\1\ \
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

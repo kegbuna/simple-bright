@@ -1,0 +1,107 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_SUBMANAGER_PageFocus_AdvSearch
+   timestamp      : 1421095843
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 5
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SubmissionManager
+   schema-name    : KS_RQT_SubmissionManager
+   actlink-mask   : 8192
+   actlink-focus  : 700009201
+   enable         : 1
+   permission     : 0
+   action {
+   display-prop   : 1\24\4\8\0xff0000\
+      id          : 700009201
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\24\4\0\\
+      id          : 700001658
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\24\4\0\\
+      id          : 700003623
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 600000208
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 600000209
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 600000202
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 600000201
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700009270
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700068000
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700001010
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700009275
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      set-field   : 0\700001150\101\0\
+   }
+   action {
+   display-prop   : 1\24\4\0\\
+      id          : 710000002
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

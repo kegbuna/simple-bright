@@ -1,0 +1,49 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_AddFieldMap_DS
+   timestamp      : 1421095780
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   actlink-mask   : 1
+   actlink-control: 760005012
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\2\1\16\2\4\21\Set Fields - External\4\1\1\760001307\2\6\0\
+   action {
+      open-server : @
+      open-schema : KS_RQT_TaskManager
+      open-vui    : Inbound - Data Source
+      open-close  : 1
+      open-input  : 17\490000700\102\1\@\1\@\1\490000700\0\1\4\700000800\102\1\@\1\@\1\700000800\0\1\4\700000829\102\1\@\1\@\1\700000829\0\1\4\700000874\102\1\@\1\@\1\700000874\0\1\4\700000876\102\1\@\1\@\1\710060809\0\1\4\700000899\101\4\2\na\700002303\1
+      open-input  : 02\1\@\1\@\1\700002303\0\1\4\700004642\102\1\@\1\@\1\700004642\0\1\4\700008000\102\1\@\1\@\1\700001000\0\1\4\700008004\101\4\14\Kinetic Bridge\700008060\102\1\@\1\@\1\536870917\0\1\4\700036000\102\1\@\1\@\1\700036000\0\1\4\700073250\10
+      open-input  : 4\1\102\1\*\1\*\1\770000223\0\1\4\101\2\1\700073251\101\1\0\760000200\102\1\@\1\@\1\760000200\0\1\4\760000400\102\1\@\1\@\1\760000400\0\1\4\700001102\102\1\@\1\@\1\700001102\0\1\4\
+
+      open-output : 2\700003183\102\1\@\18\KS_RQT_TaskManager\1\700003183\0\1\4\700004642\102\1\@\18\KS_RQT_TaskManager\1\700004642\0\1\4\
+      open-winmod : 0
+      open-target : Current
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 2
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+      push-field  : 0\1\@\15\KS_SRV_FieldMap\1\600000042\1\4\1\1\700008060\99\536870917\4\6\1\700001212\2\0\3\5\101\4\10\RESET_SORT\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 760005000
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

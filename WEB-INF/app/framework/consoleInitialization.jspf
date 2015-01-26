@@ -1,0 +1,84 @@
+<%@page import="com.kineticdata.core.v1.utils.JsonUtils"
+%><%@page import="java.net.URLEncoder"
+%><%@page import="java.net.URLDecoder"
+%><%@page import="java.io.UnsupportedEncodingException"
+%><%@page import="java.util.*"
+%><%@page import="org.apache.commons.lang3.StringEscapeUtils"
+%><%@page import="org.apache.commons.lang3.StringUtils"
+%><%@page import="org.json.simple.JSONValue"
+%><%!
+    /**
+     * URL decodes a string that was previously URL encoded.
+     * 
+     * <p>For example, %20 will be decoded to a space.
+     */
+    public static String decode(String encodedString) {
+        String result;
+        try {
+            result = URLDecoder.decode(encodedString, "UTF-8");
+        }
+        catch (UnsupportedEncodingException e) {
+            result = encodedString;
+        }
+        return result;
+    }
+    
+    /**
+     * URL encodes a string that was previously URL encoded.
+     * 
+     * <p>For example, a space will be encoded as %20.
+     */
+    public static String encode(String unencodedString) {
+        String result;
+        try {
+            result = URLEncoder.encode(unencodedString, "UTF-8");
+        }
+        catch (UnsupportedEncodingException e) {
+            result = unencodedString;
+        }
+        return result;
+    }
+    
+    /**
+     * Escapes html entities so they are rendered in the browser as text
+     *
+     * @param rawString - the raw string to escape
+     * @return the raw string with all html characters replaced with entity values
+     */
+    public static String escape(Object rawString) {
+        if (rawString == null || "".equals(rawString)) {
+            return "";
+        } else {
+            return org.apache.commons.lang3.StringEscapeUtils.escapeHtml4(rawString.toString());
+        }
+    }
+    
+    /**
+     * Checks if a string is either null or contains a blank string.
+     */
+    public static boolean isBlank(String rawString) {
+        return org.apache.commons.lang3.StringUtils.isBlank(rawString);
+    }
+    
+    /**
+     * Checks that a string is not null and is not a blank string.
+     */
+    public static boolean isNotBlank(String rawString) {
+        return org.apache.commons.lang3.StringUtils.isNotBlank(rawString);
+    }
+    
+    public static String breadcrumb(String label) {
+        return breadcrumb(label, null);
+    }
+    public static String breadcrumb(String label, String href) {
+        StringBuilder builder = new StringBuilder();
+        if (href != null) {
+            builder.append("<li>");
+            builder.append("<a href=\"").append(href).append("\">").append(label).append("</a>");
+            builder.append("</li>");
+        } else {
+            builder.append("<li class=\"active\">").append(label).append("</li>");
+        }
+        return builder.toString();
+    }
+%>

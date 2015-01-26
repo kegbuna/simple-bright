@@ -1,0 +1,57 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_CustSurvey_ParseAnswersGuide
+   type           : 4
+   num-references : 8
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\26\KS_SRV_CustomerSurvey_base\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_SetOperationID
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : NextSegment
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_GetSegment
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_GetQstnID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_PushAnswer`!
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_NextSegment
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Cleanup
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_CUSTSRV_CleanupNullAnswers`!
+}
+end

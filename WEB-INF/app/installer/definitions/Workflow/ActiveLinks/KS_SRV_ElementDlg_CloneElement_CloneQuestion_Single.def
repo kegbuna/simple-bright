@@ -1,0 +1,50 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_CloneElement_CloneQuestion_Single
+   timestamp      : 1421095792
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 5
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 1
+   actlink-control: 700050100
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\1\700050103\2\4\8\Question\4\6\1\700050006\2\0\
+   action {
+      set-field   : 0\700060102\101\2\1\
+      set-field   : 1\700060105\104\1\102\1\*\1\*\1\700009234\0\1\4\101\2\1\
+   }
+   action {
+      push-field  : 0\1\@\21\KS_SRV_SurveyQuestion\1\490000700\2\4\1\99\700050006\1\179\4\1\1\700000855\99\700050006\1\5\102\1\*\1\*\1\490000700\0\1\4\
+      push-field  : 1\1\@\21\KS_SRV_SurveyQuestion\1\600000042\2\4\1\99\700050006\1\179\4\1\1\700000855\99\700050006\1\5\101\4\5\Clone\
+      push-field  : 2\1\@\21\KS_SRV_SurveyQuestion\1\600000043\2\4\1\99\700050006\1\179\4\1\1\700000855\99\700050006\1\5\102\1\*\1\*\1\700000800\0\1\4\
+      push-field  : 3\1\@\21\KS_SRV_SurveyQuestion\1\700001043\2\4\1\99\700050006\1\179\4\1\1\700000855\99\700050006\1\5\101\4\12\CloneChoices\
+      push-field  : 4\1\@\21\KS_SRV_SurveyQuestion\1\700001211\2\4\1\99\700050006\1\179\4\1\1\700000855\99\700050006\1\5\104\1\102\1\*\1\*\1\700009234\0\1\4\101\2\1\
+      push-field  : 5\1\@\21\KS_SRV_SurveyQuestion\1\700002002\2\4\1\99\700050006\1\179\4\1\1\700000855\99\700050006\1\5\102\1\*\1\*\1\700002002\0\1\4\
+      push-field  : 6\1\@\21\KS_SRV_SurveyQuestion\1\700065214\2\4\1\99\700050006\1\179\4\1\1\700000855\99\700050006\1\5\102\1\*\1\*\1\700065214\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\30\KS_SRV_DynAnswerHideShow_Items\1\600000042\1\4\1\1\700001047\99\700000800\4\1\1\700001045\99\700050006\3\5\101\4\13\CompleteClone\
+   }
+   action {
+      push-field  : 0\1\@\21\KS_SRV_SurveyQuestion\1\600000042\1\4\1\1\700001046\99\700000800\4\1\1\700001045\99\700050006\3\5\101\4\23\GENERATE_DYN_JAVASCRIPT\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_ElementDlg_CommitShiftedValues
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      push-field  : 0\1\@\21\KS_SRV_SurveyQuestion\1\600000042\1\4\1\1\490000700\99\490000700\4\1\1\700000850\99\700000800\3\5\101\4\16\RESET_MAP_NUMBER\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

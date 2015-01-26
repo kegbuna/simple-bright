@@ -1,0 +1,41 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_SUBMANAGER_SearchCustSurveyForID
+   type           : 1
+   num-references : 5
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 2\2\24\KS_SRV_SubmissionManager\2\24\KS_RQT_SubmissionManager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SUBMANAGER_SearchSurveyFor_GetQual
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_SUBMANAGER_HideApprovals
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SUBMANAGER_SearchSurveyFor_AddApplication
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_SUBMANAGER_ClearTaskTable
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SUBMANAGER_SearchSurveyFor_RefrTbl
+}
+end

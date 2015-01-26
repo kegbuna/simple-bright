@@ -1,0 +1,148 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_NextPage_LocateNextPage_Guide
+   type           : 4
+   num-references : 26
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\15\KS_SRV_NextPage\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_DefaultTriggerScoring
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_GetSortOrder
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_SetCustSurvey_InstanceID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_CheckPageOptions
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : CUSTOM_LOCATE
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_RunCustomLogic
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : STANDARD_LOCATE
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_LocateNextPage
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_CustomConfirmationPage_Found
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_LocateSystemConfirmationPage_01
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_LocateSystemConfirmationPage_02
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_LocateSystemConfirmationPage_03
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_LocateSystemConfirmationPage_04
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : COMPLETE
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_CheckIfPageBranchPathExists
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_CheckIfPageBranchPathExists_ClearAnswer
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_IsApproval?
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_SetSurveyToComplete
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_SetSurveyToInProgress
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_SetSurveyToInProgress_WithLookupValueId
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_SetSurveyToInProgress_Approval
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_SetSurveyToInProgress_WithLookupValueId_Approval1
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_SetSurveyToInProgress_WithLookupValueId_Approval_GetOrigID
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_SetSurveyToInProgress_WithLookupValueId_Approval2
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_CreatePageBranchPath
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_Complete
+}
+end

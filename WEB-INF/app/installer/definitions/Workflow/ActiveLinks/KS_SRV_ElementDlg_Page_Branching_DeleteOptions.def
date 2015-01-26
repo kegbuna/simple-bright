@@ -1,0 +1,91 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Page_Branching_DeleteOptions
+   timestamp      : 1421095796
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 100
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 1
+   actlink-control: 700002056
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\700009323\2\0\4\1\1\600000042\2\4\3\Yes\
+   action {
+      push-field  : 0\1\@\27\KS_SRV_PageBranchingOptions\1\7\4\1\1\179\99\700009323\1\3\101\6\2\
+   }
+   action {
+      id          : 700002065
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700002068
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700002304
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700002067
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700002066
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700002311
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 600000260
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   action {
+      id          : 700002056
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      call-server : @
+      call-guide  : KS_SRV_ElementDlg_Page_Branching_RefreshOptions_Guide
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      set-field   : 0\600000042\101\0\
+      set-field   : 1\600000260\101\0\
+      set-field   : 2\600000261\101\0\
+      set-field   : 3\700002053\105\31\1\102\1\*\1\*\1\700009321\0\1\4\
+      set-field   : 4\700002065\101\0\
+      set-field   : 5\700002066\101\0\
+      set-field   : 6\700002067\101\0\
+      set-field   : 7\700002068\101\0\
+      set-field   : 8\700002304\101\0\
+      set-field   : 9\700007500\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

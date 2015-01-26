@@ -1,0 +1,151 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_ACC_SCHED_WeeklySchedules
+   type           : 4
+   num-references : 27
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\15\KS_ACC_Schedule\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Set Day Values
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_DValue_Fri
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_DValue_Mon
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_DValue_Sat
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_DValue_Sun
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_DValue_Thu
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_DValue_Tue
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_DValue_Wed
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OAt_M1
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OAt_S
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OEvery_M1
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OEvery_S
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FNxtD_Sun
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FNxtD_Mon
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FNxtD_Tue
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FNxtD_Wed
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FNxtD_Thu
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FNxtD_Fri
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FNxtD_Sat
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FindNxtD_E
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FindNxtD_M
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_FindNxtD_S
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OAt_M2
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OAt_S1
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OEvery_S1
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OEvery_M2
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_ACC_SCHD_Set_W_OEvery_M3
+}
+end

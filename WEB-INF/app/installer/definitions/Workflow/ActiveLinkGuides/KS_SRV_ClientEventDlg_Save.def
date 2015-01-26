@@ -1,0 +1,126 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ClientEventDlg_Save
+   type           : 1
+   num-references : 22
+   timestamp      : 1421095851
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\25\KS_SRV_ClientEvent_Dialog\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_CheckQualOnSave
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_CheckNameOnSave
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_CheckMaxEntries_SetFldsExt
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_Set_EventName_Question
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_ClearSimpleDataReqIfUseDataSource
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_ClearBridgeDataIfNotUseDataSource
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_CheckForModelName
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_CheckForQualificationName
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_CheckForLabelAttribute
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_CheckForValueAttribute
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_Menu
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_Menu_UseDataSource
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_Custom
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_Custom_SetTempParamsLeft
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_ListFields
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_SetFields-1
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_SetFields_Trim
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_SetFields_NoFields
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_SetFields-2
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_SetFields-3
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_ContentsEvent_Question
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Save_ContentsEvent_NotQuestion
+}
+end

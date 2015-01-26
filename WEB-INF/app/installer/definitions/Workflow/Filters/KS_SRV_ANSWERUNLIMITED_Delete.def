@@ -1,0 +1,20 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_ANSWERUNLIMITED_Delete
+   timestamp      : 1421095863
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyAnswerUnlimited
+   export-version : 9
+   filter-query   : 4\1\99\7\2\6\1\
+   action {
+      command     : Application-Delete-Entry $-5$ $1$
+   }
+end

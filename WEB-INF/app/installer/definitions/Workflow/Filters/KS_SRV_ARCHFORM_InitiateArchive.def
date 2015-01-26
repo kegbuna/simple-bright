@@ -1,0 +1,22 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_ARCHFORM_InitiateArchive
+   timestamp      : 1421095864
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ArchiveFormSettings
+   export-version : 9
+   filter-query   : 4\1\99\600000042\2\4\7\Archive\
+   action {
+      push-field  : 0\1\@\26\KS_SRV_CustomerSurvey_base\1\700036556\1\1\4\1\1\700000800\99\700000800\5\700036559\4\1\1\700036556\2\0\3\5\101\6\0\
+      push-field  : 1\1\@\26\KS_SRV_CustomerSurvey_base\1\600000042\1\1\4\1\1\700000800\99\700000800\5\700036559\4\1\1\700036556\2\0\3\5\101\4\7\Archive\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

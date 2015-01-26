@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_SRVQUESTION_BuildList_HTML_readNextItemID
+   timestamp      : 1421095879
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_SurveyQuestion
+   export-version : 9
+   filter-query   : 4\5\99\700001239\99\700002239\
+   action {
+      set-field   : 0\70000081\101\0\
+   }
+   action {
+      set-field   : 0\700000114\107\1\@\171\SELECT C1, C$70000087$, C$700000128$ FROM T$70000083$ WHERE C1 NOT IN ($70000080$) AND C$70000082$ = '$700000850$' AND C$70000084$ = '$700000008$' ORDER BY C$70000086$ ASC\3\2\3\
+      set-field   : 1\70000085\107\1\@\171\SELECT C1, C$70000087$, C$700000128$ FROM T$70000083$ WHERE C1 NOT IN ($70000080$) AND C$70000082$ = '$700000850$' AND C$70000084$ = '$700000008$' ORDER BY C$70000086$ ASC\2\2\3\
+      set-field   : 2\70000081\107\1\@\171\SELECT C1, C$70000087$, C$700000128$ FROM T$70000083$ WHERE C1 NOT IN ($70000080$) AND C$70000082$ = '$700000850$' AND C$70000084$ = '$700000008$' ORDER BY C$70000086$ ASC\1\2\3\
+   }
+   action {
+      set-field   : 0\700001239\104\1\102\1\@\1\@\1\700001239\0\1\4\101\2\1\
+   }
+   else {
+      goto guide  : END
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

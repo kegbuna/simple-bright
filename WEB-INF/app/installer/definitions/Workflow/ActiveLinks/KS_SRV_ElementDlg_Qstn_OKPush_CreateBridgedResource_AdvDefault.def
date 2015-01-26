@@ -1,0 +1,29 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_OKPush_CreateBridgedResource_AdvDefault
+   timestamp      : 1421095804
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 900
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\1\700005001\2\6\0\4\1\1\536870984\2\6\0\
+   action {
+      push-field  : 0\1\@\22\KS_RQT_BridgedResource\1\179\4\1\1\179\99\710060808\4\5\102\1\*\1\*\1\710060808\0\1\4\
+      push-field  : 1\1\@\22\KS_RQT_BridgedResource\1\600000042\4\1\1\179\99\710060808\4\5\101\4\14\Delete Orphans\
+      push-field  : 2\1\@\22\KS_RQT_BridgedResource\1\760000200\4\1\1\179\99\710060808\4\5\102\1\*\1\*\1\760001500\0\1\4\
+      push-field  : 3\1\@\22\KS_RQT_BridgedResource\1\760000400\4\1\1\179\99\710060808\4\5\102\1\*\1\*\1\760001501\0\1\4\
+      push-field  : 4\1\@\22\KS_RQT_BridgedResource\1\760000800\4\1\1\179\99\710060808\4\5\101\4\15\Dynamic Default\
+      push-field  : 5\1\@\22\KS_RQT_BridgedResource\1\760000801\4\1\1\179\99\710060808\4\5\102\1\*\1\*\1\700000230\0\1\4\
+      push-field  : 6\1\@\22\KS_RQT_BridgedResource\1\760000802\4\1\1\179\99\710060808\4\5\102\1\*\1\*\1\760001502\0\1\4\
+      push-field  : 7\1\@\22\KS_RQT_BridgedResource\1\760000804\4\1\1\179\99\710060808\4\5\102\1\*\1\*\1\700000800\0\1\4\
+      push-field  : 8\1\@\22\KS_RQT_BridgedResource\1\760000809\4\1\1\179\99\710060808\4\5\102\1\*\1\*\1\490000700\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_SetSortOrder
+   timestamp      : 1421095784
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\770000223\2\0\
+   action {
+      push-field  : 0\1\@\15\KS_SRV_FieldMap\1\700073250\4\1\1\179\99\770000218\3\3\102\1\*\1\*\1\600000097\0\1\4\
+   }
+   action {
+      set-field   : 0\600000097\104\1\102\1\*\1\*\1\600000097\0\1\4\101\2\1\
+   }
+   else {
+      exit guide  : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

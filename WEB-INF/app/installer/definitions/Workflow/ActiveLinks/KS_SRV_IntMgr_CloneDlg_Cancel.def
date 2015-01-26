@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_IntMgr_CloneDlg_Cancel
+   timestamp      : 1421095812
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationManager
+   actlink-mask   : 1
+   actlink-control: 700023001
+   enable         : 1
+   permission     : 0
+   action {
+      close-wnd   : 
+      close-all   : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

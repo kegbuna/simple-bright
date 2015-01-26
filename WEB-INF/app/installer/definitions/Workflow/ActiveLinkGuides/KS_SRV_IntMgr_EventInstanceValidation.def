@@ -1,0 +1,59 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_IntMgr_EventInstanceValidation
+   type           : 1
+   num-references : 8
+   timestamp      : 1421095851
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\25\KS_SRV_IntegrationManager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   permission     : 10010\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SaveEventInst_ChkReqdFields
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SaveEventInst_ChkSchd
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SaveEventInst_ChkMsgTmplt
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SaveEventInst_ChkMsgTmplt_STOP
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SaveEvent_ChkQual_ActLnk
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SaveEvent_ChkQual_Filter
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_IntMgr_SaveEventInst_CheckMatchBatch_CallGuide
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Label0
+   value          : 0\
+   ref-groups     : 10010
+}
+end

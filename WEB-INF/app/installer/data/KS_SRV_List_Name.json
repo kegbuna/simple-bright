@@ -1,0 +1,8 @@
+{
+  "form" : "KS_SRV_List_Name",
+  "duplicateRecordQualifierFieldNames" : [ "List Name" ],
+  "data" : [ {
+    "Category" : "SYSTEM_DEFAULTS",
+    "List Name" : "Opt Out"
+  } ]
+}

@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_RQT_CUSTSRVB_RunKineticTask4+CreateTrees_SetTaskRefernces
+   timestamp      : 1421095862
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_CustomerSurvey_base
+   export-version : 9
+   action {
+      set-field   : 0\770001021\102\1\@\1\@\1\600000091\0\1\4\
+   }
+   action {
+      set-field   : 0\770001020\102\1\@\17\KS_RQT_TaskServer\1\179\4\1\1\700000000\99\600000090\2\3\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

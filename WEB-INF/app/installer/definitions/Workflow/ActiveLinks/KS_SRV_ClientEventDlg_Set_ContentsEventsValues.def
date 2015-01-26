@@ -1,0 +1,54 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_Set_ContentsEventsValues
+   timestamp      : 1421095784
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\536870917\2\0\
+   action {
+      set-field   : 0\700001680\102\1\@\20\KS_SRV_ContentEvents\1\700001680\4\1\99\536870917\1\179\1\4\
+      set-field   : 1\700001682\102\1\@\20\KS_SRV_ContentEvents\1\700001682\4\1\99\536870917\1\179\1\4\
+      set-field   : 2\700001683\102\1\@\20\KS_SRV_ContentEvents\1\700001683\4\1\99\536870917\1\179\1\4\
+      set-field   : 3\700001686\104\4\102\1\@\20\KS_SRV_ContentEvents\1\700001686\4\1\99\536870917\1\179\1\4\101\2\1000\
+      set-field   : 4\700001687\102\1\@\20\KS_SRV_ContentEvents\1\700001687\4\1\99\536870917\1\179\1\4\
+      set-field   : 5\700001691\102\1\@\20\KS_SRV_ContentEvents\1\700001691\4\1\99\536870917\1\179\1\4\
+      set-field   : 6\700001695\102\1\@\20\KS_SRV_ContentEvents\1\700001695\4\1\99\536870917\1\179\1\4\
+      set-field   : 7\700001696\102\1\@\20\KS_SRV_ContentEvents\1\700001696\4\1\99\536870917\1\179\1\4\
+      set-field   : 8\700001697\102\1\@\20\KS_SRV_ContentEvents\1\700001697\4\1\99\536870917\1\179\1\4\
+      set-field   : 9\700001698\102\1\@\20\KS_SRV_ContentEvents\1\700001698\4\1\99\536870917\1\179\1\4\
+      set-field   : 10\700004502\102\1\@\20\KS_SRV_ContentEvents\1\700001685\4\1\99\536870917\1\179\1\4\
+      set-field   : 11\700004582\102\1\@\20\KS_SRV_ContentEvents\1\700004582\4\1\99\536870917\1\179\1\4\
+      set-field   : 12\700004630\102\1\@\20\KS_SRV_ContentEvents\1\700004630\4\1\99\536870917\1\179\1\4\
+      set-field   : 13\700073250\102\1\@\20\KS_SRV_ContentEvents\1\700073250\4\1\99\536870917\1\179\1\4\
+      set-field   : 14\710060809\102\1\@\20\KS_SRV_ContentEvents\1\710060809\4\1\99\536870917\1\179\1\4\
+      set-field   : 15\760001307\102\1\@\20\KS_SRV_ContentEvents\1\760001307\4\1\99\536870917\1\179\1\4\
+      set-field   : 16\760001604\102\1\@\20\KS_SRV_ContentEvents\1\760001307\4\1\99\536870917\1\179\1\4\
+      set-field   : 17\770006401\102\1\@\20\KS_SRV_ContentEvents\1\770006401\4\1\99\536870917\1\179\1\4\
+      set-field   : 18\770006405\102\1\@\20\KS_SRV_ContentEvents\1\770006405\4\1\99\536870917\1\179\1\4\
+      set-field   : 19\770006406\102\1\@\20\KS_SRV_ContentEvents\1\770006406\4\1\99\536870917\1\179\1\4\
+      set-field   : 20\770006407\102\1\@\20\KS_SRV_ContentEvents\1\770006407\4\1\99\536870917\1\179\1\4\
+      set-field   : 21\770006500\102\1\@\20\KS_SRV_ContentEvents\1\770006500\4\1\99\536870917\1\179\1\4\
+   }
+   action {
+      set-field   : 0\600000261\102\1\@\24\KS_SRV_SimpleDataRequest\1\700000034\4\1\99\700004630\1\179\2\3\
+      set-field   : 1\600000300\102\1\@\24\KS_SRV_SimpleDataRequest\1\600000300\4\1\99\700004630\1\179\2\3\
+      set-field   : 2\700004615\102\1\@\24\KS_SRV_SimpleDataRequest\1\700000030\4\1\99\700004630\1\179\2\3\
+      set-field   : 3\700004660\102\1\@\24\KS_SRV_SimpleDataRequest\1\700007050\4\1\99\700004630\1\179\2\3\
+      set-field   : 4\700007034\102\1\@\24\KS_SRV_SimpleDataRequest\1\700007034\4\1\99\700004630\1\179\2\3\
+      set-field   : 5\700007040\102\1\@\24\KS_SRV_SimpleDataRequest\1\700007040\4\1\99\700004630\1\179\2\3\
+      set-field   : 6\700007051\102\1\@\24\KS_SRV_SimpleDataRequest\1\700007051\4\1\99\700004630\1\179\2\3\
+   }
+   action {
+      set-field   : 0\700004655\105\46\2\102\1\*\1\*\1\700004660\0\1\4\104\1\105\45\2\102\1\*\1\*\1\700004660\0\1\4\101\4\1\;\101\2\1\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

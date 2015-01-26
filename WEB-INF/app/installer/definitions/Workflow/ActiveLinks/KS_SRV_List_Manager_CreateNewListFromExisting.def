@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_List_Manager_CreateNewListFromExisting
+   timestamp      : 1421095819
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Manager
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\4\6\1\700000250\2\0\4\6\1\700002220\2\0\4\2\2\1\24\2\4\1\0\
+   action {
+      push-field  : 0\1\@\25\KS_SRV_List_Relationships\1\7\1\4\1\99\700000250\1\700000001\4\1\99\700002220\1\700000002\4\3\101\6\0\
+      push-field  : 1\1\@\25\KS_SRV_List_Relationships\1\700000001\1\4\1\99\700000250\1\700000001\4\1\99\700002220\1\700000002\4\3\102\1\*\1\*\1\700000250\0\1\4\
+      push-field  : 2\1\@\25\KS_SRV_List_Relationships\1\700000002\1\4\1\99\700000250\1\700000001\4\1\99\700002220\1\700000002\4\3\102\1\*\1\*\1\700002220\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

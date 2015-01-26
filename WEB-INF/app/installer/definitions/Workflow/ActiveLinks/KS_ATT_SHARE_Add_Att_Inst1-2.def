@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_SHARE_Add_Att_Inst1-2
+   timestamp      : 1421095758
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 1
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_DataDictionary2Tables
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\710000010\103\32\@@ :Application-Generate-GUID KS\
+   }
+   action {
+      push-field  : 0\1\@\24\KS_ATT_AttributeInstance\1\179\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000010\0\1\4\
+      push-field  : 1\1\@\24\KS_ATT_AttributeInstance\6\710000041\0\4\1\99\179\1\179\4\3\102\1\*\1\*\6\710000041\0\0\1\4\
+      push-field  : 2\1\@\24\KS_ATT_AttributeInstance\1\300059000\4\1\99\179\1\179\4\3\101\6\0\
+      push-field  : 3\1\@\24\KS_ATT_AttributeInstance\1\490000700\4\1\99\179\1\179\4\3\102\1\*\1\*\1\490000700\0\1\4\
+      push-field  : 4\1\@\24\KS_ATT_AttributeInstance\1\710000001\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000001\0\1\4\
+      push-field  : 5\1\@\24\KS_ATT_AttributeInstance\1\710000009\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000007\0\1\4\
+      push-field  : 6\1\@\24\KS_ATT_AttributeInstance\1\710000012\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000012\0\1\4\
+      push-field  : 7\1\@\24\KS_ATT_AttributeInstance\1\710000040\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000040\0\1\4\
+      push-field  : 8\1\@\24\KS_ATT_AttributeInstance\1\710000042\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000042\0\1\4\
+      push-field  : 9\1\@\24\KS_ATT_AttributeInstance\1\710000043\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000043\0\1\4\
+      push-field  : 10\1\@\24\KS_ATT_AttributeInstance\1\710000044\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000044\0\1\4\
+      push-field  : 11\1\@\24\KS_ATT_AttributeInstance\1\710000046\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000046\0\1\4\
+      push-field  : 12\1\@\24\KS_ATT_AttributeInstance\1\710000047\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000047\0\1\4\
+      push-field  : 13\1\@\24\KS_ATT_AttributeInstance\1\710000051\4\1\99\179\1\179\4\3\102\1\*\1\*\1\710000051\0\1\4\
+      push-field  : 14\1\@\24\KS_ATT_AttributeInstance\1\710000078\4\1\99\179\1\179\4\3\102\1\*\1\*\1\179\0\1\4\
+   }
+   action {
+      set-field   : 0\300363400\101\6\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

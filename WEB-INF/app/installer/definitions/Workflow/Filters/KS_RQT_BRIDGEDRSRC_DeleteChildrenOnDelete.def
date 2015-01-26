@@ -1,0 +1,19 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_RQT_BRIDGEDRSRC_DeleteChildrenOnDelete
+   timestamp      : 1421095861
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 8
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_BridgedResource
+   export-version : 9
+   action {
+      push-field  : 0\1\@\31\KS_RQT_BridgedResourceParameter\1\7\4\1\1\760000901\99\179\3\5\101\6\2\
+   }
+end

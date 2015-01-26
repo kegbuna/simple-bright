@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_NextPage_PageBranchingExample
+   type           : 4
+   num-references : 5
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\15\KS_SRV_NextPage\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_PageBranchingExample_CollectFieldsToCheck
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_PageBranchingDemo_Page1ToPage2
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_PageBranchingDemo_Page1ToPage3
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_PageBranchingDemo_Page1ToConfirmation
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_PageBranchingDemo_Page1ToConfirmation_IfNoSelection
+}
+end

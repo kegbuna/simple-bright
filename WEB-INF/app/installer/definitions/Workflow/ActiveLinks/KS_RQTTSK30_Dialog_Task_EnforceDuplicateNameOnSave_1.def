@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQTTSK30_Dialog_Task_EnforceDuplicateNameOnSave_1
+   timestamp      : 1421095769
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Dialog
+   actlink-mask   : 1
+   actlink-control: 770008623
+   enable         : 1
+   permission     : 10105
+   actlink-query  : 1\4\1\2\1\16\2\4\11\NewTreeView\4\6\1\770008603\2\0\
+   action {
+      set-field   : 0\600000090\101\0\
+   }
+   action {
+      set-field   : 0\600000090\102\1\@\11\KS_TSK_Tree\1\1\1\1\1\4\1\1\700000900\2\4\15\Kinetic Request\4\1\1\700000911\99\760001300\4\1\1\700001000\99\770008603\4\6\1\179\99\770008610\2\3\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

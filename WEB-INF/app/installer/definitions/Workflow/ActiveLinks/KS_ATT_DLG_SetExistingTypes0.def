@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ATT_DLG_SetExistingTypes0
+   timestamp      : 1421095757
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_ATT_Dialog
+   schema-name    : KS_ATT_DataDictionary
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\600000090\101\4\1\0\
+      set-field   : 1\710000005\101\0\
+   }
+   action {
+      set-field   : 0\600000090\102\1\@\32\KS_ATT_AttributeTypeInstanceJoin\1\179\1\1\4\2\1\710000101\99\600000090\4\1\99\179\1\710000078\4\1\1\710000058\2\0\2\3\
+      set-field   : 1\600000091\102\1\@\32\KS_ATT_AttributeTypeInstanceJoin\1\710000101\1\1\4\2\1\710000101\99\600000090\4\1\99\179\1\710000078\4\1\1\710000058\2\0\2\3\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

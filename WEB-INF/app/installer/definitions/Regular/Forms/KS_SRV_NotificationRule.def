@@ -1,0 +1,968 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:17:44 2015
+#
+begin schema
+   name           : KS_SRV_NotificationRule
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 49
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   default-vui    : Default Admin View
+   num-vuis       : 1
+   export-version : 9
+   schema-type    : 1
+   next-field-id  : 536870917
+   permission     : 10105\2
+   permission     : 10307\1
+   index          : 1\700000850\0
+   index          : 1\700000230\0
+   index          : 1\179\1
+   get-list-flds  : 6\700002273\25\0\\700001273\25\0\\700001020\25\0\\700000060\10\0\\700000013\10\0\\700001021\25\0\
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60018\4\20\KSSRVNotifcationRule\
+vui  {
+   id             : 536870912
+   name           : Default Admin View
+   label          : Default Admin View
+   timestamp      : 1421095636
+   vui-locale     : 
+   vui-type       : 1
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   display-prop   : 11\20\4\18\Default Admin View\60019\4\21\ViewWebAlias536870912\201\2\83475\202\2\56900\162\2\7\203\40\1\205\40\1\166\4\8\0xe8e8e8\264\6\0\251\6\0\252\6\
+   display-prop   : 0\
+}
+field {
+   id             : 1
+   name           : Request ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095636
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 10105\2
+ display-instance : 536870912\18\20\4\10\Request ID\61\40\37\60\40\1\3\41\2\23625\25700\45675\29200\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483640\231\6\0\143\40\4294967295\170\40\0&
+ display-instance : \21\41\2\0\0\22050\1300\151\41\2\0\1400\22050\3500\65\41\2\7369987\0\7369987\0\66\41\2\7369987\0\7369987\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 2
+   name           : Submitter
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1421095636
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 254
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : $-1$
+   permission     : 3\1
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\18\20\4\9\Submitter\61\40\33\60\40\1\3\41\2\1575\29300\21600\32800\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483641\231\6\0\143\40\4294967295\170\40\0\21&
+ display-instance : \41\2\0\0\20025\1300\151\41\2\0\1400\20025\3500\65\41\2\20025\0\20025\0\66\41\2\20025\0\20025\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 3
+   name           : Create Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095636
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 3\1
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\18\20\4\11\Create Date\61\40\37\60\40\1\3\41\2\23625\29300\48825\32800\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483642\231\6\0\143\40\4294967295\170\40\&
+ display-instance : 0\21\41\2\0\0\25200\1300\151\41\2\0\1400\22275\3500\65\41\2\14175\0\14175\0\66\41\2\22837\1400\25199\3500\250\6\0\246\2\-1\
+}
+field {
+   id             : 4
+   name           : Assigned To
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095636
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 254
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\18\20\4\11\Assigned To\61\40\30\60\40\1\3\41\2\14175\37200\32175\40700\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483643\231\6\0\143\40\4294967295\170\40\&
+ display-instance : 0\21\41\2\0\0\18000\1300\151\41\2\0\1400\18000\3500\65\41\2\18000\0\18000\0\66\41\2\18000\0\18000\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 5
+   name           : Last Modified By
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095636
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 254
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\18\20\4\16\Last Modified By\61\40\33\60\40\1\3\41\2\1575\33500\21600\37000\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483644\231\6\0\143\40\4294967295\170&
+ display-instance : \40\0\21\41\2\0\0\20025\1300\151\41\2\0\1400\20025\3500\65\41\2\20025\0\20025\0\66\41\2\20025\0\20025\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 6
+   name           : Modified Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\18\20\4\13\Modified Date\61\40\38\60\40\1\3\41\2\23625\33700\49387\37200\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483645\231\6\0\143\40\4294967295\170\4&
+ display-instance : 0\0\21\41\2\0\0\25762\1300\151\41\2\0\1400\22837\3500\65\41\2\14175\0\14175\0\66\41\2\23400\1400\25762\3500\250\6\0\246\2\-1\
+}
+field {
+   id             : 7
+   name           : Status
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Active
+   enum-value     : Inactive
+   enum-value     : Delete
+   default        : 0
+   permission     : 3\1
+   permission     : 4\2
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\23\20\4\6\Status\64\6\0\61\40\0\60\40\1\3\41\2\51637\3300\59174\6800\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483646\231\6\0\230\4\30\3\0\Active\1\Inact&
+ display-instance : ive\2\Delete\143\40\4294967295\170\40\0\21\41\2\0\0\7537\1300\151\41\2\0\1400\7537\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\62\6\0\90\6\1\91\6\4\250\6\0\246&
+ display-instance : \2\-1\
+}
+field {
+   id             : 8
+   name           : Short Description
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 254
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : na
+   permission     : 3\1
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\17\Short Description\61\40\17\60\40\1\3\41\2\1575\37300\15637\40800\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483647\231\6\0\143\40\4294967295\17&
+ display-instance : 0\40\0\21\41\2\0\0\14062\1300\151\41\2\0\1400\11137\3500\65\41\2\0\0\0\0\66\41\2\11700\1400\14062\3500\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 15
+   name           : Status History
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 3\1
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+}
+field {
+   id             : 179
+   name           : instanceId
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 3\2
+   permission     : 4\2
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\24\5\6\0\7\40\2147483657\4\6\1\61\40\33\60\40\1\3\41\2\1575\25500\21600\29000\20\4\10\instanceId\24\4\0\\28\6\4\29\6\1\21\41\2\0\0\20025\1300\27\8\&
+ display-instance : 2\151\41\2\0\1400\20025\3500\65\41\2\22162\0\22162\0\66\41\2\22162\0\22162\0\143\40\2\228\40\1\240\40\0\22\4\0\\91\6\0\231\6\0\170\40\0\250\6\0\246\2\-1&
+ display-instance : \
+}
+field {
+   id             : 70000082
+   name           : _CustomerSurveyInstanceID_Field_ID
+   datatype       : 4
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+ display-instance : 536870912\20\20\4\34\_CustomerSurveyInstanceID_Field_ID\61\40\34\60\40\1\3\41\2\56137\41800\76387\45300\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483680\231\6\0\14&
+ display-instance : 3\40\4294967295\170\40\0\21\41\2\0\0\20250\1300\151\41\2\0\1400\20250\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 70000083
+   name           : _FormID
+   datatype       : 4
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+ display-instance : 536870912\20\20\4\7\_FormID\61\40\17\60\40\1\3\41\2\56137\33400\66824\36900\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483679\231\6\0\143\40\4294967295\170\40\0\21\&
+ display-instance : 41\2\0\0\10687\1300\151\41\2\0\1400\10687\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 70000087
+   name           : _ValueField_ID
+   datatype       : 4
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+ display-instance : 536870912\20\20\4\14\_ValueField_ID\61\40\17\60\40\1\3\41\2\56137\37600\66824\41100\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483678\231\6\0\143\40\4294967295\170\&
+ display-instance : 40\0\21\41\2\0\0\10687\1300\151\41\2\0\1400\10687\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 490000700
+   name           : OperationID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 10105\2
+ display-instance : 536870912\23\14\40\1\20\4\11\OperationID\3\41\2\33075\52500\57825\54600\4\6\1\5\6\2\60\40\1\61\40\27\27\8\16\28\6\4\29\6\1\7\40\2147483691\231\6\0\143\40\429&
+ display-instance : 4967295\21\41\2\0\400\7987\2100\151\41\2\8100\0\24750\2100\65\41\2\7358962\0\7358962\0\66\41\2\7358962\0\7358962\0\228\40\1\90\6\1\91\6\1\250\6\0\246\2\&
+ display-instance : -1\170\40\0\
+}
+field {
+   id             : 600000042
+   name           : _ActionOne
+   datatype       : 4
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\23\14\40\1\170\40\0\20\4\10\_ActionOne\3\41\2\1575\41100\16762\44600\4\6\1\5\6\2\60\40\1\61\40\25\27\8\2\28\6\4\29\6\1\7\40\2147483661\231\6\0\143\&
+ display-instance : 40\4294967295\21\41\2\0\0\15187\1300\151\41\2\0\1400\15187\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\228\40\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 600000043
+   name           : _ActionTwo
+   datatype       : 4
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\23\14\40\1\170\40\0\20\4\10\_ActionTwo\3\41\2\18337\41100\33524\44600\4\6\1\5\6\2\60\40\1\61\40\25\27\8\2\28\6\4\29\6\1\7\40\2147483662\231\6\0\143&
+ display-instance : \40\4294967295\21\41\2\0\0\15187\1300\151\41\2\0\1400\15187\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\228\40\1\250\6\0\246\2\-1\
+}
+field {
+   id             : 600000097
+   name           : _Multi-Purpose-Integer
+   datatype       : 2
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   range-low      : -2147483647
+   range-high     : 2147483647
+   permission     : 10105\2
+ display-instance : 536870912\24\14\40\1\20\4\21\Multi-Purpose-Integer\3\41\2\37575\65200\61762\67300\4\6\1\5\6\2\62\6\1\60\40\1\61\40\18\27\8\16\28\6\4\29\6\1\7\40\2147483690\2&
+ display-instance : 31\6\0\143\40\26\21\41\2\0\400\11250\2100\151\41\2\11812\0\24187\2100\65\41\2\0\0\0\0\66\41\2\0\0\0\0\228\40\1\250\6\0\246\2\-1\170\40\0\90\6\1\91\6\1\
+}
+field {
+   id             : 600000127
+   name           : Tx_TextHeader
+   datatype       : 31
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 10105\1
+   permission     : 10307\1
+ display-instance : 536870912\20\14\40\1\170\40\0\3\41\2\1575\200\14512\2100\4\6\1\5\6\2\81\4\7\Header3\80\4\11\Survey Rule\1\6\3\91\6\2\90\6\1\7\40\2147483653\143\40\4294967295&
+ display-instance : \21\41\2\2475\0\30937\1900\151\41\2\2475\500\12937\2400\65\41\2\0\0\0\0\66\41\2\0\0\0\0\83\4\11\Survey Rule\40\41\0\\250\6\0\246\2\-1\
+}
+field {
+   id             : 600000260
+   name           : ExternalQualification
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 0
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\21\ExternalQualification\3\41\2\1462\7200\60524\12000\4\6\1\5\6\2\60\40\2\61\40\97\27\8\2\28\6\4\29\6\1\7\40\2147483674\231\6\0\143&
+ display-instance : \40\4294967295\21\41\2\0\0\59062\1300\151\41\2\0\1300\56137\4700\65\41\2\7358850\0\7358850\0\66\41\2\56700\1300\59062\3400\90\6\1\91\6\4\170\40\0\250\6\&
+ display-instance : 0\246\2\-1\
+   help-text      : Identifies the button/action the user selected.  Would typically contain "OK" or "Cancel".
+}
+field {
+   id             : 600000261
+   name           : DisplayQualification
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 0
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\20\DisplayQualification\3\41\2\900\56300\59962\61100\4\6\1\5\6\2\60\40\2\61\40\97\27\8\2\28\6\4\29\6\1\7\40\2147483686\231\6\0\143\&
+ display-instance : 40\4294967295\21\41\2\0\0\59062\1300\151\41\2\0\1300\56137\4700\65\41\2\7358850\0\7358850\0\66\41\2\56700\1300\59062\3400\90\6\1\91\6\4\170\40\0\250\6\0&
+ display-instance : \246\2\-1\
+   help-text      : Identifies the button/action the user selected.  Would typically contain "OK" or "Cancel".
+}
+field {
+   id             : 700000013
+   name           : Value_Int
+   datatype       : 2
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   range-low      : -1000
+   range-high     : 1000
+   default        : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\23\14\40\1\170\40\0\20\4\11\Value (Int)\3\41\2\36000\13000\44662\16500\4\6\1\5\6\2\62\6\1\60\40\1\61\40\12\27\8\2\28\6\4\29\6\1\7\40\2147483649\231&
+ display-instance : \6\0\143\40\4294967295\21\41\2\0\0\8662\1300\151\41\2\0\1400\8662\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700000050
+   name           : NotifyOnAnswerID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 3\1
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\16\NotifyOnAnswerID\61\40\30\60\40\1\3\41\2\33525\37400\51525\40800\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483650\231\6\0\143\40\4294967295\17&
+ display-instance : 0\40\0\21\41\2\0\0\18000\1300\151\41\2\0\1300\18000\3400\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+   help-text      : Optional Survey ID that this choice is linked to.  Used for custom value options.
+}
+field {
+   id             : 700000060
+   name           : ValueIsOperand
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : =
+   enum-value     : <
+   enum-value     : >
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\24\14\40\1\170\40\0\230\4\51\3\0\= (equal to)\1\< (less than)\2\> (greater than)\20\4\14\When Value Is:\3\41\2\23625\13000\34762\16500\4\6\1\5\6\2\&
+ display-instance : 64\6\0\60\40\1\61\40\25\27\8\2\28\6\4\29\6\1\7\40\2147483651\231\6\0\143\40\4294967295\21\41\2\0\0\11137\1300\151\41\2\0\1400\11137\3500\65\41\2\0\0\0\0&
+ display-instance : \66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700000230
+   name           : QuestionInstanceID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 3\1
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\20\Question Instance ID\61\40\37\60\40\1\3\41\2\23625\21200\45675\24700\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483656\231\6\0\143\40\429496729&
+ display-instance : 5\21\41\2\0\0\22050\1300\151\41\2\0\1400\22050\3500\65\41\2\7361212\0\7361212\0\66\41\2\7361212\0\7361212\0\170\40\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700000850
+   name           : SurveyInstanceID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 3\1
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\18\Survey Instance ID\61\40\34\60\40\1\3\41\2\1575\21200\22275\24700\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483654\231\6\0\143\40\4294967295\1&
+ display-instance : 70\40\0\21\41\2\0\0\20700\1300\151\41\2\0\1400\20700\3500\65\41\2\8887\0\8887\0\66\41\2\8887\0\8887\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+   help-text      : Optional Survey ID that this choice is linked to.  Used for custom value options.
+}
+field {
+   id             : 700001020
+   name           : NotifyOnAnswer
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 60
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\16\Notify On Answer\61\40\34\60\40\1\3\41\2\1575\13000\22050\16500\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483652\231\6\0\143\40\4294967295\170&
+ display-instance : \40\0\21\41\2\0\0\20475\1300\151\41\2\0\1400\20475\3500\65\41\2\8775\0\8775\0\66\41\2\8775\0\8775\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001021
+   name           : Value_Viewer
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\170\40\0\20\4\12\Value Viewer\3\41\2\45900\13000\66487\16500\4\6\1\5\6\2\60\40\1\61\40\34\27\8\2\28\6\4\29\6\1\7\40\2147483665\231\6\0\1&
+ display-instance : 43\40\4294967295\21\41\2\0\0\20587\1300\151\41\2\0\1400\20587\3500\65\41\2\7087\0\7087\0\66\41\2\7087\0\7087\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001022
+   name           : NotifyOnAnswerDisaplyName
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 254
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\29\Notify On Answer Display Name\61\40\34\60\40\1\3\41\2\52875\16800\76275\20300\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483675\231\6\0\143\40\&
+ display-instance : 4294967295\170\40\0\21\41\2\0\0\23400\1300\151\41\2\0\1400\20475\3500\65\41\2\8775\0\8775\0\66\41\2\21037\1400\23399\3500\90\6\1\91\6\4\250\6\0\246\2\-1&
+ display-instance : \
+}
+field {
+   id             : 700001043
+   name           : _ActionThree
+   datatype       : 4
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\23\14\40\1\170\40\0\20\4\12\_ActionThree\3\41\2\34762\41500\49949\45000\4\6\1\5\6\2\60\40\1\61\40\25\27\8\2\28\6\4\29\6\1\7\40\2147483663\231\6\0\1&
+ display-instance : 43\40\4294967295\21\41\2\0\0\15187\1300\151\41\2\0\1400\15187\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\228\40\1\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001097
+   name           : HoursAfterSend
+   datatype       : 2
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   range-low      : -2147483647
+   range-high     : 2147483647
+   permission     : 10105\2
+ display-instance : 536870912\22\14\40\1\170\40\0\20\4\14\HoursAfterSend\3\41\2\57937\27300\66487\30800\4\6\1\5\6\2\62\6\1\60\40\1\61\40\12\27\8\2\28\6\4\29\6\1\7\40\2147483682\&
+ display-instance : 231\6\0\143\40\26\21\41\2\0\0\8550\1300\151\41\2\0\1400\8550\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\228\40\1\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001185
+   name           : NotificationAssignment_QstnNmbr
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 10105\2
+ display-instance : 536870912\22\14\40\1\20\4\31\NotificationAssignment_QstnNmbr\3\41\2\42862\48600\60862\52100\4\6\1\5\6\2\60\40\1\61\40\15\27\8\2\28\6\4\29\6\1\7\40\2147483673&
+ display-instance : \231\6\1\143\40\4294967295\21\41\2\0\0\18000\1300\151\41\2\0\1400\9675\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\170\40\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001200
+   name           : Question_Number
+   datatype       : 10
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   range-low      : 0
+   range-high     : 99999.99
+   precision      : 2
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\170\40\0\20\4\15\Question Number\3\41\2\46912\21200\57937\24700\4\6\1\5\6\2\60\40\1\61\40\14\27\8\2\28\6\4\29\6\1\7\40\2147483659\231\6\&
+ display-instance : 0\143\40\4294967295\21\41\2\0\0\11025\1300\151\41\2\0\1400\9225\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001211
+   name           : SendAfterReminder
+   datatype       : 2
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   range-low      : 0
+   range-high     : 9999
+   default        : 0
+   permission     : 10105\2
+ display-instance : 536870912\24\14\40\1\170\40\0\20\4\17\SendAfterReminder\3\41\2\57037\21000\67837\24500\4\6\1\5\6\2\62\6\1\60\40\1\61\40\16\27\8\2\28\6\4\29\6\1\7\40\21474836&
+ display-instance : 84\231\6\0\143\40\35\21\41\2\0\0\10800\1300\151\41\2\0\1400\10800\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\64\6\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001261
+   name           : Message_Template
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 60
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   char-menu      : KS_SRV_EmailTemplates
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\16\Message Template\61\40\38\60\40\1\3\41\2\1575\16900\27112\20300\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483655\231\6\0\143\40\4294967295\170&
+ display-instance : \40\0\21\41\2\0\0\25537\1300\151\41\2\0\1300\22612\3400\65\41\2\23175\1300\25537\3400\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+   help-text      : Optional Survey ID that this choice is linked to.  Used for custom value options.
+}
+field {
+   id             : 700001273
+   name           : Rule_Name
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\170\40\0\20\4\9\Rule Name\3\41\2\25875\3500\49837\7000\4\6\1\5\6\2\60\40\1\61\40\40\27\8\2\28\6\4\29\6\1\7\40\2147483658\231\6\0\143\40\&
+ display-instance : 4294967295\21\41\2\0\0\23962\1300\151\41\2\0\1400\23962\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001279
+   name           : _ExternalQual_Temp
+   datatype       : 4
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 0
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 10105\2
+ display-instance : 536870912\20\14\40\1\170\40\0\20\4\18\Qualification_Temp\3\41\2\1237\52500\31049\54600\4\6\1\5\6\2\60\40\1\61\40\27\27\8\16\28\6\4\29\6\1\7\40\2147483683\231&
+ display-instance : \6\0\143\40\4294967295\21\41\2\0\400\10237\2100\151\41\2\10350\0\26887\2100\65\41\2\0\0\0\0\66\41\2\27450\0\29812\2100\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001859
+   name           : MessageTemplateInstanceID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 3\1
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\28\Message Template Instance ID\61\40\38\60\40\1\3\41\2\28575\16800\51187\20300\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483660\231\6\0\143\40\4&
+ display-instance : 294967295\170\40\0\21\41\2\0\0\22612\1300\151\41\2\0\1400\22612\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+   help-text      : Optional Survey ID that this choice is linked to.  Used for custom value options.
+}
+field {
+   id             : 700001895
+   name           : NotificationAssignmentType
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Standard
+   enum-value     : Dynamic
+   default        : 0
+   permission     : 10105\2
+ display-instance : 536870912\24\14\40\1\170\40\0\230\4\22\2\0\Standard\1\Dynamic\20\4\26\NotificationAssignmentType\3\41\2\23062\44900\37799\48400\4\6\1\5\6\2\64\6\0\60\40\1\61&
+ display-instance : \40\25\27\8\2\28\6\4\29\6\1\7\40\2147483667\231\6\0\143\40\4294967295\21\41\2\0\0\14737\1300\151\41\2\0\1400\14737\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\&
+ display-instance : 90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001899
+   name           : _NotifyOnAnswer_Assigned
+   datatype       : 4
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 60
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\27\Notify On Answer (Assigned)\61\40\34\60\40\1\3\41\2\1687\44900\22162\48400\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483666\231\6\0\143\40\429&
+ display-instance : 4967295\170\40\0\21\41\2\0\0\20475\1300\151\41\2\0\1400\20475\3500\65\41\2\8775\0\8775\0\66\41\2\8775\0\8775\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001954
+   name           : NotificationAssignment_QstnID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 3\1
+   permission     : 10105\2
+ display-instance : 536870912\25\5\6\0\7\40\2147483672\4\6\1\61\40\31\60\40\1\3\41\2\23287\48600\42074\52100\20\4\29\NotificationAssignment_QstnID\24\4\0\\28\6\4\29\6\1\21\41\2\&
+ display-instance : 0\0\18787\1300\27\8\2\151\41\2\0\1400\18787\3500\65\41\2\450\0\450\0\66\41\2\450\0\450\0\143\40\0\228\40\0\240\40\0\22\4\0\\91\6\4\231\6\0\170\40\0\90\6&
+ display-instance : \1\250\6\0\246\2\-1\
+}
+field {
+   id             : 700001966
+   name           : NotificationAssignmentForm
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 3\1
+   permission     : 10105\2
+ display-instance : 536870912\25\5\6\0\7\40\2147483671\4\6\1\61\40\31\60\40\1\3\41\2\1575\48700\20362\52200\20\4\27\NotificationAssignment_Form\24\4\0\\28\6\4\29\6\1\21\41\2\0\0&
+ display-instance : \18787\1300\27\8\2\151\41\2\0\1400\18787\3500\65\41\2\450\0\450\0\66\41\2\450\0\450\0\143\40\0\228\40\0\240\40\0\22\4\0\\91\6\4\231\6\0\170\40\0\90\6\1\&
+ display-instance : 250\6\0\246\2\-1\
+}
+field {
+   id             : 700002273
+   name           : Rule_Type
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 30
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   char-menu      : KS_SRV_RuleTypes
+   permission     : 4\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\20\20\4\9\Rule Type\61\40\34\60\40\1\3\41\2\1575\3200\24750\6700\4\6\1\28\6\4\29\6\1\27\8\2\7\40\2147483664\231\6\0\143\40\4294967295\170\40\0\21\4&
+ display-instance : 1\2\0\0\23175\1300\151\41\2\0\1400\20250\3500\65\41\2\20812\1400\23174\3500\66\41\2\8775\0\8775\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700006310
+   name           : ReminderID
+   datatype       : 2
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   range-low      : 0
+   range-high     : 9999
+   default        : 0
+   permission     : 10105\2
+ display-instance : 536870912\23\14\40\1\170\40\0\20\4\10\ReminderID\3\41\2\48600\27400\56812\30900\4\6\1\5\6\2\62\6\1\60\40\1\61\40\12\27\8\2\28\6\4\29\6\1\7\40\2147483681\231\&
+ display-instance : 6\0\143\40\4294967295\21\41\2\0\0\8212\1300\151\41\2\0\1400\8212\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\250\6\0\246\2\-1\
+}
+field {
+   id             : 700006350
+   name           : Trigger_on_Validation_Status_change
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Yes
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\17\14\40\1\170\40\0\230\4\7\1\0\Yes\20\4\35\Trigger on Validation Status change\3\41\2\60862\4500\86962\6300\4\6\1\5\6\2\64\6\2\7\40\2147483685\231&
+ display-instance : \6\0\143\40\4294967295\21\41\2\0\400\19012\1800\151\41\2\19575\400\26100\1800\65\41\2\0\0\0\0\66\41\2\0\0\0\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 700036000
+   name           : ApplicationName
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 80
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10110\1
+ display-instance : 536870912\15\3\41\2\37575\67900\65250\70000\20\4\15\ApplicationName\7\40\2147483692\231\6\0\143\40\4294967295\170\40\0\21\41\2\0\400\9000\2100\151\41\2\9562\&
+ display-instance : 0\24749\2100\65\41\2\0\0\0\0\66\41\2\25312\0\27674\2100\61\40\25\4\6\1\5\6\2\250\6\0\246\2\-1\
+}
+field {
+   id             : 700072018
+   name           : Run_When
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Always
+   enum-value     : When
+   default        : 0
+   permission     : 10105\2
+ display-instance : 536870912\23\14\40\1\230\4\17\2\0\Always\1\When\20\4\8\Run_When\3\41\2\61875\8100\73125\11600\4\6\1\5\6\2\64\6\0\60\40\1\61\40\25\27\8\2\28\6\4\29\6\1\7\40\2&
+ display-instance : 147483693\231\6\0\143\40\4294967295\21\41\2\0\0\11250\1300\151\41\2\0\1400\11025\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\22\4\7\Default\90\6\1\91\6\4\170\4&
+ display-instance : 0\0\
+}
+field {
+   id             : 702020300
+   name           : Use Business Hours
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Use Business Hours
+   permission     : 10105\2
+ display-instance : 536870912\18\14\40\1\170\40\0\230\4\22\1\0\Use Business Hours\20\4\0\\3\41\2\4162\62100\17212\63900\4\6\1\5\6\2\64\6\2\7\40\2147483689\231\6\0\143\40\4294967&
+ display-instance : 295\21\41\2\0\0\112\1800\151\41\2\225\400\13050\1800\65\41\2\0\0\0\0\66\41\2\0\0\0\0\228\40\1\250\6\0\246\2\-1\
+}
+field {
+   id             : 702020301
+   name           : Holiday Schedule
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 128
+   menu-style     : 2
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   char-menu      : KS_SRV_HolidaySchedule
+   permission     : 10105\2
+ display-instance : 536870912\23\14\40\1\170\40\0\20\4\16\Holiday Schedule\3\41\2\2475\65500\31612\67700\4\6\1\5\6\2\60\40\1\61\40\25\27\8\16\28\6\4\29\6\1\7\40\2147483688\231\6&
+ display-instance : \1\143\40\4294967295\21\41\2\0\400\10462\1700\151\41\2\11025\0\26212\2100\65\41\2\26775\0\29137\2100\66\41\2\0\0\0\0\67\6\0\240\40\0\228\40\1\250\6\0\24&
+ display-instance : 6\2\-1\
+}
+field {
+   id             : 702020302
+   name           : Workday Schedule
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095637
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 128
+   menu-style     : 2
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   char-menu      : KS_SRV_WorkdaySchedule
+   permission     : 10105\2
+ display-instance : 536870912\21\14\40\1\170\40\0\20\4\16\Workday Schedule\3\41\2\2475\67900\31612\70000\4\6\1\5\6\2\60\40\1\61\40\25\27\8\16\28\6\4\29\6\1\7\40\2147483687\231\6&
+ display-instance : \1\143\40\4294967295\21\41\2\0\400\10462\2100\151\41\2\11025\0\26212\2100\65\41\2\26775\0\29137\2100\66\41\2\0\0\0\0\228\40\1\250\6\0\246\2\-1\
+}
+end

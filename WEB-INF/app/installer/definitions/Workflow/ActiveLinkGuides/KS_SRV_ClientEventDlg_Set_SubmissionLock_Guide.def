@@ -1,0 +1,38 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_ClientEventDlg_Set_SubmissionLock_Guide
+   type           : 1
+   num-references : 4
+   timestamp      : 1421095851
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\25\KS_SRV_ClientEvent_Dialog\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   label          : KS_SRV_ClientEventDlg_Set_SubmissionLock_Guide
+   description    : Sets fields specific for Submission Lock events
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Set_SubmissionLockTextHeader
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Set_SubmissionLockValues
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Set_SubmissionLockDefaults
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_ClientEventDlg_Set_SubmissionLockOptions
+}
+end

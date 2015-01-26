@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_MSG_MESSAGE_ReplaceEmbedSurvey_HeaderFooter
+   timestamp      : 1421095876
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 750
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Message
+   export-version : 9
+   filter-query   : 1\4\6\99\600000530\2\0\4\1\99\700000101\2\4\15\Survey Embedded\
+   action {
+      set-field   : 0\18290\104\1\104\1\104\1\104\1\101\4\902\<html><head><meta http-equiv='Content-Type' content='text/html; charset=windows-1252'><script>var maxCharsOnSubmit = 4000;var tooManyCharactersForSubmitStr = 'A limit of '+maxCharsOnSubmit
+      set-field   : 0\+' characters for a submit is being applied. Please reduce the number of characters you are attempting to submit.';var requiredWarningStr = 'Required fields missing:';var validFormatWarningStr = 'Invalid formatted fields:';var int
+      set-field   : 0\egerCharsOnlyStr = 'Only numeric values are allowed for this field.';var decimalCharsOnlyStr = 'Only decimal values are allowed for this field.';</script><script>var dateSeperator = '/';var dateFormat = 'MDY';</script><scri
+      set-field   : 0\pt language='JavaScript' src='<FLD>MidTier_Server;700001259;BASE</FLD>KineticSurvey/Editor/js/ts_picker.js'></script><script language='JavaScript' src='<FLD>MidTier_Server;700001259;BASE</FLD>KineticSurvey/Editor/js/kd_survey.js'><
+      set-field   : 0\/script>\102\1\@\1\@\1\700044578\0\1\4\101\4\67\ </head><body topmargin='0' marginheight='0' bgcolor='#FFFFFF'>\102\1\@\1\@\1\18290\0\1\4\101\4\15\</body></html>\
+
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEventDlg_ShiftFieldMapUp_02
+   timestamp      : 1421095785
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 11
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   actlink-mask   : 1
+   actlink-control: 700073255
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\6\1\770000218\2\0\4\6\1\600000090\2\0\
+   action {
+      set-field   : 0\600000090\101\0\
+      set-field   : 1\700003183\101\6\1\
+   }
+   action {
+      push-field  : 0\1\@\15\KS_SRV_FieldMap\1\700002400\1\4\1\1\700008060\99\536870917\4\1\1\700073250\3\2\99\770000223\2\2\1\1\3\101\2\1\
+   }
+   action {
+      push-field  : 0\1\@\15\KS_SRV_FieldMap\1\700002400\4\1\1\179\99\770000218\1\3\104\6\101\2\1\
+   }
+   action {
+      push-field  : 0\1\@\15\KS_SRV_FieldMap\1\600000042\1\4\1\1\700008060\99\536870917\4\6\1\700001212\2\0\3\5\101\4\10\RESET_SORT\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700009500
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

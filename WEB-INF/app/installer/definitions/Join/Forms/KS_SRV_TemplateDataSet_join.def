@@ -1,0 +1,257 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:18:33 2015
+#
+begin schema
+   name           : KS_SRV_TemplateDataSet_join
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 10
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   default-vui    : Default Admin View
+   num-vuis       : 1
+   export-version : 9
+   schema-type    : 2
+      primary     : KS_SRV_SurveyTemplate
+      secondary   : KS_SRV_DataSet
+      join-option : 0
+      join-query  : 4\1\99\700000829\1\700000829\
+   next-field-id  : 536870915
+   permission     : 0\2
+   permission     : 10105\2
+   get-list-flds  : 6\700001000\25\0\\700000829\10\0\\536870913\15\0\\700000828\20\0\\700000820\15\0\\700000810\20\0\
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60018\4\0\\
+vui  {
+   id             : 536870912
+   name           : Default Admin View
+   label          : Default Admin View
+   timestamp      : 1421095681
+   vui-locale     : 
+   vui-type       : 1
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   display-prop   : 4\20\4\18\Default Admin View\60019\4\21\ViewWebAlias536870912\251\6\0\252\6\0\
+}
+field {
+   id             : 1
+   name           : Request ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 10105\2
+ display-instance : 536870912\17\20\4\10\Request ID\3\41\2\1012\2500\29024\4900\7\40\2147483648\231\6\0\143\40\4294967295\27\8\16\91\6\2\90\6\1\60\40\1\170\40\0\21\41\2\0\400\68&
+ display-instance : 62\2400\151\41\2\7425\0\24975\2100\65\41\2\0\0\0\0\66\41\2\25650\0\28012\2100\61\40\29\250\6\0\246\2\-1\
+}
+field {
+   id             : 179
+   name           : instanceId
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 179
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 3\2
+   permission     : 4\2
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\25\5\6\0\7\40\2147483649\4\6\1\61\40\46\60\40\1\3\41\2\4725\13900\31725\17400\20\4\10\instanceId\24\4\0\\28\6\4\29\6\1\21\41\2\0\0\27000\1300\27\8\&
+ display-instance : 2\151\41\2\0\1400\27000\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\143\40\2\228\40\1\240\40\0\22\4\0\\91\6\0\231\6\0\90\6\1\170\40\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 536870913
+   name           : Survey_Form_Name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 536870913
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   default        : KS_SRV_CustomerSurvey
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\16\Survey Form Name\3\41\2\3262\35500\24074\39000\4\6\1\5\6\2\60\40\1\61\40\35\27\8\2\28\6\4\29\6\1\7\40\2147483655\231\6\0\143\40\&
+ display-instance : 4294967295\21\41\2\0\0\20812\1300\151\41\2\0\1400\20812\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\170\40\0\250\6\0\246\2\-1\
+   help-text      : The description of the menu item.  This is what will show up in the users menu of items.
+}
+field {
+   id             : 536870914
+   name           : instanceid
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 179
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\10\instanceid\3\41\2\9675\89600\34875\91700\4\6\1\5\6\2\60\40\1\61\40\33\27\8\16\28\6\4\29\6\1\7\40\2147483652\231\6\0\143\40\42949&
+ display-instance : 67295\21\41\2\0\400\5400\2100\151\41\2\5512\0\25199\2100\65\41\2\-1575\0\-1575\0\66\41\2\-1575\0\-1575\0\90\6\1\91\6\4\170\40\0\250\6\0\246\2\-1\
+   help-text      : The value of the field when the menu item is selected.  May be the same as the description.
+}
+field {
+   id             : 700000810
+   name           : FieldLabel
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 700000810
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\11\Field Label\3\41\2\3262\23700\24074\27200\4\6\1\5\6\2\60\40\1\61\40\35\27\8\2\28\6\4\29\6\1\7\40\2147483651\231\6\0\143\40\42949&
+ display-instance : 67295\21\41\2\0\0\20812\1300\151\41\2\0\1400\20812\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\170\40\0\250\6\0\246\2\-1\
+   help-text      : The description of the menu item.  This is what will show up in the users menu of items.
+}
+field {
+   id             : 700000820
+   name           : Survey_Field_ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 700000820
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 20
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\15\Survey Field ID\3\41\2\3262\31600\24074\35100\4\6\1\5\6\2\60\40\1\61\40\35\27\8\2\28\6\4\29\6\1\7\40\2147483653\231\6\0\143\40\4&
+ display-instance : 294967295\21\41\2\0\0\20812\1300\151\41\2\0\1400\20812\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\170\40\0\250\6\0\246\2\-1\
+   help-text      : The value of the field when the menu item is selected.  May be the same as the description.
+}
+field {
+   id             : 700000828
+   name           : Survey_Field_Name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 700000828
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 60
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\17\Survey Field Name\3\41\2\3262\27700\24074\31200\4\6\1\5\6\2\60\40\1\61\40\35\27\8\2\28\6\4\29\6\1\7\40\2147483654\231\6\0\143\40&
+ display-instance : \4294967295\21\41\2\0\0\20812\1300\151\41\2\0\1400\20812\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\170\40\0\250\6\0\246\2\-1\
+   help-text      : The value of the field when the menu item is selected.  May be the same as the description.
+}
+field {
+   id             : 700000829
+   name           : Data_Set
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 700000829
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 50
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\8\Data Set\3\41\2\3262\19900\24074\23400\4\6\1\5\6\2\60\40\1\61\40\35\27\8\2\28\6\4\29\6\1\7\40\2147483656\231\6\0\143\40\429496729&
+ display-instance : 5\21\41\2\0\0\20812\1300\151\41\2\0\1400\20812\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\170\40\0\250\6\0\246\2\-1\
+   help-text      : The value of the field when the menu item is selected.  May be the same as the description.
+}
+field {
+   id             : 700001000
+   name           : Survey_Template_Name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 700001000
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 95
+   menu-style     : 1
+   qbe-match-op   : 2
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+   permission     : 10307\1
+ display-instance : 536870912\22\14\40\1\20\4\20\Survey Template Name\3\41\2\2587\5800\31274\9300\4\6\1\5\6\2\60\40\1\61\40\49\27\8\2\28\6\4\29\6\1\7\40\2147483650\231\6\0\143\4&
+ display-instance : 0\4294967295\21\41\2\0\0\28687\1300\151\41\2\0\1400\28687\3500\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\1\91\6\4\170\40\0\250\6\0\246\2\-1\
+}
+field {
+   id             : 700036000
+   name           : Application
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 700036000
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1421095681
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 80
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\17\20\4\11\Application\3\41\2\2362\10300\24074\12400\61\40\20\60\40\1\7\40\2147483657\231\6\0\143\40\4294967295\27\8\16\91\6\2\90\6\1\170\40\0\21\4&
+ display-instance : 1\2\0\400\5850\2100\151\41\2\6412\0\18787\2100\65\41\2\0\0\0\0\66\41\2\19350\0\21712\2100\250\6\0\246\2\-1\
+}
+end

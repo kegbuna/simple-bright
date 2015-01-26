@@ -1,0 +1,85 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_ModifyCatalog_00
+   timestamp      : 1421095773
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 16384
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\2\1\16\2\4\19\New Service Catalog\4\1\1\700009350\2\4\14\Modify Catalog\
+   action {
+      set-field   : 0\112\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\112\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 1\179\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\700001923\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 2\600000500\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\536870916\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 3\700000800\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\700001923\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 4\700001259\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\700001259\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 5\700001923\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\700001923\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 6\700002301\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\700002301\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 7\700003425\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\536870916\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 8\700003458\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\702020006\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 9\700073100\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\700073100\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 10\700073102\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\700073102\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 11\702020005\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\702020005\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 12\702020007\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\7\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 13\702020020\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\702020004\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 14\702030106\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\702030106\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 15\702030107\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\702030107\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 16\702030108\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\702030108\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 17\702030109\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\702030109\4\1\1\536870916\99\700002030\1\3\
+      set-field   : 18\702031800\102\1\@\40\KS_RQT_ServiceCatalog_base_Category_join\1\702031800\4\1\1\536870916\99\700002030\1\3\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 710000048
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 710000050
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      set-field   : 0\700003426\102\1\*\1\*\1\112\0\1\4\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700401970
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700001090
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 710060134
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 710000250
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

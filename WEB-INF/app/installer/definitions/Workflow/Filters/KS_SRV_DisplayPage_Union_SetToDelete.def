@@ -1,0 +1,20 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_DisplayPage_Union_SetToDelete
+   timestamp      : 1421095873
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 200
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_DisplayPage_UNION
+   export-version : 9
+   filter-query   : 2\2\4\1\99\700002400\2\6\1\4\1\99\700002401\2\6\4\4\1\50\700002301\2\0\
+   action {
+      set-field   : 0\7\101\6\2\
+   }
+end

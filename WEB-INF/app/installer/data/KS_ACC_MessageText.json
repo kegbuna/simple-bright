@@ -1,0 +1,1754 @@
+{
+  "form" : "KS_ACC_MessageText",
+  "duplicateRecordQualifierFieldNames" : [ "Message_Number" ],
+  "data" : [ {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 230,
+    "Message_Text" : "A value must be selected.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 120,
+    "Message_Text" : "Do you wish to delete the selected item(s)?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 231,
+    "Message_Text" : "A value must be selected in both Tables.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 232,
+    "Message_Text" : "All fields in bold must have a value.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 100,
+    "Message_Text" : "Do you want to save your changes?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 200,
+    "Message_Text" : "Operation Canceled.",
+    "Message_Type" : "2"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 205,
+    "Message_Text" : "No Results Found",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 540,
+    "Message_Text" : "You must enter a Template Name before you can add questions.\n\n\n\n\n",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 541,
+    "Message_Text" : "For image attachments you should not include any spaces or other illegal characters in file names.  Override the default file name if needed.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 542,
+    "Message_Text" : "You cannot return to \"New\" status once a template is \"Active\".  Do you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 543,
+    "Message_Text" : "The Kinetic Manager Licenses have been Exceeded .  Please contact Kinetic Data.  \nsupport@kineticdata.com",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 544,
+    "Message_Text" : "Illegal value for 'Display Name for URL'; Duplicate Name or Invalid Character.\n",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 545,
+    "Message_Text" : "Warning! Renumbering questions begins with #1 by default. Select Yes to continue, No to cancel.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 546,
+    "Message_Text" : "Template and all related Events will be deleted. Yes to Continue, No to Cancel",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 572,
+    "Message_Text" : "**Before deleting, be sure that there are no active uses of this message template, or message errors will occur.  \n\nAre you sure you want to delete this message template?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Long_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 241,
+    "Message_Text" : "A value must be selected in the table to proceed.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 570,
+    "Message_Text" : "You cannot have field template values in the header text for anonymous surveys.  Please remove these field values before saving the survey.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 596,
+    "Message_Text" : "When adding a new form, filters will need to be added to trigger survey checking, and batch surveying.  This must be done using the Remedy Administrator tool.  See Kinetic Application Documentation for more information.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 602,
+    "Message_Text" : "You must enter schedule information for batch integrations.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 605,
+    "Message_Text" : "The template will be saved before cloning.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 615,
+    "Message_Text" : "A question within this template has already been mapped to this FieldMapNumber.  Please check the other questions within this template to find an available FieldMapNumber.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 610,
+    "Message_Text" : "You must have a message in the Null Label field if this question is required.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 620,
+    "Message_Text" : "A default qualification for this search already exists.  Saving this will overwrite it.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 547,
+    "Message_Text" : "Warning!  The Template and all related data will be deleted. This includes questions and customer submissions.  Yes to Continue, No to Cancel",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 625,
+    "Message_Text" : "You must enter a Menu Label, Score and Order to add a choice to this list.  All of the fields are required.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 630,
+    "Message_Text" : "A valid message template has not been selected yet. Please select a message template before creating an integration.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 635,
+    "Message_Text" : "This template contains integrations which do not have a message template assigned to them.  Please select a message template before saving.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 640,
+    "Message_Text" : "The qualification field is empty.  There is no qualification to save.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 680,
+    "Message_Text" : "You must enter a Page Type and a Page Name.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 250,
+    "Message_Text" : "The member you have selected has already been added to this group.  A member can only be added once to a specific list.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 700,
+    "Message_Text" : "Are you sure you want to remove the member from the selected list?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 701,
+    "Message_Text" : "The customer submission you are attempting to send does not have a valid Message Template associated with it.  Please open the appropriate console and set a valid message template.",
+    "Message_Type" : "2"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 702,
+    "Message_Text" : "Are you sure you want to delete the selected member(s) from this list?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 703,
+    "Message_Text" : "Are you sure you want to delete this list and all of it's members from the database?  Members that are in other lists will not be removed from the database.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 704,
+    "Message_Text" : "Are you sure you want to save this integration without a message template?  If no message template is set, no email invitations will be sent for this integration.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 705,
+    "Message_Text" : "Are you sure you want to save this customer submission without a message template?  If no message template is set, no email invitations will be sent.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 706,
+    "Message_Text" : "Please select a valid message template and customer to send an invitation.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 707,
+    "Message_Text" : "You must now close the dialog to view the user record.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 708,
+    "Message_Text" : "The Category name has changed.  All surveys which use this category will be updated.  Do you want to proceed?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 709,
+    "Message_Text" : "The Assignee Group has changed.  Do you want to update all existing SURVEY TEMPLATES with this assignee group? NOTE:  Customer Surveys will not be changed.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 710,
+    "Message_Text" : "This will delete $600000097$ templates, and all of their related customer submissions.  Are you sure you want to do this?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 711,
+    "Message_Text" : "Please select a DATA SET before adding an integration.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 575,
+    "Message_Text" : "Please ensure an Attachment name and file has been entered.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 715,
+    "Message_Text" : "A page cannot be deleted if it contains a Section, Question, Image or Dynamic Text element.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 716,
+    "Message_Text" : "Deleting a question will delete all answers already submitted by any customer submissions. \nIf you would like to maintain the answer but not ask the question in the future. We suggest hiding the question.\nDo you wish to delete the current question?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Long_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 750,
+    "Message_Text" : "Please ensure a Question value and an Answer Data Type has been entered.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 751,
+    "Message_Text" : "Please ensure an Answer Style has been selected for the \"Date\" or \"Date/Time\" answer.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 752,
+    "Message_Text" : "Please ensure the following fields for answer type \"Dynamic List\" is complete [Form, Label, Value, Dynamic List Source, Qualification].",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 753,
+    "Message_Text" : "Please ensure an Answer Style has been selected for the \"Free Text\" answer.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 754,
+    "Message_Text" : "You must provide a format validation user prompt for the specified Answer style entered.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 755,
+    "Message_Text" : "Please ensure valid Minimum and Maximum values are entered for \"Answer Data Type\" of \"Numeric Range\".",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 756,
+    "Message_Text" : "Please ensure the following fields are complete when applying \"Advance Defaulting\" [Form, Field Name, Qualification].",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 757,
+    "Message_Text" : "No online help is configured for this form.  Online Help is configured via the Configuration Manager/Configuration Settings.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 758,
+    "Message_Text" : "WARNING:  Deleting a source will delete all field mappings and integrations related to this source.  Do you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 759,
+    "Message_Text" : "Please select a Form Name and Trigger Process before doing an advanced qualification.",
+    "Message_Type" : "2"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 780,
+    "Message_Text" : "Category, Type and Template Name must be completed.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 603,
+    "Message_Text" : "More Values Match you Qualification String than are allowed by the Max Batch value in the Configuration Manager.  Continuing may cause a  large number of emails to be sent.  Do you wish to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 760,
+    "Message_Text" : "Your DATA SET has changed.  If you have dynamic qualifications that use this data set, you may see unexpected results.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 761,
+    "Message_Text" : "Your submission has not been completed.  Select Yes to close the window and complete it at a later time, or No to return to the submission.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 762,
+    "Message_Text" : "WARNING:  You have not saved your editing session.  Are you sure you want to close the window?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 770,
+    "Message_Text" : "Are you sure you want to rebuild the pages layout?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 785,
+    "Message_Text" : "Attachment File Name is either missing, or not formatted correctly.  Please correct before saving.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 763,
+    "Message_Text" : "You must select an image.  Other attachment types are not supported.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 764,
+    "Message_Text" : "Please select an element.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 765,
+    "Message_Text" : "You must indicate hours or days after a customer submission is created to send a reminder.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 530,
+    "Message_Text" : "List Member has not been saved.  Chose Yes to continue without saving, or No to return to form.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 790,
+    "Message_Text" : "New Answer is not a valid choice from List.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 795,
+    "Message_Text" : "New Answer is not in Valid Numeric Range.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 800,
+    "Message_Text" : "Customer submissions without an email cannot be sent/resent an invitation.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 717,
+    "Message_Text" : "At least one page is required for a template. This page cannot be deleted.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 720,
+    "Message_Text" : "Changing this submission to Accept will cause all Notifications to be evaluated again. Do you wish to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 721,
+    "Message_Text" : "Changing this submission to Reject will cause all Notifications to be evaluated again. Do you wish to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 718,
+    "Message_Text" : "The checkbox selection value can only be selected with a single list item.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 805,
+    "Message_Text" : "Number of Submissions exceeds Max Batch configuration value.\n\nDo you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 810,
+    "Message_Text" : "Invitation(s) have been sent.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 722,
+    "Message_Text" : "A confirmation page already exists for this template.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 723,
+    "Message_Text" : "You can not add a Contents or Review Request page after a Confirmation page.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 724,
+    "Message_Text" : "You must delete any question notifications before turning scoring off.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 775,
+    "Message_Text" : "The customer submission has been saved.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 815,
+    "Message_Text" : "WARNING:  Another user is currently editing this page.  Would you like to override the existing session? \n\n(NOTE:  It is not recommended to have multiple sessions of the page editor open at the same time.  Results may not be as expected.)           \n\n",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Long_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 820,
+    "Message_Text" : "WARNING:  This session is already open.  Would you like to override the existing session? \n\n (NOTE:  It is not recommended to have multiple sessions of the page editor open at the same time.  Results may not be as expected.)",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Long_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 549,
+    "Message_Text" : "Justification is required when creating a List question.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 548,
+    "Message_Text" : "Type is required when creating a List question.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 825,
+    "Message_Text" : "Fields with bold names are required.  Please be sure that all required fields have been filled in before saving this record.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 925,
+    "Message_Text" : "Fields with bold names are required.  Please be sure that all required fields have been filled in before saving this record.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 930,
+    "Message_Text" : "Do you wish to delete the selected event type(s)?  All events that use the event type will be also be deleted.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 935,
+    "Message_Text" : "Do you wish to delete the selected calendar(s)?  The calendar resources, events, and event types will also be deleted.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 940,
+    "Message_Text" : "Are you sure you want to change the calendar status?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 939,
+    "Message_Text" : "Do you wish to delete the selected menu item(s)?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 830,
+    "Message_Text" : "This action will remove any elements that were added the last time pushed the \"Add\" button.  Do you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 835,
+    "Message_Text" : "You cannot delete the only section on a page.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 725,
+    "Message_Text" : "WARNING!!!  Deleting a page will delete all items located on that page including questions, images and text.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 726,
+    "Message_Text" : "WARNING!!!  Deleting a section will delete all elements contained within that section including questions, images and text.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 555,
+    "Message_Text" : "The fields Parent Form, Data Type, and Attribute Type must all have a value.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 945,
+    "Message_Text" : "Do you want to Activate the selected Attribute Types and related Attribute Instances?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 950,
+    "Message_Text" : "Do you want to Deactivate the selected Attribute Type and related Attribute Instaces?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 955,
+    "Message_Text" : "The web logging level has been changed.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 960,
+    "Message_Text" : "This attribute type is marked as Admin Only and cannot be deleted using this console.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 965,
+    "Message_Text" : "The Field Map Number must be greater than 0.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 840,
+    "Message_Text" : "Please select a style from the table to modify.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 841,
+    "Message_Text" : "Please select a style from the table before deleting.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 961,
+    "Message_Text" : "This Attribute Instance is marked as mandatory and cannot be deleted.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 962,
+    "Message_Text" : "An Attribute Instance must be selected before it can be deleted.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 727,
+    "Message_Text" : "You must first select a Form Name before you can add mappings.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 842,
+    "Message_Text" : "There is already a default Answer Pattern for this answer type.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 500,
+    "Message_Text" : "This task has tasks that are dependant on it.  Deleting it will also delete them.  Do you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 970,
+    "Message_Text" : "If you allow searching on your service catalog, you must select one of the 'Search by' options.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 975,
+    "Message_Text" : "Warning!  The Service Catalog will be DELETED, along with all its service items. Yes to Continue, No to Cancel.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 510,
+    "Message_Text" : "You must chose time criteria for sending approvals to the backup before saving this record.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 515,
+    "Message_Text" : "You must select a message template to send to the backup before saving.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 980,
+    "Message_Text" : "The Catalog/Launcher Template name combination already exists.  Please enter or modify the Launcher Template name.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 981,
+    "Message_Text" : "Service Catalog, Visible To Group, Management Group, Status, Catalog Description, Web Server URL, and Display Page must be populated before saving the service catalog.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 520,
+    "Message_Text" : "You must create field mappings for this task before saving.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 982,
+    "Message_Text" : "The Service Catalog name has changed.  All service items which use this catalog will be updated.  Do you want to proceed?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 983,
+    "Message_Text" : "The Assignee Group has changed.  Do you want to update all existing SERVICE ITEM with this assignee group? NOTE:  Completed requests will not be changed.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 984,
+    "Message_Text" : "The Web Server URL and Display Page fields must be populated before generating a new Launcher Template.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 766,
+    "Message_Text" : "Please select and Event and an Action.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 525,
+    "Message_Text" : "Resending this Task may cause duplicate records.  Are you sure you want to resend?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 740,
+    "Message_Text" : "You are modifying a Question that already has answers from a Checkbox.  This change affects the answer structure.  Would you like to keep the existig answers.  Selecting \"No\" will delete any current customer answers for this question.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Long_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 985,
+    "Message_Text" : "The Catalog/Service Item name combination already exists in the current catalog.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 843,
+    "Message_Text" : "You must precede a single quote with an escape character ( / )",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 550,
+    "Message_Text" : "This Kinetic application does not have a Manager License Key.\nIf you are not running a Demonstration version, please contact Kinetic Data.  \nsupport@kineticdata.com",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 551,
+    "Message_Text" : "The Manager License Key is invalid.\nPlease contact Kinetic Data.  \nsupport@kineticdata.com",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 990,
+    "Message_Text" : "The web URL for the selected service items has been changed.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 991,
+    "Message_Text" : "The web URL for the selected templates has been changed.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1000,
+    "Message_Text" : "The Survey Name field must be completed to used the \nQualification Builder.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1001,
+    "Message_Text" : "The Service Item field must be completed to used the Qualification Builder.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1010,
+    "Message_Text" : "The automatically selected 'Menu Label' is already in use.  Manually change the value to make it unique.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 260,
+    "Message_Text" : "This image has been deleted from the image library.  Please choose another image.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 741,
+    "Message_Text" : "An Event of type *cutom* already exists for this element.  Only one *custom* event is allowed per element.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 826,
+    "Message_Text" : "A mapping for the destination that you are attempting to create already exists.  Please select another destination value to map.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 560,
+    "Message_Text" : "You must provide the notification type, email address, and message template to set up a notification.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 931,
+    "Message_Text" : "Changing the source form will require you to re-enter the display fields for this event type on the next tab.  Are you sure you want to change this value?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 936,
+    "Message_Text" : "Please set the 'LogViewer Servlet' configuration property before continuing.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 937,
+    "Message_Text" : "Please set the 'PropertiesViewer Servlet' configuration property before continuing.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 938,
+    "Message_Text" : "Please set the 'ReadinessCheck Servlet' configuration property before continuing.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 926,
+    "Message_Text" : "Select a field before trying to add to the table.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 927,
+    "Message_Text" : "Enter a label for the selected field before trying to add to the table.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 535,
+    "Message_Text" : "A style tag is required when creating a style entry for this record.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 850,
+    "Message_Text" : "You must define an Archive Qualification and select an Archive Form before saving if the Archive Method is set to \"Template Controlled\".",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1040,
+    "Message_Text" : "You must select a Survey/Service Item before clicking the Advanced Run button.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1042,
+    "Message_Text" : "Warning!!!  Changing this question to a Check Box will delete the notifications you have written against it.  If you do not wish to delete these notifications do not save the changes that you made.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1050,
+    "Message_Text" : "You must supply a URL to redirect users to when logging out.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1051,
+    "Message_Text" : "You must supply a template to redirect users to when logging out.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1055,
+    "Message_Text" : "To view or modify the style element you must first click the \"Allow Modifications\" button on the manager console.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1056,
+    "Message_Text" : "The template that has been seleced to direct to on logout of this catalog is either no longer active or has been deleted.  Please select a new template before saving.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1060,
+    "Message_Text" : "This action willl permanentally delete the selected template(s).  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1065,
+    "Message_Text" : "The Survey name that you have chosen already exists within this category.  Please chose a different name.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1066,
+    "Message_Text" : "The Service Item name that you have chosen already exists within this catalog.  Please chose a different name.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1067,
+    "Message_Text" : "You must supply a Survey Name before you can clone the template.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1068,
+    "Message_Text" : "You must supply a Service Item Name before you can clone the service item.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1070,
+    "Message_Text" : "This template cannot be restored because the category or service catalog that it was created under does not exist.  Please recreate the category/service catalog before attempting to restore the template.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1072,
+    "Message_Text" : "You must select a Destination Page, enter a Branching Description and define a Qualification before saving this branch.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1075,
+    "Message_Text" : "You must select a field map from the table before you can shift it up or down.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1080,
+    "Message_Text" : "The element $536870957$ on this page has the same Editor Label or Menu Label as the one you are currently saving.  Please modify either one so that there are no duplicates.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1085,
+    "Message_Text" : "You must select an event from the table before you can shift it up or down.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1090,
+    "Message_Text" : "The template that you are saving has been locked for editing by another user.  Please reselect the template to see who has locked it.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1095,
+    "Message_Text" : "The element that this style applies to already has display or visibility properties set.  Saving this style record could have undesired effets on the element.  Do you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1096,
+    "Message_Text" : "The element you are saving already has a style property that affects the visibility or display of the element.  Setting the Hide/Remove flag on this element could cause problems.  Do you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Locale" : "en_US",
+    "Message_Number" : 1097,
+    "Message_Text" : "Illegal value for 'Display Name for URL'; Duplicate Name or Invalid Character.\n",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1025,
+    "Message_Text" : "If you want to display specific results enter a qualification in the Qualification field.  Otherwise, select All from the Display menu.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1098,
+    "Message_Text" : "A template name is required for Template Authentication.  Please select one from the menu and then resave the template.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1099,
+    "Message_Text" : "An Authentication URL is required for External Authentication.  Please enter one into the field and then resave the template.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 995,
+    "Message_Text" : "You must supply a qualification before saving this event.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 996,
+    "Message_Text" : "You must supply a name for this event before saving it.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 997,
+    "Message_Text" : "You must provide a maximum number of entries that can be returned before saving this event.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1100,
+    "Message_Text" : "There is another task that uses the name that you have entered.  Please select a new name for this task.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1101,
+    "Message_Text" : "Do you wish to remove the selected task(s) from the list?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1102,
+    "Message_Text" : "Do you want to resend all notifications for this submission?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1103,
+    "Message_Text" : "The name you have entered is already being used by another data set.  Please chose a differnt name.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1104,
+    "Message_Text" : "You are about to delete a Data Set.  If you have dynamic qualifications that use this data set, you may see unexpected results.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1105,
+    "Message_Text" : "Do you want to copy the events associated with this element?  \n\nPlease Note:  The copied events may not work correctly because they may reference elements from the original template.  In this case, the copied events may need to be rebuilt manually.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Long_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1106,
+    "Message_Text" : "WARNING!  Changing the Destination form for this task will cause your existing field mappings to no longer work.  You must update all mappings to  use the new destination form.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1107,
+    "Message_Text" : "WARNING!  You have field mappings for this task that are defined against a different destination form than the one selected.  You must update these mappings before the task will work properly.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1110,
+    "Message_Text" : "The pattern has been modified.  Would you like to update all questions that use this pattern?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1111,
+    "Message_Text" : "You must define the Style Properties before saving this Style record.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1112,
+    "Message_Text" : "A Default Kinetic Task Server has not been configured or could not be found.  Please open the Configuration Manager and enter a value for the Default Kinetic Task Server configuration setting.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1113,
+    "Message_Text" : "You must have at least one choice defined when creating a list question.  If you typed a list name that you know already exists, go back and select it from the menu in order to populate the list choices.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 580,
+    "Message_Text" : "You must select a Survey before performing this search.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 581,
+    "Message_Text" : "You must select a Service Item before performing this search.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 590,
+    "Message_Text" : "You must supply a Tree Name, Tree Type and Status before saving.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 552,
+    "Message_Text" : "You must supply an existing Task Tree to copy before proceeding.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 553,
+    "Message_Text" : "You must select a Task Tree from the table before launching the Task Builder.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1120,
+    "Message_Text" : "You must select a Connection from the menu before adding a Model.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1121,
+    "Message_Text" : "You must select a Model from the table above before adding an Attribute.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1122,
+    "Message_Text" : "You must select a Model from the table above before adding a Qualification.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1123,
+    "Message_Text" : "You must select a Qualification from the table above before adding a Parameter.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1124,
+    "Message_Text" : "You must select a Connection before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1125,
+    "Message_Text" : "You must select a Model from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1126,
+    "Message_Text" : "You must select a Qualification from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1127,
+    "Message_Text" : "You must select an Attribute from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1128,
+    "Message_Text" : "You must select a Qualification Parameter from the table before you can modify it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1129,
+    "Message_Text" : "You must select a Connection before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1130,
+    "Message_Text" : "You must select a Model from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1131,
+    "Message_Text" : "You must select an Attribute from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1132,
+    "Message_Text" : "You must select a Qualification from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1133,
+    "Message_Text" : "You must select a Qualification Parameter from the table before you can delete it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1134,
+    "Message_Text" : "Are you sure you want to delete this Bridge?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1135,
+    "Message_Text" : "Deleting this Model will also delete all associated Attributes and Qualifications.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1136,
+    "Message_Text" : "Deleting this Qualification will also delete all associated Parameters.  Are you sure you want to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1137,
+    "Message_Text" : "Fields with bold names are required.  Please be sure that all required fields have been filled in before saving this record.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1138,
+    "Message_Text" : "Are you sure you want to clear out the selected Parameter?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YNC_Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1139,
+    "Message_Text" : "You must select a Model, Qualification and Label before saving a Dynamic List with the \"Use Data Source\" option.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1141,
+    "Message_Text" : "You must select a Model, Qualification and Value before saving a question that has an Advanced Default that uses the Use Data Source Option.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1171,
+    "Message_Text" : "You must specify a Label Attribute when saving a Populate Menu event that uses a Data Source.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1170,
+    "Message_Text" : "You must specify a Value Attribute when saving a Populate Menu event that uses a Data Source.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1169,
+    "Message_Text" : "You must specify a Qualification Name when saving an event that uses a Data Source.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1168,
+    "Message_Text" : "You must specify a Model Name when saving an event that uses a Data Source.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_BRG_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1172,
+    "Message_Text" : "You must click the \"Use Item\" button to select the image that you want before you can save it.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1173,
+    "Message_Text" : "Only one javascript file may be attached to a template.  Please remove the exiting one before adding this one.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1174,
+    "Message_Text" : "Only one stylesheet may be attached to a template.  Please remove the exiting one before adding this one.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 554,
+    "Message_Text" : "The Tree Name that you have chosen is already being used in this service item.  Please select a new name and click the Save button.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1175,
+    "Message_Text" : "Commas are not allowed in checkbox question choice values.  Please remove the comma(s) and save again.",
+    "Message_Type" : "2",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1177,
+    "Message_Text" : "Messages over 4000 characters cannot be updated from this form.  Please contact your Remedy Administrator to make changes to this answer.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1180,
+    "Message_Text" : "Changing this event to use bridging will overwrite exiting Field Mapping records. This cannot be undone.  Do you wish to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1181,
+    "Message_Text" : "This Checkbox question has choice values that contain commas.  Please remove all commas from the values and resave the question.",
+    "Message_Type" : "2"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1179,
+    "Message_Text" : "Changing this event to no longer use bridging will overwrite exiting Field Mapping records. This cannot be undone.  Do you wish to continue?",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Confirm",
+    "Message_View" : "YN_Medium_Message"
+  }, {
+    "Status" : "0",
+    "Short Description" : "Not Used",
+    "Message_Number" : 1182,
+    "Message_Text" : "You must select a Form from the list.",
+    "Message_Type" : "5",
+    "Message_Dialog" : "KS_ACC_Message",
+    "Message_View" : "Short_Message"
+  } ]
+}

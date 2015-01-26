@@ -1,0 +1,93 @@
+{
+  "form" : "LIC_SYS-License Permission Map",
+  "duplicateRecordQualifierFieldNames" : [ "Permission Group ID*" ],
+  "data" : [ {
+    "Detailed Description" : "Required. All users must be assigned to the KS_SRV group to access the Kinetic Survey/Request applications through the user tool. Customers that are only completing surveys/requests do not need a license of any kind.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_SRV",
+    "Permission Group ID*" : 10105,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign users to this group who create surveys. IMPORTANT: Licensing is based on the number of users in this group. Each person assigned to this group requires an additional license and fee. Contact your Kinetic Data sales representative for more information on licenses.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_SRV_Manager",
+    "Permission Group ID*" : 10305,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign users to this group to view completed surveys. This group cannot create or modify surveys.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_SRV_Inspector",
+    "Permission Group ID*" : 10306,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign users to this group who create or modify reports, but are not already part of the Survey Manager/Request Manager or Remedy Administrator groups. This group has visibility to all survey/request-related forms for reporting purposes.\r\n\r\nUse this group to give user access to all background forms for reporting, but not a Survey Manager, Request Manager or Remedy Administrator.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_SRV_Reporter",
+    "Permission Group ID*" : 10307,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign users to this group who create and modify email message text. Typically, these are the same users who have KS_SRV_Manager or KS_RQT_Manager permissions.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_MSG",
+    "Permission Group ID*" : 10110,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Required. All users must be assigned to the KS_CORE user group to access shared menus and forms across all Kinetic Data applications through the user tool.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_CORE",
+    "Permission Group ID*" : 10010,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign to users who need access to create new integration points (data sources) for Kinetic Survey or Kinetic Request.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_SRV_Integrator",
+    "Permission Group ID*" : 10310,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign users to this group to view completed requests. This group cannot create or modify service items.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_RQT_Inspector",
+    "Permission Group ID*" : 10355,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign users to this group who create requests. IMPORTANT: Licensing is based on the number of users in this group. Each person assigned to this group is required to have a Kinetic manager License. Contact your Kinetic Data sales representative for more licenses or any questions.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_RQT_Manager",
+    "Permission Group ID*" : 10350,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign users to this group who create bridges that are used in Kinetic Request and Kinetic Survey.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_BRG_Manager",
+    "Permission Group ID*" : 10391,
+    "System Lock" : 0,
+    "View Access" : 1
+  }, {
+    "Detailed Description" : "Assign users to this group who are not Kinetic Survey or Kinetic Request managers, but need to migrate templates.",
+    "License Required*" : 0,
+    "Navigation Tier 1" : "Kinetic SR",
+    "Permission Group*" : "KS_SRV_Migrator",
+    "Permission Group ID*" : 10309,
+    "System Lock" : 0,
+    "View Access" : 1
+  } ]
+}

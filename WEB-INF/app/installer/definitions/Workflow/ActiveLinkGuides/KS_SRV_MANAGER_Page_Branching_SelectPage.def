@@ -1,0 +1,19 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_MANAGER_Page_Branching_SelectPage
+   type           : 1
+   num-references : 0
+   timestamp      : 1421095852
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\14\KS_SRV_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   permission     : 10105\2
+   label          : KS_SRV_MANAGER_Page_Branching_SelectPage
+   description    : Guide walks the avalable pages table on the page branching tab to select the page matching the selection from the Page Branching table below
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+end

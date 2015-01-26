@@ -1,0 +1,74 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_MSG_MGR_UseRemedyTemplates_Open
+   timestamp      : 1421095765
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 900
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Manager
+   actlink-mask   : 128
+   actlink-focus  : 700003421
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700003530\2\6\1\
+   action {
+      set-field   : 0\700003469\101\0\
+      set-field   : 1\700003472\101\6\0\
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700004913
+      focus       : 1
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700004912
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\0\
+      id          : 700009321
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+      set-field   : 0\18102\101\0\
+      set-field   : 1\18108\101\0\
+      set-field   : 2\18109\101\0\
+      set-field   : 3\18135\101\0\
+      set-field   : 4\18136\101\0\
+      set-field   : 5\18137\101\0\
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700004913
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\1\
+      id          : 700004912
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\1\
+      id          : 700009321
+      focus       : 1
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

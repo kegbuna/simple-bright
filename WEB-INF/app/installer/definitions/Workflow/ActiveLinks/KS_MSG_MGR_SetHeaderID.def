@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_MSG_MGR_SetHeaderID
+   timestamp      : 1421095765
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_MSG_Manager
+   schema-name    : KS_MSG_MessageTemplate
+   actlink-mask   : 384
+   actlink-focus  : 18135
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\18135\2\0\
+   action {
+      set-field   : 0\18108\102\1\@\25\AR System Email Templates\1\179\4\1\99\18135\1\18121\1\4\
+   }
+   else {
+      set-field   : 0\18108\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

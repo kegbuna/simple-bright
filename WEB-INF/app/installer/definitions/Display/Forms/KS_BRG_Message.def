@@ -1,0 +1,115 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:18:05 2015
+#
+begin schema
+   name           : KS_BRG_Message
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 3
+   timestamp      : 1421095693
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   default-vui    : Long_Message
+   num-vuis       : 3
+   export-version : 9
+   schema-type    : 4
+   next-field-id  : 536870914
+   permission     : 10010\2
+   object-prop    : 1\60018\4\0\\
+vui  {
+   id             : 536870912
+   name           : Default Admin View
+   label          : Long_Message
+   timestamp      : 1421095693
+   vui-locale     : 
+   vui-type       : 1
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   display-prop   : 19\20\4\12\Long_Message\60019\4\21\ViewWebAlias536870912\162\2\7\203\40\1\205\40\1\166\4\8\0xe9e9e9\213\4\55\9\401\3\402\3\403\3\404\3\405\3\406\3\407\3
+   display-prop   : \409\3\408\3\169\40\5\168\40\5\206\4\0\\207\4\0\\208\4\0\\209\4\0\\215\40\1\201\2\61987\202\2\21200\264\6\0\251\6\0\252\6\0\
+}
+vui  {
+   id             : 536875725
+   name           : NewDefault Admin View
+   label          : Medium_Message
+   timestamp      : 1421095693
+   vui-locale     : 
+   vui-type       : 1
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   display-prop   : 11\20\4\14\Medium_Message\60019\4\24\NewViewWebAlias536870912\162\2\7\203\40\1\205\40\1\166\4\8\0xe8e8e8\201\2\49275\202\2\13100\264\6\0\251\6\0\252\6\0
+   display-prop   : \
+}
+vui  {
+   id             : 536880578
+   name           : NewNewDefault Admin View
+   label          : Short_Message
+   timestamp      : 1421095693
+   vui-locale     : 
+   vui-type       : 1
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   display-prop   : 11\20\4\13\Short_Message\60019\4\27\NewNewViewWebAlias536870912\162\2\7\203\40\1\205\40\1\166\4\8\0xe8e8e8\201\2\44100\202\2\9000\264\6\0\251\6\0\252\6\
+   display-prop   : 0\
+}
+field {
+   id             : 600000041
+   name           : Bx_Main
+   datatype       : 31
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095693
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 0\1
+ display-instance : 536870912\15\14\40\1\170\40\0\3\41\2\675\600\59737\17300\4\6\1\5\6\2\40\41\4\675\600\59737\600\59737\17300\675\17300\9\6\4\41\40\2\1\6\2\7\40\2147483648\143\&
+ display-instance : 40\4294967295\21\41\2\0\0\0\16300\151\41\2\1800\1600\59062\19000\65\41\2\0\0\0\0\66\41\2\0\0\0\0\
+ display-instance : 536875725\15\14\40\1\170\40\0\3\41\2\675\600\46575\9500\4\6\1\5\6\2\40\41\4\675\600\46575\600\46575\9500\675\9500\9\6\4\41\40\2\1\6\2\7\40\2147483648\143\40\&
+ display-instance : 4294967295\21\41\2\0\0\0\8900\151\41\2\675\600\45900\17300\65\41\2\0\0\0\0\66\41\2\0\0\0\0\
+ display-instance : 536880578\15\14\40\1\170\40\0\3\41\2\675\600\41400\5900\4\6\1\5\6\2\40\41\4\675\600\41400\600\41400\5900\675\5900\9\6\4\41\40\2\1\6\2\7\40\2147483648\143\40\&
+ display-instance : 4294967295\21\41\2\0\0\0\5300\151\41\2\675\600\40725\17300\65\41\2\0\0\0\0\66\41\2\0\0\0\0\
+}
+field {
+   id             : 600000325
+   name           : Message
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 4
+   timestamp      : 1421095693
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 0
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\23\14\40\1\170\40\0\20\4\0\\3\41\2\1575\1200\58500\16500\4\6\1\5\6\2\60\40\9\61\40\62\27\8\2\28\6\4\29\6\1\7\40\2147483652\231\6\1\143\40\1\21\41\2&
+ display-instance : \0\0\56925\0\151\41\2\0\100\56925\15300\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\2\91\6\4\228\40\1\240\40\1\81\4\7\Header3\
+ display-instance : 536875725\23\14\40\1\170\40\0\20\4\0\\3\41\2\1125\1000\46125\8300\4\6\1\5\6\2\60\40\4\61\40\48\27\8\2\28\6\4\29\6\1\7\40\2147483654\231\6\1\143\40\1\21\41\2\&
+ display-instance : 0\0\45000\0\151\41\2\0\100\45000\7300\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\2\91\6\4\228\40\1\240\40\1\81\4\7\Header3\
+ display-instance : 536880578\23\14\40\1\170\40\0\20\4\0\\3\41\2\1125\1000\40387\5100\4\6\1\5\6\2\60\40\2\61\40\42\27\8\2\28\6\4\29\6\1\7\40\2147483655\231\6\1\143\40\1\21\41\2\&
+ display-instance : 0\0\39262\0\151\41\2\0\100\39262\4100\65\41\2\0\0\0\0\66\41\2\0\0\0\0\90\6\2\91\6\4\228\40\1\240\40\1\81\4\7\Header3\
+}
+field {
+   id             : 700000057
+   name           : B_OK
+   datatype       : 32
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1421095693
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 0\1
+ display-instance : 536870912\12\7\40\2147483649\2\8\1\3\41\2\1125\17500\10125\19700\4\6\1\5\6\2\110\4\2\OK\143\40\0\170\40\0\21\41\2\0\0\0\0\151\41\2\0\0\0\0\65\41\2\0\0\0\0\66&
+ display-instance : \41\2\0\0\0\0\
+ display-instance : 536875725\12\7\40\2147483649\2\8\1\3\41\2\1125\9800\10125\12000\4\6\1\5\6\2\110\4\2\OK\143\40\0\170\40\0\21\41\2\0\0\0\0\151\41\2\0\0\0\0\65\41\2\0\0\0\0\66\&
+ display-instance : 41\2\0\0\0\0\
+ display-instance : 536880578\12\7\40\2147483649\2\8\1\3\41\2\1125\6000\10125\8200\4\6\1\5\6\2\110\4\2\OK\143\40\0\170\40\0\21\41\2\0\0\0\0\151\41\2\0\0\0\0\65\41\2\0\0\0\0\66\4&
+ display-instance : 1\2\0\0\0\0\
+}
+end

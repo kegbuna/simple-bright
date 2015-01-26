@@ -1,0 +1,43 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_RQT_TaskSeed_DeferredTaskSourceData_guide
+   type           : 4
+   num-references : 5
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\15\KS_RQT_TaskSeed\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   description    : Builds deferred task source JSON data.
+   help-text      : {    "message": "Support ticket TKT-555 was closed.",    "results": {        "assigned_technician": "John Doe",        "ticket_id": "TKT-555",     
+   help-text      :    "ticket_status": "Closed",        "ticket_closed_time": "2014-09-12T14:00:06Z"    },    "token": "unique_token_value_for_task"}
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_DeferredTask_BodyContent_Start
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_DeferredTask_BodyContent_Message
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_DeferredTask_BodyContent_Results
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_DeferredTask_BodyContent_Token
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskSeed_DeferredTask_BodyContent_End
+}
+end

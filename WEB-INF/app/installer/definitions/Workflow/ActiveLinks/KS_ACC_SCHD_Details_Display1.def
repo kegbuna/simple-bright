@@ -1,0 +1,59 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_ACC_SCHD_Details_Display1
+   timestamp      : 1421095753
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_Schedule
+   actlink-mask   : 16384
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\4\1\2\1\16\2\4\14\ScheduleDetail\4\6\1\1\2\0\
+   action {
+      set-field   : 0\2\102\1\@\15\KS_ACC_Schedule\1\2\4\1\99\1\1\1\2\3\
+      set-field   : 1\7\102\1\@\15\KS_ACC_Schedule\1\7\4\1\99\1\1\1\2\3\
+      set-field   : 2\700004006\102\1\@\15\KS_ACC_Schedule\1\1\4\1\99\1\1\1\2\3\
+      set-field   : 3\700004050\102\1\@\15\KS_ACC_Schedule\1\700004050\4\1\99\1\1\1\2\3\
+      set-field   : 4\700004054\102\1\@\15\KS_ACC_Schedule\1\700004054\4\1\99\1\1\1\2\3\
+      set-field   : 5\700004056\102\1\@\15\KS_ACC_Schedule\1\700004056\4\1\99\1\1\1\2\3\
+      set-field   : 6\700004058\102\1\@\15\KS_ACC_Schedule\1\700004058\4\1\99\1\1\1\2\3\
+      set-field   : 7\700004060\102\1\@\15\KS_ACC_Schedule\1\700004060\4\1\99\1\1\1\2\3\
+      set-field   : 8\700004062\102\1\@\15\KS_ACC_Schedule\1\700004062\4\1\99\1\1\1\2\3\
+      set-field   : 9\700004064\102\1\@\15\KS_ACC_Schedule\1\700004064\4\1\99\1\1\1\2\3\
+      set-field   : 10\700004066\102\1\@\15\KS_ACC_Schedule\1\700004066\4\1\99\1\1\1\2\3\
+      set-field   : 11\700004068\102\1\@\15\KS_ACC_Schedule\1\700004068\4\1\99\1\1\1\2\3\
+      set-field   : 12\700004070\102\1\@\15\KS_ACC_Schedule\1\700004070\4\1\99\1\1\1\2\3\
+      set-field   : 13\700004074\102\1\@\15\KS_ACC_Schedule\1\700004074\4\1\99\1\1\1\2\3\
+      set-field   : 14\700004078\102\1\@\15\KS_ACC_Schedule\1\700004078\4\1\99\1\1\1\2\3\
+      set-field   : 15\700004080\101\1\3\
+      set-field   : 16\700004102\102\1\@\15\KS_ACC_Schedule\1\700004102\4\1\99\1\1\1\2\3\
+      set-field   : 17\700004104\102\1\@\15\KS_ACC_Schedule\1\700004104\4\1\99\1\1\1\2\3\
+      set-field   : 18\700004106\102\1\@\15\KS_ACC_Schedule\1\700004106\4\1\99\1\1\1\2\3\
+      set-field   : 19\700004108\102\1\@\15\KS_ACC_Schedule\1\700004108\4\1\99\1\1\1\2\3\
+      set-field   : 20\700004110\102\1\@\15\KS_ACC_Schedule\1\700004110\4\1\99\1\1\1\2\3\
+      set-field   : 21\700004112\102\1\@\15\KS_ACC_Schedule\1\700004112\4\1\99\1\1\1\2\3\
+      set-field   : 22\700004114\102\1\@\15\KS_ACC_Schedule\1\700004114\4\1\99\1\1\1\2\3\
+      set-field   : 23\700004116\102\1\@\15\KS_ACC_Schedule\1\700004116\4\1\99\1\1\1\2\3\
+      set-field   : 24\700004118\102\1\@\15\KS_ACC_Schedule\1\700004118\4\1\99\1\1\1\2\3\
+      set-field   : 25\700004120\102\1\@\15\KS_ACC_Schedule\1\700004120\4\1\99\1\1\1\2\3\
+   }
+   action {
+      id          : 700004102
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+      id          : 700004104
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

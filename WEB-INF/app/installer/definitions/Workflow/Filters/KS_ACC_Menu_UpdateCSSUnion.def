@@ -1,0 +1,27 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_ACC_Menu_UpdateCSSUnion
+   timestamp      : 1421095855
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_ACC_Menu
+   export-version : 9
+   filter-query   : 4\1\99\700000800\2\4\9\CSS Class\
+   action {
+      push-field  : 0\1\@\16\KS_SRV_CSS_UNION\1\700074002\1\4\1\1\700040002\2\1\5\4\1\1\700040003\99\179\4\5\101\4\10\Predefined\
+      push-field  : 1\1\@\16\KS_SRV_CSS_UNION\1\700074001\1\4\1\1\700040002\2\1\5\4\1\1\700040003\99\179\4\5\102\1\@\1\@\1\700000820\0\1\4\
+      push-field  : 2\1\@\16\KS_SRV_CSS_UNION\1\700074000\1\4\1\1\700040002\2\1\5\4\1\1\700040003\99\179\4\5\101\6\0\
+      push-field  : 3\1\@\16\KS_SRV_CSS_UNION\1\700040003\1\4\1\1\700040002\2\1\5\4\1\1\700040003\99\179\4\5\102\1\@\1\@\1\179\0\1\4\
+      push-field  : 4\1\@\16\KS_SRV_CSS_UNION\1\700040002\1\4\1\1\700040002\2\1\5\4\1\1\700040003\99\179\4\5\101\1\5\
+      push-field  : 5\1\@\16\KS_SRV_CSS_UNION\1\700036000\1\4\1\1\700040002\2\1\5\4\1\1\700040003\99\179\4\5\102\1\@\1\@\1\600000510\0\1\4\
+      push-field  : 6\1\@\16\KS_SRV_CSS_UNION\1\7\1\4\1\1\700040002\2\1\5\4\1\1\700040003\99\179\4\5\102\1\@\1\@\1\7\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

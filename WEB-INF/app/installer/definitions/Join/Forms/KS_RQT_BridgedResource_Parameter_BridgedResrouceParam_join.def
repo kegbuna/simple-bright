@@ -1,0 +1,658 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:18:33 2015
+#
+begin schema
+   name           : KS_RQT_BridgedResource_Parameter_BridgedResrouceParam_join
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 30
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   default-vui    : Default Admin View
+   num-vuis       : 1
+   export-version : 9
+   schema-type    : 2
+      primary     : KS_RQT_BridgedResource_Parameter_join
+      secondary   : KS_RQT_BridgedResourceParameter
+      join-option : 1
+      join-query  : 1\1\1\4\1\99\179\1\760000901\4\1\99\760000500\1\760000500\4\1\99\760000200\1\760000200\4\1\99\760000400\1\760000400\
+   next-field-id  : 536870912
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60018\4\0\\
+vui  {
+   id             : 536870912
+   name           : Default Admin View
+   label          : Default Admin View
+   timestamp      : 1421095682
+   vui-locale     : 
+   vui-type       : 1
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   display-prop   : 7\20\4\18\Default Admin View\264\6\0\60019\4\21\ViewWebAlias536870912\251\6\0\252\6\0\201\2\151087\202\2\50300\
+}
+field {
+   id             : 1
+   name           : Request ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\10\Request ID\3\41\2\562\800\63787\3200\7\40\2147483648\231\6\0\143\40\4294967295\21\41\2\0\400\6862\2400\151\41\2\7425\0\60300\2100\65\41\&
+ display-instance : 2\0\0\0\0\66\41\2\60862\0\63224\2100\61\40\92\27\8\16\91\6\2\90\6\1\60\40\1\170\40\0\
+}
+field {
+   id             : 7
+   name           : bridgedResource_Status
+   datatype       : 6
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 7
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Active
+   enum-value     : Inactive
+   enum-value     : Delete
+   default        : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\16\20\4\22\bridgedResource_Status\3\41\2\1800\33900\51525\36000\61\40\20\60\40\1\7\40\2147483658\231\6\0\230\4\30\3\0\Active\1\Inactive\2\Delete\14&
+ display-instance : 3\40\4294967295\21\41\2\0\400\19687\2100\151\41\2\19800\0\49725\2100\65\41\2\26100\0\26100\0\66\41\2\26100\0\26100\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 15
+   name           : Status-History
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 15
+   create-mode    : 1
+   option         : 3
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   permission     : 0\1
+   permission     : 10105\2
+}
+field {
+   id             : 179
+   name           : bridgedResource_InstanceId
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 179
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\26\bridgedResource_InstanceId\3\41\2\1800\9900\51525\12000\61\40\51\60\40\1\7\40\2147483650\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2&
+ display-instance : 100\151\41\2\19800\0\49725\2100\65\41\2\21375\0\21375\0\66\41\2\21375\0\21375\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000200
+   name           : bridgedResource_model_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000200
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\26\bridgedResource_model_name\3\41\2\1800\12900\54450\15000\61\40\51\60\40\1\7\40\2147483651\231\6\0\143\40\4294967295\21\41\2\0\400\19687\&
+ display-instance : 2100\151\41\2\19800\0\49725\2100\65\41\2\20250\0\20250\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000400
+   name           : bridgedResource_qualification_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000400
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\34\bridgedResource_qualification_name\3\41\2\1800\18900\54450\21000\61\40\51\60\40\1\7\40\2147483653\231\6\0\143\40\4294967295\21\41\2\0\40&
+ display-instance : 0\19687\2100\151\41\2\19800\0\49725\2100\65\41\2\-450\0\-450\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000402
+   name           : bridgedResource_qualification_type
+   datatype       : 6
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000402
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Single
+   enum-value     : Multiple
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\16\20\4\34\bridgedResource_qualification_type\3\41\2\1800\21900\51525\24000\61\40\20\60\40\1\7\40\2147483654\231\6\0\230\4\21\2\0\Single\1\Multiple&
+ display-instance : \143\40\4294967295\21\41\2\0\400\19687\2100\151\41\2\19800\0\49725\2100\65\41\2\23062\0\23062\0\66\41\2\23062\0\23062\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000500
+   name           : parameter_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000500
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\15\20\4\14\parameter_name\3\41\2\58275\9900\110925\12000\61\40\51\60\40\1\7\40\2147483662\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2100\151\41&
+ display-instance : \2\19800\0\49725\2100\65\41\2\27900\0\27900\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000501
+   name           : parameter_notes
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000501
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\15\20\4\15\parameter_notes\3\41\2\58275\12900\110925\15000\61\40\51\60\40\1\7\40\2147483663\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2100\151\&
+ display-instance : 41\2\19800\0\49725\2100\65\41\2\27900\0\27900\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000502
+   name           : parameter_type
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000502
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\15\20\4\14\parameter_type\3\41\2\58275\24900\110925\27000\61\40\51\60\40\1\7\40\2147483667\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2100\151\4&
+ display-instance : 1\2\19800\0\49725\2100\65\41\2\28575\0\28575\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000800
+   name           : bridgedResource_source
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000800
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\22\bridgedResource_source\3\41\2\1800\27900\54450\30000\61\40\51\60\40\1\7\40\2147483656\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2100&
+ display-instance : \151\41\2\19800\0\49725\2100\65\41\2\23400\0\23400\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000801
+   name           : bridgedResource_source_id
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000801
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\25\bridgedResource_source_id\3\41\2\1800\30900\54450\33000\61\40\51\60\40\1\7\40\2147483657\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2&
+ display-instance : 100\151\41\2\19800\0\49725\2100\65\41\2\21825\0\21825\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000802
+   name           : bridgedResource_value_attribute
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000802
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\31\bridgedResource_value_attribute\3\41\2\1800\36900\54450\39000\61\40\51\60\40\1\7\40\2147483659\231\6\0\143\40\4294967295\21\41\2\0\400\1&
+ display-instance : 9687\2100\151\41\2\19800\0\49725\2100\65\41\2\19125\0\19125\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000803
+   name           : bridgedResource_label_attribute
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000803
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\31\bridgedResource_label_attribute\3\41\2\1800\39900\54450\42000\61\40\51\60\40\1\7\40\2147483660\231\6\0\143\40\4294967295\21\41\2\0\400\1&
+ display-instance : 9687\2100\151\41\2\19800\0\49725\2100\65\41\2\19575\0\19575\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000804
+   name           : bridgedResource_form_id
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000804
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\23\bridgedResource_form_id\3\41\2\1800\6900\51525\9000\61\40\51\60\40\1\7\40\2147483649\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2100\&
+ display-instance : 151\41\2\19800\0\49725\2100\65\41\2\23175\0\23175\0\66\41\2\23175\0\23175\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000809
+   name           : bridgedResource_OperationID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760000809
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\27\bridgedResource_OperationID\3\41\2\1800\15900\51525\18000\61\40\51\60\40\1\7\40\2147483652\231\6\0\143\40\4294967295\21\41\2\0\400\19687&
+ display-instance : \2100\151\41\2\19800\0\49725\2100\65\41\2\20587\0\20587\0\66\41\2\20587\0\20587\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000900
+   name           : bridgedResourceParam_parameter_value
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 760000900
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 255
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\36\bridgedResourceParam_parameter_value\3\41\2\1462\62700\57712\64800\61\40\51\60\40\1\7\40\2147483673\231\6\0\143\40\4294967295\21\41\2\0\&
+ display-instance : 400\23287\2100\151\41\2\23400\0\53325\2100\65\41\2\18337\0\18337\0\66\41\2\53887\0\56249\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760000901
+   name           : bridgedResourceParam_bridge_resource_id
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 760000901
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\39\bridgedResourceParam_bridge_resource_id\3\41\2\1462\47800\54787\49900\61\40\51\60\40\1\7\40\2147483668\231\6\0\143\40\4294967295\21\41\2&
+ display-instance : \0\400\23287\2100\151\41\2\23400\0\53325\2100\65\41\2\17100\0\17100\0\66\41\2\17100\0\17100\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002500
+   name           : bridgedResource_Request ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760002500
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\26\bridgedResource_Request ID\3\41\2\1800\24900\51525\27000\61\40\51\60\40\1\7\40\2147483655\231\6\0\143\40\4294967295\21\41\2\0\400\19687\&
+ display-instance : 2100\151\41\2\19800\0\49725\2100\65\41\2\20137\0\20137\0\66\41\2\20137\0\20137\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002501
+   name           : parameter_Request ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760002501
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\15\20\4\20\parameter_Request ID\3\41\2\58275\18900\108000\21000\61\40\51\60\40\1\7\40\2147483665\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2100&
+ display-instance : \151\41\2\19800\0\49725\2100\65\41\2\23962\0\23962\0\66\41\2\23962\0\23962\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002502
+   name           : parameter_model_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760002502
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\15\20\4\20\parameter_model_name\3\41\2\58275\6900\110925\9000\61\40\51\60\40\1\7\40\2147483661\231\6\0\143\40\4294967295\21\41\2\0\400\19687\2100\1&
+ display-instance : 51\41\2\19800\0\49725\2100\65\41\2\24075\0\24075\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002503
+   name           : parameter_qualification_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760002503
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\15\20\4\28\parameter_qualification_name\3\41\2\58275\15900\110925\18000\61\40\51\60\40\1\7\40\2147483664\231\6\0\143\40\4294967295\21\41\2\0\400\19&
+ display-instance : 687\2100\151\41\2\19800\0\49725\2100\65\41\2\20925\0\20925\0\66\41\2\50287\0\52649\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002504
+   name           : parameter_Status
+   datatype       : 6
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 760002504
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Active
+   enum-value     : Inactive
+   enum-value     : Delete
+   default        : 0
+   permission     : 0\1
+   permission     : 10391\2
+ display-instance : 536870912\16\20\4\16\parameter_Status\3\41\2\58275\21900\108000\24000\61\40\20\60\40\1\7\40\2147483666\231\6\0\230\4\30\3\0\Active\1\Inactive\2\Delete\143\40&
+ display-instance : \4294967295\21\41\2\0\400\19687\2100\151\41\2\19800\0\49725\2100\65\41\2\30600\0\30600\0\66\41\2\30600\0\30600\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002600
+   name           : bridgedResourceParam_form_id
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 760000804
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\28\bridgedResourceParam_form_id\3\41\2\1462\50800\54787\52900\61\40\51\60\40\1\7\40\2147483669\231\6\0\143\40\4294967295\21\41\2\0\400\2328&
+ display-instance : 7\2100\151\41\2\23400\0\53325\2100\65\41\2\23400\0\23400\0\66\41\2\23400\0\23400\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002601
+   name           : bridgedResourceParam_instanceId
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 179
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 38
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\31\bridgedResourceParam_instanceId\3\41\2\1462\53800\54787\55900\61\40\51\60\40\1\7\40\2147483670\231\6\0\143\40\4294967295\21\41\2\0\400\2&
+ display-instance : 3287\2100\151\41\2\23400\0\53325\2100\65\41\2\21712\0\21712\0\66\41\2\21712\0\21712\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002602
+   name           : bridgedResourceParam_model_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 760000200
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\31\bridgedResourceParam_model_name\3\41\2\1462\56800\57712\58900\61\40\51\60\40\1\7\40\2147483671\231\6\0\143\40\4294967295\21\41\2\0\400\2&
+ display-instance : 3287\2100\151\41\2\23400\0\53325\2100\65\41\2\20475\0\20475\0\66\41\2\53887\0\56249\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002603
+   name           : bridgedResourceParam_parameter_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 760000500
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\35\bridgedResourceParam_parameter_name\3\41\2\1462\59700\57712\61800\61\40\51\60\40\1\7\40\2147483672\231\6\0\143\40\4294967295\21\41\2\0\4&
+ display-instance : 00\23287\2100\151\41\2\23400\0\53325\2100\65\41\2\18337\0\18337\0\66\41\2\53887\0\56249\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002604
+   name           : bridgedResourceParam_qualification_name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 760000400
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 84
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\39\bridgedResourceParam_qualification_name\3\41\2\1462\65700\57712\67800\61\40\51\60\40\1\7\40\2147483674\231\6\0\143\40\4294967295\21\41\2&
+ display-instance : \0\400\23287\2100\151\41\2\23400\0\53325\2100\65\41\2\17325\0\17325\0\66\41\2\53887\0\56249\2100\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002605
+   name           : bridgedResourceParam_Request ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   maxlength      : 15
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\15\20\4\31\bridgedResourceParam_Request ID\3\41\2\1462\68700\54787\70800\61\40\51\60\40\1\7\40\2147483675\231\6\0\143\40\4294967295\21\41\2\0\400\2&
+ display-instance : 3287\2100\151\41\2\23400\0\53325\2100\65\41\2\19687\0\19687\0\66\41\2\19687\0\19687\0\27\8\16\91\6\2\90\6\1\170\40\0\
+}
+field {
+   id             : 760002606
+   name           : bridgedResourceParam_Status
+   datatype       : 6
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 7
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1421095682
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   enum-value     : Active
+   enum-value     : Inactive
+   enum-value     : Delete
+   default        : 0
+   permission     : 0\1
+   permission     : 10105\2
+ display-instance : 536870912\16\20\4\27\bridgedResourceParam_Status\3\41\2\1462\71700\54787\73800\61\40\20\60\40\1\7\40\2147483676\231\6\0\230\4\30\3\0\Active\1\Inactive\2\Dele&
+ display-instance : te\143\40\4294967295\21\41\2\0\400\23287\2100\151\41\2\23400\0\53325\2100\65\41\2\25650\0\25650\0\66\41\2\25650\0\25650\0\27\8\16\91\6\2\90\6\1\170\40\0&
+ display-instance : \
+}
+end

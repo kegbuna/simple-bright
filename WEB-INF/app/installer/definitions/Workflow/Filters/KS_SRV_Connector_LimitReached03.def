@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_Connector_LimitReached03
+   timestamp      : 1421095864
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_IntegrationConnector
+   export-version : 9
+   filter-query   : 1\1\4\6\99\700000850\2\0\4\2\99\700000850\2\2\0\4\6\99\100200\2\0\
+   action {
+      set-field   : 0\700000851\107\1\@\64\ SELECT COUNT(*) FROM T$100200$ WHERE C700002203 = '$700001001$'\1\2\3\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

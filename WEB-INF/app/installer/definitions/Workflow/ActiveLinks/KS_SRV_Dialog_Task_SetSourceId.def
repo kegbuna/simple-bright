@@ -1,0 +1,26 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_Dialog_Task_SetSourceId
+   timestamp      : 1421095791
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_Dialog
+   actlink-mask   : 128
+   actlink-focus  : 770008612
+   enable         : 1
+   permission     : 10105
+   actlink-query  : 4\6\1\770008612\2\0\
+   action {
+      set-field   : 0\770008610\102\1\@\31\KS_RQT_SurveyTemplate_Tree_join\1\536870918\4\1\1\536870918\99\770008612\2\3\
+      set-field   : 1\770008612\104\1\104\1\104\1\104\1\102\1\@\31\KS_RQT_SurveyTemplate_Tree_join\1\600000500\4\1\1\536870918\99\770008612\2\3\101\4\4\ :: \102\1\@\31\KS_RQT_SurveyTemplate_Tree_join\1\700001000\4\1\1\536870918\99\770008612\2\3\101\4\4\ :
+      set-field   : 1\: \102\1\@\31\KS_RQT_SurveyTemplate_Tree_join\1\536870921\4\1\1\536870918\99\770008612\2\3\
+
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

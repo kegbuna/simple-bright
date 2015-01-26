@@ -1,0 +1,51 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RPT_CONSOLE_ClearQualification
+   timestamp      : 1421095766
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RPT_AdvancedReportConsole
+   actlink-mask   : 1
+   actlink-control: 700000106
+   enable         : 1
+   permission     : 0
+   action {
+      set-field   : 0\700000104\101\0\
+      set-field   : 1\700000109\101\0\
+      set-field   : 2\700000110\101\0\
+      set-field   : 3\700000111\101\0\
+      set-field   : 4\700000112\101\0\
+      set-field   : 5\700000113\101\0\
+      set-field   : 6\700000114\101\0\
+      set-field   : 7\700000115\101\0\
+      set-field   : 8\700000116\101\0\
+      set-field   : 9\700000117\101\0\
+      set-field   : 10\700000118\101\0\
+      set-field   : 11\700000119\101\0\
+      set-field   : 12\700000120\101\0\
+      set-field   : 13\700000121\101\0\
+      set-field   : 14\700000122\101\0\
+      set-field   : 15\700000123\101\0\
+      set-field   : 16\700000126\101\0\
+      set-field   : 17\700000127\101\0\
+      set-field   : 18\700000136\101\0\
+      set-field   : 19\700000236\101\0\
+      set-field   : 20\700000300\101\0\
+      set-field   : 21\700000301\101\0\
+      set-field   : 22\700000302\101\0\
+      set-field   : 23\700000303\101\0\
+      set-field   : 24\700000304\101\0\
+      set-field   : 25\700000401\101\0\
+      set-field   : 26\700000402\101\0\
+      set-field   : 27\700000403\101\0\
+      set-field   : 28\700000404\101\0\
+      set-field   : 29\700000405\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

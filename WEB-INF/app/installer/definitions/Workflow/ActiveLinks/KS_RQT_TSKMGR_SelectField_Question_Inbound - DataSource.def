@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_TSKMGR_SelectField_Question_Inbound - DataSource
+   timestamp      : 1421095778
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_TaskManager
+   actlink-mask   : 128
+   actlink-focus  : 700008001
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700000874\2\4\21\Inbound - Data Source\
+   action {
+      set-field   : 0\700008001\104\1\104\1\101\4\14\<%=attribute["\102\1\*\1\*\1\700008001\0\1\4\101\4\4\"]%>\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

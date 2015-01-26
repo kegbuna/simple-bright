@@ -1,0 +1,344 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_VIEWER_PopulateAttributes_Guide
+   type           : 1
+   num-references : 65
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\13\KS_SRV_Viewer\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   description    : Used to populate the values of the attributes for the displayed survey.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-01
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-02
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-03
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-04
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-05
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-06
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-07
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-08
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-09
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-10
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-11
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-12
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-13
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-14
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-15
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-16
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-17
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-18
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-19
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-20
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-21
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-22
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-23
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-24
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-25
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-26
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-27
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-28
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-29
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-30
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-31
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-32
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-33
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-34
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-35
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-36
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-37
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-38
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-39
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-40
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-41
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-42
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-43
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-44
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-45
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-46
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-47
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-48
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-49
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-56
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-54
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-50
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-51
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-52
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-53
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-55
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-57
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-58
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-59
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-60
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-61
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-62
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-63
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_VIEWER_PopulateAttributes-64
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : END
+   value          : 0\
+   ref-groups     : 0
+}
+end

@@ -1,0 +1,125 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_INTEGRATION_CheckForSurvey
+   type           : 4
+   num-references : 20
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 4\2\24\KS_SRV_IntegrationSample\2\18\KS_SAMPLE_Incident\2\34\KS_SRV_CustomerSurvey_ImportExport\2\21\KS_SRV_SithcoIncident\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   label          : KS_SRV_INTEGRATION_CheckForSurvey
+   description    : Checks to see if a survey needs to be sent
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_INTEGRATION_CheckIfSurveyNeedsToFire00
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : BEGIN LOOP
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_INTEGRATION_CheckIfSurveyNeedsToFire01
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_INTEGRATION_CheckIfSurveyNeedsToFire02
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : *SET-CUSTOM*
+   value          : 0\
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : -SET ADD-
+   value          : 0\
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : -SET END-
+   value          : 0\
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : *PUSH-CUSTOM
+   value          : 0\
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : -PUSH ADD-
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_INTEGRATION_SAMPLE_CheckSurveyFire99`!
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_INTEGRATION_ImportExport_CheckSurveyFire99`!
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SITHCO_INCIDENT_CheckSurveyFire99`!
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLE_Incident_CheckSurveyFire99`!
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : -PUSH END-
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_INTEGRATION_LoopNext99
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : -ATTRIBUTES-
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_INTEGRATION_SAMPLE_PushAttributes_Default
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_INTEGRATION_ImportExport_PushAttributes_Default
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_SITHCO_INCIDENT_PushAttributes_Default
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLE_Incident_PushAttributes_Default
+}
+end

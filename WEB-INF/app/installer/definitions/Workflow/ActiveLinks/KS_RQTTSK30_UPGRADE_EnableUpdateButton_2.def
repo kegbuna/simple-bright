@@ -1,0 +1,32 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQTTSK30_UPGRADE_EnableUpdateButton_2
+   timestamp      : 1421095770
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : KS_RQTTSK30_DataUpgradeForm
+   actlink-mask   : 278528
+   enable         : 1
+   permission     : 10105
+   actlink-query  : 4\4\1\790000013\2\2\1\
+   action {
+      id          : 790000007
+      focus       : 0
+      access-opt  : 3
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 790000014
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

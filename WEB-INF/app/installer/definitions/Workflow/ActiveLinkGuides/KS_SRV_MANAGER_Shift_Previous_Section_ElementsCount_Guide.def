@@ -1,0 +1,21 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_MANAGER_Shift_Previous_Section_ElementsCount_Guide
+   type           : 1
+   num-references : 1
+   timestamp      : 1421095853
+   owner          : KineticData, Inc.
+   owning-obj     : 2\2\14\KS_SRV_Manager\2\14\KS_RQT_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_Shift_PreviousElements_SectionRowCount
+}
+end

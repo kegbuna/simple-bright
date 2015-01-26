@@ -1,0 +1,22 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_CONTENTSHTML_BuildImageHTML_02a
+   timestamp      : 1421095868
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 951
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ContentsElementHTML
+   export-version : 9
+   filter-query   : 1\1\1\2\4\1\99\700001690\2\0\4\1\99\600000042\2\4\14\REBUILD_LAYOUT\4\1\99\700001202\2\6\4\4\6\99\700001100\2\0\4\1\99\710060520\2\6\1\
+   action {
+      set-field   : 0\700001690\104\1\104\1\101\4\61\onmouseover='this.style.cursor="hand"' onclick='window.open("\102\1\@\1\@\1\700001100\0\1\4\101\4\12\", "_self")'\
+      set-field   : 1\600000042\101\4\14\REBUILD_LAYOUT\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

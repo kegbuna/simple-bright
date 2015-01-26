@@ -1,0 +1,13 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_SRV_SUBMANAGER_SurveyCombo
+   timestamp      : 1421095886
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 2
+   char-menu      : 0\2\21\KS_SRV_SurveyTemplate\1\@\600000500 600000600 700001000\179\1\1\1\4\6\1\7\2\6\4\4\1\1\700036000\99\700036000\2\4\7\2\1\8\3\1\3\1\2\4\1\%\1\702031801\2\4\1\%\4\1\1\702031801\2\4\6\Public\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

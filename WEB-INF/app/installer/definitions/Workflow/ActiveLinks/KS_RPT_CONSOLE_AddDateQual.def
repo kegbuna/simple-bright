@@ -1,0 +1,25 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RPT_CONSOLE_AddDateQual
+   timestamp      : 1421095766
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RPT_AdvancedReportConsole
+   enable         : 1
+   permission     : 0
+   actlink-query  : 1\1\1\4\6\1\300584300\2\0\4\1\1\300584400\2\6\0\4\6\1\700000127\2\0\4\6\1\700000126\2\0\
+   action {
+      set-field   : 0\700000104\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\102\1\*\1\*\1\700000104\0\1\4\101\4\6\ AND '\102\1\*\1\*\1\300584300\0\1\4\101\4\5\' >= \101\4\1\ \105\11\1\102\1\*\1\*\1\700000126\0\1\4\101\4\1\ \101
+      set-field   : 0\\4\6\ AND '\102\1\*\1\*\1\300584300\0\1\4\101\4\5\' <= \101\4\1\ \105\11\1\102\1\*\1\*\1\700000127\0\1\4\101\4\0\\
+
+   }
+   change-diary   : 1253896168DemoChanged Qualification from: ((((((((((($Qualification$ +  " AND '") + $Date Range Field ID$) +  "' >= ") +  " """) + $Start Date$) +  " 
+   change-diary   : """) +  " AND '") + $Date Range Field ID$) +  "' <=  ") +  " """) + $End Date$) +  """"
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

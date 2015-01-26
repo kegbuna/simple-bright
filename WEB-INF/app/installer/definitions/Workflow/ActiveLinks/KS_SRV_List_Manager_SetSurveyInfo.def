@@ -1,0 +1,29 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_List_Manager_SetSurveyInfo
+   timestamp      : 1421095822
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Manager
+   actlink-mask   : 128
+   actlink-focus  : 700000095
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\700000095\2\0\
+   action {
+      set-field   : 0\700000095\104\1\104\1\102\1\@\21\KS_SRV_SurveyTemplate\1\600000500\4\1\99\700000095\1\179\2\3\101\4\2\::\102\1\@\21\KS_SRV_SurveyTemplate\1\700001000\4\1\99\700000095\1\179\2\3\
+      set-field   : 1\700000116\102\1\@\21\KS_SRV_SurveyTemplate\1\600000500\4\1\99\700000095\1\179\2\3\
+      set-field   : 2\700000117\102\1\@\21\KS_SRV_SurveyTemplate\1\700001000\4\1\99\700000095\1\179\2\3\
+      set-field   : 3\700000118\102\1\@\21\KS_SRV_SurveyTemplate\1\700001150\4\1\99\700000095\1\179\2\3\
+      set-field   : 4\700000119\102\1\@\21\KS_SRV_SurveyTemplate\1\7\4\1\99\700000095\1\179\2\3\
+      set-field   : 5\700000120\102\1\@\21\KS_SRV_SurveyTemplate\1\1\4\1\99\700000095\1\179\2\3\
+      set-field   : 6\700000121\102\1\@\21\KS_SRV_SurveyTemplate\1\179\4\1\99\700000095\1\179\2\3\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

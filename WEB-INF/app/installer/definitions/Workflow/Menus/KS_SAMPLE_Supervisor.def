@@ -1,0 +1,12 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin char menu
+   name           : KS_SAMPLE_Supervisor
+   timestamp      : 1421095885
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   refresh-code   : 2
+   char-menu      : 0\2\16\KS_SAMPLE_People\1\@\240000001\179\1\4\1\1\7\2\6\0\
+end

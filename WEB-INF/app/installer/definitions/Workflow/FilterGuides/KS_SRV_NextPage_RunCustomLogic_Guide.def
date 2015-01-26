@@ -1,0 +1,66 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_NextPage_RunCustomLogic_Guide
+   type           : 4
+   num-references : 10
+   timestamp      : 1421095883
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\15\KS_SRV_NextPage\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   description    : This guide allows for custom logic to be applied for surveys with multle pages.All custom Filter must be applied in this guide
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_ValidateSubmitter_Sample1_Check
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_ValidateSubmitter_Sample1_Reload
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_ErrorMessageHandling_Names_Check
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_ErrorMessageHandling_Names_SetError
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_ErrorMessageHandling_Category_Check
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_ErrorMessageHandling_Category_SetError
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_ErrorMessageHandling_Reload
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_WindowIdentityScraping_Check
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SAMPLES_NextPage_WindowIdentityScraping_Failed
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_SRV_NextPage_PageBranchingExample_CallGuide
+}
+end

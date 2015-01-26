@@ -1,0 +1,20 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_AnswerPatternMatching_UpdatePatternName
+   timestamp      : 1421095863
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_AnswerPatternMatch
+   export-version : 9
+   filter-query   : 1\4\6\50\700008000\51\700008000\4\6\50\700008000\2\0\
+   action {
+      push-field  : 0\1\@\21\KS_SRV_SurveyQuestion\1\700008000\4\1\1\700008004\99\179\3\5\102\1\@\1\@\1\700008000\0\1\4\
+   }
+end

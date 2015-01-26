@@ -1,0 +1,65 @@
+{
+  "form" : "KS_SRV_WebUserMessage",
+  "duplicateRecordQualifierFieldNames" : [ "MessageIdentifier" ],
+  "data" : [ {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Generic Error",
+    "MessageText" : "<br>\n<b>There is an error with the item you are working with.\n<br>\n<br>\nPlease report this error to your system administrator.<br>\n<br>\nThank you.\n</b>\n",
+    "Message_Page_Name" : "Error"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Survey Instance Closed",
+    "MessageText" : "<br><b>The item you are trying to access has already been submitted.<br>\n<br>\nIf you feel this is an error, please report this error to your system administrator.</b>",
+    "Message_Page_Name" : "Previously Submitted"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Survey Not Found",
+    "MessageText" : "<br>\n<b>We were not able to find the item you are trying to access. <br>\nThe most common reason for these errors are incomplete URLs or an incorrect ID<br>\n<br>\nIf you are accessing this via an email message, check that the URL<br>\ndid not wrap over to two lines.  If so, try pasting the entire URL into your browser.<br>\n<br>\nFor additional support please contact your system administrator.\n</b>",
+    "Message_Page_Name" : "Page Not Found"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Survey Template Closed",
+    "MessageText" : "<b>The item you are trying to access is closed and is no longer accepting new submissions.<br>\nIf you feel this is an error, please contact your system administrator.\n</b>",
+    "Message_Page_Name" : "Item Closed"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Anonymous Surveys Not Allowed",
+    "MessageText" : "<b>You are attempting to access this item anonymously.  <br>\nThis template is configured so that anonymous access is not allowed.<br>\nIf you feel this is an error, please contact your system administrator.\n</b>",
+    "Message_Page_Name" : "Anonymous Not Allowed"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Allowable Length Exceeded",
+    "MessageText" : "<b>The answers submitted exceed the allowable total length of characters.<br>\nIf you feel this is an error, please contact your system administrator.\n</b>",
+    "Message_Page_Name" : "Submission Error"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Required Fields Error",
+    "MessageText" : "The following fields are required and must be filled in:",
+    "Message_Page_Name" : "Required Field Error"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Remedy Error Message",
+    "MessageText" : "<br>\n<b>There is an AR System error with the item you are working with. <br>\n<br>\nPlease report this error to your system administrator.<br>The error is: </b><br><br>",
+    "Message_Page_Name" : "Page Error"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Survey Expired",
+    "MessageText" : "This item has expired.",
+    "Message_Page_Name" : "Expired"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "Session Expiration",
+    "MessageText" : "Your session has expired.  Please refresh your browser or login again.",
+    "Message_Page_Name" : "Session Expired"
+  }, {
+    "Message_Background_Color" : "#FFFFFF",
+    "MessageIdentifier" : "No Access",
+    "MessageText" : "<br>\n<b>You do not have the correct permissions to access this form. <br>\n\n<br>\nFor additional support please contact your system administrator.\n</b>",
+    "Message_Page_Name" : "No Access"
+  }, {
+    "SurveyInstanceID" : "KS000C29245910_coiVAOZG8PQdPEJ",
+    "MessageIdentifier" : "Generic Error",
+    "MessageText" : "Generic Error",
+    "Message_Page_Name" : "Error"
+  } ]
+}

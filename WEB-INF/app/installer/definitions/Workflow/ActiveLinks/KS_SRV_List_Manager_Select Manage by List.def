@@ -1,0 +1,138 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_List_Manager_Select Manage by List
+   timestamp      : 1421095821
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 5
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Manager
+   actlink-mask   : 278530
+   actlink-focus  : 700000510
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\700000510\2\6\0\
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700714100
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000050
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000051
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000052
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000107
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000005
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+      set-field   : 0\600000204\101\4\9\700000005\
+      set-field   : 1\700000251\102\1\*\1\*\1\700000057\0\1\4\
+      set-field   : 2\700000516\101\4\75\( 'Status' = "Active") AND ( $C_List_Mem_MemberIID$ = 'Member Instance ID')\
+      set-field   : 3\700000517\101\4\48\$C_List_Mem_ContactValue$ = 'Contact_Info_Value'\
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700044091
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   action {
+   display-prop   : 1\4\6\1\
+      id          : 700000105
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700714100
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700000050
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700000051
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700000052
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700000107
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700000005
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700044091
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   else {
+   display-prop   : 1\4\6\0\
+      id          : 700000105
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

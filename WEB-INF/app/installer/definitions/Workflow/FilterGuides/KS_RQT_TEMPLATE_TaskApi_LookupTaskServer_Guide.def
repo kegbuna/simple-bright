@@ -1,0 +1,44 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_RQT_TEMPLATE_TaskApi_LookupTaskServer_Guide
+   type           : 4
+   num-references : 5
+   timestamp      : 1421095882
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\21\KS_SRV_SurveyTemplate\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   label          : KS_RQT_TEMPLATE_TaskApi_LookupTaskServer_Guide
+   description    : Looks up the Task Server for this template based on either the template attributes, or the catalog attributes.  Also gets called when a non-null Submit 
+   description    : Type - Kinetic Request base submission is created.
+   help-text      : Task Server Name gets stored in _Multi-Purpose.Task Source Name gets stored in _Multi-Purpose2.
+   object-prop    : 1\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskApi_LookupTaskServer_ClearVariables
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TEMPLATE_TaskApi_LookupTaskServerTemplateAttribute
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskApi_LookupTaskServerCatalogAttribute
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TEMPLATE_TaskApi_LookupTaskSourceTemplateAttribute
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : KS_RQT_TaskApi_LookupTaskSourceCatalogAttribute
+}
+end

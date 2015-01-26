@@ -1,0 +1,37 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_RQT_MANAGER_AuthenticationFields
+   type           : 1
+   num-references : 4
+   timestamp      : 1421095850
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\14\KS_RQT_Manager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   description    : Used to hide/show the appropriate Authentication fields
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_MANAGER_Authentication_Required_OnDisplay
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_MANAGER_Authentication_Type-Default
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_MANAGER_Authentication_Type-External-OnDisplay
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_RQT_MANAGER_Authentication_Type-Template-OnDisplay
+}
+end

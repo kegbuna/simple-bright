@@ -1,0 +1,14 @@
+<%
+    /* This JSP fragment assumes the parent JSP already loaded the UserContext bean */
+    
+    String message = UserContext.getErrorMessage();
+    String messageType = "error";
+    if (message == null || message.length() == 0) {
+        message = UserContext.getSuccessMessage();
+        messageType = "success";
+    }
+    UserContext.setErrorMessage("");
+    UserContext.setSuccessMessage("");
+    session.setAttribute("message", message);
+    session.setAttribute("messageType", messageType);
+%>

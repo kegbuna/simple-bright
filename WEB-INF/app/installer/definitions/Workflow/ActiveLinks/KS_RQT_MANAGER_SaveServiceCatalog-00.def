@@ -1,0 +1,50 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_MANAGER_SaveServiceCatalog-00
+   timestamp      : 1421095775
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 50
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_Manager
+   actlink-mask   : 1
+   actlink-control: 702020100
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\2\1\16\2\4\19\New Service Catalog\
+   action {
+      set-field   : 0\600000500\102\1\*\1\*\1\700002030\0\1\4\
+      set-field   : 1\700003427\102\1\*\1\*\1\112\0\1\4\
+   }
+   action {
+      call-server : @
+      call-guide  : KS_RQT_MANAGER_SaveServiceCatalog_Checks
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      push-field  : 0\1\@\26\KS_RQT_ServiceCatalog_base\1\7\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\702020007\0\1\4\
+      push-field  : 1\1\@\26\KS_RQT_ServiceCatalog_base\1\112\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\112\0\1\4\
+      push-field  : 2\1\@\26\KS_RQT_ServiceCatalog_base\1\600000500\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\700002030\0\1\4\
+      push-field  : 3\1\@\26\KS_RQT_ServiceCatalog_base\1\700001259\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\700001259\0\1\4\
+      push-field  : 4\1\@\26\KS_RQT_ServiceCatalog_base\1\700001923\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\700001923\0\1\4\
+      push-field  : 5\1\@\26\KS_RQT_ServiceCatalog_base\1\700002301\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\700002301\0\1\4\
+      push-field  : 6\1\@\26\KS_RQT_ServiceCatalog_base\1\700003102\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\700003102\0\1\4\
+      push-field  : 7\1\@\26\KS_RQT_ServiceCatalog_base\1\700073100\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\700073100\0\1\4\
+      push-field  : 8\1\@\26\KS_RQT_ServiceCatalog_base\1\700073102\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\700073102\0\1\4\
+      push-field  : 9\1\@\26\KS_RQT_ServiceCatalog_base\1\702020004\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\702020020\0\1\4\
+      push-field  : 10\1\@\26\KS_RQT_ServiceCatalog_base\1\702020005\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\702020005\0\1\4\
+      push-field  : 11\1\@\26\KS_RQT_ServiceCatalog_base\1\702020006\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\700003458\0\1\4\
+      push-field  : 12\1\@\26\KS_RQT_ServiceCatalog_base\1\702030106\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\702030106\0\1\4\
+      push-field  : 13\1\@\26\KS_RQT_ServiceCatalog_base\1\702030107\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\702030107\0\1\4\
+      push-field  : 14\1\@\26\KS_RQT_ServiceCatalog_base\1\702030108\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\702030108\0\1\4\
+      push-field  : 15\1\@\26\KS_RQT_ServiceCatalog_base\1\702030109\4\1\1\700001923\99\179\4\5\102\1\*\1\*\1\702030109\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

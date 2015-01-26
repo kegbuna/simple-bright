@@ -1,0 +1,37 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_RQT_TSKMGR_SetInfoOnOpen
+   timestamp      : 1421095778
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_RQT_TaskManager
+   actlink-mask   : 278528
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\6\1\179\2\0\
+   action {
+      set-field   : 0\179\102\1\@\15\KS_SRV_FieldMap\1\179\4\1\1\179\99\179\2\3\
+      set-field   : 1\700000800\102\1\@\15\KS_SRV_FieldMap\1\700000800\4\1\1\179\99\179\2\3\
+      set-field   : 2\700000876\102\1\@\15\KS_SRV_FieldMap\1\700000876\4\1\1\179\99\179\2\3\
+      set-field   : 3\700000899\102\1\@\15\KS_SRV_FieldMap\1\700000899\4\1\1\179\99\179\2\3\
+      set-field   : 4\700008003\105\23\3\102\1\@\15\KS_SRV_FieldMap\1\700000873\4\1\1\179\99\179\2\3\101\4\3\%0A\105\19\1\101\4\2\ \
+      set-field   : 5\700008004\102\1\@\15\KS_SRV_FieldMap\1\600000300\4\1\1\179\99\179\2\3\
+      set-field   : 6\700008005\102\1\@\15\KS_SRV_FieldMap\1\700000871\4\1\1\179\99\179\2\3\
+      set-field   : 7\700008012\102\1\@\15\KS_SRV_FieldMap\1\700000872\4\1\1\179\99\179\2\3\
+      set-field   : 8\700008014\105\23\3\102\1\@\15\KS_SRV_FieldMap\1\700000875\4\1\1\179\99\179\2\3\101\4\3\%0A\105\19\1\101\4\2\ \
+      set-field   : 9\700008060\102\1\@\15\KS_SRV_FieldMap\1\700008060\4\1\1\179\99\179\2\3\
+      set-field   : 10\700073250\102\1\@\15\KS_SRV_FieldMap\1\700073250\4\1\1\179\99\179\2\3\
+      set-field   : 11\700073251\102\1\@\15\KS_SRV_FieldMap\1\700073251\4\1\1\179\99\179\2\3\
+      set-field   : 12\700073257\102\1\@\15\KS_SRV_FieldMap\1\700073257\4\1\1\179\99\179\2\3\
+      set-field   : 13\770000400\102\1\@\15\KS_SRV_FieldMap\1\770000400\4\1\1\179\99\179\2\3\
+      set-field   : 14\770000402\102\1\@\15\KS_SRV_FieldMap\1\770000402\4\1\1\179\99\179\2\3\
+      set-field   : 15\770000403\102\1\@\15\KS_SRV_FieldMap\1\770000403\4\1\1\179\99\179\2\3\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+end

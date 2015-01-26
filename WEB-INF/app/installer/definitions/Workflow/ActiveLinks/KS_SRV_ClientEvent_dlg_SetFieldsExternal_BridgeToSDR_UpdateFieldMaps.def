@@ -1,0 +1,33 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ClientEvent_dlg_SetFieldsExternal_BridgeToSDR_UpdateFieldMaps
+   timestamp      : 1421095787
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ClientEvent_Dialog
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\1\600000042\2\4\3\Yes\
+   action {
+      push-field  : 0\1\@\15\KS_SRV_FieldMap\1\600000300\1\1\4\1\1\700000874\2\4\21\Inbound - Data Source\4\1\1\700000800\99\700000800\4\1\1\700008060\99\536870917\3\5\102\1\*\1\*\1\600000300\0\1\4\
+      push-field  : 1\1\@\15\KS_SRV_FieldMap\1\700000873\1\1\4\1\1\700000874\2\4\21\Inbound - Data Source\4\1\1\700000800\99\700000800\4\1\1\700008060\99\536870917\3\5\101\0\
+      push-field  : 2\1\@\15\KS_SRV_FieldMap\1\700000874\1\1\4\1\1\700000874\2\4\21\Inbound - Data Source\4\1\1\700000800\99\700000800\4\1\1\700008060\99\536870917\3\5\101\4\18\Inbound - External\
+      push-field  : 3\1\@\15\KS_SRV_FieldMap\1\700000875\1\1\4\1\1\700000874\2\4\21\Inbound - Data Source\4\1\1\700000800\99\700000800\4\1\1\700008060\99\536870917\3\5\101\0\
+      push-field  : 4\1\@\15\KS_SRV_FieldMap\1\700000876\1\1\4\1\1\700000874\2\4\21\Inbound - Data Source\4\1\1\700000800\99\700000800\4\1\1\700008060\99\536870917\3\5\101\4\2\na\
+      push-field  : 5\1\@\15\KS_SRV_FieldMap\1\770000404\1\1\4\1\1\700000874\2\4\21\Inbound - Data Source\4\1\1\700000800\99\700000800\4\1\1\700008060\99\536870917\3\5\101\0\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 700009500
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

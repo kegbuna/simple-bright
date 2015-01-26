@@ -1,0 +1,96 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_SRV_MANAGER_SearchCustSurvey_GenQual
+   type           : 1
+   num-references : 16
+   timestamp      : 1421095852
+   owner          : KineticData, Inc.
+   owning-obj     : 4\2\14\KS_SRV_Manager\2\14\KS_RQT_Manager\2\24\KS_RQT_SubmissionManager\2\24\KS_SRV_SubmissionManager\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_CmpnyName
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_CmpnyNameNull
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_LName
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_LNameNull
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_CmpnyID
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_OrigID
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_EmailPhone
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_SurveyID_01
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_SurveyID_Exact
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_SurveyID
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_Status
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_MANAGER_SearchSurveyBy_ValidationStatus
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SUBMANAGER_SearchSurveyBy_OrigID
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SUBMANAGER_SearchSurveyBy_SubID_01
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SUBMANAGER_SearchSurveyBy_SubID_Exact
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_SRV_SUBMANAGER_SearchSurveyBy_SubID
+}
+end

@@ -1,0 +1,23 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin active link
+   name           : KS_SRV_ElementDlg_Qstn_DynamicList_GetActiveModelMap
+   timestamp      : 1421095802
+   export-version : 9
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   actlink-order  : 150
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_ElementDialog
+   actlink-mask   : 16512
+   actlink-focus  : 760000200
+   enable         : 1
+   permission     : 0
+   actlink-query  : 4\1\2\1\16\2\4\14\QuestionDialog\
+   action {
+      set-field   : 0\760001607\102\1\@\19\KS_BRG_ModelMapping\1\760001000\1\4\1\1\760000200\99\760000200\4\1\1\7\2\6\0\2\3\
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

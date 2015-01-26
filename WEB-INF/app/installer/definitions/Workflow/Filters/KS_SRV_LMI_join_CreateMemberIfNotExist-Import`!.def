@@ -1,0 +1,30 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin filter
+   name           : KS_SRV_LMI_join_CreateMemberIfNotExist-Import`!
+   timestamp      : 1421095875
+   owner          : KineticData, Inc.
+   last-changed   : KineticData, Inc.
+   filter-op      : 20
+   enable         : 1
+   filter-order   : 250
+   wk-conn-type   : 1
+   schema-name    : KS_SRV_List_Manager_Import
+   export-version : 9
+   filter-query   : 4\1\99\536870922\2\0\
+   action {
+      set-field   : 0\536870922\103\28\Application-Generate-GUID KS\
+   }
+   action {
+      push-field  : 0\1\@\18\KS_SRV_List_Member\1\700004000\0\4\6\102\1\@\1\@\1\536870916\0\1\4\
+      push-field  : 1\1\@\18\KS_SRV_List_Member\1\400098500\0\4\6\102\1\@\1\@\1\536870915\0\1\4\
+      push-field  : 2\1\@\18\KS_SRV_List_Member\1\400068300\0\4\6\102\1\@\1\@\1\536870919\0\1\4\
+      push-field  : 3\1\@\18\KS_SRV_List_Member\1\400007500\0\4\6\102\1\@\1\@\1\536870917\0\1\4\
+      push-field  : 4\1\@\18\KS_SRV_List_Member\1\400007300\0\4\6\102\1\@\1\@\1\536870918\0\1\4\
+      push-field  : 5\1\@\18\KS_SRV_List_Member\1\400005200\0\4\6\102\1\@\1\@\1\536870920\0\1\4\
+      push-field  : 6\1\@\18\KS_SRV_List_Member\1\179\0\4\6\102\1\@\1\@\1\536870922\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end

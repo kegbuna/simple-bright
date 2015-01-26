@@ -1,0 +1,40 @@
+char-set: utf-8
+#
+#  File exported Tue Jan 13 09:19:08 2015
+#
+begin container
+   name           : KS_ATT_DD_CheckMandatory
+   type           : 1
+   num-references : 4
+   timestamp      : 1421095849
+   owner          : KineticData, Inc.
+   owning-obj     : 1\2\21\KS_ATT_DataDictionary\
+   last-changed   : KineticData, Inc.
+   export-version : 9
+   permission     : 0\2
+   label          : Check Mandatory Attribute Instances
+   description    : Check for Mandatory Attribute Instances
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Start
+   value          : 0\
+   ref-groups     : 0
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ATT_DD_ChkMandatory_1
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ATT_DD_ChkMandatory_2
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : KS_ATT_DD_ChkMandatory_3
+}
+end
