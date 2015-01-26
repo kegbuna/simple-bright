@@ -15421,3 +15421,25 @@
 2015-01-25 21:07:53,645 DEBUG [CacheEventMonitor-16     ] - Loaded 0 cache entries for the TaskServer record cache (109ms).
 2015-01-25 21:07:53,786 DEBUG [CacheEventMonitor-16     ] - Loaded 33 cache entries for the Template record cache (141ms).
 2015-01-25 21:07:53,786  INFO [CacheEventMonitor-16     ] - Loaded initial cache data (2970ms).
+2015-01-25 22:56:51,184 ERROR [CacheEventMonitor-16     ] - There was a problem processing cache events.
+com.kineticdata.ksr.adapter.AdapterException: Cannot establish a network connection to the AR System server
+	at com.kineticdata.ksr.adapter.Adapter.genericRetrieveMultiple(Adapter.java:917)
+	at com.kineticdata.ksr.adapter.Adapter.retrieveCacheEvents(Adapter.java:487)
+	at com.kineticdata.ksr.adapter.AdapterFactory.processCacheEvents(AdapterFactory.java:231)
+	at com.kineticdata.ksr.adapter.CacheEventMonitorThread.run(CacheEventMonitorThread.java:119)
+Caused by: ERROR (90): Cannot establish a network connection to the AR System server; Connection timed out: connect wvremappt01g1.laheyhealth.org:10000
+	at com.bmc.arsys.apitransport.ApiProxyJRpcBase.connectionTry(Unknown Source)
+	at com.bmc.arsys.api.ProxyJRpc.getRpcClient(Unknown Source)
+	at com.bmc.arsys.api.ProxyJRpc.getRpcClient(Unknown Source)
+	at com.bmc.arsys.apitransport.ApiProxyJRpcBase.a(Unknown Source)
+	at com.bmc.arsys.apitransport.ApiProxyJRpcBase.a(Unknown Source)
+	at com.bmc.arsys.apitransport.ApiProxyJRpcBase.arCall(Unknown Source)
+	at com.bmc.arsys.api.ProxyJRpc.ARExecuteProcess(Unknown Source)
+	at com.bmc.arsys.api.ARServerUser.executeProcess(Unknown Source)
+	at com.bmc.arsys.api.ARServerUser.executeProcess(Unknown Source)
+	at com.bmc.arsys.api.ARServerUser.executeSpecialCommand(Unknown Source)
+	at com.bmc.arsys.api.ARServerUser.parseQualification(Unknown Source)
+	at com.bmc.arsys.api.ARServerUser.parseQualification(Unknown Source)
+	at com.kineticdata.ksr.adapter.ArsHelper.retrieveEntries(ArsHelper.java:230)
+	at com.kineticdata.ksr.adapter.Adapter.genericRetrieveMultiple(Adapter.java:892)
+	... 3 more

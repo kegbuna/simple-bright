@@ -247,14 +247,15 @@
   {
     @extend .section-header;
     margin-bottom: 10px;
-    display: table;
+    display: block;
     width: 100%;
 
     .header-item
     {
       font-size: 20px;
       font-family: Lato Regular, Helvetica, sans-serif;
-      display: table-cell;
+      display: inline-block;
+      width: 50%;
       .item-label
       {
         display:none;

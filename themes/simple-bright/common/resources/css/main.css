@@ -3859,12 +3859,13 @@ li > p {
 
 .request-item .request-item-header {
   margin-bottom: 10px;
-  display: table;
+  display: block;
   width: 100%; }
   .request-item .request-item-header .header-item {
     font-size: 20px;
     font-family: Lato Regular, Helvetica, sans-serif;
-    display: table-cell; }
+    display: inline-block;
+    width: 50%; }
     .request-item .request-item-header .header-item .item-label {
       display: none; }
     .request-item .request-item-header .header-item .submit-date {

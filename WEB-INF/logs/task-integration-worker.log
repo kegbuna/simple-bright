@@ -584,3 +584,16 @@
 2015-01-25 21:07:50,863  INFO [TaskIntegrationWorker-17 ] - ==============================================
 2015-01-25 21:07:50,863  INFO [TaskIntegrationWorker-17 ] - The task integration worker has been started.
 2015-01-25 21:07:50,863  INFO [TaskIntegrationWorker-17 ] - ==============================================
+2015-01-25 22:56:55,830 ERROR [TaskIntegrationWorker-17 ] - There was a problem calling the Kinetic Task API.
+ERROR (90): Cannot establish a network connection to the AR System server; Connection timed out: connect wvremappt01g1.laheyhealth.org:10000
+	at com.bmc.arsys.apitransport.ApiProxyJRpcBase.connectionTry(Unknown Source)
+	at com.bmc.arsys.api.ProxyJRpc.getRpcClient(Unknown Source)
+	at com.bmc.arsys.api.ProxyJRpc.getRpcClient(Unknown Source)
+	at com.bmc.arsys.apitransport.ApiProxyJRpcBase.a(Unknown Source)
+	at com.bmc.arsys.apitransport.ApiProxyJRpcBase.a(Unknown Source)
+	at com.bmc.arsys.apitransport.ApiProxyJRpcBase.arCall(Unknown Source)
+	at com.bmc.arsys.api.ProxyJRpc.ARGetServerInfo(Unknown Source)
+	at com.bmc.arsys.api.ARServerUser.getServerInfo(Unknown Source)
+	at com.kineticdata.request.task.TaskIntegrationAdapter.retrieveRequestARServerTime(TaskIntegrationAdapter.java:471)
+	at com.kineticdata.request.task.TaskIntegrationWorkerThread.process(TaskIntegrationWorkerThread.java:132)
+	at com.kineticdata.request.task.TaskIntegrationWorkerThread.run(TaskIntegrationWorkerThread.java:227)
