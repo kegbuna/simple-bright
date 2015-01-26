@@ -81,7 +81,7 @@
 						{
 							titleLayer.style.color = "red";
 							titleLayer.innerHTML = "There was a problem logging you in:";
-							if (errorMessage == "Authentication failed")
+							if (errorMessage == "Authentication failed.")
 							{
 								messageLayer.innerHTML = "<p>Your username or password is incorrect.</p><p>Need help logging in? Call the Service Desk <b>781.744.8888</b></p>";
 							}
