@@ -19,7 +19,7 @@
     //loading in the broadcasts
     Broadcasts broadcasts = Broadcasts.findAvailable(context, context.getUserName());
     //Sorted by Create date
-    SubmissionConsole[] matchingTemplates  = SubmissionConsole.find(context, catalog, "'Submitter' = \"" + context.getUserName() +"\"", new String[]{"3"}, 5, 0, 2);
+    SubmissionConsole[] matchingTemplates  = SubmissionConsole.find(context, catalog, "'Type' = \"Template\" AND 'Submitter' = \"" + context.getUserName() +"\"", new String[]{"3"}, 5, 0, 2);
 
 
 %>
