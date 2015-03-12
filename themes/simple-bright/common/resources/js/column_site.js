@@ -62,10 +62,89 @@ keg.form.attachTypeAhead = function(prefix, model, qual, useAnswer)
 {
 
 };
+
+//puts a listener on all dropdowns, radios, and checkboxes and will hide/show make questions required as needed
+keg.form.startQuestionListeners = function()
+{
+    $('.qTrigger select.answerValue.answerSelect').on('change', function()
+    {
+        //get all the possible answers
+        var possibleAnswers = [];
+        var possibleClasses = [];
+
+        $(this).find('option').map(function (index, domElement)
+        {
+            //skip the empty value
+            if (index > 0)
+            {
+                possibleAnswers.push($(this).val());
+                possibleClasses.push($(this).val().replace(/[^a-zA-Z:]/g, ''));
+            }
+
+        });
+
+        console.log("Possible: ", possibleAnswers);
+        //console.log("Actual: ", $(this).val());
+
+        var currentAnswer = $(this).val();
+        //This is what we're going to reveal
+        var targetClass = $(this).val().replace(/[^a-zA-Z:]/g, '');
+
+        console.log("Target Class: ", targetClass);
+
+        //create array of missed answers
+        //var missedAnswers = new Array(possibleAnswers);
+        var missedClasses = new Array(possibleClasses);
+        if (targetClass != "")
+        {
+            //if we have an answer, remove it
+            var answerIndex = possibleAnswers.indexOf(currentAnswer);
+            //missedAnswers.splice(answerIndex, 1);
+            missedClasses.splice(answerIndex, 1);
+        }
+
+        //reveal the targets
+        $('.'+ targetClass).each(function ()
+        {
+            $(this).removeClass('qHide').fadeIn();
+
+            //make required questions required
+            if ($(this).hasClass('questionLayer') && $(this).hasClass('req'))
+            {
+                var qLabel = $(this).attr('label');
+                KD.utils.Action.makeQuestionRequired(qLabel);
+            }
+        });
+
+        //hide the missedAnswers, start by creating a query to seek them out
+        var missedAnswerQuery = "";
+        var newQuery = "";
+        for (var i in missedClasses)
+        {
+
+            newQuery = "." + missedClasses[i].toString();
+            missedAnswerQuery += newQuery;
+            console.log(typeof newQuery);
+
+        }
+        console.log(/*"Missed Classes: ",*/ missedAnswerQuery);
+
+        $(missedAnswerQuery).each(function()
+        {
+            $(this).fadeOut();
+            if ($(this).hasClass('questionLayer') && $(this).hasClass('req'))
+            {
+                KD.utils.Action.makeQuestionOptional($(this).attr('label'));
+            }
+        });
+    });
+};
+
 //This function will be fired at the beginning of any service item to provide some additional functionality
 keg.startTemplate = function ()
 {
     initializeCustomerContact();
+    keg.form.startQuestionListeners();
 
     //Customer/Contact boxes
     function initializeCustomerContact()
@@ -211,6 +290,8 @@ keg.startTemplate = function ()
             }
         });
     }
+
+
 };
 
 keg.Request = {};
@@ -218,7 +299,7 @@ keg.Request = {};
 keg.Request.retrieveINC = function()
 {
     //http://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
-    //generating guid
+    //generating guid used as the instance id on the num gen form
     var guid = (function() {
         function s4() {
             return Math.floor((1 + Math.random()) * 0x10000)
@@ -231,6 +312,7 @@ keg.Request.retrieveINC = function()
         };
     })();
 
+    //if the question is empty and this is not a Review
     if (KD.utils.Action.getQuestionValue("Incident Number") == "" && typeof KD.utils.Review == "undefined")
     {
         var data = {};
@@ -256,6 +338,7 @@ keg.Request.retrieveINC = function()
     }
 };
 
+// Used in Send an update, sets the ticket number question to the id in the url
 keg.Request.setQuestionsFromParams = function ()
 {
     var params = getUrlParameters();

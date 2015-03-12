@@ -54,11 +54,12 @@
         <%@include file="../../core/interface/fragments/formHeadContent.jspf"%>
     </head>
     <body class="loadAllPages_<%=customerSurveyReview.getLoadAllPages()%> review">
+    <%@include file="../../common/interface/fragments/header.jspf"%>
         <div class="view-port">
             <div class="content-slide" data-target="div.navigation-slide">
                 <%if (request.getParameter("embedded") == null)
                 {%>
-                <%@include file="../../common/interface/fragments/header.jspf"%>
+
 
                 <div class="pointer-events">
                     <header class="container">

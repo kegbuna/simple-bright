@@ -1874,7 +1874,7 @@ pre {
 .fa-file:before {
   content: "\f15b"; }
 
-.fa-file-text:before {
+.fa-file-text:before, .entry-box .offering-list .offering .epic-reporting-button .ticket-icon:before {
   content: "\f15c"; }
 
 .fa-sort-alpha-asc:before {
@@ -3793,7 +3793,8 @@ li > p {
     font-size: 18px;
     margin: 10px;
     float: left;
-    max-width: 235px; }
+    max-width: 235px;
+    min-height: 160px; }
     .entry-box .offering-list .offering .description {
       font-size: 12px; }
 .entry-box .offering-button {
@@ -3928,6 +3929,17 @@ Display Page section stuff
     padding: 0;
     font-size: 36px;
     font-family: "Fedra Sans Light", Helvetica, sans-serif; }
+
+.question-header {
+  margin: 0 20px 10px 20px;
+  background: #faf9f1; }
+  .question-header .question-header-title {
+    background: #228e9c;
+    color: white;
+    line-height: 60px;
+    padding: 0 20px; }
+  .question-header .question-header-text {
+    padding: 5px 20px; }
 
 /*
 
@@ -5208,15 +5220,18 @@ div.templateSection {
     padding-top: 0; }
 
 div.questionLayer {
-  margin: 0 40px 20px 40px; }
+  margin: 0 40px 20px 40px;
+  min-height: 55px;
+  display: table; }
   div.questionLayer .questionLabel {
     padding: 5px;
-    display: inline-block;
-    float: left;
-    width: 30%; }
+    display: table-cell;
+    width: 30%;
+    vertical-align: middle; }
   div.questionLayer .questionAnswer {
     border-top: 0;
-    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
     padding: 5px 0; }
     div.questionLayer .questionAnswer input.answerAttachment {
       height: 30px;
@@ -5226,6 +5241,10 @@ div.questionLayer {
 
 .submitButton .templateButton {
   margin-left: 40px; }
+
+/* Hiding/showing event stuff */
+.qHide {
+  display: none !important; }
 
 /* login form */
 #loginBox {

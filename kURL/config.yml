@@ -1,5 +1,5 @@
----
-username: kegbuna
-password: remedy
-server: wvremappt01g1.laheyhealth.org
-port: '10000'
+kurl:
+  username: kegbuna
+  password: remedy
+  server: wvremappt01g1.laheyhealth.org
+  port: 10000

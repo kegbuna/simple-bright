@@ -434,18 +434,20 @@ div.templateSection
 div.questionLayer
 {
   margin: 0 40px 20px 40px;
+  min-height: 55px;
+  display: table;
   .questionLabel
   {
     padding: 5px;
-    display: inline-block;
-    float: left;
+    display: table-cell;
     width: 30%;
-
+    vertical-align: middle;
   }
   .questionAnswer
   {
     border-top: 0;
-    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
     padding: 5px 0;
     select
     {
@@ -472,6 +474,12 @@ div.questionLayer
   }
 }
 
+/* Hiding/showing event stuff */
+
+.qHide
+{
+  display: none !important;
+}
 
 /* login form */
 #loginBox

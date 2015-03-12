@@ -22,6 +22,7 @@
     bundle.setProperty("incidentUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-ReportIncident");
     bundle.setProperty("appRequestUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-AppRequest");
     bundle.setProperty("epicRequestUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-EpicRequest");
+    bundle.setProperty("epicReportingUrl", bundle.applicationPath() + "DisplayPage?name=" + bundle.getProperty("slug") + "-EpicReporting");
     bundle.setProperty("logoutUrl", "KSAuthenticationServlet?Logout=true");
     bundle.setProperty("siteTitle", "Online Service Desk");
 

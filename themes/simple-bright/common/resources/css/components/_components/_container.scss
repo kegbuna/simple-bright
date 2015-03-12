@@ -89,6 +89,7 @@
       margin: 10px;
       float: left;
       max-width: 235px;
+      min-height: 160px;
       .incident-button
       {
         .ticket-icon
@@ -111,6 +112,13 @@
           @extend .fa-user-md;
           //LOL
           //@extend .fa-spin;
+        }
+      }
+      .epic-reporting-button
+      {
+        .ticket-icon
+        {
+          @extend .fa-file-text;
         }
       }
       .description
@@ -366,6 +374,24 @@ Display Page section stuff
   }
 }
 
+.question-header
+{
+  margin: 0 20px 10px 20px;
+  background: $colorSectionHeaderBG;
+  .question-header-title
+  {
+    background: $colorPrimary4-1;
+    color: white;
+    line-height: 60px;
+    padding: 0 20px;
+  }
+
+  .question-header-text
+  {
+    padding: 5px 20px;
+  }
+
+}
 /*
 
 */

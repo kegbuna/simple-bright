@@ -61,6 +61,7 @@
                             <li class="offering"><a class="incident-button offering-button" href="<%=bundle.getProperty("incidentUrl")%>"><i class="ticket-icon"></i>Report My Issue</a><p class="description">Something not working right?  Report it here.  For urgent issues, please contact the IS Service Center by phone at 781.744.8888.</p></li>
                            <!--<li class="offering"><a class="request-button offering-button" href="<%=bundle.getProperty("appRequestUrl")%>"><i class="ticket-icon"></i>Clinical App Request</a><p class="description">Need access to clinical applications or reports? Ask us!</p></li>-->
                             <li class="offering"><a class="epic-button offering-button" href="<%=bundle.getProperty("epicRequestUrl")%>"><i class="ticket-icon"></i>Epic App Request</a><p class="description">Make all of your Epic related requests here.</p></li>
+                            <li class="offering"><a class="epic-reporting-button offering-button" href="<%=bundle.getProperty("epicReportingUrl")%>"><i class="ticket-icon"></i>Epic Reporting</a><p class="description">Make all Epic reporting related requests here.</p></li>
                             <!--<li class="offering"><a class="request-button offering-button" href="<%=bundle.getProperty("categoryUrl")%>"><i class="ticket-icon"></i>Requests</a><p class="description">Make all of your Epic related requests here.</p></li>-->
                         </ul>
                     </div>
