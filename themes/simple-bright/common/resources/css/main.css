@@ -4949,8 +4949,8 @@ ul,
 ol {
   font-size: 19px; }
 
-input, select {
-  min-height: 30px; }
+input[type="checkbox"], input[type="radio"] {
+  margin-top: 10px; }
 
 main {
   margin: 0 auto;

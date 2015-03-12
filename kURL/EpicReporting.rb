@@ -222,14 +222,6 @@ service_item "Epic Reporting" do
       :field_map_number => "6"
     text "Request Access", "<h3 class=\"question-header-title\">Request access to an Epic report(s) for yourself or others.</h3><p class=\"question-header-text\">Access requests are granted with a valid MR1 account and sign-off from the owner of the requested report(s). In an effort to keep Lahey reporting sustainable, access is granted to all reports that share the same permissions group as opposed to the specified reports.</p>",
       :style_class => " question-header Access qHide"
-    question "Sponsor", "Who is the sponsor (director or higher) of this request?", :dynamic_list,
-      :style_class => "Access qHide req",
-      :field_map_number => "2" do
-      bridged_dynamic_list "People",
-        :qualification => "All Enabled",
-        :label_attribute => "Full Name",
-        :value_attribute => "Login ID"
-    end
     question "Access Users", "Who are the user(s) that access is requested for? Please provide MR1 account names or email addresses of each requested user. Absence of this information will delay the request.", :dynamic_list,
       :style_class => "Access qHide req",
       :field_map_number => "2" do
@@ -238,11 +230,90 @@ service_item "Epic Reporting" do
         :label_attribute => "Full Name",
         :value_attribute => "Login ID"
     end
-    question "Access Details", "Are there any other details?", :free_text,
+    question "Access Reports", "Which reports are being requested? If there a user that you wish the requested users to mimic for additional report access, who would that be? Please provide MR1 account names or email addresses. Absence of this information will delay the request.", :free_text,
       :style_class => "Access qHide req",
       :size => "30",
       :rows => "4",
       :field_map_number => "1"
+    question "Access Details", "Are there any other details?", :free_text,
+      :style_class => "Access qHide",
+      :size => "30",
+      :rows => "4",
+      :field_map_number => "1"
+    text "Request Modification", "<h3 class=\"question-header-title\">Request Modification to Existing Report</h3><p class=\"question-header-text\">Report modification requests are submitted for approval by governance. Please provide as much information as possible to aid the approval and prioritization of your request.</p>",
+      :style_class => " question-header Modification qHide"
+    question "Modification Report Name", "Please provide the exact display name of the report as it appears in Hyperspace.", :free_text,
+      :size => "20",
+      :rows => "1",
+      :style_class => "Modification qHide req",
+      :field_map_number => "28"
+    question "Modification Business Case", "Please describe the business case or rather impact this reporting will have on the organization and/or our patients?", :free_text,
+      :style_class => "Modification qHide req",
+      :size => "30",
+      :rows => "4",
+      :field_map_number => "1"
+    question "Modification Change Description", "Please describe the requested change(s) with as much detail and specifics as possible?", :free_text,
+      :style_class => "Modification qHide req",
+      :size => "30",
+      :rows => "4",
+      :field_map_number => "1"
+    text "Request Development", "<h3 class=\"question-header-title\">Request Development of a New Epic Report</h3><p class=\"question-header-text\">New report requests are submitted for approval by governance. Please provide as much information as possible to aid the approval and prioritization of your request.</p>",
+      :style_class => " question-header Development qHide"
+    question "Development Draft Title", "Please enter a draft title for this report", :free_text,
+      :size => "20",
+      :rows => "1",
+      :style_class => "Development qHide req",
+      :field_map_number => "28"
+    question "Development Description", "Please describe your request with as much detail and specifics as possible", :free_text,
+      :style_class => "Development qHide req",
+      :size => "30",
+      :rows => "4",
+      :field_map_number => "1"
+    question "Development Business Case", "Please describe the business case or rather impact this reporting will have on the organization and/or our patients?", :free_text,
+      :style_class => "Development qHide req",
+      :size => "30",
+      :rows => "4",
+      :field_map_number => "1"
+    question "Development Statements", "Select all statements that relate to this request: ", :list,
+      :check_box,
+      :vertical,
+      :choice_list => "DevStatements",
+      :style_class => "Development qHide req",
+      :field_map_number => "3" do
+      choice "This request impacts patient safety, regulatory requirements, or significant budget items."
+      choice "Absent this reporting, there is no known workaround that will satisfy the need."
+    end
+    question "Development Sites/Departments", "What are the intended sites and departments that will use this report?", :free_text,
+      :style_class => "Development qHide req",
+      :size => "30",
+      :rows => "4",
+      :field_map_number => "1"
+    question "Development Reporting Approach", "Which reporting approach is appropriate for your need?", :list,
+      :radio_button,
+      :vertical,
+      :style_class => "Development qHide req",
+      :choice_list => "ReportApproaches",
+      :field_map_number => "3" do
+      choice "Reporting Workbench", "Reporting Workbench (Near real time data but limited to a 31 day span. An example might be all discharges last April for a given nursing unit.)"
+      choice "Clarity Report", "Clarity Report (Virtually unlimited time span of data but data is stale by one day. Typical these are managerial reports looking at trends.)" 
+      choice "Automated Extract", "Automated Extract (A scheduled extract to be transmitted to a third party or internal computer system)"
+      choice "I don't know."
+    end
+    text "Request Other", "<h3 class=\"question-header-title\">Other Epic Reporting Request</h3>",
+      :style_class => " question-header Other qHide"
+    question "Other Description", "Please describe your request with as much detail and specifics as possible", :free_text,
+      :style_class => "Other qHide req",
+      :size => "30",
+      :rows => "4",
+      :field_map_number => "1"
+    question "Sponsor", "Who is the sponsor of this request (director or higher)? Upon submission, this user will be assigned to approve the request.", :dynamic_list,
+      :style_class => "Modification Access Development qHide req",
+      :field_map_number => "2" do
+      bridged_dynamic_list "People",
+        :qualification => "All Enabled",
+        :label_attribute => "Full Name",
+        :value_attribute => "Login ID"
+    end
     section  "Admin",
       :removed
     question "Validation Status", "Validation Status", :free_text,

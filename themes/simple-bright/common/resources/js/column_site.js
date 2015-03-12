@@ -94,7 +94,7 @@ keg.form.startQuestionListeners = function()
 
         //create array of missed answers
         //var missedAnswers = new Array(possibleAnswers);
-        var missedClasses = new Array(possibleClasses);
+        var missedClasses = possibleClasses.slice(0);
         if (targetClass != "")
         {
             //if we have an answer, remove it
@@ -118,14 +118,14 @@ keg.form.startQuestionListeners = function()
 
         //hide the missedAnswers, start by creating a query to seek them out
         var missedAnswerQuery = "";
-        var newQuery = "";
+        var newQuery;
+        console.log(missedClasses);
         for (var i in missedClasses)
         {
+            newQuery = i > 0 ? ',' : '';
 
-            newQuery = "." + missedClasses[i].toString();
+            newQuery += "." + missedClasses[i].toString();
             missedAnswerQuery += newQuery;
-            console.log(typeof newQuery);
-
         }
         console.log(/*"Missed Classes: ",*/ missedAnswerQuery);
 
