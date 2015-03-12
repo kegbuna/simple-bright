@@ -101,20 +101,20 @@ keg.form.startQuestionListeners = function()
             var answerIndex = possibleAnswers.indexOf(currentAnswer);
             //missedAnswers.splice(answerIndex, 1);
             missedClasses.splice(answerIndex, 1);
-        }
 
-        //reveal the targets
-        $('.'+ targetClass).each(function ()
-        {
-            $(this).removeClass('qHide').fadeIn();
-
-            //make required questions required
-            if ($(this).hasClass('questionLayer') && $(this).hasClass('req'))
+            //reveal the targets
+            $('.'+ targetClass).each(function ()
             {
-                var qLabel = $(this).attr('label');
-                KD.utils.Action.makeQuestionRequired(qLabel);
-            }
-        });
+                $(this).removeClass('qHide').fadeIn();
+
+                //make required questions required
+                if ($(this).hasClass('questionLayer') && $(this).hasClass('req'))
+                {
+                    var qLabel = $(this).attr('label');
+                    KD.utils.Action.makeQuestionRequired(qLabel);
+                }
+            });
+        }
 
         //hide the missedAnswers, start by creating a query to seek them out
         var missedAnswerQuery = "";
