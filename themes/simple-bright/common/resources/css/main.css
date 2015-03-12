@@ -5222,7 +5222,8 @@ div.templateSection {
 div.questionLayer {
   margin: 0 40px 20px 40px;
   min-height: 55px;
-  display: table; }
+  display: table;
+  width: 100%; }
   div.questionLayer .questionLabel {
     padding: 5px;
     display: table-cell;
