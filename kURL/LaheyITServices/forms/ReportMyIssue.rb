@@ -25,7 +25,7 @@ service_item "Report My Issue" do
       :load,
       :use_bridging,
       :fire_if => "1==1" do
-      custom_code "keg.startTemplate(); keg.Request.retrieveINC();"
+      custom_code "keg.startTemplate();"
       bridged_resource "People",
         :qualification => "Raw"
     end

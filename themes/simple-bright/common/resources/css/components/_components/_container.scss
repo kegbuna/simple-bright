@@ -349,6 +349,29 @@
     }
   }
 }
+
+//hoping to make this a more friendly general solution
+.search-input
+{
+  width: 250px;
+}
+
+.selected-user
+{
+  display: inline-block;
+  background: $colorPrimary4-1;
+  color: #fff;
+  margin: 5px 5px 5px 0;
+  padding: 2px 5px;
+
+  .close-button
+  {
+    @extend .fa;
+    @extend .fa-close;
+    color: $colorSecondary2-3;
+    cursor: pointer;
+  }
+}
 /*
 Display Page section stuff
 */

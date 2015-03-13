@@ -329,3 +329,54 @@ ol.list-links {
     }
   }
 }
+
+
+//A more general handling of list stuff
+.search-list
+{
+  padding: 0;
+  text-align: center;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+
+  .indicator-icon
+  {
+    @extend .fa;
+    @extend .fa-circle-o-notch;
+    @extend .fa-spin;
+    @extend .fa-3x;
+    margin: 20px 0;
+    color: $colorPrimary4-1;
+  }
+  .result
+  {
+    text-align: left;
+    font-family: "Lato Regular", Helvetica, Arial;
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px $colorPrimary3-2 solid;
+    border-top: 0;
+    cursor: pointer;
+    &:hover
+    {
+      background: $colorPrimary4-1;
+      transition: all 300ms ease;
+      .name
+      {
+        color: #fff;
+      }
+    }
+    .name
+    {
+      color: #000;
+      font-weight: 800;
+      font-size: 12px;
+    }
+    .email
+    {
+      font-weight: 300;
+      font-size: 12px;
+    }
+  }
+}

@@ -435,19 +435,7 @@ model {
     }
   }
   qualification {
-    name "Ops Team"
-    result_type "Multiple"
-  }
-  qualification {
-    name "Manager and Above"
-    result_type "Multiple"
-  }
-  qualification {
-    name "Director and Above"
-    result_type "Multiple"
-  }
-  qualification {
-    name "VP and Above"
+    name "All Enabled"
     result_type "Multiple"
   }
 }
@@ -517,6 +505,19 @@ model {
   qualification {
     name "All Products"
     result_type "Multiple"
+  }
+  qualification {
+    name "By Prod Cats"
+    result_type "Multiple"
+    parameter {
+      name "Cat1"
+    }
+    parameter {
+      name "Cat2"
+    }
+    parameter {
+      name "Cat3"
+    }
   }
 }
 model_mapping {
@@ -867,6 +868,10 @@ model_mapping {
     field_mapping "<%=field[\"Site\"]%>"
   }
   qualification_mapping {
+    qualification_name "All Enabled"
+    query "'Profile Status' = \"Enabled\""
+  }
+  qualification_mapping {
     qualification_name "Director and Above"
     query "'Profile Status' = \"Enabled\""
   }
@@ -894,12 +899,28 @@ model_mapping {
   structure "PCT:Product Catalog"
   status "Active"
   attribute_mapping {
+    attribute_name "Categorization 1"
+    field_mapping "<%=field[\"Product Categorization Tier 1\"]%>"
+  }
+  attribute_mapping {
+    attribute_name "Categorization 2"
+    field_mapping "<%=field[\"Product Categorization Tier 2\"]%>"
+  }
+  attribute_mapping {
+    attribute_name "Categorization 3"
+    field_mapping "<%=field[\"Product Categorization Tier 3\"]%>"
+  }
+  attribute_mapping {
     attribute_name "Product Name"
     field_mapping "<%=field[\"Product Name\"]%>"
   }
   qualification_mapping {
     qualification_name "All Products"
     query "'Product Name' LIKE \"%\""
+  }
+  qualification_mapping {
+    qualification_name "By Prod Cats"
+    query "('Product Categorization Tier 1' = \"<%=parameter[\"Cat1\"]%>\" OR \"<%=parameter[\"Cat1\"]%>\" = \"\") AND ('Product Categorization Tier 2' = \"<%=parameter[\"Cat2\"]%>\" OR \"<%=parameter[\"Cat2\"]%>\" = \"\") AND ('Product Categorization Tier 3' = \"<%=parameter[\"Cat3\"]%>\" OR \"<%=parameter[\"Cat3\"]%>\" = \"\")"
   }
 }
 model_mapping {
@@ -1105,11 +1126,11 @@ model_mapping {
 }
 bridge {
   name "ARS Bridge Localhost"
-  bridge_url "http://10.1.20.137:8092/kineticArsBridge/api/1.0/"
+  bridge_url "http://wvremmidt01g1.laheyhealth.org:8090/kineticArsBridge/api/1.0/"
   status "Active"
 }
 bridge {
   name "Remedy"
-  bridge_url "http://localhost/kineticArsBridge/api/1.0/"
+  bridge_url "http://wvremmidt01g1.laheyhealth.org:8090/kineticArsBridge/api/1.0/"
   status "Active"
 }

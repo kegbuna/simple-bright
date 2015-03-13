@@ -743,7 +743,7 @@ pre {
   font-weight: normal;
   font-style: normal; }
 
-.fa, .entry-box .offering-button .ticket-icon, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon, .request-item .request-item-body .controls .action .action-icon, .page-loading-indicator .loading-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .logout-button {
+.fa, .entry-box .offering-button .ticket-icon, .person-info .person-info-title .person-info-change, .person-info .person-info-title .person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon, .request-item .request-item-body .controls .action .action-icon, .selected-user .close-button, .page-loading-indicator .loading-icon, .search-list .indicator-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .logout-button {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -760,7 +760,7 @@ pre {
 .fa-2x {
   font-size: 2em; }
 
-.fa-3x, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon {
+.fa-3x, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon, .search-list .indicator-icon {
   font-size: 3em; }
 
 .fa-4x {
@@ -800,12 +800,12 @@ pre {
 .pull-left {
   float: left; }
 
-.fa.pull-left, .entry-box .offering-button .pull-left.ticket-icon, .person-info .person-info-title .pull-left.person-info-change, .person-info .person-info-title .pull-left.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-left.search-indicator-icon, .request-item .request-item-body .controls .action .pull-left.action-icon, .page-loading-indicator .pull-left.loading-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .pull-left.logout-button {
+.fa.pull-left, .entry-box .offering-button .pull-left.ticket-icon, .person-info .person-info-title .pull-left.person-info-change, .person-info .person-info-title .pull-left.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-left.search-indicator-icon, .request-item .request-item-body .controls .action .pull-left.action-icon, .selected-user .pull-left.close-button, .page-loading-indicator .pull-left.loading-icon, .search-list .pull-left.indicator-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .pull-left.logout-button {
   margin-right: .3em; }
-.fa.pull-right, .entry-box .offering-button .pull-right.ticket-icon, .person-info .person-info-title .pull-right.person-info-change, .person-info .person-info-title .pull-right.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-right.search-indicator-icon, .request-item .request-item-body .controls .action .pull-right.action-icon, .page-loading-indicator .pull-right.loading-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .pull-right.logout-button {
+.fa.pull-right, .entry-box .offering-button .pull-right.ticket-icon, .person-info .person-info-title .pull-right.person-info-change, .person-info .person-info-title .pull-right.person-info-close, .person-info .person-info-box .person-info-search .person-info-search-list .pull-right.search-indicator-icon, .request-item .request-item-body .controls .action .pull-right.action-icon, .selected-user .pull-right.close-button, .page-loading-indicator .pull-right.loading-icon, .search-list .pull-right.indicator-icon, .site-header .site-header-top .user-bar .mini-nav a.logout .pull-right.logout-button {
   margin-left: .3em; }
 
-.fa-spin, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon, .page-loading-indicator .loading-icon {
+.fa-spin, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon, .page-loading-indicator .loading-icon, .search-list .indicator-icon {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear; }
 
@@ -930,6 +930,7 @@ pre {
 
 .fa-remove:before,
 .fa-close:before,
+.selected-user .close-button:before,
 .fa-times:before {
   content: "\f00d"; }
 
@@ -2211,7 +2212,7 @@ pre {
 .fa-life-ring:before {
   content: "\f1cd"; }
 
-.fa-circle-o-notch:before, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon:before {
+.fa-circle-o-notch:before, .person-info .person-info-box .person-info-search .person-info-search-list .search-indicator-icon:before, .search-list .indicator-icon:before {
   content: "\f1ce"; }
 
 .fa-ra:before,
@@ -3911,6 +3912,19 @@ li > p {
     .request-item .request-item-body .controls > .action:first-child {
       margin-top: 0; }
 
+.search-input {
+  width: 250px; }
+
+.selected-user {
+  display: inline-block;
+  background: #228e9c;
+  color: #fff;
+  margin: 5px 5px 5px 0;
+  padding: 2px 5px; }
+  .selected-user .close-button {
+    color: #e7b1ab;
+    cursor: pointer; }
+
 /*
 Display Page section stuff
 */
@@ -4221,6 +4235,36 @@ ol.list-links.list-links--secondary a::before {
     .list-guides-intro li:last-child {
       border-bottom: transparent;
       margin-bottom: 0; }
+
+.search-list {
+  padding: 0;
+  text-align: center;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute; }
+  .search-list .indicator-icon {
+    margin: 20px 0;
+    color: #228e9c; }
+  .search-list .result {
+    text-align: left;
+    font-family: "Lato Regular", Helvetica, Arial;
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px #63c015 solid;
+    border-top: 0;
+    cursor: pointer; }
+    .search-list .result:hover {
+      background: #228e9c;
+      transition: all 300ms ease; }
+      .search-list .result:hover .name {
+        color: #fff; }
+    .search-list .result .name {
+      color: #000;
+      font-weight: 800;
+      font-size: 12px; }
+    .search-list .result .email {
+      font-weight: 300;
+      font-size: 12px; }
 
 /**
 *
@@ -5242,6 +5286,11 @@ div.questionLayer {
 
 .submitButton .templateButton {
   margin-left: 40px; }
+
+.warningTitle ul li {
+  padding: 10px;
+  font-size: 14px;
+  color: #b81c17; }
 
 /* Hiding/showing event stuff */
 .qHide {

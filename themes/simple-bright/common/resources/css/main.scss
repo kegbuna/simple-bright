@@ -475,6 +475,23 @@ div.questionLayer
   }
 }
 
+//required fields warning
+.warningTitle
+{
+  h3
+  {
+
+  }
+  ul
+  {
+    li
+    {
+      padding: 10px;
+      font-size: 14px;
+      color: $colorSecondary2-1;
+    }
+  }
+}
 /* Hiding/showing event stuff */
 
 .qHide
