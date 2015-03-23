@@ -44,8 +44,21 @@ $(document).ready(function()
 var keg = {};
 keg.form = {};
 
-//sets the customer's information, but you need to pass in a solid data object
 keg.form.setCustomerInfo = function(data)
+{
+    var $customerBox = $('#customerBox');
+    var $customerInfo = $customerBox.find('.person-info-box');
+    $customerInfo.html('');
+    $customerInfo.append('<span class="person-info-box-value">' + data['ReqFor_First Name'] + ' ' + data['ReqFor_Last Name'] + '</span>');
+    $customerInfo.append('<span class="person-info-box-value"><abbr title="Phone Number">P:</abbr> ' + data['ReqFor_Phone'] + '</span>');
+    $customerInfo.append('<span class="person-info-box-value"><a href="mailto:' + data['ReqFor_Email'] + '">' + data['ReqFor_Email'] + '</a></span>');
+    KD.utils.Action.setQuestionValue('ReqFor_Login ID', data['ReqFor_Login ID']);
+    KD.utils.Action.setQuestionValue('ReqFor_First Name', data['ReqFor_First Name']);
+    KD.utils.Action.setQuestionValue('ReqFor_Last Name', data['ReqFor_Last Name']);
+    KD.utils.Action.setQuestionValue('ReqFor_Email', data['ReqFor_Email']);
+};
+//sets the customer's information, but you need to pass in a requeter data object
+keg.form.setCustomerWithReqObject = function(data)
 {
     var $customerBox = $('#customerBox');
     var $customerInfo = $customerBox.find('.person-info-box');
@@ -397,6 +410,7 @@ keg.startTemplate = function ()
     //Customer/Contact boxes
     function initializeCustomerContact()
     {
+        var submitterData = {};
         var customerData = {};
         var $submitterBox = $('#submitterBox');
         var $customerBox = $('#customerBox');
@@ -404,16 +418,24 @@ keg.startTemplate = function ()
         var $customerInfo = $customerBox.find('.person-info-box');
         $('div.templateSection[label=Submitter] div.questionAnswer .answerValue').each(function ()
         {
+            submitterData[$(this).attr('label')] = $(this).val();
+        });
+        $('div.templateSection[label="Requested For Details Section"] div.questionAnswer .answerValue').each(function ()
+        {
             customerData[$(this).attr('label')] = $(this).val();
         });
 
         $submitterInfo.html('');
 
-        $submitterInfo.append('<span class="person-info-box-value">' + customerData['Req First Name'] + ' ' + customerData['Req Last Name'] + '</span>');
-        $submitterInfo.append('<span class="person-info-box-value"><abbr title="Phone Number">P:</abbr> ' + customerData['Req Phone Number'] + '</span>');
-        $submitterInfo.append('<span class="person-info-box-value"><a href="mailto:' + customerData['Req Email Address'] + '">' + customerData['Req Email Address'] + '</a></span>');
+        $submitterInfo.append('<span class="person-info-box-value">' + submitterData['Req First Name'] + ' ' + submitterData['Req Last Name'] + '</span>');
+        $submitterInfo.append('<span class="person-info-box-value"><abbr title="Phone Number">P:</abbr> ' + submitterData['Req Phone Number'] + '</span>');
+        $submitterInfo.append('<span class="person-info-box-value"><a href="mailto:' + submitterData['Req Email Address'] + '">' + submitterData['Req Email Address'] + '</a></span>');
 
         if (KD.utils.Action.getQuestionValue('ReqFor_Login ID') == "" || KD.utils.Action.getQuestionValue('ReqFor_Login ID') == KD.utils.Action.getQuestionValue('Req Login ID'))
+        {
+            keg.form.setCustomerWithReqObject(submitterData);
+        }
+        else
         {
             keg.form.setCustomerInfo(customerData);
         }
@@ -529,7 +551,7 @@ keg.startTemplate = function ()
                         newCustomer['Req Email Address'] = selectedRecord['Email Address'];
                         newCustomer['Req Phone Number'] = selectedRecord['Phone Number'];
 
-                        keg.form.setCustomerInfo(newCustomer);
+                        keg.form.setCustomerWithReqObject(newCustomer);
                         $this.toggleClass('person-info-change').toggleClass('person-info-close');
                         $container.find('.person-info-search').remove();
                         $container.find('.person-info-box-value').show();

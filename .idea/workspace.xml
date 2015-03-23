@@ -162,8 +162,7 @@
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\surveys\kineticImageLibrary\tempIcon.gif" afterPath="" />
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\work\7a64dd39491cda14pip-2c74770pip14ae9cda7c5pip-7e3e\KS20c1f90312948bfeea5da8a7e6a338989\1421891661470.svg" afterPath="" />
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\work\index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/footer.jspf" afterPath="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/footer.jspf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
     </list>
     <ignored path="catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -297,16 +296,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="column_site.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="column_site.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1255" max-vertical-offset="7072">
-              <caret line="270" column="70" selection-start-line="270" selection-start-column="13" selection-end-line="270" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.24805447" vertical-offset="595" max-vertical-offset="4794">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding>
-                <element signature="e#3687#6083#0" expanded="false" />
-                <element signature="e#11529#13342#0" expanded="false" />
-                <element signature="e#18555#20480#0" expanded="false" />
-                <element signature="e#20607#21906#0" expanded="false" />
+                <element signature="e#4488#14298#0" expanded="false" />
+                <element signature="e#4635#7031#0" expanded="false" />
+                <element signature="e#12477#14290#0" expanded="false" />
+                <element signature="e#19844#21778#0" expanded="false" />
+                <element signature="e#21905#23204#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -332,11 +332,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submissionsDataTable.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="submissionsDataTable.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23929961" vertical-offset="1352" max-vertical-offset="2788">
-              <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="2788">
+              <caret line="104" column="29" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
               <folding>
                 <marker date="1427121689140" expanded="true" signature="2599:2618" placeholder="..." />
               </folding>
@@ -416,10 +416,10 @@
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/footer.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
       </list>
     </option>
   </component>
@@ -1370,12 +1370,12 @@
       <workItem from="1424224726754" duration="597000" />
       <workItem from="1424661899778" duration="577000" />
       <workItem from="1425764608107" duration="36433000" />
-      <workItem from="1427120818441" duration="870000" />
+      <workItem from="1427120818441" duration="1680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247183000" />
+    <option name="totallyTimeSpent" value="247993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-128" width="1936" height="1176" extended-state="6" />
@@ -1778,19 +1778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1255" max-vertical-offset="7072">
-          <caret line="270" column="70" selection-start-line="270" selection-start-column="13" selection-end-line="270" selection-end-column="13" />
-          <folding>
-            <element signature="e#3687#6083#0" expanded="false" />
-            <element signature="e#11529#13342#0" expanded="false" />
-            <element signature="e#18555#20480#0" expanded="false" />
-            <element signature="e#20607#21906#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.423077" vertical-offset="1531" max-vertical-offset="2839">
@@ -1817,10 +1804,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/submissions/resources/js/submissionsDataTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23929961" vertical-offset="1352" max-vertical-offset="2788">
-          <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="2788">
+          <caret line="104" column="29" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
           <folding>
             <marker date="1427121689140" expanded="true" signature="2599:2618" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24805447" vertical-offset="595" max-vertical-offset="4794">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#4488#14298#0" expanded="false" />
+            <element signature="e#4635#7031#0" expanded="false" />
+            <element signature="e#12477#14290#0" expanded="false" />
+            <element signature="e#19844#21778#0" expanded="false" />
+            <element signature="e#21905#23204#0" expanded="false" />
           </folding>
         </state>
       </provider>
