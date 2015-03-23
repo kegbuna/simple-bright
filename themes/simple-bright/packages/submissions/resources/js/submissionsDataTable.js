@@ -60,7 +60,6 @@ SubmissionTable.start = function ()
 
             //switching to $.each for ie8 sake
             $(submissions.data).each(function (i, e)
-            //for (var recordIndex in submissions.data)
             {
                 var recordIndex = i;
                 var currentRecord = [];
@@ -80,48 +79,62 @@ SubmissionTable.start = function ()
                 records.push(currentRecord);
             });
 
+            console.log("records", records);
+
             var fieldReference = [];
             for (var tempIndex in submissions.data[0])
             {
                 fieldReference.push(tempIndex);
             }
+
+            //remove the loading indicator
             $('.page-loading-indicator').hide();
-            $subTable.dataTable(
+
+            if (records.length == 0)
             {
-                columns: columnNames,
-                data: records,
-                columnDefs: [
+                $('<h3 style="text-align: center;">No records found.</h3>').appendTo('.view-port>.container');
+            }
+            else
+            {
+                //create the table if we have records
+                $subTable.dataTable(
                 {
-                    targets: '_all',
-                    visible: false
-                }
-                ],
-                "createdRow": function ( row, data, index )
-                {
-                    $(row).addClass('request-item');
-                    var submitDate = new Date(data[fieldReference.indexOf('Submit Date')]);
-                    $(row).html('<td><div class="request-item-header"></div></td>');
+                    columns: columnNames,
+                    data: records,
+                    columnDefs: [
+                        {
+                            targets: '_all',
+                            visible: false
+                        }
+                    ],
+                    "createdRow": function ( row, data, index )
+                    {
+                        $(row).addClass('request-item');
+                        var submitDate = new Date(data[fieldReference.indexOf('Submit Date')]);
+                        $(row).html('<td><div class="request-item-header"></div></td>');
 
-                    var $header = $(row).find('.request-item-header');
+                        var $header = $(row).find('.request-item-header');
 
-                    $header.append('<div class="header-item"><div class="submit-date"><span class="item-label">Submit Date</span><span class="item-value">'+ submitDate.toDateString() +'</span></div></div>');
-                    $header.append('<div class="header-item"><div class="template-name"><span class="item-label">Template Name</span><span class="item-value">'+ data[fieldReference.indexOf('Template Name')] +'</span></div></div>');
+                        $header.append('<div class="header-item"><div class="submit-date"><span class="item-label">Submit Date</span><span class="item-value">'+ submitDate.toDateString() +'</span></div></div>');
+                        $header.append('<div class="header-item"><div class="template-name"><span class="item-label">Template Name</span><span class="item-value">'+ data[fieldReference.indexOf('Template Name')] +'</span></div></div>');
 
-                    var $body = $('<div class="request-item-body"></div>').appendTo($(row).find('td'));
+                        var $body = $('<div class="request-item-body"></div>').appendTo($(row).find('td'));
 
-                    var $info = $('<div class="item-content"></div>').appendTo($body);
-                    var $controls = $('<div class="controls"></div>').appendTo($body);
+                        var $info = $('<div class="item-content"></div>').appendTo($body);
+                        var $controls = $('<div class="controls"></div>').appendTo($body);
 
-                    $info.append('<div class="request-id"><span class="item-label">Request ID</span><span class="item-value">'+ data[fieldReference.indexOf('Originating Request Id')] +'</span></div>');
-                    $info.append('<div class="request-status"><span class="item-label">Status</span><span class="item-value">'+ data[fieldReference.indexOf('Display Status')] +'</span></div>');
-                    $info.append('<div class="requested-for"><span class="item-label">Customer</span><span class="item-value">'+ data[fieldReference.indexOf('Requested For')] +'</span></div>');
+                        $info.append('<div class="request-id"><span class="item-label">Request ID</span><span class="item-value">'+ data[fieldReference.indexOf('Originating Request Id')] +'</span></div>');
+                        $info.append('<div class="request-status"><span class="item-label">Status</span><span class="item-value">'+ data[fieldReference.indexOf('Display Status')] +'</span></div>');
+                        $info.append('<div class="requested-for"><span class="item-label">Customer</span><span class="item-value">'+ data[fieldReference.indexOf('Requested For')] +'</span></div>');
 
-                    $controls.append('<a href="' + BUNDLE.config.reviewUrl + data[fieldReference.indexOf('Id')] + '" class="action"><i class="action-icon"></i>Review Submission</a>');
-                    //$controls.append('<a class="action" href="mailto:' + desk_email + '?subject=RE: '+ data[fieldReference.indexOf('Originating Request Id')] +': User Update"><i class="action-icon"></i>Send an Update</a>');
-                    $controls.append('<a class="action" href="DisplayPage?name=Lahey-Update&id='+ data[fieldReference.indexOf('Originating Request Id')] +'"><i class="action-icon"></i>Send an Update</a>');
+                        $controls.append('<a href="' + BUNDLE.config.reviewUrl + data[fieldReference.indexOf('Id')] + '" class="action"><i class="action-icon"></i>Review Submission</a>');
+                        //$controls.append('<a class="action" href="mailto:' + desk_email + '?subject=RE: '+ data[fieldReference.indexOf('Originating Request Id')] +': User Update"><i class="action-icon"></i>Send an Update</a>');
+                        $controls.append('<a class="action" href="DisplayPage?name=Lahey-Update&id='+ data[fieldReference.indexOf('Originating Request Id')] +'"><i class="action-icon"></i>Send an Update</a>');
 
-                }
-            });
+                    }
+                });
+            }
+
         },
         error: function(error, status, thrown)
         {

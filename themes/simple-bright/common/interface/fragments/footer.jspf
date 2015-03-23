@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="pagefooter animated fadeInUp">
     <span style="display:none">&nbsp;</span>
-    <div class="container" style="text-align: center;">
+    <div class="" style="text-align: center;">
         <%  // TODO:: Decide on what to do with this, for now, leaving false show that it never shows. It would check for Store Users before.
             if (false)
             {%>
