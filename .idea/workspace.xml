@@ -163,14 +163,7 @@
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\work\7a64dd39491cda14pip-2c74770pip14ae9cda7c5pip-7e3e\KS20c1f90312948bfeea5da8a7e6a338989\1421891661470.svg" afterPath="" />
       <change type="DELETED" beforePath="D:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\catalog\work\index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kURL/EpicReporting.rb" afterPath="$PROJECT_DIR$/kURL/EpicReporting.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kURL/LaheyITServices/forms/EpicReporting.rb" afterPath="$PROJECT_DIR$/kURL/LaheyITServices/forms/EpicReporting.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kURL/LaheyITServices/forms/ReportMyIssue.rb" afterPath="$PROJECT_DIR$/kURL/LaheyITServices/forms/ReportMyIssue.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kURL/bridges.rb" afterPath="$PROJECT_DIR$/kURL/bridges.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" afterPath="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp" afterPath="$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catalog.iws" />
@@ -234,8 +227,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="DockManager">
     <window id="1">
@@ -245,7 +238,7 @@
             <file leaf-file-name="_list.scss" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.6718147" vertical-offset="5492" max-vertical-offset="6579">
+                  <state vertical-scroll-proportion="0.83253586" vertical-offset="5492" max-vertical-offset="6579">
                     <caret line="364" column="36" selection-start-line="364" selection-start-column="11" selection-end-line="364" selection-end-column="11" />
                     <folding />
                   </state>
@@ -266,7 +259,7 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.903846" vertical-offset="7711" max-vertical-offset="9197">
+            <state vertical-scroll-proportion="0.0" vertical-offset="7711" max-vertical-offset="9197">
               <caret line="490" column="19" selection-start-line="490" selection-start-column="19" selection-end-line="490" selection-end-column="19" />
               <folding>
                 <marker date="1426238650648" expanded="true" signature="9084:9107" placeholder="{...}" />
@@ -278,7 +271,7 @@
       <file leaf-file-name="_subsection-title.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_subsection-title.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="459">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -288,7 +281,7 @@
       <file leaf-file-name="_column-list.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_column-list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="816">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -298,7 +291,7 @@
       <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2550">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -308,7 +301,7 @@
       <file leaf-file-name="_container.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.961538" vertical-offset="5938" max-vertical-offset="7599">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5938" max-vertical-offset="7599">
               <caret line="363" column="13" selection-start-line="363" selection-start-column="13" selection-end-line="363" selection-end-column="13" />
               <folding />
             </state>
@@ -318,18 +311,18 @@
       <file leaf-file-name="_palette.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="51" max-vertical-offset="6596">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="6596">
               <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="column_site.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="column_site.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16828793" vertical-offset="2479" max-vertical-offset="7072">
-              <caret line="227" column="24" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1255" max-vertical-offset="7072">
+              <caret line="270" column="70" selection-start-line="270" selection-start-column="13" selection-end-line="270" selection-end-column="13" />
               <folding>
                 <element signature="e#3687#6083#0" expanded="false" />
                 <element signature="e#11529#13342#0" expanded="false" />
@@ -340,10 +333,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2704591" vertical-offset="1531" max-vertical-offset="2839">
+              <caret line="106" column="89" selection-start-line="106" selection-start-column="89" selection-end-line="106" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="head.jspf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.923077" vertical-offset="234" max-vertical-offset="1292">
+            <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1292">
               <caret line="58" column="100" selection-start-line="58" selection-start-column="100" selection-end-line="58" selection-end-column="100" />
               <folding />
             </state>
@@ -400,12 +403,12 @@
         <option value="$PROJECT_DIR$/login.jsp" />
         <option value="$PROJECT_DIR$/themes/simple-bright/packages/base/review.jsp" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/config/config.jspf" />
-        <option value="$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss" />
         <option value="$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js" />
+        <option value="$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp" />
       </list>
     </option>
   </component>
@@ -452,6 +455,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -866,8 +871,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1072,10 +1075,6 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -1095,6 +1094,10 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -1182,6 +1185,22 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1200,22 +1219,6 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
       <method />
     </configuration>
     <list size="0" />
@@ -1265,48 +1268,49 @@
       <workItem from="1422245839065" duration="5843000" />
       <workItem from="1424224726754" duration="597000" />
       <workItem from="1424661899778" duration="577000" />
-      <workItem from="1425764608107" duration="35835000" />
+      <workItem from="1425764608107" duration="36433000" />
+      <workItem from="1427120818441" duration="137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245715000" />
+    <option name="totallyTimeSpent" value="246450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-128" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3045923" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3045923" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24949084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19479166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32427368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24949084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32427368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802248" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1553,7 +1557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1547">
           <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1561,7 +1564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1332" max-vertical-offset="2567">
           <caret line="109" column="103" selection-start-line="109" selection-start-column="103" selection-end-line="109" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1569,7 +1571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2805">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="3570">
           <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1593,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="1615">
           <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,14 +1600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="816">
           <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462" vertical-offset="459" max-vertical-offset="2839">
-          <caret line="63" column="263" selection-start-line="63" selection-start-column="263" selection-end-line="63" selection-end-column="263" />
           <folding />
         </state>
       </provider>
@@ -1641,7 +1632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.84236455" vertical-offset="855" max-vertical-offset="1870">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1649,7 +1639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.10049261" vertical-offset="102" max-vertical-offset="1156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1657,13 +1646,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="29283" max-vertical-offset="30311">
           <caret line="1765" column="13" selection-start-line="1765" selection-start-column="13" selection-end-line="1765" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/interface/fragments/head.jspf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.923077" vertical-offset="234" max-vertical-offset="1292">
+        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1292">
           <caret line="58" column="100" selection-start-line="58" selection-start-column="100" selection-end-line="58" selection-end-column="100" />
           <folding />
         </state>
@@ -1671,7 +1659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.961538" vertical-offset="5938" max-vertical-offset="7599">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5938" max-vertical-offset="7599">
           <caret line="363" column="13" selection-start-line="363" selection-start-column="13" selection-end-line="363" selection-end-column="13" />
           <folding />
         </state>
@@ -1681,19 +1669,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33268481" vertical-offset="129963" max-vertical-offset="141219">
           <caret line="7679" column="4" selection-start-line="7679" selection-start-column="4" selection-end-line="7679" selection-end-column="4" />
-          <folding>
-            <marker date="1413995400076" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1413995400076" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1413995400076" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1413995400076" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1413995400076" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_components/_list.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6718147" vertical-offset="5492" max-vertical-offset="6579">
+        <state vertical-scroll-proportion="0.83253586" vertical-offset="5492" max-vertical-offset="6579">
           <caret line="364" column="36" selection-start-line="364" selection-start-column="11" selection-end-line="364" selection-end-column="11" />
           <folding />
         </state>
@@ -1701,7 +1682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/components/_palette.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="51" max-vertical-offset="6596">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="6596">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
@@ -1709,7 +1690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.903846" vertical-offset="7711" max-vertical-offset="9197">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7711" max-vertical-offset="9197">
           <caret line="490" column="19" selection-start-line="490" selection-start-column="19" selection-end-line="490" selection-end-column="19" />
           <folding>
             <marker date="1426238650648" expanded="true" signature="9084:9107" placeholder="{...}" />
@@ -1719,14 +1700,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/simple-bright/common/resources/js/column_site.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16828793" vertical-offset="2479" max-vertical-offset="7072">
-          <caret line="227" column="24" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1255" max-vertical-offset="7072">
+          <caret line="270" column="70" selection-start-line="270" selection-start-column="13" selection-end-line="270" selection-end-column="13" />
           <folding>
             <element signature="e#3687#6083#0" expanded="false" />
             <element signature="e#11529#13342#0" expanded="false" />
             <element signature="e#18555#20480#0" expanded="false" />
             <element signature="e#20607#21906#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/simple-bright/packages/catalog/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2704591" vertical-offset="1531" max-vertical-offset="2839">
+          <caret line="106" column="89" selection-start-line="106" selection-start-column="89" selection-end-line="106" selection-end-column="89" />
+          <folding />
         </state>
       </provider>
     </entry>

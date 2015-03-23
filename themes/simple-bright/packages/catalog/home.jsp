@@ -94,7 +94,7 @@
                     else
                     {%>
                         <div class="info-box-item">
-                            <h4>Nothing to show here</h4>
+                            Nothing to show here.
                         </div>
                     <% } %>
                     </div>
@@ -104,7 +104,7 @@
                         <i class="fa fa-clipboard"></i><a href="<%=bundle.getProperty("submissionsUrl")%>"><h3>Recently Submitted</h3></a>
                     </div>
                     <div class="info-box-content">
-                        <%  if (matchingTemplates != null)
+                        <%  if (matchingTemplates != null && matchingTemplates.length > 0)
                         {
                             for (int i=0; i<matchingTemplates.length; i++)
                             {%>
